@@ -126,6 +126,41 @@
                 "RowName": "Any_Fishing_Lure"
             },
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_FishingRod.ITEM_FishingRod"
+        },
+        {
+            "Name": "Sledgehammer",
+            "TagQuery": {
+                "RowName": "Any_Sledgehammer_Attachment"
+            },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_SledgehammerNodes.Icon_SledgehammerNodes"
+        },
+        {
+            "Name": "Shovel",
+            "TagQuery": {
+                "RowName": "Any_Shovel_Attachment"
+            },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_Shovel.Icon_Shovel"
+        },
+        {
+            "Name": "Shield",
+            "TagQuery": {
+                "RowName": "Any_Shield_Attachment"
+            },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_Armour.Icon_Armour"
+        },
+        {
+            "Name": "Plough",
+            "TagQuery": {
+                "RowName": "Any_Plough"
+            },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_Icon_Attachment_Plough.T_Icon_Attachment_Plough"
+        },
+        {
+            "Name": "Harvester",
+            "TagQuery": {
+                "RowName": "Any_Harvester_Attachment"
+            },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_Icon_Attachment_Blade.T_Icon_Attachment_Blade"
         }
     ]
 }

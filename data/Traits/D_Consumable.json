@@ -258,13 +258,13 @@
         {
             "Name": "Thermos_IceWater",
             "Stats": {
-                "(Value=\"BaseWaterRecovery_+\")": 300
+                "(Value=\"BaseWaterRecovery_+\")": 100
             },
             "Modifier": {
                 "Modifier": {
                     "RowName": "Thermos_IceWater"
                 },
-                "ModifierLifetime": 1800
+                "ModifierLifetime": 600
             },
             "DescriptionText": "Can be placed in a Suit Water Slot to Auto Consume.",
             "Byproducts": [
@@ -400,26 +400,14 @@
         {
             "Name": "Meta_Oxygen_Gel",
             "Stats": {
-                "(Value=\"BaseOxygenRecovery_+\")": 500
-            },
-			"Modifier": {
-                "Modifier": {
-                    "RowName": "Meta_Oxygen_Gel"
-                },
-                "ModifierLifetime": 3600
-			}
+                "(Value=\"BaseOxygenRecovery_+\")": 150
+            }
         },
         {
             "Name": "Meta_Stamina_Gel",
             "Stats": {
-                "(Value=\"BaseStaminaRecovery_+\")": 500
-            },
-			"Modifier": {
-                "Modifier": {
-                    "RowName": "Meta_Stamina_Gel"
-                },
-                "ModifierLifetime": 3600
-			}
+                "(Value=\"BaseStaminaRecovery_+\")": 50
+            }
         },
         {
             "Name": "Paste_Oxygen_Consumption",
@@ -580,6 +568,15 @@
             }
         },
         {
+            "Name": "Splint_Workshop",
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Splint_Worksop"
+                },
+                "ModifierLifetime": 300
+            }
+        },
+        {
             "Name": "Antibiotic_Paste",
             "Modifier": {
                 "Modifier": {
@@ -702,7 +699,7 @@
                 "Modifier": {
                     "RowName": "Meta_Ration"
                 },
-                "ModifierLifetime": 3600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -714,7 +711,7 @@
                 "Modifier": {
                     "RowName": "Meta_Soda"
                 },
-                "ModifierLifetime": 3600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -726,13 +723,26 @@
                 "Modifier": {
                     "RowName": "Meta_Ration"
                 },
-                "ModifierLifetime": 10800
+                "ModifierLifetime": 3600
             }
         },
         {
             "Name": "Raw_Food",
             "Stats": {
                 "(Value=\"BaseFoodRecovery_+\")": 20
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Raw_Food"
+                },
+                "ModifierLifetime": 60
+            }
+        },
+        {
+            "Name": "Tomato",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 20,
+                "(Value=\"BaseWaterRecovery_+\")": 10
             },
             "Modifier": {
                 "Modifier": {
@@ -817,7 +827,8 @@
         {
             "Name": "Corn_Soup",
             "Stats": {
-                "(Value=\"BaseFoodRecovery_+\")": 100
+                "(Value=\"BaseFoodRecovery_+\")": 100,
+                "(Value=\"BaseWaterRecovery_+\")": 25
             },
             "Modifier": {
                 "Modifier": {
@@ -829,7 +840,8 @@
         {
             "Name": "Mushroom_Soup",
             "Stats": {
-                "(Value=\"BaseFoodRecovery_+\")": 100
+                "(Value=\"BaseFoodRecovery_+\")": 100,
+                "(Value=\"BaseWaterRecovery_+\")": 25
             },
             "Modifier": {
                 "Modifier": {
@@ -865,7 +877,8 @@
         {
             "Name": "Meat_Stew",
             "Stats": {
-                "(Value=\"BaseFoodRecovery_+\")": 100
+                "(Value=\"BaseFoodRecovery_+\")": 100,
+                "(Value=\"BaseWaterRecovery_+\")": 25
             },
             "Modifier": {
                 "Modifier": {
@@ -1177,7 +1190,7 @@
                 "Modifier": {
                     "RowName": "Thermos_GreenTea_Modifier"
                 },
-                "ModifierLifetime": 1800
+                "ModifierLifetime": 900
             },
             "Byproducts": [
                 {
@@ -1195,7 +1208,7 @@
                 "Modifier": {
                     "RowName": "Thermos_WildTea_Modifier"
                 },
-                "ModifierLifetime": 1800
+                "ModifierLifetime": 900
             },
             "Byproducts": [
                 {
@@ -1213,7 +1226,7 @@
                 "Modifier": {
                     "RowName": "Thermos_Cocoa_Modifier"
                 },
-                "ModifierLifetime": 1800
+                "ModifierLifetime": 900
             },
             "Byproducts": [
                 {
@@ -1231,7 +1244,7 @@
                 "Modifier": {
                     "RowName": "Thermos_Coffee_Modifier"
                 },
-                "ModifierLifetime": 1800
+                "ModifierLifetime": 900
             },
             "Byproducts": [
                 {
@@ -1488,87 +1501,7 @@
             },
             "Byproducts": [
                 {
-                    "RowName": "Solar_Panel",
-                    "DataTableName": "D_ItemTemplate"
-                },
-                {
-                    "RowName": "Thermos_Coffee",
-                    "DataTableName": "D_ItemTemplate"
-                },
-                {
-                    "RowName": "Thermos_IceWater",
-                    "DataTableName": "D_ItemTemplate"
-                },
-				{
-                    "RowName": "Meta_Stamina_Gel",
-                    "DataTableName": "D_ItemTemplate"
-                },
-				{
-                    "RowName": "Meta_Super_Ration",
-                    "DataTableName": "D_ItemTemplate"
-                },
-				{
-                    "RowName": "Meta_Soda",
-                    "DataTableName": "D_ItemTemplate"
-                },
-				{
-                    "RowName": "Meta_Bandage_Shengong",
-                    "DataTableName": "D_ItemTemplate"
-                },
-				{
-                    "RowName": "Lantern",
-                    "DataTableName": "D_ItemTemplate"
-                },
-				{
-                    "RowName": "SplineTool_Electricity",
-                    "DataTableName": "D_ItemTemplate"
-                },
-				{
-                    "RowName": "SplineTool_Water",
-                    "DataTableName": "D_ItemTemplate"
-                },
-				{
-                    "RowName": "Kit_Water_Pump",
-                    "DataTableName": "D_ItemTemplate"
-                },
-				{
-                    "RowName": "Kit_Generator",
-                    "DataTableName": "D_ItemTemplate"
-                },
-				{
-                    "RowName": "Composter_Electric",
-                    "DataTableName": "D_ItemTemplate"
-                },
-                {
-                    "RowName": "Masonry_Bench_T4",
-                    "DataTableName": "D_ItemTemplate"
-                },
-								{
-                    "RowName": "Material_Processor",
-                    "DataTableName": "D_ItemTemplate"
-                },
-								{
-                    "RowName": "Electric_Furnace",
-                    "DataTableName": "D_ItemTemplate"
-                },
-                {
-                    "RowName": "Carpentry_Bench_T4",
-                    "DataTableName": "D_ItemTemplate"
-                },
-                {
                     "RowName": "Meta_Repair_Item_x5",
-                    "DataTableName": "D_ItemTemplate"
-                },
-                {
-                    "RowName": "Meta_Arrow_Larkwell_Standard_x25",
-                    "DataTableName": "D_ItemTemplate"
-                },
-                {
-                    "RowName": "Meta_Arrow_Larkwell_Tazer_x25",
-                    "DataTableName": "D_ItemTemplate"
-                },
-                {
-                    "RowName": "Meta_Bolt_Larkwell_Standard_x25",
                     "DataTableName": "D_ItemTemplate"
                 }
             ]
@@ -1732,7 +1665,8 @@
         {
             "Name": "Tomato_Soup",
             "Stats": {
-                "(Value=\"BaseFoodRecovery_+\")": 100
+                "(Value=\"BaseFoodRecovery_+\")": 100,
+                "(Value=\"BaseWaterRecovery_+\")": 25
             },
             "Modifier": {
                 "Modifier": {
@@ -1985,7 +1919,8 @@
         {
             "Name": "Rhubarb_Stew",
             "Stats": {
-                "(Value=\"BaseFoodRecovery_+\")": 100
+                "(Value=\"BaseFoodRecovery_+\")": 100,
+                "(Value=\"BaseWaterRecovery_+\")": 25
             },
             "Modifier": {
                 "Modifier": {
@@ -2096,7 +2031,8 @@
         {
             "Name": "Fish_Chunk_Stew",
             "Stats": {
-                "(Value=\"BaseFoodRecovery_+\")": 100
+                "(Value=\"BaseFoodRecovery_+\")": 100,
+                "(Value=\"BaseWaterRecovery_+\")": 25
             },
             "Modifier": {
                 "Modifier": {
@@ -2671,7 +2607,7 @@
                 "Modifier": {
                     "RowName": "Meta_Biolab_Inhaler_Sandworm"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1800
             }
         },
         {
@@ -2680,7 +2616,7 @@
                 "Modifier": {
                     "RowName": "Meta_Biolab_Inhaler_AlphaWolf"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1800
             }
         },
         {
@@ -2689,7 +2625,7 @@
                 "Modifier": {
                     "RowName": "Meta_Biolab_Inhaler_Scorpion"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1800
             }
         },
         {
@@ -2698,7 +2634,7 @@
                 "Modifier": {
                     "RowName": "Meta_Biolab_Inhaler_IceMammoth"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1800
             }
         },
         {
@@ -3287,6 +3223,575 @@
             "Byproducts": [
                 {
                     "RowName": "Ammo_Pistol_Round_Workshop_x25",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Food_Kiwi_Fruit",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 50,
+                "(Value=\"BaseWaterRecovery_+\")": 60
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Kiwi_Fruit"
+                },
+                "ModifierLifetime": 600
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Meta_Kiwi_Fruit_Seed",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Kiwi_Fruit_Seed_Pack",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Food_Dried_Kiwifruit",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 50
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Dried_Kiwifruit"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Food_Kiwifruit_Jam",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 75
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Kiwifruit_Jam"
+                },
+                "ModifierLifetime": 900
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume.",
+            "Byproducts": [
+                {
+                    "RowName": "Glass_Jar",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Food_Kiwifruit_Sorbet",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 100,
+                "(Value=\"BaseWaterRecovery_+\")": 100
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Kiwifruit_Sorbet"
+                },
+                "ModifierLifetime": 1800
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Food_Fruit_Snack_Pack",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 25,
+                "(Value=\"BaseWaterRecovery_+\")": 50
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Fruit_Snack_Pack"
+                },
+                "ModifierLifetime": 600
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Drink_Fruit_Smoothie",
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Fruit_Smoothie"
+                },
+                "ModifierLifetime": 900
+            }
+        },
+        {
+            "Name": "Ape_Tonic",
+            "Stats": {
+                "(Value=\"BaseHealthRecovery_+\")": 100,
+                "(Value=\"BaseStaminaRecovery_+\")": 100
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Ape_Tonic"
+                },
+                "ModifierLifetime": 120
+            }
+        },
+        {
+            "Name": "Food_Choc_Chip_Cookie",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 75
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Choc_Chip_Cookie"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Food_Coconut_Cookie",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 75
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Coconut_Cookie"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Food_Strawberry_Candy",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 10
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Strawberry_Candy"
+                },
+                "ModifierLifetime": 120
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Food_Watermelon_Lollypop",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 10
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Watermelon_Lollypop"
+                },
+                "ModifierLifetime": 300
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Food_Energy_Bar",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 100
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Energy_Bar"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Food_Caramel_Fruit_Tart",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 50
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Caramel_Fruit_Tart"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Food_Caramel_Pastry",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 50
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Salted_Caramel_Pastry"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Biolab_Inhaler_LavaHunter",
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Meta_Biolab_Inhaler_LavaHunter"
+                },
+                "ModifierLifetime": 1800
+            }
+        },
+        {
+            "Name": "Biolab_Inhaler_Hammerhead",
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Meta_Biolab_Inhaler_Hammerhead"
+                },
+                "ModifierLifetime": 1800
+            }
+        },
+        {
+            "Name": "Biolab_Inhaler_RockGolem",
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Meta_Biolab_Inhaler_RockGolem"
+                },
+                "ModifierLifetime": 1800
+            }
+        },
+        {
+            "Name": "Biolab_Inhaler_SwampApe",
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Meta_Biolab_Inhaler_SwampApe"
+                },
+                "ModifierLifetime": 1800
+            }
+        },
+        {
+            "Name": "Biolab_Inhaler_Scyther",
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Meta_Biolab_Inhaler_Scyther"
+                },
+                "ModifierLifetime": 1800
+            }
+        },
+        {
+            "Name": "Biolab_Inhaler_Thornet",
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Meta_Biolab_Inhaler_Thornet"
+                },
+                "ModifierLifetime": 1800
+            }
+        },
+        {
+            "Name": "Biolab_Inhaler_PlantBoss",
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Meta_Biolab_Inhaler_PlantBoss"
+                },
+                "ModifierLifetime": 1800
+            }
+        },
+        {
+            "Name": "Biolab_Inhaler_GiantCat",
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Meta_Biolab_Inhaler_GiantCat"
+                },
+                "ModifierLifetime": 1800
+            }
+        },
+        {
+            "Name": "Chocolate_Cake_Piece",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 200
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Chocolate_Cake_Piece"
+                },
+                "ModifierLifetime": 1200
+            }
+        },
+        {
+            "Name": "Coconut_Cake_Piece",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 200
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Coconut_Cake_Piece"
+                },
+                "ModifierLifetime": 1200
+            }
+        },
+        {
+            "Name": "Carrot_Cake_Piece",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 200
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Carrot_Cake_Piece"
+                },
+                "ModifierLifetime": 1200
+            }
+        },
+        {
+            "Name": "Meta_Resource_Pack_Dirt",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Dirt_Stack_50",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Resource_Pack_Scoria",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Scoria_Stack_100",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Resource_Pack_Obsidian",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Obsidian_Stack_100",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Resource_Pack_Clay",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Clay_Stack_100",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Cheese",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 100
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Cheese"
+                },
+                "ModifierLifetime": 1200
+            }
+        },
+        {
+            "Name": "Milk",
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Milk"
+                },
+                "ModifierLifetime": 300
+            }
+        },
+        {
+            "Name": "Cheese_Roll",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 120
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Cheese_Roll"
+                },
+                "ModifierLifetime": 1200
+            }
+        },
+        {
+            "Name": "Cheese_Pizza",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 150
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Cheese_Pizza"
+                },
+                "ModifierLifetime": 1500
+            }
+        },
+        {
+            "Name": "Pavlova",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 200
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Pavlova"
+                },
+                "ModifierLifetime": 1800
+            }
+        },
+        {
+            "Name": "Strawberries_And_Cream",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 50
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Strawberries_And_Cream"
+                },
+                "ModifierLifetime": 900
+            }
+        },
+        {
+            "Name": "Bacon_Sandwhich",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 150
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Bacon_Sandwich"
+                },
+                "ModifierLifetime": 1200
+            }
+        },
+        {
+            "Name": "Meta_Resource_Pack_Synthetic_Enzymes",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Synthetic_Enzyme_Stack",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Enzyme_Elixir",
+            "Stats": {
+                "(Value=\"BaseHealthRecovery_+\")": 50
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Enzyme_Elixir"
+                },
+                "ModifierLifetime": 600
+            }
+        },
+        {
+            "Name": "Food_Banana",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 10
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Banana"
+                },
+                "ModifierLifetime": 600
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Meta_Banana_Seed",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Banana_Pack",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Workshop_Shell_Bundle",
+            "Modifier": {
+                "ModifierLifetime": 1
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Ammo_Shell_Workshop_x25",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Workshop_Splint_Bundle",
+            "Modifier": {
+                "ModifierLifetime": 1
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Splint_Workshop_x5",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Workshop_Sniper_Ammo_Bundle",
+            "Modifier": {
+                "ModifierLifetime": 1
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Ammo_Sniper_Round_Workshop_x25",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Workshop_Sniper_Explosive_Ammo_Bundle",
+            "Modifier": {
+                "ModifierLifetime": 1
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Ammo_Sniper_Round_Explosive_Workshop_x25",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Workshop_Sniper_Incendiary_Ammo_Bundle",
+            "Modifier": {
+                "ModifierLifetime": 1
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Ammo_Sniper_Round_Incendiary_Workshop_x25",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Workshop_Rifle_Ammo_Bundle",
+            "Modifier": {
+                "ModifierLifetime": 1
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Ammo_Rifle_Round_Workshop_x25",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Workshop_AssaultRifle_Ammo_Bundle",
+            "Modifier": {
+                "ModifierLifetime": 1
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Ammo_AssaultRifle_Round_Workshop_x25",
                     "DataTableName": "D_ItemTemplate"
                 }
             ]

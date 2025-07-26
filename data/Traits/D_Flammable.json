@@ -181,11 +181,12 @@
             "AudioData": {
                 "Weighting": 0.5
             },
+            "CombustionFuelDensity": 0.30000001192092896,
             "bInfiniteCombustionFuel": true,
             "HeatCapacity": 1,
             "SurfaceAreaMultiplier": 10,
-            "HeatOfCombustion": 5,
-            "HeatReleaseRate": 100,
+            "HeatOfCombustion": 3,
+            "HeatReleaseRate": 40,
             "MaxCombustionTemperature": 500,
             "TemperatureFalloffStrength": 10000
         },
@@ -236,6 +237,25 @@
             "HeatOfCombustion": 5,
             "HeatReleaseRate": 0.5,
             "bAffectsTemperature": false
+        },
+        {
+            "Name": "Flammable_Candle",
+            "Behaviour": "/Game/BP/Systems/Disaster/BP_FlammableFISM_Sappling.BP_FlammableFISM_Sappling_C",
+            "AudioData": {
+                "Weighting": 0.15000000596046448,
+                "LocationType": "BoundsOrigin"
+            },
+            "CombustionFuelDensity": 0.10000000149011612,
+            "ThermalConductivity": 0.8500000238418579,
+            "HeatCapacity": 1,
+            "CombustingBoundsScale": {
+                "X": 1.25,
+                "Y": 1.25,
+                "Z": 1.25
+            },
+            "HeatOfCombustion": 3,
+            "HeatReleaseRate": 2,
+            "MaxCombustionTemperature": 600
         }
     ]
 }

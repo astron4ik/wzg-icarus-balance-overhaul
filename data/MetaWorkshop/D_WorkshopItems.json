@@ -120,7 +120,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 250
+                    "Amount": 200
                 }
             ],
             "ReplicationCost": [
@@ -144,7 +144,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 200
+                    "Amount": 250
                 }
             ],
             "ReplicationCost": [
@@ -168,7 +168,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 250
+                    "Amount": 200
                 }
             ],
             "ReplicationCost": [
@@ -297,7 +297,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 10
+                    "Amount": 25
                 }
             ]
         },
@@ -1181,6 +1181,13 @@
                         "DataTableName": "D_MetaCurrency"
                     },
                     "Amount": 1000
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 250
                 }
             ],
             "ReplicationCost": [
@@ -1190,6 +1197,13 @@
                         "DataTableName": "D_MetaCurrency"
                     },
                     "Amount": 750
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 250
                 }
             ]
         },
@@ -1228,7 +1242,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 20
+                    "Amount": 100
                 }
             ],
             "ReplicationCost": [
@@ -1237,7 +1251,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 1
+                    "Amount": 10
                 }
             ]
         },
@@ -1588,7 +1602,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 100
+                    "Amount": 200
                 }
             ],
             "ReplicationCost": [
@@ -1597,7 +1611,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 10
+                    "Amount": 50
                 }
             ]
         },
@@ -1612,7 +1626,14 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 200
+                    "Amount": 300
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
                 }
             ],
             "ReplicationCost": [
@@ -1621,7 +1642,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 20
+                    "Amount": 100
                 }
             ]
         },
@@ -1636,7 +1657,14 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 300
+                    "Amount": 500
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 150
                 }
             ],
             "ReplicationCost": [
@@ -1645,7 +1673,14 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 30
+                    "Amount": 150
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
                 }
             ]
         },
@@ -1660,7 +1695,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 100
+                    "Amount": 200
                 }
             ],
             "ReplicationCost": [
@@ -1669,7 +1704,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 10
+                    "Amount": 50
                 }
             ]
         },
@@ -1684,7 +1719,14 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 200
+                    "Amount": 300
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
                 }
             ],
             "ReplicationCost": [
@@ -1693,7 +1735,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 20
+                    "Amount": 100
                 }
             ]
         },
@@ -1708,7 +1750,14 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 300
+                    "Amount": 500
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 150
                 }
             ],
             "ReplicationCost": [
@@ -1717,7 +1766,14 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 30
+                    "Amount": 150
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
                 }
             ]
         },
@@ -1732,7 +1788,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 100
+                    "Amount": 200
                 }
             ],
             "ReplicationCost": [
@@ -1741,7 +1797,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 10
+                    "Amount": 50
                 }
             ]
         },
@@ -1756,7 +1812,14 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 200
+                    "Amount": 300
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
                 }
             ],
             "ReplicationCost": [
@@ -1765,7 +1828,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 20
+                    "Amount": 100
                 }
             ]
         },
@@ -1780,7 +1843,14 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 300
+                    "Amount": 500
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 150
                 }
             ],
             "ReplicationCost": [
@@ -1789,7 +1859,14 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 30
+                    "Amount": 150
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
                 }
             ]
         },
@@ -1797,30 +1874,6 @@
             "Name": "Meta_Blood_Thinning_Vaccine_Alpha",
             "Item": {
                 "RowName": "Meta_Blood_Thinning_Vaccine_Alpha"
-            },
-            "ResearchCost": [
-                {
-                    "Meta": {
-                        "RowName": "Credits",
-                        "DataTableName": "D_MetaCurrency"
-                    },
-                    "Amount": 100
-                }
-            ],
-            "ReplicationCost": [
-                {
-                    "Meta": {
-                        "RowName": "Credits",
-                        "DataTableName": "D_MetaCurrency"
-                    },
-                    "Amount": 10
-                }
-            ]
-        },
-        {
-            "Name": "Meta_Blood_Thinning_Vaccine_Beta",
-            "Item": {
-                "RowName": "Meta_Blood_Thinning_Vaccine_Beta"
             },
             "ResearchCost": [
                 {
@@ -1837,7 +1890,38 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 20
+                    "Amount": 50
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Blood_Thinning_Vaccine_Beta",
+            "Item": {
+                "RowName": "Meta_Blood_Thinning_Vaccine_Beta"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 300
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
                 }
             ]
         },
@@ -1852,7 +1936,14 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 300
+                    "Amount": 500
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 150
                 }
             ],
             "ReplicationCost": [
@@ -1861,7 +1952,14 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 30
+                    "Amount": 150
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
                 }
             ]
         },
@@ -2096,7 +2194,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 25
+                    "Amount": 50
                 }
             ],
             "ReplicationCost": [
@@ -2105,7 +2203,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 1
+                    "Amount": 150
                 }
             ]
         },
@@ -2632,7 +2730,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 500
+                    "Amount": 250
                 }
             ],
             "ReplicationCost": [
@@ -2689,7 +2787,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 50
+                    "Amount": 10
                 }
             ]
         },
@@ -2989,19 +3087,19 @@
             "ResearchCost": [
                 {
                     "Meta": {
-                        "RowName": "Exotic1",
+                        "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 1000
+                    "Amount": 300
                 }
             ],
             "ReplicationCost": [
                 {
                     "Meta": {
-                        "RowName": "Exotic1",
+                        "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 400
+                    "Amount": 100
                 }
             ]
         },
@@ -3027,10 +3125,7 @@
                     },
                     "Amount": 250
                 }
-            ],
-            "RequiredMission": {
-                "RowName": "Prospect_OLY_Riverlands_Extraction"
-            }
+            ]
         },
         {
             "Name": "Meta_Carbon_Armor_Head_Alpha",
@@ -3619,10 +3714,10 @@
             "ReplicationCost": [
                 {
                     "Meta": {
-                        "RowName": "Exotic1",
+                        "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 10
+                    "Amount": 50
                 }
             ]
         },
@@ -3648,10 +3743,7 @@
                     },
                     "Amount": 500
                 }
-            ],
-            "RequiredMission": {
-                "RowName": "Prospect_OLY_Arctic_Extraction"
-            }
+            ]
         },
         {
             "Name": "Meta_Radar",
@@ -3675,10 +3767,7 @@
                     },
                     "Amount": 400
                 }
-            ],
-            "RequiredMission": {
-                "RowName": "Prospect_OLY_Arctic_Extraction"
-            }
+            ]
         },
         {
             "Name": "Meta_Biofuel_Can",
@@ -3700,7 +3789,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 75
+                    "Amount": 50
                 }
             ]
         },
@@ -5098,10 +5187,7 @@
                     },
                     "Amount": 250
                 }
-            ],
-            "RequiredMission": {
-                "RowName": "Prospect_OLY_Riverlands_Extraction"
-            }
+            ]
         },
         {
             "Name": "Meta_CropPlot",
@@ -5394,7 +5480,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 5
+                    "Amount": 100
                 }
             ]
         },
@@ -5418,7 +5504,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 5
+                    "Amount": 100
                 }
             ]
         },
@@ -5442,7 +5528,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 5
+                    "Amount": 150
                 }
             ]
         },
@@ -5466,7 +5552,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 10
+                    "Amount": 150
                 }
             ]
         },
@@ -5490,7 +5576,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 10
+                    "Amount": 150
                 }
             ]
         },
@@ -5514,7 +5600,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 15
+                    "Amount": 250
                 }
             ]
         },
@@ -5538,7 +5624,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 15
+                    "Amount": 250
                 }
             ]
         },
@@ -5553,7 +5639,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 50
+                    "Amount": 75
                 }
             ],
             "ReplicationCost": [
@@ -5562,7 +5648,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 25
+                    "Amount": 350
                 }
             ]
         },
@@ -5586,7 +5672,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 25
+                    "Amount": 350
                 }
             ]
         },
@@ -5610,7 +5696,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 50
+                    "Amount": 350
                 }
             ]
         },
@@ -5625,7 +5711,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 100
+                    "Amount": 125
                 }
             ],
             "ReplicationCost": [
@@ -5634,7 +5720,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 50
+                    "Amount": 450
                 }
             ]
         },
@@ -5981,44 +6067,6 @@
             ]
         },
         {
-            "Name": "Meta_Icebox_Backpack",
-            "Item": {
-                "RowName": "Icebox_Backpack"
-            },
-            "ResearchCost": [
-                {
-                    "Meta": {
-                        "RowName": "Credits",
-                        "DataTableName": "D_MetaCurrency"
-                    },
-                    "Amount": 250
-                },
-                {
-                    "Meta": {
-                        "RowName": "Exotic1",
-                        "DataTableName": "D_MetaCurrency"
-                    },
-                    "Amount": 200
-                }
-            ],
-            "ReplicationCost": [
-                {
-                    "Meta": {
-                        "RowName": "Credits",
-                        "DataTableName": "D_MetaCurrency"
-                    },
-                    "Amount": 50
-                },
-                {
-                    "Meta": {
-                        "RowName": "Exotic1",
-                        "DataTableName": "D_MetaCurrency"
-                    },
-                    "Amount": 50
-                }
-            ]
-        },
-        {
             "Name": "Meta_Medic_Backpack",
             "Item": {
                 "RowName": "Medic_Backpack"
@@ -6074,7 +6122,7 @@
                         "RowName": "Exotic1",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 100
+                    "Amount": 500
                 }
             ],
             "ReplicationCost": [
@@ -6083,14 +6131,14 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 50
+                    "Amount": 100
                 },
                 {
                     "Meta": {
                         "RowName": "Exotic1",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 50
+                    "Amount": 250
                 }
             ]
         },
@@ -6102,19 +6150,33 @@
             "ResearchCost": [
                 {
                     "Meta": {
-                        "RowName": "Exotic_Red",
+                        "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 100
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 150
                 }
             ],
             "ReplicationCost": [
                 {
                     "Meta": {
-                        "RowName": "Exotic_Red",
+                        "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 50
+                    "Amount": 100
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 75
                 }
             ]
         },
@@ -6126,19 +6188,33 @@
             "ResearchCost": [
                 {
                     "Meta": {
-                        "RowName": "Exotic_Red",
+                        "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 100
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 150
                 }
             ],
             "ReplicationCost": [
                 {
                     "Meta": {
-                        "RowName": "Exotic_Red",
+                        "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 50
+                    "Amount": 100
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 75
                 }
             ]
         },
@@ -6150,19 +6226,33 @@
             "ResearchCost": [
                 {
                     "Meta": {
-                        "RowName": "Exotic_Red",
+                        "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 100
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 150
                 }
             ],
             "ReplicationCost": [
                 {
                     "Meta": {
-                        "RowName": "Exotic_Red",
+                        "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 50
+                    "Amount": 100
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 75
                 }
             ]
         },
@@ -6174,19 +6264,33 @@
             "ResearchCost": [
                 {
                     "Meta": {
-                        "RowName": "Exotic_Red",
+                        "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 100
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 150
                 }
             ],
             "ReplicationCost": [
                 {
                     "Meta": {
-                        "RowName": "Exotic_Red",
+                        "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 50
+                    "Amount": 100
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 75
                 }
             ]
         },
@@ -6198,19 +6302,33 @@
             "ResearchCost": [
                 {
                     "Meta": {
-                        "RowName": "Exotic_Red",
+                        "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 100
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 150
                 }
             ],
             "ReplicationCost": [
                 {
                     "Meta": {
-                        "RowName": "Exotic_Red",
+                        "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 50
+                    "Amount": 100
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 75
                 }
             ]
         },
@@ -6342,6 +6460,30 @@
             "ResearchCost": [
                 {
                     "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 1000
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 400
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Sickle_Inaris_01",
+            "Item": {
+                "RowName": "Meta_Sickle_Inaris_01"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
                         "RowName": "Exotic_Red",
                         "DataTableName": "D_MetaCurrency"
                     },
@@ -6362,30 +6504,6 @@
                         "DataTableName": "D_MetaCurrency"
                     },
                     "Amount": 200
-                }
-            ]
-        },
-        {
-            "Name": "Meta_Sickle_Inaris_01",
-            "Item": {
-                "RowName": "Meta_Sickle_Inaris_01"
-            },
-            "ResearchCost": [
-                {
-                    "Meta": {
-                        "RowName": "Exotic1",
-                        "DataTableName": "D_MetaCurrency"
-                    },
-                    "Amount": 1000
-                }
-            ],
-            "ReplicationCost": [
-                {
-                    "Meta": {
-                        "RowName": "Exotic1",
-                        "DataTableName": "D_MetaCurrency"
-                    },
-                    "Amount": 400
                 }
             ]
         },
@@ -6555,23 +6673,16 @@
             "ResearchCost": [
                 {
                     "Meta": {
-                        "RowName": "Credits",
-                        "DataTableName": "D_MetaCurrency"
-                    },
-                    "Amount": 250
-                },
-                {
-                    "Meta": {
                         "RowName": "Exotic1",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 100
+                    "Amount": 500
                 }
             ],
             "ReplicationCost": [
                 {
                     "Meta": {
-                        "RowName": "Credits",
+                        "RowName": "Exotic1",
                         "DataTableName": "D_MetaCurrency"
                     },
                     "Amount": 250
@@ -6623,6 +6734,44 @@
                         "DataTableName": "D_MetaCurrency"
                     },
                     "Amount": 20
+                }
+            ]
+        },
+        {
+            "Name": "Meta_CHAC_Shotgun",
+            "Item": {
+                "RowName": "Shotgun_CHAC"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 1000
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 500
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 750
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 250
                 }
             ]
         },
@@ -6697,6 +6846,44 @@
                     "RowName": "Laika"
                 }
             }
+        },
+        {
+            "Name": "Meta_CHAC_Pistol",
+            "Item": {
+                "RowName": "Pistol_CHAC"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 1000
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 500
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 500
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 250
+                }
+            ]
         },
         {
             "Name": "Meta_Dog_A1",
@@ -7218,6 +7405,1369 @@
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Pistol_Ammo",
+            "Item": {
+                "RowName": "Ammo_Pistol_Round_Workshop_Bundle"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 250
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Shotgun_Ammo",
+            "Item": {
+                "RowName": "Ammo_Shell_Workshop_Bundle"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 250
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Kiwi_Fruit",
+            "Item": {
+                "RowName": "Meta_Kiwi_Fruit_Seed"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 20
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Module_Food",
+            "Item": {
+                "RowName": "Meta_Module_Food"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 75
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Module_Oxygen",
+            "Item": {
+                "RowName": "Meta_Module_Oxygen"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 75
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Module_Water",
+            "Item": {
+                "RowName": "Meta_Module_Water"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 75
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Module_TamedDamage",
+            "Item": {
+                "RowName": "Meta_Module_TamedDamage"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 75
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Module_Melee",
+            "Item": {
+                "RowName": "Meta_Module_Melee"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 75
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Module_HeatResist",
+            "Item": {
+                "RowName": "Meta_Module_HeatResist"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 75
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Module_ColdResist",
+            "Item": {
+                "RowName": "Meta_Module_ColdResist"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 75
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Module_ExposureResist",
+            "Item": {
+                "RowName": "Meta_Module_ExposureResist"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 75
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Module_ItemWear",
+            "Item": {
+                "RowName": "Meta_Module_ItemWear"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 75
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Module_Night",
+            "Item": {
+                "RowName": "Meta_Module_Night"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 75
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Module_Highlight",
+            "Item": {
+                "RowName": "Meta_Module_Highlight"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 75
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Module_StaminaRegen",
+            "Item": {
+                "RowName": "Meta_Module_StaminaRegen"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 75
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Hydrazine_Cooker",
+            "Item": {
+                "RowName": "Workshop_Cooker"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Hydrazine_Heater",
+            "Item": {
+                "RowName": "Workshop_Heater"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Hydrazine_Canister",
+            "Item": {
+                "RowName": "Workshop_Hydrazine_Container"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 150
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Calf",
+            "Item": {
+                "RowName": "Workshop_Calf"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 500
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 250
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 250
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Resource_Pack_Dirt",
+            "Item": {
+                "RowName": "Meta_Resource_Pack_Dirt"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Resource_Pack_Scoria",
+            "Item": {
+                "RowName": "Meta_Resource_Pack_Scoria"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Exotic_Red",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 15
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic_Red",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Resource_Pack_Obsidian",
+            "Item": {
+                "RowName": "Meta_Resource_Pack_Obsidian"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Exotic_Red",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 30
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 350
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic_Red",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Resource_Pack_Clay",
+            "Item": {
+                "RowName": "Meta_Resource_Pack_Clay"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Exotic_Red",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 15
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic_Red",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Biolab_Inhaler_Sandworm",
+            "Item": {
+                "RowName": "Meta_Biolab_Inhaler_Sandworm"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Biolab_Inhaler_AlphaWolf",
+            "Item": {
+                "RowName": "Meta_Biolab_Inhaler_AlphaWolf"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Biolab_Inhaler_Scorpion",
+            "Item": {
+                "RowName": "Meta_Biolab_Inhaler_Scorpion"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Biolab_Inhaler_IceMammoth",
+            "Item": {
+                "RowName": "Meta_Biolab_Inhaler_IceMammoth"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic_Red",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Biolab_Inhaler_LavaHunter",
+            "Item": {
+                "RowName": "Meta_Biolab_Inhaler_LavaHunter"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic_Red",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Biolab_Inhaler_Hammerhead",
+            "Item": {
+                "RowName": "Meta_Biolab_Inhaler_Hammerhead"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic_Red",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Biolab_Inhaler_RockGolem",
+            "Item": {
+                "RowName": "Meta_Biolab_Inhaler_RockGolem"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Biolab_Inhaler_SwampApe",
+            "Item": {
+                "RowName": "Meta_Biolab_Inhaler_SwampApe"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Biolab_Inhaler_Scyther",
+            "Item": {
+                "RowName": "Meta_Biolab_Inhaler_Scyther"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Biolab_Inhaler_Thornet",
+            "Item": {
+                "RowName": "Meta_Biolab_Inhaler_Thornet"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Biolab_Inhaler_PlantBoss",
+            "Item": {
+                "RowName": "Meta_Biolab_Inhaler_PlantBoss"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Biolab_Inhaler_GiantCat",
+            "Item": {
+                "RowName": "Meta_Biolab_Inhaler_GiantCat"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                },
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Resource_Pack_Synthetic_Enzymes",
+            "Item": {
+                "RowName": "Meta_Resource_Pack_Synthetic_Enzymes"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 150
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Banana_Seed",
+            "Item": {
+                "RowName": "Meta_Banana_Seed"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 20
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Splint",
+            "Item": {
+                "RowName": "Splint_Workshop_Bundle"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Sniper_Ammo",
+            "Item": {
+                "RowName": "Ammo_Sniper_Round_Workshop_Bundle"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 10
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Sniper_Explosive_Ammo",
+            "Item": {
+                "RowName": "Ammo_Sniper_Round_Explosive_Workshop_Bundle"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 15
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Sniper_Incendiary_Ammo",
+            "Item": {
+                "RowName": "Ammo_Sniper_Round_Incendiary_Workshop_Bundle"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 15
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
                 }
             }
         }

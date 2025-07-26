@@ -1137,12 +1137,96 @@
                         "DataTableName": "D_WeatherEvents"
                     },
                     "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T0_Volcanic_VolcWinter",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T1_Volcanic_VolcWinter",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T3_Volcanic_VolcWinter",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T5_Volcanic_VolcWinter",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T1_Volcanic_ColdFront",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T3_Volcanic_ColdFront",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T5_Volcanic_ColdFront",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T2_Arctic_Whiteout",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T3_Arctic_Whiteout",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T4_Arctic_Whiteout",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T5_Arctic_Whiteout",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T6_Arctic_Whiteout",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
                 }
             ],
             "ContainedTiers": [
                 {
                     "Tier": 0,
-                    "NumEvents": 8,
+                    "NumEvents": 9,
                     "MinEventDurationMinutes": 6,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -1152,7 +1236,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -1163,7 +1249,7 @@
                 },
                 {
                     "Tier": 1,
-                    "NumEvents": 7,
+                    "NumEvents": 9,
                     "MinEventDurationMinutes": 6,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -1173,7 +1259,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -1184,7 +1272,7 @@
                 },
                 {
                     "Tier": 2,
-                    "NumEvents": 9,
+                    "NumEvents": 10,
                     "MinEventDurationMinutes": 6,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -1194,7 +1282,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -1205,7 +1295,7 @@
                 },
                 {
                     "Tier": 3,
-                    "NumEvents": 11,
+                    "NumEvents": 14,
                     "MinEventDurationMinutes": 6,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -1215,7 +1305,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -1226,7 +1318,7 @@
                 },
                 {
                     "Tier": 4,
-                    "NumEvents": 9,
+                    "NumEvents": 10,
                     "MinEventDurationMinutes": 5,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -1236,7 +1328,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -1247,7 +1341,7 @@
                 },
                 {
                     "Tier": 5,
-                    "NumEvents": 10,
+                    "NumEvents": 13,
                     "MinEventDurationMinutes": 7,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -1257,7 +1351,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -1268,7 +1364,7 @@
                 },
                 {
                     "Tier": 6,
-                    "NumEvents": 7,
+                    "NumEvents": 8,
                     "MinEventDurationMinutes": 7,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -1278,7 +1374,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -1718,12 +1816,96 @@
                         "DataTableName": "D_WeatherEvents"
                     },
                     "Weight": 0.5
+                },
+                {
+                    "Event": {
+                        "RowName": "T0_Volcanic_VolcWinter",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 2
+                },
+                {
+                    "Event": {
+                        "RowName": "T1_Volcanic_VolcWinter",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T3_Volcanic_VolcWinter",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T5_Volcanic_VolcWinter",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 0.5
+                },
+                {
+                    "Event": {
+                        "RowName": "T1_Volcanic_ColdFront",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T3_Volcanic_ColdFront",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T5_Volcanic_ColdFront",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 0.5
+                },
+                {
+                    "Event": {
+                        "RowName": "T2_Arctic_Whiteout",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T3_Arctic_Whiteout",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T4_Arctic_Whiteout",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T5_Arctic_Whiteout",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 0.5
+                },
+                {
+                    "Event": {
+                        "RowName": "T6_Arctic_Whiteout",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 0.5
                 }
             ],
             "ContainedTiers": [
                 {
                     "Tier": 0,
-                    "NumEvents": 8,
+                    "NumEvents": 9,
                     "MinEventDurationMinutes": 6,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -1733,7 +1915,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -1744,7 +1928,7 @@
                 },
                 {
                     "Tier": 1,
-                    "NumEvents": 7,
+                    "NumEvents": 9,
                     "MinEventDurationMinutes": 6,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -1754,7 +1938,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -1765,7 +1951,7 @@
                 },
                 {
                     "Tier": 2,
-                    "NumEvents": 9,
+                    "NumEvents": 10,
                     "MinEventDurationMinutes": 6,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -1775,7 +1961,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -1786,7 +1974,7 @@
                 },
                 {
                     "Tier": 3,
-                    "NumEvents": 11,
+                    "NumEvents": 14,
                     "MinEventDurationMinutes": 6,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -1796,7 +1984,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -1807,7 +1997,7 @@
                 },
                 {
                     "Tier": 4,
-                    "NumEvents": 9,
+                    "NumEvents": 10,
                     "MinEventDurationMinutes": 5,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -1817,7 +2007,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -1828,7 +2020,7 @@
                 },
                 {
                     "Tier": 5,
-                    "NumEvents": 10,
+                    "NumEvents": 13,
                     "MinEventDurationMinutes": 7,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -1838,7 +2030,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -1849,7 +2043,7 @@
                 },
                 {
                     "Tier": 6,
-                    "NumEvents": 7,
+                    "NumEvents": 8,
                     "MinEventDurationMinutes": 7,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -1859,7 +2053,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -2299,12 +2495,96 @@
                         "DataTableName": "D_WeatherEvents"
                     },
                     "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T0_Volcanic_VolcWinter",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T1_Volcanic_VolcWinter",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T3_Volcanic_VolcWinter",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T5_Volcanic_VolcWinter",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T1_Volcanic_ColdFront",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T3_Volcanic_ColdFront",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T5_Volcanic_ColdFront",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                },
+                {
+                    "Event": {
+                        "RowName": "T2_Arctic_Whiteout",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 2
+                },
+                {
+                    "Event": {
+                        "RowName": "T3_Arctic_Whiteout",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 3
+                },
+                {
+                    "Event": {
+                        "RowName": "T4_Arctic_Whiteout",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 4
+                },
+                {
+                    "Event": {
+                        "RowName": "T5_Arctic_Whiteout",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 5
+                },
+                {
+                    "Event": {
+                        "RowName": "T6_Arctic_Whiteout",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 6
                 }
             ],
             "ContainedTiers": [
                 {
                     "Tier": 0,
-                    "NumEvents": 8,
+                    "NumEvents": 9,
                     "MinEventDurationMinutes": 6,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -2314,7 +2594,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -2325,7 +2607,7 @@
                 },
                 {
                     "Tier": 1,
-                    "NumEvents": 7,
+                    "NumEvents": 9,
                     "MinEventDurationMinutes": 6,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -2335,7 +2617,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -2346,7 +2630,7 @@
                 },
                 {
                     "Tier": 2,
-                    "NumEvents": 9,
+                    "NumEvents": 10,
                     "MinEventDurationMinutes": 6,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -2356,7 +2640,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -2367,7 +2653,7 @@
                 },
                 {
                     "Tier": 3,
-                    "NumEvents": 11,
+                    "NumEvents": 14,
                     "MinEventDurationMinutes": 6,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -2377,7 +2663,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -2388,7 +2676,7 @@
                 },
                 {
                     "Tier": 4,
-                    "NumEvents": 9,
+                    "NumEvents": 10,
                     "MinEventDurationMinutes": 5,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -2398,7 +2686,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -2409,7 +2699,7 @@
                 },
                 {
                     "Tier": 5,
-                    "NumEvents": 10,
+                    "NumEvents": 13,
                     "MinEventDurationMinutes": 7,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -2419,7 +2709,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -2430,7 +2722,7 @@
                 },
                 {
                     "Tier": 6,
-                    "NumEvents": 7,
+                    "NumEvents": 8,
                     "MinEventDurationMinutes": 7,
                     "BiomesGroupsIncluded": [
                         "Olympus_Arctic",
@@ -2440,7 +2732,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -2830,7 +3124,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -2848,7 +3144,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -2866,7 +3164,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -2884,7 +3184,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -2902,7 +3204,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -2920,7 +3224,9 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
@@ -2938,12 +3244,56 @@
                         "Olympus_Riverlands",
                         "Olympus_SouthernGlacier",
                         "Pro_Arctic",
+                        "Pro_Ashlands",
                         "Pro_Conifer",
+                        "Pro_IceSheet",
                         "Pro_Swamp",
                         "Pro_Tundra",
                         "Pro_Volcanic",
                         "Styx_Arctic",
                         "Styx_Forest"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Dev_TestWeather",
+            "WeatherEvents": [
+                {
+                    "Event": {
+                        "RowName": "Dev_EmptyEvent",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                }
+            ],
+            "ContainedTiers": [
+                {
+                    "Tier": 0,
+                    "NumEvents": 1,
+                    "MinEventDurationMinutes": 6,
+                    "BiomesGroupsIncluded": []
+                }
+            ]
+        },
+        {
+            "Name": "Ice_Arena_Blizzard",
+            "WeatherEvents": [
+                {
+                    "Event": {
+                        "RowName": "Arctic_Blizzard_Ice_Mammoth",
+                        "DataTableName": "D_WeatherEvents"
+                    },
+                    "Weight": 1
+                }
+            ],
+            "ContainedTiers": [
+                {
+                    "Tier": 6,
+                    "NumEvents": 1,
+                    "MinEventDurationMinutes": 167,
+                    "BiomesGroupsIncluded": [
+                        "Arena_IceMammoth"
                     ]
                 }
             ]

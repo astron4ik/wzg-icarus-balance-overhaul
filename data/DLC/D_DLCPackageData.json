@@ -90,6 +90,13 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Money_Symbol_Double.T_ICON_Money_Symbol_Double"
         },
         {
+            "Name": "Outpost_009_Arctic_Volcanic",
+            "PackageID": 3364360,
+            "DLCName": "NSLOCTEXT(\"D_DLCPackageData\", \"Outpost_009_Arctic_Volcanic-DLCName\", \"Frostfall Outpost Pack\")",
+            "WebsiteAddress": "https://store.steampowered.com/app/3364360 ",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Money_Symbol_Double.T_ICON_Money_Symbol_Double"
+        },
+        {
             "Name": "Bone_Armor_Head",
             "PackageID": 2544770,
             "DLCName": "NSLOCTEXT(\"D_DLCPackageData\", \"Bone_Armor_Head-DLCName\", \"Bone Armor Head Twitch Drop\")",
@@ -134,6 +141,13 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Money_Symbol_Double.T_ICON_Money_Symbol_Double"
         },
         {
+            "Name": "Stationeers",
+            "PackageID": 544550,
+            "DLCName": "NSLOCTEXT(\"D_DLCPackageData\", \"Stationeers-DLCName\", \"Stationeers\")",
+            "WebsiteAddress": "https://store.steampowered.com/app/544550/Stationeers/",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Money_Symbol_Double.T_ICON_Money_Symbol_Double"
+        },
+        {
             "Name": "Creature_Comforts",
             "PackageID": 2790990,
             "DLCName": "NSLOCTEXT(\"D_DLCPackageData\", \"Creature_Comforts-DLCName\", \"Creature Comforts Pack\")",
@@ -166,6 +180,25 @@
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
+                }
+            }
+        },
+        {
+            "Name": "Matariki_Mission",
+            "PackageID": 1995690,
+            "DLCName": "NSLOCTEXT(\"D_DLCPackageData\", \"Matariki_Mission-DLCName\", \" Matariki Mission\")",
+            "WebsiteAddress": "https://store.steampowered.com/app/1995690/Icarus_Styx_Map__Missions_Pack/",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Money_Symbol_Double.T_ICON_Money_Symbol_Double"
+        },
+        {
+            "Name": "Great_Hunts",
+            "PackageID": 3315290,
+            "DLCName": "NSLOCTEXT(\"D_DLCPackageData\", \"Great_Hunts-DLCName\", \"Great Hunts\")",
+            "WebsiteAddress": "https://store.steampowered.com/app/3315290",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/FeatureLevel/T_FeatureLevel_GH.T_FeatureLevel_GH",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
                 }
             }
         }

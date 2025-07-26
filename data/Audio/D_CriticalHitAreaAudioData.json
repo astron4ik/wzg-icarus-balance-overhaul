@@ -13,6 +13,11 @@
             "Name": "LowDamageHit",
             "PlayerFeedbackSound": "/Game/FMOD/Events/UI/Generic/UI_HITINDICATOR_LOWDAMAGE.UI_HITINDICATOR_LOWDAMAGE",
             "bShouldCritZoneSuppressHitAudio": true
+        },
+        {
+            "Name": "NoDamageRicochet",
+            "PlayerFeedbackSound": "/Game/FMOD/Events/UI/Generic/UI_HITINDICATOR_RICCOCHET.UI_HITINDICATOR_RICCOCHET",
+            "bShouldCritZoneSuppressHitAudio": true
         }
     ]
 }

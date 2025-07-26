@@ -74,6 +74,20 @@
             "ModelData": {
                 "RowName": "Creature"
             }
+        },
+        {
+            "Name": "Great_Hunt",
+            "ViewData": {
+                "RowName": "Great_Hunt"
+            },
+            "ModelData": {
+                "RowName": "Great_Hunt"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
         }
     ]
 }

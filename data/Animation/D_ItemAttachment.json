@@ -119,6 +119,56 @@
             "FPAttachmentSocketName": "bn_Prop_R_Aligned",
             "BackAttachmentSocketName": "VB BackpackBone",
             "EquippableHandedness": "Both"
+        },
+        {
+            "Name": "StasisBag",
+            "TPAttachmentSocketName": "R_prop_00",
+            "FPAttachmentSocketName": "VB bn_Arm_r_wrist_1_bn_Prop_R_1",
+            "BackAttachmentSocketName": "VB BackpackBone"
+        },
+        {
+            "Name": "GolemGauntlet",
+            "TPAttachmentSocketName": "root",
+            "FPAttachmentSocketName": "bn_Prop_R_1",
+            "BackAttachmentSocketName": "VB BackpackBone"
+        },
+        {
+            "Name": "RightCanteen",
+            "TPAttachmentSocketName": "R_prop_cant",
+            "FPAttachmentSocketName": "bn_canteen_r1",
+            "BackAttachmentSocketName": "VB BackpackBone"
+        },
+        {
+            "Name": "BandageRight",
+            "TPAttachmentSocketName": "R_prop_00",
+            "FPAttachmentSocketName": "bn_canteen_r1",
+            "BackAttachmentSocketName": "VB BackpackBone"
+        },
+        {
+            "Name": "RightWaterskin",
+            "TPAttachmentSocketName": "R_prop_cant",
+            "FPAttachmentSocketName": "bn_waterskin_r1",
+            "BackAttachmentSocketName": "VB BackpackBone"
+        },
+        {
+            "Name": "GeneralBoth_Crossbow",
+            "TPAttachmentSocketName": "prop_large_crossbow",
+            "FPAttachmentSocketName": "prop_large_crossbow",
+            "BackAttachmentSocketName": "VB BackpackBone",
+            "EquippableHandedness": "Both"
+        },
+        {
+            "Name": "GeneralBoth_Offset01",
+            "TPAttachmentSocketName": "R_prop_00",
+            "FPAttachmentSocketName": "spear_offset_rotate",
+            "BackAttachmentSocketName": "VB BackpackBone",
+            "EquippableHandedness": "Both"
+        },
+        {
+            "Name": "Tonic",
+            "TPAttachmentSocketName": "Tonic_3p",
+            "FPAttachmentSocketName": "bn_Prop_R_1",
+            "BackAttachmentSocketName": "VB BackpackBone"
         }
     ]
 }

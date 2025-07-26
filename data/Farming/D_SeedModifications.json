@@ -104,6 +104,19 @@
             "Modifier": {
                 "RowName": "Seed_SpoilPrevention"
             }
+        },
+        {
+            "Name": "Seed_Yield",
+            "Query": {
+                "RowName": "Any_Seed"
+            },
+            "StatRequirement": {
+                "Value": "PlantedSeedProducesMoreSeedsAlt_+"
+            },
+            "Modifier": {
+                "RowName": "Seed_More_Seeds"
+            },
+            "EffectivenessIncrease": 100
         }
     ]
 }

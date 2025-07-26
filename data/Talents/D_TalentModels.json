@@ -32,6 +32,15 @@
         {
             "Name": "Creature",
             "ModelClass": "/Script/Icarus.CreatureTalentModel"
+        },
+        {
+            "Name": "Great_Hunt",
+            "ModelClass": "/Script/Icarus.GreatHuntTalentModel",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
         }
     ]
 }

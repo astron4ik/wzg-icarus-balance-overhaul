@@ -52,7 +52,7 @@
         {
             "Name": "Collect",
             "DisplayName": "NSLOCTEXT(\"D_DynamicQuests\", \"Collect-DisplayName\", \"SMPL3: Collection\")",
-            "Description": "NSLOCTEXT(\"D_DynamicQuests\", \"Collect-Description\", \"Find the bodies of a prospector team killed while on Icarus, and deliver their ID\\'s to the UDA.\")",
+            "Description": "NSLOCTEXT(\"D_DynamicQuests\", \"Collect-Description\", \"Find the bodies of a prospector team killed while on Icarus, and deliver their IDs to the UDA.\")",
             "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_PolarbearDeath01_Large.T_Prospect_Arctic_PolarbearDeath01_Large",
             "Quest": {
                 "RowName": "DYN_Collect"

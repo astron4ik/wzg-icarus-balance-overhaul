@@ -16,6 +16,8 @@
             "Assigned",
             "None"
         ],
+        "SupportedGrazingStates": [],
+        "SupportedHusbandryStates": [],
         "Animations": {},
         "InventoryPreviewCameraSettings": {
             "RowName": "Mount",
@@ -46,7 +48,7 @@
             "DataTableName": "D_TalentArchetypes"
         },
         "GrowthCurve": {
-            "RowName": "AI",
+            "RowName": "AI_Mounts",
             "DataTableName": "D_CharacterGrowth"
         },
         "bUseTemperature": false,
@@ -109,7 +111,8 @@
             },
             "MountTalentArchetype": {
                 "RowName": "Creature_Buffalo"
-            }
+            },
+            "bUseTemperature": true
         },
         {
             "Name": "Moa",
@@ -167,6 +170,11 @@
             },
             "MountTalentArchetype": {
                 "RowName": "Creature_Moa"
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "X": 12,
+                "Y": 52
             }
         },
         {
@@ -221,6 +229,10 @@
                 "X": 5.577991962432861,
                 "Y": -33.10087585449219,
                 "Z": 66
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "Y": 35
             }
         },
         {
@@ -278,6 +290,10 @@
             },
             "MountTalentArchetype": {
                 "RowName": "Creature_Swamp_Quadruped"
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "Y": 35
             }
         },
         {
@@ -332,6 +348,11 @@
                 "X": 5.577991962432861,
                 "Y": -33.10087585449219,
                 "Z": 66
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "X": -17,
+                "Y": 26
             }
         },
         {
@@ -354,7 +375,7 @@
                 "IdleLying"
             ],
             "Animations": {
-                "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ASS/CRE/Zebra/Anim/Wooly_zebra_Idle_Montage.Wooly_zebra_Idle_Montage",
+                "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ASS/CRE/Zebra/Anim/Wooly_Zebra_Idle_Montage_mounts.Wooly_Zebra_Idle_Montage_mounts",
                 "(TagName=\"BT.Mount.Animation.Rest\")": "/Game/ASS/CRE/Zebra/Anim/Montages/zebra_Sleep_Montage.zebra_Sleep_Montage",
                 "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ASS/CRE/Zebra/Anim/Montages/zebra_Eat_Montage.zebra_Eat_Montage",
                 "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Zebra/Anim/Montages/Zebra_Jump_Montage.Zebra_Jump_Montage",
@@ -385,6 +406,11 @@
             },
             "MountTalentArchetype": {
                 "RowName": "Creature_WoolyZebra"
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "X": -17,
+                "Y": 26
             }
         },
         {
@@ -438,6 +464,10 @@
             },
             "MountTalentArchetype": {
                 "RowName": "Creature_Blueback"
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "Y": 35
             }
         },
         {
@@ -499,6 +529,11 @@
             },
             "MountTalentArchetype": {
                 "RowName": "Creature_Terrenus"
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "X": -8,
+                "Y": 35
             }
         },
         {
@@ -554,6 +589,11 @@
             },
             "MountTalentArchetype": {
                 "RowName": "Creature_Tusker"
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "X": -17,
+                "Y": 26
             }
         },
         {
@@ -603,6 +643,10 @@
             },
             "GrowthCurve": {
                 "RowName": "AI_Pets"
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "Y": 35
             }
         },
         {
@@ -652,6 +696,11 @@
             },
             "GrowthCurve": {
                 "RowName": "AI_Pets"
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "X": -17,
+                "Y": 26
             }
         },
         {
@@ -700,6 +749,11 @@
             },
             "GrowthCurve": {
                 "RowName": "AI_Pets"
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "X": 12,
+                "Y": 52
             }
         },
         {
@@ -760,15 +814,17 @@
             },
             "MountTalentArchetype": {
                 "RowName": "Creature_Zebra"
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "X": 12,
+                "Y": 52
             }
         },
         {
             "Name": "Mini_Hippo",
             "AISetup": {
                 "RowName": "Mini_Hippo_Quest"
-            },
-            "RelevantSaddleQuery": {
-                "RowName": "Any_Saddle"
             },
             "SupportedCombatStates": [
                 "DoNotEngage",
@@ -940,6 +996,10 @@
             },
             "GrowthCurve": {
                 "RowName": "AI_Pets"
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "Y": 40
             }
         },
         {
@@ -967,15 +1027,15 @@
             },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"Dog-DefaultNames-0\", \"Lassie\")",
-                "NSLOCTEXT(\"D_Mounts\", \"Dog-DefaultNames-1\", \"Beethoven \")",
-                "NSLOCTEXT(\"D_Mounts\", \"Dog-DefaultNames-2\", \"Toto \")",
+                "NSLOCTEXT(\"D_Mounts\", \"Dog-DefaultNames-1\", \"Beethoven\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Dog-DefaultNames-2\", \"Toto\")",
                 "NSLOCTEXT(\"D_Mounts\", \"Dog-DefaultNames-3\", \"Scooby\")",
-                "NSLOCTEXT(\"D_Mounts\", \"Dog-DefaultNames-4\", \"Astro \")",
-                "NSLOCTEXT(\"D_Mounts\", \"Dog-DefaultNames-5\", \"Frank \")",
-                "NSLOCTEXT(\"D_Mounts\", \"Dog-DefaultNames-6\", \"Copper \")",
+                "NSLOCTEXT(\"D_Mounts\", \"Dog-DefaultNames-4\", \"Astro\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Dog-DefaultNames-5\", \"Frank\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Dog-DefaultNames-6\", \"Copper\")",
                 "NSLOCTEXT(\"D_Mounts\", \"Dog-DefaultNames-7\", \"Laika\")",
-                "NSLOCTEXT(\"D_Mounts\", \"Dog-DefaultNames-8\", \"Marley \")",
-                "NSLOCTEXT(\"D_Mounts\", \"Dog-DefaultNames-9\", \"Buddy \")",
+                "NSLOCTEXT(\"D_Mounts\", \"Dog-DefaultNames-8\", \"Marley\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Dog-DefaultNames-9\", \"Buddy\")",
                 "NSLOCTEXT(\"D_Mounts\", \"Dog-DefaultNames-10\", \"Baxter\")"
             ],
             "MapIcon": {
@@ -991,6 +1051,10 @@
             },
             "GrowthCurve": {
                 "RowName": "AI_Pets"
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "Y": 35
             }
         },
         {
@@ -1016,15 +1080,15 @@
             },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"DogSmall-DefaultNames-0\", \"Lassie\")",
-                "NSLOCTEXT(\"D_Mounts\", \"DogSmall-DefaultNames-1\", \"Beethoven \")",
-                "NSLOCTEXT(\"D_Mounts\", \"DogSmall-DefaultNames-2\", \"Toto \")",
+                "NSLOCTEXT(\"D_Mounts\", \"DogSmall-DefaultNames-1\", \"Beethoven\")",
+                "NSLOCTEXT(\"D_Mounts\", \"DogSmall-DefaultNames-2\", \"Toto\")",
                 "NSLOCTEXT(\"D_Mounts\", \"DogSmall-DefaultNames-3\", \"Scooby\")",
-                "NSLOCTEXT(\"D_Mounts\", \"DogSmall-DefaultNames-4\", \"Astro \")",
-                "NSLOCTEXT(\"D_Mounts\", \"DogSmall-DefaultNames-5\", \"Frank \")",
-                "NSLOCTEXT(\"D_Mounts\", \"DogSmall-DefaultNames-6\", \"Copper \")",
+                "NSLOCTEXT(\"D_Mounts\", \"DogSmall-DefaultNames-4\", \"Astro\")",
+                "NSLOCTEXT(\"D_Mounts\", \"DogSmall-DefaultNames-5\", \"Frank\")",
+                "NSLOCTEXT(\"D_Mounts\", \"DogSmall-DefaultNames-6\", \"Copper\")",
                 "NSLOCTEXT(\"D_Mounts\", \"DogSmall-DefaultNames-7\", \"Laika\")",
-                "NSLOCTEXT(\"D_Mounts\", \"DogSmall-DefaultNames-8\", \"Marley \")",
-                "NSLOCTEXT(\"D_Mounts\", \"DogSmall-DefaultNames-9\", \"Buddy \")",
+                "NSLOCTEXT(\"D_Mounts\", \"DogSmall-DefaultNames-8\", \"Marley\")",
+                "NSLOCTEXT(\"D_Mounts\", \"DogSmall-DefaultNames-9\", \"Buddy\")",
                 "NSLOCTEXT(\"D_Mounts\", \"DogSmall-DefaultNames-10\", \"Baxter\")"
             ],
             "MapIcon": {
@@ -1040,6 +1104,10 @@
             },
             "GrowthCurve": {
                 "RowName": "AI_Pets"
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "Y": 35
             }
         },
         {
@@ -1148,6 +1216,11 @@
             },
             "MountTalentArchetype": {
                 "RowName": "Creature_Horse"
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "X": -8,
+                "Y": 35
             }
         },
         {
@@ -1206,6 +1279,207 @@
             },
             "MountTalentArchetype": {
                 "RowName": "Creature_ArcticMoa"
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "X": -17,
+                "Y": 26
+            }
+        },
+        {
+            "Name": "Cow",
+            "AISetup": {
+                "RowName": "Cow"
+            },
+            "SupportedCombatStates": [
+                "DoNotEngage"
+            ],
+            "SupportedMovementStates": [
+                "Follow",
+                "IdleWander"
+            ],
+            "Animations": {
+                "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Stand_Idle_Montage.Buffalo_Stand_Idle_Montage",
+                "(TagName=\"BT.Mount.Animation.Rest\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Rest_Montage.Buffalo_Rest_Montage",
+                "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Eating_Montage.Buffalo_Eating_Montage",
+                "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Jump_Montage.Buffalo_Jump_Montage",
+                "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Attack_Montage.Buffalo_Attack_Montage"
+            },
+            "DefaultNames": [
+                "NSLOCTEXT(\"D_Mounts\", \"Cow-DefaultNames-0\", \"Dolly\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Cow-DefaultNames-1\", \"Bessie\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Cow-DefaultNames-2\", \"Muffin\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Cow-DefaultNames-3\", \"Milky\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Cow-DefaultNames-4\", \"Clarabelle\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Cow-DefaultNames-5\", \"Buttercup\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Cow-DefaultNames-6\", \"Moo\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Cow-DefaultNames-7\", \"Pearl\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Cow-DefaultNames-8\", \"Clover\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Cow-DefaultNames-9\", \"Penny\")"
+            ],
+            "MapIcon": {
+                "RowName": "Mount"
+            },
+            "RelativeFeetOffset": {
+                "X": -10,
+                "Y": -17.5,
+                "Z": 10
+            },
+            "MountTalentArchetype": {
+                "RowName": "Creature_Cow"
+            },
+            "GrowthCurve": {
+                "RowName": "AI_Pets"
+            }
+        },
+        {
+            "Name": "Bull",
+            "AISetup": {
+                "RowName": "Bull"
+            },
+            "RelevantSaddleQuery": {
+                "RowName": "Any_Saddle"
+            },
+            "SupportedCombatStates": [
+                "DoNotEngage",
+                "NeutralEngagement",
+                "AggressiveEngagement"
+            ],
+            "SupportedMovementStates": [
+                "Follow",
+                "IdleWander"
+            ],
+            "SupportedHusbandryStates": [
+                "Fertilize",
+                "None"
+            ],
+            "Animations": {
+                "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Stand_Idle_Montage.Buffalo_Stand_Idle_Montage",
+                "(TagName=\"BT.Mount.Animation.Rest\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Rest_Montage.Buffalo_Rest_Montage",
+                "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Eating_Montage.Buffalo_Eating_Montage",
+                "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Jump_Montage.Buffalo_Jump_Montage",
+                "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Attack_Montage.Buffalo_Attack_Montage"
+            },
+            "DefaultNames": [
+                "NSLOCTEXT(\"D_Mounts\", \"Bull-DefaultNames-0\", \"Beast\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Bull-DefaultNames-1\", \"Maddox\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Bull-DefaultNames-2\", \"Vader\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Bull-DefaultNames-3\", \"Angus\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Bull-DefaultNames-4\", \"Spartacus\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Bull-DefaultNames-5\", \"Ruckus\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Bull-DefaultNames-6\", \"Bandit\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Bull-DefaultNames-7\", \"Havoc\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Bull-DefaultNames-8\", \"Duke\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Bull-DefaultNames-9\", \"Maverick\")"
+            ],
+            "MapIcon": {
+                "RowName": "Mount"
+            },
+            "RelativeFeetOffset": {
+                "X": -10,
+                "Y": -17.5,
+                "Z": 10
+            },
+            "MountTalentArchetype": {
+                "RowName": "Creature_Buffalo"
+            }
+        },
+        {
+            "Name": "Rooster",
+            "AISetup": {
+                "RowName": "Rooster"
+            },
+            "SupportedCombatStates": [
+                "DoNotEngage"
+            ],
+            "SupportedMovementStates": [
+                "Follow",
+                "IdleWander"
+            ],
+            "SupportedHusbandryStates": [
+                "Fertilize",
+                "None"
+            ],
+            "Animations": {
+                "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ASS/CRE/Chicken/Anim/Chicken_StandIdle_Montage.Chicken_StandIdle_Montage",
+                "(TagName=\"BT.Mount.Animation.Rest\")": "/Game/ASS/CRE/Chicken/Anim/Chicken_Sleep_Montage.Chicken_Sleep_Montage",
+                "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ASS/CRE/Chicken/Anim/Chicken_Eat_Montage.Chicken_Eat_Montage",
+                "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Chicken/Anim/Chicken_Jump_Montage.Chicken_Jump_Montage",
+                "(TagName=\"BT.Mount.Animation.LayEgg\")": "/Game/ASS/CRE/Chicken/Anim/Chicken_LayEgg_Montage.Chicken_LayEgg_Montage"
+            },
+            "DefaultNames": [
+                "NSLOCTEXT(\"D_Mounts\", \"Rooster-DefaultNames-0\", \"Cluck\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Rooster-DefaultNames-1\", \"Peck\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Rooster-DefaultNames-2\", \"Bok\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Rooster-DefaultNames-3\", \"Chirp\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Rooster-DefaultNames-4\", \"Blaze\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Rooster-DefaultNames-5\", \"Rusty\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Rooster-DefaultNames-6\", \"Cinder\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Rooster-DefaultNames-7\", \"Sizzle\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Rooster-DefaultNames-8\", \"Flash\")"
+            ],
+            "MapIcon": {
+                "RowName": "Mount"
+            },
+            "RelativeFeetOffset": {
+                "X": -10,
+                "Y": -17.5,
+                "Z": 10
+            },
+            "MountTalentArchetype": {
+                "RowName": "Creature_Rooster"
+            },
+            "GrowthCurve": {
+                "RowName": "AI_Pets"
+            }
+        },
+        {
+            "Name": "Ram",
+            "AISetup": {
+                "RowName": "Ram"
+            },
+            "SupportedCombatStates": [
+                "DoNotEngage"
+            ],
+            "SupportedMovementStates": [
+                "Follow",
+                "IdleWander"
+            ],
+            "SupportedHusbandryStates": [
+                "Fertilize",
+                "None"
+            ],
+            "Animations": {
+                "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ASS/CRE/Sheep/Anim/Sheep_Idle_Montage.Sheep_Idle_Montage",
+                "(TagName=\"BT.Mount.Animation.Rest\")": "/Game/ASS/CRE/Sheep/Anim/Sheep_Rest_Montage.Sheep_Rest_Montage",
+                "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ASS/CRE/Sheep/Anim/Sheep_Eating_Montage.Sheep_Eating_Montage",
+                "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Sheep/Anim/Sheep_Jump_Montage.Sheep_Jump_Montage",
+                "(TagName=\"BT.Mount.Animation.Drink\")": "/Game/ASS/CRE/Sheep/Anim/Sheep_Eating_Montage.Sheep_Eating_Montage"
+            },
+            "DefaultNames": [
+                "NSLOCTEXT(\"D_Mounts\", \"Ram-DefaultNames-0\", \"Pan\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Ram-DefaultNames-1\", \"Bacchus\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Ram-DefaultNames-2\", \"Faunus\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Ram-DefaultNames-3\", \"Khaldi\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Ram-DefaultNames-4\", \"Marduk\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Ram-DefaultNames-5\", \"Silenus\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Ram-DefaultNames-6\", \"Amalthea\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Ram-DefaultNames-7\", \"Aries\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Ram-DefaultNames-8\", \"Set\")"
+            ],
+            "MapIcon": {
+                "RowName": "Mount"
+            },
+            "RelativeFeetOffset": {
+                "X": -10,
+                "Y": -17.5,
+                "Z": 10
+            },
+            "MountTalentArchetype": {
+                "RowName": "Creature_Sheep"
+            },
+            "GrowthCurve": {
+                "RowName": "AI_Pets"
             }
         }
     ]

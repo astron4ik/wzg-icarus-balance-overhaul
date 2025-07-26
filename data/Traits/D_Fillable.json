@@ -7,202 +7,52 @@
     },
     "Rows": [
         {
-            "Name": "WaterSkin",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 1000
-        },
-        {
-            "Name": "Canteen",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 5000
-        },
-        {
-            "Name": "Canteen_Shengong",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 12000
-        },
-        {
-            "Name": "Canteen_Inaris",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 12000
-        },
-        {
-            "Name": "WaterBarrel",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 20000
-        },
-        {
-            "Name": "Canteen_Larkwell",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 20000
-        },
-        {
-            "Name": "OxygenBladder",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Oxygen"
-            ],
-            "MaximumStoredUnits": 1000
-        },
-        {
-            "Name": "OxygenTank",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Oxygen"
-            ],
-            "MaximumStoredUnits": 5000
-        },
-        {
-            "Name": "Oxygen_Tank_Shengong",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Oxygen"
-            ],
-            "MaximumStoredUnits": 6500
-        },
-        {
-            "Name": "Oxygen_Tank_Larkwell",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Oxygen"
-            ],
-            "MaximumStoredUnits": 12000
-        },
-        {
             "Name": "Battery",
             "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
             "ResourceTypes": [
-                "Energy"
+                {
+                    "Value": "Energy"
+                }
             ],
             "MaximumStoredUnits": 10000
-        },
-        {
-            "Name": "Sponge",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 500
-        },
-        {
-            "Name": "Beer_Bottle",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 1000
-        },
-        {
-            "Name": "Wine_Bottle",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 1000
-        },
-        {
-            "Name": "Thermos",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 5000
         },
         {
             "Name": "Jerrycan",
             "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
             "ResourceTypes": [
-                "Fuel"
+                {
+                    "Value": "Biofuel"
+                }
             ],
-            "MaximumStoredUnits": 20000
-        },
-        {
-            "Name": "Lantern",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Fuel"
-            ],
-            "MaximumStoredUnits": 3000
+            "MaximumStoredUnits": 10000
         },
         {
             "Name": "Biofuel_Lamp",
             "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
             "ResourceTypes": [
-                "Fuel"
+                {
+                    "Value": "Biofuel"
+                }
             ],
-            "MaximumStoredUnits": 6000
-        },
-        {
-            "Name": "Rain_Reservoir",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 100000
-        },
-        {
-            "Name": "BasicOxiteDissolver",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Oxygen"
-            ],
-            "MaximumStoredUnits": 1000
-        },
-        {
-            "Name": "Composter",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 10000
-        },
-        {
-            "Name": "Water_Pump",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 10000
+            "MaximumStoredUnits": 2000
         },
         {
             "Name": "Powered_Device",
             "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
             "ResourceTypes": [
-                "Energy"
+                {
+                    "Value": "Energy"
+                }
             ],
             "MaximumStoredUnits": 10000
-        },
-        {
-            "Name": "Glass_Jar",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 2500
         },
         {
             "Name": "Mission_Ship",
             "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
             "ResourceTypes": [
-                "Energy"
+                {
+                    "Value": "Energy"
+                }
             ],
             "MaximumStoredUnits": 18000000
         },
@@ -210,63 +60,29 @@
             "Name": "Meta_Biofuel_Can",
             "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
             "ResourceTypes": [
-                "Fuel"
+                {
+                    "Value": "Biofuel"
+                }
             ],
-            "MaximumStoredUnits": 100000
+            "MaximumStoredUnits": 10000
         },
         {
             "Name": "Meta_Power_Source",
             "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
             "ResourceTypes": [
-                "Energy"
+                {
+                    "Value": "Energy"
+                }
             ],
             "MaximumStoredUnits": 45000
-        },
-        {
-            "Name": "Mission_OxiteBomb",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Oxygen"
-            ],
-            "MaximumStoredUnits": 2000
-        },
-        {
-            "Name": "Water_Trough",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 15000
-        },
-        {
-            "Name": "Water_Trough_T4",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 20000
-        },
-        {
-            "Name": "Watering_Can",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 5000
-        },
-        {
-            "Name": "WaterPurifier",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 5000
         },
         {
             "Name": "Battery_T3",
             "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
             "ResourceTypes": [
-                "Energy"
+                {
+                    "Value": "Energy"
+                }
             ],
             "MaximumStoredUnits": 25000
         },
@@ -274,7 +90,9 @@
             "Name": "Battery_Shelf_T3",
             "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
             "ResourceTypes": [
-                "Energy"
+                {
+                    "Value": "Energy"
+                }
             ],
             "MaximumStoredUnits": 1000000
         },
@@ -282,7 +100,9 @@
             "Name": "Battery_T4",
             "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
             "ResourceTypes": [
-                "Energy"
+                {
+                    "Value": "Energy"
+                }
             ],
             "MaximumStoredUnits": 3000000
         },
@@ -290,7 +110,9 @@
             "Name": "Battery_Shelf_T4",
             "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
             "ResourceTypes": [
-                "Energy"
+                {
+                    "Value": "Energy"
+                }
             ],
             "MaximumStoredUnits": 6000000
         },
@@ -298,41 +120,351 @@
             "Name": "BatteryTest",
             "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
             "ResourceTypes": [
-                "Energy"
+                {
+                    "Value": "Energy"
+                }
             ],
             "MaximumStoredUnits": 6000000
-        },
-        {
-            "Name": "Water_Barrel",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 300000
-        },
-        {
-            "Name": "Rain_Reservoir_T3",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 150000
-        },
-        {
-            "Name": "Water_Purifier_T2",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                "Water"
-            ],
-            "MaximumStoredUnits": 10000
         },
         {
             "Name": "Flashlight",
             "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
             "ResourceTypes": [
-                "Energy"
+                {
+                    "Value": "Energy"
+                }
+            ],
+            "MaximumStoredUnits": 6500
+        },
+        {
+            "Name": "Icebox_Backpack",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Energy"
+                }
+            ],
+            "MaximumStoredUnits": 10800
+        },
+        {
+            "Name": "Lava_Hunter_Backpack",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Energy"
+                }
+            ],
+            "MaximumStoredUnits": 10800
+        },
+        {
+            "Name": "Oil_Barrel",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Refined_Oil"
+                }
+            ],
+            "MaximumStoredUnits": 150000
+        },
+        {
+            "Name": "Battery_Lamp",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Energy"
+                }
+            ],
+            "MaximumStoredUnits": 6500
+        },
+        {
+            "Name": "Workshop_Hydrazine_Container",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Hydrazine"
+                }
+            ],
+            "MaximumStoredUnits": 10000
+        },
+        {
+            "Name": "CaveLight",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Energy"
+                }
+            ],
+            "MaximumStoredUnits": 10000
+        },
+        {
+            "Name": "Portable_Tank_Biofuel",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Biofuel"
+                }
+            ],
+            "MaximumStoredUnits": 150000
+        },
+        {
+            "Name": "Truck_Water",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Water"
+                }
+            ],
+            "MaximumStoredUnits": 200000
+        },
+        {
+            "Name": "Truck_Fuel",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Biofuel"
+                }
+            ],
+            "MaximumStoredUnits": 200000
+        },
+        {
+            "Name": "Flamethrower",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Biofuel"
+                }
             ],
             "MaximumStoredUnits": 5000
+        },
+        {
+            "Name": "Milk_Bucket",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Milk"
+                }
+            ],
+            "MaximumStoredUnits": 5000
+        },
+        {
+            "Name": "Milk_Bottle",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Milk"
+                }
+            ],
+            "MaximumStoredUnits": 2000
+        },
+        {
+            "Name": "Milk_Cow",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Milk"
+                }
+            ],
+            "MaximumStoredUnits": 20000
+        },
+        {
+            "Name": "Flamethrower_Legendary",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Biofuel"
+                }
+            ],
+            "MaximumStoredUnits": 15000
+        },
+        {
+            "Name": "Fillable_Water_0_5L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Water"
+                }
+            ],
+            "MaximumStoredUnits": 500
+        },
+        {
+            "Name": "Fillable_Water_1L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Water"
+                }
+            ],
+            "MaximumStoredUnits": 1000
+        },
+        {
+            "Name": "Fillable_Water_2L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Water"
+                }
+            ],
+            "MaximumStoredUnits": 2000
+        },
+        {
+            "Name": "Fillable_Water_5L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Water"
+                }
+            ],
+            "MaximumStoredUnits": 5000
+        },
+        {
+            "Name": "Fillable_Water_6_5L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Water"
+                }
+            ],
+            "MaximumStoredUnits": 6500
+        },
+        {
+            "Name": "Fillable_Water_10L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Water"
+                }
+            ],
+            "MaximumStoredUnits": 10000
+        },
+        {
+            "Name": "Fillable_Water_15L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Water"
+                }
+            ],
+            "MaximumStoredUnits": 15000
+        },
+        {
+            "Name": "Fillable_Water_30L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Water"
+                }
+            ],
+            "MaximumStoredUnits": 30000
+        },
+        {
+            "Name": "Fillable_Water_50L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Water"
+                }
+            ],
+            "MaximumStoredUnits": 50000
+        },
+        {
+            "Name": "Fillable_Water_60L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Water"
+                }
+            ],
+            "MaximumStoredUnits": 60000
+        },
+        {
+            "Name": "Fillable_Water_100L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Water"
+                }
+            ],
+            "MaximumStoredUnits": 100000
+        },
+        {
+            "Name": "Fillable_Water_150L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Water"
+                }
+            ],
+            "MaximumStoredUnits": 150000
+        },
+        {
+            "Name": "Fillable_Water_250L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Water"
+                }
+            ],
+            "MaximumStoredUnits": 250000
+        },
+        {
+            "Name": "Fillable_Water_1000L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Water"
+                }
+            ],
+            "MaximumStoredUnits": 1000000
+        },
+        {
+            "Name": "Fillable_Oxygen_1L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Oxygen"
+                }
+            ],
+            "MaximumStoredUnits": 1000
+        },
+        {
+            "Name": "Fillable_Oxygen_2L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Oxygen"
+                }
+            ],
+            "MaximumStoredUnits": 2000
+        },
+        {
+            "Name": "Fillable_Oxygen_5L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Oxygen"
+                }
+            ],
+            "MaximumStoredUnits": 5000
+        },
+        {
+            "Name": "Fillable_Oxygen_6_5L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Oxygen"
+                }
+            ],
+            "MaximumStoredUnits": 6500
+        },
+        {
+            "Name": "LegendaryWeapon_GolemGauntlet",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Biofuel"
+                }
+            ],
+            "MaximumStoredUnits": 10000
         }
     ]
 }

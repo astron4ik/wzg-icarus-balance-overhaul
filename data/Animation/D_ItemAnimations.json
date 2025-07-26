@@ -81,7 +81,7 @@
             "FPJumpStart": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_SGL_Shot_PistolJumpStart.1ST_CHA_SGL_Shot_PistolJumpStart",
             "FPJumpLoop": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_SGL_Shot_PistolJumpLoop.1ST_CHA_SGL_Shot_PistolJumpLoop",
             "FPJumpEnd": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_SGL_Shot_PistolJumpEnd.1ST_CHA_SGL_Shot_PistolJumpEnd",
-            "FPLocoBlendSpace": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_2HRifle_Loco_BS.1ST_CHA_2HRifle_Loco_BS",
+            "FPLocoBlendSpace": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_2HPistol_Loco_BS.1ST_CHA_2HPistol_Loco_BS",
             "TPJumpStart": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_SGL_Shot_Pistol_JumpStart.3RD_CHA_MAL_SGL_Shot_Pistol_JumpStart",
             "TPJumpLoop": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_SGL_Shot_Pistol_JumpLoop.3RD_CHA_MAL_SGL_Shot_Pistol_JumpLoop",
             "TPJumpEnd": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_SGL_Shot_Pistol_JumpEnd.3RD_CHA_MAL_SGL_Shot_Pistol_JumpEnd",
@@ -147,10 +147,9 @@
         },
         {
             "Name": "Carry_Carcass",
-            "FPJumpStart": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_CRE_CarryIdle.1ST_CHA_CRE_CarryIdle",
-            "FPJumpLoop": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_CRE_CarryIdle.1ST_CHA_CRE_CarryIdle",
-            "FPJumpEnd": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_CRE_CarryIdle.1ST_CHA_CRE_CarryIdle",
-            "FPLocoBlendSpace": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Carry_Loco_BS.1ST_CHA_Carry_Loco_BS"
+            "FPJumpStart": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_StasisBag_Carry_P.1ST_CHA_StasisBag_Carry_P",
+            "FPJumpLoop": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_StasisBag_Carry_P.1ST_CHA_StasisBag_Carry_P",
+            "FPJumpEnd": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_StasisBag_Carry_P.1ST_CHA_StasisBag_Carry_P"
         },
         {
             "Name": "Shovel",
@@ -201,7 +200,7 @@
             "FPJumpStart": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_1HWEPJumpStart.1ST_CHA_1HWEPJumpStart",
             "FPJumpLoop": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_1HWEPJumpLoop.1ST_CHA_1HWEPJumpLoop",
             "FPJumpEnd": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_1HWEPJumpLand.1ST_CHA_1HWEPJumpLand",
-            "FPLocoBlendSpace": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_1H_Loco_BS.1ST_CHA_1H_Loco_BS",
+            "FPLocoBlendSpace": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_1HLantern_Loco_BS.1ST_CHA_1HLantern_Loco_BS",
             "TPJumpStart": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_1HLampJumpStart.3RD_CHA_MAL_1HLampJumpStart",
             "TPJumpLoop": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_1HLampJumpLoop.3RD_CHA_MAL_1HLampJumpLoop",
             "TPJumpEnd": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_1HLampJumpEnd.3RD_CHA_MAL_1HLampJumpEnd",
@@ -249,6 +248,32 @@
             "UpToDownBlendSpace": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Jackhammer_UpToDwn.3RD_CHA_MAL_Jackhammer_UpToDwn"
         },
         {
+            "Name": "Chainsaw",
+            "FPJumpStart": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Chainsaw_JumpStart.1ST_CHA_Chainsaw_JumpStart",
+            "FPJumpLoop": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Chainsaw_JumpLoop.1ST_CHA_Chainsaw_JumpLoop",
+            "FPJumpEnd": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Chainsaw_JumpEnd.1ST_CHA_Chainsaw_JumpEnd",
+            "FPLocoBlendSpace": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Jackhammer_Loco_BS.1ST_CHA_Jackhammer_Loco_BS",
+            "TPJumpStart": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Chainsaw_JumpStart.3RD_CHA_MAL_Chainsaw_JumpStart",
+            "TPJumpLoop": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Chainsaw_JumpLoop.3RD_CHA_MAL_Chainsaw_JumpLoop",
+            "TPJumpEnd": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Chainsaw_JumpEnd.3RD_CHA_MAL_Chainsaw_JumpEnd",
+            "TPLocomotionAnims": {
+                "WalkF": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Jackhammer_WalkF.3RD_CHA_MAL_Jackhammer_WalkF",
+                "WalkR": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Jackhammer_WalkR.3RD_CHA_MAL_Jackhammer_WalkR",
+                "WalkB": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Jackhammer_WalkB.3RD_CHA_MAL_Jackhammer_WalkB",
+                "WalkL": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Jackhammer_WalkL.3RD_CHA_MAL_Jackhammer_WalkL",
+                "RunF": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Jackhammer_RunF.3RD_CHA_MAL_Jackhammer_RunF",
+                "RunR": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Jackhammer_RunR.3RD_CHA_MAL_Jackhammer_RunR",
+                "RunB": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Jackhammer_RunB.3RD_CHA_MAL_Jackhammer_RunB",
+                "RunL": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Jackhammer_RunL.3RD_CHA_MAL_Jackhammer_RunL",
+                "SprintF": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Jackhammer_SprintF.3RD_CHA_MAL_Jackhammer_SprintF",
+                "CrouchWalkF": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Jackhammer_CrouchWalkF.3RD_CHA_MAL_Jackhammer_CrouchWalkF",
+                "CrouchWalkR": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Jackhammer_CrouchWalkR.3RD_CHA_MAL_Jackhammer_CrouchWalkR",
+                "CrouchWalkB": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Jackhammer_CrouchWalkB.3RD_CHA_MAL_Jackhammer_CrouchWalkB",
+                "CrouchWalkL": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Jackhammer_CrouchWalkL.3RD_CHA_MAL_Jackhammer_CrouchWalkL"
+            },
+            "UpToDownBlendSpace": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Jackhammer_UpToDwn.3RD_CHA_MAL_Jackhammer_UpToDwn"
+        },
+        {
             "Name": "FlashLight",
             "FPJumpStart": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_1HWEPJumpStart.1ST_CHA_1HWEPJumpStart",
             "FPJumpLoop": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_1HWEPJumpLoop.1ST_CHA_1HWEPJumpLoop",
@@ -273,6 +298,28 @@
                 "CrouchWalkL": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Flashlight_Crouch_WalkL.3RD_CHA_MAL_Flashlight_Crouch_WalkL"
             },
             "UpToDownBlendSpace": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Flashlight_UpToDwn.3RD_CHA_MAL_Flashlight_UpToDwn"
+        },
+        {
+            "Name": "FlameThrower",
+            "FPJumpStart": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Flamethrower_Idle.1ST_CHA_Flamethrower_Idle",
+            "FPJumpLoop": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Flamethrower_Idle.1ST_CHA_Flamethrower_Idle",
+            "FPJumpEnd": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Flamethrower_Idle.1ST_CHA_Flamethrower_Idle",
+            "FPLocoBlendSpace": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_FireExtingusher_Loco_BS.1ST_CHA_FireExtingusher_Loco_BS",
+            "TPLocomotionAnims": {
+                "WalkF": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Flamethrower_WalkF.3RD_CHA_MAL_Flamethrower_WalkF",
+                "WalkR": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Flamethrower_WalkR.3RD_CHA_MAL_Flamethrower_WalkR",
+                "WalkB": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Flamethrower_WalkB.3RD_CHA_MAL_Flamethrower_WalkB",
+                "WalkL": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Flamethrower_WalkL.3RD_CHA_MAL_Flamethrower_WalkL",
+                "RunF": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Flamethrower_RunF.3RD_CHA_MAL_Flamethrower_RunF",
+                "RunR": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Flamethrower_RunR.3RD_CHA_MAL_Flamethrower_RunR",
+                "RunB": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Flamethrower_WalkB.3RD_CHA_MAL_Flamethrower_WalkB",
+                "RunL": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Flamethrower_RunL.3RD_CHA_MAL_Flamethrower_RunL",
+                "SprintF": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Flamethrower_SprintF.3RD_CHA_MAL_Flamethrower_SprintF",
+                "CrouchWalkF": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Flamethrower_Crouch_WalkF.3RD_CHA_MAL_Flamethrower_Crouch_WalkF",
+                "CrouchWalkR": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Flamethrower_Crouch_WalkR.3RD_CHA_MAL_Flamethrower_Crouch_WalkR",
+                "CrouchWalkB": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Flamethrower_Crouch_WalkB.3RD_CHA_MAL_Flamethrower_Crouch_WalkB",
+                "CrouchWalkL": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_Flamethrower_Crouch_WalkL.3RD_CHA_MAL_Flamethrower_Crouch_WalkL"
+            }
         }
     ]
 }

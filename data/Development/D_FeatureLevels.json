@@ -182,16 +182,30 @@
             }
         },
         {
-            "Name": "Hubble",
-            "DisplayName": "INVTEXT(\"Hubble\")",
-            "ShortName": "INVTEXT(\"HBL\")",
-            "Description": "Feature level for Hubble",
+            "Name": "GreatHunts",
+            "DisplayName": "INVTEXT(\"Great Hunts\")",
+            "ShortName": "INVTEXT(\"GH\")",
+            "Description": "Feature level for Great Hunts",
+            "Color": {
+                "R": 0.10000000149011612,
+                "G": 0.699999988079071,
+                "B": 0.10000000149011612,
+                "A": 0.5
+            },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/FeatureLevel/T_FeatureLevel_GH.T_FeatureLevel_GH"
+        },
+        {
+            "Name": "DangerousHorizons",
+            "DisplayName": "INVTEXT(\"Dangerous Horizons\")",
+            "ShortName": "INVTEXT(\"DH\")",
+            "Description": "Feature level for Dangerous Horizons",
             "Color": {
                 "R": 0.10000000149011612,
                 "G": 0.10000000149011612,
                 "B": 0.5,
                 "A": 0.33000001311302185
-            }
+            },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/FeatureLevel/T_FeatureLevel_DH.T_FeatureLevel_DH"
         },
         {
             "Name": "LiveDemos",

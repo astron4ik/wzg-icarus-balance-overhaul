@@ -43,7 +43,8 @@
         {
             "Name": "Basic_Pistol_Turret",
             "MuzzlePitchExtents": {
-                "X": -45
+                "X": -50,
+                "Y": 50
             },
             "MuzzleYawExtents": 120,
             "MaxRange": 5000,
@@ -53,13 +54,14 @@
             "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
             "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_GENERIC.SFX_TURRET_FIRE_GENERIC",
             "ValidAmmoTypes": {
-                "RowName": "AllPistol"
+                "RowName": "AllPistolAndCrude"
             }
         },
         {
             "Name": "Basic_Rifle_Turret",
             "MuzzlePitchExtents": {
-                "X": -45
+                "X": -50,
+                "Y": 50
             },
             "MuzzleYawExtents": 75,
             "MuzzleMoveSpeed": {
@@ -77,7 +79,8 @@
         {
             "Name": "Basic_Rifle_Turret_Precision",
             "MuzzlePitchExtents": {
-                "X": -45
+                "X": -50,
+                "Y": 50
             },
             "MuzzleYawExtents": 50,
             "MuzzleMoveSpeed": {
@@ -96,7 +99,8 @@
         {
             "Name": "Basic_Shotgun_Turret",
             "MuzzlePitchExtents": {
-                "X": -45
+                "X": -50,
+                "Y": 50
             },
             "MuzzleYawExtents": 150,
             "MuzzleMoveSpeed": {
@@ -110,6 +114,23 @@
             "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_SHOTGUN.SFX_TURRET_FIRE_SHOTGUN",
             "ValidAmmoTypes": {
                 "RowName": "AllShotgun"
+            }
+        },
+        {
+            "Name": "Enemy_Pistol_Turret",
+            "MuzzlePitchExtents": {
+                "X": -50,
+                "Y": 50
+            },
+            "MuzzleYawExtents": 120,
+            "MaxRange": 5000,
+            "BurstFireShots": 2,
+            "CheckTargetPeriod": 1.5,
+            "CoolDownPeriod": 2,
+            "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
+            "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_GENERIC.SFX_TURRET_FIRE_GENERIC",
+            "ValidAmmoTypes": {
+                "RowName": "AllPistolAndCrude"
             }
         }
     ]

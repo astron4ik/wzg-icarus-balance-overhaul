@@ -98,12 +98,20 @@
             }
         },
         {
+            "Name": "Recovery_Crew",
+            "FactionName": "INVTEXT(\"[DNT] Recovery Crew\")"
+        },
+        {
             "Name": "The_Administration",
             "FactionName": "INVTEXT(\"[DNT] The Administration\")"
         },
         {
             "Name": "UDA",
             "FactionName": "INVTEXT(\"[DNT] UDA\")"
+        },
+        {
+            "Name": "Norex",
+            "FactionName": "INVTEXT(\"[DNT] Norex\")"
         }
     ]
 }

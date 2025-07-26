@@ -3,6 +3,7 @@
     "Defaults": {
         "Creatures": {
             "AISpawnList": [],
+            "WorldStatInjection": {},
             "BiomeSpawnDensity": 15,
             "RelevantAutonomousSpawners": []
         },
@@ -79,9 +80,36 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileRockGolemWorldSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Rock_Golem"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Wild_Beehive_Tree",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Wild_Kiwi_Nest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Spider_Nest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "RockGolem",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Caveworm_Spawner",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -193,9 +221,36 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileRockGolemWorldSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Rock_Golem"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Wild_Beehive_Tree",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Wild_Kiwi_Nest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Spider_Nest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "RockGolem",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Caveworm_Spawner",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -307,9 +362,36 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileRockGolemWorldSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Rock_Golem"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Wild_Beehive_Tree",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Wild_Kiwi_Nest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Spider_Nest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "RockGolem",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Caveworm_Spawner",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -422,9 +504,36 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileRockGolemWorldSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Rock_Golem"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Wild_Beehive_Tree",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Wild_Kiwi_Nest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Spider_Nest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "RockGolem",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Caveworm_Spawner",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -591,6 +700,17 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileApeForestSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Ape"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Kea",
@@ -598,6 +718,18 @@
                     },
                     {
                         "RowName": "Wild_Beehive_Tree",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Wild_Kiwi_Nest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Ape_Forest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Ape_Forest_Poison",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -709,6 +841,17 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileApeForestSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Ape"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Kea",
@@ -716,6 +859,18 @@
                     },
                     {
                         "RowName": "Wild_Beehive_Tree",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Wild_Kiwi_Nest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Ape_Forest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Ape_Forest_Poison",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -791,6 +946,17 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileApeForestSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Ape"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Kea",
@@ -798,6 +964,18 @@
                     },
                     {
                         "RowName": "Wild_Beehive_Tree",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Wild_Kiwi_Nest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Ape_Forest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Ape_Forest_Poison",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -900,6 +1078,17 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileApeForestSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Ape"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Kea",
@@ -907,6 +1096,18 @@
                     },
                     {
                         "RowName": "Wild_Beehive_Tree",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Wild_Kiwi_Nest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Ape_Forest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Ape_Forest_Poison",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -1010,6 +1211,17 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileApeForestSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Ape"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Kea",
@@ -1017,6 +1229,18 @@
                     },
                     {
                         "RowName": "Wild_Beehive_Tree",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Wild_Kiwi_Nest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Ape_Forest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Ape_Forest_Poison",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -1093,6 +1317,17 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileApeForestSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Ape"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Kea",
@@ -1100,6 +1335,18 @@
                     },
                     {
                         "RowName": "Wild_Beehive_Tree",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Wild_Kiwi_Nest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Ape_Forest",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Ape_Forest_Poison",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -1399,6 +1646,23 @@
                             "Value": "None"
                         }
                     }
+                ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileRockGolemWorldSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Rock_Golem"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "RockGolem_Ice",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
                 ]
             },
             "MinLevel": 10,
@@ -1444,6 +1708,23 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    }
+                ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileApeArcticSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Ape"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Ape_Arctic",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
@@ -1572,10 +1853,25 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileApeArcticSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Ape"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "BiomeSpawnDensity": 10,
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Arctic_Bat",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Ape_Arctic",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -1596,6 +1892,23 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    }
+                ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileRockGolemWorldSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Rock_Golem"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "RockGolem_Ice",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
@@ -1624,6 +1937,23 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    }
+                ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileApeArcticSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Ape"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Ape_Arctic",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
@@ -1690,9 +2020,24 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileRockGolemWorldSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Rock_Golem"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Arctic_Bat",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "RockGolem_Ice",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -1733,9 +2078,24 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileRockGolemWorldSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Rock_Golem"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Arctic_Bat",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "RockGolem_Ice",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -1792,6 +2152,27 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    }
+                ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileRockGolemDesertSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Rock_Golem"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "RockGolem_Desert",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Caveworm_Spawner",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
@@ -1892,6 +2273,36 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Mini_Hippo"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileRockGolemDesertSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Rock_Golem"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "RockGolem_Desert",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Caveworm_Spawner",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
@@ -1992,6 +2403,36 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Mini_Hippo"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileRockGolemDesertSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Rock_Golem"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "RockGolem_Desert",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Caveworm_Spawner",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
@@ -2093,6 +2534,27 @@
                             "Value": "None"
                         }
                     }
+                ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileRockGolemDesertSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Rock_Golem"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "RockGolem_Desert",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Caveworm_Spawner",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
                 ]
             },
             "MinLevel": 80,
@@ -2138,6 +2600,23 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    }
+                ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileApeDesertSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Ape"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Ape_Desert",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
@@ -2239,6 +2718,23 @@
                             "Value": "None"
                         }
                     }
+                ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileApeDesertSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Ape"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Ape_Desert",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
                 ]
             },
             "MinLevel": 40,
@@ -2295,7 +2791,24 @@
                         }
                     }
                 ],
-                "BiomeSpawnDensity": 10
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileApeDesertSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Ape"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
+                "BiomeSpawnDensity": 10,
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Ape_Desert",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
+                ]
             },
             "MinLevel": 40,
             "MedianLevel": 50,
@@ -2395,6 +2908,23 @@
                             "Value": "None"
                         }
                     }
+                ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileApeDesertSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Ape"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Ape_Desert",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
                 ]
             },
             "MinLevel": 50,
@@ -2472,7 +3002,7 @@
                         "AISetup": {
                             "Value": "Wild_Boar"
                         },
-                        "SpawnWeight": 5,
+                        "SpawnWeight": 2,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -2494,6 +3024,32 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Mini_Hippo"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileApeDesertSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Ape"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Ape_Desert",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
@@ -2527,7 +3083,7 @@
                         "AISetup": {
                             "Value": "Wild_Boar"
                         },
-                        "SpawnWeight": 2,
+                        "SpawnWeight": 1,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -2549,9 +3105,35 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Mini_Hippo"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
                     }
                 ],
-                "BiomeSpawnDensity": 12
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileApeDesertSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Ape"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
+                "BiomeSpawnDensity": 12,
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Ape_Desert",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
+                ]
             },
             "MinLevel": 80,
             "MedianLevel": 90,
@@ -2605,6 +3187,23 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    }
+                ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldJuvenileApeDesertSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Juvenile_Ape"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Ape_Desert",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
@@ -3756,6 +4355,17 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldPolarBearInGrasslandsSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Polar_Bear"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Kea",
@@ -3857,6 +4467,17 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldPolarBearInGrasslandsSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Polar_Bear"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Kea",
@@ -3958,6 +4579,17 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldPolarBearInGrasslandsSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Polar_Bear"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Kea",
@@ -4059,6 +4691,17 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldPolarBearInGrasslandsSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Polar_Bear"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Kea",
@@ -4261,6 +4904,17 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldPolarBearInGrasslandsSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Polar_Bear"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Kea",
@@ -4630,6 +5284,17 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldPolarBearInGrasslandsSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Polar_Bear"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Predator_Bird_Few",
@@ -4727,6 +5392,17 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldPolarBearInGrasslandsSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Polar_Bear"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Predator_Bird_Few",
@@ -4824,6 +5500,17 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldPolarBearInGrasslandsSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Polar_Bear"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Predator_Bird_Few",
@@ -5192,6 +5879,17 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldPolarBearInGrasslandsSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Polar_Bear"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Kea",
@@ -5459,6 +6157,17 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldPolarBearInGrasslandsSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Polar_Bear"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Kea",
@@ -5529,9 +6238,33 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldSnowSlugSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Snow_Slug"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    "(Value=\"WorldIceMammothSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Mammoth_IceWorldSpawn"
+                        },
+                        "SpawnWeight": 6,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Arctic_Bat",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Snow_Slug",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -5599,9 +6332,33 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldSnowSlugSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Snow_Slug"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    "(Value=\"WorldIceMammothSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Mammoth_IceWorldSpawn"
+                        },
+                        "SpawnWeight": 6,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Arctic_Bat",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Snow_Slug",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -5669,9 +6426,33 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldSnowSlugSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Snow_Slug"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    "(Value=\"WorldIceMammothSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Mammoth_IceWorldSpawn"
+                        },
+                        "SpawnWeight": 6,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Arctic_Bat",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Snow_Slug",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -5739,9 +6520,33 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldSnowSlugSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Snow_Slug"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    "(Value=\"WorldIceMammothSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Mammoth_IceWorldSpawn"
+                        },
+                        "SpawnWeight": 6,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Arctic_Bat",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Snow_Slug",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -5800,6 +6605,26 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldSnowSlugSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Snow_Slug"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    "(Value=\"WorldIceMammothSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Mammoth_IceWorldSpawn"
+                        },
+                        "SpawnWeight": 6,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Predator_Bird_Few",
@@ -6009,6 +6834,26 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldSnowSlugSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Snow_Slug"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    "(Value=\"WorldIceMammothSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Mammoth_IceWorldSpawn"
+                        },
+                        "SpawnWeight": 6,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Kea",
@@ -6088,6 +6933,26 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldSnowSlugSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Snow_Slug"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    "(Value=\"WorldIceMammothSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Mammoth_IceWorldSpawn"
+                        },
+                        "SpawnWeight": 6,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Kea",
@@ -6167,6 +7032,26 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldSnowSlugSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Snow_Slug"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    "(Value=\"WorldIceMammothSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Mammoth_IceWorldSpawn"
+                        },
+                        "SpawnWeight": 6,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Kea",
@@ -6254,7 +7139,18 @@
                             "Value": "None"
                         }
                     }
-                ]
+                ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldSnowSlugSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Snow_Slug"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                }
             },
             "MinLevel": 35,
             "MedianLevel": 45,
@@ -6337,6 +7233,17 @@
                         }
                     }
                 ],
+                "WorldStatInjection": {
+                    "(Value=\"WorldSnowSlugSpawn_?\")": {
+                        "AISetup": {
+                            "Value": "Snow_Slug"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                },
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Predator_Bird_Few",
@@ -9123,6 +10030,10 @@
                     {
                         "RowName": "Gas_Flyer",
                         "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "LavaFlyers",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
@@ -9254,6 +10165,10 @@
                     {
                         "RowName": "Gas_Flyer",
                         "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "LavaFlyers",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
@@ -9333,6 +10248,10 @@
                     {
                         "RowName": "Gas_Flyer",
                         "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "LavaFlyers",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
@@ -9411,6 +10330,10 @@
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Gas_Flyer",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "LavaFlyers",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -9494,6 +10417,10 @@
                     },
                     {
                         "RowName": "Gas_Flyer",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "LavaFlyers",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -10208,32 +11135,9 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Wooly_Zebra"
-                        },
-                        "SpawnWeight": 2,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Snow_Rabbit"
-                        },
-                        "SpawnWeight": 3,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
                     }
                 ],
-                "RelevantAutonomousSpawners": [
-                    {
-                        "RowName": "Gas_Flyer",
-                        "DataTableName": "D_AutonomousSpawns"
-                    }
-                ]
+                "BiomeSpawnDensity": 5
             },
             "MinLevel": 80,
             "MedianLevel": 100,
@@ -10269,32 +11173,9 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Wooly_Zebra"
-                        },
-                        "SpawnWeight": 1,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Snow_Rabbit"
-                        },
-                        "SpawnWeight": 2,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
                     }
                 ],
-                "RelevantAutonomousSpawners": [
-                    {
-                        "RowName": "Gas_Flyer",
-                        "DataTableName": "D_AutonomousSpawns"
-                    }
-                ]
+                "BiomeSpawnDensity": 5
             },
             "MinLevel": 80,
             "MedianLevel": 100,
@@ -10321,33 +11202,9 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Wooly_Zebra"
-                        },
-                        "SpawnWeight": 4,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Snow_Rabbit"
-                        },
-                        "SpawnWeight": 6,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
                     }
                 ],
-                "BiomeSpawnDensity": 3,
-                "RelevantAutonomousSpawners": [
-                    {
-                        "RowName": "Gas_Flyer",
-                        "DataTableName": "D_AutonomousSpawns"
-                    }
-                ]
+                "BiomeSpawnDensity": 2
             },
             "MinLevel": 100,
             "MedianLevel": 110,
@@ -10383,42 +11240,9 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Wooly_Zebra"
-                        },
-                        "SpawnWeight": 4,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Wooly_Zebra"
-                        },
-                        "SpawnWeight": 1,
-                        "EpicCreature": {
-                            "Value": "RedExotic_Infused"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Snow_Rabbit"
-                        },
-                        "SpawnWeight": 6,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
                     }
                 ],
-                "BiomeSpawnDensity": 4,
-                "RelevantAutonomousSpawners": [
-                    {
-                        "RowName": "Gas_Flyer",
-                        "DataTableName": "D_AutonomousSpawns"
-                    }
-                ]
+                "BiomeSpawnDensity": 4
             },
             "MinLevel": 100,
             "MedianLevel": 110,
@@ -10445,24 +11269,9 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Snow_Rabbit"
-                        },
-                        "SpawnWeight": 2,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
                     }
                 ],
-                "BiomeSpawnDensity": 5,
-                "RelevantAutonomousSpawners": [
-                    {
-                        "RowName": "Gas_Flyer",
-                        "DataTableName": "D_AutonomousSpawns"
-                    }
-                ]
+                "BiomeSpawnDensity": 4
             },
             "MinLevel": 100,
             "MedianLevel": 110,
@@ -10498,24 +11307,9 @@
                         "EpicCreature": {
                             "Value": "RedExotic_Infused"
                         }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Snow_Rabbit"
-                        },
-                        "SpawnWeight": 3,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
                     }
                 ],
-                "BiomeSpawnDensity": 8,
-                "RelevantAutonomousSpawners": [
-                    {
-                        "RowName": "Gas_Flyer",
-                        "DataTableName": "D_AutonomousSpawns"
-                    }
-                ]
+                "BiomeSpawnDensity": 4
             },
             "MinLevel": 110,
             "MedianLevel": 115,
@@ -10551,32 +11345,9 @@
                         "EpicCreature": {
                             "Value": "RedExotic_Infused"
                         }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Wooly_Zebra"
-                        },
-                        "SpawnWeight": 2,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Snow_Rabbit"
-                        },
-                        "SpawnWeight": 3,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
                     }
                 ],
-                "RelevantAutonomousSpawners": [
-                    {
-                        "RowName": "Gas_Flyer",
-                        "DataTableName": "D_AutonomousSpawns"
-                    }
-                ]
+                "BiomeSpawnDensity": 5
             },
             "MinLevel": 100,
             "MedianLevel": 110,
@@ -10612,32 +11383,9 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Wooly_Zebra"
-                        },
-                        "SpawnWeight": 2,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Snow_Rabbit"
-                        },
-                        "SpawnWeight": 3,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
                     }
                 ],
-                "RelevantAutonomousSpawners": [
-                    {
-                        "RowName": "Gas_Flyer",
-                        "DataTableName": "D_AutonomousSpawns"
-                    }
-                ]
+                "BiomeSpawnDensity": 5
             },
             "MinLevel": 100,
             "MedianLevel": 110,
@@ -10673,32 +11421,9 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Wooly_Zebra"
-                        },
-                        "SpawnWeight": 2,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Snow_Rabbit"
-                        },
-                        "SpawnWeight": 3,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
                     }
                 ],
-                "RelevantAutonomousSpawners": [
-                    {
-                        "RowName": "Gas_Flyer",
-                        "DataTableName": "D_AutonomousSpawns"
-                    }
-                ]
+                "BiomeSpawnDensity": 5
             },
             "MinLevel": 100,
             "MedianLevel": 110,
@@ -10734,32 +11459,9 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Wooly_Zebra"
-                        },
-                        "SpawnWeight": 1,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Snow_Rabbit"
-                        },
-                        "SpawnWeight": 3,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
                     }
                 ],
-                "RelevantAutonomousSpawners": [
-                    {
-                        "RowName": "Gas_Flyer",
-                        "DataTableName": "D_AutonomousSpawns"
-                    }
-                ]
+                "BiomeSpawnDensity": 5
             },
             "MinLevel": 100,
             "MedianLevel": 110,
@@ -10786,24 +11488,9 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Snow_Rabbit"
-                        },
-                        "SpawnWeight": 3,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
                     }
                 ],
-                "BiomeSpawnDensity": 8,
-                "RelevantAutonomousSpawners": [
-                    {
-                        "RowName": "Gas_Flyer",
-                        "DataTableName": "D_AutonomousSpawns"
-                    }
-                ]
+                "BiomeSpawnDensity": 4
             },
             "MinLevel": 100,
             "MedianLevel": 110,
@@ -10839,24 +11526,9 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Snow_Rabbit"
-                        },
-                        "SpawnWeight": 3,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
                     }
                 ],
-                "BiomeSpawnDensity": 8,
-                "RelevantAutonomousSpawners": [
-                    {
-                        "RowName": "Gas_Flyer",
-                        "DataTableName": "D_AutonomousSpawns"
-                    }
-                ]
+                "BiomeSpawnDensity": 4
             },
             "MinLevel": 100,
             "MedianLevel": 110,
@@ -10904,24 +11576,6 @@
                     },
                     {
                         "AISetup": {
-                            "Value": "Chamois_Var"
-                        },
-                        "SpawnWeight": 2,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Rabbit"
-                        },
-                        "SpawnWeight": 1,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
                             "Value": "Rock_Dog"
                         },
                         "SpawnWeight": 1,
@@ -10930,7 +11584,7 @@
                         }
                     }
                 ],
-                "BiomeSpawnDensity": 10,
+                "BiomeSpawnDensity": 4,
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Predator_Bird_Few",
@@ -10972,36 +11626,9 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Chamois_Var"
-                        },
-                        "SpawnWeight": 2,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Rabbit"
-                        },
-                        "SpawnWeight": 1,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Buffalo"
-                        },
-                        "SpawnWeight": 2,
-                        "EpicCreature": {
-                            "Value": "LargerCreature"
-                        }
                     }
                 ],
-                "BiomeSpawnDensity": 10,
+                "BiomeSpawnDensity": 4,
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Predator_Bird_Few",
@@ -11030,7 +11657,7 @@
                         "AISetup": {
                             "Value": "BlueBack_Lava"
                         },
-                        "SpawnWeight": 5,
+                        "SpawnWeight": 2,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -11046,23 +11673,15 @@
                     },
                     {
                         "AISetup": {
-                            "Value": "Chamois_Var"
+                            "Value": "Roat_Lava"
                         },
-                        "SpawnWeight": 2,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Rabbit"
-                        },
-                        "SpawnWeight": 3,
+                        "SpawnWeight": 1,
                         "EpicCreature": {
                             "Value": "None"
                         }
                     }
-                ]
+                ],
+                "BiomeSpawnDensity": 7
             },
             "MinLevel": 100,
             "MedianLevel": 110,
@@ -11094,7 +11713,7 @@
                         "AISetup": {
                             "Value": "BlueBack_Lava"
                         },
-                        "SpawnWeight": 5,
+                        "SpawnWeight": 2,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -11107,26 +11726,9 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Chamois_Var"
-                        },
-                        "SpawnWeight": 2,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Rabbit"
-                        },
-                        "SpawnWeight": 3,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
                     }
-                ]
+                ],
+                "BiomeSpawnDensity": 7
             },
             "MinLevel": 100,
             "MedianLevel": 110,
@@ -11158,7 +11760,7 @@
                         "AISetup": {
                             "Value": "BlueBack_Lava"
                         },
-                        "SpawnWeight": 5,
+                        "SpawnWeight": 2,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -11183,36 +11785,22 @@
                     },
                     {
                         "AISetup": {
-                            "Value": "Chamois_Var"
-                        },
-                        "SpawnWeight": 2,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Rabbit"
-                        },
-                        "SpawnWeight": 3,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
                             "Value": "Lava_Slug"
                         },
                         "SpawnWeight": 1,
                         "EpicCreature": {
-                            "Value": "Exotic_Infused_Rare"
+                            "Value": "None"
                         }
                     }
                 ],
-                "BiomeSpawnDensity": 10,
+                "BiomeSpawnDensity": 5,
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Gas_Flyer",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "LavaFlyers",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -11247,7 +11835,7 @@
                         "AISetup": {
                             "Value": "BlueBack_Lava"
                         },
-                        "SpawnWeight": 5,
+                        "SpawnWeight": 2,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -11281,36 +11869,22 @@
                     },
                     {
                         "AISetup": {
-                            "Value": "Chamois_Var"
-                        },
-                        "SpawnWeight": 2,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Rabbit"
-                        },
-                        "SpawnWeight": 3,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
                             "Value": "Lava_Slug"
                         },
                         "SpawnWeight": 1,
                         "EpicCreature": {
-                            "Value": "Exotic_Infused_Rare"
+                            "Value": "None"
                         }
                     }
                 ],
-                "BiomeSpawnDensity": 10,
+                "BiomeSpawnDensity": 5,
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Gas_Flyer",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "LavaFlyers",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -11345,7 +11919,7 @@
                         "AISetup": {
                             "Value": "BlueBack_Lava"
                         },
-                        "SpawnWeight": 5,
+                        "SpawnWeight": 2,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -11379,36 +11953,22 @@
                     },
                     {
                         "AISetup": {
-                            "Value": "Chamois_Var"
-                        },
-                        "SpawnWeight": 2,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Rabbit"
-                        },
-                        "SpawnWeight": 3,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
                             "Value": "Lava_Slug"
                         },
                         "SpawnWeight": 1,
                         "EpicCreature": {
-                            "Value": "Exotic_Infused_Rare"
+                            "Value": "None"
                         }
                     }
                 ],
-                "BiomeSpawnDensity": 10,
+                "BiomeSpawnDensity": 5,
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Gas_Flyer",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "LavaFlyers",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -11434,7 +11994,7 @@
                         "AISetup": {
                             "Value": "Rock_Dog"
                         },
-                        "SpawnWeight": 1,
+                        "SpawnWeight": 2,
                         "EpicCreature": {
                             "Value": "Exotic_Infused"
                         }
@@ -11450,15 +12010,6 @@
                     },
                     {
                         "AISetup": {
-                            "Value": "Lava_Slug"
-                        },
-                        "SpawnWeight": 1,
-                        "EpicCreature": {
-                            "Value": "Exotic_Infused"
-                        }
-                    },
-                    {
-                        "AISetup": {
                             "Value": "Bat_Dog"
                         },
                         "SpawnWeight": 3,
@@ -11468,26 +12019,22 @@
                     },
                     {
                         "AISetup": {
-                            "Value": "Chamois_Var"
+                            "Value": "Roat_Lava"
                         },
                         "SpawnWeight": 2,
                         "EpicCreature": {
                             "Value": "None"
                         }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Rabbit"
-                        },
-                        "SpawnWeight": 3,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
                     }
                 ],
+                "BiomeSpawnDensity": 7,
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Gas_Flyer",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "LavaFlyers",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -11513,7 +12060,7 @@
                         "AISetup": {
                             "Value": "Rock_Dog"
                         },
-                        "SpawnWeight": 1,
+                        "SpawnWeight": 2,
                         "EpicCreature": {
                             "Value": "Exotic_Infused"
                         }
@@ -11529,34 +12076,7 @@
                     },
                     {
                         "AISetup": {
-                            "Value": "Lava_Slug"
-                        },
-                        "SpawnWeight": 1,
-                        "EpicCreature": {
-                            "Value": "Exotic_Infused"
-                        }
-                    },
-                    {
-                        "AISetup": {
                             "Value": "Bat_Dog"
-                        },
-                        "SpawnWeight": 3,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Chamois_Var"
-                        },
-                        "SpawnWeight": 2,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Rabbit"
                         },
                         "SpawnWeight": 3,
                         "EpicCreature": {
@@ -11564,9 +12084,14 @@
                         }
                     }
                 ],
+                "BiomeSpawnDensity": 7,
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Gas_Flyer",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "LavaFlyers",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -11592,7 +12117,7 @@
                         "AISetup": {
                             "Value": "BlueBack_Lava"
                         },
-                        "SpawnWeight": 4,
+                        "SpawnWeight": 2,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -11635,23 +12160,15 @@
                     },
                     {
                         "AISetup": {
-                            "Value": "Chamois_Var"
+                            "Value": "Roat_Lava"
                         },
                         "SpawnWeight": 2,
                         "EpicCreature": {
                             "Value": "None"
                         }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Rabbit"
-                        },
-                        "SpawnWeight": 3,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
                     }
-                ]
+                ],
+                "BiomeSpawnDensity": 5
             },
             "MinLevel": 100,
             "MedianLevel": 110,
@@ -11674,7 +12191,7 @@
                         "AISetup": {
                             "Value": "BlueBack_Lava"
                         },
-                        "SpawnWeight": 4,
+                        "SpawnWeight": 2,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -11714,30 +12231,164 @@
                         "EpicCreature": {
                             "Value": "Exotic_Infused"
                         }
-                    },
+                    }
+                ],
+                "BiomeSpawnDensity": 7
+            },
+            "MinLevel": 100,
+            "MedianLevel": 110,
+            "MaxLevel": 120
+        },
+        {
+            "Name": "PRO_Lava_General_4_LowDensity",
+            "Creatures": {
+                "BiomeSpawnDensity": 8,
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Gas_Flyer",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
+                ]
+            },
+            "MinLevel": 55,
+            "MedianLevel": 60,
+            "MaxLevel": 65
+        },
+        {
+            "Name": "PRO_Arctic_General_1_LowDensity",
+            "Creatures": {
+                "BiomeSpawnDensity": 8,
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Arctic_Bat",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
+                ]
+            },
+            "MinLevel": 50,
+            "MedianLevel": 70,
+            "MaxLevel": 90
+        },
+        {
+            "Name": "Outpost_Tundra",
+            "Creatures": {
+                "AISpawnList": [
                     {
                         "AISetup": {
-                            "Value": "Chamois_Var"
-                        },
-                        "SpawnWeight": 2,
-                        "EpicCreature": {
-                            "Value": "None"
-                        }
-                    },
-                    {
-                        "AISetup": {
-                            "Value": "Rabbit"
+                            "Value": "Rabbit_Variant"
                         },
                         "SpawnWeight": 3,
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "SnowLeopard"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Snow_Wolf"
+                        },
+                        "SpawnWeight": 8,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Deer_Variant"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Snow_Rabbit"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "BlueBack"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Deer"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                ],
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Kea",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
-            "MinLevel": 100,
-            "MedianLevel": 110,
-            "MaxLevel": 120
+            "MedianLevel": 15,
+            "MaxLevel": 30
+        },
+        {
+            "Name": "Outpost_009_Volcano",
+            "Creatures": {
+                "AISpawnList": [
+                    {
+                        "AISetup": {
+                            "Value": "Buffalo"
+                        },
+                        "SpawnWeight": 10,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Lava_Komodo"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "LavaBroodlingWorldSpawn"
+                        },
+                        "SpawnWeight": 1,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                ],
+                "BiomeSpawnDensity": 4,
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Gas_Flyer",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
+                ]
+            },
+            "MedianLevel": 15,
+            "MaxLevel": 30
         }
     ]
 }

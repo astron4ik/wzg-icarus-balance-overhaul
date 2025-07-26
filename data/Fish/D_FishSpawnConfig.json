@@ -778,6 +778,36 @@
                     }
                 }
             ]
+        },
+        {
+            "Name": "Outpost_009",
+            "SpawnMap": "/Game/Heatmaps/Outpost_009/GT_Outpost009_Fish.GT_Outpost009_Fish",
+            "SpawnZones": [
+                {
+                    "Color": {
+                        "B": 254,
+                        "G": 248,
+                        "R": 7,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "OP_Arctic",
+                        "DataTableName": "D_FishSpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 38,
+                        "G": 131,
+                        "R": 125,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "OP_Geothermal",
+                        "DataTableName": "D_FishSpawnZones"
+                    }
+                }
+            ]
         }
     ]
 }

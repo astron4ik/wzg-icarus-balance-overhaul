@@ -19,6 +19,14 @@
             }
         },
         {
+            "Name": "Gauntlet_Charge",
+            "EndActionCost": 10,
+            "PerSecondCost": 8,
+            "EffectingStat": {
+                "Value": "ToolStaminaActionCost_+%"
+            }
+        },
+        {
             "Name": "Wood_Bow_Draw",
             "PerSecondCost": 8,
             "EffectingStat": {
@@ -113,7 +121,7 @@
         },
         {
             "Name": "FireWhacker_Melee",
-            "BeginActionCost": 10,
+            "BeginActionCost": 3,
             "EffectingStat": {
                 "Value": "ToolStaminaActionCost_+%"
             }
@@ -196,6 +204,20 @@
             "BeginActionCost": 70,
             "EffectingStat": {
                 "Value": "JumpingStaminaActionCost_+%"
+            }
+        },
+        {
+            "Name": "LegendaryWeapon_Ape_Club",
+            "BeginActionCost": 30,
+            "EffectingStat": {
+                "Value": "ToolStaminaActionCost_+%"
+            }
+        },
+        {
+            "Name": "LegendaryWeapon_Ape_Club_Slam",
+            "BeginActionCost": 50,
+            "EffectingStat": {
+                "Value": "ToolStaminaActionCost_+%"
             }
         }
     ]

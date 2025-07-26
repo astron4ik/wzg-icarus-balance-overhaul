@@ -1,12 +1,12 @@
 {
     "RowStruct": "/Script/Icarus.FactionMission",
     "Defaults": {
-        "Icon": "None",
         "MissionObjectives": [],
         "Faction": {
             "RowName": "None",
             "DataTableName": "D_FactionInfo"
         },
+        "Types": [],
         "CurrencyCost": [],
         "InitialQuest": {
             "RowName": "None",
@@ -15,16 +15,17 @@
         "bUseOpenWorldRetryTimeout": true,
         "AdditionalRulesets": [],
         "ItemsRewarded": [],
+        "AccountFlagsRewarded": [],
         "CharacterFlagsRewarded": [],
         "TalentsRewarded": [],
         "CurrencyRewarded": [],
+        "GreatHuntReward": [],
         "AccountExperience": 0,
         "FactionExperience": 0
     },
     "Rows": [
         {
             "Name": "OLY_Forest_Recon",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_ExpeditionSpear01_Small.T_Prospect_Forest_ExpeditionSpear01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -32,6 +33,20 @@
                         "DataTableName": "D_Quests"
                     },
                     "Depth": 0
+                }
+            ],
+            "Types": [
+                {
+                    "RowName": "Recon",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Training",
+                    "DataTableName": "D_MissionTypes"
                 }
             ],
             "InitialQuest": {
@@ -59,7 +74,6 @@
         },
         {
             "Name": "OLY_Forest_Scan",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_TransmitterDefense01_Small.T_Prospect_Forest_TransmitterDefense01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -81,6 +95,12 @@
                         "DataTableName": "D_Quests"
                     },
                     "Depth": 0
+                }
+            ],
+            "Types": [
+                {
+                    "RowName": "Scan",
+                    "DataTableName": "D_MissionTypes"
                 }
             ],
             "InitialQuest": {
@@ -108,7 +128,6 @@
         },
         {
             "Name": "OLY_Forest_Survey",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_TransmitterWolves01_Small.T_Prospect_Forest_TransmitterWolves01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -142,6 +161,12 @@
             "Faction": {
                 "RowName": "Uniao"
             },
+            "Types": [
+                {
+                    "RowName": "Scan",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "BW6_Survey"
             },
@@ -165,7 +190,6 @@
         },
         {
             "Name": "OLY_Forest_Stockpile",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Delivery01_Small.T_Prospect_Forest_Delivery01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -178,6 +202,20 @@
             "Faction": {
                 "RowName": "ACS"
             },
+            "Types": [
+                {
+                    "RowName": "Farming",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Stockpile",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Forest_Stockpile_0"
             },
@@ -201,7 +239,6 @@
         },
         {
             "Name": "OLY_Forest_Research",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_ResearchPlant01_Small.T_Prospect_Forest_ResearchPlant01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -209,6 +246,16 @@
                         "DataTableName": "D_Quests"
                     },
                     "Depth": 0
+                }
+            ],
+            "Types": [
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
                 }
             ],
             "InitialQuest": {
@@ -234,7 +281,6 @@
         },
         {
             "Name": "OLY_Forest_Extermination",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Extermination01_Small.T_Prospect_Forest_Extermination01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -254,6 +300,12 @@
             "Faction": {
                 "RowName": "The_Assembly"
             },
+            "Types": [
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "BW6_Extermination"
             },
@@ -277,7 +329,6 @@
         },
         {
             "Name": "OLY_Forest_Exploration",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Expedition01_Small.T_Prospect_Arctic_Expedition01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -285,6 +336,16 @@
                         "DataTableName": "D_Quests"
                     },
                     "Depth": 0
+                }
+            ],
+            "Types": [
+                {
+                    "RowName": "Exploration",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
                 }
             ],
             "InitialQuest": {
@@ -299,7 +360,6 @@
         },
         {
             "Name": "OLY_Farming",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Farming01_Small.T_Prospect_Forest_Farming01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -326,6 +386,12 @@
             "Faction": {
                 "RowName": "ACS"
             },
+            "Types": [
+                {
+                    "RowName": "Farming",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Farming"
             },
@@ -349,7 +415,6 @@
         },
         {
             "Name": "OLY_Forest_Defense",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_DefenseSpear01_Small.T_Prospect_Forest_DefenseSpear01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -369,6 +434,12 @@
             "Faction": {
                 "RowName": "The_Assembly"
             },
+            "Types": [
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Forest_Defense"
             },
@@ -392,7 +463,6 @@
         },
         {
             "Name": "OLY_Forest_Construction",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Base_Chill01_Small.T_Prospect_Base_Chill01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -405,6 +475,12 @@
             "Faction": {
                 "RowName": "The_Assembly"
             },
+            "Types": [
+                {
+                    "RowName": "Construction",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Forest_Construction"
             },
@@ -428,7 +504,6 @@
         },
         {
             "Name": "OLY_Glacier_Expedition",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Storm01_Small.T_Prospect_Arctic_Storm01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -466,9 +541,29 @@
                     "Depth": 1
                 }
             ],
+            "Types": [
+                {
+                    "RowName": "Expedition",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Glacier_Expedition"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_BW_Trophies",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_OLY_Glacier_Expedition",
@@ -491,7 +586,6 @@
         },
         {
             "Name": "OLY_Glacier_Scan",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_TransmitterDefense01_Small.T_Prospect_Forest_TransmitterDefense01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -513,6 +607,12 @@
                         "DataTableName": "D_Quests"
                     },
                     "Depth": 0
+                }
+            ],
+            "Types": [
+                {
+                    "RowName": "Scan",
+                    "DataTableName": "D_MissionTypes"
                 }
             ],
             "InitialQuest": {
@@ -540,7 +640,6 @@
         },
         {
             "Name": "OLY_Glacier_Recovery",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Recovery01_Small.T_Prospect_Arctic_Recovery01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -567,6 +666,12 @@
             "Faction": {
                 "RowName": "Lagos"
             },
+            "Types": [
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "BW4_Satellites"
             },
@@ -590,7 +695,6 @@
         },
         {
             "Name": "OLY_Glacier_Construction",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Pickaxe01_Small.T_Prospect_Arctic_Pickaxe01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -610,6 +714,12 @@
             "Faction": {
                 "RowName": "Uniao"
             },
+            "Types": [
+                {
+                    "RowName": "Construction",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Glacier_Construction_0"
             },
@@ -643,7 +753,6 @@
         },
         {
             "Name": "OLY_Glacier_Research",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Cave_Lantern01_Small.T_Prospect_Cave_Lantern01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -677,6 +786,12 @@
             "Faction": {
                 "RowName": "Sinotai"
             },
+            "Types": [
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Glacier_Research"
             },
@@ -698,7 +813,6 @@
         },
         {
             "Name": "OLY_Glacier_Extraction",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_PolarbearDeath01_Small.T_Prospect_Arctic_PolarbearDeath01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -732,6 +846,16 @@
             "Faction": {
                 "RowName": "The_Assembly"
             },
+            "Types": [
+                {
+                    "RowName": "Training",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Exotic",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Glacier_Extraction_0"
             },
@@ -753,7 +877,6 @@
         },
         {
             "Name": "OLY_Glacier_Exploration",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_HeavyFog01_Small.T_Prospect_Arctic_HeavyFog01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -775,7 +898,6 @@
         },
         {
             "Name": "OLY_Canyons_Expedition",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_GroupBase01_Small.T_Prospect_Desert_GroupBase01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -785,9 +907,25 @@
                     "Depth": 0
                 }
             ],
+            "Types": [
+                {
+                    "RowName": "Expedition",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Canyon_Expedition"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SW_Trophies",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_OLY_Canyon_Expedition",
@@ -810,7 +948,6 @@
         },
         {
             "Name": "OLY_Canyons_Scan",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_TransmitterDefense01_Small.T_Prospect_Forest_TransmitterDefense01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -832,6 +969,12 @@
                         "DataTableName": "D_Quests"
                     },
                     "Depth": 0
+                }
+            ],
+            "Types": [
+                {
+                    "RowName": "Scan",
+                    "DataTableName": "D_MissionTypes"
                 }
             ],
             "InitialQuest": {
@@ -859,7 +1002,6 @@
         },
         {
             "Name": "OLY_Canyons_Recovery",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_Lurker01_Small.T_Prospect_Desert_Lurker01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -893,6 +1035,12 @@
             "Faction": {
                 "RowName": "ACS"
             },
+            "Types": [
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "BW6_Recovery"
             },
@@ -928,7 +1076,6 @@
         },
         {
             "Name": "OLY_Canyons_Survey",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_Delivery01_Small.T_Prospect_Desert_Delivery01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -948,9 +1095,21 @@
             "Faction": {
                 "RowName": "Uniao"
             },
+            "Types": [
+                {
+                    "RowName": "Recon",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Canyon_Survey"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SW_Building2",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_OLY_Canyon_Survey",
@@ -971,7 +1130,6 @@
         },
         {
             "Name": "OLY_Canyons_Construction",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_GroupBase01_Small.T_Prospect_Desert_GroupBase01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -991,9 +1149,21 @@
             "Faction": {
                 "RowName": "The_Assembly"
             },
+            "Types": [
+                {
+                    "RowName": "Construction",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Canyon_Construction_0"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SW_Building",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_OLY_Canyon_Construction",
@@ -1012,7 +1182,6 @@
         },
         {
             "Name": "OLY_Canyons_Exploration",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Expedition01_Small.T_Prospect_Arctic_Expedition01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1034,7 +1203,6 @@
         },
         {
             "Name": "OLY_Canyons_Stockpile",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_Delivery01_Small.T_Prospect_Desert_Delivery01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1047,6 +1215,16 @@
             "Faction": {
                 "RowName": "ACS"
             },
+            "Types": [
+                {
+                    "RowName": "Stockpile",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Mining",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Canyon_Stockpile"
             },
@@ -1070,7 +1248,6 @@
         },
         {
             "Name": "OLY_Canyons_Stockpile_2",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_Delivery01_Small.T_Prospect_Desert_Delivery01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1083,6 +1260,16 @@
             "Faction": {
                 "RowName": "Group_15"
             },
+            "Types": [
+                {
+                    "RowName": "Stockpile",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Canyon_Stockpile2"
             },
@@ -1106,7 +1293,6 @@
         },
         {
             "Name": "OLY_Canyon_LongSurvey",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_Delivery01_Small.T_Prospect_Desert_Delivery01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1119,6 +1305,12 @@
             "Faction": {
                 "RowName": "Uniao"
             },
+            "Types": [
+                {
+                    "RowName": "Scan",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Canyon_LongSurvey_0"
             },
@@ -1142,7 +1334,6 @@
         },
         {
             "Name": "OLY_Riverlands_Expedition",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_SwampSpearDeer01_Small.T_Prospect_Forest_SwampSpearDeer01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1159,9 +1350,25 @@
                     "Depth": 0
                 }
             ],
+            "Types": [
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Expedition",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Riverlands_Expedition"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_BW_Trap",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_OLY_Riverlands_Expedition",
@@ -1184,7 +1391,6 @@
         },
         {
             "Name": "OLY_Riverlands_Scan",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_TransmitterDefense01_Small.T_Prospect_Forest_TransmitterDefense01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1206,6 +1412,12 @@
                         "DataTableName": "D_Quests"
                     },
                     "Depth": 0
+                }
+            ],
+            "Types": [
+                {
+                    "RowName": "Scan",
+                    "DataTableName": "D_MissionTypes"
                 }
             ],
             "InitialQuest": {
@@ -1233,7 +1445,6 @@
         },
         {
             "Name": "OLY_Riverlands_Extermination",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Extermination01_Small.T_Prospect_Forest_Extermination01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1260,13 +1471,19 @@
             "Faction": {
                 "RowName": "Sinotai"
             },
+            "Types": [
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Riverlands_Extermination_0"
             },
-            "CharacterFlagsRewarded": [
+            "AccountFlagsRewarded": [
                 {
-                    "RowName": "Unlocked_Bait",
-                    "DataTableName": "D_CharacterFlags"
+                    "RowName": "GrantedBlueprint_Bait",
+                    "DataTableName": "D_AccountFlags"
                 }
             ],
             "TalentsRewarded": [
@@ -1287,7 +1504,6 @@
         },
         {
             "Name": "OLY_Riverlands_LongSurvey",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_TransmitterWolves01_Small.T_Prospect_Forest_TransmitterWolves01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1300,6 +1516,12 @@
             "Faction": {
                 "RowName": "Uniao"
             },
+            "Types": [
+                {
+                    "RowName": "Scan",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Riverlands_LongSurvey_0"
             },
@@ -1323,7 +1545,6 @@
         },
         {
             "Name": "OLY_Riverlands_Research",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_ResearchPlant01_Small.T_Prospect_Forest_ResearchPlant01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1343,6 +1564,12 @@
             "Faction": {
                 "RowName": "Group_15"
             },
+            "Types": [
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Riverlands_Research_0"
             },
@@ -1364,7 +1591,6 @@
         },
         {
             "Name": "OLY_Riverlands_Exploration",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_SwampSpearDeer01_Small.T_Prospect_Forest_SwampSpearDeer01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1386,7 +1612,6 @@
         },
         {
             "Name": "OLY_Riverlands_Stockpile",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Delivery01_Small.T_Prospect_Forest_Delivery01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1399,6 +1624,12 @@
             "Faction": {
                 "RowName": "Sinotai"
             },
+            "Types": [
+                {
+                    "RowName": "Stockpile",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Riverlands_Stockpile"
             },
@@ -1422,7 +1653,6 @@
         },
         {
             "Name": "OLY_Riverlands_Stockpile_2",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Extermination01_Small.T_Prospect_Forest_Extermination01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1435,9 +1665,29 @@
             "Faction": {
                 "RowName": "Sinotai"
             },
+            "Types": [
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Stockpile",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Riverlands_Stockpile_2"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_BW_Armor",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_OLY_Riverlands_Stockpile_2",
@@ -1458,7 +1708,6 @@
         },
         {
             "Name": "OLY_Riverlands_Construction",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Lumberjack01_Small.T_Prospect_Forest_Lumberjack01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1478,6 +1727,12 @@
             "Faction": {
                 "RowName": "ACS"
             },
+            "Types": [
+                {
+                    "RowName": "Construction",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Riverlands_Construction_0"
             },
@@ -1499,7 +1754,6 @@
         },
         {
             "Name": "OLY_Riverlands_Delivery",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_HeavyFog01_Small.T_Prospect_Arctic_HeavyFog01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1519,6 +1773,12 @@
             "Faction": {
                 "RowName": "Group_15"
             },
+            "Types": [
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Riverlands_Delivery"
             },
@@ -1540,7 +1800,6 @@
         },
         {
             "Name": "OLY_Riverlands_Extraction",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Lantern01_Small.T_Prospect_Arctic_Lantern01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1560,6 +1819,16 @@
             "Faction": {
                 "RowName": "Group_15"
             },
+            "Types": [
+                {
+                    "RowName": "Mining",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Stockpile",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Riverlands_Extraction"
             },
@@ -1599,7 +1868,6 @@
         },
         {
             "Name": "OLY_Arctic_Expedition",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Storm01_Small.T_Prospect_Arctic_Storm01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1616,9 +1884,25 @@
                     "Depth": 0
                 }
             ],
+            "Types": [
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Expedition",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Arctic_Expedition"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_BW_Module",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_OLY_Arctic_Expedition",
@@ -1641,7 +1925,6 @@
         },
         {
             "Name": "OLY_Arctic_Scan",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_TransmitterDefense01_Small.T_Prospect_Forest_TransmitterDefense01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1663,6 +1946,12 @@
                         "DataTableName": "D_Quests"
                     },
                     "Depth": 0
+                }
+            ],
+            "Types": [
+                {
+                    "RowName": "Scan",
+                    "DataTableName": "D_MissionTypes"
                 }
             ],
             "InitialQuest": {
@@ -1694,7 +1983,6 @@
         },
         {
             "Name": "OLY_Arctic_Extraction",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_PolarbearDeath01_Small.T_Prospect_Arctic_PolarbearDeath01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1728,6 +2016,20 @@
             "Faction": {
                 "RowName": "Uniao"
             },
+            "Types": [
+                {
+                    "RowName": "Training",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Exotic",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Mining",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Arctic_Extraction_0"
             },
@@ -1749,7 +2051,6 @@
         },
         {
             "Name": "OLY_Arctic_Extermination",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Extermination01_Small.T_Prospect_Forest_Extermination01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1769,6 +2070,12 @@
             "Faction": {
                 "RowName": "Group_15"
             },
+            "Types": [
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "BW3_Mammoth"
             },
@@ -1790,7 +2097,6 @@
         },
         {
             "Name": "OLY_Arctic_Recovery",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Recovery01_Small.T_Prospect_Arctic_Recovery01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1798,6 +2104,12 @@
                         "DataTableName": "D_Quests"
                     },
                     "Depth": 0
+                }
+            ],
+            "Types": [
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
                 }
             ],
             "InitialQuest": {
@@ -1821,7 +2133,6 @@
         },
         {
             "Name": "OLY_Arctic_LongSurvey",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_TransmitterDefense01_Small.T_Prospect_Forest_TransmitterDefense01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1834,6 +2145,12 @@
             "Faction": {
                 "RowName": "Uniao"
             },
+            "Types": [
+                {
+                    "RowName": "Scan",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Arctic_LongSurvey_0"
             },
@@ -1857,7 +2174,6 @@
         },
         {
             "Name": "OLY_Arctic_Stockpile",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Lumberjack01_Small.T_Prospect_Forest_Lumberjack01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1870,6 +2186,12 @@
             "Faction": {
                 "RowName": "Sinotai"
             },
+            "Types": [
+                {
+                    "RowName": "Stockpile",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Arctic_Stockpile_0"
             },
@@ -1893,7 +2215,6 @@
         },
         {
             "Name": "OLY_Arctic_Exploration",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Pickaxe01_Small.T_Prospect_Arctic_Pickaxe01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1932,7 +2253,6 @@
         },
         {
             "Name": "OLY_Desert_Expedition",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_Lurker01_Small.T_Prospect_Desert_Lurker01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1942,9 +2262,29 @@
                     "Depth": 0
                 }
             ],
+            "Types": [
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Recon",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Expedition",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Desert_Expedition"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SW_Module",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_OLY_Desert_Expedition",
@@ -1967,7 +2307,6 @@
         },
         {
             "Name": "OLY_Desert_Scan",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_TransmitterDefense01_Small.T_Prospect_Forest_TransmitterDefense01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -1989,6 +2328,12 @@
                         "DataTableName": "D_Quests"
                     },
                     "Depth": 0
+                }
+            ],
+            "Types": [
+                {
+                    "RowName": "Scan",
+                    "DataTableName": "D_MissionTypes"
                 }
             ],
             "InitialQuest": {
@@ -2020,7 +2365,6 @@
         },
         {
             "Name": "OLY_Desert_Extermination",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Extermination01_Small.T_Prospect_Forest_Extermination01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2033,9 +2377,21 @@
             "Faction": {
                 "RowName": "Lagos"
             },
+            "Types": [
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Desert_Extermination_0"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SandwormRange",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_OLY_Desert_Extermination",
@@ -2054,7 +2410,6 @@
         },
         {
             "Name": "OLY_Desert_Extermination_2",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_ScorpionBoss01_Small.T_Prospect_Desert_ScorpionBoss01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2067,6 +2422,16 @@
             "Faction": {
                 "RowName": "Lagos"
             },
+            "Types": [
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Desert_Extermination_2"
             },
@@ -2088,7 +2453,6 @@
         },
         {
             "Name": "OLY_Desert_Research",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_ResearchPlant01_Small.T_Prospect_Forest_ResearchPlant01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2101,6 +2465,12 @@
             "Faction": {
                 "RowName": "Sinotai"
             },
+            "Types": [
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Desert_Research_0"
             },
@@ -2122,7 +2492,6 @@
         },
         {
             "Name": "OLY_Desert_Research_2",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_ScorpionSummon01_Small.T_Prospect_Desert_ScorpionSummon01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2135,13 +2504,23 @@
             "Faction": {
                 "RowName": "Sinotai"
             },
+            "Types": [
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Desert_Research_2"
             },
-            "CharacterFlagsRewarded": [
+            "AccountFlagsRewarded": [
                 {
-                    "RowName": "Mission_Scorpion_Item_Analyzer",
-                    "DataTableName": "D_CharacterFlags"
+                    "RowName": "GrantedBlueprint_ScorpionTrap",
+                    "DataTableName": "D_AccountFlags"
                 }
             ],
             "TalentsRewarded": [
@@ -2162,7 +2541,6 @@
         },
         {
             "Name": "OLY_Desert_Recovery",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_ScorpionSpear01_Small.T_Prospect_Desert_ScorpionSpear01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2182,6 +2560,16 @@
             "Faction": {
                 "RowName": "Sinotai"
             },
+            "Types": [
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Stockpile",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Desert_Recovery"
             },
@@ -2203,7 +2591,6 @@
         },
         {
             "Name": "OLY_Desert_Recovery_2",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_Building01_Small.T_Prospect_Desert_Building01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2223,6 +2610,16 @@
             "Faction": {
                 "RowName": "Sinotai"
             },
+            "Types": [
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Desert_Recovery_2"
             },
@@ -2244,7 +2641,6 @@
         },
         {
             "Name": "OLY_Desert_Construction",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_GroupBase01_Small.T_Prospect_Desert_GroupBase01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2264,6 +2660,12 @@
             "Faction": {
                 "RowName": "The_Assembly"
             },
+            "Types": [
+                {
+                    "RowName": "Construction",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Desert_Construction_0"
             },
@@ -2285,7 +2687,6 @@
         },
         {
             "Name": "OLY_Desert_Exploration",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Expedition01_Small.T_Prospect_Arctic_Expedition01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2307,7 +2708,6 @@
         },
         {
             "Name": "OLY_Desert_Survey",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_Sandworm01_Small.T_Prospect_Desert_Sandworm01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2341,13 +2741,19 @@
             "Faction": {
                 "RowName": "Sinotai"
             },
+            "Types": [
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Desert_Survey"
             },
-            "CharacterFlagsRewarded": [
+            "AccountFlagsRewarded": [
                 {
-                    "RowName": "Mission_Sandworm_Items",
-                    "DataTableName": "D_CharacterFlags"
+                    "RowName": "GrantedBlueprint_SandwormArmor",
+                    "DataTableName": "D_AccountFlags"
                 }
             ],
             "TalentsRewarded": [
@@ -2390,7 +2796,6 @@
         },
         {
             "Name": "OLY_Omni_Exploration",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_ExtractorExpedition01_Small.T_Prospect_Forest_ExtractorExpedition01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2398,6 +2803,16 @@
                         "DataTableName": "D_Quests"
                     },
                     "Depth": 0
+                }
+            ],
+            "Types": [
+                {
+                    "RowName": "Exploration",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Exotic",
+                    "DataTableName": "D_MissionTypes"
                 }
             ],
             "InitialQuest": {
@@ -2412,7 +2827,6 @@
         },
         {
             "Name": "OLY_Omni_Recovery",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_CrashSatellite01_Small.T_Prospect_Forest_CrashSatellite01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2432,6 +2846,16 @@
             "Faction": {
                 "RowName": "ACS"
             },
+            "Types": [
+                {
+                    "RowName": "Construction",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Omni_Recovery"
             },
@@ -2460,7 +2884,6 @@
         },
         {
             "Name": "OLY_Omni_Research",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Cave_WormRifle01_Small.T_Prospect_Cave_WormRifle01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2473,13 +2896,19 @@
             "Faction": {
                 "RowName": "ACS"
             },
+            "Types": [
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Omni_Research"
             },
-            "CharacterFlagsRewarded": [
+            "AccountFlagsRewarded": [
                 {
-                    "RowName": "Mission_Cave_Worm_Analyser",
-                    "DataTableName": "D_CharacterFlags"
+                    "RowName": "GrantedBlueprint_CavewormMelee",
+                    "DataTableName": "D_AccountFlags"
                 }
             ],
             "TalentsRewarded": [
@@ -2507,7 +2936,6 @@
         },
         {
             "Name": "OLY_Omni_Research_2",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_CrashSatellite01_Small.T_Prospect_Forest_CrashSatellite01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2527,6 +2955,16 @@
             "Faction": {
                 "RowName": "Group_15"
             },
+            "Types": [
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Recon",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Omni_Research_2"
             },
@@ -2555,7 +2993,6 @@
         },
         {
             "Name": "STYX_A_Expedition",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_SwampSpearDeer01_Small.T_Prospect_Forest_SwampSpearDeer01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2582,6 +3019,20 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Expedition",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_A_Expedition"
             },
@@ -2609,7 +3060,6 @@
         },
         {
             "Name": "STYX_A_Exploration",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Expedition01_Small.T_Prospect_Arctic_Expedition01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2636,7 +3086,6 @@
         },
         {
             "Name": "STYX_A_Extermination",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_ScorpionBoss01_Small.T_Prospect_Desert_ScorpionBoss01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2649,13 +3098,19 @@
             "Faction": {
                 "RowName": "ACS"
             },
+            "Types": [
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_A_Extermination"
             },
-            "CharacterFlagsRewarded": [
+            "AccountFlagsRewarded": [
                 {
-                    "RowName": "Mission_Scorpion_Armor_Items",
-                    "DataTableName": "D_CharacterFlags"
+                    "RowName": "GrantedBlueprint_ScorpionArmor",
+                    "DataTableName": "D_AccountFlags"
                 }
             ],
             "TalentsRewarded": [
@@ -2685,7 +3140,6 @@
         },
         {
             "Name": "STYX_B_Expedition",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Pickaxe01_Small.T_Prospect_Arctic_Pickaxe01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2712,9 +3166,29 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Expedition",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Scan",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_B_Expedition"
             },
+            "CharacterFlagsRewarded": [
+                {
+                    "RowName": "StyxBlocker_B_TooltipOnly",
+                    "DataTableName": "D_CharacterFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Styx_B_Expedition",
@@ -2746,7 +3220,6 @@
         },
         {
             "Name": "STYX_B_Exploration",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_HeavyFog01_Small.T_Prospect_Arctic_HeavyFog01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2773,7 +3246,6 @@
         },
         {
             "Name": "STYX_B_Extermination",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Lantern01_Small.T_Prospect_Arctic_Lantern01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2786,6 +3258,16 @@
             "Faction": {
                 "RowName": "ACS"
             },
+            "Types": [
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_B_Extermination"
             },
@@ -2816,7 +3298,6 @@
         },
         {
             "Name": "STYX_C_Expedition",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_Expedition01_Small.T_Prospect_Desert_Expedition01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2829,9 +3310,29 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Expedition",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Scan",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_C_Expedition_0"
             },
+            "CharacterFlagsRewarded": [
+                {
+                    "RowName": "StyxBlocker_C_TooltipOnly",
+                    "DataTableName": "D_CharacterFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Styx_C_Expedition",
@@ -2863,7 +3364,6 @@
         },
         {
             "Name": "STYX_C_Exploration",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_GroupBase01_Small.T_Prospect_Desert_GroupBase01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2890,7 +3390,6 @@
         },
         {
             "Name": "STYX_C_Construction",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_Building01_Small.T_Prospect_Desert_Building01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2903,9 +3402,21 @@
             "Faction": {
                 "RowName": "Uniao"
             },
+            "Types": [
+                {
+                    "RowName": "Construction",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_C_Construction"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SC_Trophies",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Styx_C_Construction",
@@ -2933,7 +3444,6 @@
         },
         {
             "Name": "STYX_C_Extermination",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_Sandworm01_Small.T_Prospect_Desert_Sandworm01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2946,6 +3456,12 @@
             "Faction": {
                 "RowName": "Sinotai"
             },
+            "Types": [
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_C_Extermination"
             },
@@ -2969,7 +3485,6 @@
         },
         {
             "Name": "STYX_D_Expedition",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_ExpeditionSpear01_Small.T_Prospect_Forest_ExpeditionSpear01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -2989,9 +3504,33 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Expedition",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Scan",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_D_Expedition"
             },
+            "CharacterFlagsRewarded": [
+                {
+                    "RowName": "StyxBlocker_D_TooltipOnly",
+                    "DataTableName": "D_CharacterFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Styx_D_Expedition",
@@ -3023,7 +3562,6 @@
         },
         {
             "Name": "STYX_D_Exploration",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_PolarbearDeath01_Small.T_Prospect_Arctic_PolarbearDeath01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3050,7 +3588,6 @@
         },
         {
             "Name": "STYX_D_Extermination",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_SnowWolf01_Small.T_Prospect_Arctic_SnowWolf01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3063,13 +3600,19 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_D_Extermination"
             },
-            "CharacterFlagsRewarded": [
+            "AccountFlagsRewarded": [
                 {
-                    "RowName": "Mission_BlackWolf_Items",
-                    "DataTableName": "D_CharacterFlags"
+                    "RowName": "GrantedBlueprint_BlackWolfKnifeArrow",
+                    "DataTableName": "D_AccountFlags"
                 }
             ],
             "TalentsRewarded": [
@@ -3099,7 +3642,6 @@
         },
         {
             "Name": "STYX_D_Delivery",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Delivery01_Small.T_Prospect_Arctic_Delivery01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3112,6 +3654,12 @@
             "Faction": {
                 "RowName": "Uniao"
             },
+            "Types": [
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_D_Delivery"
             },
@@ -3142,7 +3690,6 @@
         },
         {
             "Name": "STYX_D_Recovery",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Crossbow01_Small.T_Prospect_Forest_Crossbow01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3179,6 +3726,12 @@
             "InitialQuest": {
                 "RowName": "STYX_D_Recovery"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SC_Module",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Styx_D_Recovery",
@@ -3206,7 +3759,6 @@
         },
         {
             "Name": "STYX_D_Research",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Lantern01_Small.T_Prospect_Arctic_Lantern01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3226,9 +3778,25 @@
             "Faction": {
                 "RowName": "Sinotai"
             },
+            "Types": [
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_D_Research"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SC_Crossbow",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Styx_D_Research",
@@ -3256,7 +3824,6 @@
         },
         {
             "Name": "STYX_D_Research2",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_ExtractorExpedition01_Small.T_Prospect_Forest_ExtractorExpedition01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3304,6 +3871,16 @@
             "Faction": {
                 "RowName": "Group_15"
             },
+            "Types": [
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Recon",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_D_Research2"
             },
@@ -3334,7 +3911,6 @@
         },
         {
             "Name": "STYX_E_Expedition",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_Expedition02_Small.T_Prospect_Desert_Expedition02_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3361,9 +3937,29 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Expedition",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Scan",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_E_Expedition"
             },
+            "CharacterFlagsRewarded": [
+                {
+                    "RowName": "StyxBlocker_E_TooltipOnly",
+                    "DataTableName": "D_CharacterFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Styx_E_Expedition",
@@ -3395,7 +3991,6 @@
         },
         {
             "Name": "STYX_E_Exploration",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_Lurker01_Small.T_Prospect_Desert_Lurker01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3422,7 +4017,6 @@
         },
         {
             "Name": "STYX_E_Survey",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_ScorpionSummon01_Small.T_Prospect_Desert_ScorpionSummon01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3435,9 +4029,25 @@
             "Faction": {
                 "RowName": "Lagos"
             },
+            "Types": [
+                {
+                    "RowName": "Expedition",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_E_Survey"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SandwormMelee",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Styx_E_Survey",
@@ -3458,7 +4068,6 @@
         },
         {
             "Name": "STYX_E_Research",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_ArmorScorpion01_Small.T_Prospect_Desert_ArmorScorpion01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3478,9 +4087,25 @@
             "Faction": {
                 "RowName": "Group_15"
             },
+            "Types": [
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_E_Research"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SC_Attachment",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Styx_E_Research",
@@ -3508,7 +4133,6 @@
         },
         {
             "Name": "OLY_Omni_Outpost",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_ExtractorExpedition01_Small.T_Prospect_Forest_ExtractorExpedition01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3528,9 +4152,33 @@
             "Faction": {
                 "RowName": "Group_15"
             },
+            "Types": [
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Omni_Outpost"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedTalent_Olympus_Nightfall",
+                    "DataTableName": "D_AccountFlags"
+                },
+                {
+                    "RowName": "GrantedBlueprint_SW_Attachment",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_OLY_Omni_",
@@ -3560,7 +4208,6 @@
         },
         {
             "Name": "STYX_A_Construction",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Construction01_Small.T_Prospect_Forest_Construction01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3587,9 +4234,21 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Construction",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_A_Construction"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_BW_Shield",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Styx_A_Construction",
@@ -3610,7 +4269,6 @@
         },
         {
             "Name": "OLY_Forest_Range",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_BearBow01_Small.T_Prospect_Arctic_BearBow01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3620,13 +4278,19 @@
                     "Depth": 0
                 }
             ],
+            "Types": [
+                {
+                    "RowName": "Training",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Forest_Range"
             },
-            "CharacterFlagsRewarded": [
+            "AccountFlagsRewarded": [
                 {
-                    "RowName": "Mission_Targets",
-                    "DataTableName": "D_CharacterFlags"
+                    "RowName": "GrantedBlueprint_TargetDummy",
+                    "DataTableName": "D_AccountFlags"
                 }
             ],
             "TalentsRewarded": [
@@ -3649,7 +4313,6 @@
         },
         {
             "Name": "STYX_B_Stockpile",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Farming01_Small.T_Prospect_Forest_Farming01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3683,6 +4346,12 @@
             "Faction": {
                 "RowName": "ACS"
             },
+            "Types": [
+                {
+                    "RowName": "Stockpile",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_B_Stockpile"
             },
@@ -3713,7 +4382,6 @@
         },
         {
             "Name": "OLY_Forest_WS_Stockpile",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Dropship01_Small.T_Prospect_Forest_Dropship01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3747,6 +4415,20 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Training",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Stockpile",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Mining",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "OLY_Forest_WS_Stockpile"
             },
@@ -3784,7 +4466,6 @@
         },
         {
             "Name": "PRO_Story_1",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_PROSTORY_1_Small.T_Prospect_PROSTORY_1_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3804,6 +4485,20 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Construction",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Farming",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "PRO_Story_1"
             },
@@ -3837,7 +4532,6 @@
         },
         {
             "Name": "PRO_Story_2",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_PROSTORY_2_Small.T_Prospect_PROSTORY_2_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3850,6 +4544,16 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Recon",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "PRO_Story_2"
             },
@@ -3887,7 +4591,6 @@
         },
         {
             "Name": "PRO_Story_3",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_PROSTORY_3_Small.T_Prospect_PROSTORY_3_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3907,9 +4610,25 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Scan",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "PRO_Story_3"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SL_Axe",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Pro_Story_3",
@@ -3944,7 +4663,6 @@
         },
         {
             "Name": "PRO_Story_4",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_PROSTORY_4_Small.T_Prospect_PROSTORY_4_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -3964,9 +4682,29 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Recon",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "PRO_Story_4"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_LH_Sickle",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Pro_Story_4",
@@ -4001,7 +4739,6 @@
         },
         {
             "Name": "PRO_Story_5",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_PROSTORY_5_Small.T_Prospect_PROSTORY_5_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -4021,6 +4758,16 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "PRO_Story_5"
             },
@@ -4054,7 +4801,6 @@
         },
         {
             "Name": "PRO_Story_6",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_PROSTORY_6_Small.T_Prospect_PROSTORY_6_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -4074,13 +4820,27 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Recon",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "PRO_Story_6"
             },
-            "CharacterFlagsRewarded": [
+            "AccountFlagsRewarded": [
                 {
-                    "RowName": "Mission_AlienFossil",
-                    "DataTableName": "D_CharacterFlags"
+                    "RowName": "GrantedBlueprint_AlienDecorations",
+                    "DataTableName": "D_AccountFlags"
                 }
             ],
             "TalentsRewarded": [
@@ -4243,7 +5003,6 @@
         },
         {
             "Name": "STYX_C_Extermination2",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Crossbow01_Small.T_Prospect_Forest_Crossbow01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -4298,9 +5057,25 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_C_Extermination2"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_CavewormRange",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Styx_C_Extermination2",
@@ -4328,7 +5103,6 @@
         },
         {
             "Name": "STYX_E_Extraction",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Cave_Lantern01_Small.T_Prospect_Cave_Lantern01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -4383,6 +5157,20 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Training",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Exotic",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Recon",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_E_Extraction"
             },
@@ -4413,7 +5201,6 @@
         },
         {
             "Name": "STYX_B_Research",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Transport01_Small.T_Prospect_Forest_Transport01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -4440,9 +5227,25 @@
             "Faction": {
                 "RowName": "Sinotai"
             },
+            "Types": [
+                {
+                    "RowName": "Mining",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Construction",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_B_Research"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedTalent_Styx_Ironclad",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Styx_B_Research",
@@ -4470,7 +5273,6 @@
         },
         {
             "Name": "STYX_A_Extermination2",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Delivery01_Small.T_Prospect_Forest_Delivery01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -4497,9 +5299,25 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Construction",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_A_Extermination2"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_BW_Attachment",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Styx_A_Extermination2",
@@ -4527,7 +5345,6 @@
         },
         {
             "Name": "PRO_A_Stockpile",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Delivery01_Small.T_Prospect_Arctic_Delivery01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -4540,9 +5357,21 @@
             "Faction": {
                 "RowName": "Uniao"
             },
+            "Types": [
+                {
+                    "RowName": "Stockpile",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "PRO_A_Stockpile"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SL_Epoxy",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Pro_A_Stockpile",
@@ -4573,7 +5402,6 @@
         },
         {
             "Name": "STYX_C_Fishing",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_Angler01_Small.T_Prospect_Desert_Angler01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -4600,9 +5428,25 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Fishing",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Stockpile",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "STYX_C_Fishing"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SC_Rod",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Styx_C_Fishing",
@@ -4630,7 +5474,6 @@
         },
         {
             "Name": "PRO_A_Exploration",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Building01_Small.T_Prospect_Forest_Building01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -4662,7 +5505,6 @@
         },
         {
             "Name": "PRO_B_Exploration",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_Sandworm01_Small.T_Prospect_Desert_Sandworm01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -4694,7 +5536,6 @@
         },
         {
             "Name": "PRO_C_Exploration",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_SwampSpearDeer01_Small.T_Prospect_Forest_SwampSpearDeer01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -4726,7 +5567,6 @@
         },
         {
             "Name": "PRO_C_Construction",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Crossbow01_Small.T_Prospect_Forest_Crossbow01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -4739,9 +5579,21 @@
             "Faction": {
                 "RowName": "The_Assembly"
             },
+            "Types": [
+                {
+                    "RowName": "Construction",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "PRO_C_Construction"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SL_Grenade",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Pro_C_Construction",
@@ -4774,7 +5626,6 @@
         },
         {
             "Name": "PRO_C_Research",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Extermination01_Small.T_Prospect_Forest_Extermination01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -4785,7 +5636,7 @@
                 },
                 {
                     "QuestRow": {
-                        "RowName": "PRO_C_Research_Refine",
+                        "RowName": "PRO_C_Research_Refine_MISSIONDISPLAY",
                         "DataTableName": "D_Quests"
                     },
                     "Depth": 0
@@ -4801,9 +5652,25 @@
             "Faction": {
                 "RowName": "Sinotai"
             },
+            "Types": [
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Construction",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "PRO_C_Research"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SL_Attachment",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Pro_C_Research",
@@ -4836,7 +5703,6 @@
         },
         {
             "Name": "PRO_A_Extraction",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Storm01_Small.T_Prospect_Arctic_Storm01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -4847,7 +5713,7 @@
                 },
                 {
                     "QuestRow": {
-                        "RowName": "PRO_A_Extraction_Extract",
+                        "RowName": "PRO_A_Extraction_Extract_MISSIONDISPLAY",
                         "DataTableName": "D_Quests"
                     },
                     "Depth": 0
@@ -4863,6 +5729,20 @@
             "Faction": {
                 "RowName": "Sinotai"
             },
+            "Types": [
+                {
+                    "RowName": "Stockpile",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Construction",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Mining",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "PRO_A_Extraction"
             },
@@ -4898,7 +5778,6 @@
         },
         {
             "Name": "PRO_B_Extermination",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_GroupBase01_Small.T_Prospect_Desert_GroupBase01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -4925,9 +5804,25 @@
             "Faction": {
                 "RowName": "Lagos"
             },
+            "Types": [
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Fishing",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "PRO_B_Extermination"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SL_Trophies",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
             "TalentsRewarded": [
                 {
                     "RowName": "Prospect_Pro_B_Extermination",
@@ -4960,7 +5855,6 @@
         },
         {
             "Name": "PRO_Ashlands_Story",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_GroupBase01_Small.T_Prospect_Desert_GroupBase01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -4987,9 +5881,35 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Expedition",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Recon",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "PRO_Ashlands_Story"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_LH_Trophies",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "TalentsRewarded": [
+                {
+                    "RowName": "Prospect_Pro_Ashlands_Story",
+                    "DataTableName": "D_Talents"
+                }
+            ],
             "CurrencyRewarded": [
                 {
                     "Meta": {
@@ -5016,7 +5936,6 @@
         },
         {
             "Name": "PRO_Icesheet_Story",
-            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Storm01_Small.T_Prospect_Arctic_Storm01_Small",
             "MissionObjectives": [
                 {
                     "QuestRow": {
@@ -5043,9 +5962,35 @@
             "Faction": {
                 "RowName": "UDA"
             },
+            "Types": [
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Expedition",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Recon",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
             "InitialQuest": {
                 "RowName": "PRO_Icesheet_Story"
             },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_LH_Trap",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "TalentsRewarded": [
+                {
+                    "RowName": "Prospect_Pro_Icesheet_Story",
+                    "DataTableName": "D_Talents"
+                }
+            ],
             "CurrencyRewarded": [
                 {
                     "Meta": {
@@ -5086,6 +6031,3099 @@
             },
             "InitialQuest": {
                 "RowName": "STYX_Open_World"
+            }
+        },
+        {
+            "Name": "STYX_A_Research",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "STYX_A_Research_Nest",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "STYX_A_Research_Seed",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "STYX_A_Research_Bonus",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "InitialQuest": {
+                "RowName": "STYX_A_Research"
+            },
+            "TalentsRewarded": [
+                {
+                    "RowName": "Prospect_Styx_A_Research",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 300
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10
+        },
+        {
+            "Name": "PRO_D_Transport",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_D_Transport_Stockpile_Start",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_D_Transport_Stockpile_Destination",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Stockpile",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "PRO_D_Transport"
+            },
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 300
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic_Red",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "PRO_D_Research",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_D_Research_AerosolTesting",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_D_Research_LiquidTesting",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_D_Research_AerosolWildlife",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "Sinotai"
+            },
+            "Types": [
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "PRO_D_Research"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_LH_Module",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "TalentsRewarded": [
+                {
+                    "RowName": "Prospect_Pro_D_Research",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 300
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic_Red",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 150
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "PRO_E_Research",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_E_Research_StationCraft",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_E_Research_StationDeploy",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_E_Research_Monitor",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_E_Research_Monitor",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 1
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_E_Research_Monitor",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 2
+                }
+            ],
+            "Faction": {
+                "RowName": "The_Assembly"
+            },
+            "Types": [
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Stockpile",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "PRO_E_Research"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SL_Module",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "TalentsRewarded": [
+                {
+                    "RowName": "Prospect_Pro_E_Research",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 300
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic_Red",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 150
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "GH_RG_A",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_A_Miners",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_A_Secure",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Recon",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_RG_A"
+            },
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Licence",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 1
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_RG_A",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_RG_B",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_B_Area",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Recon",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Mining",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_RG_B"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_RG_Sledgehammer",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_RG_B",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_RG_C",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_C_Outpost",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_C_People",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Medical",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_RG_C"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_RG_Gun",
+                    "DataTableName": "D_AccountFlags"
+                },
+                {
+                    "RowName": "GrantedBlueprint_RG_Grenade",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 5
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_RG_C",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_RG_C2",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_C2_Outpost",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_C2_Outpost_Build",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 1
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_C2_Outpost_Craft",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 1
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_C2_Observe",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Construction",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_RG_C2"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SandArmor",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 5
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_RG_C2",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_RG_D",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_D_Find",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_D_Secure",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_D_Cluster",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_RG_D"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_CavewormArmor",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 5
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_RG_D",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_RG_D2",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_D2_Travel",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_D2_Rebuild",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Construction",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_RG_D2"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_MiniThumper",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 5
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_RG_D2",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_RG_E",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_E_Base",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_E_Restock",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 1
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_E_Shipment",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 1
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_E_Collect",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Construction",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Medical",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_RG_E"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_RG_Module",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_RG_E",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_RG_F",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_F_Prepare",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_F_Gather",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_F_Follow",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_RG_F"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_RG_Attachment",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_RG_F",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_RG_O1",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_O1_Build",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_O1_Analyze",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Training",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_RG_O1"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_DrillArrows",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_RG_O1",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_RG_O2",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_O2_Collect",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_O2_Kill_Poison",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_O2_Kill_Explosive",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_O2_Kill_Projectile",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_O2_Kill_Pickaxe",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Training",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_RG_O2"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_SandArmor_Backpack",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_RG_O2",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_RG_Final",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_RG_Hunt_Find",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_RG_Hunt"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedTalent_GH_RG",
+                    "DataTableName": "D_AccountFlags"
+                },
+                {
+                    "RowName": "GrantedBlueprint_RG_Trophies",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 500
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 300
+                },
+                {
+                    "Meta": {
+                        "RowName": "Licence",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 1
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_RG_Final",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "PRO_D_Recovery",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_D_Recovery_Search",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_D_Recovery_Assist",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "Recovery_Crew"
+            },
+            "Types": [
+                {
+                    "RowName": "Recon",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Expedition",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "PRO_D_Recovery"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_Medical_Device",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "TalentsRewarded": [
+                {
+                    "RowName": "Prospect_Pro_D_Recovery",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 500
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic_Red",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "PRO_D_Resupply",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_D_Recovery_Aid",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_D_Recovery_Aid_Refill",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 1
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_D_Recovery_Aid_Repair",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 1
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_D_Recovery_Aid_Resupply",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 1
+                }
+            ],
+            "Faction": {
+                "RowName": "Recovery_Crew"
+            },
+            "Types": [
+                {
+                    "RowName": "Stockpile",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "PRO_D_Resupply"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_LH_Attachment",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "TalentsRewarded": [
+                {
+                    "RowName": "Prospect_Pro_D_Resupply",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 500
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic_Red",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "PRO_D_Rescue",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_D_Rescue_Locate_NPC1",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_D_Rescue_Locate_NPC2",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "Recovery_Crew"
+            },
+            "Types": [
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "PRO_D_Rescue"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_LH_Backpack",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "TalentsRewarded": [
+                {
+                    "RowName": "Prospect_Pro_D_Rescue",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 500
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic_Red",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "PRO_Nullsector_Story",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "PRO_Nullsector_Story_Travel",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "Norex"
+            },
+            "Types": [
+                {
+                    "RowName": "Main",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Expedition",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "PRO_Nullsector_Story"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedTalent_Nullsector_Story",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "TalentsRewarded": [
+                {
+                    "RowName": "Prospect_Pro_Nullsector_Story",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic_Red",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "GH_Ape_A",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_A_Facility",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_A_Experiment",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Recon",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Medical",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_Ape_A"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_ResearchEquipment",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Licence",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 1
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_Ape_A",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_Ape_B",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_B_Scientist_Talk",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_B_Research_Scan",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_B_Research_Capture",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_Ape_B"
+            },
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_Ape_B",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_Ape_C",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_C_Prepare",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_C_Stage",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_C_Experiment",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_Ape_C"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_Ape_Tonic",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 5
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_Ape_C",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_Ape_C2",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_C2_Travel",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_C2_Kill",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Fortification",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_Ape_C2"
+            },
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_Ape_C2",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_Ape_D",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_D_Collect",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_D_Trade",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_Ape_D"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_Ape_FishingTrap",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 5
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_Ape_D",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_Ape_D2",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_D2_Collect",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_D2_Deliver",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_Ape_D2"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_Ape_Module",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 5
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_Ape_D2",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_Ape_E",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_E_Deploy",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_Ape_E"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_Ape_Attractor",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 5
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_Ape_E",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_Ape_E2",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_E2_Build",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_E2_Hunt",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Construction",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_Ape_E2"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_Ape_Attachment",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 5
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_Ape_E2",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_Ape_F",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_F_Testing",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_Ape_F"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_Ape_Grenade",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 5
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_Ape_F",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_Ape_G",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_G_Examine",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_G_Feed",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_Ape_G"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedWorkshop_BananaPack",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_Ape_G",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_Ape_O1",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_O1_Morris",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_Ape_O1"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_Ape_Armor",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_Ape_O1",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_Ape_O2",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_O2_Travel",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_O2_Deploy",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "InitialQuest": {
+                "RowName": "GH_Ape_O2"
+            },
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_Ape_O2",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_Ape_Final",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_Final_Travel",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_Ape_Final_Boss",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_Ape_Final"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedTalent_GH_APE",
+                    "DataTableName": "D_AccountFlags"
+                },
+                {
+                    "RowName": "GrantedBlueprint_Ape_Trophy",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 500
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 300
+                },
+                {
+                    "Meta": {
+                        "RowName": "Licence",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 1
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_Ape_Final",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_IM_A",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_A_Travel",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_A_Outpost",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Infiltration",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_IM_A"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_IM_Module",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 5
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_IM_A",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_IM_A2",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_A2_Targets",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_A2_Machines",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Destruction",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_IM_A2"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_IM_Attachment",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 5
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_IM_A2",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_IM_B",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_B_Search",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Recon",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_IM_B"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_IM_Trap",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_IM_B",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_IM_C",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_C_Base",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_C_Samples",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_C_Analyze",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Recon",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_IM_C"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_EDSRounds",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 5
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_IM_C",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_IM_C2",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_C2_Travel",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_C2_Construction",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_C2_Defences",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Fortification",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_IM_C2"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_IM_Armor",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 5
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_IM_C2",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_IM_D",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_D_Travel",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_D_Travel_Exp",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_D_Destroy",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Infiltration",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Destruction",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_IM_D"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_ArcticArmor",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 5
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_IM_D",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_IM_D2",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_D3_Stabalize",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_D3_Destroy",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Destruction",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_IM_D3"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_EnzymeElixir",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 5
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_IM_D2",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_IM_O1",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_O1_Craft_Tracker",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_O1_Researchers",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_O1_Researchers_1",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 1
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_O1_Researchers_2",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 1
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_O1_Researchers_3",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 1
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Medical",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Delivery",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_IM_O1"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_Recovery_Beacon_Device",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Licence",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 1
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_IM_O1",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_IM_O2",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_O2_Craft",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_O2_Capture",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_O2_Experiment",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_O2_Release",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Research",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Medical",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_IM_O2"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_IM_Spear",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_IM_O2",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_IM_O3",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_O3_MammothA",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_O3_MammothB",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_O3_Biochips",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Extermination",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_IM_O3"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedBlueprint_IM_Shield",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic_Red",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_IM_O3",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GH_IM_Final",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "GH_IM_Final_Boss",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Boss",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "GH_IM_Final"
+            },
+            "AccountFlagsRewarded": [
+                {
+                    "RowName": "GrantedTalent_GH_IM",
+                    "DataTableName": "D_AccountFlags"
+                },
+                {
+                    "RowName": "GrantedBlueprint_IM_Trophies",
+                    "DataTableName": "D_AccountFlags"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 500
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic_Red",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 300
+                },
+                {
+                    "Meta": {
+                        "RowName": "Licence",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 1
+                }
+            ],
+            "GreatHuntReward": [
+                {
+                    "RowName": "GH_IM_Final",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
             }
         }
     ]

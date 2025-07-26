@@ -58,6 +58,10 @@
             "UnitsProvided": 600
         },
         {
+            "Name": "Seed_Oil",
+            "UnitsProvided": 50000
+        },
+        {
             "Name": "Wood_Refined",
             "UnitsProvided": 14500,
             "ByProductItem": {
@@ -97,6 +101,23 @@
                     "RowName": "Laika"
                 }
             }
+        },
+        {
+            "Name": "Lava_Hunter_Magma",
+            "UnitsProvided": 2000000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Laika"
+                }
+            }
+        },
+        {
+            "Name": "Condensed_Enzymes",
+            "UnitsProvided": 40000
+        },
+        {
+            "Name": "Synthetic_Enzymes",
+            "UnitsProvided": 4000
         }
     ]
 }

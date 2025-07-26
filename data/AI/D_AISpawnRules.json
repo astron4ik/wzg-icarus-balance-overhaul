@@ -111,6 +111,27 @@
             "FilterParams": {
                 "Population": 1
             }
+        },
+        {
+            "Name": "Rimetusk_Population",
+            "SpawnFilter": "/Game/BP/AI/SpawnFilters/BP_SpawnFilter_PopulationCheck_Rimetusk.BP_SpawnFilter_PopulationCheck_Rimetusk_C",
+            "FilterParams": {
+                "Population": 2
+            }
+        },
+        {
+            "Name": "Quarrite_Population",
+            "SpawnFilter": "/Game/BP/AI/SpawnFilters/BP_SpawnFilter_PopulationCheck_Quarrite.BP_SpawnFilter_PopulationCheck_Quarrite_C",
+            "FilterParams": {
+                "Population": 1
+            }
+        },
+        {
+            "Name": "QuarriteArctic__Population",
+            "SpawnFilter": "/Game/BP/AI/SpawnFilters/BP_SpawnFilter_PopulationCheck_QuarriteArctic.BP_SpawnFilter_PopulationCheck_QuarriteArctic_C",
+            "FilterParams": {
+                "Population": 1
+            }
         }
     ]
 }

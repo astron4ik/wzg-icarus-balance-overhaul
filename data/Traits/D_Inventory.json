@@ -1334,6 +1334,194 @@
                     "DataTableName": "D_InventoryInfo"
                 }
             ]
+        },
+        {
+            "Name": "Kiwi_Nest",
+            "Inventories": [
+                {
+                    "RowName": "Kiwi_Nest",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Wild_Kiwi_Nest",
+            "Inventories": [
+                {
+                    "RowName": "Wild_Kiwi_Nest",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "General1",
+            "Inventories": [
+                {
+                    "RowName": "General",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "General4",
+            "Inventories": [
+                {
+                    "RowName": "General4",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "MonitoringPylon",
+            "Inventories": [
+                {
+                    "RowName": "MonitoringPylon",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Processor_NoFuel_T5",
+            "Inventories": [
+                {
+                    "RowName": "Processor_T5",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Inventory_Workshop_Cooker",
+            "Inventories": [
+                {
+                    "RowName": "PotBellyStove",
+                    "DataTableName": "D_InventoryInfo"
+                },
+                {
+                    "RowName": "Fuel_Hydrazine",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Hydrazine_Generator",
+            "Inventories": [
+                {
+                    "RowName": "Fuel_Hydrazine",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Mission_NPC",
+            "Inventories": [
+                {
+                    "RowName": "Mission_NPC",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Armour_Stand",
+            "Inventories": [
+                {
+                    "RowName": "ArmourStand",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Bunker_ExtinguisherWallMount",
+            "Inventories": [
+                {
+                    "RowName": "Bunker_ExtinguisherWallMount",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Food_Silo",
+            "Inventories": [
+                {
+                    "RowName": "Food_Silo",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Mission_Analyzer",
+            "Inventories": [
+                {
+                    "RowName": "Mission_Analyzer",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Inventory_Condensed_Enzymes",
+            "Inventories": [
+                {
+                    "RowName": "Inventory_Condensed_Enzymes",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Weapon_Rack",
+            "Inventories": [
+                {
+                    "RowName": "Weapon_Rack",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Storage_Plastic_Crate",
+            "Inventories": [
+                {
+                    "RowName": "Storage_Plastic_Crate",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Storage_Burlap_Sack",
+            "Inventories": [
+                {
+                    "RowName": "Storage_Burlap_Sack",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Storage_Saddle_Bag",
+            "Inventories": [
+                {
+                    "RowName": "Storage_Saddle_Bag",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Crude_Oil_Refiner",
+            "Inventories": [
+                {
+                    "RowName": "Crude_Oil_Refiner",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Organic_Extractor",
+            "Inventories": [
+                {
+                    "RowName": "Fuel_Organic_Extractor",
+                    "DataTableName": "D_InventoryInfo"
+                },
+                {
+                    "RowName": "Inventory_Organic_Extractor",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
         }
     ]
 }

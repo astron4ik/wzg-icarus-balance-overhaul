@@ -1,11 +1,14 @@
 {
     "RowStruct": "/Script/Icarus.ValidAmmoTypes",
     "Defaults": {
-        "AmmoTypes": []
+        "DisplayName": "",
+        "AmmoTypes": [],
+        "Description": ""
     },
     "Rows": [
         {
             "Name": "AllArrows",
+            "DisplayName": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllArrows-DisplayName\", \"Bows\")",
             "AmmoTypes": [
                 {
                     "RowName": "Aluminium_Arrow",
@@ -130,11 +133,21 @@
                 {
                     "RowName": "Iron_Wood_Arrow",
                     "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Scyther_Arrow",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Drill_Arrow",
+                    "DataTableName": "D_ItemsStatic"
                 }
-            ]
+            ],
+            "Description": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllArrows-Description\", \"Arrows\")"
         },
         {
             "Name": "AllBolts",
+            "DisplayName": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllBolts-DisplayName\", \"Crossbows\")",
             "AmmoTypes": [
                 {
                     "RowName": "Copper_Bolt",
@@ -191,11 +204,17 @@
                 {
                     "RowName": "Meta_Bolt_Larkwell_Piercing",
                     "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Scyther_Bolt",
+                    "DataTableName": "D_ItemsStatic"
                 }
-            ]
+            ],
+            "Description": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllBolts-Description\", \"Bolts\")"
         },
         {
             "Name": "AllRifle",
+            "DisplayName": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllRifle-DisplayName\", \"Rifles\")",
             "AmmoTypes": [
                 {
                     "RowName": "Ammo_Rifle_Round",
@@ -224,11 +243,21 @@
                 {
                     "RowName": "Ammo_Rifle_Round_Cold_Steel",
                     "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_EDS",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Rifle_Round_Workshop",
+                    "DataTableName": "D_ItemsStatic"
                 }
-            ]
+            ],
+            "Description": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllRifle-Description\", \"7.62mm Rounds\")"
         },
         {
             "Name": "AllPistol",
+            "DisplayName": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllPistol-DisplayName\", \"Pistols\")",
             "AmmoTypes": [
                 {
                     "RowName": "Ammo_Pistol_Round",
@@ -261,11 +290,60 @@
                 {
                     "RowName": "Ammo_Pistol_Round_Workshop",
                     "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_EDS",
+                    "DataTableName": "D_ItemsStatic"
                 }
-            ]
+            ],
+            "Description": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllPistol-Description\", \"9mm Rounds\")"
+        },
+        {
+            "Name": "AllSubmachineGuns",
+            "DisplayName": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllSubmachineGuns-DisplayName\", \"SMGs\")",
+            "AmmoTypes": [
+                {
+                    "RowName": "Ammo_Pistol_Round",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Pistol_Round_Explosive",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Pistol_Round_Incendiary",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Pistol_Round_Armor_Piercing",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Pistol_Round_Obsidian",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Pistol_Round_Cold_Steel",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Pistol_Round_Iron_Wood",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Pistol_Round_Workshop",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_EDS",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
+            "Description": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllSubmachineGuns-Description\", \"9mm Rounds\")"
         },
         {
             "Name": "AllShotgun",
+            "DisplayName": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllShotgun-DisplayName\", \"Shotguns\")",
             "AmmoTypes": [
                 {
                     "RowName": "Ammo_Shell_Buckshot",
@@ -290,11 +368,21 @@
                 {
                     "RowName": "Ammo_Shell_ColdSteel",
                     "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_EDS",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Shell_Workshop",
+                    "DataTableName": "D_ItemsStatic"
                 }
-            ]
+            ],
+            "Description": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllShotgun-Description\", \"12-Gauge Shells\")"
         },
         {
             "Name": "AllLures",
+            "DisplayName": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllLures-DisplayName\", \"Rods\")",
             "AmmoTypes": [
                 {
                     "RowName": "Advanced_Iron_Lure",
@@ -365,7 +453,7 @@
                     "DataTableName": "D_ItemsStatic"
                 },
                 {
-                    "RowName": "Scorpian_Lure",
+                    "RowName": "Scorpion_Lure",
                     "DataTableName": "D_ItemsStatic"
                 },
                 {
@@ -384,7 +472,206 @@
                     "RowName": "Yeast_Lure",
                     "DataTableName": "D_ItemsStatic"
                 }
-            ]
+            ],
+            "Description": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllLures-Description\", \"Lure\")"
+        },
+        {
+            "Name": "Rock_Golem_Gun",
+            "DisplayName": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"Rock_Golem_Gun-DisplayName\", \"Quarrite Gun\")",
+            "AmmoTypes": [
+                {
+                    "RowName": "Stone",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
+            "Description": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"Rock_Golem_Gun-Description\", \"Stone\")"
+        },
+        {
+            "Name": "AllJavelins",
+            "DisplayName": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllJavelins-DisplayName\", \"The Sand Slinger\")",
+            "AmmoTypes": [
+                {
+                    "RowName": "Bone_Throwing_Spear",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Caveworm_Throwing_Spear",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Carbon_Throwing_Spear",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Composite_Throwing_Spear",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "IceMammoth_Throwing_Spear",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Iron_Wood_Throwing_Spear",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Metal_Throwing_Spear",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Obsidian_Throwing_Spear",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Platinum_Throwing_Spear",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Sandworm_Throwing_Spear",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Scyther_Throwing_Spear",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Steel_Throwing_Spear",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Titanium_Throwing_Spear",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Wood_Throwing_Spear",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
+            "Description": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllJavelins-Description\", \"Javelins\")"
+        },
+        {
+            "Name": "AllAssaultRifle",
+            "DisplayName": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllAssaultRifle-DisplayName\", \"Assault Rifles\")",
+            "AmmoTypes": [
+                {
+                    "RowName": "Ammo_AssaultRifle_Round",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_AssaultRifle_Round_Incendiary",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_AssaultRifle_Round_Explosive",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_AssaultRifle_Round_Armor_Piercing",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_AssaultRifle_Round_Obsidian",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_AssaultRifle_Round_Iron_Wood",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_AssaultRifle_Round_Cold_Steel",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_EDS",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "None",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
+            "Description": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllAssaultRifle-Description\", \"5.56mm Rounds\")"
+        },
+        {
+            "Name": "Slug_Launcher_Gun",
+            "DisplayName": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"Slug_Launcher_Gun-DisplayName\", \"The Slugger\")",
+            "AmmoTypes": [
+                {
+                    "RowName": "SlugLauncher_Ammo",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
+            "Description": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"Slug_Launcher_Gun-Description\", \"Water\")"
+        },
+        {
+            "Name": "AllPistolAndCrude",
+            "DisplayName": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllPistolAndCrude-DisplayName\", \"Pistol Turrets\")",
+            "AmmoTypes": [
+                {
+                    "RowName": "Ammo_Pistol_Round",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Pistol_Round_Explosive",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Pistol_Round_Incendiary",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Pistol_Round_Armor_Piercing",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Pistol_Round_Obsidian",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Pistol_Round_Cold_Steel",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Pistol_Round_Iron_Wood",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Pistol_Round_Workshop",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Crude",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_EDS",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
+            "Description": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllPistolAndCrude-Description\", \"Crude Ammo & 9mm Rounds\")"
+        },
+        {
+            "Name": "AllSnipers",
+            "DisplayName": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllSnipers-DisplayName\", \"Sniper Rifles\")",
+            "AmmoTypes": [
+                {
+                    "RowName": "Ammo_Sniper_Round",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Sniper_Round_Explosive",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Sniper_Round_Incendiary",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Ammo_Sniper_Round_Illumination",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
+            "Description": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllSnipers-Description\", \"12.7mm Rounds\")"
         }
     ]
 }

@@ -1,0 +1,232 @@
+{
+    "RowStruct": "/Script/Icarus.RecoveryBeacon",
+    "Defaults": {
+        "Display": "",
+        "MapIcon": "None",
+        "Color": {
+            "B": 0,
+            "G": 0,
+            "R": 0,
+            "A": 0
+        }
+    },
+    "Rows": [
+        {
+            "Name": "GH_IM_Researcher_1",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"GH_IM_Researcher_1-Display\", \"IC-90345\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Prospector.T_Icon_Map_Prospector'",
+            "Color": {
+                "B": 39,
+                "G": 186,
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "GH_IM_Researcher_2",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"GH_IM_Researcher_2-Display\", \"IC-12458\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Prospector.T_Icon_Map_Prospector'",
+            "Color": {
+                "B": 255,
+                "G": 165,
+                "R": 66,
+                "A": 255
+            }
+        },
+        {
+            "Name": "GH_IM_Researcher_3",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"GH_IM_Researcher_3-Display\", \"IC-56485\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Prospector.T_Icon_Map_Prospector'",
+            "Color": {
+                "B": 174,
+                "G": 229,
+                "R": 211,
+                "A": 255
+            }
+        },
+        {
+            "Name": "GH_IM_Cache",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"GH_IM_Cache-Display\", \"STR-X34\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_BroadcastForMap.T_ICON_BroadcastForMap'",
+            "Color": {
+                "B": 239,
+                "G": 189,
+                "R": 218,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Alpha",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"Alpha-Display\", \"SITE-ALPHA\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Alpha.T_ICON_Map_Alpha'",
+            "Color": {
+                "B": 53,
+                "G": 78,
+                "R": 254,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Beta",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"Beta-Display\", \"SITE-BETA\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Beta.T_ICON_Map_Beta'",
+            "Color": {
+                "B": 174,
+                "G": 229,
+                "R": 211,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Gamma",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"Gamma-Display\", \"SITE-GAMMA\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Gamma.T_ICON_Map_Gamma'",
+            "Color": {
+                "B": 255,
+                "G": 217,
+                "R": 176,
+                "A": 255
+            }
+        },
+        {
+            "Name": "GH_IM_Lab_A",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"GH_IM_Lab_A-Display\", \"LAB-12\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Home.Icon_Map_Home'",
+            "Color": {
+                "B": 239,
+                "R": 219,
+                "A": 255
+            }
+        },
+        {
+            "Name": "GH_IM_Lab_B",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"GH_IM_Lab_B-Display\", \"LAB-13\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Home.Icon_Map_Home'",
+            "Color": {
+                "B": 239,
+                "R": 219,
+                "A": 255
+            }
+        },
+        {
+            "Name": "GH_IM_A2_WLF",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"GH_IM_A2_WLF-Display\", \"EXP-WLF\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Skull.Icon_Skull'",
+            "Color": {
+                "B": 53,
+                "G": 78,
+                "R": 254,
+                "A": 255
+            }
+        },
+        {
+            "Name": "GH_IM_A2_PBR",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"GH_IM_A2_PBR-Display\", \"EXP-PBR\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Skull.Icon_Skull'",
+            "Color": {
+                "B": 53,
+                "G": 78,
+                "R": 254,
+                "A": 255
+            }
+        },
+        {
+            "Name": "GH_IM_A2_VIS",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"GH_IM_A2_VIS-Display\", \"EXP-VIS\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Skull.Icon_Skull'",
+            "Color": {
+                "B": 53,
+                "G": 78,
+                "R": 254,
+                "A": 255
+            }
+        },
+        {
+            "Name": "GH_IM_O3_RM1",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"GH_IM_O3_RM1-Display\", \"BIO-RTX\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Mammoth.Icon_Map_Mammoth'",
+            "Color": {
+                "B": 53,
+                "G": 78,
+                "R": 254,
+                "A": 255
+            }
+        },
+        {
+            "Name": "GH_IM_O3_RM2",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"GH_IM_O3_RM2-Display\", \"BIO-RTY\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Mammoth.Icon_Map_Mammoth'",
+            "Color": {
+                "B": 255,
+                "G": 165,
+                "R": 66,
+                "A": 255
+            }
+        },
+        {
+            "Name": "GH_IM_RT",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"GH_IM_RT-Display\", \"RIMETUSK\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_MAPICON_RIMETUSK.T_MAPICON_RIMETUSK'",
+            "Color": {
+                "B": 53,
+                "G": 78,
+                "R": 254,
+                "A": 255
+            }
+        },
+        {
+            "Name": "GH_IM_Researcher_4",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"GH_IM_Researcher_4-Display\", \"IC-27746\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Prospector.T_Icon_Map_Prospector'",
+            "Color": {
+                "B": 174,
+                "G": 229,
+                "R": 211,
+                "A": 255
+            }
+        },
+        {
+            "Name": "GH_RG_F_1",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"GH_RG_F_1-Display\", \"SD-I10\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Cave.Icon_Map_Cave'",
+            "Color": {
+                "B": 174,
+                "G": 229,
+                "R": 211,
+                "A": 255
+            }
+        },
+        {
+            "Name": "GH_RG_F_2",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"GH_RG_F_2-Display\", \"SD-K14\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Cave.Icon_Map_Cave'",
+            "Color": {
+                "B": 39,
+                "G": 186,
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "GH_RG_F_3",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"GH_RG_F_3-Display\", \"SD-G13\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Cave.Icon_Map_Cave'",
+            "Color": {
+                "G": 106,
+                "R": 254,
+                "A": 255
+            }
+        },
+        {
+            "Name": "GH_RG_F_4",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"GH_RG_F_4-Display\", \"SD-D14\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Cave.Icon_Map_Cave'",
+            "Color": {
+                "B": 53,
+                "G": 78,
+                "R": 254,
+                "A": 255
+            }
+        }
+    ]
+}

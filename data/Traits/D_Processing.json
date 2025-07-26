@@ -23,7 +23,7 @@
                 "RowName": "Character"
             },
             "RequiresEnergy": false,
-            "QueueSize": 10,
+            "QueueSize": 4,
             "EffectedByPlayerStats": true,
             "SendOutputDirectlyToPlayer": true,
             "AutoTurnOffDeviceWhileNotProcessing": false
@@ -133,7 +133,7 @@
             },
             "bRequiresShelter": true,
             "QueueSize": 10,
-            "MaxMilliwattage": 2500
+            "MaxMilliwattage": 1500
         },
         {
             "Name": "Cooking_Station",
@@ -556,6 +556,7 @@
             },
             "RequiresEnergy": false,
             "bRequiresShelter": true,
+            "AutoSelectRecipe": true,
             "QueueSize": 5,
             "MaxMilliwattage": 500,
             "AutoTurnOffDeviceWhileNotProcessing": false
@@ -567,8 +568,111 @@
             },
             "RequiresEnergy": false,
             "bRequiresShelter": true,
+            "AutoSelectRecipe": true,
             "QueueSize": 5,
             "MaxMilliwattage": 500,
+            "AutoTurnOffDeviceWhileNotProcessing": false
+        },
+        {
+            "Name": "Manufacturer",
+            "DefaultRecipeSet": {
+                "RowName": "Manufacturer"
+            },
+            "RequiresEnergy": false,
+            "bRequiresShelter": true,
+            "QueueSize": 10,
+            "MaxMilliwattage": 2500
+        },
+        {
+            "Name": "Polymerizer",
+            "DefaultRecipeSet": {
+                "RowName": "Polymerizer"
+            },
+            "bRequiresShelter": true,
+            "QueueSize": 5,
+            "MaxMilliwattage": 2500,
+            "AutoTurnOffDeviceWhileNotProcessing": false
+        },
+        {
+            "Name": "Workshop_Cooker",
+            "DefaultRecipeSet": {
+                "RowName": "PotBellyStove"
+            },
+            "ManualActivation": true,
+            "QueueSize": 5,
+            "MaxMilliwattage": 375
+        },
+        {
+            "Name": "Windmill",
+            "DefaultRecipeSet": {
+                "RowName": "Mortar_And_Pestle"
+            },
+            "RequiresEnergy": false,
+            "QueueSize": 5
+        },
+        {
+            "Name": "Great_Hunt_Device",
+            "DefaultRecipeSet": {
+                "RowName": "Crafting_Bench"
+            },
+            "RequiresEnergy": false,
+            "QueueSize": 5,
+            "MaxMilliwattage": 2500,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Seed_Extractor",
+            "DefaultRecipeSet": {
+                "RowName": "Seed_Extractor"
+            },
+            "RequiresEnergy": false,
+            "AutoSelectRecipe": true,
+            "QueueSize": 5,
+            "MaxMilliwattage": 500
+        },
+        {
+            "Name": "Fireplace_Gas",
+            "DefaultRecipeSet": {
+                "RowName": "Campfire"
+            },
+            "AutoSelectRecipe": true,
+            "ManualActivation": true,
+            "MaxMilliwattage": 400,
+            "AutoTurnOffDeviceWhileNotProcessing": false
+        },
+        {
+            "Name": "Fireplace_Electric",
+            "DefaultRecipeSet": {
+                "RowName": "Campfire"
+            },
+            "AutoSelectRecipe": true,
+            "ManualActivation": true,
+            "MaxMilliwattage": 450,
+            "AutoTurnOffDeviceWhileNotProcessing": false
+        },
+        {
+            "Name": "Natural_Oil_Refiner",
+            "DefaultRecipeSet": {
+                "RowName": "Composter"
+            },
+            "AutoSelectRecipe": true,
+            "ManualActivation": true,
+            "MaxMilliwattage": 1250,
+            "AutoTurnOffDeviceWhileNotProcessing": false
+        },
+        {
+            "Name": "Uranium_Converter",
+            "DefaultRecipeSet": {
+                "RowName": "Uranium_Coverter"
+            },
+            "bRequiresShelter": true,
+            "AutoSelectRecipe": true,
+            "ManualActivation": true,
+            "MaxMilliwattage": 2500,
             "AutoTurnOffDeviceWhileNotProcessing": false
         }
     ]

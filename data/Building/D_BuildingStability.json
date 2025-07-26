@@ -140,6 +140,12 @@
             "YellowStability": 1
         },
         {
+            "Name": "Glass_Tempered",
+            "BuildingTier": 6,
+            "MaxAnchoredStability": 5,
+            "YellowStability": 1
+        },
+        {
             "Name": "Thatch_General",
             "BuildingTier": 1,
             "MaxHardStability": 5,
@@ -250,6 +256,24 @@
             "LowestGreenStability": 6,
             "YellowStability": 2.5,
             "HighestRedStability": 1.2999999523162842
+        },
+        {
+            "Name": "Wood_Beam_Reinforced",
+            "BuildingTier": 6,
+            "MaxAnchoredStability": 5,
+            "YellowStability": 1
+        },
+        {
+            "Name": "Wood_Frame_Reinforced",
+            "BuildingTier": 6,
+            "MaxAnchoredStability": 5,
+            "YellowStability": 1
+        },
+        {
+            "Name": "Wood_General_Reinforced",
+            "BuildingTier": 6,
+            "MaxAnchoredStability": 5,
+            "YellowStability": 1
         }
     ]
 }

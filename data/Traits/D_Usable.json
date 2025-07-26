@@ -349,6 +349,71 @@
                     "bMustOwnInventory": false
                 }
             ]
+        },
+        {
+            "Name": "Consume_Empty_Deploy",
+            "Uses": [
+                {
+                    "Use": {
+                        "RowName": "Consume",
+                        "DataTableName": "D_Uses"
+                    },
+                    "RequiredTags": {
+                        "GameplayTags": []
+                    },
+                    "RequiredStats": [],
+                    "bMustOwnInventory": false
+                },
+                {
+                    "Use": {
+                        "RowName": "Empty_Container",
+                        "DataTableName": "D_Uses"
+                    },
+                    "RequiredTags": {
+                        "GameplayTags": []
+                    },
+                    "RequiredStats": [],
+                    "bMustOwnInventory": false
+                },
+                {
+                    "Use": {
+                        "RowName": "Place",
+                        "DataTableName": "D_Uses"
+                    },
+                    "RequiredTags": {
+                        "GameplayTags": []
+                    },
+                    "RequiredStats": [],
+                    "bMustOwnInventory": false
+                }
+            ]
+        },
+        {
+            "Name": "Place_Read",
+            "Uses": [
+                {
+                    "Use": {
+                        "RowName": "Place",
+                        "DataTableName": "D_Uses"
+                    },
+                    "RequiredTags": {
+                        "GameplayTags": []
+                    },
+                    "RequiredStats": [],
+                    "bMustOwnInventory": true
+                },
+                {
+                    "Use": {
+                        "RowName": "Read",
+                        "DataTableName": "D_Uses"
+                    },
+                    "RequiredTags": {
+                        "GameplayTags": []
+                    },
+                    "RequiredStats": [],
+                    "bMustOwnInventory": false
+                }
+            ]
         }
     ]
 }

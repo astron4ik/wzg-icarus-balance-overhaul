@@ -1230,11 +1230,13 @@
                 ],
                 "WorldBoundaryMin": {
                     "X": -403200,
-                    "Y": -403200
+                    "Y": -403200,
+                    "Z": -53196.80078125
                 },
                 "WorldBoundaryMax": {
                     "X": 403200,
-                    "Y": 403200
+                    "Y": 403200,
+                    "Z": 53195.17578125
                 }
             },
             "DropGroups": {
@@ -3753,11 +3755,13 @@
                 ],
                 "WorldBoundaryMin": {
                     "X": -403200,
-                    "Y": -403200
+                    "Y": -403200,
+                    "Z": -53302.296875
                 },
                 "WorldBoundaryMax": {
                     "X": 403200,
-                    "Y": 403200
+                    "Y": 403200,
+                    "Z": 26707.375
                 }
             },
             "DropGroups": {
@@ -5820,11 +5824,13 @@
                 ],
                 "WorldBoundaryMin": {
                     "X": -100800,
-                    "Y": -100800
+                    "Y": -100800,
+                    "Z": -20116.48046875
                 },
                 "WorldBoundaryMax": {
                     "X": 100800,
-                    "Y": 100800
+                    "Y": 100800,
+                    "Z": 20114.640625
                 }
             }
         },
@@ -5930,11 +5936,13 @@
                 ],
                 "WorldBoundaryMin": {
                     "X": -100800,
-                    "Y": -100800
+                    "Y": -100800,
+                    "Z": -17920
                 },
                 "WorldBoundaryMax": {
                     "X": 100800,
-                    "Y": 100800
+                    "Y": 100800,
+                    "Z": 17919.453125
                 }
             }
         },
@@ -6040,11 +6048,13 @@
                 ],
                 "WorldBoundaryMin": {
                     "X": -100800,
-                    "Y": -100800
+                    "Y": -100800,
+                    "Z": -13312
                 },
                 "WorldBoundaryMax": {
                     "X": 100800,
-                    "Y": 100800
+                    "Y": 100800,
+                    "Z": 13311.59375
                 }
             },
             "Metadata": {
@@ -6155,11 +6165,13 @@
                 ],
                 "WorldBoundaryMin": {
                     "X": -100800,
-                    "Y": -100800
+                    "Y": -100800,
+                    "Z": -72627
                 },
                 "WorldBoundaryMax": {
                     "X": 100800,
-                    "Y": 100800
+                    "Y": 100800,
+                    "Z": 72625
                 }
             }
         },
@@ -6265,11 +6277,13 @@
                 ],
                 "WorldBoundaryMin": {
                     "X": -100800,
-                    "Y": -100800
+                    "Y": -100800,
+                    "Z": -15848.9609375
                 },
                 "WorldBoundaryMax": {
                     "X": 100800,
-                    "Y": 100800
+                    "Y": 100800,
+                    "Z": 15848.4765625
                 }
             },
             "Metadata": {
@@ -6380,11 +6394,13 @@
                 ],
                 "WorldBoundaryMin": {
                     "X": -100800,
-                    "Y": -100800
+                    "Y": -100800,
+                    "Z": -15403.51953125
                 },
                 "WorldBoundaryMax": {
                     "X": 100800,
-                    "Y": 100800
+                    "Y": 100800,
+                    "Z": 15403.05078125
                 }
             },
             "Metadata": {
@@ -6495,11 +6511,13 @@
                 ],
                 "WorldBoundaryMin": {
                     "X": -100800,
-                    "Y": -100800
+                    "Y": -100800,
+                    "Z": -18931.19921875
                 },
                 "WorldBoundaryMax": {
                     "X": 100800,
-                    "Y": 100800
+                    "Y": 100800,
+                    "Z": 18930.04296875
                 }
             },
             "Metadata": {
@@ -7724,11 +7742,13 @@
                 ],
                 "WorldBoundaryMin": {
                     "X": -403200,
-                    "Y": -403200
+                    "Y": -403200,
+                    "Z": -12011.51953125
                 },
                 "WorldBoundaryMax": {
                     "X": 403200,
-                    "Y": 403200
+                    "Y": 403200,
+                    "Z": 14923.119140625
                 }
             },
             "DropGroups": {
@@ -8548,6 +8568,494 @@
                     "RowName": "NewFrontiers"
                 }
             }
+        },
+        {
+            "Name": "Outpost_009",
+            "TerrainName": "Outpost_009",
+            "FileTag": "OP009",
+            "MainLevel": "/Game/Maps/Outpost_009/Outpost_009.Outpost_009",
+            "HeightmapLevels": [
+                "/Game/Maps/Outpost_009/heightmap/heightmap_x0_y0.heightmap_x0_y0",
+                "/Game/Maps/Outpost_009/heightmap/heightmap_x0_y1.heightmap_x0_y1",
+                "/Game/Maps/Outpost_009/heightmap/heightmap_x1_y0.heightmap_x1_y0",
+                "/Game/Maps/Outpost_009/heightmap/heightmap_x1_y1.heightmap_x1_y1"
+            ],
+            "GeneratedLevels": [
+                "/Game/Maps/Outpost_009/Sublevels/Generated/OP009_Generated_x0_y0.OP009_Generated_x0_y0",
+                "/Game/Maps/Outpost_009/Sublevels/Generated/OP009_Generated_x0_y1.OP009_Generated_x0_y1",
+                "/Game/Maps/Outpost_009/Sublevels/Generated/OP009_Generated_x1_y0.OP009_Generated_x1_y0",
+                "/Game/Maps/Outpost_009/Sublevels/Generated/OP009_Generated_x1_y1.OP009_Generated_x1_y1"
+            ],
+            "GeneratedVistaLevel": "/Game/Maps/Outpost_009/Sublevels/Generated/OP009_Generated_Vista.OP009_Generated_Vista",
+            "DeveloperLevels": [
+                "/Game/Maps/Outpost_009/Sublevels/Developer/OP009_Developer_RED.OP009_Developer_RED"
+            ],
+            "GridBounds": [
+                {
+                    "Origin": {
+                        "X": -50400,
+                        "Y": 50400,
+                        "Z": -15269.2421875
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 17809.921875
+                    },
+                    "SphereRadius": 0
+                },
+                {
+                    "Origin": {
+                        "X": -50400,
+                        "Y": -50400,
+                        "Z": -17341.55859375
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 15313.88671875
+                    },
+                    "SphereRadius": 0
+                },
+                {
+                    "Origin": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 11676.57421875
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 41518.6015625
+                    },
+                    "SphereRadius": 0
+                },
+                {
+                    "Origin": {
+                        "X": 50400,
+                        "Y": -50400,
+                        "Z": -4341.0703125
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 28096.83203125
+                    },
+                    "SphereRadius": 0
+                }
+            ],
+            "WorldCollections": [
+                {
+                    "CollectionName": "RED",
+                    "HeightmapLevels": [
+                        "/Game/Maps/Outpost_009/heightmap/heightmap_x0_y1.heightmap_x0_y1",
+                        "/Game/Maps/Outpost_009/heightmap/heightmap_x1_y1.heightmap_x1_y1",
+                        "/Game/Maps/Outpost_009/heightmap/heightmap_x1_y0.heightmap_x1_y0",
+                        "/Game/Maps/Outpost_009/heightmap/heightmap_x0_y0.heightmap_x0_y0"
+                    ],
+                    "DeveloperLevel": "/Game/Maps/Outpost_009/Sublevels/Developer/OP009_Developer_RED.OP009_Developer_RED"
+                }
+            ],
+            "MinimapData": {
+                "MapTextures": [
+                    "/Game/PROC/MapTextures/Outpost_009/T_VisualMapTex_Outpost_009heightmap_x0_y0.T_VisualMapTex_Outpost_009heightmap_x0_y0",
+                    "/Game/PROC/MapTextures/Outpost_009/T_VisualMapTex_Outpost_009heightmap_x0_y1.T_VisualMapTex_Outpost_009heightmap_x0_y1",
+                    "/Game/PROC/MapTextures/Outpost_009/T_VisualMapTex_Outpost_009heightmap_x1_y0.T_VisualMapTex_Outpost_009heightmap_x1_y0",
+                    "/Game/PROC/MapTextures/Outpost_009/T_VisualMapTex_Outpost_009heightmap_x1_y1.T_VisualMapTex_Outpost_009heightmap_x1_y1"
+                ],
+                "HeightMapTextures": [
+                    "/Game/PROC/MapTextures/Outpost_009/T_HeightMapTex_Outpost_009heightmap_x0_y0.T_HeightMapTex_Outpost_009heightmap_x0_y0",
+                    "/Game/PROC/MapTextures/Outpost_009/T_HeightMapTex_Outpost_009heightmap_x0_y1.T_HeightMapTex_Outpost_009heightmap_x0_y1",
+                    "/Game/PROC/MapTextures/Outpost_009/T_HeightMapTex_Outpost_009heightmap_x1_y0.T_HeightMapTex_Outpost_009heightmap_x1_y0",
+                    "/Game/PROC/MapTextures/Outpost_009/T_HeightMapTex_Outpost_009heightmap_x1_y1.T_HeightMapTex_Outpost_009heightmap_x1_y1"
+                ],
+                "WorldBoundaryMin": {
+                    "X": -100800,
+                    "Y": -100800,
+                    "Z": -14771.2001953125
+                },
+                "WorldBoundaryMax": {
+                    "X": 100800,
+                    "Y": 100800,
+                    "Z": 14770.7490234375
+                }
+            }
+        },
+        {
+            "Name": "Outpost_011",
+            "TerrainName": "Outpost_011",
+            "FileTag": "OP011",
+            "MainLevel": "/Game/Maps/Outpost_011/Outpost_011.Outpost_011",
+            "HeightmapLevels": [
+                "/Game/Maps/Outpost_011/heightmap/heightmap_x0_y0.heightmap_x0_y0",
+                "/Game/Maps/Outpost_011/heightmap/heightmap_x0_y1.heightmap_x0_y1",
+                "/Game/Maps/Outpost_011/heightmap/heightmap_x1_y0.heightmap_x1_y0",
+                "/Game/Maps/Outpost_011/heightmap/heightmap_x1_y1.heightmap_x1_y1"
+            ],
+            "GeneratedLevels": [
+                "/Game/Maps/Outpost_011/Sublevels/Generated/OP011_Generated_x0_y0.OP011_Generated_x0_y0",
+                "/Game/Maps/Outpost_011/Sublevels/Generated/OP011_Generated_x0_y1.OP011_Generated_x0_y1",
+                "/Game/Maps/Outpost_011/Sublevels/Generated/OP011_Generated_x1_y0.OP011_Generated_x1_y0",
+                "/Game/Maps/Outpost_011/Sublevels/Generated/OP011_Generated_x1_y1.OP011_Generated_x1_y1"
+            ],
+            "GeneratedVistaLevel": "/Game/Maps/Outpost_011/Sublevels/Generated/OP011_Generated_Vista.OP011_Generated_Vista",
+            "DeveloperLevels": [
+                "/Game/Maps/Outpost_011/Sublevels/Developer/OP011_Developer_Aqua.OP011_Developer_Aqua"
+            ],
+            "GridBounds": [
+                {
+                    "Origin": {
+                        "X": -50400,
+                        "Y": 50400,
+                        "Z": -15269.2421875
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 17809.921875
+                    },
+                    "SphereRadius": 0
+                },
+                {
+                    "Origin": {
+                        "X": -50400,
+                        "Y": -50400,
+                        "Z": -17341.55859375
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 15313.88671875
+                    },
+                    "SphereRadius": 0
+                },
+                {
+                    "Origin": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 11676.57421875
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 41518.6015625
+                    },
+                    "SphereRadius": 0
+                },
+                {
+                    "Origin": {
+                        "X": 50400,
+                        "Y": -50400,
+                        "Z": -4341.0703125
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 28096.83203125
+                    },
+                    "SphereRadius": 0
+                }
+            ],
+            "WorldCollections": [
+                {
+                    "CollectionName": "Aqua",
+                    "HeightmapLevels": [
+                        "/Game/Maps/Outpost_011/heightmap/heightmap_x1_y0.heightmap_x1_y0",
+                        "/Game/Maps/Outpost_011/heightmap/heightmap_x0_y0.heightmap_x0_y0",
+                        "/Game/Maps/Outpost_011/heightmap/heightmap_x0_y1.heightmap_x0_y1",
+                        "/Game/Maps/Outpost_011/heightmap/heightmap_x1_y1.heightmap_x1_y1"
+                    ],
+                    "DeveloperLevel": "/Game/Maps/Outpost_011/Sublevels/Developer/OP011_Developer_Aqua.OP011_Developer_Aqua"
+                }
+            ],
+            "MinimapData": {
+                "MapTextures": [
+                    "/Game/PROC/MapTextures/Outpost_011/VisualMapTex_Outpost_011heightmap_x0_y0.VisualMapTex_Outpost_011heightmap_x0_y0",
+                    "/Game/PROC/MapTextures/Outpost_011/VisualMapTex_Outpost_011heightmap_x0_y1.VisualMapTex_Outpost_011heightmap_x0_y1",
+                    "/Game/PROC/MapTextures/Outpost_011/VisualMapTex_Outpost_011heightmap_x1_y0.VisualMapTex_Outpost_011heightmap_x1_y0",
+                    "/Game/PROC/MapTextures/Outpost_011/VisualMapTex_Outpost_011heightmap_x1_y1.VisualMapTex_Outpost_011heightmap_x1_y1"
+                ],
+                "HeightMapTextures": [
+                    "/Game/PROC/MapTextures/Outpost_011/HeightMapTex_Outpost_011heightmap_x0_y0.HeightMapTex_Outpost_011heightmap_x0_y0",
+                    "/Game/PROC/MapTextures/Outpost_011/HeightMapTex_Outpost_011heightmap_x0_y1.HeightMapTex_Outpost_011heightmap_x0_y1",
+                    "/Game/PROC/MapTextures/Outpost_011/HeightMapTex_Outpost_011heightmap_x1_y0.HeightMapTex_Outpost_011heightmap_x1_y0",
+                    "/Game/PROC/MapTextures/Outpost_011/HeightMapTex_Outpost_011heightmap_x1_y1.HeightMapTex_Outpost_011heightmap_x1_y1"
+                ],
+                "WorldBoundaryMin": {
+                    "X": -100800,
+                    "Y": -100800,
+                    "Z": -12602.8798828125
+                },
+                "WorldBoundaryMax": {
+                    "X": 100800,
+                    "Y": 100800,
+                    "Z": 12602.4951171875
+                }
+            }
+        },
+        {
+            "Name": "Outpost_012",
+            "TerrainName": "Outpost_012",
+            "FileTag": "OP012",
+            "MainLevel": "/Game/Maps/Outpost_012/Outpost_012.Outpost_012",
+            "HeightmapLevels": [
+                "/Game/Maps/Outpost_012/Heightmap/Heightmap_x0_y0.Heightmap_x0_y0",
+                "/Game/Maps/Outpost_012/Heightmap/Heightmap_x0_y1.Heightmap_x0_y1",
+                "/Game/Maps/Outpost_012/Heightmap/Heightmap_x1_y0.Heightmap_x1_y0",
+                "/Game/Maps/Outpost_012/Heightmap/Heightmap_x1_y1.Heightmap_x1_y1"
+            ],
+            "GeneratedLevels": [
+                "/Game/Maps/Outpost_012/Sublevels/Generated/OP012_Generated_x0_y0.OP012_Generated_x0_y0",
+                "/Game/Maps/Outpost_012/Sublevels/Generated/OP012_Generated_x0_y1.OP012_Generated_x0_y1",
+                "/Game/Maps/Outpost_012/Sublevels/Generated/OP012_Generated_x1_y0.OP012_Generated_x1_y0",
+                "/Game/Maps/Outpost_012/Sublevels/Generated/OP012_Generated_x1_y1.OP012_Generated_x1_y1"
+            ],
+            "GeneratedVistaLevel": "/Game/Maps/Outpost_012/Sublevels/Generated/OP012_Generated_Vista.OP012_Generated_Vista",
+            "DeveloperLevels": [
+                "/Game/Maps/Outpost_012/Sublevels/Developer/OP012_Developer_Main.OP012_Developer_Main"
+            ],
+            "GridBounds": [
+                {
+                    "Origin": {
+                        "X": -50400,
+                        "Y": 50400,
+                        "Z": -15269.2421875
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 17809.921875
+                    },
+                    "SphereRadius": 0
+                },
+                {
+                    "Origin": {
+                        "X": -50400,
+                        "Y": -50400,
+                        "Z": -17341.55859375
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 15313.88671875
+                    },
+                    "SphereRadius": 0
+                },
+                {
+                    "Origin": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 11676.57421875
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 41518.6015625
+                    },
+                    "SphereRadius": 0
+                },
+                {
+                    "Origin": {
+                        "X": 50400,
+                        "Y": -50400,
+                        "Z": -4341.0703125
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 28096.83203125
+                    },
+                    "SphereRadius": 0
+                }
+            ],
+            "WorldCollections": [
+                {
+                    "CollectionName": "Main",
+                    "HeightmapLevels": [
+                        "/Game/Maps/Outpost_012/Heightmap/Heightmap_x1_y0.Heightmap_x1_y0",
+                        "/Game/Maps/Outpost_012/Heightmap/Heightmap_x0_y0.Heightmap_x0_y0",
+                        "/Game/Maps/Outpost_012/Heightmap/Heightmap_x0_y1.Heightmap_x0_y1",
+                        "/Game/Maps/Outpost_012/Heightmap/Heightmap_x1_y1.Heightmap_x1_y1"
+                    ],
+                    "DeveloperLevel": "/Game/Maps/Outpost_012/Sublevels/Developer/OP012_Developer_Main.OP012_Developer_Main"
+                }
+            ]
+        },
+        {
+            "Name": "Outpost_DEV",
+            "TerrainName": "Outpost_DEV",
+            "FileTag": "OPDEV",
+            "MainLevel": "/Game/Maps/Outpost_DEV/Outpost_DEV.Outpost_DEV",
+            "HeightmapLevels": [
+                "/Game/Maps/Outpost_DEV/Heightmap/Heightmap_x0_y0.Heightmap_x0_y0",
+                "/Game/Maps/Outpost_DEV/Heightmap/Heightmap_x0_y1.Heightmap_x0_y1",
+                "/Game/Maps/Outpost_DEV/Heightmap/Heightmap_x1_y0.Heightmap_x1_y0",
+                "/Game/Maps/Outpost_DEV/Heightmap/Heightmap_x1_y1.Heightmap_x1_y1"
+            ],
+            "GeneratedLevels": [
+                "/Game/Maps/Outpost_DEV/Sublevels/Generated/OPDEV_Generated_x0_y0.OPDEV_Generated_x0_y0",
+                "/Game/Maps/Outpost_DEV/Sublevels/Generated/OPDEV_Generated_x0_y1.OPDEV_Generated_x0_y1",
+                "/Game/Maps/Outpost_DEV/Sublevels/Generated/OPDEV_Generated_x1_y0.OPDEV_Generated_x1_y0",
+                "/Game/Maps/Outpost_DEV/Sublevels/Generated/OPDEV_Generated_x1_y1.OPDEV_Generated_x1_y1"
+            ],
+            "GeneratedVistaLevel": "/Game/Maps/Outpost_DEV/Sublevels/Generated/OPDEV_Generated_Vista.OPDEV_Generated_Vista",
+            "DeveloperLevels": [
+                "/Game/Maps/Outpost_DEV/Sublevels/Developer/OPDEV_Developer_Main.OPDEV_Developer_Main"
+            ],
+            "GridBounds": [
+                {
+                    "Origin": {
+                        "X": -50400,
+                        "Y": 50400,
+                        "Z": -15269.2421875
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 17809.921875
+                    },
+                    "SphereRadius": 0
+                },
+                {
+                    "Origin": {
+                        "X": -50400,
+                        "Y": -50400,
+                        "Z": -17341.55859375
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 15313.88671875
+                    },
+                    "SphereRadius": 0
+                },
+                {
+                    "Origin": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 11676.57421875
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 41518.6015625
+                    },
+                    "SphereRadius": 0
+                },
+                {
+                    "Origin": {
+                        "X": 50400,
+                        "Y": -50400,
+                        "Z": -4341.0703125
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 28096.83203125
+                    },
+                    "SphereRadius": 0
+                }
+            ],
+            "WorldCollections": [
+                {
+                    "CollectionName": "Main",
+                    "HeightmapLevels": [
+                        "/Game/Maps/Outpost_DEV/Heightmap/Heightmap_x0_y1.Heightmap_x0_y1",
+                        "/Game/Maps/Outpost_DEV/Heightmap/Heightmap_x1_y1.Heightmap_x1_y1",
+                        "/Game/Maps/Outpost_DEV/Heightmap/Heightmap_x0_y0.Heightmap_x0_y0",
+                        "/Game/Maps/Outpost_DEV/Heightmap/Heightmap_x1_y0.Heightmap_x1_y0"
+                    ],
+                    "DeveloperLevel": "/Game/Maps/Outpost_DEV/Sublevels/Developer/OPDEV_Developer_Main.OPDEV_Developer_Main"
+                }
+            ]
+        },
+        {
+            "Name": "Outpost_013",
+            "TerrainName": "Outpost_013",
+            "FileTag": "OP013",
+            "MainLevel": "/Game/Maps/Outpost_013/Outpost_013.Outpost_013",
+            "HeightmapLevels": [
+                "/Game/Maps/Outpost_013/heightmap/heightmap_x0_y0.heightmap_x0_y0",
+                "/Game/Maps/Outpost_013/heightmap/heightmap_x0_y1.heightmap_x0_y1",
+                "/Game/Maps/Outpost_013/heightmap/heightmap_x1_y0.heightmap_x1_y0",
+                "/Game/Maps/Outpost_013/heightmap/heightmap_x1_y1.heightmap_x1_y1"
+            ],
+            "GeneratedLevels": [
+                "/Game/Maps/Outpost_013/Sublevels/Generated/OP013_Generated_x0_y0.OP013_Generated_x0_y0",
+                "/Game/Maps/Outpost_013/Sublevels/Generated/OP013_Generated_x0_y1.OP013_Generated_x0_y1",
+                "/Game/Maps/Outpost_013/Sublevels/Generated/OP013_Generated_x1_y0.OP013_Generated_x1_y0",
+                "/Game/Maps/Outpost_013/Sublevels/Generated/OP013_Generated_x1_y1.OP013_Generated_x1_y1"
+            ],
+            "GeneratedVistaLevel": "/Game/Maps/Outpost_013/Sublevels/Generated/OP013_Generated_Vista.OP013_Generated_Vista",
+            "DeveloperLevels": [
+                "/Game/Maps/Outpost_013/Sublevels/Developer/OP013_Developer_Main.OP013_Developer_Main"
+            ],
+            "GridBounds": [
+                {
+                    "Origin": {
+                        "X": -50400,
+                        "Y": 50400,
+                        "Z": -15269.2421875
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 17809.921875
+                    },
+                    "SphereRadius": 0
+                },
+                {
+                    "Origin": {
+                        "X": -50400,
+                        "Y": -50400,
+                        "Z": -17341.55859375
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 15313.88671875
+                    },
+                    "SphereRadius": 0
+                },
+                {
+                    "Origin": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 11676.57421875
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 41518.6015625
+                    },
+                    "SphereRadius": 0
+                },
+                {
+                    "Origin": {
+                        "X": 50400,
+                        "Y": -50400,
+                        "Z": -4341.0703125
+                    },
+                    "BoxExtent": {
+                        "X": 50400,
+                        "Y": 50400,
+                        "Z": 28096.83203125
+                    },
+                    "SphereRadius": 0
+                }
+            ],
+            "WorldCollections": [
+                {
+                    "CollectionName": "Main",
+                    "HeightmapLevels": [
+                        "/Game/Maps/Outpost_013/heightmap/heightmap_x1_y0.heightmap_x1_y0",
+                        "/Game/Maps/Outpost_013/heightmap/heightmap_x0_y0.heightmap_x0_y0",
+                        "/Game/Maps/Outpost_013/heightmap/heightmap_x0_y1.heightmap_x0_y1",
+                        "/Game/Maps/Outpost_013/heightmap/heightmap_x1_y1.heightmap_x1_y1"
+                    ],
+                    "DeveloperLevel": "/Game/Maps/Outpost_013/Sublevels/Developer/OP013_Developer_Main.OP013_Developer_Main"
+                }
+            ]
         }
     ]
 }

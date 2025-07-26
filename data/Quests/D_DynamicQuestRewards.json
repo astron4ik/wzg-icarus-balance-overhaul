@@ -1091,6 +1091,20 @@
                         "DataTableName": "D_DynamicQuestRewardItems"
                     },
                     "bScales": true
+                },
+                {
+                    "Item": {
+                        "RowName": "Misc_Bramble",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": true
+                },
+                {
+                    "Item": {
+                        "RowName": "Resource_Seeds_Bramble",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": true
                 }
             ]
         },
@@ -1255,6 +1269,13 @@
                         "DataTableName": "D_DynamicQuestRewardItems"
                     },
                     "bScales": true
+                },
+                {
+                    "Item": {
+                        "RowName": "Resource_Salt",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": true
                 }
             ]
         },
@@ -1273,6 +1294,13 @@
                 {
                     "Item": {
                         "RowName": "Misc_Spoiled",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": true
+                },
+                {
+                    "Item": {
+                        "RowName": "Resource_Dirt",
                         "DataTableName": "D_DynamicQuestRewardItems"
                     },
                     "bScales": true
@@ -1417,13 +1445,13 @@
                 },
                 {
                     "Item": {
-                        "RowName": "Resource_Seeds_Veg",
+                        "RowName": "Resource_Dirt",
                         "DataTableName": "D_DynamicQuestRewardItems"
                     },
-                    "bScales": false
+                    "bScales": true
                 }
             ],
-            "Weighting": 150
+            "Weighting": 60
         },
         {
             "Name": "Tools_Taming",
@@ -1519,7 +1547,7 @@
             "PotentialRewards": [
                 {
                     "Item": {
-                        "RowName": "Tool_T3_HotDrink_Thermos",
+                        "RowName": "Resource_ArcticSurvival",
                         "DataTableName": "D_DynamicQuestRewardItems"
                     },
                     "bScales": false
@@ -1948,6 +1976,35 @@
             "Weighting": 130
         },
         {
+            "Name": "Resource_Veges_SugarCane",
+            "DisplayName": "NSLOCTEXT(\"D_DynamicQuestRewards\", \"Resource_Veges_SugarCane-DisplayName\", \"Vegetables: New Species, Sugar Cane\")",
+            "Description": "NSLOCTEXT(\"D_DynamicQuestRewards\", \"Resource_Veges_SugarCane-Description\", \"UDA special delivery straight from Earth for introduction to the Icarus enviroment.\")",
+            "PotentialRewards": [
+                {
+                    "Item": {
+                        "RowName": "Resource_SugarCane",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": true
+                },
+                {
+                    "Item": {
+                        "RowName": "Resource_SugarCane_Seed",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": true
+                },
+                {
+                    "Item": {
+                        "RowName": "Resource_Seeds_Veg",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": true
+                }
+            ],
+            "Weighting": 130
+        },
+        {
             "Name": "Tools_Shovel",
             "DisplayName": "NSLOCTEXT(\"D_DynamicQuestRewards\", \"Tools_Shovel-DisplayName\", \"Settlement Assistance: Shovel\")",
             "Description": "NSLOCTEXT(\"D_DynamicQuestRewards\", \"Tools_Shovel-Description\", \"UDA provided assistance to new prospectors.\")",
@@ -2004,6 +2061,122 @@
                 }
             ],
             "Weighting": 90
+        },
+        {
+            "Name": "Resource_Veges_KiwiFruit",
+            "DisplayName": "NSLOCTEXT(\"D_DynamicQuestRewards\", \"Resource_Veges_KiwiFruit-DisplayName\", \"Vegetables: New Species, Kiwifruit\")",
+            "Description": "NSLOCTEXT(\"D_DynamicQuestRewards\", \"Resource_Veges_KiwiFruit-Description\", \"UDA special delivery straight from Earth for introduction to the Icarus enviroment.\")",
+            "PotentialRewards": [
+                {
+                    "Item": {
+                        "RowName": "Resource_KiwiFruit",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": true
+                },
+                {
+                    "Item": {
+                        "RowName": "Resource_KiwiFruit_Seed",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": true
+                },
+                {
+                    "Item": {
+                        "RowName": "Resource_Seeds_Veg",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": true
+                }
+            ],
+            "Weighting": 130
+        },
+        {
+            "Name": "Misc_Machete",
+            "DisplayName": "NSLOCTEXT(\"D_DynamicQuestRewards\", \"Misc_Machete-DisplayName\", \"Adventurer\\'s Remains\")",
+            "Description": "NSLOCTEXT(\"D_DynamicQuestRewards\", \"Misc_Machete-Description\", \"The remains of an overly eager prospector.\")",
+            "PotentialRewards": [
+                {
+                    "Item": {
+                        "RowName": "Weapon_Machete",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": false
+                },
+                {
+                    "Item": {
+                        "RowName": "Misc_Bramble",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": true
+                },
+                {
+                    "Item": {
+                        "RowName": "Misc_Bramble",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": true
+                }
+            ],
+            "Weighting": 20
+        },
+        {
+            "Name": "Tools_Fertilizer",
+            "DisplayName": "NSLOCTEXT(\"D_DynamicQuestRewards\", \"Tools_Fertilizer-DisplayName\", \"Settlement Assistance: Farming\")",
+            "Description": "NSLOCTEXT(\"D_DynamicQuestRewards\", \"Tools_Fertilizer-Description\", \"ACS redistribution of prospector equipment.\")",
+            "PotentialRewards": [
+                {
+                    "Item": {
+                        "RowName": "Misc_Farming",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": false
+                },
+                {
+                    "Item": {
+                        "RowName": "Resource_Fertilizer",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": true
+                },
+                {
+                    "Item": {
+                        "RowName": "Resource_Fertilizer",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": true
+                }
+            ],
+            "Weighting": 80
+        },
+        {
+            "Name": "Bench_Salt",
+            "DisplayName": "NSLOCTEXT(\"D_DynamicQuestRewards\", \"Bench_Salt-DisplayName\", \"Food Preservation\")",
+            "Description": "NSLOCTEXT(\"D_DynamicQuestRewards\", \"Bench_Salt-Description\", \"UDA recommends basic salting for food preservation.\")",
+            "PotentialRewards": [
+                {
+                    "Item": {
+                        "RowName": "Resource_Salt",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": true
+                },
+                {
+                    "Item": {
+                        "RowName": "Resource_Salt",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": true
+                },
+                {
+                    "Item": {
+                        "RowName": "Food_T1_RawVeg",
+                        "DataTableName": "D_DynamicQuestRewardItems"
+                    },
+                    "bScales": true
+                }
+            ],
+            "Weighting": 60
         }
     ]
 }

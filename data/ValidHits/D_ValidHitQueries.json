@@ -194,6 +194,18 @@
             "HitSuccessType": {
                 "RowName": "HitSuccess_Combat"
             }
+        },
+        {
+            "Name": "Building_Smash",
+            "HitSource": {
+                "RowName": "Sledgehammer"
+            },
+            "HitTarget": {
+                "RowName": "Any_Building"
+            },
+            "HitSuccessType": {
+                "RowName": "HitSuccess_Combat"
+            }
         }
     ]
 }

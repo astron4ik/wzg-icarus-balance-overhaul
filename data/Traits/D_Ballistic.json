@@ -328,7 +328,7 @@
         {
             "Name": "Meta_Arrow_Shengong",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 75,
+            "Damage": 70,
             "DamageVariationPercentage": 5,
             "bCanKillCam": true,
             "Weight": 0.10000000149011612,
@@ -355,13 +355,13 @@
         {
             "Name": "Meta_Arrow_Inaris",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 95,
+            "Damage": 80,
             "DamageVariationPercentage": 5,
             "bCanKillCam": true,
             "Weight": 0.10000000149011612,
             "GravityScale": 0.5,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
-            "BreakChance": 0.01,
+            "BreakChance": 0.05000000074505806,
             "PostDeployLifetime": 1200,
             "ProjectileBounceSettings": {
                 "bBounceAngleAffectsFriction": false,
@@ -436,13 +436,13 @@
         {
             "Name": "Meta_Arrow_Larkwell_Standard",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 150,
+            "Damage": 105,
             "DamageVariationPercentage": 5,
             "bCanKillCam": true,
             "Weight": 0.07000000029802322,
             "GravityScale": 0.5,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
-            "BreakChance": 0.01,
+            "BreakChance": 0.05000000074505806,
             "PostDeployLifetime": 60,
             "ProjectileBounceSettings": {
                 "bBounceAngleAffectsFriction": false,
@@ -490,7 +490,7 @@
         {
             "Name": "Meta_Arrow_Larkwell_Ballistic",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 80,
+            "Damage": 60,
             "DamageVariationPercentage": 5,
             "bCanKillCam": true,
             "bUnbreakableDuringKillCam": false,
@@ -520,14 +520,14 @@
         {
             "Name": "Meta_Arrow_Larkwell_Bleed",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 95,
+            "Damage": 65,
             "DamageVariationPercentage": 5,
             "bCanKillCam": true,
             "Weight": 0.07999999821186066,
             "GravityScale": 0.5,
             "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_Arrow_Bleed.BP_Payload_Arrow_Bleed_C",
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
-            "BreakChance": 0.01,
+            "BreakChance": 0.5,
             "PostDeployLifetime": 60,
             "ProjectileBounceSettings": {
                 "bBounceAngleAffectsFriction": false,
@@ -548,7 +548,7 @@
         {
             "Name": "Meta_Arrow_Larkwell_Tazer",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 60,
+            "Damage": 30,
             "DamageVariationPercentage": 5,
             "bCanKillCam": true,
             "bUnbreakableDuringKillCam": false,
@@ -606,7 +606,7 @@
         {
             "Name": "Metal_Bolt",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 125,
+            "Damage": 90,
             "DamageVariationPercentage": 10,
             "bCanKillCam": true,
             "Weight": 0.05000000074505806,
@@ -633,7 +633,7 @@
         {
             "Name": "Copper_Bolt",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 250,
+            "Damage": 95,
             "DamageVariationPercentage": 10,
             "bCanKillCam": true,
             "Weight": 0.03999999910593033,
@@ -660,13 +660,13 @@
         {
             "Name": "Steel_Bolt",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 400,
+            "Damage": 100,
             "DamageVariationPercentage": 10,
             "bCanKillCam": true,
             "Weight": 0.05000000074505806,
             "GravityScale": 0.5,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
-            "BreakChance": 0.05,
+            "BreakChance": 0.20000000298023224,
             "PostDeployLifetime": 60,
             "ProjectileBounceSettings": {
                 "bBounceAngleAffectsFriction": false,
@@ -741,13 +741,13 @@
         {
             "Name": "Meta_Bolt_Larkwell_Standard",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 400,
+            "Damage": 130,
             "DamageVariationPercentage": 5,
             "bCanKillCam": true,
             "Weight": 0.03500000014901161,
             "GravityScale": 0.5,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
-            "BreakChance": 0.01000000596046448,
+            "BreakChance": 0.15000000596046448,
             "PostDeployLifetime": 60,
             "ProjectileBounceSettings": {
                 "bBounceAngleAffectsFriction": false,
@@ -880,7 +880,7 @@
         {
             "Name": "Steel_Bolt_variationA",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 400,
+            "Damage": 100,
             "DamageVariationPercentage": 10,
             "bCanKillCam": true,
             "Weight": 0.05000000074505806,
@@ -907,13 +907,13 @@
         {
             "Name": "Platinum_Bolt",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 500,
+            "Damage": 110,
             "DamageVariationPercentage": 5,
             "bCanKillCam": true,
             "Weight": 0.03999999910593033,
             "GravityScale": 0.5,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
-            "BreakChance": 0.02,
+            "BreakChance": 0.10000000149011612,
             "PostDeployLifetime": 60,
             "ProjectileBounceSettings": {
                 "bBounceAngleAffectsFriction": false,
@@ -961,13 +961,13 @@
         {
             "Name": "Titanium_Bolt",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 1000,
+            "Damage": 120,
             "DamageVariationPercentage": 5,
             "bCanKillCam": true,
-            "Weight": 0.01,
+            "Weight": 0.03999999910593033,
             "GravityScale": 0.5,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
-            "BreakChance": 0.01,
+            "BreakChance": 0.10000000149011612,
             "PostDeployLifetime": 60,
             "ProjectileBounceSettings": {
                 "bBounceAngleAffectsFriction": false,
@@ -992,7 +992,7 @@
             "DamageVariationPercentage": 10,
             "bHomingProjectile": false,
             "bCanKillCam": true,
-            "Weight": 1,
+            "Weight": 0.699999988079071,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 0.4000000059604645,
             "DurabilityDamage": 100,
@@ -1020,7 +1020,7 @@
             "DamageVariationPercentage": 10,
             "bHomingProjectile": false,
             "bCanKillCam": true,
-            "Weight": 1,
+            "Weight": 0.699999988079071,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 0,
             "DurabilityDamage": 100,
@@ -1048,7 +1048,7 @@
             "DamageVariationPercentage": 10,
             "bHomingProjectile": false,
             "bCanKillCam": true,
-            "Weight": 1,
+            "Weight": 0.699999988079071,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 0,
             "DurabilityDamage": 100,
@@ -1076,7 +1076,7 @@
             "DamageVariationPercentage": 10,
             "bHomingProjectile": false,
             "bCanKillCam": true,
-            "Weight": 1,
+            "Weight": 0.699999988079071,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 0,
             "DurabilityDamage": 100,
@@ -1104,7 +1104,7 @@
             "DamageVariationPercentage": 10,
             "bHomingProjectile": false,
             "bCanKillCam": true,
-            "Weight": 0.949999988079071,
+            "Weight": 0.699999988079071,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 0.20000000298023224,
             "DurabilityDamage": 100,
@@ -1128,11 +1128,11 @@
         {
             "Name": "Spear_Worm",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 225,
+            "Damage": 350,
             "DamageVariationPercentage": 10,
             "bHomingProjectile": false,
             "bCanKillCam": true,
-            "Weight": 0.949999988079071,
+            "Weight": 0.699999988079071,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 0.10000000149011612,
             "DurabilityDamage": 100,
@@ -1160,7 +1160,7 @@
             "DamageVariationPercentage": 10,
             "bHomingProjectile": false,
             "bCanKillCam": true,
-            "Weight": 0.8999999761581421,
+            "Weight": 0.699999988079071,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 0.20000000298023224,
             "DurabilityDamage": 100,
@@ -1188,7 +1188,7 @@
             "DamageVariationPercentage": 10,
             "bHomingProjectile": false,
             "bCanKillCam": true,
-            "Weight": 0.8999999761581421,
+            "Weight": 0.699999988079071,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 0.20000000298023224,
             "DurabilityDamage": 100,
@@ -1216,7 +1216,7 @@
             "DamageVariationPercentage": 10,
             "bHomingProjectile": false,
             "bCanKillCam": true,
-            "Weight": 0.8999999761581421,
+            "Weight": 0.699999988079071,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 0.10000000149011612,
             "DurabilityDamage": 100,
@@ -1244,7 +1244,7 @@
             "DamageVariationPercentage": 5,
             "bHomingProjectile": false,
             "bCanKillCam": true,
-            "Weight": 0.8999999761581421,
+            "Weight": 0.699999988079071,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 0.10000000149011612,
             "DurabilityDamage": 100,
@@ -1272,7 +1272,7 @@
             "DamageVariationPercentage": 5,
             "bHomingProjectile": false,
             "bCanKillCam": true,
-            "Weight": 0.8999999761581421,
+            "Weight": 0.699999988079071,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 0.10000000149011612,
             "DurabilityDamage": 100,
@@ -1300,7 +1300,7 @@
             "DamageVariationPercentage": 5,
             "bHomingProjectile": false,
             "bCanKillCam": true,
-            "Weight": 1,
+            "Weight": 0.699999988079071,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 0,
             "DurabilityDamage": 100,
@@ -1328,7 +1328,7 @@
             "DamageVariationPercentage": 10,
             "bHomingProjectile": false,
             "bCanKillCam": true,
-            "Weight": 0.8500000238418579,
+            "Weight": 0.699999988079071,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 0.05000000074505806,
             "DurabilityDamage": 100,
@@ -1356,7 +1356,7 @@
             "DamageVariationPercentage": 5,
             "bHomingProjectile": false,
             "bCanKillCam": true,
-            "Weight": 0.8999999761581421,
+            "Weight": 0.699999988079071,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 0.10000000149011612,
             "DurabilityDamage": 100,
@@ -1384,7 +1384,7 @@
             "DamageVariationPercentage": 5,
             "bHomingProjectile": false,
             "bCanKillCam": true,
-            "Weight": 0.8999999761581421,
+            "Weight": 0.699999988079071,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 0.10000000149011612,
             "DurabilityDamage": 100,
@@ -1412,7 +1412,7 @@
             "DamageVariationPercentage": 10,
             "bHomingProjectile": false,
             "bCanKillCam": true,
-            "Weight": 0.800000011920929,
+            "Weight": 0.699999988079071,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 0.05000000074505806,
             "DurabilityDamage": 100,
@@ -1435,6 +1435,24 @@
         },
         {
             "Name": "Shell_Buckshot",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "DamageVariationPercentage": 10,
+            "bHomingProjectile": false,
+            "bUnbreakableDuringKillCam": false,
+            "Weight": 0.0035000001080334187,
+            "AllowPickupAfterSettle": false,
+            "BreakChance": 1,
+            "PostDeployLifetime": 0,
+            "CullDistanceSquared": 400000000,
+            "OverrideStaticMesh": "/Game/ASS/WEP/SM_Buckshot.SM_Buckshot",
+            "RotationFollowsVelocity": false,
+            "AudioData": {
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Impacts/SFX_IMPACT_SHOTGUN.SFX_IMPACT_SHOTGUN"
+            },
+            "bUseActorPooling": true
+        },
+        {
+            "Name": "Shell_Workshop",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
             "DamageVariationPercentage": 10,
             "bHomingProjectile": false,
@@ -1494,16 +1512,18 @@
             "DamageVariationPercentage": 10,
             "bCanStealthAttack": false,
             "bHomingProjectile": false,
-            "Weight": 1,
+            "Weight": 0.7699999809265137,
             "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_Frag_Grenade.BP_Payload_Frag_Grenade_C",
             "PayloadDeploymentType": "OnTimerElapsed",
+            "PayloadDeploymentTimerDelay": 4,
             "BreakChance": 0,
             "PostDeployLifetime": 0.10000000149011612,
             "AttachOnHit": false,
             "ProjectileBounceSettings": {
                 "bBounceAngleAffectsFriction": false,
+                "Bounciness": 0.20000000298023224,
                 "Friction": 0.20000000298023224,
-                "BounceVelocityStopSimulatingThreshold": 20,
+                "BounceVelocityStopSimulatingThreshold": 40,
                 "MinTimeBetweenBounces": 0.30000001192092896
             },
             "RotationFollowsVelocity": false,
@@ -1516,8 +1536,40 @@
             },
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
-                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_WEP_GRN_FRAG.SFX_WEP_GRN_FRAG",
-                "bPlayImpactSoundOnPayload": true
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
+            }
+        },
+        {
+            "Name": "Frag_Grenade_Impact",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "DamageVariationPercentage": 10,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "bUnbreakableDuringKillCam": false,
+            "Weight": 0.7699999809265137,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_Frag_Grenade.BP_Payload_Frag_Grenade_C",
+            "PayloadDeploymentTimerDelay": 1,
+            "BreakChance": 0,
+            "PostDeployLifetime": 0.10000000149011612,
+            "ProjectileBounceSettings": {
+                "bBounceAngleAffectsFriction": false,
+                "Bounciness": 0.20000000298023224,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 40,
+                "MinTimeBetweenBounces": 0.30000001192092896
+            },
+            "RotationFollowsVelocity": false,
+            "VelocityRotationOffset": {
+                "Roll": 5
+            },
+            "AngularRotation": {
+                "Pitch": 90,
+                "Roll": 45
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
             }
         },
         {
@@ -1559,17 +1611,18 @@
             "bHomingProjectile": false,
             "Weight": 0.800000011920929,
             "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_Smoke_Grenade.BP_Payload_Smoke_Grenade_C",
+            "PayloadDeploymentTimerDelay": 2,
             "BreakChance": 0,
             "PostDeployLifetime": 0.10000000149011612,
             "AttachOnHit": false,
             "ProjectileBounceSettings": {
                 "Bounciness": 0.20000000298023224,
-                "Friction": 0.20000000298023224,
-                "BounceVelocityStopSimulatingThreshold": 10,
+                "BounceVelocityStopSimulatingThreshold": 20,
                 "MinTimeBetweenBounces": 0.30000001192092896
             },
             "AudioData": {
-                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY"
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
             }
         },
         {
@@ -2056,6 +2109,25 @@
             "bUseActorPooling": true
         },
         {
+            "Name": "Rifle_Round_Workshop",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "DamageVariationPercentage": 10,
+            "bHomingProjectile": false,
+            "bCanKillCam": true,
+            "bUnbreakableDuringKillCam": false,
+            "Weight": 0.0035000001080334187,
+            "AllowPickupAfterSettle": false,
+            "BreakChance": 1,
+            "PostDeployLifetime": 0,
+            "CullDistanceSquared": 400000000,
+            "OverrideStaticMesh": "/Game/ASS/WEP/SM_Buckshot.SM_Buckshot",
+            "RotationFollowsVelocity": false,
+            "AudioData": {
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Impacts/SFX_IMPACT_RIFLE.SFX_IMPACT_RIFLE"
+            },
+            "bUseActorPooling": true
+        },
+        {
             "Name": "Rifle_Round_Explosive",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
             "DamageVariationPercentage": 10,
@@ -2130,7 +2202,7 @@
             "OverrideStaticMesh": "/Game/ASS/WEP/SM_Buckshot.SM_Buckshot",
             "RotationFollowsVelocity": false,
             "AudioData": {
-                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Impacts/SFX_IMPACT_RIFLE_EXPLOSIVE.SFX_IMPACT_RIFLE_EXPLOSIVE"
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Impacts/SFX_IMPACT_RIFLE.SFX_IMPACT_RIFLE"
             },
             "bUseActorPooling": true
         },
@@ -2207,7 +2279,7 @@
             "bCanStealthAttack": false,
             "bHomingProjectile": false,
             "bUnbreakableDuringKillCam": false,
-            "Weight": 0.8999999761581421,
+            "Weight": 0.699999988079071,
             "GravityScale": 0.5,
             "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_ExtinguishFire.BP_Payload_ExtinguishFire_C",
             "PayloadDeploymentType": "OnBounceImmediate",
@@ -2464,7 +2536,7 @@
             "bCanStealthAttack": false,
             "bHomingProjectile": false,
             "bUnbreakableDuringKillCam": false,
-            "Weight": 1,
+            "Weight": 0.6000000238418579,
             "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_ExtinguishFire_Splash.BP_Payload_ExtinguishFire_Splash_C",
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 1,
@@ -2619,7 +2691,8 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_SANDWORM_BALLISTIC_TRAVEL_SMALL.SFX_CRE_SANDWORM_BALLISTIC_TRAVEL_SMALL",
                 "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_SANDWORM_BALLISTIC_MED.SFX_CRE_SANDWORM_BALLISTIC_MED"
-            }
+            },
+            "bUseActorPooling": true
         },
         {
             "Name": "Sandworm_Spit_Large",
@@ -2646,18 +2719,19 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_SANDWORM_BALLISTIC_TRAVEL_LARGE.SFX_CRE_SANDWORM_BALLISTIC_TRAVEL_LARGE",
                 "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_SANDWORM_BALLISTIC_LARGE.SFX_CRE_SANDWORM_BALLISTIC_LARGE"
-            }
+            },
+            "bUseActorPooling": true
         },
         {
             "Name": "Knife_Worm",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 32,
+            "Damage": 50,
             "DamageVariationPercentage": 10,
             "bHomingProjectile": false,
             "bCanKillCam": true,
             "Weight": 0.5,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
-            "BreakChance": 0.10000000149011612,
+            "BreakChance": 0.05000000074505806,
             "DurabilityDamage": 10,
             "PostDeployLifetime": 120,
             "ProjectileBounceSettings": {
@@ -2704,6 +2778,33 @@
             }
         },
         {
+            "Name": "Sandworm_Arrow",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 85,
+            "DamageVariationPercentage": 10,
+            "bCanKillCam": true,
+            "Weight": 0.09000000357627869,
+            "GravityScale": 0.5,
+            "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
+            "BreakChance": 0.15000000596046448,
+            "PostDeployLifetime": 60,
+            "ProjectileBounceSettings": {
+                "bBounceAngleAffectsFriction": false,
+                "Bounciness": 0.6000000238418579,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 5,
+                "MinFrictionFraction": 0
+            },
+            "OverridePhysicsAsset": "/Game/ASS/WEP/SK_ARR_Sandworm_BallisticPhysicsAsset.SK_ARR_Sandworm_BallisticPhysicsAsset",
+            "SpawnPositionOffset": {
+                "X": 94
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_ARROW_FLY.SFX_BALLISTIC_ARROW_FLY",
+                "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_ARROW_HIT.SFX_BALLISTIC_ARROW_HIT"
+            }
+        },
+        {
             "Name": "Sandworm_Spit_Multi",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
             "Damage": 10,
@@ -2728,7 +2829,8 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_SANDWORM_BALLISTIC_TRAVEL_SMALL.SFX_CRE_SANDWORM_BALLISTIC_TRAVEL_SMALL",
                 "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_SANDWORM_BALLISTIC_SMALL.SFX_CRE_SANDWORM_BALLISTIC_SMALL"
-            }
+            },
+            "bUseActorPooling": true
         },
         {
             "Name": "Cave_worm_Spit",
@@ -2755,7 +2857,8 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_CAVEWORM_BALLISTIC_TRAVEL_SMALL.SFX_CRE_CAVEWORM_BALLISTIC_TRAVEL_SMALL",
                 "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_CAVEWORM_BALLISTIC_SMALL.SFX_CRE_CAVEWORM_BALLISTIC_SMALL"
-            }
+            },
+            "bUseActorPooling": true
         },
         {
             "Name": "TeenageCaveWorm_Spit",
@@ -2782,7 +2885,8 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_TEENAGE_CAVEWORM_BALLISTIC_TRAVEL_SMALL.SFX_CRE_TEENAGE_CAVEWORM_BALLISTIC_TRAVEL_SMALL",
                 "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_TEENAGE_CAVEWORM_BALLISTIC_SMALL.SFX_CRE_TEENAGE_CAVEWORM_BALLISTIC_SMALL"
-            }
+            },
+            "bUseActorPooling": true
         },
         {
             "Name": "Pistol_Round",
@@ -2897,7 +3001,7 @@
             "OverrideStaticMesh": "/Game/ASS/WEP/SM_Buckshot.SM_Buckshot",
             "RotationFollowsVelocity": false,
             "AudioData": {
-                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Impacts/SFX_IMPACT_SMALL_EXPLOSIVE_PISTOL.SFX_IMPACT_SMALL_EXPLOSIVE_PISTOL"
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Impacts/SFX_IMPACT_RIFLE.SFX_IMPACT_RIFLE"
             },
             "bUseActorPooling": true
         },
@@ -2974,19 +3078,20 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_TEENAGE_CAVEWORM_BALLISTIC_TRAVEL_SMALL.SFX_CRE_TEENAGE_CAVEWORM_BALLISTIC_TRAVEL_SMALL",
                 "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_TEENAGE_BALLISTIC_LARGE.SFX_CRE_TEENAGE_BALLISTIC_LARGE"
-            }
+            },
+            "bUseActorPooling": true
         },
         {
             "Name": "Black_Wolf_Arrow",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 20,
+            "Damage": 70,
             "DamageVariationPercentage": 10,
             "bCanKillCam": true,
             "Weight": 0.15000000596046448,
             "GravityScale": 0.5,
             "PayloadDeploymentType": "OnBounceImmediate",
             "TrailParticle": "/Game/Fx/Particles/P_ArrowSmokeTrail.P_ArrowSmokeTrail",
-            "BreakChance": 0.8999999761581421,
+            "BreakChance": 0.15000000596046448,
             "DurabilityDamage": 100,
             "PostDeployLifetime": 60,
             "OverridePhysicsAsset": "/Game/ASS/WEP/SK_ARR_Black_Wolf_BallisticPhysics.SK_ARR_Black_Wolf_BallisticPhysics",
@@ -3045,13 +3150,13 @@
         {
             "Name": "Knife_Black_Wolf",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 32,
+            "Damage": 65,
             "DamageVariationPercentage": 10,
             "bHomingProjectile": false,
             "bCanKillCam": true,
             "Weight": 0.5,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
-            "BreakChance": 0.5,
+            "BreakChance": 0.05000000074505806,
             "DurabilityDamage": 10,
             "PostDeployLifetime": 120,
             "ProjectileBounceSettings": {
@@ -3108,7 +3213,7 @@
             "bCanStealthAttack": false,
             "bHomingProjectile": false,
             "bUnbreakableDuringKillCam": false,
-            "Weight": 1,
+            "Weight": 0.800000011920929,
             "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_Dropship_Grenade.BP_Payload_Dropship_Grenade_C",
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 0,
@@ -3127,7 +3232,7 @@
             },
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
-                "bPlayImpactSoundOnPayload": true
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
             }
         },
         {
@@ -3136,7 +3241,7 @@
             "bCanStealthAttack": false,
             "bHomingProjectile": false,
             "bUnbreakableDuringKillCam": false,
-            "Weight": 0.5,
+            "Weight": 0.800000011920929,
             "GravityScale": 0.5,
             "AllowPickupAfterSettle": false,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
@@ -3152,7 +3257,8 @@
                 "Z": 10
             },
             "AudioData": {
-                "FlySound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_WEP_GRN_DROPSHIP_FLARE.SFX_WEP_GRN_DROPSHIP_FLARE"
+                "FlySound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_WEP_GRN_DROPSHIP_FLARE.SFX_WEP_GRN_DROPSHIP_FLARE",
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
             },
             "OnHitAINoiseEventRange": 0
         },
@@ -3181,7 +3287,8 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_SANDWORM_BALLISTIC_TRAVEL_SMALL.SFX_CRE_SANDWORM_BALLISTIC_TRAVEL_SMALL",
                 "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_SANDWORM_BALLISTIC_MED.SFX_CRE_SANDWORM_BALLISTIC_MED"
-            }
+            },
+            "bUseActorPooling": true
         },
         {
             "Name": "Landshark_Spit_Large",
@@ -3208,7 +3315,8 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_SANDWORM_BALLISTIC_TRAVEL_LARGE.SFX_CRE_SANDWORM_BALLISTIC_TRAVEL_LARGE",
                 "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_SANDWORM_BALLISTIC_LARGE.SFX_CRE_SANDWORM_BALLISTIC_LARGE"
-            }
+            },
+            "bUseActorPooling": true
         },
         {
             "Name": "Needler_Spike",
@@ -3345,7 +3453,8 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_CAVEWORM_BALLISTIC_TRAVEL_SMALL.SFX_CRE_CAVEWORM_BALLISTIC_TRAVEL_SMALL",
                 "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_CAVEWORM_BALLISTIC_SMALL.SFX_CRE_CAVEWORM_BALLISTIC_SMALL"
-            }
+            },
+            "bUseActorPooling": true
         },
         {
             "Name": "IceMammoth_Spear",
@@ -3354,7 +3463,7 @@
             "DamageVariationPercentage": 5,
             "bHomingProjectile": false,
             "bCanKillCam": true,
-            "Weight": 0.8999999761581421,
+            "Weight": 0.699999988079071,
             "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
             "BreakChance": 0.10000000149011612,
             "DurabilityDamage": 100,
@@ -3405,6 +3514,858 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_THROW_STICK.SFX_BALLISTIC_THROW_STICK",
                 "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_STICK_HIT.SFX_BALLISTIC_STICK_HIT"
+            }
+        },
+        {
+            "Name": "IceMammoth_Ice_Projectile",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 75,
+            "DamageVariationPercentage": 10,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 0.5,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_IceMammoth_Ice_Projectile.BP_Payload_IceMammoth_Ice_Projectile_C",
+            "PayloadDeploymentTimerDelay": 1,
+            "BreakChance": 0,
+            "PostDeployLifetime": 10,
+            "AttachOnHit": false,
+            "ProjectileBounceSettings": {
+                "Bounciness": 0,
+                "Friction": 0.5,
+                "BounceVelocityStopSimulatingThreshold": 30,
+                "MinTimeBetweenBounces": 0.30000001192092896
+            },
+            "RotationFollowsVelocity": false,
+            "AngularRotation": {
+                "Pitch": 90,
+                "Yaw": 90,
+                "Roll": 90
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/Creatures/Movement/Ice_Mammoth/SFX_CRE_ICEMAMMOTH_PROJECTILE_TRAVELLING.SFX_CRE_ICEMAMMOTH_PROJECTILE_TRAVELLING",
+                "ImpactSound": "/Game/FMOD/Events/SFX/Creatures/Movement/Ice_Mammoth/SFX_ICE_MAMMOTH_PROJECTILE_IMPACT.SFX_ICE_MAMMOTH_PROJECTILE_IMPACT"
+            },
+            "bUseActorPooling": true
+        },
+        {
+            "Name": "Spider_Web",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 10,
+            "DamageVariationPercentage": 10,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 0.5,
+            "GravityScale": 0.15000000596046448,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_SpiderWeb.BP_Payload_SpiderWeb_C",
+            "PayloadDeploymentType": "OnBounceImmediate",
+            "PayloadDeploymentTimerDelay": 1,
+            "BreakChance": 0,
+            "PostDeployLifetime": 0.10000000149011612,
+            "AttachOnHit": false,
+            "ProjectileBounceSettings": {
+                "Bounciness": 0.20000000298023224,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 10,
+                "MinTimeBetweenBounces": 0.30000001192092896
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_SPIDER_BALLISTIC_TRAVEL.SFX_CRE_SPIDER_BALLISTIC_TRAVEL",
+                "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_SPIDER_BALLISTIC_IMPACT.SFX_CRE_SPIDER_BALLISTIC_IMPACT"
+            }
+        },
+        {
+            "Name": "RockGolem_Ceiling_Rock",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 125,
+            "DamageVariationPercentage": 20,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 0.5,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_RockGolem_Rock.BP_Payload_RockGolem_Rock_C",
+            "PayloadDeploymentTimerDelay": 1,
+            "BreakChance": 1,
+            "PostDeployLifetime": 0.10000000149011612,
+            "ProjectileBounceSettings": {
+                "Bounciness": 0,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 10,
+                "MinTimeBetweenBounces": 0.30000001192092896
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_ROCK_GOLEM_ROCK_TRAVEL_FALL.SFX_CRE_ROCK_GOLEM_ROCK_TRAVEL_FALL",
+                "ImpactSound": "/Game/FMOD/Events/SFX/Creatures/Movement/RockGolem/SFX_CRE_ROCKDOG_GOLEM_ROCK_FALL_IMPACT.SFX_CRE_ROCKDOG_GOLEM_ROCK_FALL_IMPACT"
+            },
+            "bUseActorPooling": true
+        },
+        {
+            "Name": "Scyther_Spear",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 300,
+            "DamageVariationPercentage": 10,
+            "bHomingProjectile": false,
+            "bCanKillCam": true,
+            "Weight": 0.699999988079071,
+            "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
+            "BreakChance": 0.10000000149011612,
+            "DurabilityDamage": 100,
+            "PostDeployLifetime": 120,
+            "ProjectileBounceSettings": {
+                "bBounceAngleAffectsFriction": false,
+                "Bounciness": 0.6000000238418579,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 5,
+                "MinFrictionFraction": 0
+            },
+            "OverridePhysicsAsset": "/Game/ASS/WEP/SK_SPR_Water_Scyther_BallisitcPhysicsAsset.SK_SPR_Water_Scyther_BallisitcPhysicsAsset",
+            "VelocityRotationOffset": {
+                "Pitch": 90
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_SPEAR_FLY.SFX_BALLISTIC_SPEAR_FLY",
+                "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_SPEAR_HIT.SFX_BALLISTIC_SPEAR_HIT"
+            }
+        },
+        {
+            "Name": "Scyther_Arrow",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 100,
+            "DamageVariationPercentage": 10,
+            "bCanKillCam": true,
+            "Weight": 0.09000000357627869,
+            "GravityScale": 0.5,
+            "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
+            "BreakChance": 0.10000000149011612,
+            "PostDeployLifetime": 60,
+            "ProjectileBounceSettings": {
+                "bBounceAngleAffectsFriction": false,
+                "Bounciness": 0.6000000238418579,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 5,
+                "MinFrictionFraction": 0
+            },
+            "OverridePhysicsAsset": "/Game/ASS/WEP/SK_ARR_Water_Scyther_BallisticPhysicsAsset.SK_ARR_Water_Scyther_BallisticPhysicsAsset",
+            "SpawnPositionOffset": {
+                "X": 94
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_ARROW_FLY.SFX_BALLISTIC_ARROW_FLY",
+                "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_ARROW_HIT.SFX_BALLISTIC_ARROW_HIT"
+            }
+        },
+        {
+            "Name": "Scyther_Bolt",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 100,
+            "DamageVariationPercentage": 10,
+            "bCanKillCam": true,
+            "Weight": 0.09000000357627869,
+            "GravityScale": 0.5,
+            "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
+            "BreakChance": 0.10000000149011612,
+            "PostDeployLifetime": 60,
+            "ProjectileBounceSettings": {
+                "bBounceAngleAffectsFriction": false,
+                "Bounciness": 0.6000000238418579,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 5,
+                "MinFrictionFraction": 0
+            },
+            "OverridePhysicsAsset": "/Game/ASS/WEP/SK_BLT_Water_Scyther_BallisticPhysicsAsset.SK_BLT_Water_Scyther_BallisticPhysicsAsset",
+            "SpawnPositionOffset": {
+                "X": 94
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_ARROW_FLY.SFX_BALLISTIC_ARROW_FLY",
+                "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_ARROW_HIT.SFX_BALLISTIC_ARROW_HIT"
+            }
+        },
+        {
+            "Name": "Hornet_Knife",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 60,
+            "DamageVariationPercentage": 10,
+            "bHomingProjectile": false,
+            "bCanKillCam": true,
+            "Weight": 0.5,
+            "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
+            "BreakChance": 0.20000000298023224,
+            "DurabilityDamage": 10,
+            "PostDeployLifetime": 120,
+            "ProjectileBounceSettings": {
+                "bBounceAngleAffectsFriction": false,
+                "Bounciness": 0.6000000238418579,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 5,
+                "MinFrictionFraction": 0
+            },
+            "OverridePhysicsAsset": "/Game/ASS/WEP/KNI_Hornet_Throwing/SK_KNI_Hornet_Throwing_BallisticPhysicsAsset.SK_KNI_Hornet_Throwing_BallisticPhysicsAsset",
+            "VelocityRotationOffset": {
+                "Pitch": 90
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_KNIFE_FLY.SFX_BALLISTIC_KNIFE_FLY",
+                "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_KNIFE_HIT_METAL.SFX_BALLISTIC_KNIFE_HIT_METAL"
+            }
+        },
+        {
+            "Name": "Crude_Ammo",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 100,
+            "bHomingProjectile": false,
+            "bCanKillCam": true,
+            "bUnbreakableDuringKillCam": false,
+            "Weight": 0.0035000001080334187,
+            "BreakChance": 1,
+            "PostDeployLifetime": 60,
+            "OverrideStaticMesh": "/Game/ASS/WEP/SM_Buckshot.SM_Buckshot",
+            "RotationFollowsVelocity": false,
+            "AudioData": {
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Impacts/SFX_IMPACT_SMALL.SFX_IMPACT_SMALL"
+            },
+            "bUseActorPooling": true
+        },
+        {
+            "Name": "Slug_Slime",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 10,
+            "DamageVariationPercentage": 10,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 0.5,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_Hammerslug_Spit.BP_Payload_Hammerslug_Spit_C",
+            "PayloadDeploymentType": "OnBounceImmediate",
+            "PayloadDeploymentTimerDelay": 1,
+            "BreakChance": 0,
+            "PostDeployLifetime": 0.10000000149011612,
+            "AttachOnHit": false,
+            "ProjectileBounceSettings": {
+                "Bounciness": 0.20000000298023224,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 10,
+                "MinTimeBetweenBounces": 0.30000001192092896
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_HAMMERHEAD_BALLISTIC_TRAVEL_SMALL.SFX_CRE_HAMMERHEAD_BALLISTIC_TRAVEL_SMALL",
+                "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_HAMMERHEAD_BALLISTIC_SMALL.SFX_CRE_HAMMERHEAD_BALLISTIC_SMALL"
+            },
+            "bUseActorPooling": true
+        },
+        {
+            "Name": "SlugSpitStandard",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 10,
+            "DamageVariationPercentage": 10,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 0.5,
+            "GravityScale": 0.15000000596046448,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_SandwormSpit.BP_Payload_SandwormSpit_C",
+            "PayloadDeploymentType": "OnBounceImmediate",
+            "PayloadDeploymentTimerDelay": 1,
+            "BreakChance": 0,
+            "PostDeployLifetime": 0.10000000149011612,
+            "AttachOnHit": false,
+            "ProjectileBounceSettings": {
+                "Bounciness": 0.20000000298023224,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 10,
+                "MinTimeBetweenBounces": 0.30000001192092896
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_HAMMERHEAD_BALLISTIC_TRAVEL_SMALL.SFX_CRE_HAMMERHEAD_BALLISTIC_TRAVEL_SMALL",
+                "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_HAMMERHEAD_BALLISTIC_SMALL.SFX_CRE_HAMMERHEAD_BALLISTIC_SMALL"
+            },
+            "bUseActorPooling": true
+        },
+        {
+            "Name": "HammerheadSlugSpitStandard",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 50,
+            "DamageVariationPercentage": 10,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 0.5,
+            "GravityScale": 0.15000000596046448,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_Hammerslug_Spit.BP_Payload_Hammerslug_Spit_C",
+            "PayloadDeploymentType": "OnBounceImmediate",
+            "PayloadDeploymentTimerDelay": 1,
+            "BreakChance": 0,
+            "PostDeployLifetime": 0.10000000149011612,
+            "AttachOnHit": false,
+            "ProjectileBounceSettings": {
+                "Bounciness": 0.20000000298023224,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 10,
+                "MinTimeBetweenBounces": 0.30000001192092896
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_HAMMERHEAD_BALLISTIC_TRAVEL_SMALL.SFX_CRE_HAMMERHEAD_BALLISTIC_TRAVEL_SMALL",
+                "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_HAMMERHEAD_BALLISTIC_SMALL.SFX_CRE_HAMMERHEAD_BALLISTIC_SMALL"
+            },
+            "bUseActorPooling": true
+        },
+        {
+            "Name": "Rock_Golem_Grenade",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "DamageVariationPercentage": 10,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 0.7699999809265137,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_Rock_Golem_Grenade.BP_Payload_Rock_Golem_Grenade_C",
+            "PayloadDeploymentTimerDelay": 0,
+            "BreakChance": 0,
+            "PostDeployLifetime": 0.10000000149011612,
+            "AttachOnHit": false,
+            "ProjectileBounceSettings": {
+                "bBounceAngleAffectsFriction": false,
+                "Bounciness": 0.20000000298023224,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 40,
+                "MinTimeBetweenBounces": 0.30000001192092896
+            },
+            "RotationFollowsVelocity": false,
+            "VelocityRotationOffset": {
+                "Roll": 5
+            },
+            "AngularRotation": {
+                "Pitch": 90,
+                "Roll": 45
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
+            }
+        },
+        {
+            "Name": "Rock_Golem_Grenade_Caltrops",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "DamageVariationPercentage": 10,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 0.7699999809265137,
+            "PayloadDeploymentTimerDelay": 0,
+            "BreakChance": 0,
+            "PostDeployLifetime": 3600,
+            "AttachOnHit": false,
+            "ProjectileBounceSettings": {
+                "bBounceAngleAffectsFriction": false,
+                "Bounciness": 0,
+                "Friction": 1,
+                "BounceVelocityStopSimulatingThreshold": 100,
+                "MinTimeBetweenBounces": 0.30000001192092896
+            },
+            "RotationFollowsVelocity": false,
+            "VelocityRotationOffset": {
+                "Roll": 5
+            },
+            "AngularRotation": {
+                "Pitch": 90,
+                "Roll": 45
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_ROCK_GOLEM_GRENADE_SPIKE_FLY.SFX_BALLISTIC_ROCK_GOLEM_GRENADE_SPIKE_FLY",
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_ROCKGOLEM_GRENADE_SPIKE_IMPACT.SFX_BALLISTIC_ROCKGOLEM_GRENADE_SPIKE_IMPACT"
+            },
+            "bUseActorPooling": true
+        },
+        {
+            "Name": "IceMammoth_Fractured_Ice",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 20,
+            "DamageVariationPercentage": 10,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 0.5,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_IceMammoth_Ice_Fracture.BP_Payload_IceMammoth_Ice_Fracture_C",
+            "PayloadDeploymentTimerDelay": 0,
+            "BreakChance": 100,
+            "PostDeployLifetime": 0.10000000149011612,
+            "AttachOnHit": false,
+            "ProjectileBounceSettings": {
+                "Bounciness": 0,
+                "Friction": 0.5,
+                "BounceVelocityStopSimulatingThreshold": 30,
+                "MinTimeBetweenBounces": 0.30000001192092896
+            },
+            "RotationFollowsVelocity": false,
+            "AngularRotation": {
+                "Pitch": 90,
+                "Yaw": 90,
+                "Roll": 90
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/Creatures/Movement/Ice_Mammoth/SFX_CRE_ICEMAMMOTH_PROJECTILE_TRAVELLING_MANY.SFX_CRE_ICEMAMMOTH_PROJECTILE_TRAVELLING_MANY",
+                "ImpactSound": "/Game/FMOD/Events/SFX/Creatures/Movement/Ice_Mammoth/SFX_ICE_MAMMOTH_PROJECTILE_IMPACT_MANY.SFX_ICE_MAMMOTH_PROJECTILE_IMPACT_MANY"
+            },
+            "bUseActorPooling": true
+        },
+        {
+            "Name": "Drill_Arrow",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Mining.BP_BallisticBehaviour_Mining_C",
+            "Damage": 25,
+            "DamageVariationPercentage": 10,
+            "bUnbreakableDuringKillCam": false,
+            "Weight": 0.20000000298023224,
+            "GravityScale": 0.5,
+            "PayloadDeploymentType": "OnBounceImmediate",
+            "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
+            "BreakChance": 0,
+            "PostDeployLifetime": 60,
+            "ProjectileBounceSettings": {
+                "bBounceAngleAffectsFriction": false,
+                "Bounciness": 0.6000000238418579,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 5,
+                "MinFrictionFraction": 0
+            },
+            "OverridePhysicsAsset": "/Game/ASS/WEP/SK_ARR_Drill_Heavy_BallisticPhysicsAsset.SK_ARR_Drill_Heavy_BallisticPhysicsAsset",
+            "SpawnPositionOffset": {
+                "X": 94
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_ARROW_FLY_DRILL.SFX_BALLISTIC_ARROW_FLY_DRILL",
+                "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_ARROW_HIT_DRILL.SFX_BALLISTIC_ARROW_HIT_DRILL"
+            }
+        },
+        {
+            "Name": "GreatApe_Rock_Projectile",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 100,
+            "DamageVariationPercentage": 50,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 0.5,
+            "GravityScale": 2,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_GreatApe_Projectile.BP_Payload_GreatApe_Projectile_C",
+            "PayloadDeploymentTimerDelay": 1,
+            "TrailParticle": "/Game/ASS/VFX/CRE/Ape/NS_Ape_Projectile_Trail.NS_Ape_Projectile_Trail",
+            "BreakChance": 0,
+            "PostDeployLifetime": 1,
+            "AttachOnHit": false,
+            "ProjectileBounceSettings": {
+                "Bounciness": 0,
+                "Friction": 20,
+                "BounceVelocityStopSimulatingThreshold": 10,
+                "MinTimeBetweenBounces": 0.30000001192092896
+            },
+            "RotationFollowsVelocity": false,
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/Creatures/Movement/Ape/SFX_CRE_APE_PROJECTILE_TRAVELLING.SFX_CRE_APE_PROJECTILE_TRAVELLING",
+                "ImpactSound": "/Game/FMOD/Events/SFX/Creatures/Movement/Ape/SFX_CRE_APE_PROJECTILE_ROCK_FALL_IMPACT.SFX_CRE_APE_PROJECTILE_ROCK_FALL_IMPACT"
+            }
+        },
+        {
+            "Name": "GreatApe_Rock_Projectile_Fast",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 100,
+            "DamageVariationPercentage": 20,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 0.5,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_GreatApe_Projectile.BP_Payload_GreatApe_Projectile_C",
+            "PayloadDeploymentTimerDelay": 1,
+            "TrailParticle": "/Game/ASS/VFX/CRE/Ape/NS_Ape_Projectile_Trail.NS_Ape_Projectile_Trail",
+            "BreakChance": 0,
+            "PostDeployLifetime": 1,
+            "AttachOnHit": false,
+            "ProjectileBounceSettings": {
+                "Bounciness": 0,
+                "Friction": 10,
+                "BounceVelocityStopSimulatingThreshold": 30,
+                "MinTimeBetweenBounces": 0.30000001192092896
+            },
+            "RotationFollowsVelocity": false,
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/Creatures/Movement/Ape/SFX_CRE_APE_PROJECTILE_TRAVELLING_MANY.SFX_CRE_APE_PROJECTILE_TRAVELLING_MANY",
+                "ImpactSound": "/Game/FMOD/Events/SFX/Creatures/Movement/Ape/SFX_CRE_APE_PROJECTILE_ROCK_FALL_IMPACT.SFX_CRE_APE_PROJECTILE_ROCK_FALL_IMPACT"
+            },
+            "OnHitAINoiseEventRange": 200
+        },
+        {
+            "Name": "Slug_Grenade",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "DamageVariationPercentage": 10,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 0.7699999809265137,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_Slug_Grenade.BP_Payload_Slug_Grenade_C",
+            "PayloadDeploymentTimerDelay": 0,
+            "BreakChance": 0,
+            "PostDeployLifetime": 1.5,
+            "ProjectileBounceSettings": {
+                "bBounceAngleAffectsFriction": false,
+                "Bounciness": 0.20000000298023224,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 40,
+                "MinTimeBetweenBounces": 0.30000001192092896
+            },
+            "RotationFollowsVelocity": false,
+            "VelocityRotationOffset": {
+                "Roll": 5
+            },
+            "AngularRotation": {
+                "Pitch": 90,
+                "Roll": 45
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
+            }
+        },
+        {
+            "Name": "Ape_Grenade",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "DamageVariationPercentage": 10,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 0.6000000238418579,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_ApeGrenade.BP_Payload_ApeGrenade_C",
+            "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
+            "BreakChance": 0,
+            "DurabilityDamage": 100000,
+            "PostDeployLifetime": 120,
+            "AttachOnHit": false,
+            "ProjectileBounceSettings": {
+                "bBounceAngleAffectsFriction": false,
+                "Bounciness": 0.20000000298023224,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 40,
+                "MinTimeBetweenBounces": 0.30000001192092896
+            },
+            "RotationFollowsVelocity": false,
+            "VelocityRotationOffset": {
+                "Roll": 5
+            },
+            "AngularRotation": {
+                "Pitch": 90,
+                "Roll": 45
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_APE_GRENADE_FLY.SFX_BALLISTIC_APE_GRENADE_FLY",
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
+            }
+        },
+        {
+            "Name": "GreatApe_Log_Projectile",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 125,
+            "DamageVariationPercentage": 30,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 10,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_GreatApe_LogProjectile.BP_Payload_GreatApe_LogProjectile_C",
+            "PayloadDeploymentTimerDelay": 1,
+            "TrailParticle": "/Game/ASS/VFX/CRE/Ape/NS_Ape_Projectile_Trail.NS_Ape_Projectile_Trail",
+            "BreakChance": 0,
+            "PostDeployLifetime": 0.5,
+            "AttachOnHit": false,
+            "ProjectileBounceSettings": {
+                "Bounciness": 0,
+                "Friction": 10,
+                "BounceVelocityStopSimulatingThreshold": 30,
+                "MinTimeBetweenBounces": 0.30000001192092896
+            },
+            "RotationFollowsVelocity": false,
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/Creatures/Movement/Ape/SFX_CRE_APE_PROJECTILE_TRAVELLING.SFX_CRE_APE_PROJECTILE_TRAVELLING",
+                "ImpactSound": "/Game/FMOD/Events/SFX/Creatures/Movement/Ape/SFX_CRE_APE_PROJECTILE_TREE_IMPACT.SFX_CRE_APE_PROJECTILE_TREE_IMPACT"
+            },
+            "OnHitAINoiseEventRange": 400
+        },
+        {
+            "Name": "Stone",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_RockGolemGun.BP_BallisticBehaviour_RockGolemGun_C",
+            "Damage": 35,
+            "DamageVariationPercentage": 10,
+            "bHomingProjectile": false,
+            "bUnbreakableDuringKillCam": false,
+            "Weight": 0.004999999888241291,
+            "GravityScale": 4,
+            "AllowPickupAfterSettle": false,
+            "BreakChance": 1,
+            "PostDeployLifetime": 0,
+            "CullDistanceSquared": 400000000,
+            "ProjectileBounceSettings": {
+                "bBounceAngleAffectsFriction": false,
+                "Bounciness": 0,
+                "Friction": 0.9700000286102295,
+                "MinFrictionFraction": 0
+            },
+            "OverrideStaticMesh": "/Game/ASS/WEP/SM_Buckshot.SM_Buckshot",
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_ARROW_FLY.SFX_BALLISTIC_ARROW_FLY",
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Impacts/SFX_IMPACT_STONE_BULLET.SFX_IMPACT_STONE_BULLET"
+            }
+        },
+        {
+            "Name": "EDSRound",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 10,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "bCanKillCam": true,
+            "bUnbreakableDuringKillCam": false,
+            "Weight": 0.0035000001080334187,
+            "BreakChance": 1,
+            "PostDeployLifetime": 60,
+            "OverrideStaticMesh": "/Game/ASS/WEP/SM_Buckshot.SM_Buckshot",
+            "RotationFollowsVelocity": false,
+            "AudioData": {
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Impacts/SFX_IMPACT_SMALL.SFX_IMPACT_SMALL"
+            },
+            "bUseActorPooling": true
+        },
+        {
+            "Name": "SlugLauncher_Ammo",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_SlugLauncher.BP_BallisticBehaviour_SlugLauncher_C",
+            "Damage": 250,
+            "DamageVariationPercentage": 50,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 0.5,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_SlugLauncher.BP_Payload_SlugLauncher_C",
+            "PayloadDeploymentType": "OnBounceWaitForHalt",
+            "BreakChance": 1,
+            "PostDeployLifetime": 3,
+            "ProjectileBounceSettings": {
+                "Friction": 0.20000000298023224,
+                "MinTimeBetweenBounces": 0.20000000298023224
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_HAMMERHEAD_BALLISTIC_TRAVEL_SMALL.SFX_CRE_HAMMERHEAD_BALLISTIC_TRAVEL_SMALL",
+                "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_SLUG_GRENADE_IMPACT.SFX_SLUG_GRENADE_IMPACT"
+            }
+        },
+        {
+            "Name": "Flamethrower_Fireball",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 100,
+            "DamageVariationPercentage": 10,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 0.20000000298023224,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_Fireball_Explosion.BP_Payload_Fireball_Explosion_C",
+            "PayloadDeploymentType": "OnBounceImmediate",
+            "PayloadDeploymentTimerDelay": 1,
+            "bPlayHitEffects": false,
+            "BreakChance": 0,
+            "PostDeployLifetime": 0.10000000149011612,
+            "AttachOnHit": false,
+            "ProjectileBounceSettings": {
+                "Bounciness": 0.20000000298023224,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 10,
+                "MinTimeBetweenBounces": 0.30000001192092896
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_FIREBALL_TRAVEL.SFX_FIREBALL_TRAVEL",
+                "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_FIREBALL_EXPLODE.SFX_FIREBALL_EXPLODE",
+                "bPlayImpactSoundOnPayload": true
+            }
+        },
+        {
+            "Name": "RockGolem_Gauntlet_Projectile",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_NoDamage.BP_BallisticBehaviour_NoDamage_C",
+            "Damage": 150,
+            "DamageVariationPercentage": 20,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 0.5,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_RockGolem_Gauntlet_Projectile.BP_Payload_RockGolem_Gauntlet_Projectile_C",
+            "PayloadDeploymentTimerDelay": 1,
+            "BreakChance": 1,
+            "PostDeployLifetime": 0.10000000149011612,
+            "ProjectileBounceSettings": {
+                "Bounciness": 0,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 10,
+                "MinTimeBetweenBounces": 0.30000001192092896
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_ROCK_GOLEM_ROCK_TRAVEL_FALL.SFX_CRE_ROCK_GOLEM_ROCK_TRAVEL_FALL",
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Impacts/SFX_IMPACT_STONE_BULLET_GAUNTLET.SFX_IMPACT_STONE_BULLET_GAUNTLET"
+            },
+            "bUseActorPooling": true
+        },
+        {
+            "Name": "IceMammoth_SledgeHammer_Projectile",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_FilteredDamage.BP_BallisticBehaviour_FilteredDamage_C",
+            "Damage": 250,
+            "DamageVariationPercentage": 5,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 0.699999988079071,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_IceMammoth_Ice_Projectile_SLEDGE.BP_Payload_IceMammoth_Ice_Projectile_SLEDGE_C",
+            "PayloadDeploymentType": "OnBounceImmediate",
+            "PayloadDeploymentTimerDelay": 0,
+            "TrailParticle": "/Game/ASS/VFX/CRE/Mammoth/NS_IceProjectileTrail_WEP.NS_IceProjectileTrail_WEP",
+            "BreakChance": 1,
+            "DurabilityDamage": 100,
+            "PostDeployLifetime": 0.10000000149011612,
+            "ProjectileBounceSettings": {
+                "bBounceAngleAffectsFriction": false,
+                "Bounciness": 0.6000000238418579,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 5,
+                "MinFrictionFraction": 0
+            },
+            "OverridePhysicsAsset": "/Game/ASS/WEP/SK_SPR_IceMammoth_Throwing_BallisticPhysicsAsset.SK_SPR_IceMammoth_Throwing_BallisticPhysicsAsset",
+            "VelocityRotationOffset": {
+                "Pitch": 90
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/Creatures/Movement/Ice_Mammoth/SFX_CRE_LEGENDARY_ICEMAM_SLEDGE_PROJECTILE_TRAVEL.SFX_CRE_LEGENDARY_ICEMAM_SLEDGE_PROJECTILE_TRAVEL",
+                "ImpactSound": "/Game/FMOD/Events/SFX/Creatures/Movement/Ice_Mammoth/SFX_WEP_LEGENDARY_ICEMAM_PROJECTILE_IMPACT.SFX_WEP_LEGENDARY_ICEMAM_PROJECTILE_IMPACT"
+            },
+            "bUseActorPooling": true
+        },
+        {
+            "Name": "Sniper_Round",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "DamageVariationPercentage": 10,
+            "bHomingProjectile": false,
+            "bCanKillCam": true,
+            "bUnbreakableDuringKillCam": false,
+            "Weight": 0.0035000001080334187,
+            "AllowPickupAfterSettle": false,
+            "BreakChance": 1,
+            "PostDeployLifetime": 0,
+            "CullDistanceSquared": 400000000,
+            "OverrideStaticMesh": "/Game/ASS/WEP/SM_Buckshot.SM_Buckshot",
+            "RotationFollowsVelocity": false,
+            "AudioData": {
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Impacts/SFX_IMPACT_RIFLE.SFX_IMPACT_RIFLE"
+            },
+            "bUseActorPooling": true
+        },
+        {
+            "Name": "Sniper_Round_Explosive",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "DamageVariationPercentage": 10,
+            "bHomingProjectile": false,
+            "bCanKillCam": true,
+            "bUnbreakableDuringKillCam": false,
+            "Weight": 0.0035000001080334187,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_Explosive.BP_Payload_Explosive_C",
+            "BreakChance": 1,
+            "PostDeployLifetime": 0,
+            "CullDistanceSquared": 400000000,
+            "OverrideStaticMesh": "/Game/ASS/WEP/SM_Buckshot.SM_Buckshot",
+            "RotationFollowsVelocity": false,
+            "AudioData": {
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Impacts/SFX_IMPACT_RIFLE_EXPLOSIVE.SFX_IMPACT_RIFLE_EXPLOSIVE"
+            },
+            "bUseActorPooling": true
+        },
+        {
+            "Name": "Sniper_Round_Incendiary",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "DamageVariationPercentage": 10,
+            "bHomingProjectile": false,
+            "bCanKillCam": true,
+            "bUnbreakableDuringKillCam": false,
+            "Weight": 0.0035000001080334187,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_IncendiaryRound.BP_Payload_IncendiaryRound_C",
+            "BreakChance": 1,
+            "PostDeployLifetime": 0,
+            "CullDistanceSquared": 400000000,
+            "OverrideStaticMesh": "/Game/ASS/WEP/SM_Buckshot.SM_Buckshot",
+            "RotationFollowsVelocity": false,
+            "AudioData": {
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Impacts/SFX_IMPACT_SNIPER_RIFLE_BULLET.SFX_IMPACT_SNIPER_RIFLE_BULLET"
+            },
+            "bUseActorPooling": true
+        },
+        {
+            "Name": "Sniper_Round_Persistent",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "DamageVariationPercentage": 10,
+            "bHomingProjectile": false,
+            "bCanKillCam": true,
+            "bUnbreakableDuringKillCam": false,
+            "Weight": 0.009999999776482582,
+            "AllowPickupAfterSettle": false,
+            "BreakChance": 0,
+            "PostDeployLifetime": 0,
+            "CullDistanceSquared": 1600000000,
+            "RotationFollowsVelocity": false,
+            "AudioData": {
+                "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Impacts/SFX_IMPACT_RIFLE.SFX_IMPACT_RIFLE"
+            },
+            "bUseActorPooling": true
+        },
+        {
+            "Name": "Spear_Sandworm",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 425,
+            "DamageVariationPercentage": 10,
+            "bHomingProjectile": false,
+            "bCanKillCam": true,
+            "Weight": 0.699999988079071,
+            "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
+            "BreakChance": 0.10000000149011612,
+            "DurabilityDamage": 100,
+            "PostDeployLifetime": 120,
+            "ProjectileBounceSettings": {
+                "bBounceAngleAffectsFriction": false,
+                "Bounciness": 0.6000000238418579,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 5,
+                "MinFrictionFraction": 0
+            },
+            "OverridePhysicsAsset": "/Game/ASS/WEP/SK_SPR_Sandworm_BallisticPhyicsAsset.SK_SPR_Sandworm_BallisticPhyicsAsset",
+            "VelocityRotationOffset": {
+                "Pitch": 90
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_SPEAR_FLY.SFX_BALLISTIC_SPEAR_FLY",
+                "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_SPEAR_HIT.SFX_BALLISTIC_SPEAR_HIT"
+            }
+        },
+        {
+            "Name": "Knife_Sandworm",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 70,
+            "DamageVariationPercentage": 10,
+            "bHomingProjectile": false,
+            "bCanKillCam": true,
+            "Weight": 0.5,
+            "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
+            "BreakChance": 0.05000000074505806,
+            "DurabilityDamage": 10,
+            "PostDeployLifetime": 120,
+            "ProjectileBounceSettings": {
+                "bBounceAngleAffectsFriction": false,
+                "Bounciness": 0.6000000238418579,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 5,
+                "MinFrictionFraction": 0
+            },
+            "OverridePhysicsAsset": "/Game/ASS/WEP/SK_KNI_Sandworm_BallisticPhysicsAsset.SK_KNI_Sandworm_BallisticPhysicsAsset",
+            "VelocityRotationOffset": {
+                "Pitch": 90
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_KNIFE_FLY.SFX_BALLISTIC_KNIFE_FLY",
+                "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_KNIFE_HIT_GENERIC.SFX_BALLISTIC_KNIFE_HIT_GENERIC"
             }
         }
     ]

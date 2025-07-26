@@ -101,6 +101,15 @@
             }
         },
         {
+            "Name": "Resistance",
+            "StatRequirement": {
+                "Value": "TamedCreaturePhysicalResistance_%"
+            },
+            "GrantedStat": {
+                "Value": "BasePhysicalDamageResistance_%"
+            }
+        },
+        {
             "Name": "JuvenileMinTempPercent",
             "StatRequirement": {
                 "Value": "JuvenileCreatureMinimumTemperatureRequirement_+%"

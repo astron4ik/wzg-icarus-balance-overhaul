@@ -33,7 +33,7 @@
             "Name": "Fireplace",
             "OuterRadius": 1250,
             "EffectFalloff": 2,
-            "TemperatureChange": 2500,
+            "TemperatureChange": 2000,
             "OcclusionTraceOffset": {
                 "X": 50,
                 "Z": 75
@@ -120,7 +120,7 @@
             "InnerRadius": 250,
             "OuterRadius": 750,
             "EffectFalloff": 2,
-            "TemperatureChange": 2500,
+            "TemperatureChange": 2000,
             "FireNavigationModifierClass": "BlueprintGeneratedClass'/Game/BP/AI/GOAP/Misc/NavArea_Fire.NavArea_Fire_C'",
             "FireNavigationModifierRadius": 4250
         },
@@ -161,6 +161,26 @@
             "InnerRadius": 800,
             "OuterRadius": 1500,
             "TemperatureChange": 10000,
+            "FireNavigationModifierClass": "BlueprintGeneratedClass'/Game/BP/AI/GOAP/Misc/NavArea_Fire.NavArea_Fire_C'",
+            "FireNavigationModifierRadius": 4250
+        },
+        {
+            "Name": "Thermal_Heater_SMall",
+            "InnerRadius": 100,
+            "EffectFalloff": 2,
+            "TemperatureChange": 2500
+        },
+        {
+            "Name": "Sandworm_Brazier_Large",
+            "InnerRadius": 175,
+            "OuterRadius": 500,
+            "TemperatureChange": 1500,
+            "OcclusionTraceOffset": {
+                "Z": 1050
+            },
+            "EffectOriginOffset": {
+                "Z": 1050
+            },
             "FireNavigationModifierClass": "BlueprintGeneratedClass'/Game/BP/AI/GOAP/Misc/NavArea_Fire.NavArea_Fire_C'",
             "FireNavigationModifierRadius": 4250
         }

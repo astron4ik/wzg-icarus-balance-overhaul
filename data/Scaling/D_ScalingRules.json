@@ -113,6 +113,36 @@
                 "OutMaxPercentScale": 300,
                 "bClampOutput": false
             }
+        },
+        {
+            "Name": "-15%_PerDifficultyLevel",
+            "bScaleByProspectDifficulty": true,
+            "ProspectDifficultyScaling": {
+                "InMinValue": 1,
+                "InMaxValue": 4,
+                "OutMaxPercentScale": -45,
+                "bClampOutput": false
+            }
+        },
+        {
+            "Name": "-25%_PerDifficultyLevel",
+            "bScaleByProspectDifficulty": true,
+            "ProspectDifficultyScaling": {
+                "InMinValue": 1,
+                "InMaxValue": 4,
+                "OutMaxPercentScale": -75,
+                "bClampOutput": false
+            }
+        },
+        {
+            "Name": "-30%_PerDifficultyLevel",
+            "bScaleByProspectDifficulty": true,
+            "ProspectDifficultyScaling": {
+                "InMinValue": 1,
+                "InMaxValue": 4,
+                "OutMaxPercentScale": -90,
+                "bClampOutput": false
+            }
         }
     ]
 }

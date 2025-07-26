@@ -1698,6 +1698,284 @@
                     "DataTableName": "D_Dialogue"
                 }
             ]
+        },
+        {
+            "Name": "Griff_Hurt",
+            "Pool": [
+                {
+                    "RowName": "NULSEC_NPC_GRIFF_HURT_01",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_GRIFF_HURT_02",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_GRIFF_HURT_03",
+                    "DataTableName": "D_Dialogue"
+                }
+            ]
+        },
+        {
+            "Name": "Griff_Healed",
+            "Pool": [
+                {
+                    "RowName": "NULSEC_NPC_GRIFF_THANK_01",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_GRIFF_THANK_02",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_GRIFF_THANK_03",
+                    "DataTableName": "D_Dialogue"
+                }
+            ]
+        },
+        {
+            "Name": "Tucker_Hurt",
+            "Pool": [
+                {
+                    "RowName": "NULSEC_NPC_TUCKER_HURT_01",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_TUCKER_HURT_02",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_TUCKER_HURT_03",
+                    "DataTableName": "D_Dialogue"
+                }
+            ]
+        },
+        {
+            "Name": "Tucker_Healed",
+            "Pool": [
+                {
+                    "RowName": "NULSEC_NPC_TUCKER_THANK_01",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_TUCKER_THANK_02",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_TUCKER_THANK_03",
+                    "DataTableName": "D_Dialogue"
+                }
+            ]
+        },
+        {
+            "Name": "Simmonds_Hurt",
+            "Pool": [
+                {
+                    "RowName": "NULSEC_NPC_SIMMONS_HURT_01",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_SIMMONS_HURT_02",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_SIMMONS_HURT_03",
+                    "DataTableName": "D_Dialogue"
+                }
+            ]
+        },
+        {
+            "Name": "Simmons_Healed",
+            "Pool": [
+                {
+                    "RowName": "NULSEC_NPC_SIMMONS_THANK_01",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_SIMMONS_THANK_02",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_SIMMONS_THANK_03",
+                    "DataTableName": "D_Dialogue"
+                }
+            ]
+        },
+        {
+            "Name": "Washington_Hurt",
+            "Pool": [
+                {
+                    "RowName": "NULSEC_NPC_WASHINGTON_HURT_01",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_WASHINGTON_HURT_02",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_WASHINGTON_HURT_03",
+                    "DataTableName": "D_Dialogue"
+                }
+            ]
+        },
+        {
+            "Name": "Washington_Healed",
+            "Pool": [
+                {
+                    "RowName": "NULSEC_NPC_WASHINGTON_THANK_01",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_WASHINGTON_THANK_02",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_WASHINGTON_THANK_03",
+                    "DataTableName": "D_Dialogue"
+                }
+            ]
+        },
+        {
+            "Name": "Church_Hurt",
+            "Pool": [
+                {
+                    "RowName": "NULSEC_NPC_CHURCH_HURT_01",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_CHURCH_HURT_02",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_CHURCH_HURT_03",
+                    "DataTableName": "D_Dialogue"
+                }
+            ]
+        },
+        {
+            "Name": "Church_Healed",
+            "Pool": [
+                {
+                    "RowName": "NULSEC_NPC_CHURCH_THANK_01",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NULSEC_NPC_CHURCH_THANK_02",
+                    "DataTableName": "D_Dialogue"
+                }
+            ]
+        },
+        {
+            "Name": "Agent_Deploy",
+            "Pool": [
+                {
+                    "RowName": "GH_ICEMAM_D2_3",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "GH_ICEMAM_D2_4",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "GH_ICEMAM_D2_5",
+                    "DataTableName": "D_Dialogue"
+                }
+            ]
+        },
+        {
+            "Name": "Researcher_Healed",
+            "Pool": [
+                {
+                    "RowName": "NPC_RESEARCHER_THANKS",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NPC_RESEARCHER_THANKS3",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NPC_RESEARCHER_THANKS2",
+                    "DataTableName": "D_Dialogue"
+                }
+            ]
+        },
+        {
+            "Name": "Researcher_Hurt",
+            "Pool": [
+                {
+                    "RowName": "NPC_RESEARCHER_HURT_03",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NPC_RESEARCHER_HURT_02",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NPC_RESEARCHER_HURT_01",
+                    "DataTableName": "D_Dialogue"
+                }
+            ]
+        },
+        {
+            "Name": "Zookeep_Hurt",
+            "Pool": [
+                {
+                    "RowName": "NPC_ZOOKEEP_HURT1",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NPC_ZOOKEEP_HURT2",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NPC_ZOOKEEP_HUR3",
+                    "DataTableName": "D_Dialogue"
+                }
+            ]
+        },
+        {
+            "Name": "Zookeep_Healed",
+            "Pool": [
+                {
+                    "RowName": "NPC_ZOOKEEP_THANKS1",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NPC_ZOOKEEP_THANKS4",
+                    "DataTableName": "D_Dialogue"
+                },
+                {
+                    "RowName": "NPC_ZOOKEEP_THANKS3",
+                    "DataTableName": "D_Dialogue"
+                }
+            ]
+        },
+        {
+            "Name": "Zookeep_Healed_Full",
+            "Pool": [
+                {
+                    "RowName": "NPC_ZOOKEEP_HEALED_FULL",
+                    "DataTableName": "D_Dialogue"
+                }
+            ]
+        },
+        {
+            "Name": "Zookeep_Ape_B_1",
+            "Pool": [
+                {
+                    "RowName": "NPC_ZOOPKEEP_APE_B_1",
+                    "DataTableName": "D_Dialogue"
+                }
+            ]
+        },
+        {
+            "Name": "Zookeep_Ape_B_2_Idle",
+            "Pool": [
+                {
+                    "RowName": "NPC_ZOOKEEP_APE_B_LINES",
+                    "DataTableName": "D_Dialogue"
+                }
+            ]
         }
     ]
 }

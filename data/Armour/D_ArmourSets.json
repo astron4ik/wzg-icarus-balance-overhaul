@@ -224,6 +224,66 @@
                 }
             ],
             "FMODParam": "Polar"
+        },
+        {
+            "Name": "Ice_Mammoth",
+            "SetBonus": [
+                {
+                    "RowName": "IceMammoth",
+                    "DataTableName": "D_ArmourSetBonus"
+                }
+            ],
+            "FMODParam": "Obsidian"
+        },
+        {
+            "Name": "Ape",
+            "SetBonus": [
+                {
+                    "RowName": "Ape",
+                    "DataTableName": "D_ArmourSetBonus"
+                }
+            ],
+            "FMODParam": "Fur"
+        },
+        {
+            "Name": "Sand",
+            "SetBonus": [
+                {
+                    "RowName": "Sand",
+                    "DataTableName": "D_ArmourSetBonus"
+                }
+            ],
+            "FMODParam": "Fiber"
+        },
+        {
+            "Name": "ArcticArmor",
+            "SetBonus": [
+                {
+                    "RowName": "ArcticArmor",
+                    "DataTableName": "D_ArmourSetBonus"
+                }
+            ],
+            "FMODParam": "Fiber"
+        },
+        {
+            "Name": "MinerArmor",
+            "SetBonus": [
+                {
+                    "RowName": "MinerArmor",
+                    "DataTableName": "D_ArmourSetBonus"
+                }
+            ],
+            "FMODParam": "Fiber"
+        },
+        {
+            "Name": "CavewormScale",
+            "SetBonus": [
+                {
+                    "RowName": "CavewormScale",
+                    "DataTableName": "D_ArmourSetBonus"
+                }
+            ],
+            "FMODParam": "Scale"
         }
     ]
 }

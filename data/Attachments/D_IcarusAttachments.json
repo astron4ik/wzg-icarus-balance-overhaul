@@ -600,6 +600,126 @@
             "GrantedAlteration": {
                 "RowName": "Biolab_Scorpion_Armor"
             }
+        },
+        {
+            "Name": "Lava_Hunter_Attachment",
+            "GrantedAlteration": {
+                "RowName": "Lava_Hunter_Attachment"
+            }
+        },
+        {
+            "Name": "Slug_Attachment",
+            "GrantedAlteration": {
+                "RowName": "Slug_Attachment"
+            }
+        },
+        {
+            "Name": "Ape_Attachment",
+            "GrantedAlteration": {
+                "RowName": "Ape_Attachment"
+            }
+        },
+        {
+            "Name": "Scyther_Attachment",
+            "GrantedAlteration": {
+                "RowName": "Scyther_Attachment"
+            }
+        },
+        {
+            "Name": "Hornet_Attachment",
+            "GrantedAlteration": {
+                "RowName": "Hornet_Attachment"
+            }
+        },
+        {
+            "Name": "Plant_Boss_Attachment",
+            "GrantedAlteration": {
+                "RowName": "Hornet_Attachment"
+            }
+        },
+        {
+            "Name": "Cat_Boss_Attachment",
+            "GrantedAlteration": {
+                "RowName": "Cat_Boss_Attachment"
+            }
+        },
+        {
+            "Name": "Cat_Boss_Lure",
+            "GrantedAlteration": {
+                "RowName": "Cat_Boss_Lure"
+            }
+        },
+        {
+            "Name": "Plough_Steel",
+            "GrantedAlteration": {
+                "RowName": "Plough_Steel"
+            }
+        },
+        {
+            "Name": "Plough_Platinum",
+            "GrantedAlteration": {
+                "RowName": "Plough_Platinum"
+            }
+        },
+        {
+            "Name": "Plough_Titanium",
+            "GrantedAlteration": {
+                "RowName": "Plough_Titanium"
+            }
+        },
+        {
+            "Name": "ClayYield_1",
+            "GrantedAlteration": {
+                "RowName": "ClayYield_1"
+            }
+        },
+        {
+            "Name": "ClayYield_2",
+            "GrantedAlteration": {
+                "RowName": "ClayYield_2"
+            }
+        },
+        {
+            "Name": "ScoriaYield_1",
+            "GrantedAlteration": {
+                "RowName": "ScoriaYield_1"
+            }
+        },
+        {
+            "Name": "ScoriaYield_2",
+            "GrantedAlteration": {
+                "RowName": "ScoriaYield_2"
+            }
+        },
+        {
+            "Name": "ObsidianYield_1",
+            "GrantedAlteration": {
+                "RowName": "ObsidianYield_1"
+            }
+        },
+        {
+            "Name": "ObsidianYield_2",
+            "GrantedAlteration": {
+                "RowName": "ObsidianYield_2"
+            }
+        },
+        {
+            "Name": "RockGolem_Attachment",
+            "GrantedAlteration": {
+                "RowName": "RockGolem_Attachment"
+            }
+        },
+        {
+            "Name": "Threshing_1",
+            "GrantedAlteration": {
+                "RowName": "Threshing_1"
+            }
+        },
+        {
+            "Name": "Seed_Harvester",
+            "GrantedAlteration": {
+                "RowName": "Seed_Harvester"
+            }
         }
     ]
 }

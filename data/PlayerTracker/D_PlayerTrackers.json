@@ -367,7 +367,7 @@
             },
             "TagsToTrack": [
                 {
-                    "TagName": "NPC.Wolf"
+                    "TagName": "NPC.Wolf.Alpha"
                 },
                 {
                     "TagName": "Character.NPC.Boss"
@@ -782,6 +782,10 @@
         {
             "Name": "TimeSurvivedInForest",
             "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"TimeSurvivedInForest-DisplayName\", \"Time Survived in Forest Biome\")"
+        },
+        {
+            "Name": "TimeSurvivedInOutpost",
+            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"TimeSurvivedInOutpost-DisplayName\", \"Time Survived in Outposts\")"
         },
         {
             "Name": "TimeSurvivedInDesert",
@@ -1258,6 +1262,46 @@
             }
         },
         {
+            "Name": "BiomassExtracted",
+            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"BiomassExtracted-DisplayName\", \"Biomass Extracted\")",
+            "SteamStatId": "BiomassEarned",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "RockGolemMissionList",
+            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"RockGolemMissionList-DisplayName\", \"Quarrite Missions Complete\")",
+            "SteamStatId": "RockGolemMissionList",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "IceMammothMissionList",
+            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"IceMammothMissionList-DisplayName\", \"Rimetusk Missions Complete\")",
+            "SteamStatId": "IceMammothMissionList",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "ApeMissionList",
+            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"ApeMissionList-DisplayName\", \"Garganutan Missions Complete\")",
+            "SteamStatId": "ApeMissionList",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
             "Name": "OlympusDynamicMissionsComplete",
             "DisplayName": "INVTEXT(\"[DNT] Olympus Dynamic Missions Complete\")",
             "Metadata": {
@@ -1281,6 +1325,93 @@
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "TimeSurvivedInNullSec",
+            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"TimeSurvivedInNullSec-DisplayName\", \"Time Survived in Null Sector\")",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "RedExoticsEarned",
+            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"RedExoticsEarned-DisplayName\", \"Red Exotics Earned\")",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "CreaturesTamed",
+            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"CreaturesTamed-DisplayName\", \"Creatures Tamed\")",
+            "TrackerCategory": {
+                "RowName": "Creatures"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "ProStoryMissionCompletionList",
+            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"ProStoryMissionCompletionList-DisplayName\", \"Prometheus Story Missions Completed\")",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "NullsecStoryMissionCompletionList",
+            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"NullsecStoryMissionCompletionList-DisplayName\", \"Null Sector Story Missions Completed\")",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "ShieldResist",
+            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"ShieldResist-DisplayName\", \"Damage Resisted By Shield\")",
+            "TrackerCategory": {
+                "RowName": "MeleeWeapons"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "OutpostBuildingsPlaced",
+            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"OutpostBuildingsPlaced-DisplayName\", \"Buildings Placed on Outposts\")",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "OpenWorldsDynamicMissionsComplete",
+            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"OpenWorldsDynamicMissionsComplete-DisplayName\", \"Open World Dynamic Missions Complete\")",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "ResourcePacksRequested",
+            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"ResourcePacksRequested-DisplayName\", \"Resource Packs Requested\")",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
                 }
             }
         }

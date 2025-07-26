@@ -666,6 +666,7 @@
             "BindContext": {
                 "RowName": "Weapons"
             },
+            "Visibility": "Invisible",
             "KeyboardActionMapping": {
                 "ActionName": "ChangeFireMode",
                 "Key": {
@@ -1757,12 +1758,43 @@
         },
         {
             "Name": "OpenBestiary",
-            "DisplayName": "NSLOCTEXT(\"D_Keybindings\", \"OpenBestiary-DisplayName\", \"Open Field Guide\")",
+            "DisplayName": "NSLOCTEXT(\"D_Keybindings\", \"OpenBestiary-DisplayName\", \"Open Field Guide To Items\")",
             "InputContext": "KeyboardOnly",
             "KeyboardActionMapping": {
                 "ActionName": "OpenBestiary",
                 "Key": {
                     "KeyName": "J"
+                }
+            },
+            "KeyboardAxisMapping": {
+                "Key": {
+                    "KeyName": "None"
+                }
+            },
+            "GamepadActionMapping": {
+                "Key": {
+                    "KeyName": "None"
+                }
+            },
+            "GamepadAxisMapping": {
+                "Key": {
+                    "KeyName": "None"
+                }
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "OpenBestiaryIndex",
+            "DisplayName": "NSLOCTEXT(\"D_Keybindings\", \"OpenBestiaryIndex-DisplayName\", \"Open Field Guide To Index\")",
+            "InputContext": "KeyboardOnly",
+            "KeyboardActionMapping": {
+                "ActionName": "OpenBestiaryIndex",
+                "Key": {
+                    "KeyName": "F1"
                 }
             },
             "KeyboardAxisMapping": {

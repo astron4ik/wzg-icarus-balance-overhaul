@@ -23,6 +23,13 @@
         },
         {
             "Name": "AI",
+            "ExperienceCurve": "CurveFloat'/Game/Data/Character/C_PlayerExperienceGrowth.C_PlayerExperienceGrowth'",
+            "AttributeCurve": "CurveFloat'/Game/Data/Character/C_PlayerAttributeGrowth.C_PlayerAttributeGrowth'",
+            "MaxDisplayLevel": 120,
+            "MaxLevel": 120
+        },
+        {
+            "Name": "AI_Mounts",
             "ExperienceCurve": "CurveFloat'/Game/Data/Character/C_MountExperienceGrowth.C_MountExperienceGrowth'",
             "AttributeCurve": "CurveFloat'/Game/Data/Character/C_PlayerAttributeGrowth.C_PlayerAttributeGrowth'",
             "TalentPointsPerLevel": "CurveFloat'/Game/Data/Character/C_MountTalentGrowth.C_MountTalentGrowth'"

@@ -18,6 +18,9 @@
                     "DataTableName": "D_ModifierStates"
                 }
             ],
+            "ChanceStat": {
+                "Value": "PoisonResistance_%"
+            },
             "ChanceInPercent": 25,
             "DurationInSeconds": 180
         },
@@ -227,7 +230,10 @@
                     "DataTableName": "D_ModifierStates"
                 }
             ],
-            "ChanceInPercent": 5,
+            "ChanceStat": {
+                "Value": "SwampParasitesResistance_%"
+            },
+            "ChanceInPercent": 10,
             "DurationInSeconds": 300
         },
         {
@@ -436,6 +442,109 @@
             ],
             "ChanceInPercent": 20,
             "DurationInSeconds": 300
+        },
+        {
+            "Name": "Drink_Water_Lava",
+            "Afflictions": [
+                {
+                    "RowName": "Dysentery",
+                    "DataTableName": "D_ModifierStates"
+                },
+                {
+                    "RowName": "Dysentery_Lava",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "ChanceInPercent": 25,
+            "DurationInSeconds": 300
+        },
+        {
+            "Name": "Drink_Water_Swamp",
+            "Afflictions": [
+                {
+                    "RowName": "Dysentery",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "ChanceInPercent": 25,
+            "DurationInSeconds": 300
+        },
+        {
+            "Name": "Animal_Fertilization",
+            "Afflictions": [
+                {
+                    "RowName": "Animal_Fertilized",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "ChanceInPercent": 100,
+            "DurationInSeconds": 3600
+        },
+        {
+            "Name": "FrostAura_Escalation",
+            "Afflictions": [
+                {
+                    "RowName": "Frostnip_Escalated",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "ChanceInPercent": 100,
+            "DurationInSeconds": 120
+        },
+        {
+            "Name": "IceMammoth_Trap",
+            "Afflictions": [
+                {
+                    "RowName": "IceMammoth_Trap",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "ChanceStat": {
+                "Value": "HypothermiaResistance_%"
+            },
+            "ChanceInPercent": 100,
+            "DurationInSeconds": 120
+        },
+        {
+            "Name": "Hemorrhage",
+            "Afflictions": [
+                {
+                    "RowName": "Hemorrage",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "ChanceStat": {
+                "Value": "HemorrhageResistance_%"
+            },
+            "ChanceInPercent": 100,
+            "DurationInSeconds": 30
+        },
+        {
+            "Name": "Wound",
+            "Afflictions": [
+                {
+                    "RowName": "Wound",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "ChanceStat": {
+                "Value": "WoundResistance_%"
+            },
+            "ChanceInPercent": 100
+        },
+        {
+            "Name": "Caveworm_Poison",
+            "Afflictions": [
+                {
+                    "RowName": "Cave_Worm_Poison",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "ChanceStat": {
+                "Value": "PoisonResistance_%"
+            },
+            "ChanceInPercent": 100,
+            "DurationInSeconds": 20
         }
     ]
 }

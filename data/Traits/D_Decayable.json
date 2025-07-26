@@ -7,7 +7,8 @@
             "RowName": "None",
             "DataTableName": "D_ItemTemplate"
         },
-        "ResourceLeakage": 0
+        "ResourceLeakage": 0,
+        "bEmptyContainer": false
     },
     "Rows": [
         {
@@ -19,8 +20,16 @@
             "DecayTime": 120
         },
         {
+            "Name": "Decay_03_Minutes",
+            "DecayTime": 180
+        },
+        {
             "Name": "Decay_10_Minutes",
             "DecayTime": 600
+        },
+        {
+            "Name": "Decay_60_Minutes",
+            "DecayTime": 3600
         },
         {
             "Name": "Decay_Raw_Meat",
@@ -33,35 +42,25 @@
         {
             "Name": "Decay_CookedMeat_Generic",
             "DecayTime": 300,
-            "SpoilTime": 1800,
+            "SpoilTime": 1600,
             "SpoiledItem": {
                 "RowName": "Spoiled_Meat"
             }
         },
         {
-            "Name": "Decay_Bread_Generic",
-            "DecayTime": 300,
-            "SpoilTime": 10800
-        },
-        {
             "Name": "Decay_Food_Generic",
             "DecayTime": 300,
-            "SpoilTime": 1800
-        },
-        {
-            "Name": "Decay_Food_Generic_1200",
-            "DecayTime": 300,
-            "SpoilTime": 2400
-        },
-        {
-            "Name": "Decay_Food_Generic_1800",
-            "DecayTime": 300,
-            "SpoilTime": 3600
+            "SpoilTime": 800
         },
         {
             "Name": "Decay_Food_OneDay",
-            "DecayTime": 3600,
+            "DecayTime": 300,
             "SpoilTime": 3600
+        },
+        {
+            "Name": "Decay_Food_ThreeDay",
+            "DecayTime": 300,
+            "SpoilTime": 10800
         },
         {
             "Name": "Decay_Ice",
@@ -70,7 +69,7 @@
         },
         {
             "Name": "Decay_Arrow",
-            "DecayTime": 900
+            "DecayTime": 60
         },
         {
             "Name": "Decay_Coconut_Young",
@@ -91,15 +90,14 @@
         {
             "Name": "Decay_Coconut_Mature",
             "DecayTime": 600,
-            "SpoilTime": 600
+            "SpoilTime": 600,
+            "SpoiledItem": {
+                "RowName": "Spoiled_Plants"
+            }
         },
         {
             "Name": "Decay_Tree_Trunk",
             "DecayTime": 601
-        },
-        {
-            "Name": "Decay_Pack_Wolf_Carcass",
-            "DecayTime": 180
         },
         {
             "Name": "Decay_MetaItem",
@@ -177,6 +175,26 @@
             "SpoiledItem": {
                 "RowName": "Spoiled_Meat"
             }
+        },
+        {
+            "Name": "Decay_Frozen_Food",
+            "DecayTime": 200,
+            "SpoilTime": 800
+        },
+        {
+            "Name": "Decay_Milk",
+            "DecayTime": 300,
+            "SpoilTime": 7200,
+            "bEmptyContainer": true
+        },
+        {
+            "Name": "Decay_Cream",
+            "DecayTime": 300,
+            "SpoilTime": 900
+        },
+        {
+            "Name": "Decay_QuestItem",
+            "DecayTime": 1800
         }
     ]
 }

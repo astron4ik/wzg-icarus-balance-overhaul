@@ -634,6 +634,12 @@
             "VoxelTag": {
                 "TagName": "Harvest.Pickaxe.T2"
             }
+        },
+        {
+            "Name": "Frozen_Ore",
+            "ResourceType": {
+                "RowName": "Frozen_Ore"
+            }
         }
     ]
 }

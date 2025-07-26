@@ -207,6 +207,14 @@
         {
             "Name": "Fishing",
             "Title": "NSLOCTEXT(\"D_StatCategories\", \"Fishing-Title\", \"Fishing\")"
+        },
+        {
+            "Name": "Turrets",
+            "Title": "NSLOCTEXT(\"D_StatCategories\", \"Turrets-Title\", \"Turrets\")"
+        },
+        {
+            "Name": "Tames",
+            "Title": "NSLOCTEXT(\"D_StatCategories\", \"Tames-Title\", \"Tames/Pets\")"
         }
     ]
 }

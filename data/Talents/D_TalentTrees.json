@@ -374,6 +374,14 @@
             }
         },
         {
+            "Name": "Workshop_Firearms",
+            "BackgroundTexture": "/Game/Assets/2DArt/UI/Windows/EmptyAsset.EmptyAsset",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Meta_Pickaxe.ITEM_Meta_Pickaxe",
+            "Archetype": {
+                "RowName": "Workshop_Firearms"
+            }
+        },
+        {
             "Name": "Workshop_Deployables",
             "BackgroundTexture": "/Game/Assets/2DArt/UI/Windows/EmptyAsset.EmptyAsset",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Meta_Pickaxe.ITEM_Meta_Pickaxe",
@@ -537,6 +545,17 @@
             }
         },
         {
+            "Name": "Creature_Rooster",
+            "DisplayName": "NSLOCTEXT(\"D_TalentTrees\", \"Creature_Rooster-DisplayName\", \"Rooster\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_ShipThrust.Icon_ShipThrust",
+            "Archetype": {
+                "RowName": "Creature_Rooster"
+            },
+            "FirstRank": {
+                "RowName": "Novice"
+            }
+        },
+        {
             "Name": "Creature_Swamp_Quadruped",
             "DisplayName": "NSLOCTEXT(\"D_TalentTrees\", \"Creature_Swamp_Quadruped-DisplayName\", \"Stryder\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_ShipThrust.Icon_ShipThrust",
@@ -630,6 +649,78 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_ShipThrust.Icon_ShipThrust",
             "Archetype": {
                 "RowName": "Creature_ArcticMoa"
+            },
+            "FirstRank": {
+                "RowName": "Novice"
+            }
+        },
+        {
+            "Name": "GreatHunt_RockGolem",
+            "DisplayName": "NSLOCTEXT(\"D_TalentTrees\", \"GreatHunt_RockGolem-DisplayName\", \"Quarrite\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_ShipThrust.Icon_ShipThrust",
+            "Archetype": {
+                "RowName": "GreatHunt_RockGolem"
+            },
+            "FirstRank": {
+                "RowName": "Novice"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GreatHunt_IceMammoth",
+            "DisplayName": "NSLOCTEXT(\"D_TalentTrees\", \"GreatHunt_IceMammoth-DisplayName\", \"Ice Mammoth\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_ShipThrust.Icon_ShipThrust",
+            "Archetype": {
+                "RowName": "GreatHunt_IceMammoth"
+            },
+            "FirstRank": {
+                "RowName": "Novice"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Workshop_Biolab",
+            "BackgroundTexture": "/Game/Assets/2DArt/UI/Windows/EmptyAsset.EmptyAsset",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Meta_Pickaxe.ITEM_Meta_Pickaxe",
+            "Archetype": {
+                "RowName": "Workshop_Biolab"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GreatHunt_Ape",
+            "DisplayName": "NSLOCTEXT(\"D_TalentTrees\", \"GreatHunt_Ape-DisplayName\", \"Garganutan\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_ShipThrust.Icon_ShipThrust",
+            "Archetype": {
+                "RowName": "GreatHunt_Ape"
+            },
+            "FirstRank": {
+                "RowName": "Novice"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Creature_Cow",
+            "DisplayName": "NSLOCTEXT(\"D_TalentTrees\", \"Creature_Cow-DisplayName\", \"Cow\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_ShipThrust.Icon_ShipThrust",
+            "Archetype": {
+                "RowName": "Creature_Cow"
             },
             "FirstRank": {
                 "RowName": "Novice"

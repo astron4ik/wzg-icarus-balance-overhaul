@@ -66,7 +66,10 @@
                 "NSLOCTEXT(\"D_EpicCreatures\", \"Sandworm_Boss-CreatureNames-1\", \"\\'Song of Sand\\'\")",
                 "NSLOCTEXT(\"D_EpicCreatures\", \"Sandworm_Boss-CreatureNames-2\", \"\\'Ancient Shade\\'\")",
                 "NSLOCTEXT(\"D_EpicCreatures\", \"Sandworm_Boss-CreatureNames-3\", \"\\'Shatters Stone\\'\")"
-            ]
+            ],
+            "AISetup": {
+                "RowName": "SandWorm"
+            }
         },
         {
             "Name": "Sandworm_WorldBoss",
@@ -76,6 +79,9 @@
                 "NSLOCTEXT(\"D_EpicCreatures\", \"Sandworm_WorldBoss-CreatureNames-2\", \"\\'Ancient Shade\\'\")",
                 "NSLOCTEXT(\"D_EpicCreatures\", \"Sandworm_WorldBoss-CreatureNames-3\", \"\\'Shatters Stone\\'\")"
             ],
+            "AISetup": {
+                "RowName": "SandWorm"
+            },
             "AdditionalStats": {
                 "(Value=\"BaseSandWormInitialDetectionRadius_+\")": 6500
             }
@@ -124,9 +130,9 @@
             }
         },
         {
-            "Name": "Scorpian_Armored",
+            "Name": "Scorpion_Armored",
             "CreatureNames": [
-                "NSLOCTEXT(\"D_EpicCreatures\", \"Scorpian_Armored-CreatureNames-0\", \"Armored BloodClaw\")"
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Scorpion_Armored-CreatureNames-0\", \"Armored BloodClaw\")"
             ],
             "AISetup": {
                 "RowName": "Scorpion_Armored_Boss"
@@ -154,6 +160,13 @@
             ],
             "AISetup": {
                 "RowName": "Bear_Poison_Anchored"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseCreatureSize_+%\")": 20,
+                "(Value=\"BaseMaximumHealth_+%\")": 35,
+                "(Value=\"BasePoisonDamage_+\")": 40,
+                "(Value=\"BaseAttacksCausePoison_%\")": 40,
+                "(Value=\"BaseMeleeDamage_+%\")": -40
             }
         },
         {
@@ -243,9 +256,9 @@
             }
         },
         {
-            "Name": "Roaming_Scorpian",
+            "Name": "Roaming_Scorpion",
             "CreatureNames": [
-                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Scorpian-CreatureNames-0\", \"Roaming Beast\")"
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Scorpion-CreatureNames-0\", \"Roaming Beast\")"
             ],
             "AISetup": {
                 "RowName": "Scorpion_Armored_Boss"
@@ -366,9 +379,29 @@
             }
         },
         {
+            "Name": "Exotic_Infused",
+            "AdditionalStats": {
+                "(Value=\"BaseCreatureSize_+%\")": 30,
+                "(Value=\"ExoticRewardType_Enum\")": 1,
+                "(Value=\"BasePurpleExoticRewardChance_%\")": 100,
+                "(Value=\"BaseMaximumHealth_+%\")": 30,
+                "(Value=\"BaseAttacksCauseExoticDebuff_%\")": 25
+            }
+        },
+        {
+            "Name": "RedExotic_Infused",
+            "AdditionalStats": {
+                "(Value=\"BaseCreatureSize_+%\")": 35,
+                "(Value=\"ExoticRewardType_Enum\")": 2,
+                "(Value=\"BaseRedExoticRewardChance_%\")": 100,
+                "(Value=\"BaseMaximumHealth_+%\")": 30,
+                "(Value=\"BaseAttacksCauseRedExoticDebuff_%\")": 25
+            }
+        },
+        {
             "Name": "Mange_Wolf",
             "CreatureNames": [
-                "NSLOCTEXT(\"D_EpicCreatures\", \"Mange_Wolf-CreatureNames-0\", \"Skulmut Prime\")"
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Mange_Wolf-CreatureNames-0\", \"Skulmutt Prime\")"
             ],
             "AISetup": {
                 "RowName": "Mange_Wolf_Alpha"
@@ -376,6 +409,9 @@
         },
         {
             "Name": "Ice_Mammoth_Boss",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Ice_Mammoth_Boss-CreatureNames-0\", \"RIMETUSK MATRIARCH\")"
+            ],
             "AISetup": {
                 "RowName": "Ice_Mammoth_Boss"
             }
@@ -417,6 +453,488 @@
                 "(Value=\"BaseMeleeDamageResistance_%\")": 25,
                 "(Value=\"BaseMaximumHealth_+%\")": 200,
                 "(Value=\"BaseMeleeDamage_+\")": 20
+            }
+        },
+        {
+            "Name": "Mother_Moa",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Mother_Moa-CreatureNames-0\", \"The Matriarch\")"
+            ],
+            "AISetup": {
+                "RowName": "Arctic_Moa"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseMaximumHealth_+\")": 2000,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseProjectileDamageResistance_%\")": 30,
+                "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 50,
+                "(Value=\"BaseMeleeDamage_+\")": 30
+            }
+        },
+        {
+            "Name": "Kiwi_Hunter",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Kiwi_Hunter-CreatureNames-0\", \"The Fowler\")"
+            ],
+            "AISetup": {
+                "RowName": "Alpha_Wolf"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseHemorrhage_%\")": 15,
+                "(Value=\"BaseProjectileDamageResistance_%\")": 25,
+                "(Value=\"BaseMeleeDamageResistance_%\")": 25,
+                "(Value=\"BaseMaximumHealth_+\")": 2000,
+                "(Value=\"BaseMeleeDamage_+\")": 20
+            }
+        },
+        {
+            "Name": "IceBreaker",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"IceBreaker-CreatureNames-0\", \"Jotunfror\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"IceBreaker-CreatureNames-1\", \"Hrimthurs\")"
+            ],
+            "AISetup": {
+                "RowName": "IceBreaker"
+            }
+        },
+        {
+            "Name": "SmallNeedler",
+            "AISetup": {
+                "RowName": "Needler"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseProjectileDamage_+%\")": -65,
+                "(Value=\"BaseCreatureSize_+%\")": -60,
+                "(Value=\"BaseMeleeDamage_+%\")": -65,
+                "(Value=\"BaseAttacksCauseDeepWound_%\")": -100,
+                "(Value=\"BasePoisonDamage_+%\")": -50,
+                "(Value=\"BaseMaximumHealth_+%\")": -50
+            }
+        },
+        {
+            "Name": "RockGolem",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"RockGolem-CreatureNames-0\", \"UNSTABLE QUARRITE\")"
+            ],
+            "AISetup": {
+                "RowName": "RockGolem"
+            }
+        },
+        {
+            "Name": "GreatApe",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"GreatApe-CreatureNames-0\", \"GARGANUTAN PRIME\")"
+            ],
+            "AISetup": {
+                "RowName": "Ape"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseMaximumHealth_+\")": 2,
+                "(Value=\"BaseMeleeDamage_+\")": 140
+            }
+        },
+        {
+            "Name": "Hammerhead_Slug",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Hammerhead_Slug-CreatureNames-0\", \"Hammerhead Slug\")"
+            ],
+            "AISetup": {
+                "RowName": "Hammerhead_Slug_Large"
+            }
+        },
+        {
+            "Name": "Swamp_Slug_Enzymed",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Swamp_Slug_Enzymed-CreatureNames-0\", \"Glaci\")"
+            ],
+            "AISetup": {
+                "RowName": "Snow_Slug"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseFreeze_%\")": 20,
+                "(Value=\"BaseMaximumHealth_+%\")": 25,
+                "(Value=\"BaseFrostDamage_+\")": 25
+            }
+        },
+        {
+            "Name": "IceMammoth_PreEnzyme",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"IceMammoth_PreEnzyme-CreatureNames-0\", \"Rimetusk Matriarch\")"
+            ],
+            "AISetup": {
+                "RowName": "Mammoth_IceWorldSpawn"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseFreeze_%\")": 20,
+                "(Value=\"BasePhysicalDamage_+%\")": 20,
+                "(Value=\"BaseMaximumHealth_+%\")": 1000,
+                "(Value=\"BaseFrostDamage_+\")": 25,
+                "(Value=\"BaseFireDamageResistance_%\")": -25,
+                "(Value=\"BaseCreatureSize_+%\")": 20,
+                "(Value=\"BaseMovementSpeed_+%\")": 20
+            }
+        },
+        {
+            "Name": "IceMammoth_FirstTime",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"IceMammoth_FirstTime-CreatureNames-0\", \"EXP-RTK\")"
+            ],
+            "AISetup": {
+                "RowName": "Mammoth_IceWorldSpawn_O1"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 5000,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 7500,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 50
+            }
+        },
+        {
+            "Name": "Ape_004",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Ape_004-CreatureNames-0\", \"Experiment 004\")"
+            ],
+            "AISetup": {
+                "RowName": "Juvenile_Ape_004"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseMaximumHealth_+%\")": 75,
+                "(Value=\"BaseMeleeDamage_+\")": 40,
+                "(Value=\"BaseAttacksCauseBleed_%\")": 100
+            }
+        },
+        {
+            "Name": "Ape_005",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Ape_005-CreatureNames-0\", \"Experiment 005\")"
+            ],
+            "AISetup": {
+                "RowName": "Juvenile_Ape_005"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseMaximumHealth_+%\")": 75,
+                "(Value=\"BaseMeleeDamage_+\")": 40,
+                "(Value=\"BaseAttacksCauseBleed_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 50
+            }
+        },
+        {
+            "Name": "Ape_G",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Ape_G-CreatureNames-0\", \"Engorged Garganutan\")"
+            ],
+            "AISetup": {
+                "RowName": "Juvenile_Ape_IgnoreNeutralStat"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseMaximumHealth_+%\")": 150,
+                "(Value=\"BaseMeleeDamage_+\")": 40,
+                "(Value=\"BaseAttacksCauseWound_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 20,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25
+            }
+        },
+        {
+            "Name": "Experiment_Wolf",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Experiment_Wolf-CreatureNames-0\", \"EXP-WLF\")"
+            ],
+            "AISetup": {
+                "RowName": "Alpha_Snow_Wolf"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseFreeze_%\")": 25,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25,
+                "(Value=\"BaseCreatureSize_+%\")": 100,
+                "(Value=\"BaseMaximumHealth_+%\")": 2000
+            }
+        },
+        {
+            "Name": "Experiment_PolarBear",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Experiment_PolarBear-CreatureNames-0\", \"EXP-PBR\")"
+            ],
+            "AISetup": {
+                "RowName": "Polar_Bear_Boss"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseFreeze_%\")": 25,
+                "(Value=\"BaseMaximumHealth_+\")": 500,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25,
+                "(Value=\"BaseCreatureSize_+%\")": 25
+            }
+        },
+        {
+            "Name": "Experiment_Viscid",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Experiment_Viscid-CreatureNames-0\", \"EXP-VIS\")"
+            ],
+            "AISetup": {
+                "RowName": "Snow_Slug"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseFreeze_%\")": 25,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25
+            }
+        },
+        {
+            "Name": "IceMammoth_RimeTuskRun",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"IceMammoth_RimeTuskRun-CreatureNames-0\", \"Rimetusk Matriarch\")"
+            ],
+            "AISetup": {
+                "RowName": "Mammoth_IceWorldSpawn_Rimetusk"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseFreeze_%\")": 20,
+                "(Value=\"BasePhysicalDamage_+%\")": 20,
+                "(Value=\"BaseMaximumHealth_+%\")": 1000,
+                "(Value=\"BaseFrostDamage_+\")": 25,
+                "(Value=\"BaseFireDamageResistance_%\")": -25,
+                "(Value=\"BaseCreatureSize_+%\")": 20,
+                "(Value=\"BaseMovementSpeed_+%\")": 20
+            }
+        },
+        {
+            "Name": "IceMammoth_MammothA",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"IceMammoth_MammothA-CreatureNames-0\", \"BIO-RTX\")"
+            ],
+            "AISetup": {
+                "RowName": "Mammoth_IceWorldSpawn"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseFreeze_%\")": 20,
+                "(Value=\"BasePhysicalDamage_+%\")": 20,
+                "(Value=\"BaseMaximumHealth_+%\")": 100,
+                "(Value=\"BaseFrostDamage_+\")": 25,
+                "(Value=\"BaseFireDamageResistance_%\")": -25,
+                "(Value=\"BaseCreatureSize_+%\")": 20,
+                "(Value=\"BaseMovementSpeed_+%\")": 20
+            }
+        },
+        {
+            "Name": "IceMammoth_MammothB",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"IceMammoth_MammothB-CreatureNames-0\", \"BIO-RTY\")"
+            ],
+            "AISetup": {
+                "RowName": "Mammoth_IceWorldSpawn"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseFreeze_%\")": 20,
+                "(Value=\"BasePhysicalDamage_+%\")": 20,
+                "(Value=\"BaseMaximumHealth_+%\")": 100,
+                "(Value=\"BaseFrostDamage_+\")": 25,
+                "(Value=\"BaseFireDamageResistance_%\")": -25,
+                "(Value=\"BaseCreatureSize_+%\")": 20,
+                "(Value=\"BaseMovementSpeed_+%\")": 20
+            }
+        },
+        {
+            "Name": "Ape_C2",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Ape_C2-CreatureNames-0\", \"Elder Ape\")"
+            ],
+            "AISetup": {
+                "RowName": "Juvenile_Ape"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseMaximumHealth_+%\")": 50,
+                "(Value=\"BaseMeleeDamage_+\")": 20,
+                "(Value=\"BaseCreatureSize_+%\")": 20
+            }
+        },
+        {
+            "Name": "Epic_Desert_Wolf",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Epic_Desert_Wolf-CreatureNames-0\", \"Enraged Hyena\")"
+            ],
+            "AISetup": {
+                "RowName": "Desert_Wolf"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseHemorrhage_%\")": 15,
+                "(Value=\"BaseProjectileDamageResistance_%\")": 50,
+                "(Value=\"BaseMeleeDamageResistance_%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 400,
+                "(Value=\"BaseMeleeDamage_+\")": 20,
+                "(Value=\"BaseCreatureSize_+%\")": 50
+            }
+        },
+        {
+            "Name": "Ape_Prime",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Ape_Prime-CreatureNames-0\", \"GARGANUTAN PRIME\")"
+            ],
+            "AISetup": {
+                "RowName": "Juvenile_Ape_Garganutan"
+            },
+            "AdditionalStats": {
+                "(Value=\"ShouldPreventDeath_?\")": 1
+            }
+        },
+        {
+            "Name": "Ape_Prime_NoDamage",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Ape_Prime_NoDamage-CreatureNames-0\", \"GARGANUTAN PRIME\")"
+            ],
+            "AISetup": {
+                "RowName": "Juvenile_Ape_Garganutan"
+            },
+            "AdditionalStats": {
+                "(Value=\"ShouldPreventDeath_?\")": 1,
+                "(Value=\"IsInvulnerable_?\")": 1,
+                "(Value=\"BaseMaximumHealth_+%\")": 1000
+            }
+        },
+        {
+            "Name": "Ape_D2_Mother",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Ape_D2_Mother-CreatureNames-0\", \"Enraged Mother\")"
+            ],
+            "AISetup": {
+                "RowName": "Juvenile_Ape"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseMaximumHealth_+%\")": 200,
+                "(Value=\"BaseMeleeDamage_+\")": 40,
+                "(Value=\"BaseAttacksCauseBleed_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 50
+            }
+        },
+        {
+            "Name": "Enraged_Jaguar",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Enraged_Jaguar-CreatureNames-0\", \"Enraged Mother\")"
+            ],
+            "AISetup": {
+                "RowName": "Lion_F"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+\")": 40,
+                "(Value=\"BaseAttacksCauseBleed_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 50
+            }
+        },
+        {
+            "Name": "Enraged_Scorpion",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Enraged_Scorpion-CreatureNames-0\", \"Enraged Father\")"
+            ],
+            "AISetup": {
+                "RowName": "Scorpion"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+\")": 40,
+                "(Value=\"BaseAttacksCausePoisonSting_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 100
+            }
+        },
+        {
+            "Name": "RockGolemJr_D",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"RockGolemJr_D-CreatureNames-0\", \"Exotic Eater\")"
+            ],
+            "AISetup": {
+                "RowName": "Juvenile_Rock_Golem_Arctic"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseCreatureSize_+%\")": 25,
+                "(Value=\"BaseMaximumArmor_+%\")": 100,
+                "(Value=\"BaseMaximumHealth_+%\")": 50,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 75,
+                "(Value=\"BaseAttacksCauseSprain_%\")": 20
+            }
+        },
+        {
+            "Name": "Displaced_Landshark",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Displaced_Landshark-CreatureNames-0\", \"Unearthed Landshark\")"
+            ],
+            "AISetup": {
+                "RowName": "LandShark"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseProjectileDamageResistance_%\")": 75,
+                "(Value=\"BaseProjectileDamage_+%\")": 20,
+                "(Value=\"BaseAttacksCauseBleed_%\")": 50,
+                "(Value=\"BaseMaximumHealth_+\")": 1000
+            }
+        },
+        {
+            "Name": "RockGolemJr_E",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"RockGolemJr_E-CreatureNames-0\", \"Aggressive Borer\")"
+            ],
+            "AISetup": {
+                "RowName": "Juvenile_Rock_Golem"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseCreatureSize_+%\")": 25,
+                "(Value=\"BaseMaximumArmor_+%\")": 100,
+                "(Value=\"BaseMaximumHealth_+%\")": 50,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 75,
+                "(Value=\"BaseAttacksCauseSprain_%\")": 20
+            }
+        },
+        {
+            "Name": "Displaced_Landshark_0",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Displaced_Landshark_0-CreatureNames-0\", \"Stygian Landshark\")"
+            ],
+            "AISetup": {
+                "RowName": "LandShark"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseProjectileDamageResistance_%\")": 75,
+                "(Value=\"BaseProjectileDamage_+%\")": 20,
+                "(Value=\"BaseAttacksCauseBleed_%\")": 50,
+                "(Value=\"BaseMaximumHealth_+\")": 1000
+            }
+        },
+        {
+            "Name": "RockGolemJr_F",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"RockGolemJr_F-CreatureNames-0\", \"Quarrite Warden\")"
+            ],
+            "AISetup": {
+                "RowName": "Juvenile_Rock_Golem"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseCreatureSize_+%\")": 25,
+                "(Value=\"BaseMaximumArmor_+%\")": 100,
+                "(Value=\"BaseMaximumHealth_+%\")": 50,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 75,
+                "(Value=\"BaseAttacksCauseSprain_%\")": 20
+            }
+        },
+        {
+            "Name": "RockGolemJr_A",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"RockGolemJr_A-CreatureNames-0\", \"Quarrite\")"
+            ],
+            "AISetup": {
+                "RowName": "Juvenile_Rock_Golem"
+            }
+        },
+        {
+            "Name": "RockGolemJr_Exotic",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"RockGolemJr_Exotic-CreatureNames-0\", \"Exotic Infused Quarrite\")"
+            ],
+            "AISetup": {
+                "RowName": "Juvenile_Rock_Golem"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseCreatureSize_+%\")": 20,
+                "(Value=\"BaseMaximumArmor_+%\")": 100,
+                "(Value=\"BaseMaximumHealth_+%\")": 50,
+                "(Value=\"BaseMeleeDamage_+%\")": 25
             }
         }
     ]

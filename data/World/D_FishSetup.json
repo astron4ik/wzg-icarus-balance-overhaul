@@ -37,14 +37,6 @@
             "AttackSound": "/Game/FMOD/Events/SFX/Creatures/Movement/FISH/SFX_CRE_FISH_BITE.SFX_CRE_FISH_BITE"
         },
         {
-            "Name": "Fish_Meta",
-            "FishActor": "/Game/Prototypes/Fish/BP_Fish_Meta.BP_Fish_Meta_C",
-            "SizeRange": {
-                "X": 0.7599999904632568,
-                "Y": 1.600000023841858
-            }
-        },
-        {
             "Name": "Fish_Eel",
             "FishActor": "/Game/Prototypes/Fish/BP_Fish_Eel.BP_Fish_Eel_C",
             "MovementSpeed": 100,
@@ -163,6 +155,26 @@
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_WaterScytherTadpole",
+            "FishActor": "/Game/Prototypes/Fish/BP_Fish_WaterScytherTadpole.BP_Fish_WaterScytherTadpole_C",
+            "MovementSpeed": 150,
+            "SizeRange": {
+                "X": 0.75,
+                "Y": 1.25
+            },
+            "bAwarenessEnabled": true,
+            "MaxAwarenessDistance": 800,
+            "bAggressive": true,
+            "AttackDamage": 3,
+            "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/FISH/SFX_CRE_FISH_SWIM.SFX_CRE_FISH_SWIM",
+            "AttackSound": "/Game/FMOD/Events/SFX/Creatures/Movement/FISH/SFX_CRE_FISH_BITE.SFX_CRE_FISH_BITE",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
                 }
             }
         }

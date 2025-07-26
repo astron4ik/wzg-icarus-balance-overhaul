@@ -28,8 +28,9 @@
                 "RowName": "Building_Wood"
             },
             "Stats": {
-                "(Value=\"BaseBuildingInsulation_+\")": 10,
-                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 75
+                "(Value=\"BaseBuildingInsulation_+\")": 3,
+                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 50,
+                "(Value=\"BaseMeleeDamageResistance_%\")": -50
             }
         },
         {
@@ -38,8 +39,8 @@
                 "RowName": "Building_Interior_Wood"
             },
             "Stats": {
-                "(Value=\"BaseBuildingInsulation_+\")": 15,
-                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 75
+                "(Value=\"BaseBuildingInsulation_+\")": 3,
+                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 50
             }
         },
         {
@@ -48,10 +49,9 @@
                 "RowName": "Building_Stone"
             },
             "Stats": {
-                "(Value=\"BaseBuildingInsulation_+\")": 15,
+                "(Value=\"BaseBuildingInsulation_+\")": 6,
                 "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100,
-                "(Value=\"BaseWindDamageResistance_%\")": 100,
-                "(Value=\"BaseMeleeDamageResistance_%\")": 95
+                "(Value=\"BaseWindDamageResistance_%\")": 50
             }
         },
         {
@@ -60,10 +60,8 @@
                 "RowName": "Building_Concrete"
             },
             "Stats": {
-                "(Value=\"BaseBuildingInsulation_+\")": 25,
-                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100,
-                "(Value=\"BaseWindDamageResistance_%\")": 100,
-                "(Value=\"BaseMeleeDamageResistance_%\")": 100
+                "(Value=\"BaseBuildingInsulation_+\")": 15,
+                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100
             }
         },
         {
@@ -83,10 +81,8 @@
                 "RowName": "Building_Aluminium"
             },
             "Stats": {
-                "(Value=\"BaseBuildingInsulation_+\")": 2,
-                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100,
-                "(Value=\"BaseWindDamageResistance_%\")": 100,
-                "(Value=\"BaseMeleeDamageResistance_%\")": 100
+                "(Value=\"BaseBuildingInsulation_+\")": 15,
+                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100
             }
         },
         {
@@ -169,6 +165,59 @@
             "Stats": {
                 "(Value=\"BaseBuildingInsulation_+\")": 15,
                 "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100
+            }
+        },
+        {
+            "Name": "Stone_Brick",
+            "TagQuery": {
+                "RowName": "Building_Stone_Brick"
+            },
+            "Stats": {
+                "(Value=\"BaseBuildingInsulation_+\")": 10,
+                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100,
+                "(Value=\"BaseWindDamageResistance_%\")": 65
+            }
+        },
+        {
+            "Name": "Sandworm",
+            "TagQuery": {
+                "RowName": "Building_Wood"
+            },
+            "Stats": {
+                "(Value=\"BaseBuildingInsulation_+\")": 3,
+                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 50,
+                "(Value=\"BaseMeleeDamageResistance_%\")": -50
+            }
+        },
+        {
+            "Name": "Glass_Tempered",
+            "TagQuery": {
+                "RowName": "Building_Glass_Tempered"
+            },
+            "Stats": {
+                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 15,
+                "(Value=\"BaseWindDamageResistance_%\")": 50
+            }
+        },
+        {
+            "Name": "Beeswax_Wood",
+            "TagQuery": {
+                "RowName": "Building_Beeswax_Wood"
+            },
+            "Stats": {
+                "(Value=\"BaseBuildingInsulation_+\")": 6,
+                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 50
+            }
+        },
+        {
+            "Name": "Metal_Grate",
+            "TagQuery": {
+                "RowName": "Building_Metal_Grate"
+            },
+            "Stats": {
+                "(Value=\"BaseBuildingInsulation_+\")": 3,
+                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 50,
+                "(Value=\"BaseWindDamageResistance_%\")": 50
             }
         }
     ]

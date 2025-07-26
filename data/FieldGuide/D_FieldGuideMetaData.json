@@ -8,7 +8,9 @@
         "Image1": "None",
         "Description1": "",
         "Image2": "None",
-        "Description2": ""
+        "Description2": "",
+        "Image3": "None",
+        "Description3": ""
     },
     "Rows": [
         {
@@ -86,8 +88,12 @@
             "Item": {
                 "RowName": "Oxite"
             },
-            "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_Deposit_Oxite.T_IMG_Deposit_Oxite",
-            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"Oxite_Procure-Description1\", \"Mine with Pickaxe\")"
+            "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_Oxite_Pickup.T_IMG_Oxite_Pickup",
+            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"Oxite_Procure-Description1\", \"Pickup\")",
+            "Image2": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_Deposit_Oxite.T_IMG_Deposit_Oxite",
+            "Description2": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"Oxite_Procure-Description2\", \"Mine with Pickaxe\")",
+            "Image3": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_DeepVein_Oxite.T_IMG_DeepVein_Oxite",
+            "Description3": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"Oxite_Procure-Description3\", \"Drill Deep Vein\")"
         },
         {
             "Name": "Sulfur_Procure",
@@ -115,7 +121,9 @@
                 "RowName": "Stone"
             },
             "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_Deposit_Stone.T_IMG_Deposit_Stone",
-            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"Stone_Procure-Description1\", \"Mine with Pickaxe\")"
+            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"Stone_Procure-Description1\", \"Mine with Pickaxe\")",
+            "Image2": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_DeepVein_Stone.T_IMG_DeepVein_Stone",
+            "Description2": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"Stone_Procure-Description2\", \"Drill Deep Vein\")"
         },
         {
             "Name": "Clay_Procure",
@@ -134,8 +142,10 @@
             },
             "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_Deposit_Exotic.T_IMG_Deposit_Exotic",
             "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"Exotic_Procure-Description1\", \"Mine with Pickaxe\")",
-            "Image2": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_Geyser_Exotic.T_IMG_Geyser_Exotic",
-            "Description2": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"Exotic_Procure-Description2\", \"Extract Geyser\")"
+            "Image2": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_EXOTIC_Ground.T_IMG_PROCUREMENT_EXOTIC_Ground",
+            "Description2": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"Exotic_Procure-Description2\", \"Extract Deposit\")",
+            "Image3": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_Geyser_Exotic.T_IMG_Geyser_Exotic",
+            "Description3": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"Exotic_Procure-Description3\", \"Condense Geyser\")"
         },
         {
             "Name": "Salt_Procure",
@@ -268,7 +278,7 @@
             "Item": {
                 "RowName": "GreenTea"
             },
-            "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_Plants_Gorse1.T_IMG_Plants_Gorse1",
+            "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_Plants_Tea.T_IMG_Plants_Tea",
             "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"GreenTea_Plant_Procure-Description1\", \"Harvest By Hand Or Sickle\")"
         },
         {
@@ -350,6 +360,162 @@
             },
             "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_Plants_Potato.T_IMG_Plants_Potato",
             "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"Potato_Plant_Procure-Description1\", \"Harvest By Hand Or Sickle\")"
+        },
+        {
+            "Name": "Sandworm_Scale",
+            "Item": {
+                "RowName": "Sandworm_Scale"
+            },
+            "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_FG_Sandworm.T_IMG_FG_Sandworm",
+            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"Sandworm_Scale-Description1\", \"Fight the Sandworm\")"
+        },
+        {
+            "Name": "Scorpion_Carapace",
+            "Item": {
+                "RowName": "Scorpion_Carapace"
+            },
+            "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_FG_Scorpion.T_IMG_FG_Scorpion",
+            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"Scorpion_Carapace-Description1\", \"Fight the Scorpion\")"
+        },
+        {
+            "Name": "Exotics_Red",
+            "Item": {
+                "RowName": "Exotic_Red_Raw"
+            },
+            "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_StrangePlant.T_IMG_PROCUREMENT_StrangePlant",
+            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"Exotics_Red-Description1\", \"Harvest By Hand\")",
+            "Image2": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_EXOTIC_Plant.T_IMG_PROCUREMENT_EXOTIC_Plant",
+            "Description2": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"Exotics_Red-Description2\", \"Extract Deposit\")"
+        },
+        {
+            "Name": "NoxiousCrust",
+            "Item": {
+                "RowName": "FieldGuide_PyriticCrust"
+            },
+            "Image1": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITEM_Iron_Wood_Pickaxe.T_ITEM_Iron_Wood_Pickaxe",
+            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"NoxiousCrust-Description1\", \"Mine with Miasmic Pickaxe\")"
+        },
+        {
+            "Name": "SugarCane_Plant_Procure",
+            "Item": {
+                "RowName": "Sugar_Cane"
+            },
+            "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_QuestRewards.T_IMG_QuestRewards",
+            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"SugarCane_Plant_Procure-Description1\", \"SMPL3 Quest Reward\")"
+        },
+        {
+            "Name": "Kiwifruit_Plant_Procure",
+            "Item": {
+                "RowName": "Kiwi_Fruit"
+            },
+            "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_QuestRewards.T_IMG_QuestRewards",
+            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"Kiwifruit_Plant_Procure-Description1\", \"SMPL3 Quest Reward\")"
+        },
+        {
+            "Name": "FrozenOre",
+            "Item": {
+                "RowName": "Frozen_Ore"
+            },
+            "Image1": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITEM_Cold_Steel_Pickaxe.T_ITEM_Cold_Steel_Pickaxe",
+            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"FrozenOre-Description1\", \"Mine with Cold Steel Pickaxe\")",
+            "Image2": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITEM_Cold_Steel_Sledgehammer.T_ITEM_Cold_Steel_Sledgehammer",
+            "Description2": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"FrozenOre-Description2\", \"Shatter with Cold Steel Sledgehammer\")"
+        },
+        {
+            "Name": "LegendaryWeapon_Black_Wolf_Revolver",
+            "Item": {
+                "RowName": "LegendaryWeapon_Black_Wolf_Revolver"
+            },
+            "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_ALPHAWOLF.T_IMG_PROCUREMENT_ALPHAWOLF",
+            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_Black_Wolf_Revolver-Description1\", \"Defeat Boss\")",
+            "Image2": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_OEI.T_IMG_PROCUREMENT_OEI",
+            "Description2": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_Black_Wolf_Revolver-Description2\", \"Exchange\")",
+            "Image3": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_BIOLAB.T_IMG_PROCUREMENT_BIOLAB",
+            "Description3": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_Black_Wolf_Revolver-Description3\", \"Purchase\")"
+        },
+        {
+            "Name": "LegendaryWeapon_Scorpion_Rifle",
+            "Item": {
+                "RowName": "LegendaryWeapon_Scorpion_Rifle"
+            },
+            "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_SCORPION.T_IMG_PROCUREMENT_SCORPION",
+            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_Scorpion_Rifle-Description1\", \"Defeat Boss\")",
+            "Image2": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_OEI.T_IMG_PROCUREMENT_OEI",
+            "Description2": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_Scorpion_Rifle-Description2\", \"Exchange\")",
+            "Image3": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_BIOLAB.T_IMG_PROCUREMENT_BIOLAB",
+            "Description3": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_Scorpion_Rifle-Description3\", \"Purchase\")"
+        },
+        {
+            "Name": "LegendaryWeapon_Sandworm_Crossbow",
+            "Item": {
+                "RowName": "LegendaryWeapon_Sandworm_Crossbow"
+            },
+            "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_SANDWORM.T_IMG_PROCUREMENT_SANDWORM",
+            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_Sandworm_Crossbow-Description1\", \"Defeat Boss\")",
+            "Image2": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_OEI.T_IMG_PROCUREMENT_OEI",
+            "Description2": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_Sandworm_Crossbow-Description2\", \"Exchange\")",
+            "Image3": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_BIOLAB.T_IMG_PROCUREMENT_BIOLAB",
+            "Description3": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_Sandworm_Crossbow-Description3\", \"Purchase\")"
+        },
+        {
+            "Name": "LegendaryWeapon_GolemGauntlet",
+            "Item": {
+                "RowName": "LegendaryWeapon_GolemGauntlet"
+            },
+            "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_QUARRITE.T_IMG_PROCUREMENT_QUARRITE",
+            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_GolemGauntlet-Description1\", \"Defeat Boss\")",
+            "Image2": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_OEI.T_IMG_PROCUREMENT_OEI",
+            "Description2": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_GolemGauntlet-Description2\", \"Exchange\")",
+            "Image3": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_BIOLAB.T_IMG_PROCUREMENT_BIOLAB",
+            "Description3": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_GolemGauntlet-Description3\", \"Purchase\")"
+        },
+        {
+            "Name": "LegendaryWeapon_Ape_Club",
+            "Item": {
+                "RowName": "LegendaryWeapon_Ape_Club"
+            },
+            "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_GARGANUTAN.T_IMG_PROCUREMENT_GARGANUTAN",
+            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_Ape_Club-Description1\", \"Defeat Boss\")",
+            "Image2": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_OEI.T_IMG_PROCUREMENT_OEI",
+            "Description2": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_Ape_Club-Description2\", \"Exchange\")",
+            "Image3": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_BIOLAB.T_IMG_PROCUREMENT_BIOLAB",
+            "Description3": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_Ape_Club-Description3\", \"Purchase\")"
+        },
+        {
+            "Name": "LegendaryWeapon_SlugLauncher",
+            "Item": {
+                "RowName": "LegendaryWeapon_SlugLauncher"
+            },
+            "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_HAMMERHEAD.T_IMG_PROCUREMENT_HAMMERHEAD",
+            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_SlugLauncher-Description1\", \"Defeat Boss\")",
+            "Image2": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_OEI.T_IMG_PROCUREMENT_OEI",
+            "Description2": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_SlugLauncher-Description2\", \"Exchange\")",
+            "Image3": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_BIOLAB.T_IMG_PROCUREMENT_BIOLAB",
+            "Description3": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_SlugLauncher-Description3\", \"Purchase\")"
+        },
+        {
+            "Name": "LegendaryWeapon_LavaHunter_FlameThrower",
+            "Item": {
+                "RowName": "LegendaryWeapon_LavaHunter_FlameThrower"
+            },
+            "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_LAVAHUNTER.T_IMG_PROCUREMENT_LAVAHUNTER",
+            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_LavaHunter_FlameThrower-Description1\", \"Defeat Boss\")",
+            "Image2": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_OEI.T_IMG_PROCUREMENT_OEI",
+            "Description2": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_LavaHunter_FlameThrower-Description2\", \"Exchange\")",
+            "Image3": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_BIOLAB.T_IMG_PROCUREMENT_BIOLAB",
+            "Description3": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_LavaHunter_FlameThrower-Description3\", \"Purchase\")"
+        },
+        {
+            "Name": "LegendaryWeapon_IceMammoth_Sledgehammer",
+            "Item": {
+                "RowName": "LegendaryWeapon_IceMammoth_Sledgehammer"
+            },
+            "Image1": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_RIMETUSK.T_IMG_PROCUREMENT_RIMETUSK",
+            "Description1": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_IceMammoth_Sledgehammer-Description1\", \"Defeat Boss\")",
+            "Image2": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_OEI.T_IMG_PROCUREMENT_OEI",
+            "Description2": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_IceMammoth_Sledgehammer-Description2\", \"Exchange\")",
+            "Image3": "/Game/Assets/2DArt/UI/FieldGuide/Procurement/T_IMG_PROCUREMENT_BIOLAB.T_IMG_PROCUREMENT_BIOLAB",
+            "Description3": "NSLOCTEXT(\"D_FieldGuideMetaData\", \"LegendaryWeapon_IceMammoth_Sledgehammer-Description3\", \"Purchase\")"
         }
     ]
 }

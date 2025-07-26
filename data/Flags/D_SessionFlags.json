@@ -227,6 +227,69 @@
         },
         {
             "Name": "Mission_Recipe_Incubator"
+        },
+        {
+            "Name": "Mission_Recipe_Kiwi_Nest"
+        },
+        {
+            "Name": "Mission_Recipe_AerosolEmitter"
+        },
+        {
+            "Name": "Mission_Recipe_LiquidDeployment"
+        },
+        {
+            "Name": "Mission_Recipe_MonitoringPylon"
+        },
+        {
+            "Name": "Mission_Recipe_Medical_Scanner"
+        },
+        {
+            "Name": "Mission_Recipe_Truck_Supplies"
+        },
+        {
+            "Name": "Mission_Aid_Provided"
+        },
+        {
+            "Name": "Mission_Recipe_Stasis_Bag"
+        },
+        {
+            "Name": "Mission_SurveyTransmitter"
+        },
+        {
+            "Name": "Mission_Organic_Analyzer"
+        },
+        {
+            "Name": "Mission_MakeshiftRadio"
+        },
+        {
+            "Name": "Mission_ModifiedEDS"
+        },
+        {
+            "Name": "Mission_TriangulationBeacon"
+        },
+        {
+            "Name": "Mission_MakeshiftExplosive"
+        },
+        {
+            "Name": "Mission_EDSCanister"
+        },
+        {
+            "Name": "Mission_EnzymePropagationUnit"
+        },
+        {
+            "Name": "Mission_Animals_Drop_Biotags"
+        },
+        {
+            "Name": "Mission_SonicDevice"
+        },
+        {
+            "Name": "Mission_DNA_Extraction"
+        },
+        {
+            "Name": "Mission_Lair_Poison_Samples"
+        },
+        {
+            "Name": "Mission_MiningCart"
         }
     ]
 }

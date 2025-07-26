@@ -13,7 +13,7 @@
         {
             "Name": "Arrow",
             "WeightStatToApply": {
-                "Value": "BaseArrowCarryWeight_+%"
+                "Value": "ArrowCarryWeight_+%"
             },
             "ItemTagQuery": {
                 "RowName": "Projectile_Arrow"
@@ -22,7 +22,7 @@
         {
             "Name": "Any_Building",
             "WeightStatToApply": {
-                "Value": "BaseBuildableCarryWeight_+%"
+                "Value": "BuildableCarryWeight_+%"
             },
             "ItemTagQuery": {
                 "RowName": "Any_Building"
@@ -31,7 +31,7 @@
         {
             "Name": "Wood_Building",
             "WeightStatToApply": {
-                "Value": "BaseWoodBuildableCarryWeight_+%"
+                "Value": "WoodBuildableCarryWeight_+%"
             },
             "ItemTagQuery": {
                 "RowName": "Building_Wood"
@@ -40,7 +40,7 @@
         {
             "Name": "Stone_Building",
             "WeightStatToApply": {
-                "Value": "BaseStoneBuildableCarryWeight_+%"
+                "Value": "StoneBuildableCarryWeight_+%"
             },
             "ItemTagQuery": {
                 "RowName": "Building_Stone"
@@ -49,7 +49,7 @@
         {
             "Name": "Thatch_Building",
             "WeightStatToApply": {
-                "Value": "BaseThatchBuildableCarryWeight_+%"
+                "Value": "ThatchBuildableCarryWeight_+%"
             },
             "ItemTagQuery": {
                 "RowName": "Building_Thatch"
@@ -58,7 +58,7 @@
         {
             "Name": "Concrete_Building",
             "WeightStatToApply": {
-                "Value": "BaseConcreteBuildableCarryWeight_+%"
+                "Value": "ConcreteBuildableCarryWeight_+%"
             },
             "ItemTagQuery": {
                 "RowName": "Building_Concrete"
@@ -67,7 +67,7 @@
         {
             "Name": "Resource_Ore",
             "WeightStatToApply": {
-                "Value": "BaseOreCarryWeight_+%"
+                "Value": "OreCarryWeight_+%"
             },
             "ItemTagQuery": {
                 "RowName": "Any_Ore"
@@ -76,7 +76,7 @@
         {
             "Name": "Resource_Stone",
             "WeightStatToApply": {
-                "Value": "BaseStoneCarryWeight_+%"
+                "Value": "StoneCarryWeight_+%"
             },
             "ItemTagQuery": {
                 "RowName": "Resource_Stone"
@@ -85,7 +85,7 @@
         {
             "Name": "Resource_Fiber",
             "WeightStatToApply": {
-                "Value": "BaseFiberCarryWeight_+%"
+                "Value": "FiberCarryWeight_+%"
             },
             "ItemTagQuery": {
                 "RowName": "Resource_Fiber"
@@ -94,7 +94,7 @@
         {
             "Name": "Resource_Sticks",
             "WeightStatToApply": {
-                "Value": "BaseStickCarryWeight_+%"
+                "Value": "StickCarryWeight_+%"
             },
             "ItemTagQuery": {
                 "RowName": "Resource_Sticks"
@@ -103,7 +103,7 @@
         {
             "Name": "Resource_Wood",
             "WeightStatToApply": {
-                "Value": "BaseWoodCarryWeight_+%"
+                "Value": "WoodCarryWeight_+%"
             },
             "ItemTagQuery": {
                 "RowName": "Resource_Wood"
@@ -112,7 +112,7 @@
         {
             "Name": "Resource_Exotic",
             "WeightStatToApply": {
-                "Value": "BaseExoticCarryWeight_+%"
+                "Value": "ExoticCarryWeight_+%"
             },
             "ItemTagQuery": {
                 "RowName": "Any_Exotic"
@@ -121,7 +121,7 @@
         {
             "Name": "Firearm",
             "WeightStatToApply": {
-                "Value": "BaseFirearmCarryWeight_+%"
+                "Value": "FirearmCarryWeight_+%"
             },
             "ItemTagQuery": {
                 "RowName": "Any_Firearm"
@@ -130,7 +130,7 @@
         {
             "Name": "CarriedExtractor",
             "WeightStatToApply": {
-                "Value": "BaseExtractorCarryWeight_+%"
+                "Value": "ExtractorCarryWeight_+%"
             },
             "ItemTagQuery": {
                 "RowName": "Any_Extractor"
@@ -139,7 +139,7 @@
         {
             "Name": "AnyFish",
             "WeightStatToApply": {
-                "Value": "BasFishCarryWeight_+%"
+                "Value": "FishCarryWeight_+%"
             },
             "ItemTagQuery": {
                 "RowName": "Any_Fish"

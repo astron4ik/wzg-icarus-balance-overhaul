@@ -19,6 +19,7 @@
         "GoalCount": 0,
         "SteamAchievementId": "None"
     },
+    "GenerateEnum": true,
     "Rows": [
         {
             "Name": "ForestScanComplete",
@@ -3903,7 +3904,7 @@
             "Name": "PlayersKilled1",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"PlayersKilled1-DisplayName\", \"Friendly Fire\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"PlayersKilled1-Description\", \"Kill another prospector\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_FriendlyFire.ACH_FriendlyFire",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_FriendlyFire_Complete.T_ACH_1_FriendlyFire_Complete",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -3923,7 +3924,7 @@
             "Name": "StruckByLightning1",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"StruckByLightning1-DisplayName\", \"At least it never hits the same place twice...\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"StruckByLightning1-Description\", \"Get struck by lightning\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_Lightning1.ACH_Lightning1",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_Lightning1_Complete.T_ACH_1_Lightning1_Complete",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -3943,7 +3944,7 @@
             "Name": "StruckByLightning2",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"StruckByLightning2-DisplayName\", \"Sometimes it does...\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"StruckByLightning2-Description\", \"Get struck by lightning... again\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_Lightning2.ACH_Lightning2",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_Lightning2_Complete.T_ACH_1_Lightning2_Complete",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -3963,7 +3964,7 @@
             "Name": "MineAllOres",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"MineAllOres-DisplayName\", \"Rock \\'n\\' Roll\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"MineAllOres-Description\", \"Mine these ores\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_RockNRoll.ACH_RockNRoll",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_RockNRoll_Complete.T_ACH_1_RockNRoll_Complete",
             "AccoladeImpl": "/Script/Icarus.TaskListAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4008,7 +4009,7 @@
             "Name": "CollectAllPlants",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"CollectAllPlants-DisplayName\", \"Herb Your Enthusiasm\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"CollectAllPlants-Description\", \"Harvest these plants\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_HerbYourEnthusiasm.ACH_HerbYourEnthusiasm",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_HerbYourEnthusiasm_Complete.T_ACH_1_HerbYourEnthusiasm_Complete",
             "AccoladeImpl": "/Script/Icarus.TaskListAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4097,7 +4098,7 @@
             "Name": "VisitAllBiomes",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"VisitAllBiomes-DisplayName\", \"Biome is Where The Heart Is\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"VisitAllBiomes-Description\", \"Explore these biomes on Olympus and Styx\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_BiomeisWheretheHeartIs.ACH_BiomeisWheretheHeartIs",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_BiomeisWheretheHeartIs_Complete.T_ACH_1_BiomeisWheretheHeartIs_Complete",
             "AccoladeImpl": "/Script/Icarus.TaskListAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4194,7 +4195,7 @@
             "Name": "CraftAllFoods",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"CraftAllFoods-DisplayName\", \"Yes Chef!\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"CraftAllFoods-Description\", \"Cook these food items\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_YesChef.ACH_YesChef",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_YesChef_Complete.T_ACH_1_YesChef_Complete",
             "AccoladeImpl": "/Script/Icarus.TaskListAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4343,7 +4344,7 @@
             "Name": "KillDeerWithGrenade",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"KillDeerWithGrenade-DisplayName\", \"Buck and Cover\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"KillDeerWithGrenade-Description\", \"Kill a Deer with a Grenade\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_BuckandCover.ACH_BuckandCover",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_BuckandCover_Complete.T_ACH_1_BuckandCover_Complete",
             "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4359,7 +4360,7 @@
             "Name": "KillFishWithBow",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"KillFishWithBow-DisplayName\", \"Pain in the Bass\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"KillFishWithBow-Description\", \"Catch a fish with the bow and arrow\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_PainInTheBass.ACH_PainInTheBass",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_PainInTheBass_Complete.T_ACH_1_PainInTheBass_Complete",
             "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4375,7 +4376,7 @@
             "Name": "DestroyCrateWithGrenade",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"DestroyCrateWithGrenade-DisplayName\", \"Ex-Box\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"DestroyCrateWithGrenade-Description\", \"Break a Crate with a Grenade\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_Ex-Box.ACH_Ex-Box",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_Ex-Box_Complete.T_ACH_1_Ex-Box_Complete",
             "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4421,7 +4422,7 @@
             "Name": "IgniteABuilding",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"IgniteABuilding-DisplayName\", \"Fired Up\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"IgniteABuilding-Description\", \"Burn down a shelter\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_FiredUp.ACH_FiredUp",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_FiredUp_Complete.T_ACH_1_FiredUp_Complete",
             "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4437,7 +4438,7 @@
             "Name": "EquipFullArmour",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"EquipFullArmour-DisplayName\", \"Armored and Dangerous\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"EquipFullArmour-Description\", \"Equip a full set of armor\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_ArmouredAndDangerous.ACH_ArmouredAndDangerous",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_ArmouredAndDangerous_Complete.T_ACH_1_ArmouredAndDangerous_Complete",
             "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4453,7 +4454,7 @@
             "Name": "KilledByABear",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"KilledByABear-DisplayName\", \"Welcome to Icarus\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"KilledByABear-Description\", \"First time killed by a bear\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_WelcomeToIcarus.ACH_WelcomeToIcarus",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_WelcomeToIcarus_Complete.T_ACH_1_WelcomeToIcarus_Complete",
             "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4469,7 +4470,7 @@
             "Name": "KillSandwormBossOnHardest",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"KillSandwormBossOnHardest-DisplayName\", \"The Bigger They Are...\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"KillSandwormBossOnHardest-Description\", \"Kill the Sandworm Boss on the Hardest Difficulty\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_TheBiggerTheyAre.ACH_TheBiggerTheyAre",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_TheBiggerTheyAre_Complete.T_ACH_1_TheBiggerTheyAre_Complete",
             "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4485,7 +4486,7 @@
             "Name": "KillLandsharkBossOnHardest",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"KillLandsharkBossOnHardest-DisplayName\", \"... The Harder They Fall\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"KillLandsharkBossOnHardest-Description\", \"Kill the Landshark Boss on the Hardest Difficulty\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_TheHarderTheyFall.ACH_TheHarderTheyFall",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_TheHarderTheyFall_Complete.T_ACH_1_TheHarderTheyFall_Complete",
             "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4501,7 +4502,7 @@
             "Name": "KillScorpionBossOnHardest",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"KillScorpionBossOnHardest-DisplayName\", \"Sting Operation\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"KillScorpionBossOnHardest-Description\", \"Kill the Scorpion Boss on the Hardest Difficulty\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_StingOperation.ACH_StingOperation",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_StingOperation_Complete.T_ACH_1_StingOperation_Complete",
             "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4517,7 +4518,7 @@
             "Name": "KillAlphaWolfBossOnHardest",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"KillAlphaWolfBossOnHardest-DisplayName\", \"Leader Of The Pack\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"KillAlphaWolfBossOnHardest-Description\", \"Kill the Alpha Wolf Boss on the Hardest Difficulty\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_LeaderOfThePack.ACH_LeaderOfThePack",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_LeaderOfThePack_Complete.T_ACH_1_LeaderOfThePack_Complete",
             "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4533,7 +4534,7 @@
             "Name": "PickupBasicResource",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"PickupBasicResource-DisplayName\", \"Survival 101\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"PickupBasicResource-Description\", \"Pick up a Stick, Stone, or Oxite\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_Survival101.ACH_Survival101",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_Survival101_Complete.T_ACH_1_Survival101_Complete",
             "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4549,7 +4550,7 @@
             "Name": "DownedCount1",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"DownedCount1-DisplayName\", \"Whoops!\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"DownedCount1-Description\", \"First time your prospector dies\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_Whoops.ACH_Whoops",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_Whoops_Complete.T_ACH_1_Whoops_Complete",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4569,7 +4570,7 @@
             "Name": "ReviveCount1",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"ReviveCount1-DisplayName\", \"Medic!\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"ReviveCount1-Description\", \"Revive a downed prospector\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_Medic.ACH_Medic",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_Medic_Complete.T_ACH_1_Medic_Complete",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4589,7 +4590,7 @@
             "Name": "ItemsAltered1",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"ItemsAltered1-DisplayName\", \"Makeshift Engineering\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"ItemsAltered1-Description\", \"Alter an Item\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_MakeshiftEngineering.ACH_MakeshiftEngineering",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_MakeshiftEngineering_Complete.T_ACH_1_MakeshiftEngineering_Complete",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4609,7 +4610,7 @@
             "Name": "ThumperActivations1",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"ThumperActivations1-DisplayName\", \"Mined Over Matter\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"ThumperActivations1-Description\", \"Activate the Thumper\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_MinedOverMatter.ACH_MinedOverMatter",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_MinedOverMatter_Complete.T_ACH_1_MinedOverMatter_Complete",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4629,7 +4630,7 @@
             "Name": "TutorialCompleted",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"TutorialCompleted-DisplayName\", \"Baby Steps\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"TutorialCompleted-Description\", \"Complete the tutorial\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_BabySteps.ACH_BabySteps",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_BabySteps_Complete.T_ACH_1_BabySteps_Complete",
             "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4644,9 +4645,9 @@
         {
             "Name": "CompleteAllStyxMissions",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"CompleteAllStyxMissions-DisplayName\", \"Styx And Stones\")",
-            "Description": "NSLOCTEXT(\"D_Accolades\", \"CompleteAllStyxMissions-Description\", \"Complete 25 Styx Missions\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_StyxAndStones.ACH_StyxAndStones",
-            "AccoladeImpl": "/Script/Icarus.AllTalentsInTreeAccolade",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"CompleteAllStyxMissions-Description\", \"Complete 24 Styx Missions\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_StyxAndStones_Complete.T_ACH_1_StyxAndStones_Complete",
+            "AccoladeImpl": "/Script/Icarus.AllMissionsInTreeAccolade",
             "Category": {
                 "Value": "Achievement"
             },
@@ -4669,9 +4670,9 @@
         {
             "Name": "CompleteAllOlympusMissions",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"CompleteAllOlympusMissions-DisplayName\", \"Zero To Hero\")",
-            "Description": "NSLOCTEXT(\"D_Accolades\", \"CompleteAllOlympusMissions-Description\", \"Complete 62 Olympus Missions\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_ZeroToHero.ACH_ZeroToHero",
-            "AccoladeImpl": "/Script/Icarus.AllTalentsInTreeAccolade",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"CompleteAllOlympusMissions-Description\", \"Complete 56 Olympus Missions\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_ZeroToHero_Complete.T_ACH_1_ZeroToHero_Complete",
+            "AccoladeImpl": "/Script/Icarus.AllMissionsInTreeAccolade",
             "Category": {
                 "Value": "Achievement"
             },
@@ -4695,7 +4696,7 @@
             "Name": "CreditsEarned10000",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"CreditsEarned10000-DisplayName\", \"Money Money Money\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"CreditsEarned10000-Description\", \"Collect 10000 Ren\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_MoneyMoneyMoney.ACH_MoneyMoneyMoney",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_MoneyMoneyMoney_Complete.T_ACH_1_MoneyMoneyMoney_Complete",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4715,7 +4716,7 @@
             "Name": "ExoticsEarned10000",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"ExoticsEarned10000-DisplayName\", \"Ore-mageddon\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"ExoticsEarned10000-Description\", \"Collect 10000 Exotics\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_Oremageddon.ACH_Oremageddon",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_Oremageddon_Complete.T_ACH_1_Oremageddon_Complete",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4735,7 +4736,7 @@
             "Name": "AllBlueprintsUnlockedTier1",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"AllBlueprintsUnlockedTier1-DisplayName\", \"Bear Necessities\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"AllBlueprintsUnlockedTier1-Description\", \"Unlock all blueprints in Tier 1\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_BearNecessities.ACH_BearNecessities",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_BearNecessities_Complete.T_ACH_1_BearNecessities_Complete",
             "AccoladeImpl": "/Script/Icarus.AllTalentsInTreeAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4760,7 +4761,7 @@
             "Name": "AllBlueprintsUnlockedTier2",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"AllBlueprintsUnlockedTier2-DisplayName\", \"Unlocked And Loaded\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"AllBlueprintsUnlockedTier2-Description\", \"Unlock all blueprints in Tier 2\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_UnlockedandLoaded.ACH_UnlockedandLoaded",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_UnlockedandLoaded_Complete.T_ACH_1_UnlockedandLoaded_Complete",
             "AccoladeImpl": "/Script/Icarus.AllTalentsInTreeAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4785,7 +4786,7 @@
             "Name": "AllBlueprintsUnlockedTier3",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"AllBlueprintsUnlockedTier3-DisplayName\", \"Unlocking Intensifies\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"AllBlueprintsUnlockedTier3-Description\", \"Unlock all blueprints in Tier 3\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_UnlockingIntensifies.ACH_UnlockingIntensifies",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_UnlockingIntensifies_Complete.T_ACH_1_UnlockingIntensifies_Complete",
             "AccoladeImpl": "/Script/Icarus.AllTalentsInTreeAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4810,7 +4811,7 @@
             "Name": "AllBlueprintsUnlockedTier4",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"AllBlueprintsUnlockedTier4-DisplayName\", \"Bench Enthusiast\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"AllBlueprintsUnlockedTier4-Description\", \"Unlock all blueprints in Tier 4\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_BenchEnthusiast.ACH_BenchEnthusiast",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_BenchEnthusiast_Complete.T_ACH_1_BenchEnthusiast_Complete",
             "AccoladeImpl": "/Script/Icarus.AllTalentsInTreeAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -4835,7 +4836,7 @@
             "Name": "CatchAllFishTypes",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"CatchAllFishTypes-DisplayName\", \"Master Angler\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"CatchAllFishTypes-Description\", \"Catch these fish on Olympus and Styx\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_MasterAngler.ACH_MasterAngler",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_MasterAngler_Complete.T_ACH_1_MasterAngler_Complete",
             "AccoladeImpl": "/Script/Icarus.TaskListAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -5068,7 +5069,7 @@
             "Name": "CompleteBestiary",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"CompleteBestiary-DisplayName\", \"Gotta Catch Them All\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"CompleteBestiary-Description\", \"Max Rank these creatures in the Bestiary. They are present on Olympus or Styx.\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_GottaCatchEmAll.ACH_GottaCatchEmAll",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_GottaCatchEmAll_Complete.T_ACH_1_GottaCatchEmAll_Complete",
             "AccoladeImpl": "/Script/Icarus.TaskListAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -5221,7 +5222,7 @@
             "Name": "KillZebrasX",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"KillZebrasX-DisplayName\", \"Pony Slaystation\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"KillZebrasX-Description\", \"Kill 250 Zebras\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_PonySlaystation.ACH_PonySlaystation",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_PonySlaystation_Complete.T_ACH_1_PonySlaystation_Complete",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -5241,7 +5242,7 @@
             "Name": "ReachBottomOfTalentTree",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"ReachBottomOfTalentTree-DisplayName\", \"Highly Skilled\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"ReachBottomOfTalentTree-Description\", \"Reach the bottom of a talent tree\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_HighlySkilled.ACH_HighlySkilled",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_HighlySkilled_Complete.T_ACH_1_HighlySkilled_Complete",
             "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -5383,7 +5384,7 @@
             "Name": "ReachMaxLevel",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"ReachMaxLevel-DisplayName\", \"Veteran Prospector\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"ReachMaxLevel-Description\", \"Reach the Level Cap\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_VeteraNProspector.ACH_VeteraNProspector",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_VeteraNProspector_Complete.T_ACH_1_VeteraNProspector_Complete",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -5403,7 +5404,7 @@
             "Name": "MeleeKills10000",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"MeleeKills10000-DisplayName\", \"Whack-A-Mole\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"MeleeKills10000-Description\", \"Get 10,000 Melee Kills\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_WhackAMole.ACH_WhackAMole",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_WhackAMole_Complete.T_ACH_1_WhackAMole_Complete",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -5423,7 +5424,7 @@
             "Name": "BowKills10000",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"BowKills10000-DisplayName\", \"Quiver Me Timbers\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"BowKills10000-Description\", \"Get 10,000 Bow & Arrow Kills\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_QuiverMeTimbers.ACH_QuiverMeTimbers",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_QuiverMeTimbers_Complete.T_ACH_1_QuiverMeTimbers_Complete",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -5443,7 +5444,7 @@
             "Name": "BulletKills10000",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"BulletKills10000-DisplayName\", \"Lock, Stock, and Lots of Bears\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"BulletKills10000-Description\", \"Get 10,000 Gun Kills\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_LockStockBears.ACH_LockStockBears",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_LockStockBears_Complete.T_ACH_1_LockStockBears_Complete",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -5463,7 +5464,7 @@
             "Name": "KillCams1000",
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"KillCams1000-DisplayName\", \"One Shot, One Kill\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"KillCams1000-Description\", \"Get 1,000 Stealth Critical Hit Kills\")",
-            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/ACH_OneShotOneKill.ACH_OneShotOneKill",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_OneShotOneKill_Complete.T_ACH_1_OneShotOneKill_Complete",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
                 "Value": "Achievement"
@@ -5476,6 +5477,1476 @@
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "DefeatQuarrite",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"DefeatQuarrite-DisplayName\", \"Fault Line\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"DefeatQuarrite-Description\", \"Defeat the Quarrite\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Faultline_complete.T_ACH_Faultline_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_KILL_ROCKGOLEM_BOSS",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "DefeatRimetusk",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"DefeatRimetusk-DisplayName\", \"Cold-Blooded\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"DefeatRimetusk-Description\", \"Defeat the Rimetusk\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_ColdBlooded_complete.T_ACH_ColdBlooded_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_KILL_ICEMAMMOTH_BOSS",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "DefeatGarganutan",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"DefeatGarganutan-DisplayName\", \"Gone Bananas\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"DefeatGarganutan-Description\", \"Defeat the Garganutan\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_GoneBananas_complete.T_ACH_GoneBananas_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_KILL_APE_BOSS",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "DefeatHammerhead",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"DefeatHammerhead-DisplayName\", \"Ooze Control\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"DefeatHammerhead-Description\", \"Defeat the Hammerhead\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_OozeControl_complete.T_ACH_OozeControl_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_KILL_SLUG_BOSS",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "DefeatLavaHunter",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"DefeatLavaHunter-DisplayName\", \"Meltdown\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"DefeatLavaHunter-Description\", \"Defeat the Lava Hunter\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Meltdown_complete.T_ACH_Meltdown_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_KILL_LAVAHUNTER_BOSS",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "DefeatQuarriteHard",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"DefeatQuarriteHard-DisplayName\", \"Rock and a Hard Place\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"DefeatQuarriteHard-Description\", \"Defeat the Quarrite on the hardest difficulty\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_RockandaHardPlace_complete.T_ACH_RockandaHardPlace_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_KILL_ROCKGOLEM_BOSS_HARD",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "DefeatRimetuskHard",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"DefeatRimetuskHard-DisplayName\", \"Tusks to Dust\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"DefeatRimetuskHard-Description\", \"Defeat the Rimetusk on the hardest difficulty\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_TuskToDust_complete.T_ACH_TuskToDust_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_KILL_ICEMAMMOTH_BOSS_HARD",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "DefeatGarganutanHard",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"DefeatGarganutanHard-DisplayName\", \"Ape-x Predator\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"DefeatGarganutanHard-Description\", \"Defeat the Garganutan on the hardest difficulty\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Ape-xPredator_Complete.T_ACH_Ape-xPredator_Complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_KILL_APE_BOSS_HARD",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "DefeatHammerheadHard",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"DefeatHammerheadHard-DisplayName\", \"Nailed It\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"DefeatHammerheadHard-Description\", \"Kill the Hammerhead on the hardest difficulty\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_NailedIt_complete.T_ACH_NailedIt_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_KILL_SLUG_BOSS_HARD",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "DefeatLavaHunterHard",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"DefeatLavaHunterHard-DisplayName\", \"Too Hot to Handle\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"DefeatLavaHunterHard-Description\", \"Kill the Lava Hunter on the hardest difficulty\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_TooHotToHandle_complete.T_ACH_TooHotToHandle_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_KILL_LAVAHUNTER_BOSS_HARD",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "CompleteQuarriteTree",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"CompleteQuarriteTree-DisplayName\", \"Hero of the Mines\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"CompleteQuarriteTree-Description\", \"Complete the Quarrite Campaign\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_HeroOfTheMines_complete.T_ACH_HeroOfTheMines_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_COMPLETE_ROCKGOLEM_CAMPAIGN",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "CompleteRimetuskTree",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"CompleteRimetuskTree-DisplayName\", \"Nothing to see Here\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"CompleteRimetuskTree-Description\", \"Complete the Rimetusk Campaign\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_NothingToSeeHere_complete.T_ACH_NothingToSeeHere_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_COMPLETE_ICEMAMMOTH_CAMPAIGN",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "CompleteGarganutanTree",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"CompleteGarganutanTree-DisplayName\", \"What Experiment?\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"CompleteGarganutanTree-Description\", \"Complete the Garganutan Campaign\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_WhatExperiment_complete.T_ACH_WhatExperiment_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_COMPLETE_APE_CAMPAIGN",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "AllQuarriteMissionsDone",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"AllQuarriteMissionsDone-DisplayName\", \"Faultless Victory\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"AllQuarriteMissionsDone-Description\", \"Fully complete all missions in the Quarrite Campaign - This requires multiple campaign playthroughs\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_FaultlessVictory_complete.T_ACH_FaultlessVictory_complete",
+            "AccoladeImpl": "/Script/Icarus.TaskListAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "Tracker": {
+                "RowName": "RockGolemMissionList"
+            },
+            "ExtraDatas": [
+                {
+                    "RowName": "Rock_Golem_A",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Rock_Golem_B",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Rock_Golem_C",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Rock_Golem_C2",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Rock_Golem_D",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Rock_Golem_D2",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Rock_Golem_E",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Rock_Golem_F",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Rock_Golem_Final",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Rock_Golem_O1",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Rock_Golem_O2",
+                    "DataTableName": "D_GreatHunts"
+                }
+            ],
+            "SteamAchievementId": "ACH_FULL_ROCKGOLEM_CAMPAIGN",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "AllRimetuskMissionsDone",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"AllRimetuskMissionsDone-DisplayName\", \"Glacial Supremacy\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"AllRimetuskMissionsDone-Description\", \"Fully complete all missions in the Rimetusk Campaign - This requires multiple campaign playthroughs\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_GlacialSupremacy_complete.T_ACH_GlacialSupremacy_complete",
+            "AccoladeImpl": "/Script/Icarus.TaskListAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "Tracker": {
+                "RowName": "IceMammothMissionList"
+            },
+            "ExtraDatas": [
+                {
+                    "RowName": "IM_A",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "IM_A2",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "IM_B",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "IM_C",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "IM_C2",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "IM_D",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "IM_D2",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "IM_Final",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "IM_O1",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "IM_O2",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "IM_O3",
+                    "DataTableName": "D_GreatHunts"
+                }
+            ],
+            "SteamAchievementId": "ACH_FULL_ICEMAMMOTH_CAMPAIGN",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "AllGarganutanMissionsDone",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"AllGarganutanMissionsDone-DisplayName\", \"Colossus Collapse\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"AllGarganutanMissionsDone-Description\", \"Fully complete all missions in the Garganutan Campaign - This requires multiple campaign playthroughs\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_CollosusCollapse_complete.T_ACH_CollosusCollapse_complete",
+            "AccoladeImpl": "/Script/Icarus.TaskListAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "Tracker": {
+                "RowName": "ApeMissionList"
+            },
+            "ExtraDatas": [
+                {
+                    "RowName": "Ape_A",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Ape_B",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Ape_C",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Ape_C2",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Ape_D",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Ape_D2",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Ape_E",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Ape_F",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Ape_Final",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Ape_O1",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
+                    "RowName": "Ape_O2",
+                    "DataTableName": "D_GreatHunts"
+                }
+            ],
+            "SteamAchievementId": "ACH_FULL_APE_CAMPAIGN",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "CraftLegWeapon",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"CraftLegWeapon-DisplayName\", \"Matter Reforged\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"CraftLegWeapon-Description\", \"Craft a Legendary Weapon\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_MatterReforged_complete.T_ACH_MatterReforged_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_LEGENDARY_WEAPON",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "UpgradeLegWeaponFully",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"UpgradeLegWeaponFully-DisplayName\", \"Weaponized Perfection\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"UpgradeLegWeaponFully-Description\", \"Fully Upgrade a Legendary Weapon\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_WeaponizedPerfection_complete.T_ACH_WeaponizedPerfection_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_LEGENDARY_WEAPON_UPGRADE",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Extract1000Biomass",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"Extract1000Biomass-DisplayName\", \"Flesh and Circuitry\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"Extract1000Biomass-Description\", \"Extract 1000 Pieces of Biomass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_FleshandCircuitry_complete.T_ACH_FleshandCircuitry_complete",
+            "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "Tracker": {
+                "RowName": "BiomassExtracted"
+            },
+            "GoalCount": 1000,
+            "SteamAchievementId": "ACH_EXTRACT_BIOMASS",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "IceBreakerEncounter",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"IceBreakerEncounter-DisplayName\", \"What is That?\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"IceBreakerEncounter-Description\", \"Encounter the Giant Beast in the Null Sector\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_What_is_that_complete.T_ACH_What_is_that_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_ICEBREAKER",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "IceBreakerCrushed",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"IceBreakerCrushed-DisplayName\", \"Press F to Pay Respects\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"IceBreakerCrushed-Description\", \"Get Crushed by the Giant Beast in the Null Sector\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Press_F_to_Pay_Respects_complete.T_ACH_Press_F_to_Pay_Respects_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_CRUSHED",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "MiddleIceSheet",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"MiddleIceSheet-DisplayName\", \"Calm Before the Storm\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"MiddleIceSheet-Description\", \"Reach the Middle Ice Sheet in the Null Sector\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Calm_before_the_Storm_complete.T_ACH_Calm_before_the_Storm_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_NULLSEC_ICESHEET_MIDDLE",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "ReachIceSheet",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"ReachIceSheet-DisplayName\", \"Not Lost\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"ReachIceSheet-Description\", \"Travel Through the Ashlands to the Ice Sheet\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Not_Lost_complete.T_ACH_Not_Lost_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_NULLSEC_ICESHEET",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "DiscoverAbyssCave",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"DiscoverAbyssCave-DisplayName\", \"Still Not Lost\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"DiscoverAbyssCave-Description\", \"Discover the Cave Deep Within the Ice Sheet\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Still_Not_Lost_complete.T_ACH_Still_Not_Lost_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_STILLNOTLOST",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "KillMutant",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"KillMutant-DisplayName\", \"Enzymic Mutation\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"KillMutant-Description\", \"Defeat a Red Mutated Creature in the Null Sector\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Enzymic_Mutation_complete.T_ACH_Enzymic_Mutation_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_MUTATION",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "KilledByALavaFlyer",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"KilledByALavaFlyer-DisplayName\", \"Jelly Baby\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"KilledByALavaFlyer-Description\", \"Die to a Lava Flyer\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Jelly_Baby_complete.T_ACH_Jelly_Baby_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_KILLED_LAVA_FLIER",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "SavedChurch",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"SavedChurch-DisplayName\", \"You Ever Wonder Why We\\'re Here?\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"SavedChurch-Description\", \"Saved Church and His Crew\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_You_Ever_Wonder_Why_Were_Here_complete.T_ACH_You_Ever_Wonder_Why_Were_Here_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_SAVED_CHURCH",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "FallDeathNullSec",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"FallDeathNullSec-DisplayName\", \"Watch Your Step\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"FallDeathNullSec-Description\", \"Fall to Your Death in the Null Sector\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Watch_your_step_complete.T_ACH_Watch_your_step_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_NULLSEC_FALL",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "EnterNullSec",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"EnterNullSec-DisplayName\", \"Dude, Where\\'s my Map?\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"EnterNullSec-Description\", \"Enter the Null Sector\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Dude__where_s_my_Map_complete.T_ACH_Dude__where_s_my_Map_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_NULLSEC_ENTRY",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Survive5Hours",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"Survive5Hours-DisplayName\", \"Harshest of Conditions\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"Survive5Hours-Description\", \"Survive 5 Hours in the Null Sector\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Harshest_of_Conditions_complete.T_ACH_Harshest_of_Conditions_complete",
+            "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "Tracker": {
+                "RowName": "TimeSurvivedInNullSec"
+            },
+            "GoalCount": 18000,
+            "SteamAchievementId": "ACH_NULLSEC_TIME",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "EatCake",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"EatCake-DisplayName\", \"Let Them Eat Cake\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"EatCake-Description\", \"Enjoy a Slice of Cake\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Let_them_eat_cake_complete.T_ACH_Let_them_eat_cake_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_EAT_CAKE",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "ArcticArmor",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"ArcticArmor-DisplayName\", \"Snow Problem\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"ArcticArmor-Description\", \"Wear Arctic Armor in the Arctic\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Snow_Problem_complete.T_ACH_Snow_Problem_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_EQUIP_ARCTIC",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "WayfarerArmor",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"WayfarerArmor-DisplayName\", \"No Sweat\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"WayfarerArmor-Description\", \"Wear Wayfarer Armor in the Desert\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_No_Sweat_complete.T_ACH_No_Sweat_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_EQUIP_WAYFARER",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GhillieArmor",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"GhillieArmor-DisplayName\", \"You Can\\'t See Me\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"GhillieArmor-Description\", \"Wear Ghillie Armor in the Forest\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_You_Can_t_See_Me_complete.T_ACH_You_Can_t_See_Me_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_EQUIP_GHILLIE",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "SandwormArmor",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"SandwormArmor-DisplayName\", \"Who Wore It Better?\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"SandwormArmor-Description\", \"Kill a Sandworm While Wearing its Armor\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Who_Wore_It_Better_complete.T_ACH_Who_Wore_It_Better_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_EQUIP_SANDWORM",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "ScorpionArmor",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"ScorpionArmor-DisplayName\", \"Your Own Worst Enemy\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"ScorpionArmor-Description\", \"Kill the Giant Scorpion While Wearing its Armor\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Your_Own_Worst_Enemy_complete.T_ACH_Your_Own_Worst_Enemy_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_EQUIP_SCORPION",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "DestroyDrone",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"DestroyDrone-DisplayName\", \"Signal Jammed\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"DestroyDrone-Description\", \"Destroy a Drone\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Signal_Jammed_complete.T_ACH_Signal_Jammed_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_DESTROY_DRONE",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "ERPNullSec",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"ERPNullSec-DisplayName\", \"Back to Square One\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"ERPNullSec-Description\", \"Trigger an Emergency Respawn Pod while in the Null Sector \")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Back_to_Square_One_complete.T_ACH_Back_to_Square_One_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_NULLSEC_RESPAWN",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "RezNullSec",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"RezNullSec-DisplayName\", \"Nice to Have Friends\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"RezNullSec-Description\", \"Be revived by a Teammate in the Null Sector\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Nice_to_have_friends_complete.T_ACH_Nice_to_have_friends_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_NULLSEC_REVIVED",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "ChefBackpack",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"ChefBackpack-DisplayName\", \"Professional Chef\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"ChefBackpack-Description\", \"Cook a Meal While Wearing the Culinex Backpack\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Professional_Chef_complete.T_ACH_Professional_Chef_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_BACKPACK_COOK",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "AllSixStoryMissionsProm",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"AllSixStoryMissionsProm-DisplayName\", \"A Gift of Fire\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"AllSixStoryMissionsProm-Description\", \"Complete All Six New Frontiers Story Missions\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_A_Gift_of_Fire_complete.T_ACH_A_Gift_of_Fire_complete",
+            "AccoladeImpl": "/Script/Icarus.AllProStoryMissionsInTreeAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "Tracker": {
+                "RowName": "ProStoryMissionCompletionList"
+            },
+            "ExtraDatas": [
+                {
+                    "RowName": "Prospect_Prometheus",
+                    "DataTableName": "D_TalentTrees"
+                }
+            ],
+            "SteamAchievementId": "ACH_PROMETHEUS",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "FirstDropPromStory",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"FirstDropPromStory-DisplayName\", \"Soft Landing\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"FirstDropPromStory-Description\", \"Drop into Prometheus for the first time\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Soft_Landing_complete.T_ACH_Soft_Landing_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_PROMETHEUS_1",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "OffenderAudiolog",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"OffenderAudiolog-DisplayName\", \"Unknown Caller\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"OffenderAudiolog-Description\", \"Discover a Mysterious Audiolog\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Unknown_Caller_complete.T_ACH_Unknown_Caller_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_PROMETHEUS_2",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "ShadowedUnlockG15",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"ShadowedUnlockG15-DisplayName\", \"One Of Us\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"ShadowedUnlockG15-Description\", \"Unlock Group 15 Faction Missions\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_One_Of_Us_complete.T_ACH_One_Of_Us_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_PROMETHEUS_3",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "TempestFavor",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"TempestFavor-DisplayName\", \"Thanks, Buddy\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"TempestFavor-Description\", \"Do Sol a favor\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Thanks__Buddy_complete.T_ACH_Thanks__Buddy_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_PROMETHEUS_4",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "DispatchSurvivedLaser",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"DispatchSurvivedLaser-DisplayName\", \"That Was Close\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"DispatchSurvivedLaser-Description\", \"Dodge the Orbital Laser\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_That_Was_Close_complete.T_ACH_That_Was_Close_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_PROMETHEUS_5",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "FractureAWOL",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"FractureAWOL-DisplayName\", \"AWOL\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"FractureAWOL-Description\", \"Defy the Group\\'s Orders\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_AWOL_complete.T_ACH_AWOL_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_PROMETHEUS_6",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "FractureCave",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"FractureCave-DisplayName\", \"What is this place?\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"FractureCave-Description\", \"Discover the Cave\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_What_is_this_place_complete.T_ACH_What_is_this_place_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_PROMETHEUS_7",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "EndAbyss",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"EndAbyss-DisplayName\", \"Poor Hans\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"EndAbyss-Description\", \"Complete the Final Null Sector Story Mission\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Poor_Hans_complete.T_ACH_Poor_Hans_complete",
+            "AccoladeImpl": "/Script/Icarus.AllNullsecStoryMissionsInTreeAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "Tracker": {
+                "RowName": "NullsecStoryMissionCompletionList"
+            },
+            "ExtraDatas": [
+                {
+                    "RowName": "Prospect_Prometheus",
+                    "DataTableName": "D_TalentTrees"
+                }
+            ],
+            "SteamAchievementId": "ACH_NULLSEC_STORY",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "DaisyEscortSuccess",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"DaisyEscortSuccess-DisplayName\", \"The Bodyguard\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"DaisyEscortSuccess-Description\", \"Escort Daisy to Safety\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_The_Bodyguard_complete.T_ACH_The_Bodyguard_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_DAISY",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "RedExotics",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"RedExotics-DisplayName\", \"Cha-Ching!\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"RedExotics-Description\", \"Collect and process 5,000 Red Exotics\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_1_Oremageddon_Complete.T_ACH_1_Oremageddon_Complete",
+            "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "Tracker": {
+                "RowName": "RedExoticsEarned"
+            },
+            "GoalCount": 5000,
+            "SteamAchievementId": "ACH_EXOTICS_RED",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "SuitUp",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"SuitUp-DisplayName\", \"Suited Up\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"SuitUp-Description\", \"Drop with a Full Set of Armor in Your Loadout\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Suited_Up_complete.T_ACH_Suited_Up_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_SUITUP",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "TamedPetKill",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"TamedPetKill-DisplayName\", \"Sic \\'em!\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"TamedPetKill-Description\", \"Your Tamed Pet Makes A Kill\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Sic__em_complete.T_ACH_Sic__em_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_TAME_KILL",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "PetDies",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"PetDies-DisplayName\", \"RIP Mr Kitty\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"PetDies-Description\", \"Your Pet Dies and Crosses the Rainbow Bridge\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_RIP_Mr_Kitty_complete.T_ACH_RIP_Mr_Kitty_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_TAME_DIES",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "HotCold",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"HotCold-DisplayName\", \"Hot \\'n\\' Cold\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"HotCold-Description\", \"Suffer from Frostbite and Heat Exhaustion at the Same Time\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_HotnCold_complete.T_ACH_HotnCold_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_HOTANDCOLD",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "TameHostile",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"TameHostile-DisplayName\", \"Easy Tiger\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"TameHostile-Description\", \"Tame a Hostile Creature\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Easy_Tiger_complete.T_ACH_Easy_Tiger_complete",
+            "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "Tracker": {
+                "RowName": "CreaturesTamed"
+            },
+            "GoalCount": 1,
+            "SteamAchievementId": "ACH_TAME_HOSTILE",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "LavaSwim",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"LavaSwim-DisplayName\", \"Hot-hot-hot-hot-hot!\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"LavaSwim-Description\", \"Survive a Swim in Lava\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Hot-hot-hot-hot-hot__complete.T_ACH_Hot-hot-hot-hot-hot__complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_SWIM_IN_LAVA",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "UpgradedBeehive",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"UpgradedBeehive-DisplayName\", \"Not the Bees!\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"UpgradedBeehive-Description\", \"Build a Fully Upgraded Beehive\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Not_the_Bees__complete.T_ACH_Not_the_Bees__complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_UPGRADE_BEEHIVE",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Mount50",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"Mount50-DisplayName\", \"Mountie\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"Mount50-Description\", \"Have a level 50 Mount\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Mountie_complete.T_ACH_Mountie_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_TAME_LEVEL50",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Pet25",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"Pet25-DisplayName\", \"Fur Baby\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"Pet25-Description\", \"Have a level 25 Pet\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Fur_Baby_complete.T_ACH_Fur_Baby_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_TAME_LEVEL25",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Cozy250",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"Cozy250-DisplayName\", \"So Comfy, Can\\'t Move\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"Cozy250-Description\", \"Get to Coziness Level 250 when Sleeping\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_So_Comfy__Cant_Move_complete.T_ACH_So_Comfy__Cant_Move_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "GoalCount": 250,
+            "SteamAchievementId": "ACH_COZY",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "100Packs",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"100Packs-DisplayName\", \"Gimme Gimme Gimme\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"100Packs-Description\", \"Request 100 Resource Packs \")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Gimme_Gimme_Gimme_complete.T_ACH_Gimme_Gimme_Gimme_complete",
+            "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "Tracker": {
+                "RowName": "ResourcePacksRequested"
+            },
+            "GoalCount": 100,
+            "SteamAchievementId": "ACH_RESOURCE_PACKS",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Tamed10",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"Tamed10-DisplayName\", \"Ringleader\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"Tamed10-Description\", \"Tame 10 Wild Creatures\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Ringleader_complete.T_ACH_Ringleader_complete",
+            "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "Tracker": {
+                "RowName": "CreaturesTamed"
+            },
+            "GoalCount": 10,
+            "SteamAchievementId": "ACH_TAME_NUMBER",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Electroshock",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"Electroshock-DisplayName\", \"Shocking\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"Electroshock-Description\", \"Inflict Electroshock on a Wet Target\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Shocking_complete.T_ACH_Shocking_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_ELECTROSHOCK",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "50SMPL3",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"50SMPL3-DisplayName\", \"UDA Veteran\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"50SMPL3-Description\", \"Complete 50 SMPL3 Missions in an Open World\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_UDA_Veteran_complete.T_ACH_UDA_Veteran_complete",
+            "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "Tracker": {
+                "RowName": "OpenWorldsDynamicMissionsComplete"
+            },
+            "GoalCount": 50,
+            "SteamAchievementId": "ACH_QUESTS_TOTAL",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Block5000",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"Block5000-DisplayName\", \"Blocked!\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"Block5000-Description\", \"Block 5000 Damage With a Shield\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Blocked_complete.T_ACH_Blocked_complete",
+            "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "Tracker": {
+                "RowName": "ShieldResist"
+            },
+            "GoalCount": 5000,
+            "SteamAchievementId": "ACH_BLOCK_DAMAGE",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "USeSledgehammer",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"USeSledgehammer-DisplayName\", \"Crushing It\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"USeSledgehammer-Description\", \"Break Rocks With a Sledgehammer\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Crushing_it_complete.T_ACH_Crushing_it_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_SLEDGEHAMMER",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Lose80percHealth",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"Lose80percHealth-DisplayName\", \"What Fall Damage?\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"Lose80percHealth-Description\", \"Survive a Terrible Fall\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_What_Fall_Damage_complete.T_ACH_What_Fall_Damage_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_FALL_SURVIVE",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "ViewMeteor",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"ViewMeteor-DisplayName\", \"Starstruck\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"ViewMeteor-Description\", \"Witness an Exotic Meteor Shower\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Starstruck_complete.T_ACH_Starstruck_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_METEOR_EVENT",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "BuildOutpost",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"BuildOutpost-DisplayName\", \"Outpost Builder\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"BuildOutpost-Description\", \"Build an Outpost Base Using at Least 50 Pieces\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Outpost_Builder_complete.T_ACH_Outpost_Builder_complete",
+            "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "Tracker": {
+                "RowName": "OutpostBuildingsPlaced"
+            },
+            "GoalCount": 50,
+            "SteamAchievementId": "ACH_OUTPOST_BUILDER",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "10HoursOutpost",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"10HoursOutpost-DisplayName\", \"Outpost Veteran\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"10HoursOutpost-Description\", \"Spend 10 Hours Exploring Your Outpost\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Outpost_Veteran_complete.T_ACH_Outpost_Veteran_complete",
+            "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "Tracker": {
+                "RowName": "TimeSurvivedInOutpost"
+            },
+            "GoalCount": 36000,
+            "SteamAchievementId": "ACH_OUTPOST_TIME",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "KillBearHands",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"KillBearHands-DisplayName\", \"Bear Hands\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"KillBearHands-Description\", \"Defeat a Bear Using Your Fists\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Drop_Bear_Hands_complete.T_ACH_Drop_Bear_Hands_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_KILL_BEAR_HANDS",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "OrderHorse",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"OrderHorse-DisplayName\", \"Hay There, Neigh-bor!\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"OrderHorse-Description\", \"Bring Down a Horse From the Workshop\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Hay_There__Neigh-bor__complete.T_ACH_Hay_There__Neigh-bor__complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_TAME_ORDER_HORSE",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "PetHome",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"PetHome-DisplayName\", \"Habitat Acquired\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"PetHome-Description\", \"Build a Home for Your New Pet With Bedding, Food, and Water\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Habitat_Acquired_complete.T_ACH_Habitat_Acquired_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_TAME_HOME",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "OrderChicken",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"OrderChicken-DisplayName\", \"Cock-a-Doodle-Doom\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"OrderChicken-Description\", \"Bring Down a Chicken From the Workshop\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Cock-a-Doodle-Doom_complete.T_ACH_Cock-a-Doodle-Doom_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_TAME_ORDER_CHICKEN",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "OrderCat",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"OrderCat-DisplayName\", \"Cat-astrophy Averted\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"OrderCat-Description\", \"Bring Down a Cat From the Workshop\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Cat-astrophy_Averted_complete.T_ACH_Cat-astrophy_Averted_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_TAME_ORDER_CAT",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "OrderDog",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"OrderDog-DisplayName\", \"Barking Up the Right Tree\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"OrderDog-Description\", \"Bring Down a Dog From the Workshop\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Barking_Up_the_Right_Tree_complete.T_ACH_Barking_Up_the_Right_Tree_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_TAME_ORDER_DOG",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "FetchWithDog",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"FetchWithDog-DisplayName\", \"No Take, Only Throw\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"FetchWithDog-Description\", \"Play Fetch With Your Dog\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_No_take__only_throw_complete.T_ACH_No_take__only_throw_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_PLAY_FETCH",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "BigBreakfast",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"BigBreakfast-DisplayName\", \"The Most Important Meal of the Day\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"BigBreakfast-Description\", \"Eat a Big Breakfast, in the Morning, When Well Rested\")",
+            "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_The_Most_Important_Meal_of_the_Day_complete.T_ACH_The_Most_Important_Meal_of_the_Day_complete",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
+            "Category": {
+                "Value": "Achievement"
+            },
+            "SteamAchievementId": "ACH_BREAKFAST",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
                 }
             }
         }

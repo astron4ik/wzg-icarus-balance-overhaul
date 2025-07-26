@@ -150,7 +150,7 @@
             ],
             "Cold": {
                 "Modifier": {
-                    "RowName": "Affliction_Cold"
+                    "RowName": "Affliction_Cold_Tame"
                 },
                 "Query": {
                     "RowName": "Is_Cold"
@@ -158,7 +158,7 @@
             },
             "Heat": {
                 "Modifier": {
-                    "RowName": "Affliction_Overheating"
+                    "RowName": "Affliction_Overheating_Tame"
                 },
                 "Query": {
                     "RowName": "Is_Hot"

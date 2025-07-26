@@ -48,6 +48,18 @@
         {
             "Name": "LevelTame",
             "PointsAwarded": 2
+        },
+        {
+            "Name": "MilkCow",
+            "PointsAwarded": 4
+        },
+        {
+            "Name": "MilkCow_Many",
+            "PointsAwarded": 10
+        },
+        {
+            "Name": "ShearedSheep",
+            "PointsAwarded": 4
         }
     ]
 }

@@ -24,6 +24,7 @@
             "DataTableName": "D_MapIcons"
         },
         "bCanRespawnInPersistentProspects": true,
+        "bStartsOnRespawnCooldown": false,
         "RespawnTimeInSeconds": 1800,
         "RespawnTimeRandomDeviation": 300
     },
@@ -117,6 +118,67 @@
             },
             "BossMapMarker": {
                 "RowName": "WorldBoss_AlphaWolf"
+            },
+            "RespawnTimeInSeconds": 3600,
+            "RespawnTimeRandomDeviation": 600
+        },
+        {
+            "Name": "LavaHunter",
+            "AISetup": {
+                "RowName": "LavaHunter"
+            },
+            "EpicCreature": {
+                "RowName": "LavaHunter"
+            },
+            "SpawnerClass": "/Game/BP/Systems/WorldBoss/BP_WorldBossSpawner_LavaHunter.BP_WorldBossSpawner_LavaHunter_C",
+            "SpawnerTagQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "WorldBoss.SpawnLocation.LavaHunter"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( WorldBoss.SpawnLocation.LavaHunter )"
+            },
+            "bReloadDeadBoss": true,
+            "BossMapMarker": {
+                "RowName": "WorldBoss_LavaHunter"
+            },
+            "RespawnTimeInSeconds": 3600,
+            "RespawnTimeRandomDeviation": 600
+        },
+        {
+            "Name": "HammerheadSlug",
+            "AISetup": {
+                "RowName": "Hammerhead_Slug_Large"
+            },
+            "EpicCreature": {
+                "RowName": "Hammerhead_Slug"
+            },
+            "SpawnerClass": "/Game/BP/Systems/WorldBoss/BP_WorldBossSpawner_HammerheadSlug.BP_WorldBossSpawner_HammerheadSlug_C",
+            "SpawnerTagQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "WorldBoss.SpawnLocation.HammerheadSlug"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( WorldBoss.SpawnLocation.HammerheadSlug )"
+            },
+            "BossMapMarker": {
+                "RowName": "WorldBoss_HammerheadSlug"
             },
             "RespawnTimeInSeconds": 3600,
             "RespawnTimeRandomDeviation": 600

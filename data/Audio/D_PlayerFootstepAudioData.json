@@ -125,6 +125,12 @@
             "FootstepSound": "/Game/FMOD/Events/SFX/Character/Footsteps/SFX_FOOTSTEP_CARPET.SFX_FOOTSTEP_CARPET",
             "JumpUpSound": "/Game/FMOD/Events/SFX/Character/Footsteps/SFX_FOOTSTEP_DRT_JUMP.SFX_FOOTSTEP_DRT_JUMP",
             "JumpLandSound": "/Game/FMOD/Events/SFX/Character/Footsteps/SFX_FOOTSTEP_CARPET_LAND.SFX_FOOTSTEP_CARPET_LAND"
+        },
+        {
+            "Name": "Metal_Grate",
+            "FootstepSound": "/Game/FMOD/Events/SFX/Character/Footsteps/SFX_FOOTSTEP_METAL_GRATE.SFX_FOOTSTEP_METAL_GRATE",
+            "JumpUpSound": "/Game/FMOD/Events/SFX/Character/Footsteps/SFX_FOOTSTEP_ROCK_JUMP.SFX_FOOTSTEP_ROCK_JUMP",
+            "JumpLandSound": "/Game/FMOD/Events/SFX/Character/Footsteps/SFX_FOOTSTEP_METALGRATE_LAND.SFX_FOOTSTEP_METALGRATE_LAND"
         }
     ]
 }

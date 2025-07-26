@@ -2336,7 +2336,7 @@
             "Name": "HammerheadSlugFlinchSMALL",
             "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/HammerheadSlug/SFX_CRE_VOCAL_HAMMERHEAD_SLUG_FLINCH_SMALL.SFX_CRE_VOCAL_HAMMERHEAD_SLUG_FLINCH_SMALL",
             "Setting": {
-                "RowName": "Important"
+                "RowName": "Default"
             }
         },
         {
@@ -2839,6 +2839,426 @@
         {
             "Name": "DogLaikaBark",
             "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Dog/SFX_CRE_VOCAL_DOG_LAIKA_BARK.SFX_CRE_VOCAL_DOG_LAIKA_BARK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "IceBreakerIdle1SHOT",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/IceBreaker/SFX_CRE_VOC_ICEBREAKER_IDLE_1SHOT.SFX_CRE_VOC_ICEBREAKER_IDLE_1SHOT",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "IceBreakerIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/IceBreaker/SFX_CRE_VOC_ICEBREAKER_IDLE.SFX_CRE_VOC_ICEBREAKER_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "IceBreakerRoar",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/IceBreaker/SFX_CRE_VOC_ICEBREAKER_ROAR.SFX_CRE_VOC_ICEBREAKER_ROAR",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "RockGolemAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Rock_Golem/SFX_CRE_ROCK_GOLEM_ATTACK.SFX_CRE_ROCK_GOLEM_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "RockGolemAGGRO1Shot",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Rock_Golem/SFX_CRE_ROCK_GOLEM_AGGRO.SFX_CRE_ROCK_GOLEM_AGGRO",
+            "Setting": {
+                "RowName": "Lowest"
+            }
+        },
+        {
+            "Name": "RockGolemAGGRO1ShotCHANCE",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Rock_Golem/SFX_CRE_ROCK_GOLEM_AGGRO.SFX_CRE_ROCK_GOLEM_AGGRO",
+            "Setting": {
+                "RowName": "Lowest"
+            }
+        },
+        {
+            "Name": "RockGOlemFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Rock_Golem/SFX_CRE_ROCK_GOLEM_FLINCH.SFX_CRE_ROCK_GOLEM_FLINCH",
+            "Setting": {
+                "RowName": "Lowest"
+            }
+        },
+        {
+            "Name": "RockGolemDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Rock_Golem/SFX_CRE_ROCK_GOLEM_DEATH.SFX_CRE_ROCK_GOLEM_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "HammerSlugTauntDeathLarge",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/HammerheadSlug/SFX_CRE_VOCAL_HAMMERHEAD_SLUG_TAUNT_DEATH_LARGE.SFX_CRE_VOCAL_HAMMERHEAD_SLUG_TAUNT_DEATH_LARGE",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "HammerSlugTauntDeathMed",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/HammerheadSlug/SFX_CRE_VOCAL_HAMMERHEAD_SLUG_TAUNT_DEATH_MED.SFX_CRE_VOCAL_HAMMERHEAD_SLUG_TAUNT_DEATH_MED",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "TuskIdleMount",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Tusk/SFX_CRE_VOC_TUSK_IDLE_MOUNT.SFX_CRE_VOC_TUSK_IDLE_MOUNT",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "IceMammothAttack1",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/IceMammoth/SFX_CRE_VOCAL_ICEMAMMOTH_ATTACK_1.SFX_CRE_VOCAL_ICEMAMMOTH_ATTACK_1",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "IceMammothFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/IceMammoth/SFX_CRE_VOCAL_ICEMAMMOTH_FLINCH.SFX_CRE_VOCAL_ICEMAMMOTH_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "IceMammothDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/IceMammoth/SFX_CRE_VOCAL_ICEMAMMOTH_DEATH.SFX_CRE_VOCAL_ICEMAMMOTH_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "IceMammothRoar",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/IceMammoth/SFX_CRE_VOCAL_ICEMAMMOTH_ROAR.SFX_CRE_VOCAL_ICEMAMMOTH_ROAR",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "CowIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Buffalo/SFX_CRE_VOC_COW_IDLE.SFX_CRE_VOC_COW_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "CowFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Buffalo/SFX_CRE_VOC_COW_FLINCH.SFX_CRE_VOC_COW_FLINCH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "CalfIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Buffalo/SFX_CRE_VOC_CALF_IDLE.SFX_CRE_VOC_CALF_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "CalfFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Buffalo/SFX_CRE_VOC_CALF_FLINCH.SFX_CRE_VOC_CALF_FLINCH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "RoosterIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Chicken/SFX_CRE_VOC_ROOSTER_IDLE.SFX_CRE_VOC_ROOSTER_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "ApeAggro1Shot",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ape/SFX_CRE_APE_VOC_AGGRO.SFX_CRE_APE_VOC_AGGRO",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "ApeRoar",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ape/SFX_CRE_APE_VOC_ROAR.SFX_CRE_APE_VOC_ROAR",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "ApeAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ape/SFX_CRE_APE_VOC_ATTACK.SFX_CRE_APE_VOC_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "ApeFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ape/SFX_CRE_APE_VOC_FLINCH.SFX_CRE_APE_VOC_FLINCH",
+            "Setting": {
+                "RowName": "Lowest"
+            }
+        },
+        {
+            "Name": "ApeDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ape/SFX_CRE_APE_VOC_DEATH.SFX_CRE_APE_VOC_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "ApeRoarShort",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ape/SFX_CRE_APE_VOC_ROAR_SHORT.SFX_CRE_APE_VOC_ROAR_SHORT",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "ApeScream",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ape/SFX_CRE_APE_VOC_SCREAM.SFX_CRE_APE_VOC_SCREAM",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "WoolyZebraMountIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Wooly_Zebra/SFX_CRE_VOC_WOOLY_ZEBRA_IDLE_MOUNT.SFX_CRE_VOC_WOOLY_ZEBRA_IDLE_MOUNT",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "RockGolemJuviAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Rock_Golem/SFX_CRE_VOCAL_ROCK_GOLEM_JUVI_ATTACK.SFX_CRE_VOCAL_ROCK_GOLEM_JUVI_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "RockGolemJuviAggro",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Rock_Golem/SFX_CRE_VOCAL_ROCK_GOLEM_JUVI_AGGRO.SFX_CRE_VOCAL_ROCK_GOLEM_JUVI_AGGRO",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "ApeJuviAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ape/SFX_CRE_VOCAL_APE_JUVI_ATTACK.SFX_CRE_VOCAL_APE_JUVI_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "ApeHeal",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ape/SFX_CRE_APE_VOC_HEAL.SFX_CRE_APE_VOC_HEAL",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "ApeJuviFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ape/SFX_CRE_VOCAL_APE_JUVI_FLINCH.SFX_CRE_VOCAL_APE_JUVI_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "ApeJuviDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ape/SFX_CRE_VOCAL_APE_JUVI_DEATH.SFX_CRE_VOCAL_APE_JUVI_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "RockGolemRoar",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Rock_Golem/SFX_CRE_ROCK_GOLEM_ROAR.SFX_CRE_ROCK_GOLEM_ROAR",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "RockGolemRoarShort",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Rock_Golem/SFX_CRE_ROCK_GOLEM_ROAR_SHORT.SFX_CRE_ROCK_GOLEM_ROAR_SHORT",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "OrcaAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Orca/SFX_CRE_VOCAL_ORCA_ATTACK.SFX_CRE_VOCAL_ORCA_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "OrcaSpot",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Orca/SFX_CRE_VOCAL_ORCA_SPOT.SFX_CRE_VOCAL_ORCA_SPOT",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "OrcaFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Orca/SFX_CRE_VOCAL_ORCA_FLINCH.SFX_CRE_VOCAL_ORCA_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "RockGolemJuviFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Rock_Golem/SFX_CRE_VOCAL_ROCK_GOLEM_JUVI_FLINCH.SFX_CRE_VOCAL_ROCK_GOLEM_JUVI_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "RockGolemJuviDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Rock_Golem/SFX_CRE_VOCAL_ROCK_GOLEM_JUVI_DEATH.SFX_CRE_VOCAL_ROCK_GOLEM_JUVI_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "RockGolemJuviIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Rock_Golem/SFX_CRE_ROCK_GOLEM_JUVI_IDLE.SFX_CRE_ROCK_GOLEM_JUVI_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "ApeJuviIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ape/SFX_CRE_VOCAL_APE_JUVI_IDLE.SFX_CRE_VOCAL_APE_JUVI_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "ApeJuviAggro",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ape/SFX_CRE_VOCAL_APE_JUVI_AGGRO.SFX_CRE_VOCAL_APE_JUVI_AGGRO",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "ApeJuviIdleScream",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ape/SFX_CRE_VOCAL_APE_JUVI_IDLE_SCREAM.SFX_CRE_VOCAL_APE_JUVI_IDLE_SCREAM",
+            "Setting": {
+                "RowName": "Lowest"
+            }
+        },
+        {
+            "Name": "NPC1_Attack",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/NPC_1/VO_NPC_1_ATTACK.VO_NPC_1_ATTACK",
+            "Setting": {
+                "RowName": "Lowest"
+            }
+        },
+        {
+            "Name": "NPC1_Flinch",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/NPC_1/VO_NPC_1_FLINCH.VO_NPC_1_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "NPC1_Death",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/NPC_1/VO_NPC_1_DEATH.VO_NPC_1_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "NPC1_Idle",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/NPC_1/VO_NPC_1_IDLE.VO_NPC_1_IDLE",
+            "Setting": {
+                "RowName": "PersistentLow"
+            }
+        },
+        {
+            "Name": "NPC1_Spot",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/NPC_1/VO_NPC_1_SPOT.VO_NPC_1_SPOT",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "LambIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Chamois/SFX_CRE_VOC_LAMB_IDLE.SFX_CRE_VOC_LAMB_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "LambDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Chamois/SFX_CRE_VOC_LAMB_DEATH.SFX_CRE_VOC_LAMB_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "LambFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Chamois/SFX_CRE_VOC_LAMB_FLINCH.SFX_CRE_VOC_LAMB_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "ApeScreamCaged",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ape/SFX_CRE_VOCAL_APE_JUVI_IDLE_SCREAM_CAGE.SFX_CRE_VOCAL_APE_JUVI_IDLE_SCREAM_CAGE",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "DroneFlying",
+            "Sound": "/Game/FMOD/Events/SFX/Weapons/Drone/SFX_DRONE_FLY_LOOP.SFX_DRONE_FLY_LOOP",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "DroneAggro",
+            "Sound": "/Game/FMOD/Events/SFX/Weapons/Drone/SFX_DRONE_FLY_LOOP_AGGRO.SFX_DRONE_FLY_LOOP_AGGRO",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "DroneSpot",
+            "Sound": "/Game/FMOD/Events/SFX/Weapons/Drone/SFX_DRONE_FLY_SPOT.SFX_DRONE_FLY_SPOT",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "DroneDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Weapons/Drone/SFX_DRONE_DEATH.SFX_DRONE_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "DroneIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Weapons/Drone/SFX_DRONE_IDLE.SFX_DRONE_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "ApePrimalAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ape/SFX_CRE_VOCAL_APE_PRIMAL_ATTACK.SFX_CRE_VOCAL_APE_PRIMAL_ATTACK",
             "Setting": {
                 "RowName": "Default"
             }

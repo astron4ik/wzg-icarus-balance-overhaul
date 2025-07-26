@@ -15,7 +15,7 @@
         },
         {
             "Name": "MaxProspectAssociatedMembers",
-            "FloatValue": 50
+            "FloatValue": 60
         },
         {
             "Name": "BaseMinFishingTime",
@@ -30,7 +30,8 @@
             "FloatValue": 1
         },
         {
-            "Name": "ExFieldGuideEnabled"
+            "Name": "ExFieldGuideEnabled",
+            "FloatValue": 1
         },
         {
             "Name": "ComfortLevelRange",
@@ -39,6 +40,22 @@
         {
             "Name": "SeedPloughInterval",
             "FloatValue": 0.5
+        },
+        {
+            "Name": "RecommendedBuilding",
+            "FloatValue": 150
+        },
+        {
+            "Name": "RecommendedDeployable",
+            "FloatValue": 30
+        },
+        {
+            "Name": "RecommendedMounts",
+            "FloatValue": 20
+        },
+        {
+            "Name": "ScopeOverlaysEnabled",
+            "FloatValue": 1
         }
     ]
 }

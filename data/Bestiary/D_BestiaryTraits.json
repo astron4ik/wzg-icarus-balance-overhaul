@@ -24,6 +24,14 @@
             "OverrideIcon": "/Game/Assets/2DArt/UI/Icons/BestiaryTraits/Icon_BestTrait_Crits.Icon_BestTrait_Crits"
         },
         {
+            "Name": "Chest_CritSpot",
+            "TraitName": "NSLOCTEXT(\"D_BestiaryTraits\", \"Chest_CritSpot-TraitName\", \"Critical Area: Chest\")",
+            "Type": {
+                "RowName": "CritSpot"
+            },
+            "OverrideIcon": "/Game/Assets/2DArt/UI/Icons/BestiaryTraits/Icon_BestTrait_Crits.Icon_BestTrait_Crits"
+        },
+        {
             "Name": "Eyes_CritSpot",
             "TraitName": "NSLOCTEXT(\"D_BestiaryTraits\", \"Eyes_CritSpot-TraitName\", \"Critical Area: Eyes\")",
             "Type": {
@@ -260,7 +268,8 @@
             "TraitName": "NSLOCTEXT(\"D_BestiaryTraits\", \"Skittish_Behaviour-TraitName\", \"Skittish\")",
             "Type": {
                 "RowName": "Behavior"
-            }
+            },
+            "OverrideIcon": "/Game/Assets/2DArt/UI/Icons/BestiaryTraits/Icon_BestTrait_PoorVision.Icon_BestTrait_PoorVision"
         },
         {
             "Name": "Projectile_Resist_Strength",
@@ -445,6 +454,38 @@
                 "RowName": "DamageType"
             },
             "OverrideIcon": "/Game/Assets/2DArt/UI/Icons/BestiaryTraits/Icon_BestTrait_Slow.Icon_BestTrait_Slow"
+        },
+        {
+            "Name": "Nest_Behavior",
+            "TraitName": "NSLOCTEXT(\"D_BestiaryTraits\", \"Nest_Behavior-TraitName\", \"Lives in Nests\")",
+            "Type": {
+                "RowName": "Behavior"
+            },
+            "OverrideIcon": "/Game/Assets/2DArt/UI/Icons/Icon_Buildings.Icon_Buildings"
+        },
+        {
+            "Name": "Melee_Weakness",
+            "TraitName": "NSLOCTEXT(\"D_BestiaryTraits\", \"Melee_Weakness-TraitName\", \"Weak to Melee\")",
+            "Type": {
+                "RowName": "Weakness"
+            },
+            "OverrideIcon": "/Game/Assets/2DArt/UI/Icons/Icon_Combat.Icon_Combat"
+        },
+        {
+            "Name": "Armored_Strength",
+            "TraitName": "NSLOCTEXT(\"D_BestiaryTraits\", \"Armored_Strength-TraitName\", \"Armored\")",
+            "Type": {
+                "RowName": "Strength"
+            },
+            "OverrideIcon": "/Game/Assets/2DArt/UI/Icons/BestiaryTraits/Icon_BestTrait_ArmoredBack.Icon_BestTrait_ArmoredBack"
+        },
+        {
+            "Name": "RecoversHealth_Strength",
+            "TraitName": "NSLOCTEXT(\"D_BestiaryTraits\", \"RecoversHealth_Strength-TraitName\", \"Recovers Health\")",
+            "Type": {
+                "RowName": "Strength"
+            },
+            "OverrideIcon": "/Game/Assets/2DArt/UI/Icons/BestiaryTraits/Icon_BestTrait_RetreatHeal.Icon_BestTrait_RetreatHeal"
         }
     ]
 }

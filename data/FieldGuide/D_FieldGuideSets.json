@@ -59,6 +59,10 @@
                 {
                     "RowName": "Metal_Spear",
                     "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Shovel",
+                    "DataTableName": "D_ItemsStatic"
                 }
             ]
         },
@@ -1017,6 +1021,10 @@
                 {
                     "RowName": "Platinum_Sickle",
                     "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Platinium_Shovel",
+                    "DataTableName": "D_ItemsStatic"
                 }
             ]
         },
@@ -1045,6 +1053,10 @@
                 },
                 {
                     "RowName": "Titanium_Sickle",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Titanium_Shovel",
                     "DataTableName": "D_ItemsStatic"
                 }
             ]
@@ -1325,6 +1337,197 @@
                 },
                 {
                     "RowName": "Meta_Spear_Shengong_Echo",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "Beehive_Deployables",
+            "SetItems": [
+                {
+                    "RowName": "Beehive",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Beehive_BreedingCenter",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Beehive_Expansion",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Beehive_Expansion2",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Beehive_Extractor",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "Contact_Upgrades",
+            "SetItems": [
+                {
+                    "RowName": "Mission_Communication_Device_T3",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Mission_Communication_Device_T4",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Mission_Device",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Great_Hunt_Device",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "Workshop_Knife",
+            "SetItems": [
+                {
+                    "RowName": "Meta_Knife",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Meta_Knife_Inaris_Alpha",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Meta_Knife_Inaris_Bravo",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Meta_Knife_Inaris_Charlie",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Meta_Knife_Inaris_Delta",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Meta_Knife_Larkwell",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Meta_Knife_Printed",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Meta_Knife_Shengong_Alpha",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Meta_Knife_Shengong_Beta",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Meta_Knife_Shengong_Charlie",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Meta_Knife_Shengong_Delta",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Meta_Knife_Shengong_Echo",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "CropPlots",
+            "SetItems": [
+                {
+                    "RowName": "Dirt_Mound",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Farming_CropPlot_T2_v2",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Farming_CropPlot_T3_v2",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Farming_CropPlot_T4_v2",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Farming_CropPlot_Workshop",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "Wood_Buildings_Reinfroced",
+            "SetItems": [
+                {
+                    "RowName": "ReinforcedWood_Wall",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "ReinforcedWood_Floor",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "ReinforcedWood_Ramp",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "ReinforcedWood_Wall_Angle",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "ReinforcedWood_Beam",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "ReinforcedWood_Roof_Corner",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "ReinforcedWood_Half_Pitch",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "ReinforcedWood_Halfpiece",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "Radars",
+            "SetItems": [
+                {
+                    "RowName": "Radar_Biofuel",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Radar_Electric",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Radar_Meta",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Extractor",
+            "SetItems": [
+                {
+                    "RowName": "Extractor_Meta",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Meta_Power_Source",
                     "DataTableName": "D_ItemsStatic"
                 }
             ]

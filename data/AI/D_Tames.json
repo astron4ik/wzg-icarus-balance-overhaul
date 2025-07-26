@@ -15,6 +15,7 @@
             "RowName": "None",
             "DataTableName": "D_AISetup"
         },
+        "TamedAIOverride": {},
         "MatureCreatureType": {
             "RowName": "None",
             "DataTableName": "D_AISetup"
@@ -343,6 +344,145 @@
             },
             "bAutomaticallySpawnJuvenileWithParent": true,
             "PercentChanceToSpawnJuvenile": 50
+        },
+        {
+            "Name": "Calf",
+            "TameDurationInSeconds": 900,
+            "DesiredShelterPercentage": 0,
+            "DesiredNutritionPercentage": 25,
+            "ProhibitedTamingModifiers": [
+                {
+                    "RowName": "Wet",
+                    "DataTableName": "D_ModifierStates"
+                },
+                {
+                    "RowName": "Sleepy",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "TamedAI": {
+                "RowName": "Cow"
+            },
+            "MatureCreatureType": {
+                "RowName": "Cow"
+            },
+            "JuvenileCreatureType": {
+                "RowName": "Calf"
+            },
+            "PercentChanceToSpawnJuvenile": 0,
+            "MaxNearbyAutoSpawnedJuveniles": 0
+        },
+        {
+            "Name": "Chick",
+            "TameDurationInSeconds": 900,
+            "DesiredShelterPercentage": 0,
+            "DesiredNutritionPercentage": 25,
+            "ProhibitedTamingModifiers": [
+                {
+                    "RowName": "Wet",
+                    "DataTableName": "D_ModifierStates"
+                },
+                {
+                    "RowName": "Sleepy",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "TamedAI": {
+                "RowName": "Chicken"
+            },
+            "TamedAIOverride": {
+                "(RowName=\"Chicken\",DataTableName=\"D_AISetup\")": {
+                    "Stat": {
+                        "Value": "CreatureIsFemale_?"
+                    },
+                    "Value": 1
+                },
+                "(RowName=\"Rooster\",DataTableName=\"D_AISetup\")": {
+                    "Stat": {
+                        "Value": "CreatureIsMale_?"
+                    },
+                    "Value": 1
+                }
+            },
+            "MatureCreatureType": {
+                "RowName": "Chicken"
+            },
+            "JuvenileCreatureType": {
+                "RowName": "Chick"
+            },
+            "PercentChanceToSpawnJuvenile": 0,
+            "MaxNearbyAutoSpawnedJuveniles": 0
+        },
+        {
+            "Name": "Lamb",
+            "TameDurationInSeconds": 900,
+            "DesiredShelterPercentage": 0,
+            "DesiredNutritionPercentage": 25,
+            "ProhibitedTamingModifiers": [
+                {
+                    "RowName": "Wet",
+                    "DataTableName": "D_ModifierStates"
+                },
+                {
+                    "RowName": "Sleepy",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "TamedAI": {
+                "RowName": "Sheep"
+            },
+            "TamedAIOverride": {
+                "(RowName=\"Sheep\",DataTableName=\"D_AISetup\")": {
+                    "Stat": {
+                        "Value": "CreatureIsFemale_?"
+                    },
+                    "Value": 1
+                },
+                "(RowName=\"Ram\",DataTableName=\"D_AISetup\")": {
+                    "Stat": {
+                        "Value": "CreatureIsMale_?"
+                    },
+                    "Value": 1
+                }
+            },
+            "MatureCreatureType": {
+                "RowName": "Sheep"
+            },
+            "JuvenileCreatureType": {
+                "RowName": "Lamb"
+            },
+            "PercentChanceToSpawnJuvenile": 0,
+            "MaxNearbyAutoSpawnedJuveniles": 0
+        },
+        {
+            "Name": "WoolyZebra",
+            "TameDurationInSeconds": 900,
+            "DesiredTemperatureRange": {
+                "X": -10,
+                "Y": 25
+            },
+            "DesiredShelterPercentage": 0,
+            "DesiredNutritionPercentage": 25,
+            "ProhibitedTamingModifiers": [
+                {
+                    "RowName": "Wet",
+                    "DataTableName": "D_ModifierStates"
+                },
+                {
+                    "RowName": "Sleepy",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "TamedAI": {
+                "RowName": "Mount_WoolyZebra"
+            },
+            "MatureCreatureType": {
+                "RowName": "Wooly_Zebra"
+            },
+            "JuvenileCreatureType": {
+                "RowName": "Juvenile_Wooly_Zebra"
+            },
+            "bAutomaticallySpawnJuvenileWithParent": true
         }
     ]
 }

@@ -8253,70 +8253,49 @@
             "FoliageType": "/Game/ASS/ENV/RCK/SM_Breakable_Rocks/FT/FT_Breakable_Scoria_Var1.FT_Breakable_Scoria_Var1",
             "bUseViewTraceInfluence": true,
             "ViewTraceActor": "/Game/BP/Objects/World/Resources/BreakableRocks/BP_Breakable_Scoria_Var1.BP_Breakable_Scoria_Var1_C",
-            "bViewTraceClientPredictive": true,
-            "Flammable": {
-                "RowName": "Flammable_Bush"
-            }
+            "bViewTraceClientPredictive": true
         },
         {
             "Name": "FT_Breakable_Scoria_Var2",
             "FoliageType": "/Game/ASS/ENV/RCK/SM_Breakable_Rocks/FT/FT_Breakable_Scoria_Var2.FT_Breakable_Scoria_Var2",
             "bUseViewTraceInfluence": true,
             "ViewTraceActor": "/Game/BP/Objects/World/Resources/BreakableRocks/BP_Breakable_Scoria_Var2.BP_Breakable_Scoria_Var2_C",
-            "bViewTraceClientPredictive": true,
-            "Flammable": {
-                "RowName": "Flammable_Bush"
-            }
+            "bViewTraceClientPredictive": true
         },
         {
             "Name": "FT_Breakable_Scoria_Var3",
             "FoliageType": "/Game/ASS/ENV/RCK/SM_Breakable_Rocks/FT/FT_Breakable_Scoria_Var3.FT_Breakable_Scoria_Var3",
             "bUseViewTraceInfluence": true,
             "ViewTraceActor": "/Game/BP/Objects/World/Resources/BreakableRocks/BP_Breakable_Scoria_Var3.BP_Breakable_Scoria_Var3_C",
-            "bViewTraceClientPredictive": true,
-            "Flammable": {
-                "RowName": "Flammable_Bush"
-            }
+            "bViewTraceClientPredictive": true
         },
         {
             "Name": "FT_Breakable_Clay_Var1",
             "FoliageType": "/Game/ASS/ENV/RCK/SM_Breakable_Rocks/FT/FT_Breakable_Clay_Var1.FT_Breakable_Clay_Var1",
             "bUseViewTraceInfluence": true,
             "ViewTraceActor": "/Game/BP/Objects/World/Resources/BreakableRocks/BP_Breakable_Clay_Var1.BP_Breakable_Clay_Var1_C",
-            "bViewTraceClientPredictive": true,
-            "Flammable": {
-                "RowName": "Flammable_Bush"
-            }
+            "bViewTraceClientPredictive": true
         },
         {
             "Name": "FT_Breakable_Clay_Var2",
             "FoliageType": "/Game/ASS/ENV/RCK/SM_Breakable_Rocks/FT/FT_Breakable_Clay_Var2.FT_Breakable_Clay_Var2",
             "bUseViewTraceInfluence": true,
             "ViewTraceActor": "/Game/BP/Objects/World/Resources/BreakableRocks/BP_Breakable_Clay_Var2.BP_Breakable_Clay_Var2_C",
-            "bViewTraceClientPredictive": true,
-            "Flammable": {
-                "RowName": "Flammable_Bush"
-            }
+            "bViewTraceClientPredictive": true
         },
         {
             "Name": "FT_Breakable_Obsidian_Var1",
             "FoliageType": "/Game/ASS/ENV/RCK/SM_Breakable_Rocks/FT/FT_Breakable_Obsidian_Var1.FT_Breakable_Obsidian_Var1",
             "bUseViewTraceInfluence": true,
             "ViewTraceActor": "/Game/BP/Objects/World/Resources/BreakableRocks/BP_Breakable_Obsidian_Var1.BP_Breakable_Obsidian_Var1_C",
-            "bViewTraceClientPredictive": true,
-            "Flammable": {
-                "RowName": "Flammable_Bush"
-            }
+            "bViewTraceClientPredictive": true
         },
         {
             "Name": "FT_Breakable_Obsidian_Var2",
             "FoliageType": "/Game/ASS/ENV/RCK/SM_Breakable_Rocks/FT/FT_Breakable_Obsidian_Var2.FT_Breakable_Obsidian_Var2",
             "bUseViewTraceInfluence": true,
             "ViewTraceActor": "/Game/BP/Objects/World/Resources/BreakableRocks/BP_Breakable_Obsidian_Var2.BP_Breakable_Obsidian_Var2_C",
-            "bViewTraceClientPredictive": true,
-            "Flammable": {
-                "RowName": "Flammable_Bush"
-            }
+            "bViewTraceClientPredictive": true
         },
         {
             "Name": "FT_SW_Mangrove_Seedling_Var1",
@@ -8842,6 +8821,1098 @@
             "bIsFlammable": true,
             "Flammable": {
                 "RowName": "Flammable_Bush"
+            }
+        },
+        {
+            "Name": "FT_HG_Aspen_Var1_A",
+            "FoliageType": "/Game/ASS/ENV/TRE/FT/FT_HG_Aspen_Var1_RED.FT_HG_Aspen_Var1_RED",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Tree"
+                    },
+                    {
+                        "TagName": "LightningTarget"
+                    },
+                    {
+                        "TagName": "Foliage.Tree"
+                    },
+                    {
+                        "TagName": "WindToppleTarget"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Trees/BP_Tree_HG_Aspen_Var1_RED.BP_Tree_HG_Aspen_Var1_RED_C",
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Tree"
+            },
+            "BurntFLODEntry": {
+                "RowName": "FT_HG_Aspen_Var1_Burnt"
+            }
+        },
+        {
+            "Name": "FT_HG_Aspen_Var1_B",
+            "FoliageType": "/Game/ASS/ENV/TRE/FT/FT_HG_Aspen_Var1_ORA.FT_HG_Aspen_Var1_ORA",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Tree"
+                    },
+                    {
+                        "TagName": "LightningTarget"
+                    },
+                    {
+                        "TagName": "Foliage.Tree"
+                    },
+                    {
+                        "TagName": "WindToppleTarget"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Trees/BP_Tree_HG_Aspen_Var1_ORA.BP_Tree_HG_Aspen_Var1_ORA_C",
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Tree"
+            },
+            "BurntFLODEntry": {
+                "RowName": "FT_HG_Aspen_Var1_Burnt"
+            }
+        },
+        {
+            "Name": "FT_HG_Aspen_Var1_C",
+            "FoliageType": "/Game/ASS/ENV/TRE/FT/FT_HG_Aspen_Var1_YEL.FT_HG_Aspen_Var1_YEL",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Tree"
+                    },
+                    {
+                        "TagName": "LightningTarget"
+                    },
+                    {
+                        "TagName": "Foliage.Tree"
+                    },
+                    {
+                        "TagName": "WindToppleTarget"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Trees/BP_Tree_HG_Aspen_Var1_YEL.BP_Tree_HG_Aspen_Var1_YEL_C",
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Tree"
+            },
+            "BurntFLODEntry": {
+                "RowName": "FT_HG_Aspen_Var1_Burnt"
+            }
+        },
+        {
+            "Name": "FT_HG_Aspen_Var2_A",
+            "FoliageType": "/Game/ASS/ENV/TRE/FT/FT_HG_Aspen_Var2_RED.FT_HG_Aspen_Var2_RED",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Tree"
+                    },
+                    {
+                        "TagName": "LightningTarget"
+                    },
+                    {
+                        "TagName": "Foliage.Tree"
+                    },
+                    {
+                        "TagName": "WindToppleTarget"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Trees/BP_Tree_HG_Aspen_Var2_RED.BP_Tree_HG_Aspen_Var2_RED_C",
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Tree"
+            },
+            "BurntFLODEntry": {
+                "RowName": "FT_HG_Aspen_Var2_Burnt"
+            }
+        },
+        {
+            "Name": "FT_HG_Aspen_Var2_B",
+            "FoliageType": "/Game/ASS/ENV/TRE/FT/FT_HG_Aspen_Var2_ORA.FT_HG_Aspen_Var2_ORA",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Tree"
+                    },
+                    {
+                        "TagName": "LightningTarget"
+                    },
+                    {
+                        "TagName": "Foliage.Tree"
+                    },
+                    {
+                        "TagName": "WindToppleTarget"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Trees/BP_Tree_HG_Aspen_Var2_ORA.BP_Tree_HG_Aspen_Var2_ORA_C",
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Tree"
+            },
+            "BurntFLODEntry": {
+                "RowName": "FT_HG_Aspen_Var2_Burnt"
+            }
+        },
+        {
+            "Name": "FT_HG_Aspen_Var2_C",
+            "FoliageType": "/Game/ASS/ENV/TRE/FT/FT_HG_Aspen_Var2_YEL.FT_HG_Aspen_Var2_YEL",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Tree"
+                    },
+                    {
+                        "TagName": "LightningTarget"
+                    },
+                    {
+                        "TagName": "Foliage.Tree"
+                    },
+                    {
+                        "TagName": "WindToppleTarget"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Trees/BP_Tree_HG_Aspen_Var2_YEL.BP_Tree_HG_Aspen_Var2_YEL_C",
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Tree"
+            },
+            "BurntFLODEntry": {
+                "RowName": "FT_HG_Aspen_Var2_Burnt"
+            }
+        },
+        {
+            "Name": "FT_HG_Aspen_Var3_A",
+            "FoliageType": "/Game/ASS/ENV/TRE/FT/FT_HG_Aspen_Var3_RED.FT_HG_Aspen_Var3_RED",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Tree"
+                    },
+                    {
+                        "TagName": "LightningTarget"
+                    },
+                    {
+                        "TagName": "Foliage.Tree"
+                    },
+                    {
+                        "TagName": "WindToppleTarget"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Trees/BP_Tree_HG_Aspen_Var3_RED.BP_Tree_HG_Aspen_Var3_RED_C",
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Tree"
+            },
+            "BurntFLODEntry": {
+                "RowName": "FT_HG_Aspen_Var3_Burnt"
+            }
+        },
+        {
+            "Name": "FT_HG_Aspen_Var3_B",
+            "FoliageType": "/Game/ASS/ENV/TRE/FT/FT_HG_Aspen_Var3_ORA.FT_HG_Aspen_Var3_ORA",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Tree"
+                    },
+                    {
+                        "TagName": "LightningTarget"
+                    },
+                    {
+                        "TagName": "Foliage.Tree"
+                    },
+                    {
+                        "TagName": "WindToppleTarget"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Trees/BP_Tree_HG_Aspen_Var3_ORA.BP_Tree_HG_Aspen_Var3_ORA_C",
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Tree"
+            },
+            "BurntFLODEntry": {
+                "RowName": "FT_HG_Aspen_Var3_Burnt"
+            }
+        },
+        {
+            "Name": "FT_HG_Aspen_Var3_C",
+            "FoliageType": "/Game/ASS/ENV/TRE/FT/FT_HG_Aspen_Var3_YEL.FT_HG_Aspen_Var3_YEL",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Tree"
+                    },
+                    {
+                        "TagName": "LightningTarget"
+                    },
+                    {
+                        "TagName": "Foliage.Tree"
+                    },
+                    {
+                        "TagName": "WindToppleTarget"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Trees/BP_Tree_HG_Aspen_Var3_YEL.BP_Tree_HG_Aspen_Var3_YEL_C",
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Tree"
+            },
+            "BurntFLODEntry": {
+                "RowName": "FT_HG_Aspen_Var3_Burnt"
+            }
+        },
+        {
+            "Name": "FT_HG_Aspen_Var1_Burnt",
+            "FoliageType": "/Game/ASS/ENV/TRE/FT/FT_HG_Aspen_Var1_Burnt.FT_HG_Aspen_Var1_Burnt",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "LightningTarget"
+                    },
+                    {
+                        "TagName": "Foliage.Tree"
+                    },
+                    {
+                        "TagName": "Foliage.BurntTree"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Trees/BP_Tree_HG_Aspen_Var1_Burnt.BP_Tree_HG_Aspen_Var1_Burnt_C"
+        },
+        {
+            "Name": "FT_HG_Aspen_Var2_Burnt",
+            "FoliageType": "/Game/ASS/ENV/TRE/FT/FT_HG_Aspen_Var2_Burnt.FT_HG_Aspen_Var2_Burnt",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "LightningTarget"
+                    },
+                    {
+                        "TagName": "Foliage.Tree"
+                    },
+                    {
+                        "TagName": "Foliage.BurntTree"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Trees/BP_Tree_HG_Aspen_Var2_Burnt.BP_Tree_HG_Aspen_Var2_Burnt_C"
+        },
+        {
+            "Name": "FT_HG_Aspen_Var3_Burnt",
+            "FoliageType": "/Game/ASS/ENV/TRE/FT/FT_HG_Aspen_Var3_Burnt.FT_HG_Aspen_Var3_Burnt",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "LightningTarget"
+                    },
+                    {
+                        "TagName": "Foliage.Tree"
+                    },
+                    {
+                        "TagName": "Foliage.BurntTree"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Trees/BP_Tree_HG_Aspen_Var3_Burnt.BP_Tree_HG_Aspen_Var3_Burnt_C"
+        },
+        {
+            "Name": "FT_TU_Aspen_Sapling_A_Var1",
+            "FoliageType": "/Game/ASS/ENV/FOL/TU/FT_TU_Aspen_Sapling_A_Var1.FT_TU_Aspen_Sapling_A_Var1",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_TU_Aspen_Sapling_A_Var1.BP_TU_Aspen_Sapling_A_Var1_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_TU_Aspen_Sapling_A_Var2",
+            "FoliageType": "/Game/ASS/ENV/FOL/TU/FT_TU_Aspen_Sapling_A_Var2.FT_TU_Aspen_Sapling_A_Var2",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_TU_Aspen_Sapling_A_Var2.BP_TU_Aspen_Sapling_A_Var2_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_TU_Aspen_Sapling_A_Var3",
+            "FoliageType": "/Game/ASS/ENV/FOL/TU/FT_TU_Aspen_Sapling_A_Var3.FT_TU_Aspen_Sapling_A_Var3",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_TU_Aspen_Sapling_A_Var3.BP_TU_Aspen_Sapling_A_Var3_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_TU_Aspen_Sapling_B_Var1",
+            "FoliageType": "/Game/ASS/ENV/FOL/TU/FT_TU_Aspen_Sapling_B_Var1.FT_TU_Aspen_Sapling_B_Var1",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_TU_Aspen_Sapling_B_Var1.BP_TU_Aspen_Sapling_B_Var1_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_TU_Aspen_Sapling_B_Var2",
+            "FoliageType": "/Game/ASS/ENV/FOL/TU/FT_TU_Aspen_Sapling_B_Var2.FT_TU_Aspen_Sapling_B_Var2",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_TU_Aspen_Sapling_B_Var2.BP_TU_Aspen_Sapling_B_Var2_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_TU_Aspen_Sapling_B_Var3",
+            "FoliageType": "/Game/ASS/ENV/FOL/TU/FT_TU_Aspen_Sapling_B_Var3.FT_TU_Aspen_Sapling_B_Var3",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_TU_Aspen_Sapling_B_Var3.BP_TU_Aspen_Sapling_B_Var3_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_TU_Aspen_Sapling_C_Var1",
+            "FoliageType": "/Game/ASS/ENV/FOL/TU/FT_TU_Aspen_Sapling_C_Var1.FT_TU_Aspen_Sapling_C_Var1",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_TU_Aspen_Sapling_C_Var1.BP_TU_Aspen_Sapling_C_Var1_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_TU_Aspen_Sapling_C_Var2",
+            "FoliageType": "/Game/ASS/ENV/FOL/TU/FT_TU_Aspen_Sapling_C_Var2.FT_TU_Aspen_Sapling_C_Var2",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_TU_Aspen_Sapling_C_Var2.BP_TU_Aspen_Sapling_C_Var2_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_TU_Aspen_Sapling_C_Var3",
+            "FoliageType": "/Game/ASS/ENV/FOL/TU/FT_TU_Aspen_Sapling_C_Var3.FT_TU_Aspen_Sapling_C_Var3",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_TU_Aspen_Sapling_C_Var3.BP_TU_Aspen_Sapling_C_Var3_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_TU_Aspen_SML_ORA_Var1",
+            "FoliageType": "/Game/ASS/ENV/FOL/TU/FT_TU_Aspen_SML_ORA_Var1.FT_TU_Aspen_SML_ORA_Var1",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_TU_Aspen_SML_ORA_Var1.BP_TU_Aspen_SML_ORA_Var1_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_TU_Aspen_SML_ORA_Var2",
+            "FoliageType": "/Game/ASS/ENV/FOL/TU/FT_TU_Aspen_SML_ORA_Var2.FT_TU_Aspen_SML_ORA_Var2",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_TU_Aspen_SML_ORA_Var2.BP_TU_Aspen_SML_ORA_Var2_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_TU_Aspen_SML_ORA_Var3",
+            "FoliageType": "/Game/ASS/ENV/FOL/TU/FT_TU_Aspen_SML_ORA_Var3.FT_TU_Aspen_SML_ORA_Var3",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_TU_Aspen_SML_ORA_Var3.BP_TU_Aspen_SML_ORA_Var3_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_TU_Aspen_SML_RED_Var1",
+            "FoliageType": "/Game/ASS/ENV/FOL/TU/FT_TU_Aspen_SML_RED_Var1.FT_TU_Aspen_SML_RED_Var1",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_TU_Aspen_SML_RED_Var1.BP_TU_Aspen_SML_RED_Var1_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_TU_Aspen_SML_RED_Var2",
+            "FoliageType": "/Game/ASS/ENV/FOL/TU/FT_TU_Aspen_SML_RED_Var2.FT_TU_Aspen_SML_RED_Var2",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_TU_Aspen_SML_RED_Var2.BP_TU_Aspen_SML_RED_Var2_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_TU_Aspen_SML_RED_Var3",
+            "FoliageType": "/Game/ASS/ENV/FOL/TU/FT_TU_Aspen_SML_RED_Var3.FT_TU_Aspen_SML_RED_Var3",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_TU_Aspen_SML_RED_Var3.BP_TU_Aspen_SML_RED_Var3_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_TU_Aspen_SML_YEL_Var1",
+            "FoliageType": "/Game/ASS/ENV/FOL/TU/FT_TU_Aspen_SML_YEL_Var1.FT_TU_Aspen_SML_YEL_Var1",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_TU_Aspen_SML_YEL_Var1.BP_TU_Aspen_SML_YEL_Var1_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_TU_Aspen_SML_YEL_Var2",
+            "FoliageType": "/Game/ASS/ENV/FOL/TU/FT_TU_Aspen_SML_YEL_Var2.FT_TU_Aspen_SML_YEL_Var2",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_TU_Aspen_SML_YEL_Var2.BP_TU_Aspen_SML_YEL_Var2_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_TU_Aspen_SML_YEL_Var3",
+            "FoliageType": "/Game/ASS/ENV/FOL/TU/FT_TU_Aspen_SML_YEL_Var3.FT_TU_Aspen_SML_YEL_Var3",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_TU_Aspen_SML_YEL_Var3.BP_TU_Aspen_SML_YEL_Var3_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_Garlic_Var1",
+            "FoliageType": "/Game/ASS/ENV/HRB/FT/FT_Garlic_Var1.FT_Garlic_Var1",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.LowHeight"
+                    },
+                    {
+                        "TagName": "Foliage"
+                    },
+                    {
+                        "TagName": "ViewTrace.PassThrough"
+                    },
+                    {
+                        "TagName": "Audio.Foliage.Bush"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_HRB_Garlic_Var1.BP_HRB_Garlic_Var1_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Bush"
+            }
+        },
+        {
+            "Name": "FT_Garlic_Var2",
+            "FoliageType": "/Game/ASS/ENV/HRB/FT/FT_Garlic_Var2.FT_Garlic_Var2",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.LowHeight"
+                    },
+                    {
+                        "TagName": "Foliage"
+                    },
+                    {
+                        "TagName": "ViewTrace.PassThrough"
+                    },
+                    {
+                        "TagName": "Audio.Foliage.Bush"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_HRB_Garlic_Var2.BP_HRB_Garlic_Var2_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Bush"
+            }
+        },
+        {
+            "Name": "FT_Garlic_Var3",
+            "FoliageType": "/Game/ASS/ENV/HRB/FT/FT_Garlic_Var3.FT_Garlic_Var3",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.LowHeight"
+                    },
+                    {
+                        "TagName": "Foliage"
+                    },
+                    {
+                        "TagName": "ViewTrace.PassThrough"
+                    },
+                    {
+                        "TagName": "Audio.Foliage.Bush"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_HRB_Garlic_Var3.BP_HRB_Garlic_Var3_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Bush"
+            }
+        },
+        {
+            "Name": "FT_PricklyPear_Var1",
+            "FoliageType": "/Game/ASS/ENV/FOL/FT/FT_DC_Prickly_Pear_Var1.FT_DC_Prickly_Pear_Var1",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.LowHeight"
+                    },
+                    {
+                        "TagName": "Foliage"
+                    },
+                    {
+                        "TagName": "ViewTrace.PassThrough"
+                    },
+                    {
+                        "TagName": "Audio.Foliage.Bush"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_HRB_Prickly_Pear_Var1.BP_HRB_Prickly_Pear_Var1_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Bush"
+            }
+        },
+        {
+            "Name": "FT_PricklyPear_Var2",
+            "FoliageType": "/Game/ASS/ENV/FOL/FT/FT_DC_Prickly_Pear_Var2.FT_DC_Prickly_Pear_Var2",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.LowHeight"
+                    },
+                    {
+                        "TagName": "Foliage"
+                    },
+                    {
+                        "TagName": "ViewTrace.PassThrough"
+                    },
+                    {
+                        "TagName": "Audio.Foliage.Bush"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_HRB_Prickly_Pear_Var2.BP_HRB_Prickly_Pear_Var2_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Bush"
+            }
+        },
+        {
+            "Name": "FT_PricklyPear_Var3",
+            "FoliageType": "/Game/ASS/ENV/FOL/FT/FT_DC_Prickly_Pear_Var3.FT_DC_Prickly_Pear_Var3",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.LowHeight"
+                    },
+                    {
+                        "TagName": "Foliage"
+                    },
+                    {
+                        "TagName": "ViewTrace.PassThrough"
+                    },
+                    {
+                        "TagName": "Audio.Foliage.Bush"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_HRB_Prickly_Pear_Var3.BP_HRB_Prickly_Pear_Var3_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Bush"
+            }
+        },
+        {
+            "Name": "FT_PricklyPear_Var4",
+            "FoliageType": "/Game/ASS/ENV/FOL/FT/FT_DC_Prickly_Pear_Var4.FT_DC_Prickly_Pear_Var4",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.LowHeight"
+                    },
+                    {
+                        "TagName": "Foliage"
+                    },
+                    {
+                        "TagName": "ViewTrace.PassThrough"
+                    },
+                    {
+                        "TagName": "Audio.Foliage.Bush"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_HRB_Prickly_Pear_Var4.BP_HRB_Prickly_Pear_Var4_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Bush"
+            }
+        },
+        {
+            "Name": "FT_Kumara_Var1",
+            "FoliageType": "/Game/ASS/ENV/HRB/FT/FT_Kumara_Var1.FT_Kumara_Var1",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.LowHeight"
+                    },
+                    {
+                        "TagName": "Foliage"
+                    },
+                    {
+                        "TagName": "ViewTrace.PassThrough"
+                    },
+                    {
+                        "TagName": "Audio.Foliage.Bush"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_Kumara_Var1.BP_Kumara_Var1_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Bush"
+            }
+        },
+        {
+            "Name": "FT_Kumara_Var2",
+            "FoliageType": "/Game/ASS/ENV/HRB/FT/FT_Kumara_Var2.FT_Kumara_Var2",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.LowHeight"
+                    },
+                    {
+                        "TagName": "Foliage"
+                    },
+                    {
+                        "TagName": "ViewTrace.PassThrough"
+                    },
+                    {
+                        "TagName": "Audio.Foliage.Bush"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_Kumara_Var2.BP_Kumara_Var2_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Bush"
+            }
+        },
+        {
+            "Name": "FT_Kumara_Var3",
+            "FoliageType": "/Game/ASS/ENV/HRB/FT/FT_Kumara_Var3.FT_Kumara_Var3",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.LowHeight"
+                    },
+                    {
+                        "TagName": "Foliage"
+                    },
+                    {
+                        "TagName": "ViewTrace.PassThrough"
+                    },
+                    {
+                        "TagName": "Audio.Foliage.Bush"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_Kumara_Var3.BP_Kumara_Var3_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Bush"
+            }
+        },
+        {
+            "Name": "FT_DC_Agave_Var1",
+            "FoliageType": "/Game/ASS/ENV/FOL/DC/FT_DC_Agave_Var1.FT_DC_Agave_Var1",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_DC_Agave_A_Var1.BP_DC_Agave_A_Var1_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_DC_Agave_Var2",
+            "FoliageType": "/Game/ASS/ENV/FOL/DC/FT_DC_Agave_Var2.FT_DC_Agave_Var2",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_DC_Agave_A_Var2.BP_DC_Agave_A_Var2_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_DC_Agave_Var3",
+            "FoliageType": "/Game/ASS/ENV/FOL/DC/FT_DC_Agave_Var3.FT_DC_Agave_Var3",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_DC_Agave_A_Var3.BP_DC_Agave_A_Var3_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_HRB_Banana_Var1",
+            "FoliageType": "/Game/ASS/ENV/HRB/FT/FT_HRB_Banana_Var1.FT_HRB_Banana_Var1",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_HRB_Banana_Var1.BP_HRB_Banana_Var1_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_HRB_Banana_Var2",
+            "FoliageType": "/Game/ASS/ENV/HRB/FT/FT_HRB_Banana_Var2.FT_HRB_Banana_Var2",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_HRB_Banana_Var2.BP_HRB_Banana_Var2_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
+            }
+        },
+        {
+            "Name": "FT_HRB_Banana_Var3",
+            "FoliageType": "/Game/ASS/ENV/HRB/FT/FT_HRB_Banana_Var3.FT_HRB_Banana_Var3",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Foliage.Bush.Twiggy"
+                    },
+                    {
+                        "TagName": "Foliage.PermitRestore"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_HRB_Banana_Var3.BP_HRB_Banana_Var3_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Sapling"
             }
         }
     ]

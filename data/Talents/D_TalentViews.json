@@ -3103,7 +3103,7 @@
         {
             "Name": "Prospect",
             "ViewClass": "/Game/BP/UI/Talents/Prospects/UMG_TalentView_Prospect.UMG_TalentView_Prospect_C",
-            "TalentClass": "/Game/BP/UI/Talents/Prospects/UMG_Talent_Prospect.UMG_Talent_Prospect_C",
+            "TalentClass": "/Game/BP/UI/Talents/Prospects/UMG_Talent_Prospect_NEW.UMG_Talent_Prospect_NEW_C",
             "PanningBrush": {
                 "ImageSize": {
                     "X": 4096,
@@ -3133,11 +3133,12 @@
                 "Bottom": 400
             },
             "ZoomLevels": [
+                0.25,
                 0.5,
                 0.75,
                 1
             ],
-            "InitialZoomLevel": 2,
+            "InitialZoomLevel": 1,
             "LineMethod": "ShortestDistance",
             "LineThickness": 6,
             "ScrollBarStyle": {
@@ -6151,6 +6152,665 @@
                         "Y": 36
                     },
                     "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/SkillTree/SkillCount_Complete_Normal.SkillCount_Complete_Normal'"
+                }
+            }
+        },
+        {
+            "Name": "Great_Hunt",
+            "ViewClass": "/Game/BP/UI/Talents/GreatHunt/UMG_Talentview_GreatHunt.UMG_Talentview_GreatHunt_C",
+            "TalentClass": "/Game/BP/UI/Talents/GreatHunt/UMG_Talent_GreatHunt.UMG_Talent_GreatHunt_C",
+            "PanningBrush": {
+                "ImageSize": {
+                    "X": 4096,
+                    "Y": 4096
+                },
+                "TintColor": {
+                    "SpecifiedColor": {
+                        "R": 0.7379109859466553,
+                        "G": 0.7379109859466553,
+                        "B": 0.7379109859466553,
+                        "A": 0.09803900122642517
+                    }
+                },
+                "Tiling": "Both"
+            },
+            "PanningDirection": "Both",
+            "InitialPosition": {
+                "X": -500,
+                "Y": -500
+            },
+            "OverscrollAmount": 1000,
+            "TreePadding": {
+                "Left": 400,
+                "Top": 400,
+                "Right": 400,
+                "Bottom": 400
+            },
+            "ZoomLevels": [
+                0.25,
+                0.5,
+                0.75,
+                1
+            ],
+            "InitialZoomLevel": 1,
+            "LineMethod": "ShortestDistance",
+            "LineThickness": 10,
+            "ScrollBarStyle": {
+                "VerticalBackgroundImage": {
+                    "ImageSize": {
+                        "X": 9,
+                        "Y": 4
+                    },
+                    "TintColor": {
+                        "SpecifiedColor": {
+                            "R": 0.015208999626338482,
+                            "G": 0.015208999626338482,
+                            "B": 0.015208999626338482
+                        }
+                    },
+                    "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/Windows/Pattern_ScaleableWhiteFrame.Pattern_ScaleableWhiteFrame'"
+                },
+                "VerticalTopSlotImage": {
+                    "ImageSize": {
+                        "X": 9,
+                        "Y": 4
+                    },
+                    "TintColor": {
+                        "SpecifiedColor": {
+                            "R": 0.015208999626338482,
+                            "G": 0.015208999626338482,
+                            "B": 0.015208999626338482
+                        }
+                    },
+                    "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/Windows/Pattern_ScaleableWhiteFrame.Pattern_ScaleableWhiteFrame'",
+                    "ResourceName": "../../../Engine/Content/Slate/Common/Scrollbar_Background_Vertical.png",
+                    "DrawAs": "Image",
+                    "ImageType": "FullColor"
+                },
+                "HorizontalTopSlotImage": {
+                    "ImageSize": {
+                        "X": 8,
+                        "Y": 8
+                    },
+                    "ResourceName": "../../../Engine/Content/Slate/Common/Scrollbar_Background_Horizontal.png",
+                    "DrawAs": "Image",
+                    "ImageType": "FullColor"
+                },
+                "VerticalBottomSlotImage": {
+                    "ImageSize": {
+                        "X": 9,
+                        "Y": 4
+                    },
+                    "TintColor": {
+                        "SpecifiedColor": {
+                            "R": 0.015208999626338482,
+                            "G": 0.015208999626338482,
+                            "B": 0.015208999626338482
+                        }
+                    },
+                    "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/Windows/Pattern_ScaleableWhiteFrame.Pattern_ScaleableWhiteFrame'",
+                    "ResourceName": "../../../Engine/Content/Slate/Common/Scrollbar_Background_Vertical.png",
+                    "DrawAs": "Image",
+                    "ImageType": "FullColor"
+                },
+                "HorizontalBottomSlotImage": {
+                    "ImageSize": {
+                        "X": 8,
+                        "Y": 8
+                    },
+                    "ResourceName": "../../../Engine/Content/Slate/Common/Scrollbar_Background_Horizontal.png",
+                    "DrawAs": "Image",
+                    "ImageType": "FullColor"
+                },
+                "NormalThumbImage": {
+                    "ImageSize": {
+                        "X": 4,
+                        "Y": 4
+                    },
+                    "Margin": {
+                        "Left": 0.25,
+                        "Top": 0.25,
+                        "Right": 0.25,
+                        "Bottom": 0.25
+                    },
+                    "TintColor": {
+                        "SpecifiedColor": {
+                            "R": 0.37123799324035645,
+                            "G": 0.4507859945297241,
+                            "B": 0.24620099365711212
+                        }
+                    },
+                    "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/Windows/Pattern_ScaleableWhiteFrame.Pattern_ScaleableWhiteFrame'",
+                    "ResourceName": "../../../Engine/Content/Slate/Common/Scrollbar_Thumb.png",
+                    "DrawAs": "Box",
+                    "ImageType": "FullColor"
+                },
+                "HoveredThumbImage": {
+                    "ImageSize": {
+                        "X": 4,
+                        "Y": 4
+                    },
+                    "Margin": {
+                        "Left": 0.25,
+                        "Top": 0.25,
+                        "Right": 0.25,
+                        "Bottom": 0.25
+                    },
+                    "TintColor": {
+                        "SpecifiedColor": {
+                            "R": 0.8148469924926758,
+                            "G": 0.8796229958534241,
+                            "B": 0.6795430183410645
+                        }
+                    },
+                    "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/Windows/Pattern_ScaleableWhiteFrame.Pattern_ScaleableWhiteFrame'",
+                    "ResourceName": "../../../Engine/Content/Slate/Common/Scrollbar_Thumb.png",
+                    "DrawAs": "Box",
+                    "ImageType": "FullColor"
+                },
+                "DraggedThumbImage": {
+                    "ImageSize": {
+                        "X": 4,
+                        "Y": 4
+                    },
+                    "Margin": {
+                        "Left": 0.25,
+                        "Top": 0.25,
+                        "Right": 0.25,
+                        "Bottom": 0.25
+                    },
+                    "TintColor": {
+                        "SpecifiedColor": {
+                            "R": 0.6514059901237488,
+                            "G": 0.7835379838943481,
+                            "B": 0.42326799035072327
+                        }
+                    },
+                    "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/Windows/Pattern_ScaleableWhiteFrame.Pattern_ScaleableWhiteFrame'",
+                    "ResourceName": "../../../Engine/Content/Slate/Common/Scrollbar_Thumb.png",
+                    "DrawAs": "Box",
+                    "ImageType": "FullColor"
+                }
+            },
+            "ScrollBarThickness": {
+                "X": 5,
+                "Y": 5
+            },
+            "Locked": {
+                "NormalTextColor": {
+                    "SpecifiedColor": {
+                        "R": 0.21875,
+                        "G": 0.21875,
+                        "B": 0.21875
+                    }
+                },
+                "HoveredTextColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "PressedTextColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "DisabledTextColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "NormalIconColor": {
+                    "SpecifiedColor": {
+                        "R": 0.27467700839042664,
+                        "G": 0.27467700839042664,
+                        "B": 0.27467700839042664
+                    }
+                },
+                "HoveredIconColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "PressedIconColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "DisabledIconColor": {
+                    "SpecifiedColor": {
+                        "R": 0.015208999626338482,
+                        "G": 0.015208999626338482,
+                        "B": 0.015208999626338482
+                    }
+                },
+                "ButtonStyle": {
+                    "Normal": {
+                        "ImageSize": {
+                            "X": 256,
+                            "Y": 256
+                        },
+                        "TintColor": {
+                            "SpecifiedColor": {
+                                "R": 0.5677080154418945,
+                                "G": 0.5677080154418945,
+                                "B": 0.5677080154418945
+                            }
+                        },
+                        "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/ProspectMission_Locked.ProspectMission_Locked'",
+                        "ResourceName": "../../../Engine/Content/Slate/Common/Button.png",
+                        "DrawAs": "Box",
+                        "ImageType": "FullColor"
+                    },
+                    "Hovered": {
+                        "ImageSize": {
+                            "X": 256,
+                            "Y": 256
+                        },
+                        "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/ProspectMission_LockedHovered.ProspectMission_LockedHovered'",
+                        "ResourceName": "../../../Engine/Content/Slate/Common/Button_Hovered.png",
+                        "DrawAs": "Box",
+                        "ImageType": "FullColor"
+                    },
+                    "Pressed": {
+                        "ImageSize": {
+                            "X": 256,
+                            "Y": 256
+                        },
+                        "TintColor": {
+                            "SpecifiedColor": {
+                                "R": 0.484375,
+                                "G": 0.484375,
+                                "B": 0.484375
+                            }
+                        },
+                        "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/ProspectMission_Locked.ProspectMission_Locked'",
+                        "ResourceName": "../../../Engine/Content/Slate/Common/Button_Pressed.png",
+                        "DrawAs": "Box",
+                        "ImageType": "FullColor"
+                    },
+                    "Disabled": {
+                        "ImageSize": {
+                            "X": 184,
+                            "Y": 184
+                        },
+                        "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/Tech_Tree/BlueprintNode_Locked_Normal.BlueprintNode_Locked_Normal'"
+                    }
+                },
+                "LineColor": {
+                    "R": 0.015625,
+                    "G": 0.015625,
+                    "B": 0.015625,
+                    "A": 1
+                },
+                "NormalCountBrush": {
+                    "ImageSize": {
+                        "X": 256,
+                        "Y": 256
+                    },
+                    "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/ProspectMission_Locked.ProspectMission_Locked'"
+                },
+                "HoveredCountBrush": {
+                    "ImageSize": {
+                        "X": 256,
+                        "Y": 256
+                    },
+                    "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/ProspectMission_LockedHovered.ProspectMission_LockedHovered'"
+                },
+                "PressedCountBrush": {
+                    "ImageSize": {
+                        "X": 256,
+                        "Y": 256
+                    },
+                    "TintColor": {
+                        "SpecifiedColor": {
+                            "R": 0.49479201436042786,
+                            "G": 0.49479201436042786,
+                            "B": 0.49479201436042786
+                        }
+                    },
+                    "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/ProspectMission_Locked.ProspectMission_Locked'"
+                }
+            },
+            "Available": {
+                "NormalTextColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "HoveredTextColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "PressedTextColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "DisabledTextColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "NormalIconColor": {
+                    "SpecifiedColor": {
+                        "R": 0.6514059901237488,
+                        "G": 0.7835379838943481,
+                        "B": 0.42326799035072327
+                    }
+                },
+                "HoveredIconColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "PressedIconColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "DisabledIconColor": {
+                    "SpecifiedColor": {
+                        "R": 0.004776999820023775,
+                        "G": 0.006049000192433596,
+                        "B": 0.010329999960958958
+                    }
+                },
+                "ButtonStyle": {
+                    "Normal": {
+                        "ImageSize": {
+                            "X": 256,
+                            "Y": 256
+                        },
+                        "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/ProspectMission_Base.ProspectMission_Base'",
+                        "ResourceName": "../../../Engine/Content/Slate/Common/Button.png",
+                        "DrawAs": "Box",
+                        "ImageType": "FullColor"
+                    },
+                    "Hovered": {
+                        "ImageSize": {
+                            "X": 256,
+                            "Y": 256
+                        },
+                        "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/ProspectMission_BaseHovered.ProspectMission_BaseHovered'",
+                        "ResourceName": "../../../Engine/Content/Slate/Common/Button_Hovered.png",
+                        "DrawAs": "Box",
+                        "ImageType": "FullColor"
+                    },
+                    "Pressed": {
+                        "ImageSize": {
+                            "X": 256,
+                            "Y": 256
+                        },
+                        "TintColor": {
+                            "SpecifiedColor": {
+                                "R": 0.46875,
+                                "G": 0.46875,
+                                "B": 0.46875
+                            }
+                        },
+                        "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/ProspectMission_Base.ProspectMission_Base'",
+                        "ResourceName": "../../../Engine/Content/Slate/Common/Button_Pressed.png",
+                        "DrawAs": "Box",
+                        "ImageType": "FullColor"
+                    }
+                },
+                "LineColor": {
+                    "R": 0.6514059901237488,
+                    "G": 0.7835379838943481,
+                    "B": 0.42326799035072327,
+                    "A": 1
+                },
+                "NormalCountBrush": {
+                    "ImageSize": {
+                        "X": 5,
+                        "Y": 5
+                    },
+                    "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/Windows/EmptyAsset.EmptyAsset'"
+                },
+                "HoveredCountBrush": {
+                    "ImageSize": {
+                        "X": 5,
+                        "Y": 5
+                    },
+                    "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/Windows/EmptyAsset.EmptyAsset'"
+                },
+                "PressedCountBrush": {
+                    "ImageSize": {
+                        "X": 5,
+                        "Y": 60
+                    },
+                    "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/Windows/EmptyAsset.EmptyAsset'"
+                }
+            },
+            "Unlocked": {
+                "NormalTextColor": {
+                    "SpecifiedColor": {
+                        "R": 0.4341540038585663,
+                        "G": 0.6938719749450684
+                    }
+                },
+                "HoveredTextColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "PressedTextColor": {
+                    "SpecifiedColor": {
+                        "R": 0.06784400343894958,
+                        "G": 0.15287800133228302,
+                        "B": 0.31770798563957214
+                    }
+                },
+                "DisabledTextColor": {
+                    "SpecifiedColor": {
+                        "R": 0.5208330154418945,
+                        "G": 0.5208330154418945,
+                        "B": 0.5208330154418945
+                    }
+                },
+                "NormalIconColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "HoveredIconColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "PressedIconColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "DisabledIconColor": {
+                    "SpecifiedColor": {
+                        "R": 0.0051819998770952225,
+                        "G": 0.01298299990594387,
+                        "B": 0.03310500085353851
+                    }
+                },
+                "ButtonStyle": {
+                    "Normal": {
+                        "ImageSize": {
+                            "X": 256,
+                            "Y": 256
+                        },
+                        "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/ProspectMission_Base.ProspectMission_Base'",
+                        "ResourceName": "../../../Engine/Content/Slate/Common/Button.png",
+                        "DrawAs": "Box",
+                        "ImageType": "FullColor"
+                    },
+                    "Hovered": {
+                        "ImageSize": {
+                            "X": 256,
+                            "Y": 256
+                        },
+                        "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/ProspectMission_BaseHovered.ProspectMission_BaseHovered'",
+                        "ResourceName": "../../../Engine/Content/Slate/Common/Button_Hovered.png",
+                        "DrawAs": "Box",
+                        "ImageType": "FullColor"
+                    },
+                    "Pressed": {
+                        "ImageSize": {
+                            "X": 256,
+                            "Y": 256
+                        },
+                        "TintColor": {
+                            "SpecifiedColor": {
+                                "R": 0.5677080154418945,
+                                "G": 0.5677080154418945,
+                                "B": 0.5677080154418945
+                            }
+                        },
+                        "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/ProspectMission_Base.ProspectMission_Base'",
+                        "ResourceName": "../../../Engine/Content/Slate/Common/Button_Pressed.png",
+                        "DrawAs": "Box",
+                        "ImageType": "FullColor"
+                    }
+                },
+                "LineColor": {
+                    "R": 0.37123799324035645,
+                    "G": 0.4507859945297241,
+                    "B": 0.24620099365711212,
+                    "A": 1
+                },
+                "NormalCountBrush": {
+                    "ImageSize": {
+                        "X": 60,
+                        "Y": 60
+                    },
+                    "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/Tech_Tree/BlueprintCount_Unlocked_Normal.BlueprintCount_Unlocked_Normal'"
+                },
+                "HoveredCountBrush": {
+                    "ImageSize": {
+                        "X": 60,
+                        "Y": 60
+                    },
+                    "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/Tech_Tree/BlueprintCount_Unlocked_Hovered.BlueprintCount_Unlocked_Hovered'"
+                },
+                "PressedCountBrush": {
+                    "ImageSize": {
+                        "X": 60,
+                        "Y": 60
+                    },
+                    "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/Tech_Tree/BlueprintCount_Unlocked_Pressed.BlueprintCount_Unlocked_Pressed'"
+                }
+            },
+            "Completed": {
+                "NormalTextColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "HoveredTextColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "PressedTextColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "DisabledTextColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "NormalIconColor": {
+                    "SpecifiedColor": {
+                        "R": 0.6514059901237488,
+                        "G": 0.7835379838943481,
+                        "B": 0.42326799035072327
+                    }
+                },
+                "HoveredIconColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "PressedIconColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "DisabledIconColor": {
+                    "SpecifiedColor": {
+                        "G": 1
+                    }
+                },
+                "ButtonStyle": {
+                    "Normal": {
+                        "ImageSize": {
+                            "X": 256,
+                            "Y": 256
+                        },
+                        "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/ProspectMission_Base.ProspectMission_Base'",
+                        "ResourceName": "../../../Engine/Content/Slate/Common/Button.png",
+                        "DrawAs": "Box",
+                        "ImageType": "FullColor"
+                    },
+                    "Hovered": {
+                        "ImageSize": {
+                            "X": 256,
+                            "Y": 256
+                        },
+                        "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/ProspectMission_BaseHovered.ProspectMission_BaseHovered'",
+                        "ResourceName": "../../../Engine/Content/Slate/Common/Button_Hovered.png",
+                        "DrawAs": "Box",
+                        "ImageType": "FullColor"
+                    },
+                    "Pressed": {
+                        "ImageSize": {
+                            "X": 256,
+                            "Y": 256
+                        },
+                        "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/ProspectMission_Base.ProspectMission_Base'",
+                        "ResourceName": "../../../Engine/Content/Slate/Common/Button_Pressed.png",
+                        "DrawAs": "Box",
+                        "ImageType": "FullColor"
+                    }
+                },
+                "LineColor": {
+                    "R": 0.37123799324035645,
+                    "G": 0.4507859945297241,
+                    "B": 0.24620099365711212,
+                    "A": 1
+                },
+                "NormalCountBrush": {
+                    "ImageSize": {
+                        "X": 256,
+                        "Y": 60
+                    },
+                    "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/ProspectMission_Completed.ProspectMission_Completed'"
+                },
+                "HoveredCountBrush": {
+                    "ImageSize": {
+                        "X": 256,
+                        "Y": 256
+                    },
+                    "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/ProspectMission_CompletedHovered.ProspectMission_CompletedHovered'"
+                },
+                "PressedCountBrush": {
+                    "ImageSize": {
+                        "X": 256,
+                        "Y": 60
+                    },
+                    "TintColor": {
+                        "SpecifiedColor": {
+                            "R": 0.515625,
+                            "G": 0.515625,
+                            "B": 0.515625
+                        }
+                    },
+                    "ResourceObject": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/ProspectMission_Completed.ProspectMission_Completed'"
+                }
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
                 }
             }
         }

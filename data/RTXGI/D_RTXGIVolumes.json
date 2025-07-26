@@ -44,6 +44,7 @@
             "ProbeBackfaceThreshold": 0.25
         },
         "ScrollProbesInfinitely": false,
+        "ScrollingVolumeZOffset": 0,
         "VisualizeProbes": false,
         "ProbeScrollOffset": {
             "X": 0,
@@ -68,28 +69,30 @@
     },
     "Rows": [
         {
-            "Name": "HighQuality",
+            "Name": "MedQuality_LongDistance",
             "BoxTransform": {
                 "Scale3D": {
-                    "X": 40,
-                    "Y": 40,
-                    "Z": 10
+                    "X": 500,
+                    "Y": 500,
+                    "Z": 50
                 }
             },
-            "UpdatePriority": 2,
+            "LightingPriority": 1,
             "BlendingDistance": 1250,
             "RaysPerProbe": "n144",
             "ProbeCounts": {
-                "X": 27,
-                "Y": 27,
+                "X": 32,
+                "Y": 32,
                 "Z": 12
             },
-            "ProbeMaxRayDistance": 1000000,
-            "ProbeHistoryWeight": 0.949999988079071,
+            "ProbeMaxRayDistance": 10000000,
             "ScrollProbesInfinitely": true,
+            "ScrollingVolumeZOffset": 2500,
+            "probeIrradianceEncodingGamma": 4,
             "SkyLightTypeOnRayMiss": "None",
             "ViewBias": 80,
-            "LightMultiplier": 1.25
+            "NormalBias": 20,
+            "LightMultiplier": 2.5
         }
     ]
 }

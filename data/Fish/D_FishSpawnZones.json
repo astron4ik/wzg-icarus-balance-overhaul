@@ -605,6 +605,15 @@
                 "(Value=\"Fish_11_Var2\")": 25
             },
             "ZoneFishQuality": 0.6000000238418579
+        },
+        {
+            "Name": "OP_Geothermal",
+            "SpawnList": {
+                "(Value=\"Fish_18_Var4\")": 50,
+                "(Value=\"Fish_12_Var4\")": 50,
+                "(Value=\"Fish_13_Var3\")": 25
+            },
+            "ZoneFishQuality": 0.30000001192092896
         }
     ]
 }

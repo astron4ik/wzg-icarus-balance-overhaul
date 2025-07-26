@@ -646,7 +646,7 @@
                 }
             ],
             "TotalPointsRequired": 1800,
-            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Desert_Deer-Lore1\", \"On Icarus, deer make up the most abundant population of herbivores. Typically, they can be found in family groups of three or more. As they are sizable and fleet-footed creatures, they are prone to getting spooked easily and are adept at camouflaging themselves in the forest.\")",
+            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Desert_Deer-Lore1\", \"On Icarus, Antelope make up the most abundant population of herbivores along with their deer cousins. Typically, they can be found in family groups of three or more. As they are sizable and fleet-footed creatures, they are prone to getting spooked easily and are adept at camouflaging themselves in the desert.\")",
             "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"Desert_Deer-Lore2\", \"A black market for Icarus venison has been long suspected. While prospectors aren\\'t supposed to remove any biological matter from the surface, rumors of Icarus meat and produce appearing on earth have been circulating. UDA INTSEC currently investigating.\")",
             "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"Desert_Deer-Lore3\", \"\\\"It just tastes better. Earth feed is crap in comparison... Sure we have chem residue and exotics, but not decades of pollution and microplastics... I might grow a third leg, and I\\'m okay with that, so long as I don\\'t have to eat that printed earth-side ****.\\\"\")",
             "Traits": [
@@ -674,7 +674,7 @@
                     "Value": "BaseDesertDeerExtraDamage_+%"
                 },
                 {
-                    "Value": "BaseBabyDeerExtraDamageResistance_+%"
+                    "Value": "BaseDesertDeerExtraDamageResistance_+%"
                 }
             ]
         },
@@ -1024,7 +1024,7 @@
                 }
             ],
             "TotalPointsRequired": 1500,
-            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Rabbit-Lore1\", \"They have large, furry feet that provide traction on icy surfaces, and long, floppy ears that help regulate their body temperature. They are very vunerable to predators, and easily startled.\")",
+            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Rabbit-Lore1\", \"They have large, furry feet that provide traction on icy surfaces, and long, floppy ears that help regulate their body temperature. They are very vulnerable to predators, and easily startled.\")",
             "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"Rabbit-Lore2\", \"These are social animals that live in groups called herds,  spending much of their time foraging for food in the snow. They are herbivores and feed on a variety of plants.\")",
             "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"Rabbit-Lore3\", \"\\\"Quick little critters keep gettin\\' into my food stores. If they keep mucking me around I\\'ll see if they have better manners as a pair of socks.\\\"\")",
             "Traits": [
@@ -1858,7 +1858,7 @@
         },
         {
             "Name": "Alpha_Wolf_Boss",
-            "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"Alpha_Wolf_Boss-CreatureName\", \"Alpha Wolf\")",
+            "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"Alpha_Wolf_Boss-CreatureName\", \"Black Wolf\")",
             "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Conifer/Bestiary_AlphaWolf.Bestiary_AlphaWolf",
             "PopupImageScale": 2,
             "PopupImageOffset": {
@@ -1868,6 +1868,10 @@
             "Biomes": [
                 {
                     "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Arctic",
                     "DataTableName": "D_Atmospheres"
                 }
             ],
@@ -2684,11 +2688,11 @@
             "CreatureSound": "/Game/FMOD/Events/UI/Bestiary/CREATURES/UI_BESTIARY_CRE_BLUEBACK.UI_BESTIARY_CRE_BLUEBACK",
             "Biomes": [
                 {
-                    "RowName": "Arctic",
+                    "RowName": "Grasslands",
                     "DataTableName": "D_Atmospheres"
                 },
                 {
-                    "RowName": "Grasslands",
+                    "RowName": "Arctic",
                     "DataTableName": "D_Atmospheres"
                 }
             ],
@@ -3497,7 +3501,7 @@
                 }
             ],
             "TotalPointsRequired": 1200,
-            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Tusker-Lore1\", \"The Tusker\\'s four eyes help them to detect threats at a far greater accuracy than similar earth-like creatures such as the Bison. Capable of fighting off aggressive wildlife, the Tusker\\'s increased stamina and deadly protusions make it a strong choice for prospectors looking for a companion in the harsh wilderness of Icarus.\")",
+            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Tusker-Lore1\", \"The Tusker\\'s four eyes help them to detect threats at a far greater accuracy than similar earth-like creatures such as the Bison. Capable of fighting off aggressive wildlife, the Tusker\\'s increased stamina and deadly protrusions make it a strong choice for prospectors looking for a companion in the harsh wilderness of Icarus.\")",
             "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"Tusker-Lore2\", \"Found only in the coldest parts of the Terrazone, these creatures were discovered by an ACS scientist while setting up a forward base for weather monitoring. An avid storm chaser, their bravery led them to follow a family of Tuskers deep into the ice, documenting as much as they could before frostbite set in. A portion of the weather station was later converted into a ranch, where these animals are studied and tamed for use on longer prospects.\")",
             "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"Tusker-Lore3\", \"\\\"Once you get used to the two-sets-of-eyes thing these fellas are actually pretty cute. My latest one even fought off a wolf, I\\'d like to see a Moa do that!\\\"\")",
             "Traits": [
@@ -3526,6 +3530,65 @@
                 },
                 {
                     "Value": "BaseTuskerExtraDamageResistance_+%"
+                }
+            ]
+        },
+        {
+            "Name": "Arctic_Bat",
+            "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"Arctic_Bat-CreatureName\", \"Arctic Vesper\")",
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Arctic/Bestiary_Bat_Arctic_02.Bestiary_Bat_Arctic_02",
+            "PopupImageScale": 1.5,
+            "PopupImageOffset": {
+                "Y": -10
+            },
+            "BiomeImageType": "Small",
+            "CreatureSound": "/Game/FMOD/Events/UI/Bestiary/CREATURES/UI_BESTIARY_CRE_CAVEBAT.UI_BESTIARY_CRE_CAVEBAT",
+            "Biomes": [
+                {
+                    "RowName": "Arctic",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
+            "Maps": [
+                {
+                    "RowName": "Terrain_016",
+                    "DataTableName": "D_Terrains"
+                },
+                {
+                    "RowName": "Terrain_017",
+                    "DataTableName": "D_Terrains"
+                },
+                {
+                    "RowName": "Terrain_019",
+                    "DataTableName": "D_Terrains"
+                }
+            ],
+            "TotalPointsRequired": 2000,
+            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Arctic_Bat-Lore1\", \"The Arctic Bat is a flying mammal adapted to life in freezing environments. These agile creatures navigate through vast cave systems with impressive echolocation abilities, preying on anything they can find in the cavernous darkness. \")",
+            "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"Arctic_Bat-Lore2\", \"While nesting these bats can exhibit rather aggressive behaviour, to the extent that the Lagos Group has advised that contractors should leave any nests they find undisturbed. If left untreated, wounds from these creatures can cause severe distress, even death.\")",
+            "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"Arctic_Bat-Lore3\", \"\\\"Oi, Rob, get over here! Reckon I\\'ve found once of them nests they\\'ve been harping on about. Hey, don\\'t go near it, haven\\'t you read the repor-\\\" Recording Terminated.\")",
+            "Traits": [
+                {
+                    "RowName": "PackAnimal_Behavior",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Flying_Strength",
+                    "DataTableName": "D_BestiaryTraits"
+                }
+            ],
+            "StatsUnlock1": {
+                "(Value=\"BaseArcticHealthRegen_+%\")": 10
+            },
+            "StatsUnlock2": {
+                "(Value=\"BaseFrostbiteResistance_%\")": 5
+            },
+            "ProgressiveStat": [
+                {
+                    "Value": "BaseArcticBatExtraDamage_+%"
+                },
+                {
+                    "Value": "BaseArcticBatExtraDamageResistance_+%"
                 }
             ]
         },
@@ -3583,6 +3646,10 @@
                 {
                     "RowName": "Aggressive_Behavior",
                     "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Nest_Behavior",
+                    "DataTableName": "D_BestiaryTraits"
                 }
             ],
             "StatsUnlock1": {
@@ -3597,6 +3664,131 @@
                 },
                 {
                     "Value": "BaseBeeExtraDamageResistance_+%"
+                }
+            ]
+        },
+        {
+            "Name": "Hammerhead_Slug",
+            "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"Hammerhead_Slug-CreatureName\", \"Hammerhead\")",
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Swamp_Ape/T_Hammerhead_Slug_LRG.T_Hammerhead_Slug_LRG",
+            "BiomeImageType": "Large",
+            "CreatureSound": "/Game/FMOD/Events/UI/Bestiary/CREATURES/UI_BESTIARY_CRE_HAMMERHEAD_SLUG.UI_BESTIARY_CRE_HAMMERHEAD_SLUG",
+            "Biomes": [
+                {
+                    "RowName": "Swamp",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
+            "Maps": [
+                {
+                    "RowName": "Terrain_019",
+                    "DataTableName": "D_Terrains"
+                }
+            ],
+            "TotalPointsRequired": 5500,
+            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Hammerhead_Slug-Lore1\", \"The Hammerhead is believed to be an Icarus native, mainly found in the Prometheus region. They can be deceptively hard to kill, due to their tendency to split into smaller lifeforms to overwhelm their prey.\")",
+            "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"Hammerhead_Slug-Lore2\", \"Hammerheads employ an arsenal of tricks to capture their prey, the most prominent of which is a sticky, poisonous substance that they will spit or fling at an enemy. Survival rates against these creatures are fairly high, though unprepared prospectors may find themselves in a sticky situation.\")",
+            "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"Hammerhead_Slug-Lore3\", \"\\\"Oh god, this stuff stinks. Stu, how long did it take you to get the goop out of your suit? I don\\'t have a spare...\\\"\")",
+            "Traits": [
+                {
+                    "RowName": "Head_CritSpot",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Trail_Behavior",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Fire_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Melee_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Poison_Resist_Strength",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Slow_DamageType",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Wound_DamageType",
+                    "DataTableName": "D_BestiaryTraits"
+                }
+            ],
+            "StatsUnlock1": {
+                "(Value=\"BaseChanceToCatchRareFish_+%\")": 5
+            },
+            "StatsUnlock2": {
+                "(Value=\"BaseHealthRegen_+%\")": 20
+            },
+            "ProgressiveStat": [
+                {
+                    "Value": "BaseHammerheadSlugExtraDamage_+%"
+                },
+                {
+                    "Value": "BaseHammerheadSlugExtraDamageResistance_+%"
+                }
+            ],
+            "bIsBoss": true
+        },
+        {
+            "Name": "MiniHippo",
+            "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"MiniHippo-CreatureName\", \"Dribbo\")",
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Conifer/Bestiary_MiniHippo_MED.Bestiary_MiniHippo_MED",
+            "CreatureSound": "/Game/FMOD/Events/UI/Bestiary/CREATURES/UI_BESTIARY_CRE_MINIHIPPO.UI_BESTIARY_CRE_MINIHIPPO",
+            "Biomes": [
+                {
+                    "RowName": "Desert",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
+            "Maps": [
+                {
+                    "RowName": "Terrain_017",
+                    "DataTableName": "D_Terrains"
+                },
+                {
+                    "RowName": "Terrain_016",
+                    "DataTableName": "D_Terrains"
+                }
+            ],
+            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"MiniHippo-Lore1\", \"The result of another of Dr Lee\\'s unsanctioned experiments, the Dribbo as it\\'s been named by prospectors has become somewhat of an example of when science goes too far. Illegal genetic splicing of Earth hippo DNA and Icarus native DNA resulted in these curious-looking creatures. Once released planetside they were quick to reproduce, but the influence of Exotics quickly mutated some offspring.\")",
+            "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"MiniHippo-Lore2\", \"All Dribbo share beak-like mouth features, however some Exotic-affected creatures slowly developed an odd spiked protrusion. Research has shown that this is the egg that the creature hatches from, which they then continue to carry with them to maturity. In an early memo to Group 15 Dr Lee describes this Exotic mutation as \\\"inevitable\\\".\")",
+            "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"MiniHippo-Lore3\", \"\\\"Nah mate, nah, hear me out... \\'Dribbo\\' - get it? Cause it\\'s a drunk hippo. I\\'m calling it now, it\\'ll catch on, the other Aussies will love it.\\\"\")",
+            "Traits": [
+                {
+                    "RowName": "Head_CritSpot",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "PackAnimal_Behavior",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Slow_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Slow_DamageType",
+                    "DataTableName": "D_BestiaryTraits"
+                }
+            ],
+            "StatsUnlock1": {
+                "(Value=\"BaseExplosiveDamage_+%\")": 5
+            },
+            "StatsUnlock2": {
+                "(Value=\"BaseCriticalDamage_+%\")": 5
+            },
+            "ProgressiveStat": [
+                {
+                    "Value": "BaseMiniHippoExtraDamage_+%"
+                },
+                {
+                    "Value": "BaseMiniHippoExtraDamageResistance_+%"
                 }
             ]
         },
@@ -3646,7 +3838,8 @@
         {
             "Name": "Chicken",
             "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"Chicken-CreatureName\", \"Chicken\")",
-            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Conifer/Chicken_HB_SML.Chicken_HB_SML",
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Workshop/Chicken_Rooster_Chick_HB_SML.Chicken_Rooster_Chick_HB_SML",
+            "BiomeImageType": "Small",
             "CreatureSound": "/Game/FMOD/Events/SFX/Creatures/Chicken/SFX_CRE_VOC_CHICKEN_IDLE.SFX_CRE_VOC_CHICKEN_IDLE",
             "Biomes": [
                 {
@@ -3684,6 +3877,194 @@
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
+                }
+            }
+        },
+        {
+            "Name": "Kiwi",
+            "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"Kiwi-CreatureName\", \"Kiwi\")",
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Conifer/Bestiary_Kiwi_SML.Bestiary_Kiwi_SML",
+            "PopupImageScale": 1.5,
+            "PopupImageOffset": {
+                "Y": -10
+            },
+            "BiomeImageType": "Small",
+            "CreatureSound": "/Game/FMOD/Events/UI/Bestiary/CREATURES/UI_BESTIARY_CRE_KIWI.UI_BESTIARY_CRE_KIWI",
+            "Biomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
+            "Maps": [
+                {
+                    "RowName": "Terrain_016",
+                    "DataTableName": "D_Terrains"
+                },
+                {
+                    "RowName": "Terrain_017",
+                    "DataTableName": "D_Terrains"
+                }
+            ],
+            "TotalPointsRequired": 1800,
+            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Kiwi-Lore1\", \"Kiwis are flightless birds native to New Zealand on Earth. They are characterized by their small size, round body, long beak, and distinctive nocturnal habits. With highly developed senses of smell and touch, they forage for various insects and fruits under the cover of darkness. On Earth, Kiwis play a crucial ecological role as seed dispersers, contributing to the health and diversity of their ecosystems. It was hoped that they would do the same on Icarus after the terraforming failed to spread various plants across the face of the planet.\")",
+            "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"Kiwi-Lore2\", \"Kiwis were introduced to Icarus to help diversify the plant life in their habitats. They were hunted almost to extinction back on Earth, as they are mostly unable to defend themselves from predators. It is thought that they will likely suffer a similar fate on Icarus, though scientists remain hopeful that the influence of Exotics may trigger the formation of a stronger survival instinct in these birds; only time will tell.\")",
+            "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"Kiwi-Lore3\", \"\\\"I was telling Dave the other day, I don\\'t care how much national pride you have for \\'em, those things are downright useless. No meat on \\'em and they can\\'t even fly! So what if I\\'m from Australia-\\\"\")",
+            "Traits": [
+                {
+                    "RowName": "Head_CritSpot",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Nest_Behavior",
+                    "DataTableName": "D_BestiaryTraits"
+                }
+            ],
+            "StatsUnlock1": {
+                "(Value=\"BaseWaterConsumption_+%\")": -5
+            },
+            "StatsUnlock2": {
+                "(Value=\"BaseAnimalCarryingMovementSpeed_+%\")": 10
+            },
+            "ProgressiveStat": [
+                {
+                    "Value": "BaseKiwiExtraDamage_+%"
+                },
+                {
+                    "Value": "BaseKiwiExtraDamageResistance_+%"
+                }
+            ]
+        },
+        {
+            "Name": "Ape",
+            "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"Ape-CreatureName\", \"Garganutan Prime\")",
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Swamp_Ape/T_SwampApe_LRG.T_SwampApe_LRG",
+            "PopupImageScale": 1.25,
+            "BiomeImageType": "Large",
+            "CreatureSound": "/Game/FMOD/Events/UI/Bestiary/CREATURES/UI_BESTIARY_CRE_APE.UI_BESTIARY_CRE_APE",
+            "Biomes": [
+                {
+                    "RowName": "Arena_SwampApe",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
+            "Maps": [
+                {
+                    "RowName": "Terrain_017",
+                    "DataTableName": "D_Terrains"
+                }
+            ],
+            "TotalPointsRequired": 400,
+            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Ape-Lore1\", \"The Garganutan is the direct result of unsanctioned experimentation conducted on the surface of Icarus. Researchers were trying to gather data on the effect of exotics on the brain, and whether it could increase the capability of some animals to learn faster, or to a greater extent.\")",
+            "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"Ape-Lore2\", \"Garganutans will often use their surroundings to their advantage in a fight. This is due to their chemically enlarged hippocampus. Because of their enhanced intellect, most prospectors will abandon any conflict or interaction with these creatures out of fear for their safety.\")",
+            "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"Ape-Lore3\", \"\\\"Rounding up a few creatures here and there is one thing but... a lab experiment that broke out? No thank you, I\\'ll stick to mining exotics the hard way after this one.\\\"\")",
+            "Traits": [
+                {
+                    "RowName": "Head_CritSpot",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Chest_CritSpot",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Melee_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Poison_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Fire_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "RecoversHealth_Strength",
+                    "DataTableName": "D_BestiaryTraits"
+                }
+            ],
+            "StatsUnlock1": {
+                "(Value=\"BaseProjectileDamage_+%\")": 5
+            },
+            "StatsUnlock2": {
+                "(Value=\"BaseFellingDamage_+%\")": 10
+            },
+            "ProgressiveStat": [
+                {
+                    "Value": "BaseApeExtraDamage_+%"
+                },
+                {
+                    "Value": "BaseApeExtraDamageResistance_+%"
+                }
+            ],
+            "bIsBoss": true,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Ape_Juvenile",
+            "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"Ape_Juvenile-CreatureName\", \"Garganutan\")",
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Swamp_Ape/T_SwampApe_Juvie_MED.T_SwampApe_Juvie_MED",
+            "PopupImageScale": 1.25,
+            "Biomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Desert",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
+            "Maps": [
+                {
+                    "RowName": "Terrain_017",
+                    "DataTableName": "D_Terrains"
+                }
+            ],
+            "TotalPointsRequired": 400,
+            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Ape_Juvenile-Lore1\", \"The Garganutan is the direct result of unsanctioned experimentation conducted on the surface of Icarus. Researchers were trying to gather data on the effect of exotics on the brain, and whether it could increase the capability of some animals to learn faster, or to a greater extent.\")",
+            "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"Ape_Juvenile-Lore2\", \"Garganutans will often use their surroundings to their advantage in a fight. This is due to their chemically enlarged hippocampus. Because of their enhanced intellect, most prospectors will abandon any conflict or interaction with these creatures out of fear for their safety.\")",
+            "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"Ape_Juvenile-Lore3\", \"\\\"Rounding up a few creatures here and there is one thing but... a lab experiment that broke out? No thank you, I\\'ll stick to mining exotics the hard way after this one.\\\"\")",
+            "Traits": [
+                {
+                    "RowName": "Head_CritSpot",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Poison_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Fire_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "RecoversHealth_Strength",
+                    "DataTableName": "D_BestiaryTraits"
+                }
+            ],
+            "StatsUnlock1": {
+                "(Value=\"BaseApeExtraDamage_+%\")": 5
+            },
+            "StatsUnlock2": {
+                "(Value=\"BaseFellingDamage_+%\")": 5
+            },
+            "ProgressiveStat": [
+                {
+                    "Value": "BaseApeJuvenileExtraDamage_+%"
+                },
+                {
+                    "Value": "BaseApeJuvenileExtraDamageResistance_+%"
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
                 }
             }
         },
@@ -3892,52 +4273,402 @@
             ]
         },
         {
-            "Name": "Eagle",
-            "CreatureName": "INVTEXT(\"[DNT] Eagle\")",
-            "PopupImageScale": 1.75,
+            "Name": "Cattle",
+            "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"Cattle-CreatureName\", \"Cattle\")",
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Workshop/Cow_Bull_Calf_HB_LRG.Cow_Bull_Calf_HB_LRG",
+            "PopupImageScale": 1.5,
             "PopupImageOffset": {
-                "Y": 20
+                "Y": -10
             },
-            "CreatureSound": "/Game/FMOD/Events/UI/Bestiary/CREATURES/UI_BESTIARY_CRE_KEA.UI_BESTIARY_CRE_KEA",
+            "BiomeImageType": "Large",
+            "CreatureSound": "/Game/FMOD/Events/UI/Bestiary/CREATURES/UI_BESTIARY_CRE_BUFFALO.UI_BESTIARY_CRE_BUFFALO",
             "Biomes": [
                 {
-                    "RowName": "Conifer",
+                    "RowName": "Workshop",
                     "DataTableName": "D_Atmospheres"
                 }
             ],
             "Maps": [
                 {
-                    "RowName": "Terrain_017",
+                    "RowName": "Space",
                     "DataTableName": "D_Terrains"
                 }
             ],
-            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Eagle-Lore1\", \"A large, intelligent parrot, originally native to New Zealand. On Earth, the Kea population continues to steadily decline. Seeding on Icarus was seen as a way to keep the species alive. Genetically modified to handle harsher conditions.\")",
-            "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"Eagle-Lore2\", \"Dr Amelia Tohu personally oversaw this project, having spent time raising Kea in conservation sectors as a young girl. Tohu was uncompromising in her commitment to propagating the species.\")",
-            "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"Eagle-Lore3\", \"\\\"Careful of the cheeky buggers. They\\'re not dangerous or anything, but they\\'ll steal food right out from under ya nose. Hell, they\\'ll rip the seals right off your dropship windows.\\\"\")",
+            "TotalPointsRequired": 800,
+            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Cattle-Lore1\", \"Cattle are hardy, domesticated herbivores renowned for their strength and adaptability, that thrive in grassy areas. Valued for their milk, meat, and labor, they are a cornerstone of agricultural life, providing sustenance and support to humans.\")",
+            "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"Cattle-Lore2\", \"Cattle are social animals and form strong bonds with other members of their herd. They even have best friends and can become stressed when separated from them. They also have excellent memories and can remember faces, locations, and even the people who treat them well or poorly.\")",
+            "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"Cattle-Lore3\", \"\\\"My pops back home used to run a farm before the climate crisis wiped everything out. Looking after the cattle here reminds me of him.\\\"\")",
             "Traits": [
                 {
                     "RowName": "Head_CritSpot",
                     "DataTableName": "D_BestiaryTraits"
                 },
                 {
-                    "RowName": "Flying_Strength",
+                    "RowName": "Slow_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Poison_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Passive_Behavior",
                     "DataTableName": "D_BestiaryTraits"
                 }
             ],
             "StatsUnlock1": {
-                "(Value=\"BaseKeaWhiteMeatDropChance_%\")": 25
+                "(Value=\"BaseTamedCreatureHealthRegen_+%\")": 10
             },
             "StatsUnlock2": {
-                "(Value=\"BaseProjectileAccuracy_+%\")": 10
+                "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 10
             },
             "ProgressiveStat": [
                 {
-                    "Value": "BaseKeaExtraDamage_+%"
-                },
-                {
-                    "Value": "BaseKeaExtraDamageResistance_+%"
+                    "Value": "BaseExperience_+%"
                 }
             ]
+        },
+        {
+            "Name": "RockGolem",
+            "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"RockGolem-CreatureName\", \"Unstable Quarrite\")",
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Golem/T_Golem_LRG.T_Golem_LRG",
+            "PopupImageScale": 1.25,
+            "PopupImageOffset": {
+                "Y": -15
+            },
+            "BiomeImageType": "Large",
+            "CreatureSound": "/Game/FMOD/Events/UI/Bestiary/CREATURES/UI_BESTIARY_CRE_ROCK_GOLEM.UI_BESTIARY_CRE_ROCK_GOLEM",
+            "Biomes": [
+                {
+                    "RowName": "Arena_Golem",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
+            "Maps": [
+                {
+                    "RowName": "Terrain_016",
+                    "DataTableName": "D_Terrains"
+                }
+            ],
+            "TotalPointsRequired": 400,
+            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"RockGolem-Lore1\", \"Believed to be native to Icarus, the Quarrite is a peculiar creature that upon first glance appears to be made of rocks. This is its armor which must first be removed in order to damage the creature. It can often be found in arid, rocky terrain which helps it to blend in with its surroundings.\")",
+            "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"RockGolem-Lore2\", \"Quarrites have a rather remarkable skill which consists of consuming entire mineral deposits to strengthen and replenish their armor-like coating. They then use this armor to trample or roll over their prey, to great effect.\")",
+            "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"RockGolem-Lore3\", \"\\\"Creatures of interest? No one said anything about banging my head against a literal rock!\\\"\")",
+            "Traits": [
+                {
+                    "RowName": "Head_CritSpot",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Poison_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Fire_Resist_Strength",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Armored_Strength",
+                    "DataTableName": "D_BestiaryTraits"
+                }
+            ],
+            "StatsUnlock1": {
+                "(Value=\"BaseMiningStoneRewards_+%\")": 10
+            },
+            "StatsUnlock2": {
+                "(Value=\"BasePickaxeAttackSpeed_+%\")": 5
+            },
+            "ProgressiveStat": [
+                {
+                    "Value": "BaseRockGolemExtraDamage_+%"
+                },
+                {
+                    "Value": "BaseRockGolemExtraDamageResistance_+%"
+                }
+            ],
+            "bIsBoss": true,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "RockGolem_Juvenile",
+            "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"RockGolem_Juvenile-CreatureName\", \"Quarrite\")",
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Golem/T_Golem_Juvie_MED.T_Golem_Juvie_MED",
+            "PopupImageScale": 1.25,
+            "PopupImageOffset": {
+                "Y": -15
+            },
+            "Biomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Desert",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
+            "Maps": [
+                {
+                    "RowName": "Terrain_016",
+                    "DataTableName": "D_Terrains"
+                }
+            ],
+            "TotalPointsRequired": 400,
+            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"RockGolem_Juvenile-Lore1\", \"Believed to be native to Icarus, the Quarrite is a peculiar creature that upon first glance appears to be made of rocks. This is its armor which must first be removed in order to damage the creature. It can often be found in arid, rocky terrain which helps it to blend in with its surroundings.\")",
+            "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"RockGolem_Juvenile-Lore2\", \"Quarrites have a rather remarkable skill which consists of consuming entire mineral deposits to strengthen and replenish their armor-like coating. They then use this armor to trample or roll over their prey, to great effect.\")",
+            "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"RockGolem_Juvenile-Lore3\", \"\\\"Creatures of interest? No one said anything about banging my head against a literal rock!\\\"\")",
+            "Traits": [
+                {
+                    "RowName": "Head_CritSpot",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Poison_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Fire_Resist_Strength",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Armored_Strength",
+                    "DataTableName": "D_BestiaryTraits"
+                }
+            ],
+            "StatsUnlock1": {
+                "(Value=\"BaseRockGolemExtraDamage_+%\")": 5
+            },
+            "StatsUnlock2": {
+                "(Value=\"BaseMiningRewards_+%\")": 5
+            },
+            "ProgressiveStat": [
+                {
+                    "Value": "BaseRockGolemJuvenileExtraDamage_+%"
+                },
+                {
+                    "Value": "BaseRockGolemJuvenileExtraDamageResistance_+%"
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "IceMammoth",
+            "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"IceMammoth-CreatureName\", \"Rimetusk Matriarch\")",
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/IceMammoth/T_IceMammoth_LRG.T_IceMammoth_LRG",
+            "PopupImageScale": 1.25,
+            "PopupImageOffset": {
+                "Y": 10
+            },
+            "BiomeImageType": "Large",
+            "CreatureSound": "/Game/FMOD/Events/UI/Bestiary/CREATURES/UI_BESTIARY_CRE_ICEMAMMOTH.UI_BESTIARY_CRE_ICEMAMMOTH",
+            "Biomes": [
+                {
+                    "RowName": "Arena_IceMammoth",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
+            "Maps": [
+                {
+                    "RowName": "Terrain_019",
+                    "DataTableName": "D_Terrains"
+                }
+            ],
+            "TotalPointsRequired": 400,
+            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"IceMammoth-Lore1\", \"The Rimetusk is an example of what happens when scientific protocol is ignored. An apprentice of Dr Lee (his whereabouts currently unknown) was tasked with researching chemical interactions with local flora and fauna within the Prometheus region. He instead chose to conduct his own enzyme research. This did not end well for him, or his team.\")",
+            "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"IceMammoth-Lore2\", \"Rimetusks are incredibly strong, with thick ice-like armor covering their vulnerable areas. They live in harmony with flying creatures and will often summon them to help in a fight. Their stomp is a powerful attack that should always be avoided if you want to walk away with your life.\")",
+            "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"IceMammoth-Lore3\", \"\\\"Did you see the SIZE of that thing? Screw it, I\\'m out. I am never taking another Norex contract again!\\\"\")",
+            "Traits": [
+                {
+                    "RowName": "Head_CritSpot",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Fire_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Poison_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Frost_Resist_Strength",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Armored_Strength",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Frost_DamageType",
+                    "DataTableName": "D_BestiaryTraits"
+                }
+            ],
+            "StatsUnlock1": {
+                "(Value=\"BaseFrostDamageResistance_%\")": 5
+            },
+            "StatsUnlock2": {
+                "(Value=\"BaseColdResistance_%\")": 5
+            },
+            "ProgressiveStat": [
+                {
+                    "Value": "BaseIceMammothBossExtraDamage_+%"
+                },
+                {
+                    "Value": "BaseIceMammothBossExtraDamageResistance_+%"
+                }
+            ],
+            "bIsBoss": true,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "IceMammoth_WorldSpawn",
+            "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"IceMammoth_WorldSpawn-CreatureName\", \"Rimetusk\")",
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Arctic/T_Bestiary_IceMammoth_Arctic_02_Big.T_Bestiary_IceMammoth_Arctic_02_Big",
+            "PopupImageScale": 1.25,
+            "PopupImageOffset": {
+                "Y": 10
+            },
+            "BiomeImageType": "Large",
+            "CreatureSound": "/Game/FMOD/Events/UI/Bestiary/CREATURES/UI_BESTIARY_CRE_ICEMAMMOTH.UI_BESTIARY_CRE_ICEMAMMOTH",
+            "Biomes": [
+                {
+                    "RowName": "Arctic",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
+            "Maps": [
+                {
+                    "RowName": "Terrain_019",
+                    "DataTableName": "D_Terrains"
+                }
+            ],
+            "TotalPointsRequired": 800,
+            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"IceMammoth_WorldSpawn-Lore1\", \"Revived ancient earth species. A well preserved sample was found deep in the Le Brea tar pits, the first few mammoths were carried by elephants as surrogate mothers. Due to significant debate on the ethics of the mammoths revival, the experiment had to be conducted on Icarus. \")",
+            "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"IceMammoth_WorldSpawn-Lore2\", \"Extremist group TPS was responsible for the organisation of global protests against the revival of this species. While this study was not the most advanced genetics experiment, it became a pivotal reference in arguments against genetic augmentation. A slippery slope to experimentation on humans.\")",
+            "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"IceMammoth_WorldSpawn-Lore3\", \"\\\"While we appreciate new technology that allows us to maintain a healthy ecosystem, the potential of this technology being used unethically... more than likely it already is used unethically. We deserve better, you deserve better.\\\" - TPS Spokesperson\")",
+            "Traits": [
+                {
+                    "RowName": "Head_CritSpot",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Fire_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Poison_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Frost_Resist_Strength",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Frost_DamageType",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Armored_Strength",
+                    "DataTableName": "D_BestiaryTraits"
+                }
+            ],
+            "StatsUnlock1": {
+                "(Value=\"BaseIceMammothExtraDamage_+%\")": 5
+            },
+            "StatsUnlock2": {
+                "(Value=\"BaseFrostDamage_+%\")": 5
+            },
+            "ProgressiveStat": [
+                {
+                    "Value": "BaseIceMammothExtraDamage_+%"
+                },
+                {
+                    "Value": "BaseIceMammothExtraDamageResistance_+%"
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Snow_Slug",
+            "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"Snow_Slug-CreatureName\", \"Glaci\")",
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Swamp/Bestiary_SwampSlug.Bestiary_SwampSlug",
+            "CreatureSound": "/Game/FMOD/Events/UI/Bestiary/CREATURES/UI_BESTIARY_CRE_SLUG.UI_BESTIARY_CRE_SLUG",
+            "Biomes": [
+                {
+                    "RowName": "Arctic",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
+            "Maps": [
+                {
+                    "RowName": "Terrain_019",
+                    "DataTableName": "D_Terrains"
+                }
+            ],
+            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Snow_Slug-Lore1\", \"The UDA regrets to inform you that there is minimal research available on this creature. It appears to be the result of prohibited experimentation by an illegal branch of the company Norex- [REDACTED]\")",
+            "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"Snow_Slug-Lore2\", \"This subspecies of Viscid has been observed to attack using frost and seems to be quite resistant to fire. The mutation facilitated by [REDACTED] has increased its strength and gene- [The remainder of this report is illegible and covered in slime]\")",
+            "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"Snow_Slug-Lore3\", \"\\\"A viscid? Out here? Oh damn it, it hit me! Jax wait, I can\\'t move!\\\"\")",
+            "Traits": [
+                {
+                    "RowName": "Head_CritSpot",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Trail_Behavior",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Fire_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Frost_DamageType",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Frost_Resist_Strength",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Armored_Strength",
+                    "DataTableName": "D_BestiaryTraits"
+                }
+            ],
+            "StatsUnlock1": {
+                "(Value=\"BaseFrostbiteResistance_%\")": 10
+            },
+            "StatsUnlock2": {
+                "(Value=\"BaseFrostDamageResistance_%\")": 5
+            },
+            "ProgressiveStat": [
+                {
+                    "Value": "BaseSnowSlugExtraDamage_+%"
+                },
+                {
+                    "Value": "BaseSnowSlugExtraDamageResistance_+%"
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
         }
     ]
 }

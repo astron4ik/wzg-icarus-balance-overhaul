@@ -131,7 +131,7 @@
             "Model": {
                 "RowName": "Prospect"
             },
-            "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"Prospect_Prometheus-DisplayName\", \"Styx\")",
+            "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"Prospect_Prometheus-DisplayName\", \"Prometheus\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_Consume.Icon_Consume",
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -161,7 +161,7 @@
                 "RowName": "Workshop"
             },
             "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"Workshop_Backpacks-DisplayName\", \"Backpacks\")",
-            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_HeadArmor.Icon_HeadArmor"
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_inventoryOpen.T_ICON_inventoryOpen"
         },
         {
             "Name": "Workshop_Modules",
@@ -169,7 +169,7 @@
                 "RowName": "Workshop"
             },
             "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"Workshop_Modules-DisplayName\", \"Modules\")",
-            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_ArmArmor.Icon_ArmArmor"
+            "Icon": "/Game/Assets/2DArt/UI/FieldGuide/CategoryIcons/T_ICON_FieldGuide_SuitsModules.T_ICON_FieldGuide_SuitsModules"
         },
         {
             "Name": "Workshop_Gadgets",
@@ -242,6 +242,14 @@
             },
             "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"Workshop_Crossbows-DisplayName\", \"Crossbows\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_ClassCrossbow.Icon_ClassCrossbow"
+        },
+        {
+            "Name": "Workshop_Firearms",
+            "Model": {
+                "RowName": "Workshop"
+            },
+            "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"Workshop_Firearms-DisplayName\", \"Firearms\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_ClassShotgun.Icon_ClassShotgun"
         },
         {
             "Name": "Workshop_Deployables",
@@ -427,6 +435,19 @@
             }
         },
         {
+            "Name": "Creature_Rooster",
+            "Model": {
+                "RowName": "Creature"
+            },
+            "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"Creature_Rooster-DisplayName\", \"Rooster\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/BossMonsters/Icon_Wolf.Icon_Wolf",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Laika"
+                }
+            }
+        },
+        {
             "Name": "Creature_Horse",
             "Model": {
                 "RowName": "Creature"
@@ -529,6 +550,66 @@
                     "RowName": "Laika"
                 }
             }
+        },
+        {
+            "Name": "GreatHunt_RockGolem",
+            "Model": {
+                "RowName": "Great_Hunt"
+            },
+            "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"GreatHunt_RockGolem-DisplayName\", \"Quarrite\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/BossMonsters/Icon_Wolf.Icon_Wolf",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GreatHunt_IceMammoth",
+            "Model": {
+                "RowName": "Great_Hunt"
+            },
+            "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"GreatHunt_IceMammoth-DisplayName\", \"Rimetusk\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/BossMonsters/Icon_Wolf.Icon_Wolf",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Workshop_Biolab",
+            "Model": {
+                "RowName": "Workshop"
+            },
+            "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"Workshop_Biolab-DisplayName\", \"Norex\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/BossMonsters/T_Icon_Workshop_Biolab.T_Icon_Workshop_Biolab",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "GreatHunt_Ape",
+            "Model": {
+                "RowName": "Great_Hunt"
+            },
+            "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"GreatHunt_Ape-DisplayName\", \"Garganutan\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/BossMonsters/Icon_Wolf.Icon_Wolf",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Creature_Cow",
+            "Model": {
+                "RowName": "Creature"
+            },
+            "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"Creature_Cow-DisplayName\", \"Cow\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/BossMonsters/Icon_Wolf.Icon_Wolf"
         }
     ]
 }

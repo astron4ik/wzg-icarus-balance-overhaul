@@ -854,7 +854,7 @@
                     },
                     "MinimumStack": 20,
                     "MaximumStack": 100,
-                    "Weighting": 1
+                    "Weighting": 2
                 },
                 {
                     "Item": {
@@ -863,7 +863,7 @@
                     },
                     "MinimumStack": 20,
                     "MaximumStack": 200,
-                    "Weighting": 1
+                    "Weighting": 2
                 },
                 {
                     "Item": {
@@ -872,7 +872,7 @@
                     },
                     "MinimumStack": 20,
                     "MaximumStack": 200,
-                    "Weighting": 1
+                    "Weighting": 2
                 },
                 {
                     "Item": {
@@ -881,6 +881,15 @@
                     },
                     "MinimumStack": 100,
                     "MaximumStack": 400,
+                    "Weighting": 2
+                },
+                {
+                    "Item": {
+                        "RowName": "Dirt",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 20,
+                    "MaximumStack": 50,
                     "Weighting": 1
                 }
             ]
@@ -1210,7 +1219,7 @@
                     },
                     "MinimumStack": 2,
                     "MaximumStack": 6,
-                    "Weighting": 1
+                    "Weighting": 2
                 },
                 {
                     "Item": {
@@ -1219,11 +1228,20 @@
                     },
                     "MinimumStack": 2,
                     "MaximumStack": 6,
-                    "Weighting": 1
+                    "Weighting": 2
                 },
                 {
                     "Item": {
                         "RowName": "Lily",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 2,
+                    "MaximumStack": 6,
+                    "Weighting": 2
+                },
+                {
+                    "Item": {
+                        "RowName": "Coconut_young",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "MinimumStack": 2,
@@ -1600,8 +1618,8 @@
                         "RowName": "Condensed_Enzymes",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "MinimumStack": 1,
-                    "MaximumStack": 1,
+                    "MinimumStack": 2,
+                    "MaximumStack": 5,
                     "Weighting": 1
                 }
             ]
@@ -3428,6 +3446,15 @@
                     "MinimumStack": 1,
                     "MaximumStack": 1,
                     "Weighting": 1
+                },
+                {
+                    "Item": {
+                        "RowName": "Dirt",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 20,
+                    "MaximumStack": 40,
+                    "Weighting": 2
                 }
             ]
         },
@@ -3473,7 +3500,7 @@
                     },
                     "MinimumStack": 20,
                     "MaximumStack": 100,
-                    "Weighting": 1
+                    "Weighting": 5
                 },
                 {
                     "Item": {
@@ -3482,6 +3509,15 @@
                     },
                     "MinimumStack": 20,
                     "MaximumStack": 100,
+                    "Weighting": 5
+                },
+                {
+                    "Item": {
+                        "RowName": "Dirt",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 20,
+                    "MaximumStack": 50,
                     "Weighting": 1
                 }
             ]
@@ -4526,6 +4562,15 @@
                     "MinimumStack": 5,
                     "MaximumStack": 10,
                     "Weighting": 1
+                },
+                {
+                    "Item": {
+                        "RowName": "Coconut_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 2,
+                    "MaximumStack": 6,
+                    "Weighting": 1
                 }
             ]
         },
@@ -4539,7 +4584,7 @@
                     },
                     "MinimumStack": 2,
                     "MaximumStack": 6,
-                    "Weighting": 1
+                    "Weighting": 3
                 },
                 {
                     "Item": {
@@ -4548,11 +4593,29 @@
                     },
                     "MinimumStack": 2,
                     "MaximumStack": 6,
-                    "Weighting": 1
+                    "Weighting": 3
                 },
                 {
                     "Item": {
                         "RowName": "Lily_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 2,
+                    "MaximumStack": 6,
+                    "Weighting": 3
+                },
+                {
+                    "Item": {
+                        "RowName": "Coconut_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 2,
+                    "MaximumStack": 6,
+                    "Weighting": 2
+                },
+                {
+                    "Item": {
+                        "RowName": "Bramble_Seed",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "MinimumStack": 2,
@@ -4613,6 +4676,205 @@
                     "MinimumStack": 1,
                     "MaximumStack": 1,
                     "Weighting": 5
+                }
+            ]
+        },
+        {
+            "Name": "Resource_SugarCane",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Sugar_Cane",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 5,
+                    "MaximumStack": 15,
+                    "Weighting": 1
+                }
+            ]
+        },
+        {
+            "Name": "Resource_SugarCane_Seed",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Sugar_Cane_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 5,
+                    "MaximumStack": 10,
+                    "Weighting": 1
+                }
+            ]
+        },
+        {
+            "Name": "Resource_KiwiFruit_Seed",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Kiwi_Fruit_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 5,
+                    "MaximumStack": 10,
+                    "Weighting": 1
+                }
+            ]
+        },
+        {
+            "Name": "Resource_Dirt",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Dirt",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 20,
+                    "MaximumStack": 50,
+                    "Weighting": 1
+                }
+            ]
+        },
+        {
+            "Name": "Resource_KiwiFruit",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Kiwi_Fruit",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 5,
+                    "MaximumStack": 15,
+                    "Weighting": 1
+                }
+            ]
+        },
+        {
+            "Name": "Resource_Seeds_Bramble",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Bramble_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 2,
+                    "MaximumStack": 6,
+                    "Weighting": 1
+                }
+            ]
+        },
+        {
+            "Name": "Misc_Bramble",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Bramble",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 2,
+                    "MaximumStack": 4,
+                    "Weighting": 1
+                }
+            ]
+        },
+        {
+            "Name": "Resource_ArcticSurvival",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Bandage_Heat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 5,
+                    "MaximumStack": 10,
+                    "Weighting": 2
+                },
+                {
+                    "Item": {
+                        "RowName": "Firepit",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 1,
+                    "MaximumStack": 1,
+                    "Weighting": 1
+                }
+            ]
+        },
+        {
+            "Name": "Weapon_Machete",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Machete",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 1,
+                    "MaximumStack": 1,
+                    "Weighting": 1
+                }
+            ]
+        },
+        {
+            "Name": "Resource_Fertilizer",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Basic_Fertilizer",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 5,
+                    "MaximumStack": 10,
+                    "Weighting": 6
+                },
+                {
+                    "Item": {
+                        "RowName": "Quality_Fertilizer",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 4,
+                    "MaximumStack": 8,
+                    "Weighting": 3
+                },
+                {
+                    "Item": {
+                        "RowName": "Resistance_Fertilizer",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 4,
+                    "MaximumStack": 8,
+                    "Weighting": 3
+                },
+                {
+                    "Item": {
+                        "RowName": "Speed_Fertilizer",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 4,
+                    "MaximumStack": 8,
+                    "Weighting": 1
+                },
+                {
+                    "Item": {
+                        "RowName": "Yield_Fertilizer",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 4,
+                    "MaximumStack": 8,
+                    "Weighting": 1
+                }
+            ]
+        },
+        {
+            "Name": "Resource_Salt",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Salt",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "MinimumStack": 50,
+                    "MaximumStack": 200,
+                    "Weighting": 1
                 }
             ]
         }

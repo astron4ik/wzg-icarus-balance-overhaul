@@ -11,8 +11,7 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Cloth_5-Description\", \"Cloth Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseMovementSpeed_+%\")": 10,
-                "(Value=\"BaseExposureResistance_+%\")": 5
+                "(Value=\"BaseMovementSpeed_+%\")": 5
             }
         },
         {
@@ -20,9 +19,8 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Leather_5-Description\", \"Leather Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseMaximumHealth_+\")": 50,
-                "(Value=\"BaseMaximumStamina_+\")": 50,
-                "(Value=\"BaseExposureResistance_+%\")": 15
+                "(Value=\"BaseHealthRegen_+%\")": 10,
+                "(Value=\"BaseStaminaRegen_+%\")": 10
             }
         },
         {
@@ -30,9 +28,7 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Fur_5-Description\", \"Fur Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseColdResistance_%\")": 20,
-                "(Value=\"BaseExposureResistance_+%\")": 15,
-                "(Value=\"BaseArcticExposureResistance_+%\")": 15
+                "(Value=\"BaseArcticExposureResistance_+%\")": 5
             }
         },
         {
@@ -40,9 +36,10 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Ghillie_5-Description\", \"Ghillie Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseAnimalThreatModifier_+%\")": -35,
-                "(Value=\"BaseCrouchSpeed_+%\")": 15,
-                "(Value=\"BaseStaminaRegen_+%\")": 15
+                "(Value=\"BaseSwampAnimalThreatModifier_+%\")": -25,
+                "(Value=\"BaseConiferAnimalThreatModifier_+%\")": -25,
+                "(Value=\"BaseSwampWaterConsumption_+%\")": -10,
+                "(Value=\"BaseConiferOxygenConsumption_+%\")": -10
             }
         },
         {
@@ -50,12 +47,10 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Carbon_5-Description\", \"Naneo Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseWeightCapacity_+%\")": 20,
-                "(Value=\"BaseCollisionDamageResistance_+%\")": 15,
-                "(Value=\"BaseMovementSpeed_+%\")": 15,
-                "(Value=\"BaseExposureResistance_+%\")": 15,
-                "(Value=\"BaseMaximumHealth_+\")": 200,
-                "(Value=\"BaseMaximumStamina_+\")": 200
+                "(Value=\"BaseWeightCapacity_+%\")": 10,
+                "(Value=\"BaseCollisionDamageResistance_+%\")": 10,
+                "(Value=\"BaseStaminaRegen_+%\")": 10,
+                "(Value=\"BaseMaximumStamina_+\")": 10
             }
         },
         {
@@ -63,12 +58,8 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Composite_5-Description\", \"Composite Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseWeightCapacity_+%\")": 25,
-                "(Value=\"BaseCollisionDamageResistance_+%\")": 20,
-                "(Value=\"BaseMovementSpeed_+%\")": 25,
-                "(Value=\"BaseExposureResistance_+%\")": 25,
-                "(Value=\"BaseMaximumHealth_+\")": 250,
-                "(Value=\"BaseMaximumStamina_+\")": 250
+                "(Value=\"BaseHealthRegen_+%\")": 30,
+                "(Value=\"BaseStaminaRegen_+%\")": 30
             }
         },
         {
@@ -76,13 +67,9 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Polarbear_5-Description\", \"Polar Bear Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseMaximumHealth_+\")": 100,
-                "(Value=\"BaseMaximumStamina_+\")": 100,
-                "(Value=\"BaseColdResistance_%\")": 25,
-                "(Value=\"BaseArcticMovementSpeed_+%\")": 15,
-                "(Value=\"BaseExposureResistance_+%\")": 25,
-                "(Value=\"BaseAnimalThreatModifier_+%\")": -25,
-                "(Value=\"BaseArcticExposureResistance_+%\")": 25
+                "(Value=\"BaseArcticMovementSpeed_+%\")": 10,
+                "(Value=\"BaseArcticAnimalThreatModifier_+%\")": -20,
+                "(Value=\"BaseArcticExposureResistance_+%\")": 5
             }
         },
         {
@@ -90,12 +77,11 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Hunter_5-Description\", \"Hunter Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseCrouchSpeed_+%\")": 25,
-                "(Value=\"BaseMovementSpeed_+%\")": 10,
-                "(Value=\"BaseAnimalThreatModifier_+%\")": -20,
-                "(Value=\"BaseExposureResistance_+%\")": 15,
-                "(Value=\"BaseJumpingStaminaActionCost_+%\")": -75,
-                "(Value=\"BaseMaximumStamina_+\")": 150
+                "(Value=\"BaseCrouchSpeed_+%\")": 15,
+                "(Value=\"BaseAnimalThreatModifier_+%\")": -25,
+                "(Value=\"BaseSwampWaterConsumption_+%\")": -10,
+                "(Value=\"BaseConiferFoodConsumption_+%\")": -10,
+                "(Value=\"BaseSwampParasitesResistance_%\")": 50
             }
         },
         {
@@ -103,12 +89,10 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Scale_5-Description\", \"Scale Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseMaximumHealth_+\")": 100,
-                "(Value=\"BaseMaximumStamina_+\")": 100,
-                "(Value=\"BaseExposureResistance_+%\")": 15,
-                "(Value=\"BasePoisonDamageResistance_+%\")": 75,
+                "(Value=\"BasePoisonDamageResistance_+%\")": 25,
                 "(Value=\"BasePoisonModifierDuration_+%\")": -50,
-                "(Value=\"BaseDesertWaterConsumption_+%\")": -75
+                "(Value=\"BaseDesertWaterConsumption_+%\")": -75,
+                "(Value=\"BaseDesertHealthRegen_+%\")": 25
             }
         },
         {
@@ -116,12 +100,10 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Scorpion_5-Description\", \"Scorpion Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseMaximumHealth_+\")": 100,
-                "(Value=\"BaseMaximumStamina_+\")": 100,
-                "(Value=\"BaseProjectileDamageResistance_+%\")": 50,
-                "(Value=\"BaseCollisionDamageResistance_+%\")": 50,
+                "(Value=\"BaseProjectileDamageResistance_+%\")": 20,
+                "(Value=\"BaseCollisionDamageResistance_+%\")": 10,
                 "(Value=\"BaseAnimalThreatModifier_+%\")": 20,
-                "(Value=\"BaseChanceToReturnDamage_%\")": 50,
+                "(Value=\"BaseChanceToReturnDamage_%\")": 40,
                 "(Value=\"BaseDamageReturned_%\")": 20
             }
         },
@@ -131,10 +113,8 @@
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Carbon_Alpha_5-Description\", \"ST-700 Armor Set\")",
             "StatsGranted": {
                 "(Value=\"BaseAnimalThreatModifier_+%\")": -35,
-                "(Value=\"BaseHealthRegenPerMinute_+\")": 60,
-                "(Value=\"BaseMaximumHealth_+\")": 200,
-                "(Value=\"BaseMaximumStamina_+\")": 200,
-                "(Value=\"BaseStealthDamage_+%\")": 75
+                "(Value=\"BaseCrouchSpeed_+%\")": 15,
+                "(Value=\"BaseStealthDamage_+%\")": 15
             }
         },
         {
@@ -142,13 +122,10 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Carbon_Beta_5-Description\", \"CX-400 Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseWeightCapacity_+%\")": 75,
-                "(Value=\"BaseChanceToFellTreeInstantly_%\")": 5,
-                "(Value=\"BaseChanceToMineVoxelInstantly_+%\")": 5,
-                "(Value=\"BaseMaximumHealth_+\")": 200,
-                "(Value=\"BaseMaximumStamina_+\")": 200,
-                "(Value=\"BaseMiningRewards_%\")": 50,
-                "(Value=\"BaseFellingRewards_%\")": 50
+                "(Value=\"BaseChanceToFellTreeInstantly_%\")": 1,
+                "(Value=\"BaseChanceToMineVoxelInstantly_+%\")": 1,
+                "(Value=\"BaseMiningRewards_%\")": 25,
+                "(Value=\"BaseFellingRewards_%\")": 25
             }
         },
         {
@@ -156,11 +133,8 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Advanced_Leather_5-Description\", \"Cured Leather Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseMaximumHealth_+\")": 100,
-                "(Value=\"BaseMaximumStamina_+\")": 100,
-                "(Value=\"BaseExposureResistance_+%\")": 15,
-                "(Value=\"BaseWoundResistance_%\")": 90,
-                "(Value=\"BaseHealthRegenPerMinute_+\")": 20
+                "(Value=\"BaseHealthRegen_+%\")": 20,
+                "(Value=\"BaseStaminaRegen_+%\")": 20
             }
         },
         {
@@ -168,14 +142,8 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Advanced_Cloth_5-Description\", \"Wayfarer Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseMaximumHealth_+\")": 100,
-                "(Value=\"BaseMaximumStamina_+\")": 100,
-                "(Value=\"BaseHeatResistance_%\")": 25,
-                "(Value=\"BaseWeightCapacity_+%\")": 25,
-                "(Value=\"BaseDesertExposureResistance_+%\")": 30,
-                "(Value=\"BaseMovementSpeed_+%\")": 25,
-                "(Value=\"BasePoisonDamageResistance_+%\")": 50,
-                "(Value=\"BaseWaterConsumption_+%\")": -25
+                "(Value=\"BaseDesertExposureResistance_+%\")": 5,
+                "(Value=\"BaseWaterConsumption_+%\")": -10
             }
         },
         {
@@ -202,7 +170,7 @@
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Obsidian_Armor_Set_5-Description\", \"Obsidian Armor Set\")",
             "StatsGranted": {
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 50,
-                "(Value=\"BaseVolcanicExposureResistance_+%\")": 50
+                "(Value=\"BaseVolcanicExposureResistance_+%\")": 20
             }
         },
         {
@@ -210,23 +178,19 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Larkwell_Armor_Alpha-Description\", \"Larkwell Alpha Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseMaximumHealth_+\")": 100,
-                "(Value=\"BaseMaximumStamina_+\")": 100,
-                "(Value=\"BaseWeightCapacity_+%\")": 25,
-                "(Value=\"BaseExposureResistance_+%\")": 25,
-                "(Value=\"BaseSprintSpeed_+%\")": 25,
-                "(Value=\"BaseJumpingStaminaActionCost_+%\")": -75,
-                "(Value=\"BaseStaminaRegen_+%\")": 50
+                "(Value=\"BaseSprintSpeed_+%\")": 10,
+                "(Value=\"BaseJumpingStaminaActionCost_+%\")": -50,
+                "(Value=\"BaseStaminaRegen_+%\")": 25
             }
         },
         {
             "Name": "Larkwell_Armor_Black",
             "RequiredGear": 5,
-            "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Larkwell_Armor_Black-Description\", \"Larkwell Black Armor Set\")",
+            "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Larkwell_Armor_Black-Description\", \"LM Beastmaster\")",
             "StatsGranted": {
-                "(Value=\"BaseWaterConsumption_+%\")": -10,
-                "(Value=\"BasePhysicalTraumaModifierDuration_+%\")": -25,
-                "(Value=\"BaseMeleeDamageResistance_%\")": 20
+                "(Value=\"BaseTamedCreatureMovementSpeed_+%\")": 10,
+                "(Value=\"BaseTamedCreatureMeleeDamage_+%\")": 20,
+                "(Value=\"BaseTamedCreatureHealthRegen_+%\")": 40
             }
         },
         {
@@ -256,6 +220,71 @@
                 "(Value=\"BaseConiferMovementSpeed_+%\")": 5,
                 "(Value=\"BaseAttacksCauseMinorHemorrhage_%\")": 20,
                 "(Value=\"BaseBleedResistance_%\")": 50
+            }
+        },
+        {
+            "Name": "Ape",
+            "RequiredGear": 5,
+            "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Ape-Description\", \"Garganutan Armor Set\")",
+            "StatsGranted": {
+                "(Value=\"BaseAttackSpeed_+%\")": 15,
+                "(Value=\"BaseMeleeDamageResistance_%\")": 15,
+                "(Value=\"BaseWeightCapacity_+%\")": 15
+            }
+        },
+        {
+            "Name": "IceMammoth",
+            "RequiredGear": 5,
+            "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"IceMammoth-Description\", \"Rimetusk Armor Set\")",
+            "StatsGranted": {
+                "(Value=\"BaseArcticHealthRegen_+%\")": 20,
+                "(Value=\"BaseArcticColdResistance_+%\")": 10,
+                "(Value=\"BaseAttacksCauseFreeze_%\")": 15
+            }
+        },
+        {
+            "Name": "Sand",
+            "RequiredGear": 5,
+            "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Sand-Description\", \"Carbonweave Armor Set\")",
+            "StatsGranted": {
+                "(Value=\"BaseDesertMovementSpeed_+%\")": 10,
+                "(Value=\"BaseVolcanicMovementSpeed_+%\")": 10,
+                "(Value=\"BaseDesertAnimalThreatModifier_+%\")": -25,
+                "(Value=\"BaseVolcanicAnimalThreatModifier_+%\")": -25,
+                "(Value=\"BaseDesertExposureResistance_+%\")": 25,
+                "(Value=\"BaseVolcanicExposureResistance_+%\")": 25
+            }
+        },
+        {
+            "Name": "ArcticArmor",
+            "RequiredGear": 5,
+            "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"ArcticArmor-Description\", \"Arctic Survival Armor Set\")",
+            "StatsGranted": {
+                "(Value=\"BaseArcticMovementSpeed_+%\")": 10,
+                "(Value=\"BaseArcticExposureResistance_+%\")": 50,
+                "(Value=\"BaseArcticAnimalThreatModifier_+%\")": -25
+            }
+        },
+        {
+            "Name": "MinerArmor",
+            "RequiredGear": 5,
+            "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"MinerArmor-Description\", \"Dusty Miner Armor Set\")",
+            "StatsGranted": {
+                "(Value=\"BaseCavewormExtraDamage_+%\")": 20,
+                "(Value=\"BaseCaveBatExtraDamage_+%\")": 20,
+                "(Value=\"BaseRockGolemJuvenileExtraDamage_+%\")": 20,
+                "(Value=\"BaseMiningRewards_+%\")": 20
+            }
+        },
+        {
+            "Name": "CavewormScale",
+            "RequiredGear": 5,
+            "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"CavewormScale-Description\", \"Caveworm Armor Set\")",
+            "StatsGranted": {
+                "(Value=\"BaseExposureResistance_+%\")": 10,
+                "(Value=\"BasePneumoniaResistance_%\")": 50,
+                "(Value=\"BaseMiningRewards_+%\")": 15,
+                "(Value=\"BasePoisonDamageResistance_%\")": 25
             }
         }
     ]

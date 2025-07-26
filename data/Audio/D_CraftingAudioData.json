@@ -128,6 +128,10 @@
         {
             "Name": "MedicineBench",
             "RecipeCraftedSound": "/Game/FMOD/Events/UI/Crafting/UI_CRAFT_RECIPE_MEDICINEBENCH.UI_CRAFT_RECIPE_MEDICINEBENCH"
+        },
+        {
+            "Name": "SeedExtractor",
+            "RecipeCraftedSound": "/Game/FMOD/Events/UI/Crafting/UI_CRAFT_RECIPE_SEED_EXTRACTOR.UI_CRAFT_RECIPE_SEED_EXTRACTOR"
         }
     ]
 }

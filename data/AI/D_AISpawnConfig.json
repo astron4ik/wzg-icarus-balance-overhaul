@@ -50,6 +50,26 @@
                             "Value": "ScorpionArctic_Population"
                         }
                     ]
+                },
+                "(Value=\"Juvenile_Rock_Golem\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "Away_From_Dropships"
+                        },
+                        {
+                            "Value": "Quarrite_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Juvenile_Rock_Golem_Arctic\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "Away_From_Dropships"
+                        },
+                        {
+                            "Value": "QuarriteArctic__Population"
+                        }
+                    ]
                 }
             },
             "SpawnMap": "/Game/Heatmaps/Terrain_016_OLY/GT_Terrain016_AISpawnMap.GT_Terrain016_AISpawnMap",
@@ -521,1188 +541,6 @@
                             "Value": "SwampSlug_Population"
                         }
                     ]
-                }
-            },
-            "SpawnMap": "/Game/Heatmaps/Terrain_019_DLC/GT_Terrain019_AISpawnMap.GT_Terrain019_AISpawnMap",
-            "SpawnZones": [
-                {
-                    "Color": {
-                        "B": 70,
-                        "G": 127,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Grasslands_Easy",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 206,
-                        "G": 45,
-                        "R": 149,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Swamp_Medium",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 1,
-                        "G": 73,
-                        "R": 17,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Grasslands_Hard",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 255,
-                        "G": 0,
-                        "R": 196,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Swamp_Easy",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 154,
-                        "G": 84,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Tundra_Leopard",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 91,
-                        "G": 52,
-                        "R": 4,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Arctic_Strikers",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 106,
-                        "R": 127,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Volcanic_Easy",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 154,
-                        "G": 0,
-                        "R": 100,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Swamp_Hard",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 106,
-                        "R": 255,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Lava_Main",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 127,
-                        "G": 19,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Arctic_PolarBears",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 255,
-                        "G": 148,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Tundra_Wolves",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 144,
-                        "G": 255,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Grasslands_Cats",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 95,
-                        "G": 67,
-                        "R": 232,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Lava_Komodo",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 127,
-                        "R": 38,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Grasslands_Mounts",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 51,
-                        "R": 127,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Volcanic_PackAnimals",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 35,
-                        "G": 0,
-                        "R": 208,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Volcanic_LavaRiver",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 22,
-                        "G": 0,
-                        "R": 130,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Lava_Strikers",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 255,
-                        "R": 238,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Volcanic_SulfurPools",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 239,
-                        "G": 206,
-                        "R": 18,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Arctic_Wolves",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 51,
-                        "G": 255,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Grasslands_Bears",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 112,
-                        "G": 35,
-                        "R": 94,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "PRO_Swamp_Easy",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                }
-            ]
-        },
-        {
-            "Name": "Styx_C_Extermination",
-            "AISpawnRules": {
-                "(Value=\"Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "Bear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Polar_Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "PolarBear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Arctic\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothArctic_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Desert\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothDesert_Population"
-                        }
-                    ]
-                }
-            },
-            "SpawnMap": "/Game/Heatmaps/Terrain_017_STYX/GT_Terrain017_AISpawnMap.GT_Terrain017_AISpawnMap",
-            "SpawnZones": [
-                {
-                    "Color": {
-                        "B": 144,
-                        "G": 255,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Conifer_Hard",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 70,
-                        "G": 127,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Conifer_Super_Hard",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 255,
-                        "R": 76,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Conifer_Easy",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 127,
-                        "R": 38,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Conifer_Medium",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 229,
-                        "R": 255,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Desert_Easy",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 106,
-                        "R": 127,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Desert_Medium",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 106,
-                        "R": 255,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Desert_C_Extermination",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 51,
-                        "R": 127,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Desert_C_Extermination",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 255,
-                        "G": 148,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "Arctic_Transition_Easy",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 127,
-                        "G": 74,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "Arctic_Transition_Hard",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 255,
-                        "G": 38,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "Arctic_Bear_Easy",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 127,
-                        "G": 19,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "Arctic_Bear_Hard",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 29,
-                        "R": 72,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Desert_Super_Hard_Crocs",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 68,
-                        "R": 82,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Desert_Medium_Crocs",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 78,
-                        "R": 23,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Conifer_Medium_Crocs",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 34,
-                        "G": 62,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Conifer_Super_Hard_Crocs",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                }
-            ]
-        },
-        {
-            "Name": "Outpost_Forest",
-            "AISpawnRules": {
-                "(Value=\"Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "Bear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Polar_Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "PolarBear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Arctic\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothArctic_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Desert\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothDesert_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Scorpion_Arctic\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "ScorpionArctic_Population"
-                        }
-                    ]
-                }
-            },
-            "SpawnMap": "/Game/Heatmaps/Generic/GT_Generic_Bounds_Full.GT_Generic_Bounds_Full",
-            "SpawnZones": [
-                {
-                    "Color": {
-                        "B": 111,
-                        "G": 255,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "Outpost_Forest_Full",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                }
-            ]
-        },
-        {
-            "Name": "Outpost_Arctic",
-            "AISpawnRules": {
-                "(Value=\"Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "Bear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Polar_Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "PolarBear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Arctic\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothArctic_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Desert\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothDesert_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Scorpion_Arctic\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "ScorpionArctic_Population"
-                        }
-                    ]
-                }
-            },
-            "SpawnMap": "/Game/Heatmaps/Generic/GT_Generic_Bounds_Full.GT_Generic_Bounds_Full",
-            "SpawnZones": [
-                {
-                    "Color": {
-                        "B": 111,
-                        "G": 255,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "Outpost_Arctic_Full",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                }
-            ]
-        },
-        {
-            "Name": "Outpost_Desert",
-            "AISpawnRules": {
-                "(Value=\"Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "Bear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Polar_Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "PolarBear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Arctic\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothArctic_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Desert\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothDesert_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Scorpion_Arctic\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "ScorpionArctic_Population"
-                        }
-                    ]
-                }
-            },
-            "SpawnMap": "/Game/Heatmaps/Generic/GT_Generic_Bounds_Full.GT_Generic_Bounds_Full",
-            "SpawnZones": [
-                {
-                    "Color": {
-                        "B": 111,
-                        "G": 255,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "Outpost_Desert_Full",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                }
-            ]
-        },
-        {
-            "Name": "Desert_Research_IncreasedScorpions",
-            "AISpawnRules": {
-                "(Value=\"Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "Bear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Polar_Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "PolarBear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Arctic\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothArctic_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Desert\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothDesert_Population"
-                        }
-                    ]
-                }
-            },
-            "SpawnMap": "/Game/Heatmaps/Terrain_016_OLY/GT_Terrain016_AISpawnMap.GT_Terrain016_AISpawnMap",
-            "SpawnZones": [
-                {
-                    "Color": {
-                        "B": 144,
-                        "G": 255,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "OLY_Conifer_Hard",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 70,
-                        "G": 127,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "OLY_Conifer_Super_Hard",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 255,
-                        "R": 76,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "OLY_Conifer_Easy",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 127,
-                        "R": 38,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "OLY_Conifer_Medium",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 229,
-                        "R": 255,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "Desert_IncreasedScorpions",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 106,
-                        "R": 127,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "Desert_Medium_IncreasedScorpions",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 106,
-                        "R": 255,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "OLY_Desert_Hard",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 51,
-                        "R": 127,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "OLY_Desert_Super_Hard",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 255,
-                        "G": 148,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "Arctic_Transition_Easy",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 127,
-                        "G": 74,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "Arctic_Transition_Hard",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 255,
-                        "G": 38,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "Arctic_Bear_Easy",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 127,
-                        "G": 19,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "Arctic_Bear_Hard",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                }
-            ]
-        },
-        {
-            "Name": "Styx_IncreasedLions",
-            "AISpawnRules": {
-                "(Value=\"Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "Bear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Polar_Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "PolarBear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Arctic\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothArctic_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Desert\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothDesert_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Scorpion_Arctic\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "ScorpionArctic_Population"
-                        }
-                    ]
-                }
-            },
-            "SpawnMap": "/Game/Heatmaps/Terrain_017_STYX/GT_Terrain017_AISpawnMap.GT_Terrain017_AISpawnMap",
-            "SpawnZones": [
-                {
-                    "Color": {
-                        "B": 144,
-                        "G": 255,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Conifer_Hard",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 70,
-                        "G": 127,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Conifer_Super_Hard",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 255,
-                        "R": 76,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Conifer_Easy",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 127,
-                        "R": 38,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Conifer_Medium",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 229,
-                        "R": 255,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Desert_Easy",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 106,
-                        "R": 127,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Desert_Medium",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 106,
-                        "R": 255,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Desert_C_Extermination",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 51,
-                        "R": 127,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Desert_Super_Hard",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 255,
-                        "G": 148,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Arctic_Easy",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 127,
-                        "G": 74,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Arctic_Hard",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 255,
-                        "G": 38,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Arctic_Bear_Easy",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 127,
-                        "G": 19,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "Arctic_Bear_Hard",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 29,
-                        "R": 72,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Desert_Super_Hard_Crocs",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 68,
-                        "R": 82,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Desert_Medium_Crocs",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 0,
-                        "G": 78,
-                        "R": 23,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Conifer_Medium_Crocs",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                },
-                {
-                    "Color": {
-                        "B": 34,
-                        "G": 62,
-                        "R": 0,
-                        "A": 255
-                    },
-                    "SpawnZone": {
-                        "RowName": "STYX_Conifer_Super_Hard_Crocs",
-                        "DataTableName": "D_AISpawnZones"
-                    }
-                }
-            ]
-        },
-        {
-            "Name": "Prometheus_V2",
-            "AISpawnRules": {
-                "(Value=\"Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "Bear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Polar_Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "PolarBear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Arctic\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothArctic_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Desert\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothDesert_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Snow_Striker\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "SnowStriker_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Desert_Striker\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "DesertStriker_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Crocodile\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "PRO_Croc_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Rock_Dog\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "RockDog_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Swamp_Slug\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "SwampSlug_Population"
-                        }
-                    ]
                 },
                 "(Value=\"Needler\")": {
                     "SpawnRules": [
@@ -1730,9 +568,16 @@
                             "Value": "PRO_Croc_Population_Grasslands"
                         }
                     ]
+                },
+                "(Value=\"Mammoth_IceWorldSpawn_Rimetusk\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "Rimetusk_Population"
+                        }
+                    ]
                 }
             },
-            "SpawnMap": "/Game/Heatmaps/Terrain_019_DLC/GT_Terrain019_AISpawnMap_V2.GT_Terrain019_AISpawnMap_V2",
+            "SpawnMap": "/Game/Heatmaps/Terrain_019_DLC/GT_Terrain019_AISpawnMap.GT_Terrain019_AISpawnMap",
             "SpawnZones": [
                 {
                     "Color": {
@@ -3147,6 +1992,941 @@
                     },
                     "SpawnZone": {
                         "RowName": "PRO_Ashlands_Red_1",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Styx_C_Extermination",
+            "AISpawnRules": {
+                "(Value=\"Bear\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "Away_From_Dropships"
+                        },
+                        {
+                            "Value": "Bear_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Polar_Bear\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "Away_From_Dropships"
+                        },
+                        {
+                            "Value": "PolarBear_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Mammoth_Arctic\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "MammothArctic_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Mammoth_Desert\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "MammothDesert_Population"
+                        }
+                    ]
+                }
+            },
+            "SpawnMap": "/Game/Heatmaps/Terrain_017_STYX/GT_Terrain017_AISpawnMap.GT_Terrain017_AISpawnMap",
+            "SpawnZones": [
+                {
+                    "Color": {
+                        "B": 144,
+                        "G": 255,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Conifer_Hard",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 70,
+                        "G": 127,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Conifer_Super_Hard",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 255,
+                        "R": 76,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Conifer_Easy",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 127,
+                        "R": 38,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Conifer_Medium",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 229,
+                        "R": 255,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Desert_Easy",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 106,
+                        "R": 127,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Desert_Medium",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 106,
+                        "R": 255,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Desert_C_Extermination",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 51,
+                        "R": 127,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Desert_C_Extermination",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 255,
+                        "G": 148,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "Arctic_Transition_Easy",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 127,
+                        "G": 74,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "Arctic_Transition_Hard",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 255,
+                        "G": 38,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "Arctic_Bear_Easy",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 127,
+                        "G": 19,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "Arctic_Bear_Hard",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 29,
+                        "R": 72,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Desert_Super_Hard_Crocs",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 68,
+                        "R": 82,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Desert_Medium_Crocs",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 78,
+                        "R": 23,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Conifer_Medium_Crocs",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 34,
+                        "G": 62,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Conifer_Super_Hard_Crocs",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Outpost_Forest",
+            "AISpawnRules": {
+                "(Value=\"Bear\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "Away_From_Dropships"
+                        },
+                        {
+                            "Value": "Bear_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Polar_Bear\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "Away_From_Dropships"
+                        },
+                        {
+                            "Value": "PolarBear_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Mammoth_Arctic\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "MammothArctic_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Mammoth_Desert\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "MammothDesert_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Scorpion_Arctic\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "ScorpionArctic_Population"
+                        }
+                    ]
+                }
+            },
+            "SpawnMap": "/Game/Heatmaps/Generic/GT_Generic_Bounds_Full.GT_Generic_Bounds_Full",
+            "SpawnZones": [
+                {
+                    "Color": {
+                        "B": 111,
+                        "G": 255,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "Outpost_Forest_Full",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                }
+            ],
+            "TerrainAutonomousSpawners": [
+                {
+                    "RowName": "Spider_Nest",
+                    "DataTableName": "D_AutonomousSpawns"
+                }
+            ]
+        },
+        {
+            "Name": "Outpost_Arctic",
+            "AISpawnRules": {
+                "(Value=\"Bear\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "Away_From_Dropships"
+                        },
+                        {
+                            "Value": "Bear_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Polar_Bear\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "Away_From_Dropships"
+                        },
+                        {
+                            "Value": "PolarBear_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Mammoth_Arctic\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "MammothArctic_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Mammoth_Desert\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "MammothDesert_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Scorpion_Arctic\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "ScorpionArctic_Population"
+                        }
+                    ]
+                }
+            },
+            "SpawnMap": "/Game/Heatmaps/Generic/GT_Generic_Bounds_Full.GT_Generic_Bounds_Full",
+            "SpawnZones": [
+                {
+                    "Color": {
+                        "B": 111,
+                        "G": 255,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "Outpost_Arctic_Full",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Outpost_Desert",
+            "AISpawnRules": {
+                "(Value=\"Bear\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "Away_From_Dropships"
+                        },
+                        {
+                            "Value": "Bear_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Polar_Bear\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "Away_From_Dropships"
+                        },
+                        {
+                            "Value": "PolarBear_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Mammoth_Arctic\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "MammothArctic_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Mammoth_Desert\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "MammothDesert_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Scorpion_Arctic\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "ScorpionArctic_Population"
+                        }
+                    ]
+                }
+            },
+            "SpawnMap": "/Game/Heatmaps/Generic/GT_Generic_Bounds_Full.GT_Generic_Bounds_Full",
+            "SpawnZones": [
+                {
+                    "Color": {
+                        "B": 111,
+                        "G": 255,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "Outpost_Desert_Full",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Desert_Research_IncreasedScorpions",
+            "AISpawnRules": {
+                "(Value=\"Bear\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "Away_From_Dropships"
+                        },
+                        {
+                            "Value": "Bear_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Polar_Bear\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "Away_From_Dropships"
+                        },
+                        {
+                            "Value": "PolarBear_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Mammoth_Arctic\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "MammothArctic_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Mammoth_Desert\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "MammothDesert_Population"
+                        }
+                    ]
+                }
+            },
+            "SpawnMap": "/Game/Heatmaps/Terrain_016_OLY/GT_Terrain016_AISpawnMap.GT_Terrain016_AISpawnMap",
+            "SpawnZones": [
+                {
+                    "Color": {
+                        "B": 144,
+                        "G": 255,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "OLY_Conifer_Hard",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 70,
+                        "G": 127,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "OLY_Conifer_Super_Hard",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 255,
+                        "R": 76,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "OLY_Conifer_Easy",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 127,
+                        "R": 38,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "OLY_Conifer_Medium",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 229,
+                        "R": 255,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "Desert_IncreasedScorpions",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 106,
+                        "R": 127,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "Desert_Medium_IncreasedScorpions",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 106,
+                        "R": 255,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "OLY_Desert_Hard",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 51,
+                        "R": 127,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "OLY_Desert_Super_Hard",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 255,
+                        "G": 148,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "Arctic_Transition_Easy",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 127,
+                        "G": 74,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "Arctic_Transition_Hard",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 255,
+                        "G": 38,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "Arctic_Bear_Easy",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 127,
+                        "G": 19,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "Arctic_Bear_Hard",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Styx_IncreasedLions",
+            "AISpawnRules": {
+                "(Value=\"Bear\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "Away_From_Dropships"
+                        },
+                        {
+                            "Value": "Bear_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Polar_Bear\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "Away_From_Dropships"
+                        },
+                        {
+                            "Value": "PolarBear_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Mammoth_Arctic\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "MammothArctic_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Mammoth_Desert\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "MammothDesert_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Scorpion_Arctic\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "ScorpionArctic_Population"
+                        }
+                    ]
+                }
+            },
+            "SpawnMap": "/Game/Heatmaps/Terrain_017_STYX/GT_Terrain017_AISpawnMap.GT_Terrain017_AISpawnMap",
+            "SpawnZones": [
+                {
+                    "Color": {
+                        "B": 144,
+                        "G": 255,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Conifer_Hard",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 70,
+                        "G": 127,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Conifer_Super_Hard",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 255,
+                        "R": 76,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Conifer_Easy",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 127,
+                        "R": 38,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Conifer_Medium",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 229,
+                        "R": 255,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Desert_Easy",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 106,
+                        "R": 127,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Desert_Medium",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 106,
+                        "R": 255,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Desert_C_Extermination",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 51,
+                        "R": 127,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Desert_Super_Hard",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 255,
+                        "G": 148,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Arctic_Easy",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 127,
+                        "G": 74,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Arctic_Hard",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 255,
+                        "G": 38,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Arctic_Bear_Easy",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 127,
+                        "G": 19,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "Arctic_Bear_Hard",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 29,
+                        "R": 72,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Desert_Super_Hard_Crocs",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 68,
+                        "R": 82,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Desert_Medium_Crocs",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 78,
+                        "R": 23,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Conifer_Medium_Crocs",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 34,
+                        "G": 62,
+                        "R": 0,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "STYX_Conifer_Super_Hard_Crocs",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Outpost_009",
+            "AISpawnRules": {
+                "(Value=\"Bear\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "Away_From_Dropships"
+                        },
+                        {
+                            "Value": "Bear_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Polar_Bear\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "Away_From_Dropships"
+                        },
+                        {
+                            "Value": "PolarBear_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Mammoth_Arctic\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "MammothArctic_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Mammoth_Desert\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "MammothDesert_Population"
+                        }
+                    ]
+                },
+                "(Value=\"Scorpion_Arctic\")": {
+                    "SpawnRules": [
+                        {
+                            "Value": "ScorpionArctic_Population"
+                        }
+                    ]
+                }
+            },
+            "SpawnMap": "/Game/Heatmaps/Outpost_009/GT_Outpost009_Biome.GT_Outpost009_Biome",
+            "SpawnZones": [
+                {
+                    "Color": {
+                        "B": 25,
+                        "G": 129,
+                        "R": 126,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "Outpost_Tundra",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 254,
+                        "G": 248,
+                        "R": 3,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "Outpost_Arctic_Full",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 0,
+                        "G": 0,
+                        "R": 91,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "Outpost_009_Volcano",
                         "DataTableName": "D_AISpawnZones"
                     }
                 }

@@ -8,7 +8,8 @@
         "InteractStaminaCost": {
             "RowName": "None",
             "DataTableName": "D_StaminaActionCosts"
-        }
+        },
+        "bShowInteractionWhenUnavailable": false
     },
     "Rows": [
         {
@@ -278,7 +279,7 @@
         {
             "Name": "Faction_Satellite_Interact",
             "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_SatelliteAccessInventory.BP_Interactable_Interact_SatelliteAccessInventory_C",
-            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Faction_Satellite_Interact-InteractionText\", \"Acess Inventory\")"
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Faction_Satellite_Interact-InteractionText\", \"Access Inventory\")"
         },
         {
             "Name": "Faction_Laser_Interact",
@@ -299,11 +300,6 @@
             "Name": "Interact_Rock_Formation",
             "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_WorldObject.BP_Interactable_WorldObject_C",
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Rock_Formation-InteractionText\", \"Try and Touch\")"
-        },
-        {
-            "Name": "Interact_Scorpion_Trap",
-            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Scorpion_Trap.BP_Interactable_Interact_Scorpion_Trap_C",
-            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Scorpion_Trap-InteractionText\", \"Reset Trap\")"
         },
         {
             "Name": "Faction_Prototype_Laser_Interact",
@@ -586,6 +582,205 @@
             "Name": "Interact_ManageWhitelist",
             "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_ManageWhitelist.BP_Interactable_ManageWhitelist_C",
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_ManageWhitelist-InteractionText\", \"Manage Allowlist\")"
+        },
+        {
+            "Name": "Water_Source_Drink",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Water_Purifier_Drink.BP_Interactable_Water_Purifier_Drink_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Water_Source_Drink-InteractionText\", \"Drink\")"
+        },
+        {
+            "Name": "Fill_Water_Storage",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Fill_Water_Trough.BP_Interactable_Fill_Water_Trough_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Fill_Water_Storage-InteractionText\", \"Fill Water Storage\")"
+        },
+        {
+            "Name": "Fill_Object_Water",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Fill_Water.BP_Interactable_Fill_Water_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Fill_Object_Water-InteractionText\", \"Fill with Water\")"
+        },
+        {
+            "Name": "Fill_Object_Fuel",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Fill_Fuel.BP_Interactable_Fill_Fuel_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Fill_Object_Fuel-InteractionText\", \"Fill with Biofuel\")"
+        },
+        {
+            "Name": "Collect_Object_Fuel",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Fill_Fuel.BP_Interactable_Fill_Fuel_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Collect_Object_Fuel-InteractionText\", \"Fill Container\")"
+        },
+        {
+            "Name": "Interact_NPC",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_NPC.BP_Interactable_NPC_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_NPC-InteractionText\", \"Speak\")"
+        },
+        {
+            "Name": "Interact_Medical_Scan",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_HEALScan.BP_Interactable_HEALScan_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Medical_Scan-InteractionText\", \"Scan\")"
+        },
+        {
+            "Name": "Interact_Stasis_Bag",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Stasis_Bag.BP_Interactable_Stasis_Bag_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Stasis_Bag-InteractionText\", \"Place In Stasis Bag\")"
+        },
+        {
+            "Name": "Interact_Stasis_Bag_Stabalized",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Stasis_Bag_Stabalized.BP_Interactable_Stasis_Bag_Stabalized_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Stasis_Bag_Stabalized-InteractionText\", \"Place In Stasis Bag\")"
+        },
+        {
+            "Name": "Interact_WorldObject_Read",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_WorldObject.BP_Interactable_WorldObject_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_WorldObject_Read-InteractionText\", \"Read\")"
+        },
+        {
+            "Name": "Interact_Teleport",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Teleport.BP_Interactable_Teleport_C",
+            "InteractCooldown": 2,
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Teleport-InteractionText\", \"Enter\")",
+            "bShowInteractionWhenUnavailable": true
+        },
+        {
+            "Name": "Interact_NPC_Mission",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_NPC_Mission.BP_Interactable_NPC_Mission_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_NPC_Mission-InteractionText\", \"Ask about Missions\")"
+        },
+        {
+            "Name": "Interact_Place_Extinguisher",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Add_Extinguisher.BP_Interactable_Add_Extinguisher_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Place_Extinguisher-InteractionText\", \"Place Fire Extinguisher\")"
+        },
+        {
+            "Name": "Interact_Take_Extinguisher",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Take_Extinguisher.BP_Interactable_Take_Extinguisher_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Take_Extinguisher-InteractionText\", \"Take Fire Extinguisher\")"
+        },
+        {
+            "Name": "Interact_DestroyActor",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_DestroyActor.BP_Interactable_DestroyActor_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_DestroyActor-InteractionText\", \"Destroy Object\")"
+        },
+        {
+            "Name": "Interact_Fill_Container_Biofuel",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Fill_Container_Biofuel.BP_Interactable_Fill_Container_Biofuel_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Fill_Container_Biofuel-InteractionText\", \"Fill Container\")"
+        },
+        {
+            "Name": "Interact_Birth",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Birth.BP_Interactable_Birth_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Birth-InteractionText\", \"Help Give Birth\")"
+        },
+        {
+            "Name": "Interact_Cake",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Cake.BP_Interactable_Interact_Cake_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Cake-InteractionText\", \"Take Piece\")"
+        },
+        {
+            "Name": "Interact_Loot_Boss",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Loot_Boss.BP_Interactable_Loot_Boss_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Loot_Boss-InteractionText\", \"Loot Carcass\")"
+        },
+        {
+            "Name": "Interact_MilkCow",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Milk.BP_Interactable_Milk_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_MilkCow-InteractionText\", \"Milk\")"
+        },
+        {
+            "Name": "Interact_SnareTrap",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_SnareTrap_Reset.BP_Interactable_SnareTrap_Reset_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_SnareTrap-InteractionText\", \"Reset Trap\")"
+        },
+        {
+            "Name": "Interact_WorldObject_Destroy",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_WorldObject.BP_Interactable_WorldObject_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_WorldObject_Destroy-InteractionText\", \"Interact\")"
+        },
+        {
+            "Name": "Interact_Teleport_Leave",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Teleport.BP_Interactable_Teleport_C",
+            "InteractCooldown": 2,
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Teleport_Leave-InteractionText\", \"Leave\")",
+            "bShowInteractionWhenUnavailable": true
+        },
+        {
+            "Name": "Interact_SwapArmour",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_SwapArmour.BP_Interactable_SwapArmour_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_SwapArmour-InteractionText\", \"Swap Armor\")"
+        },
+        {
+            "Name": "Interact_Vesper_Cage",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Vesper_Cage.BP_Interactable_Vesper_Cage_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Vesper_Cage-InteractionText\", \"Place In Vesper Cage\")"
+        },
+        {
+            "Name": "Interact_Infect_Vesper",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Trap_InfectVesper.BP_Interactable_Interact_Trap_InfectVesper_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Infect_Vesper-InteractionText\", \"Infect Vesper\")"
+        },
+        {
+            "Name": "Interact_Release_Vesper",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Trap_Release_Vesper.BP_Interactable_Interact_Trap_Release_Vesper_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Release_Vesper-InteractionText\", \"Release Vesper\")"
+        },
+        {
+            "Name": "Interact_Deployable_EditorOnly",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Deployable_EditorOnly.BP_Interactable_Interact_Deployable_EditorOnly_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Deployable_EditorOnly-InteractionText\", \"Interact\")"
+        },
+        {
+            "Name": "Pickup_Deployable_EditorOnly",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Pickup_Deployable_EditoryOnly.BP_Interactable_Pickup_Deployable_EditoryOnly_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Pickup_Deployable_EditorOnly-InteractionText\", \"Pickup\")"
+        },
+        {
+            "Name": "Interact_NPC_Inventory",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_NPC_Inventory.BP_Interactable_NPC_Inventory_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_NPC_Inventory-InteractionText\", \"Take Items\")"
+        },
+        {
+            "Name": "Interact_Shackle",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Shackle.BP_Interactable_Shackle_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Shackle-InteractionText\", \"Shackle\")"
+        },
+        {
+            "Name": "Interact_Mission_DNA_Extract",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Mission_DNA_Extraction.BP_Interactable_Interact_Mission_DNA_Extraction_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Mission_DNA_Extract-InteractionText\", \"Extract Sample\")"
+        },
+        {
+            "Name": "Interact_Mission_DNA_Chemical",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Mission_DNA_Extraction.BP_Interactable_Interact_Mission_DNA_Extraction_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Mission_DNA_Chemical-InteractionText\", \"Add Chemical\")"
+        },
+        {
+            "Name": "Interact_Mission_DNA_Weigh",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Mission_DNA_Extraction.BP_Interactable_Interact_Mission_DNA_Extraction_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Mission_DNA_Weigh-InteractionText\", \"Weigh\")"
+        },
+        {
+            "Name": "Interact_Mission_DNA_Analyze",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Mission_DNA_Extraction.BP_Interactable_Interact_Mission_DNA_Extraction_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Mission_DNA_Analyze-InteractionText\", \"Analyse\")"
+        },
+        {
+            "Name": "Interact_Mission_DNA_Mix",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Mission_DNA_Extraction.BP_Interactable_Interact_Mission_DNA_Extraction_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Mission_DNA_Mix-InteractionText\", \"Mix\")"
+        },
+        {
+            "Name": "Interact_Mission_DNA_Seperate",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Mission_DNA_Extraction.BP_Interactable_Interact_Mission_DNA_Extraction_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Mission_DNA_Seperate-InteractionText\", \"Seperate Components\")"
+        },
+        {
+            "Name": "Interact_Mission_DNA_Confirm",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Mission_DNA_Extraction.BP_Interactable_Interact_Mission_DNA_Extraction_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Mission_DNA_Confirm-InteractionText\", \"Confirm Sample\")"
+        },
+        {
+            "Name": "Interact_Mission_DNA_Gather",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Mission_DNA_Extract.BP_Interactable_Interact_Mission_DNA_Extract_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Mission_DNA_Gather-InteractionText\", \"Extract Tissue Sample\")"
         }
     ]
 }

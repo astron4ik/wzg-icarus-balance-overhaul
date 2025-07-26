@@ -22,13 +22,16 @@
     "Rows": [
         {
             "Name": "Credits",
-            "DisplayName": "INVTEXT(\"[DNT] Ren\")",
+            "DisplayName": "NSLOCTEXT(\"D_MetaCurrency\", \"Credits-DisplayName\", \"Ren\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_RenCurrency.Icon_RenCurrency",
             "Color": {
                 "B": 68,
                 "G": 201,
                 "R": 248,
                 "A": 255
+            },
+            "ItemStaticData": {
+                "RowName": "Ren"
             },
             "DecoratorText": "Ren",
             "DecoratorImage": "Ren",
@@ -84,6 +87,65 @@
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Biomass",
+            "DisplayName": "NSLOCTEXT(\"D_MetaCurrency\", \"Biomass-DisplayName\", \"Legendary Biomass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Biomass.T_ICON_Biomass",
+            "Color": {
+                "B": 101,
+                "G": 165,
+                "A": 255
+            },
+            "ItemStaticData": {
+                "RowName": "Biomass"
+            },
+            "DecoratorText": "Biomass",
+            "DecoratorImage": "Biomass",
+            "bDisplayOnMainScreen": true,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Licence",
+            "DisplayName": "NSLOCTEXT(\"D_MetaCurrency\", \"Licence-DisplayName\", \"Legendary Licence\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Licence.T_ICON_Licence",
+            "Color": {
+                "B": 255,
+                "G": 243,
+                "A": 255
+            },
+            "ItemStaticData": {
+                "RowName": "Licence"
+            },
+            "DecoratorText": "Licence",
+            "DecoratorImage": "Licence",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "Biomass_Converter",
+            "DisplayName": "NSLOCTEXT(\"D_MetaCurrency\", \"Biomass_Converter-DisplayName\", \"Flux\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/Currency/T_ICON_CURRENCY_NOREX.T_ICON_CURRENCY_NOREX",
+            "Color": {
+                "B": 45,
+                "G": 45,
+                "R": 183,
+                "A": 255
+            },
+            "DecoratorText": "Flux",
+            "DecoratorImage": "Flux",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
                 }
             }
         }

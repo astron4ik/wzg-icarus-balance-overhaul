@@ -65,6 +65,11 @@
             "Name": "Empty_Container",
             "DescriptionText": "NSLOCTEXT(\"D_Uses\", \"Empty_Container-DescriptionText\", \"Empty Container\")",
             "Image": "/Game/Assets/2DArt/UI/Icons/T_ICON_WaterStorage.T_ICON_WaterStorage"
+        },
+        {
+            "Name": "Read",
+            "DescriptionText": "NSLOCTEXT(\"D_Uses\", \"Read-DescriptionText\", \"Read\")",
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note"
         }
     ]
 }

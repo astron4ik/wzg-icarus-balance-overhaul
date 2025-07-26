@@ -101,6 +101,15 @@
         "Severity_HailStart": 0,
         "Severity_HailEnd": 0,
         "Curve_HailRain": "None",
+        "bEnableVisuals_FogColor": false,
+        "Severity_FogColorStart": 0,
+        "Severity_FogColorEnd": 0,
+        "FogColorLinear": {
+            "R": 0,
+            "G": 0,
+            "B": 0,
+            "A": 0
+        },
         "bEnableVisuals_FogDensity": false,
         "Severity_FogDensityStart": 0,
         "Severity_FogDensityEnd": 0,
@@ -109,6 +118,10 @@
         "Severity_FogExtinctionStart": 0,
         "Severity_FogExtinctionEnd": 0,
         "Curve_FogExtinction": "None",
+        "bEnableVisuals_Whiteout": false,
+        "Severity_WhiteoutStart": 0,
+        "Severity_WhiteoutEnd": 0,
+        "Curve_Whiteout": "None",
         "bEnableDamageTag": false,
         "Curve_DamageTag": "None",
         "DamageTag_Intensity": 0,
@@ -20586,6 +20599,3167 @@
             "FireExtinguish_RollChanceMulti": 0.30000001192092896,
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4
+        },
+        {
+            "Name": "T0_Volcanic_VolcWinter_Start",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/T_icon-weather-Volcanic-HeavyAsh-start-stop.T_icon-weather-Volcanic-HeavyAsh-start-stop",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.75,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.4000000059604645,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Debris.C_Weather_Debris",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -400,
+            "Perception_Percentage": -10,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.44999998807907104,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableVisuals_Ash": true,
+            "Severity_AshEnd": 0.699999988079071,
+            "Curve_Ash": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Ash.C_Weather_Ash",
+            "bEnableVisuals_Smoke": true,
+            "Severity_SmokeEnd": 0.5,
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityEnd": 0.4000000059604645,
+            "bEnableVisuals_FogExtinction": true,
+            "Severity_FogExtinctionStart": 0.5,
+            "Severity_FogExtinctionEnd": 1,
+            "bEnableProcessorClog": true,
+            "Curve_ProcessorClog": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Rain.C_Weather_Rain"
+        },
+        {
+            "Name": "T0_Volcanic_VolcWinter_Body",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/T_icon-weather-Volcanic-HeavyAsh-body.T_icon-weather-Volcanic-HeavyAsh-body",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.992156982421875,
+                    "G": 0.6313729882240295,
+                    "B": 0.137254998087883,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 1,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 10
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 7
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 5
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 2
+                }
+            },
+            "Damage_Deployables_MinInterval": 4,
+            "Damage_Deployables_MaxInterval": 6,
+            "Damage_Deployables_Intensity": 0.5,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableProcessorClog": true,
+            "Curve_ProcessorClog": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Flat_Top.C_Weather_Flat_Top"
+        },
+        {
+            "Name": "T0_Volcanic_VolcWinter_Chaos",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/T_icon-weather-Volcanic-HeavyAsh-chaos.T_icon-weather-Volcanic-HeavyAsh-chaos",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.5764709711074829,
+                    "G": 0.007842999882996082,
+                    "B": 0,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 2,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 20
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 15
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 10
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 5
+                }
+            },
+            "StormTier": 1,
+            "StormWindDamagePeriod": 12,
+            "Damage_Deployables_MinInterval": 4,
+            "Damage_Deployables_MaxInterval": 6,
+            "Damage_Deployables_Intensity": 0.5,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableProcessorClog": true,
+            "Curve_ProcessorClog": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Flat_Top.C_Weather_Flat_Top"
+        },
+        {
+            "Name": "T0_Volcanic_VolcWinter_Stop",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/T_icon-weather-Volcanic-HeavyAsh-start-stop.T_icon-weather-Volcanic-HeavyAsh-start-stop",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 5
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 4
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 2
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 1
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.75,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.4000000059604645,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Debris.C_Weather_Debris",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -400,
+            "Perception_Percentage": -10,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.44999998807907104,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableVisuals_Ash": true,
+            "Severity_AshEnd": 0.699999988079071,
+            "Curve_Ash": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Ash.C_Weather_Ash",
+            "bEnableVisuals_Smoke": true,
+            "Severity_SmokeEnd": 0.5,
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityEnd": 0.4000000059604645,
+            "bEnableVisuals_FogExtinction": true,
+            "Severity_FogExtinctionStart": 0.5,
+            "Severity_FogExtinctionEnd": 1,
+            "bEnableProcessorClog": true,
+            "Curve_ProcessorClog": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Rain.C_Weather_Rain"
+        },
+        {
+            "Name": "T1_Volcanic_VolcWinter_Start",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/T_icon-weather-Volcanic-HeavyAsh-start-stop.T_icon-weather-Volcanic-HeavyAsh-start-stop",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.800000011920929,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.44999998807907104,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Debris.C_Weather_Debris",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -1200,
+            "Perception_Percentage": -10,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.5,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableVisuals_Ash": true,
+            "Severity_AshEnd": 0.800000011920929,
+            "Curve_Ash": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Ash.C_Weather_Ash",
+            "bEnableVisuals_Smoke": true,
+            "Severity_SmokeEnd": 0.5,
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityEnd": 0.44999998807907104,
+            "bEnableVisuals_FogExtinction": true,
+            "Severity_FogExtinctionStart": 0.5,
+            "Severity_FogExtinctionEnd": 1,
+            "bEnableProcessorClog": true,
+            "Curve_ProcessorClog": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Rain.C_Weather_Rain"
+        },
+        {
+            "Name": "T1_Volcanic_VolcWinter_Body",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/T_icon-weather-Volcanic-HeavyAsh-body.T_icon-weather-Volcanic-HeavyAsh-body",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.992156982421875,
+                    "G": 0.6313729882240295,
+                    "B": 0.137254998087883,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 1,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 20
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 15
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 10
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 5
+                }
+            },
+            "StormTier": 0.5,
+            "StormWindDamagePeriod": 6,
+            "Damage_Deployables_MinInterval": 4,
+            "Damage_Deployables_MaxInterval": 6,
+            "Damage_Deployables_Intensity": 0.5,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableProcessorClog": true,
+            "Curve_ProcessorClog": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Flat_Top.C_Weather_Flat_Top"
+        },
+        {
+            "Name": "T1_Volcanic_VolcWinter_Chaos",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/T_icon-weather-Volcanic-HeavyAsh-chaos.T_icon-weather-Volcanic-HeavyAsh-chaos",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.5764709711074829,
+                    "G": 0.007842999882996082,
+                    "B": 0,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 1.5,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 30
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 22
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 15
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 7
+                }
+            },
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisStart": 0.44999998807907104,
+            "Severity_DebrisEnd": 0.550000011920929,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Debris.C_Weather_Debris",
+            "Severity_WindStart": 0.5,
+            "Severity_WindEnd": 0.800000011920929,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "StormTier": 1.5,
+            "StormWindDamagePeriod": 3.5,
+            "Damage_Deployables_MinInterval": 4,
+            "Damage_Deployables_MaxInterval": 6,
+            "Damage_Deployables_Intensity": 0.5,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Ash": true,
+            "Severity_AshStart": 0.800000011920929,
+            "Severity_AshEnd": 0.8999999761581421,
+            "Curve_Ash": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Ash.C_Weather_Ash",
+            "bEnableProcessorClog": true,
+            "Curve_ProcessorClog": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Flat_Top.C_Weather_Flat_Top"
+        },
+        {
+            "Name": "T1_Volcanic_VolcWinter_Stop",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/T_icon-weather-Volcanic-HeavyAsh-start-stop.T_icon-weather-Volcanic-HeavyAsh-start-stop",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 10
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 7
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 5
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 2
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.800000011920929,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.44999998807907104,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Debris.C_Weather_Debris",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -1200,
+            "Perception_Percentage": -10,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.5,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableVisuals_Ash": true,
+            "Severity_AshEnd": 0.800000011920929,
+            "Curve_Ash": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Ash.C_Weather_Ash",
+            "bEnableVisuals_Smoke": true,
+            "Severity_SmokeEnd": 0.5,
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityEnd": 0.44999998807907104,
+            "bEnableVisuals_FogExtinction": true,
+            "Severity_FogExtinctionStart": 0.5,
+            "Severity_FogExtinctionEnd": 1,
+            "bEnableProcessorClog": true,
+            "Curve_ProcessorClog": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Rain.C_Weather_Rain"
+        },
+        {
+            "Name": "T3_Volcanic_VolcWinter_Start",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/T_icon-weather-Volcanic-HeavyAsh-start-stop.T_icon-weather-Volcanic-HeavyAsh-start-stop",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.8500000238418579,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.5,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Debris.C_Weather_Debris",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -1600,
+            "Perception_Percentage": -20,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.550000011920929,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableVisuals_Ash": true,
+            "Severity_AshEnd": 0.8999999761581421,
+            "Curve_Ash": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Ash.C_Weather_Ash",
+            "bEnableVisuals_Smoke": true,
+            "Severity_SmokeEnd": 0.5,
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityEnd": 0.5,
+            "bEnableVisuals_FogExtinction": true,
+            "Severity_FogExtinctionStart": 0.5,
+            "Severity_FogExtinctionEnd": 1,
+            "bEnableProcessorClog": true,
+            "Curve_ProcessorClog": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Rain.C_Weather_Rain"
+        },
+        {
+            "Name": "T3_Volcanic_VolcWinter_Body",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/T_icon-weather-Volcanic-HeavyAsh-body.T_icon-weather-Volcanic-HeavyAsh-body",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.992156982421875,
+                    "G": 0.6313729882240295,
+                    "B": 0.137254998087883,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 1.5,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 44
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 33
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 22
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 11
+                }
+            },
+            "StormTier": 2,
+            "StormWindDamagePeriod": 6,
+            "Damage_Deployables_MinInterval": 4,
+            "Damage_Deployables_MaxInterval": 6,
+            "Damage_Deployables_Intensity": 0.5,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableProcessorClog": true,
+            "Curve_ProcessorClog": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Flat_Top.C_Weather_Flat_Top"
+        },
+        {
+            "Name": "T3_Volcanic_VolcWinter_Chaos",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/T_icon-weather-Volcanic-HeavyAsh-chaos.T_icon-weather-Volcanic-HeavyAsh-chaos",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.5764709711074829,
+                    "G": 0.007842999882996082,
+                    "B": 0,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 2,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 60
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 45
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 30
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 15
+                }
+            },
+            "StormTier": 3,
+            "StormWindDamagePeriod": 3,
+            "Damage_Deployables_MinInterval": 4,
+            "Damage_Deployables_MaxInterval": 6,
+            "Damage_Deployables_Intensity": 0.5,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Ash": true,
+            "Severity_AshStart": 0.8999999761581421,
+            "Severity_AshEnd": 1,
+            "Curve_Ash": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Ash.C_Weather_Ash",
+            "bEnableProcessorClog": true,
+            "Curve_ProcessorClog": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Flat_Top.C_Weather_Flat_Top"
+        },
+        {
+            "Name": "T3_Volcanic_VolcWinter_Stop",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/T_icon-weather-Volcanic-HeavyAsh-start-stop.T_icon-weather-Volcanic-HeavyAsh-start-stop",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 30
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 22
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 15
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 7
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.8500000238418579,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.5,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Debris.C_Weather_Debris",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -1600,
+            "Perception_Percentage": -10,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.6000000238418579,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableVisuals_Ash": true,
+            "Severity_AshEnd": 0.8999999761581421,
+            "Curve_Ash": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Ash.C_Weather_Ash",
+            "bEnableVisuals_Smoke": true,
+            "Severity_SmokeEnd": 0.5,
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityEnd": 0.5,
+            "bEnableVisuals_FogExtinction": true,
+            "Severity_FogExtinctionStart": 0.5,
+            "Severity_FogExtinctionEnd": 1,
+            "bEnableProcessorClog": true,
+            "Curve_ProcessorClog": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Rain.C_Weather_Rain"
+        },
+        {
+            "Name": "T5_Volcanic_VolcWinter_Start",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/T_icon-weather-Volcanic-HeavyAsh-start-stop.T_icon-weather-Volcanic-HeavyAsh-start-stop",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.8999999761581421,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.6000000238418579,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Debris.C_Weather_Debris",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -2000,
+            "Perception_Percentage": -10,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.6000000238418579,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableVisuals_Ash": true,
+            "Severity_AshEnd": 1,
+            "Curve_Ash": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Ash.C_Weather_Ash",
+            "bEnableVisuals_Smoke": true,
+            "Severity_SmokeEnd": 0.5,
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityEnd": 0.550000011920929,
+            "bEnableVisuals_FogExtinction": true,
+            "Severity_FogExtinctionStart": 0.5,
+            "Severity_FogExtinctionEnd": 1,
+            "bEnableProcessorClog": true,
+            "Curve_ProcessorClog": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Rain.C_Weather_Rain"
+        },
+        {
+            "Name": "T5_Volcanic_VolcWinter_Body",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/T_icon-weather-Volcanic-HeavyAsh-body.T_icon-weather-Volcanic-HeavyAsh-body",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.992156982421875,
+                    "G": 0.6313729882240295,
+                    "B": 0.137254998087883,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 2,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 80
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 60
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 40
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 20
+                }
+            },
+            "StormTier": 4,
+            "StormWindDamagePeriod": 6,
+            "Damage_Deployables_MinInterval": 4,
+            "Damage_Deployables_MaxInterval": 6,
+            "Damage_Deployables_Intensity": 0.5,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableProcessorClog": true,
+            "Curve_ProcessorClog": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Flat_Top.C_Weather_Flat_Top"
+        },
+        {
+            "Name": "T5_Volcanic_VolcWinter_Chaos",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/T_icon-weather-Volcanic-HeavyAsh-chaos.T_icon-weather-Volcanic-HeavyAsh-chaos",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.5764709711074829,
+                    "G": 0.007842999882996082,
+                    "B": 0,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 4,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 100
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 75
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 50
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 25
+                }
+            },
+            "StormTier": 5,
+            "StormWindDamagePeriod": 0.75,
+            "Damage_Deployables_MinInterval": 4,
+            "Damage_Deployables_MaxInterval": 6,
+            "Damage_Deployables_Intensity": 0.5,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableProcessorClog": true,
+            "Curve_ProcessorClog": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Flat_Top.C_Weather_Flat_Top"
+        },
+        {
+            "Name": "T5_Volcanic_VolcWinter_Stop",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/T_icon-weather-Volcanic-HeavyAsh-start-stop.T_icon-weather-Volcanic-HeavyAsh-start-stop",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 60
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 45
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 30
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_VolcWinter",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 15
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.8999999761581421,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.6000000238418579,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Debris.C_Weather_Debris",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -2000,
+            "Perception_Percentage": -10,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.6000000238418579,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableVisuals_Ash": true,
+            "Severity_AshEnd": 1,
+            "Curve_Ash": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Ash.C_Weather_Ash",
+            "bEnableVisuals_Smoke": true,
+            "Severity_SmokeEnd": 0.5,
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityEnd": 0.550000011920929,
+            "bEnableVisuals_FogExtinction": true,
+            "Severity_FogExtinctionStart": 0.5,
+            "Severity_FogExtinctionEnd": 1,
+            "bEnableProcessorClog": true,
+            "Curve_ProcessorClog": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Rain.C_Weather_Rain"
+        },
+        {
+            "Name": "T1_Volcanic_ColdFront_Start",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-wind1.icon-weather-wind1",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "Curve_Rain": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Rain.C_Weather_Rain",
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.4000000059604645,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.20000000298023224,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -400,
+            "Perception_Percentage": -5,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.4000000059604645,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand": true,
+            "Severity_SandEnd": 0.10000000149011612
+        },
+        {
+            "Name": "T1_Volcanic_ColdFront_Body",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-wind1.icon-weather-wind1",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.992156982421875,
+                    "G": 0.6313729882240295,
+                    "B": 0.137254998087883,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 1,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 5
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 4
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 2
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 1
+                }
+            },
+            "Severity_WindStart": 0.4000000059604645,
+            "Severity_WindEnd": 0.4000000059604645,
+            "StormTier": 0.5,
+            "StormWindDamagePeriod": 6,
+            "TreeToppleStrengthThreshold": 0.5,
+            "bEnableDamage_Deployables": true,
+            "Damage_Deployables_MinInterval": 4,
+            "Damage_Deployables_MaxInterval": 6,
+            "Damage_Deployables_Intensity": 0.5,
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4
+        },
+        {
+            "Name": "T1_Volcanic_ColdFront_Chaos",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-wind1.icon-weather-wind1",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.5764709711074829,
+                    "G": 0.007842999882996082,
+                    "B": 0,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 1.5,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 5
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 4
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 2
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 1
+                }
+            },
+            "Curve_Rain": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsStart": 0.4000000059604645,
+            "Severity_CloudsEnd": 0.5,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisStart": 0.20000000298023224,
+            "Severity_DebrisEnd": 0.4000000059604645,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindStart": 0.4000000059604645,
+            "Severity_WindEnd": 0.6000000238418579,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Undulation_010.C_Weather_Generic_Undulation_010",
+            "StormTier": 1.5,
+            "StormWindDamagePeriod": 0.75,
+            "bWindTopplesTrees": true,
+            "TreeToppleMinInterval": 2,
+            "TreeToppleMaxInterval": 6,
+            "TreeToppleStrengthThreshold": 0.5,
+            "bEnableDamage_Deployables": true,
+            "Damage_Deployables_MinInterval": 2,
+            "Damage_Deployables_MaxInterval": 3,
+            "Damage_Deployables_Intensity": 0.5,
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand": true,
+            "Severity_SandStart": 0.10000000149011612,
+            "Severity_SandEnd": 0.30000001192092896,
+            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010"
+        },
+        {
+            "Name": "T1_Volcanic_ColdFront_Stop",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-cloud2.icon-weather-cloud2",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 5
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 4
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 2
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 1
+                }
+            },
+            "Curve_Rain": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Rain.C_Weather_Rain",
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.4000000059604645,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.20000000298023224,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -400,
+            "Perception_Percentage": -5,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.4000000059604645,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableEndAllWindDamageTrigger": true,
+            "Curve_EndAllWindDamageTrigger": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Binary_000010000.C_Weather_Binary_000010000",
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand": true,
+            "Severity_SandEnd": 0.10000000149011612
+        },
+        {
+            "Name": "T3_Volcanic_ColdFront_Start",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-wind1.icon-weather-wind1",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "Curve_Rain": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Rain.C_Weather_Rain",
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.5,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.30000001192092896,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -600,
+            "Perception_Percentage": -5,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.6000000238418579,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand": true,
+            "Severity_SandEnd": 0.10000000149011612
+        },
+        {
+            "Name": "T3_Volcanic_ColdFront_Body",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-wind1.icon-weather-wind1",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.992156982421875,
+                    "G": 0.6313729882240295,
+                    "B": 0.137254998087883,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 1.5,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 44
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 33
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 22
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 11
+                }
+            },
+            "StormTier": 2,
+            "StormWindDamagePeriod": 6,
+            "TreeToppleStrengthThreshold": 0.5,
+            "bEnableDamage_Deployables": true,
+            "Damage_Deployables_MinInterval": 4,
+            "Damage_Deployables_MaxInterval": 6,
+            "Damage_Deployables_Intensity": 0.5,
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4
+        },
+        {
+            "Name": "T3_Volcanic_ColdFront_Chaos",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-wind1.icon-weather-wind1",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.5764709711074829,
+                    "G": 0.007842999882996082,
+                    "B": 0,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 2,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 60
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 45
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 30
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 15
+                }
+            },
+            "Curve_Rain": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsStart": 0.4000000059604645,
+            "Severity_CloudsEnd": 0.5,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisStart": 0.30000001192092896,
+            "Severity_DebrisEnd": 0.5,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindStart": 0.6000000238418579,
+            "Severity_WindEnd": 0.800000011920929,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Undulation_010.C_Weather_Generic_Undulation_010",
+            "StormTier": 3,
+            "StormWindDamagePeriod": 0.75,
+            "bWindTopplesTrees": true,
+            "TreeToppleMinInterval": 2,
+            "TreeToppleMaxInterval": 6,
+            "TreeToppleStrengthThreshold": 0.5,
+            "bEnableDamage_Deployables": true,
+            "Damage_Deployables_MinInterval": 2,
+            "Damage_Deployables_MaxInterval": 3,
+            "Damage_Deployables_Intensity": 0.5,
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand": true,
+            "Severity_SandStart": 0.10000000149011612,
+            "Severity_SandEnd": 0.30000001192092896,
+            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010"
+        },
+        {
+            "Name": "T3_Volcanic_ColdFront_Stop",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-cloud2.icon-weather-cloud2",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 30
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 22
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 15
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 7
+                }
+            },
+            "Curve_Rain": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Rain.C_Weather_Rain",
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.5,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.30000001192092896,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -600,
+            "Perception_Percentage": -5,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.6000000238418579,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableEndAllWindDamageTrigger": true,
+            "Curve_EndAllWindDamageTrigger": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Binary_000010000.C_Weather_Binary_000010000",
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand": true,
+            "Severity_SandEnd": 0.10000000149011612
+        },
+        {
+            "Name": "T5_Volcanic_ColdFront_Start",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-wind1.icon-weather-wind1",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "Curve_Rain": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Rain.C_Weather_Rain",
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.800000011920929,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.4000000059604645,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -800,
+            "Perception_Percentage": -5,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.800000011920929,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand": true,
+            "Severity_SandEnd": 0.30000001192092896
+        },
+        {
+            "Name": "T5_Volcanic_ColdFront_Body",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-wind2.icon-weather-wind2",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.992156982421875,
+                    "G": 0.6313729882240295,
+                    "B": 0.137254998087883,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 3,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 80
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 60
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 40
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 20
+                }
+            },
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisStart": 0.4000000059604645,
+            "Severity_DebrisEnd": 0.4000000059604645,
+            "bEnableVisuals_Wind": true,
+            "Severity_WindStart": 0.800000011920929,
+            "Severity_WindEnd": 0.800000011920929,
+            "StormTier": 3,
+            "StormWindDamagePeriod": 6,
+            "bWindTopplesTrees": true,
+            "TreeToppleMinInterval": 3,
+            "TreeToppleMaxInterval": 8,
+            "TreeToppleStrengthThreshold": 0.5,
+            "bEnableDamage_Deployables": true,
+            "Damage_Deployables_MinInterval": 4,
+            "Damage_Deployables_MaxInterval": 6,
+            "Damage_Deployables_Intensity": 0.5,
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand": true,
+            "Severity_SandStart": 0.30000001192092896,
+            "Severity_SandEnd": 0.30000001192092896
+        },
+        {
+            "Name": "T5_Volcanic_ColdFront_Chaos",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-wind3.icon-weather-wind3",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.5764709711074829,
+                    "G": 0.007842999882996082,
+                    "B": 0,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 2,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 100
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 75
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 50
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 25
+                }
+            },
+            "Curve_Rain": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsStart": 0.800000011920929,
+            "Severity_CloudsEnd": 1,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisStart": 0.4000000059604645,
+            "Severity_DebrisEnd": 0.6000000238418579,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindStart": 0.800000011920929,
+            "Severity_WindEnd": 1,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Undulation_010.C_Weather_Generic_Undulation_010",
+            "StormTier": 6,
+            "StormWindDamagePeriod": 0.75,
+            "bWindTopplesTrees": true,
+            "TreeToppleMinInterval": 2,
+            "TreeToppleMaxInterval": 6,
+            "TreeToppleStrengthThreshold": 0.5,
+            "bEnableDamage_Deployables": true,
+            "Damage_Deployables_MinInterval": 2,
+            "Damage_Deployables_MaxInterval": 3,
+            "Damage_Deployables_Intensity": 0.5,
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand": true,
+            "Severity_SandStart": 0.30000001192092896,
+            "Severity_SandEnd": 0.4000000059604645,
+            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010"
+        },
+        {
+            "Name": "T5_Volcanic_ColdFront_Stop",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-wind1.icon-weather-wind1",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 60
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 45
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 30
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Volcanic_ColdFront",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 15
+                }
+            },
+            "Curve_Rain": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Rain.C_Weather_Rain",
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.800000011920929,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.4000000059604645,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -800,
+            "Perception_Percentage": -5,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.800000011920929,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableEndAllWindDamageTrigger": true,
+            "Curve_EndAllWindDamageTrigger": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Binary_000010000.C_Weather_Binary_000010000",
+            "FireExtinguish_MinInterval": 2,
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand": true,
+            "Severity_SandEnd": 0.30000001192092896
+        },
+        {
+            "Name": "T5_Arctic_Whiteout_Start",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow1.icon-weather-snow1",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.800000011920929,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.6000000238418579,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Debris.C_Weather_Debris",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -900,
+            "Perception_Percentage": -50,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.800000011920929,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableVisuals_Snow": true,
+            "Severity_SnowEnd": 0.800000011920929,
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupEnd": 1,
+            "bEnableVisuals_Snow_Storm": true,
+            "Severity_Snow_StormEnd": 0.4000000059604645,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorEnd": 0.8999999761581421,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            },
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityEnd": 0.800000011920929,
+            "bEnableVisuals_Whiteout": true,
+            "Severity_WhiteoutEnd": 0.800000011920929
+        },
+        {
+            "Name": "T5_Arctic_Whiteout_Body",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow2.icon-weather-snow2",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.992156982421875,
+                    "G": 0.6313729882240295,
+                    "B": 0.137254998087883,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 1.5,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 80
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 60
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 40
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 20
+                }
+            },
+            "StormTier": 4,
+            "StormWindDamagePeriod": 6,
+            "bEnableDamage_Deployables": true,
+            "Damage_Deployables_MinInterval": 4,
+            "Damage_Deployables_MaxInterval": 6,
+            "Damage_Deployables_Intensity": 0.5,
+            "bEnableFireExtinguish": true,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 1,
+            "FireExtinguish_MaxInterval": 3,
+            "Curve_Snow": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupStart": 1,
+            "Severity_Snow_BuildupEnd": 1,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorStart": 0.8999999761581421,
+            "Severity_FogColorEnd": 0.8999999761581421,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            }
+        },
+        {
+            "Name": "T5_Arctic_Whiteout_Chaos",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow3.icon-weather-snow3",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.5764709711074829,
+                    "G": 0.007842999882996082,
+                    "B": 0,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 4,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 100
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 75
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 50
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 25
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsStart": 0.800000011920929,
+            "Severity_CloudsEnd": 1,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bGeneratesLightning": true,
+            "MinLightningInterval": 10,
+            "MaxLightningInterval": 20,
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisStart": 0.6000000238418579,
+            "Severity_DebrisEnd": 1,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindStart": 0.800000011920929,
+            "Severity_WindEnd": 1,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "StormTier": 5,
+            "StormWindDamagePeriod": 0.75,
+            "bWindTopplesTrees": true,
+            "TreeToppleMinInterval": 1,
+            "TreeToppleMaxInterval": 2,
+            "TreeToppleStrengthThreshold": 0.5,
+            "bEnableDamage_Deployables": true,
+            "Damage_Deployables_MinInterval": 2,
+            "Damage_Deployables_MaxInterval": 3,
+            "Damage_Deployables_Intensity": 0.5,
+            "bEnableFireExtinguish": true,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 1,
+            "FireExtinguish_MaxInterval": 3,
+            "bEnableVisuals_Snow": true,
+            "Severity_SnowStart": 0.800000011920929,
+            "Severity_SnowEnd": 1,
+            "Curve_Snow": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupStart": 1,
+            "Severity_Snow_BuildupEnd": 1,
+            "bEnableVisuals_Snow_Storm": true,
+            "Severity_Snow_StormStart": 0.4000000059604645,
+            "Severity_Snow_StormEnd": 1,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorStart": 0.8999999761581421,
+            "Severity_FogColorEnd": 0.8999999761581421,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            },
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityStart": 0.800000011920929,
+            "Severity_FogDensityEnd": 1,
+            "bEnableVisuals_Whiteout": true,
+            "Severity_WhiteoutStart": 0.800000011920929,
+            "Severity_WhiteoutEnd": 1
+        },
+        {
+            "Name": "T5_Arctic_Whiteout_Stop",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow1.icon-weather-snow1",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 60
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 45
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 30
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 15
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.800000011920929,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.6000000238418579,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Debris.C_Weather_Debris",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -900,
+            "Perception_Percentage": -50,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.800000011920929,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableEndAllWindDamageTrigger": true,
+            "Curve_EndAllWindDamageTrigger": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Binary_000010000.C_Weather_Binary_000010000",
+            "bEnableVisuals_Snow": true,
+            "Severity_SnowEnd": 0.800000011920929,
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupEnd": 1,
+            "Severity_Snow_StormEnd": 0.4000000059604645,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorEnd": 0.8999999761581421,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            },
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityEnd": 0.800000011920929,
+            "bEnableVisuals_Whiteout": true,
+            "Severity_WhiteoutEnd": 0.800000011920929
+        },
+        {
+            "Name": "T2_Arctic_Whiteout_Start",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow1.icon-weather-snow1",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.4000000059604645,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.4000000059604645,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -300,
+            "Perception_Percentage": -50,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.6000000238418579,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableVisuals_Snow": true,
+            "Severity_SnowEnd": 0.5,
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupEnd": 0.5,
+            "bEnableVisuals_Snow_Storm": true,
+            "Severity_Snow_StormEnd": 0.25,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorEnd": 0.8999999761581421,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            },
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityEnd": 0.4000000059604645,
+            "bEnableVisuals_Whiteout": true,
+            "Severity_WhiteoutEnd": 0.4000000059604645
+        },
+        {
+            "Name": "T2_Arctic_Whiteout_Body",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow2.icon-weather-snow2",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.992156982421875,
+                    "G": 0.6313729882240295,
+                    "B": 0.137254998087883,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 0.75,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 30
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 22
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 15
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 7
+                }
+            },
+            "StormTier": 1,
+            "StormWindDamagePeriod": 12,
+            "bEnableDamage_Deployables": true,
+            "Damage_Deployables_MinInterval": 4,
+            "Damage_Deployables_MaxInterval": 6,
+            "Damage_Deployables_Intensity": 0.125,
+            "bEnableFireExtinguish": true,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 1,
+            "FireExtinguish_MaxInterval": 3,
+            "Curve_Snow": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupStart": 0.5,
+            "Severity_Snow_BuildupEnd": 0.5,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorStart": 0.8999999761581421,
+            "Severity_FogColorEnd": 0.8999999761581421,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            }
+        },
+        {
+            "Name": "T2_Arctic_Whiteout_Chaos",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow3.icon-weather-snow3",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.5764709711074829,
+                    "G": 0.007842999882996082,
+                    "B": 0,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 1.75,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 44
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 33
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 22
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 11
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsStart": 0.4000000059604645,
+            "Severity_CloudsEnd": 0.6000000238418579,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisStart": 0.4000000059604645,
+            "Severity_DebrisEnd": 0.6000000238418579,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindStart": 0.6000000238418579,
+            "Severity_WindEnd": 0.800000011920929,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "StormTier": 2,
+            "StormWindDamagePeriod": 3,
+            "bWindTopplesTrees": true,
+            "TreeToppleMinInterval": 1,
+            "TreeToppleMaxInterval": 2,
+            "TreeToppleStrengthThreshold": 0.5,
+            "bEnableDamage_Deployables": true,
+            "Damage_Deployables_MinInterval": 2,
+            "Damage_Deployables_MaxInterval": 3,
+            "Damage_Deployables_Intensity": 0.125,
+            "bEnableFireExtinguish": true,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 1,
+            "FireExtinguish_MaxInterval": 3,
+            "bEnableVisuals_Snow": true,
+            "Severity_SnowStart": 0.5,
+            "Severity_SnowEnd": 0.800000011920929,
+            "Curve_Snow": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupStart": 1,
+            "Severity_Snow_BuildupEnd": 1,
+            "bEnableVisuals_Snow_Storm": true,
+            "Severity_Snow_StormStart": 0.25,
+            "Severity_Snow_StormEnd": 0.5,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorStart": 0.8999999761581421,
+            "Severity_FogColorEnd": 0.8999999761581421,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            },
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityStart": 0.4000000059604645,
+            "Severity_FogDensityEnd": 0.6000000238418579,
+            "bEnableVisuals_Whiteout": true,
+            "Severity_WhiteoutStart": 0.4000000059604645,
+            "Severity_WhiteoutEnd": 0.6000000238418579
+        },
+        {
+            "Name": "T2_Arctic_Whiteout_Stop",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow1.icon-weather-snow1",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 20
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 15
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 10
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 5
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.4000000059604645,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.4000000059604645,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Debris.C_Weather_Debris",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -300,
+            "Perception_Percentage": -50,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.6000000238418579,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableEndAllWindDamageTrigger": true,
+            "Curve_EndAllWindDamageTrigger": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Binary_000010000.C_Weather_Binary_000010000",
+            "bEnableVisuals_Snow": true,
+            "Severity_SnowEnd": 0.5,
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupEnd": 1,
+            "bEnableVisuals_Snow_Storm": true,
+            "Severity_Snow_StormEnd": 0.25,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorEnd": 0.8999999761581421,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            },
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityEnd": 0.4000000059604645,
+            "bEnableVisuals_Whiteout": true,
+            "Severity_WhiteoutEnd": 0.4000000059604645
+        },
+        {
+            "Name": "T6_Arctic_Whiteout_Start",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow1.icon-weather-snow1",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 1,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.800000011920929,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -1400,
+            "Perception_Percentage": -50,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 1,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableVisuals_Snow": true,
+            "Severity_SnowEnd": 1,
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupEnd": 1,
+            "bEnableVisuals_Snow_Storm": true,
+            "Severity_Snow_StormEnd": 0.5,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorEnd": 0.949999988079071,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            },
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityEnd": 0.8999999761581421,
+            "bEnableVisuals_Whiteout": true,
+            "Severity_WhiteoutEnd": 0.8999999761581421
+        },
+        {
+            "Name": "T6_Arctic_Whiteout_Body",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow2.icon-weather-snow2",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.992156982421875,
+                    "G": 0.6313729882240295,
+                    "B": 0.137254998087883,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 2.5,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 100
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 75
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 50
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 25
+                }
+            },
+            "StormTier": 6,
+            "StormWindDamagePeriod": 6,
+            "bEnableDamage_Deployables": true,
+            "Damage_Deployables_MinInterval": 2,
+            "Damage_Deployables_MaxInterval": 3,
+            "Damage_Deployables_Intensity": 0.5,
+            "bEnableFireExtinguish": true,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 1,
+            "FireExtinguish_MaxInterval": 3,
+            "Curve_Snow": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupStart": 1,
+            "Severity_Snow_BuildupEnd": 1,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorStart": 0.949999988079071,
+            "Severity_FogColorEnd": 0.949999988079071,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            }
+        },
+        {
+            "Name": "T6_Arctic_Whiteout_Chaos",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow3.icon-weather-snow3",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.5764709711074829,
+                    "G": 0.007842999882996082,
+                    "B": 0,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 5,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 120
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 90
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 60
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 30
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsStart": 1,
+            "Severity_CloudsEnd": 1.2000000476837158,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bGeneratesLightning": true,
+            "MinLightningInterval": 10,
+            "MaxLightningInterval": 20,
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisStart": 0.800000011920929,
+            "Severity_DebrisEnd": 1,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableAction_Temperature": true,
+            "Temperature_Start": -3000,
+            "Temperature_End": -4000,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindStart": 1,
+            "Severity_WindEnd": 1.2000000476837158,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "StormTier": 6,
+            "StormWindDamagePeriod": 0.75,
+            "bWindTopplesTrees": true,
+            "TreeToppleMinInterval": 1,
+            "TreeToppleMaxInterval": 2,
+            "TreeToppleStrengthThreshold": 0.5,
+            "bEnableDamage_Deployables": true,
+            "Damage_Deployables_MinInterval": 2,
+            "Damage_Deployables_MaxInterval": 3,
+            "Damage_Deployables_Intensity": 0.5,
+            "bEnableFireExtinguish": true,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 1,
+            "FireExtinguish_MaxInterval": 3,
+            "bEnableVisuals_Snow": true,
+            "Severity_SnowStart": 1,
+            "Severity_SnowEnd": 1.2000000476837158,
+            "Curve_Snow": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupStart": 1,
+            "Severity_Snow_BuildupEnd": 1,
+            "bEnableVisuals_Snow_Storm": true,
+            "Severity_Snow_StormStart": 0.5,
+            "Severity_Snow_StormEnd": 1,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorStart": 0.949999988079071,
+            "Severity_FogColorEnd": 0.949999988079071,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            },
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityStart": 0.8999999761581421,
+            "Severity_FogDensityEnd": 1.5,
+            "bEnableVisuals_Whiteout": true,
+            "Severity_WhiteoutStart": 0.8999999761581421,
+            "Severity_WhiteoutEnd": 1
+        },
+        {
+            "Name": "T6_Arctic_Whiteout_Stop",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow1.icon-weather-snow1",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 80
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 60
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 40
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 20
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.800000011920929,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.6000000238418579,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Debris.C_Weather_Debris",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -1400,
+            "Perception_Percentage": -50,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 1,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableEndAllWindDamageTrigger": true,
+            "Curve_EndAllWindDamageTrigger": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Binary_000010000.C_Weather_Binary_000010000",
+            "bEnableVisuals_Snow": true,
+            "Severity_SnowEnd": 0.800000011920929,
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupEnd": 1,
+            "bEnableVisuals_Snow_Storm": true,
+            "Severity_Snow_StormEnd": 0.5,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorEnd": 0.949999988079071,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            },
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityEnd": 0.8999999761581421,
+            "bEnableVisuals_Whiteout": true,
+            "Severity_WhiteoutEnd": 0.8999999761581421
+        },
+        {
+            "Name": "T3_Arctic_Whiteout_Start",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow1.icon-weather-snow1",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.4000000059604645,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.30000001192092896,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -500,
+            "Perception_Percentage": -50,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.4000000059604645,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableVisuals_Snow": true,
+            "Severity_SnowEnd": 0.5,
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupEnd": 0.25,
+            "bEnableVisuals_Snow_Storm": true,
+            "Severity_Snow_StormEnd": 0.25,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorEnd": 0.8999999761581421,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            },
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityEnd": 0.5,
+            "bEnableVisuals_Whiteout": true,
+            "Severity_WhiteoutEnd": 0.5
+        },
+        {
+            "Name": "T3_Arctic_Whiteout_Body",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow2.icon-weather-snow2",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.992156982421875,
+                    "G": 0.6313729882240295,
+                    "B": 0.137254998087883,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 1.25,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 44
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 33
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 22
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 11
+                }
+            },
+            "StormTier": 2,
+            "StormWindDamagePeriod": 12,
+            "bEnableDamage_Deployables": true,
+            "Damage_Deployables_MinInterval": 4,
+            "Damage_Deployables_MaxInterval": 6,
+            "Damage_Deployables_Intensity": 0.125,
+            "bEnableFireExtinguish": true,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 1,
+            "FireExtinguish_MaxInterval": 3,
+            "Curve_Snow": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupStart": 0.25,
+            "Severity_Snow_BuildupEnd": 0.25,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorStart": 0.8999999761581421,
+            "Severity_FogColorEnd": 0.8999999761581421,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            }
+        },
+        {
+            "Name": "T3_Arctic_Whiteout_Chaos",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow3.icon-weather-snow3",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.5764709711074829,
+                    "G": 0.007842999882996082,
+                    "B": 0,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 1.5,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 60
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 45
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 30
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 15
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsStart": 0.4000000059604645,
+            "Severity_CloudsEnd": 0.6000000238418579,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisStart": 0.30000001192092896,
+            "Severity_DebrisEnd": 0.5,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindStart": 0.4000000059604645,
+            "Severity_WindEnd": 0.6000000238418579,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "StormTier": 3,
+            "StormWindDamagePeriod": 3,
+            "bWindTopplesTrees": true,
+            "TreeToppleMinInterval": 1,
+            "TreeToppleMaxInterval": 2,
+            "TreeToppleStrengthThreshold": 0.5,
+            "bEnableDamage_Deployables": true,
+            "Damage_Deployables_MinInterval": 2,
+            "Damage_Deployables_MaxInterval": 3,
+            "Damage_Deployables_Intensity": 0.125,
+            "bEnableFireExtinguish": true,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 1,
+            "FireExtinguish_MaxInterval": 3,
+            "bEnableVisuals_Snow": true,
+            "Severity_SnowStart": 0.5,
+            "Severity_SnowEnd": 0.800000011920929,
+            "Curve_Snow": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupStart": 0.25,
+            "Severity_Snow_BuildupEnd": 0.5,
+            "bEnableVisuals_Snow_Storm": true,
+            "Severity_Snow_StormStart": 0.25,
+            "Severity_Snow_StormEnd": 0.5,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorStart": 0.8999999761581421,
+            "Severity_FogColorEnd": 0.8999999761581421,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            },
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityStart": 0.5,
+            "Severity_FogDensityEnd": 0.800000011920929,
+            "bEnableVisuals_Whiteout": true,
+            "Severity_WhiteoutStart": 0.5,
+            "Severity_WhiteoutEnd": 0.800000011920929
+        },
+        {
+            "Name": "T3_Arctic_Whiteout_Stop",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow1.icon-weather-snow1",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 30
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 22
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 15
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 7
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.4000000059604645,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.30000001192092896,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Debris.C_Weather_Debris",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -500,
+            "Perception_Percentage": -50,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.4000000059604645,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableEndAllWindDamageTrigger": true,
+            "Curve_EndAllWindDamageTrigger": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Binary_000010000.C_Weather_Binary_000010000",
+            "bEnableVisuals_Snow": true,
+            "Severity_SnowEnd": 0.5,
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupEnd": 1,
+            "bEnableVisuals_Snow_Storm": true,
+            "Severity_Snow_StormEnd": 0.25,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorEnd": 0.8999999761581421,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            },
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityEnd": 0.5,
+            "bEnableVisuals_Whiteout": true,
+            "Severity_WhiteoutEnd": 0.5
+        },
+        {
+            "Name": "T4_Arctic_Whiteout_Start",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow1.icon-weather-snow1",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.800000011920929,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bGeneratesThunder": true,
+            "ThunderIntensity": 0.25,
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.6000000238418579,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Debris.C_Weather_Debris",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -700,
+            "Perception_Percentage": -50,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.800000011920929,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableVisuals_Snow": true,
+            "Severity_SnowEnd": 0.800000011920929,
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupEnd": 0.5,
+            "bEnableVisuals_Snow_Storm": true,
+            "Severity_Snow_StormEnd": 0.4000000059604645,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorEnd": 0.8999999761581421,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            },
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityEnd": 0.6000000238418579,
+            "bEnableVisuals_Whiteout": true,
+            "Severity_WhiteoutEnd": 0.6000000238418579
+        },
+        {
+            "Name": "T4_Arctic_Whiteout_Body",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow2.icon-weather-snow2",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.992156982421875,
+                    "G": 0.6313729882240295,
+                    "B": 0.137254998087883,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 1.5,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 60
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 45
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 30
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 15
+                }
+            },
+            "bGeneratesLightning": true,
+            "MinLightningInterval": 30,
+            "MaxLightningInterval": 60,
+            "bGeneratesThunder": true,
+            "ThunderIntensity": 0.5,
+            "StormTier": 3,
+            "StormWindDamagePeriod": 6,
+            "bEnableDamage_Deployables": true,
+            "Damage_Deployables_MinInterval": 4,
+            "Damage_Deployables_MaxInterval": 6,
+            "Damage_Deployables_Intensity": 0.5,
+            "bEnableFireExtinguish": true,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 1,
+            "FireExtinguish_MaxInterval": 3,
+            "Curve_Snow": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupStart": 0.5,
+            "Severity_Snow_BuildupEnd": 0.5,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorStart": 0.8999999761581421,
+            "Severity_FogColorEnd": 0.8999999761581421,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            }
+        },
+        {
+            "Name": "T4_Arctic_Whiteout_Chaos",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow3.icon-weather-snow3",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.5764709711074829,
+                    "G": 0.007842999882996082,
+                    "B": 0,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureMultiplier": 4,
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 80
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 60
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 40
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 20
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsStart": 0.800000011920929,
+            "Severity_CloudsEnd": 1,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bGeneratesLightning": true,
+            "MinLightningInterval": 10,
+            "MaxLightningInterval": 20,
+            "bGeneratesThunder": true,
+            "ThunderIntensity": 1,
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisStart": 0.6000000238418579,
+            "Severity_DebrisEnd": 1,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindStart": 0.800000011920929,
+            "Severity_WindEnd": 1,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "StormTier": 4.5,
+            "StormWindDamagePeriod": 0.75,
+            "bWindTopplesTrees": true,
+            "TreeToppleMinInterval": 1,
+            "TreeToppleMaxInterval": 2,
+            "TreeToppleStrengthThreshold": 0.5,
+            "bEnableDamage_Deployables": true,
+            "Damage_Deployables_MinInterval": 2,
+            "Damage_Deployables_MaxInterval": 3,
+            "Damage_Deployables_Intensity": 0.5,
+            "bEnableFireExtinguish": true,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 1,
+            "FireExtinguish_MaxInterval": 3,
+            "bEnableVisuals_Snow": true,
+            "Severity_SnowStart": 0.800000011920929,
+            "Severity_SnowEnd": 1,
+            "Curve_Snow": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupStart": 1,
+            "Severity_Snow_BuildupEnd": 1,
+            "bEnableVisuals_Snow_Storm": true,
+            "Severity_Snow_StormStart": 0.4000000059604645,
+            "Severity_Snow_StormEnd": 1,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorStart": 0.8999999761581421,
+            "Severity_FogColorEnd": 0.8999999761581421,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            },
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityStart": 0.6000000238418579,
+            "Severity_FogDensityEnd": 0.8999999761581421,
+            "bEnableVisuals_Whiteout": true,
+            "Severity_WhiteoutStart": 0.6000000238418579,
+            "Severity_WhiteoutEnd": 0.8999999761581421
+        },
+        {
+            "Name": "T4_Arctic_Whiteout_Stop",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow1.icon-weather-snow1",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.6509799957275391,
+                    "G": 0.792156994342804,
+                    "B": 0.4235289990901947,
+                    "A": 0.20000000298023224
+                }
+            },
+            "ExposureModifiers": {
+                "0.010000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 44
+                },
+                "0.300000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 33
+                },
+                "0.600000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 22
+                },
+                "0.900000": {
+                    "Modifier": {
+                        "RowName": "Exposure_Arctic_Whiteout",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "ModifierLifetime": 0,
+                    "ModifierEffectiveness": 11
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsEnd": 0.800000011920929,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisEnd": 0.6000000238418579,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Debris.C_Weather_Debris",
+            "bEnableAction_Temperature": true,
+            "Temperature_End": -700,
+            "Perception_Percentage": -50,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindEnd": 0.800000011920929,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
+            "bEnableEndAllWindDamageTrigger": true,
+            "Curve_EndAllWindDamageTrigger": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Binary_000010000.C_Weather_Binary_000010000",
+            "bEnableVisuals_Snow": true,
+            "Severity_SnowEnd": 0.800000011920929,
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupEnd": 0.5,
+            "Severity_Snow_StormEnd": 0.4000000059604645,
+            "bEnableVisuals_FogColor": true,
+            "Severity_FogColorEnd": 0.8999999761581421,
+            "FogColorLinear": {
+                "R": 0.8612279891967773,
+                "G": 0.8868989944458008,
+                "B": 0.9375
+            },
+            "bEnableVisuals_FogDensity": true,
+            "Severity_FogDensityEnd": 0.6000000238418579,
+            "bEnableVisuals_Whiteout": true,
+            "Severity_WhiteoutEnd": 0.6000000238418579
+        },
+        {
+            "Name": "ArcticBlizzard_IceMammoth_Arena",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow2.icon-weather-snow2",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.992156982421875,
+                    "G": 0.6313729882240295,
+                    "B": 0.137254998087883,
+                    "A": 0.20000000298023224
+                }
+            },
+            "bEnableAction_Temperature": true,
+            "Temperature_Start": -2500,
+            "Temperature_End": -2500,
+            "StormTier": 5.5,
+            "StormWindDamagePeriod": 6,
+            "Damage_Deployables_MinInterval": 4,
+            "Damage_Deployables_MaxInterval": 6,
+            "Damage_Deployables_Intensity": 0.5,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 1,
+            "FireExtinguish_MaxInterval": 3,
+            "Curve_Snow": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
+            "bEnableVisuals_Snow_Buildup": true,
+            "Severity_Snow_BuildupStart": 1,
+            "Severity_Snow_BuildupEnd": 1
+        },
+        {
+            "Name": "ArcticBlizzard_IceMam2",
+            "bIsRampingUp": true,
+            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-snow3.icon-weather-snow3",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.5764709711074829,
+                    "G": 0.007842999882996082,
+                    "B": 0,
+                    "A": 0.20000000298023224
+                }
+            },
+            "bEnableVisuals_Clouds": true,
+            "Severity_CloudsStart": 1,
+            "Severity_CloudsEnd": 1,
+            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Debris": true,
+            "Severity_DebrisStart": 0.5,
+            "Severity_DebrisEnd": 0.5,
+            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableAction_Temperature": true,
+            "Temperature_Start": -750,
+            "Temperature_End": -750,
+            "bEnableVisuals_Wind": true,
+            "bEnableAction_Wind": true,
+            "Severity_WindStart": 0.6000000238418579,
+            "Severity_WindEnd": 0.6000000238418579,
+            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "StormTier": 5,
+            "StormWindDamagePeriod": 0.75,
+            "bWindTopplesTrees": true,
+            "TreeToppleMinInterval": 1,
+            "TreeToppleMaxInterval": 2,
+            "TreeToppleStrengthThreshold": 0.5,
+            "Damage_Deployables_MinInterval": 2,
+            "Damage_Deployables_MaxInterval": 3,
+            "Damage_Deployables_Intensity": 0.5,
+            "FireExtinguish_RollChanceMulti": 1,
+            "FireExtinguish_MinInterval": 1,
+            "FireExtinguish_MaxInterval": 3,
+            "bEnableVisuals_Snow": true,
+            "Severity_SnowStart": 0.5,
+            "Severity_SnowEnd": 0.5,
+            "Curve_Snow": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Snow_Storm": true,
+            "Severity_Snow_StormStart": 0.30000001192092896,
+            "Severity_Snow_StormEnd": 0.30000001192092896
         }
     ]
 }

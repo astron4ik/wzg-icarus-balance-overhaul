@@ -128,6 +128,13 @@
             "AttachmentSlot": 1
         },
         {
+            "Name": "Submachine_Gun_Ammo_Attachment",
+            "InventoryInfo": {
+                "RowName": "Pistol_Ammo_Attachment"
+            },
+            "AttachmentSlot": 1
+        },
+        {
             "Name": "Shotgun_Ammo_Attachment",
             "InventoryInfo": {
                 "RowName": "Shotgun_Ammo_Attachment"
@@ -159,6 +166,53 @@
             "Name": "Medicine_Bag",
             "InventoryInfo": {
                 "RowName": "Medicine_Bag"
+            },
+            "bCanInventoryTick": true
+        },
+        {
+            "Name": "Seed_Pouch_T2",
+            "InventoryInfo": {
+                "RowName": "Seed_Pouch_T2"
+            },
+            "bCanInventoryTick": true
+        },
+        {
+            "Name": "Rock_Ammo",
+            "InventoryInfo": {
+                "RowName": "RockGun_Ammo_Attachment"
+            },
+            "AttachmentSlot": 1
+        },
+        {
+            "Name": "Cart_Plough_Blade",
+            "InventoryInfo": {
+                "RowName": "Plough_Attachment"
+            },
+            "AttachmentSlot": 0
+        },
+        {
+            "Name": "Spear_Launcher",
+            "InventoryInfo": {
+                "RowName": "Sandworm_Crossbow"
+            }
+        },
+        {
+            "Name": "Weapon_Rack",
+            "InventoryInfo": {
+                "RowName": "Weapon_Rack"
+            }
+        },
+        {
+            "Name": "Cart_Harvest_Attachment",
+            "InventoryInfo": {
+                "RowName": "Harvester_Attachment"
+            },
+            "AttachmentSlot": 0
+        },
+        {
+            "Name": "Pouch_Generic",
+            "InventoryInfo": {
+                "RowName": "Pouch_Generic"
             },
             "bCanInventoryTick": true
         }

@@ -66,6 +66,15 @@
                     "Stat": {
                         "Value": "BaseMeleeDamageAgainstBuildings_+%"
                     }
+                },
+                {
+                    "Tag": {
+                        "RowName": "Any_Deployable",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Stat": {
+                        "Value": "BaseMeleeDamageAgainstDeployables_+%"
+                    }
                 }
             ]
         },
@@ -95,6 +104,15 @@
                     },
                     "Stat": {
                         "Value": "BaseProjectileDamageAgainstBuildings_+%"
+                    }
+                },
+                {
+                    "Tag": {
+                        "RowName": "Any_Deployable",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Stat": {
+                        "Value": "BaseProjectileDamageAgainstDeployables_+%"
                     }
                 }
             ],

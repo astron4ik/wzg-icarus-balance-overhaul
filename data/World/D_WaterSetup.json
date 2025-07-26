@@ -87,7 +87,7 @@
                 ]
             },
             "WaterAlteration": {
-                "Value": "Dirty_Water"
+                "Value": "Dirty_Water_Swamp"
             }
         },
         {
@@ -247,7 +247,28 @@
                 ]
             },
             "WaterAlteration": {
-                "Value": "Dirty_Water"
+                "Value": "Dirty_Water_Lava"
+            }
+        },
+        {
+            "Name": "Geothermal_DLC2",
+            "Material": "/Game/ASS/ENV/WAT/MI_Water_GeothermalLake_DLC2.MI_Water_GeothermalLake_DLC2",
+            "Sound": "/Game/FMOD/Events/Environment/Fluids/Lake/ENV_GEOTHERMAL_LAKE.ENV_GEOTHERMAL_LAKE",
+            "WetModifiers": [
+                {
+                    "RowName": "GeothermalPool_Wet",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "GameplayTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Traits.Water.Geothermal"
+                    }
+                ]
+            },
+            "WaterAlteration": {
+                "Value": "Dirty_Water_Lava"
             }
         }
     ]

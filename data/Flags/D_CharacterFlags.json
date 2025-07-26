@@ -72,7 +72,10 @@
         },
         {
             "Name": "Unlocked_Bait",
-            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"Unlocked_Bait-Description\", \"New Bait to Attract Animals\")"
+            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"Unlocked_Bait-Description\", \"Unlocks Bait & Poison Bait (Character Only)\")",
+            "Metadata": {
+                "bIsDeprecated": true
+            }
         },
         {
             "Name": "Talent_GunpowderRecipe",
@@ -84,7 +87,10 @@
         },
         {
             "Name": "Mission_Cave_Worm_Analyser",
-            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"Mission_Cave_Worm_Analyser-Description\", \"New Creature Weapons\")"
+            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"Mission_Cave_Worm_Analyser-Description\", \"Unlocks Caveworm Weapons & Tools (Character Only)\")",
+            "Metadata": {
+                "bIsDeprecated": true
+            }
         },
         {
             "Name": "Mission_Handheld_Scanners",
@@ -95,15 +101,24 @@
         },
         {
             "Name": "Mission_Scorpion_Item_Analyzer",
-            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"Mission_Scorpion_Item_Analyzer-Description\", \"New Scorpion Defences\")"
+            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"Mission_Scorpion_Item_Analyzer-Description\", \"Unlock Scorpion Traps (Character Only)\")",
+            "Metadata": {
+                "bIsDeprecated": true
+            }
         },
         {
             "Name": "Mission_Sandworm_Items",
-            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"Mission_Sandworm_Items-Description\", \"New Craftable Creature Items\")"
+            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"Mission_Sandworm_Items-Description\", \"Unlocks Sandworm Weapons, Tools & Armor (Character Only)\")",
+            "Metadata": {
+                "bIsDeprecated": true
+            }
         },
         {
             "Name": "Mission_Scorpion_Armor_Items",
-            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"Mission_Scorpion_Armor_Items-Description\", \"New Craftable Creature Items\")"
+            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"Mission_Scorpion_Armor_Items-Description\", \"Unlocks Scorpion Armor (Character Only)\")",
+            "Metadata": {
+                "bIsDeprecated": true
+            }
         },
         {
             "Name": "Mission_Olympus_Unlock",
@@ -111,11 +126,17 @@
         },
         {
             "Name": "Mission_BlackWolf_Items",
-            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"Mission_BlackWolf_Items-Description\", \"New Craftable Creature Items\")"
+            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"Mission_BlackWolf_Items-Description\", \"Unlocks Black Wolf Arrow & Knife (Character Only)\")",
+            "Metadata": {
+                "bIsDeprecated": true
+            }
         },
         {
             "Name": "Mission_Targets",
-            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"Mission_Targets-Description\", \"New Craftable Target Dummy Items\")"
+            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"Mission_Targets-Description\", \"Unlocks Target Dummy Items (Character Only)\")",
+            "Metadata": {
+                "bIsDeprecated": true
+            }
         },
         {
             "Name": "Communicator_T2"
@@ -128,7 +149,32 @@
         },
         {
             "Name": "Mission_AlienFossil",
-            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"Mission_AlienFossil-Description\", \"New Craftable Cosmetic Deployables\")"
+            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"Mission_AlienFossil-Description\", \"Unlocks Alien Decorations (Character Only)\")",
+            "Metadata": {
+                "bIsDeprecated": true
+            }
+        },
+        {
+            "Name": "StyxBlocker_B_TooltipOnly",
+            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"StyxBlocker_B_TooltipOnly-Description\", \"Unlocks Shortcut between The Wall and Dry Ridge\")"
+        },
+        {
+            "Name": "StyxBlocker_C_TooltipOnly",
+            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"StyxBlocker_C_TooltipOnly-Description\", \"Unlocks Shortcut between Enclosed Wood and Oasis \")"
+        },
+        {
+            "Name": "StyxBlocker_D_TooltipOnly",
+            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"StyxBlocker_D_TooltipOnly-Description\", \"Unlocks Shortcut between Frozen Traverse and Ring Lake\")"
+        },
+        {
+            "Name": "StyxBlocker_E_TooltipOnly",
+            "Description": "NSLOCTEXT(\"D_CharacterFlags\", \"StyxBlocker_E_TooltipOnly-Description\", \"Unlocks Shortcut between The Great River and Dry Ridge\")"
+        },
+        {
+            "Name": "RefundOnly_Repairable"
+        },
+        {
+            "Name": "GreatHunt_IntroPlayed"
         }
     ]
 }

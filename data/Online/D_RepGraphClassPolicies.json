@@ -689,6 +689,105 @@
             "Settings": {
                 "RowName": "Spatialize_Default"
             }
+        },
+        {
+            "Name": "Icarus.SpawnBlocker",
+            "Class": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Deployable_SpawnBlocker.BP_Deployable_SpawnBlocker_C",
+            "Description": "Always Relevant (all connections)",
+            "Policy": "RelevantAllConnections",
+            "Settings": {
+                "RowName": "AlwaysRelevant_Default"
+            }
+        },
+        {
+            "Name": "Icarus.IceBreaker",
+            "Class": "/Game/BP/AI/Bosses/BP_NPC_IceBreaker_Character.BP_NPC_IceBreaker_Character_C",
+            "Description": "Always Relevant (all connections)",
+            "Policy": "RelevantAllConnections",
+            "Settings": {
+                "RowName": "AlwaysRelevant_Default"
+            }
+        },
+        {
+            "Name": "Icarus.MainLevelTeleport",
+            "Class": "/Script/Icarus.BaseLevelTeleport",
+            "Description": "Always Relevant (all connections)",
+            "Policy": "RelevantAllConnections",
+            "Settings": {
+                "RowName": "AlwaysRelevant_Default"
+            }
+        },
+        {
+            "Name": "Icarus.SlugManager",
+            "Class": "/Game/BP/AI/Bosses/BP_SlugManager.BP_SlugManager_C",
+            "Description": "Always Relevant (all connections)",
+            "Policy": "RelevantAllConnections",
+            "Settings": {
+                "RowName": "AlwaysRelevant_Default"
+            }
+        },
+        {
+            "Name": "Icarus.ApeLog",
+            "Class": "/Game/BP/AI/Bosses/Misc/BP_GreatApe_Drop_Log.BP_GreatApe_Drop_Log_C",
+            "Description": "Spatialized dynamic, Not an IcarusActor",
+            "Policy": "Spatialize_Dynamic",
+            "Settings": {
+                "RowName": "Spatialize_Default"
+            }
+        },
+        {
+            "Name": "Icarus.WorldTalentManager",
+            "Class": "/Script/Icarus.WorldTalentManager",
+            "Description": "Always Relevant (all connections)",
+            "Policy": "RelevantAllConnections",
+            "Settings": {
+                "RowName": "AlwaysRelevant_Default"
+            }
+        },
+        {
+            "Name": "Icarus.Mission.NPC",
+            "Class": "/Game/BP/Objects/World/Items/WorldObjects/Missions/PRO_D/BP_Mission_NPC.BP_Mission_NPC_C",
+            "Description": "Ensure that (scanable) mission NPC are always relevant",
+            "Policy": "RelevantAllConnections",
+            "Settings": {
+                "RowName": "AlwaysRelevant_Default"
+            }
+        },
+        {
+            "Name": "Icarus.WorldObject_NoHighlight",
+            "Class": "/Game/BP/Objects/World/Items/WorldObjects/BP_WorldObject_NoHighlight.BP_WorldObject_NoHighlight_C",
+            "Description": "Non statefull, spawned, scenery, no interact",
+            "Policy": "RelevantAllConnections",
+            "Settings": {
+                "RowName": "AlwaysRelevant_Default"
+            }
+        },
+        {
+            "Name": "Icarus.BarrierWall",
+            "Class": "/Game/Developers/francisliardet/Blueprints/BP_RockGolem_BarrierWall.BP_RockGolem_BarrierWall_C",
+            "Description": "Spatialized dynamic (explicit as IcarusActor rule doesn't seem to work for classes that haven't been loaded on map transition)",
+            "Policy": "Spatialize_Dynamic",
+            "Settings": {
+                "RowName": "Spatialize_Default"
+            }
+        },
+        {
+            "Name": "Icarus.EatingRock",
+            "Class": "/Game/BP/AI/Bosses/Misc/BP_RockGolem_EatingRock.BP_RockGolem_EatingRock_C",
+            "Description": "Spatialized dynamic (explicit as IcarusActor rule doesn't seem to work for classes that haven't been loaded on map transition)",
+            "Policy": "Spatialize_Dynamic",
+            "Settings": {
+                "RowName": "Spatialize_Default"
+            }
+        },
+        {
+            "Name": "Icarus.MissionSpawnBlocker",
+            "Class": "/Game/BP/Objects/World/Items/WorldObjects/Missions/BP_MissionSpawnBlocker.BP_MissionSpawnBlocker_C",
+            "Description": "Spatialized dynamic (explicit as IcarusActor rule doesn't seem to work for classes that haven't been loaded on map transition)",
+            "Policy": "Spatialize_Dynamic",
+            "Settings": {
+                "RowName": "Spatialize_Default"
+            }
         }
     ]
 }

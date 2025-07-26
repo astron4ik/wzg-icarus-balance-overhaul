@@ -419,6 +419,36 @@
             "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut.MusicCurve_DefaultFadeOut'",
             "PrevTrackOverrideFadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_QuickFadeOut.MusicCurve_QuickFadeOut'",
             "PlayerStateFlags": 5,
+            "Locations": [
+                {
+                    "RowName": "Arctic",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Cave",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Desert",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Grasslands",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Lava",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Wetlands",
+                    "DataTableName": "D_MusicLocationConditions"
+                }
+            ],
             "CombatFlags": 8,
             "DropStateFlags": 2
         },
@@ -563,6 +593,76 @@
             "StateGroup": {
                 "RowName": "PRO_Story6_Evidence"
             }
+        },
+        {
+            "Name": "GreatHunt_Idle",
+            "Event": "/Game/FMOD/Events/Music/Icarus_GH_Intro.Icarus_GH_Intro",
+            "FadeInCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeIn.MusicCurve_DefaultFadeIn'",
+            "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut.MusicCurve_DefaultFadeOut'",
+            "bTrackCanBePaused": true,
+            "PlayerStateFlags": 1,
+            "Locations": [
+                {
+                    "RowName": "GreatHuntArena",
+                    "DataTableName": "D_MusicLocationConditions"
+                }
+            ],
+            "CombatFlags": 1,
+            "DropStateFlags": 2
+        },
+        {
+            "Name": "GreatHunt_Combat",
+            "Event": "/Game/FMOD/Events/Music/Icarus_GH.Icarus_GH",
+            "FadeInCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_VeryFastFadeIn.MusicCurve_VeryFastFadeIn'",
+            "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut.MusicCurve_DefaultFadeOut'",
+            "PrevTrackOverrideFadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_QuickFadeOut.MusicCurve_QuickFadeOut'",
+            "PlayerStateFlags": 5,
+            "Locations": [
+                {
+                    "RowName": "GreatHuntArena",
+                    "DataTableName": "D_MusicLocationConditions"
+                }
+            ],
+            "CombatFlags": 8,
+            "DropStateFlags": 2
+        },
+        {
+            "Name": "DH_Idle_Tundra",
+            "Event": "/Game/FMOD/Events/Music/Icarus_DH_M1.Icarus_DH_M1",
+            "FadeInCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeIn.MusicCurve_DefaultFadeIn'",
+            "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut.MusicCurve_DefaultFadeOut'",
+            "bTrackCanBePaused": true,
+            "PlayerStateFlags": 1,
+            "Locations": [
+                {
+                    "RowName": "DHTundra",
+                    "DataTableName": "D_MusicLocationConditions"
+                }
+            ],
+            "CombatFlags": 1,
+            "TimeOfDayFlags": 7,
+            "WeatherFlags": 1,
+            "DropStateFlags": 2,
+            "DisasterFlags": 1
+        },
+        {
+            "Name": "DH_Idle_Geothermal",
+            "Event": "/Game/FMOD/Events/Music/Icarus_DH_GEO_1.Icarus_DH_GEO_1",
+            "FadeInCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeIn.MusicCurve_DefaultFadeIn'",
+            "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut.MusicCurve_DefaultFadeOut'",
+            "bTrackCanBePaused": true,
+            "PlayerStateFlags": 1,
+            "Locations": [
+                {
+                    "RowName": "DHTundra",
+                    "DataTableName": "D_MusicLocationConditions"
+                }
+            ],
+            "CombatFlags": 1,
+            "TimeOfDayFlags": 7,
+            "WeatherFlags": 1,
+            "DropStateFlags": 2,
+            "DisasterFlags": 1
         }
     ]
 }

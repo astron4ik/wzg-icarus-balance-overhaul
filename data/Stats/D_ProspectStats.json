@@ -92,19 +92,19 @@
         {
             "Name": "Player_XP_110%",
             "WorldStats": {
-                "(Value=\"WorldPlayerExperience_+%\")": 25
+                "(Value=\"WorldPlayerExperience_+%\")": 10
             }
         },
         {
             "Name": "Player_XP_133%",
             "WorldStats": {
-                "(Value=\"WorldPlayerExperience_+%\")": 50
+                "(Value=\"WorldPlayerExperience_+%\")": 33
             }
         },
         {
             "Name": "Player_XP_150%",
             "WorldStats": {
-                "(Value=\"WorldPlayerExperience_+%\")": 100
+                "(Value=\"WorldPlayerExperience_+%\")": 50
             }
         },
         {
@@ -292,6 +292,18 @@
             "Name": "Outpost",
             "WorldStats": {
                 "(Value=\"WorldIsOutpostProspect_?\")": 1
+            }
+        },
+        {
+            "Name": "VisibleApeDens",
+            "WorldStats": {
+                "(Value=\"WorldPlayerCanSeeJuvenileApeDenOnMap_?\")": 1
+            }
+        },
+        {
+            "Name": "Mission_LavaHunterQuestlineActive",
+            "WorldStats": {
+                "(Value=\"WorldIsLavaHunterQuestlineActive_?\")": 1
             }
         }
     ]

@@ -14,6 +14,7 @@
             "HarvestedSound": "None",
             "ClearedSound": "None"
         },
+        "OptimalBiomes": [],
         "Stage1": {
             "RowName": "None",
             "DataTableName": "D_FarmingGrowthStates"
@@ -69,13 +70,23 @@
                 "RowName": "Corn_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Corn"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_CORN_HARVEST.SFX_CORN_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Grasslands",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Corn_Growth_01"
             },
@@ -110,13 +121,19 @@
                 "RowName": "Wheat_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Wheat"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_WHEAT_HARVEST.SFX_WHEAT_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Wheat_Growth_01"
             },
@@ -151,13 +168,23 @@
                 "RowName": "Reed_Flower_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_ReedFlower"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_REED_HARVEST.SFX_REED_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Swamp",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "ReedFlower_Growth_01"
             },
@@ -192,13 +219,23 @@
                 "RowName": "Yeast_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Yeast"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_LILY_HARVEST.SFX_LILY_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Swamp",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Yeast_Growth_01"
             },
@@ -233,13 +270,19 @@
                 "RowName": "Lily_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Lily"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_LILY_HARVEST.SFX_LILY_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Lily_Growth_01"
             },
@@ -274,13 +317,23 @@
                 "RowName": "BerryBush_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_BerryBush"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_BERRYBUSH_HARVEST.SFX_BERRYBUSH_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Swamp",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "BerryBush_Growth_01"
             },
@@ -315,13 +368,19 @@
                 "RowName": "Pumpkin_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Pumpkin"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_GOURD_HARVEST.SFX_GOURD_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Pumpkin_Growth_01"
             },
@@ -356,13 +415,23 @@
                 "RowName": "Beans_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Beans"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_FIBER_HARVEST.SFX_FIBER_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Volcanic",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Beans_Growth_01"
             },
@@ -398,13 +467,23 @@
                 "RowName": "Squash_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Squash"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_SQUASH_HARVEST.SFX_SQUASH_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Desert",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Volcanic",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Squash_Growth_01"
             },
@@ -439,13 +518,23 @@
                 "RowName": "Watermelon_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Watermelon"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_GOURD_HARVEST.SFX_GOURD_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Grasslands",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Watermelon_Growth_01"
             },
@@ -480,13 +569,23 @@
                 "RowName": "Cocoa_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Cocoa"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_COFFEE_HARVEST.SFX_COFFEE_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Volcanic",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Cocoa_Growth_01"
             },
@@ -521,13 +620,19 @@
                 "RowName": "Coffee_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Coffee"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_COFFEE_HARVEST.SFX_COFFEE_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Coffee_Growth_01"
             },
@@ -562,13 +667,23 @@
                 "RowName": "GreenTea_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_GreenTea"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_FIBER_HARVEST.SFX_FIBER_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Swamp",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "GreenTea_Growth_01"
             },
@@ -603,13 +718,23 @@
                 "RowName": "WildTea_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_WildTea"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_FIBER_HARVEST.SFX_FIBER_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Volcanic",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "WildTea_Growth_01"
             },
@@ -644,13 +769,23 @@
                 "RowName": "Carrot_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Carrot"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_CARROT_HARVEST.SFX_CARROT_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Grasslands",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Carrot_Growth_01"
             },
@@ -685,13 +820,23 @@
                 "RowName": "Mushroom_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Mushroom"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_CARROT_HARVEST.SFX_CARROT_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Swamp",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Mushroom_Growth_01"
             },
@@ -726,13 +871,23 @@
                 "RowName": "Rhubarb_Crop"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Rhubarb"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_CONIFLOWER_HARVEST.SFX_CONIFLOWER_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Swamp",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Rhubarb_Growth_01"
             },
@@ -767,13 +922,23 @@
                 "RowName": "Kumara_Crop"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Kumara"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_SQUASH_HARVEST.SFX_SQUASH_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Grasslands",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Kumara_Growth_01"
             },
@@ -808,13 +973,23 @@
                 "RowName": "Avocado_Crop"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Avocado"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_SQUASH_HARVEST.SFX_SQUASH_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Swamp",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Avocado_Growth_01"
             },
@@ -849,13 +1024,23 @@
                 "RowName": "Strawberry_Crop"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Strawberry"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_BERRYBUSH_HARVEST.SFX_BERRYBUSH_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Grasslands",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Stawberry_Growth_01"
             },
@@ -890,13 +1075,27 @@
                 "RowName": "Fiber_Crop"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Fiber"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_BERRYBUSH_HARVEST.SFX_BERRYBUSH_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Grasslands",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Swamp",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Fiber_Growth_01"
             },
@@ -938,6 +1137,16 @@
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_BERRYBUSH_HARVEST.SFX_BERRYBUSH_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Grasslands",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Test_Growth_01"
             },
@@ -972,13 +1181,19 @@
                 "RowName": "Tomato_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Tomato"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_BERRYBUSH_HARVEST.SFX_BERRYBUSH_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Grasslands",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Tomato_Growth_01"
             },
@@ -1019,13 +1234,19 @@
                 "RowName": "Potato_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Potato"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_SQUASH_HARVEST.SFX_SQUASH_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Swamp",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Potato_Growth_01"
             },
@@ -1070,6 +1291,12 @@
             "Audio": {
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Volcanic",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Red_Exotic_Growth_01"
             },
@@ -1110,13 +1337,23 @@
                 "RowName": "Sugar_Cane"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_SugarCane"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_CARROT_HARVEST.SFX_CARROT_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Swamp",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Sugar_Growth_01"
             },
@@ -1151,13 +1388,23 @@
                 "RowName": "Coconut_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Coconut"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_COCONUT_TREE_HARVEST.SFX_COCONUT_TREE_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Desert",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Volcanic",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Coconut_Growth_01"
             },
@@ -1192,13 +1439,19 @@
                 "RowName": "Bramble_Crops"
             },
             "DecayedRewards": {
-                "RowName": "Spoiled_Crops"
+                "RowName": "Spoiled_Crops_Bramble"
             },
             "Audio": {
                 "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
                 "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_CARROT_HARVEST.SFX_CARROT_HARVEST",
                 "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
             },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Swamp",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
             "Stage1": {
                 "RowName": "Bramble_Growth_01"
             },
@@ -1227,6 +1480,112 @@
                 "RowName": "Seed_Fatigue"
             },
             "FatigueIncreaseEachHarvest": 50
+        },
+        {
+            "Name": "Kiwi_Fruit",
+            "CropRewards": {
+                "RowName": "Kiwi_Fruit_Crop"
+            },
+            "DecayedRewards": {
+                "RowName": "Spoiled_Crops_KiwiFruit"
+            },
+            "Audio": {
+                "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
+                "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_CARROT_HARVEST.SFX_CARROT_HARVEST",
+                "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
+            },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Grasslands",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
+            "Stage1": {
+                "RowName": "Kiwi_Fruit_Growth_01"
+            },
+            "Stage2": {
+                "RowName": "Kiwi_Fruit_Growth_02"
+            },
+            "Stage3": {
+                "RowName": "Kiwi_Fruit_Growth_03"
+            },
+            "Stage4": {
+                "RowName": "Kiwi_Fruit_Growth_04"
+            },
+            "Mature": {
+                "RowName": "Kiwi_Fruit_Growth_05"
+            },
+            "Decayed": {
+                "RowName": "Kiwi_Fruit_Dead"
+            },
+            "Itemable": {
+                "RowName": "Item_Kiwi_Fruit_Seed"
+            },
+            "Deployable": {
+                "RowName": "Farming_Mound_Kiwi_Fruit"
+            },
+            "FatigueModifier": {
+                "RowName": "Seed_Fatigue"
+            }
+        },
+        {
+            "Name": "Banana",
+            "CropRewards": {
+                "RowName": "Banana_Crop"
+            },
+            "DecayedRewards": {
+                "RowName": "Spoiled_Crops_Banana"
+            },
+            "Audio": {
+                "PlantedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
+                "HarvestedSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_CARROT_HARVEST.SFX_CARROT_HARVEST",
+                "ClearedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM"
+            },
+            "OptimalBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Grasslands",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Desert",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
+            "Stage1": {
+                "RowName": "Banana_Growth_01"
+            },
+            "Stage2": {
+                "RowName": "Banana_Growth_02"
+            },
+            "Stage3": {
+                "RowName": "Banana_Growth_03"
+            },
+            "Stage4": {
+                "RowName": "Banana_Growth_04"
+            },
+            "Mature": {
+                "RowName": "Banana_Growth_05"
+            },
+            "Decayed": {
+                "RowName": "Banana_Dead"
+            },
+            "Itemable": {
+                "RowName": "Item_Banana_Seed"
+            },
+            "Deployable": {
+                "RowName": "Farming_Mound_Banana"
+            },
+            "FatigueModifier": {
+                "RowName": "Seed_Fatigue"
+            }
         }
     ]
 }

@@ -6588,6 +6588,3682 @@
                 ],
                 "AutoDescription": " ALL( FactionMission.Styx.MiniHippoWolves.Boss )"
             }
+        },
+        {
+            "Name": "STYX_Kiwi_Nest",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Styx.Kiwi.Nest"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Styx.Kiwi.Nest )"
+            }
+        },
+        {
+            "Name": "STYX_Kiwi_Release",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Styx.Kiwi.Release"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Styx.Kiwi.Release )"
+            }
+        },
+        {
+            "Name": "STYX_Kiwi_Den1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Styx.Kiwi.Den.1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Styx.Kiwi.Den.1 )"
+            }
+        },
+        {
+            "Name": "STYX_Kiwi_Den2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Styx.Kiwi.Den.2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Styx.Kiwi.Den.2 )"
+            }
+        },
+        {
+            "Name": "STYX_Kiwi_Den3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Styx.Kiwi.Den.3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Styx.Kiwi.Den.3 )"
+            }
+        },
+        {
+            "Name": "PRO_Ashlands_Volcano",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Volcano"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Volcano )"
+            }
+        },
+        {
+            "Name": "PRO_Marshlands_East",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.A.MarshlandsEast"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.A.MarshlandsEast )"
+            }
+        },
+        {
+            "Name": "PRO_Ashlands_ValleyEntrance",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.SouthEast.ValleyEntrance"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.SouthEast.ValleyEntrance )"
+            }
+        },
+        {
+            "Name": "PRO_Ashlands_ValleyEntryway",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.SouthEast.ValleyEntryway"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.SouthEast.ValleyEntryway )"
+            }
+        },
+        {
+            "Name": "PRO_Ashlands_NorthPath",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.NorthPath"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.NorthPath )"
+            }
+        },
+        {
+            "Name": "PRO_Icesheet_UpperPillar",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Icesheet.UpperPillar"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Icesheet.UpperPillar )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_Truck",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Recovery.Truck"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Recovery.Truck )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_NPC1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Recovery.NPC1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Recovery.NPC1 )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_NPC2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Recovery.NPC2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Recovery.NPC2 )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_NPC3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Recovery.NPC3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Recovery.NPC3 )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_NPC4",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Recovery.NPC4"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Recovery.NPC4 )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_NPC5",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Recovery.NPC5"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Recovery.NPC5 )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_Search",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Recovery.Search"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Recovery.Search )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_Shed",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Recovery.Shed"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Recovery.Shed )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_Camp",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Recovery.Camp1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Recovery.Camp1 )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_Camp2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Recovery.Camp2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Recovery.Camp2 )"
+            }
+        },
+        {
+            "Name": "PRO_Ashlands_ValleyDeep",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.SouthEast.ValleyDeep"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.SouthEast.ValleyDeep )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_NPC4_Rescue",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Recovery.NPC4Rescue"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Recovery.NPC4Rescue )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_NPC5_Rescue",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Recovery.NPC5Rescue"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Recovery.NPC5Rescue )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_Search2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Recovery.Search2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Recovery.Search2 )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_Evac",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Recovery.Evac"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Recovery.Evac )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_Entrance_Search",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.EntranceSearch"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.EntranceSearch )"
+            }
+        },
+        {
+            "Name": "PRO_NULL_AudioWarning",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.AudioWarning"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.AudioWarning )"
+            }
+        },
+        {
+            "Name": "PRO_NULL_AudioEntered",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.AudioEntered"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.AudioEntered )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_BUNKER_NOTE1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Note1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Note1 )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_BUNKER_NOTE2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Note2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Note2 )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_BUNKER_NOTE3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Note3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Note3 )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_E1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Exotic.1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Exotic.1 )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_E2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Exotic.2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Exotic.2 )"
+            }
+        },
+        {
+            "Name": "PRO_ASH_E3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Exotic.3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Exotic.3 )"
+            }
+        },
+        {
+            "Name": "PRO_NUL_CAVE",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Cave.Location"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Cave.Location )"
+            }
+        },
+        {
+            "Name": "PRO_NUL_EQU",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Cave.Equipment"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Cave.Equipment )"
+            }
+        },
+        {
+            "Name": "PRO_NUL_CAVE_ENTRANCE",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Cave.D1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Cave.D1 )"
+            }
+        },
+        {
+            "Name": "PRO_NUL_FLASHLIGHT_PROP",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Cave.Flashlight"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Cave.Flashlight )"
+            }
+        },
+        {
+            "Name": "PRO_NUL_CAVE_RUNNING_PROP",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Cave.FlashMan"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Cave.FlashMan )"
+            }
+        },
+        {
+            "Name": "PRO_NUL_CAVE_EVENT_RUNNING",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Cave.FlashTrigger"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Cave.FlashTrigger )"
+            }
+        },
+        {
+            "Name": "PRO_NUL_CAVE_CHAMBER",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Cave.DF"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Cave.DF )"
+            }
+        },
+        {
+            "Name": "PRO_NUL_CAVE_CAMP",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Cave.End"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Cave.End )"
+            }
+        },
+        {
+            "Name": "PRO_NUL_CAVE_MAN_PROP",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Cave.CaveMan"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Cave.CaveMan )"
+            }
+        },
+        {
+            "Name": "PRO_NUL_CAVE_EXOTICS",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Cave.Exotics"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Cave.Exotics )"
+            }
+        },
+        {
+            "Name": "PRO_Ashlands_Blocker",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Ashlands.Blocker"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Ashlands.Blocker )"
+            }
+        },
+        {
+            "Name": "PRO_Icesheet_Blocker",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Icesheet.Blocker"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Icesheet.Blocker )"
+            }
+        },
+        {
+            "Name": "PRO_Icesheet_Cave_Note1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Cave.Note1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Cave.Note1 )"
+            }
+        },
+        {
+            "Name": "PRO_Icesheet_Cave_Note2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Cave.Note2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Cave.Note2 )"
+            }
+        },
+        {
+            "Name": "PRO_Icesheet_Cave_Note3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Prometheus.Cave.Note3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Prometheus.Cave.Note3 )"
+            }
+        },
+        {
+            "Name": "GH_RG_MiningOutpost_A",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.MiningOutpostA"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.MiningOutpostA )"
+            }
+        },
+        {
+            "Name": "GH_RG_B_Cave1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.Caves_1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.Caves_1 )"
+            }
+        },
+        {
+            "Name": "GH_RG_B_Cave1_Entrance",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.B.Cave1.Entrance"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.B.Cave1.Entrance )"
+            }
+        },
+        {
+            "Name": "GH_RG_B_Cave1_Burrow",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.B.Cave1.Burrow"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.B.Cave1.Burrow )"
+            }
+        },
+        {
+            "Name": "GH_RG_B_Cave2_Entrance",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.B.Cave2.Entrance"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.B.Cave2.Entrance )"
+            }
+        },
+        {
+            "Name": "GH_RG_B_Cave2_Burrow",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.B.Cave2.Burrow"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.B.Cave2.Burrow )"
+            }
+        },
+        {
+            "Name": "GH_RG_B_Cave3_Entrance",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.B.Cave3.Entrance"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.B.Cave3.Entrance )"
+            }
+        },
+        {
+            "Name": "GH_RG_B_Cave3_Shark",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.B.Cave3.Shark"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.B.Cave3.Shark )"
+            }
+        },
+        {
+            "Name": "GH_RG_B_Cave3_Burrow",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.B.Cave3.Burrow"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.B.Cave3.Burrow )"
+            }
+        },
+        {
+            "Name": "GH_RG_Mining_Platform",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.MiningPlatform"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.MiningPlatform )"
+            }
+        },
+        {
+            "Name": "GH_RG_C2_Base",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.C2.Base"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.C2.Base )"
+            }
+        },
+        {
+            "Name": "GH_RG_C2_Gold",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.C2.Gold"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.C2.Gold )"
+            }
+        },
+        {
+            "Name": "GH_RG_C2_Oxite",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.C2.Oxite"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.C2.Oxite )"
+            }
+        },
+        {
+            "Name": "GH_RG_C2_Copper",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.C2.Copper"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.C2.Copper )"
+            }
+        },
+        {
+            "Name": "GH_RG_C2_Exotic",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.C2.Exotic"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.C2.Exotic )"
+            }
+        },
+        {
+            "Name": "GH_RG_C2_Retrieval",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.Samples_Pod"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.Samples_Pod )"
+            }
+        },
+        {
+            "Name": "GH_RG_C2_Boss",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.C2.Boss"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.C2.Boss )"
+            }
+        },
+        {
+            "Name": "GH_RG_D_Boss",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.D.Boss"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.D.Boss )"
+            }
+        },
+        {
+            "Name": "GH_RG_D_Spawner1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.D.Spawner1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.D.Spawner1 )"
+            }
+        },
+        {
+            "Name": "GH_RG_D_Spawner2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.D.Spawner2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.D.Spawner2 )"
+            }
+        },
+        {
+            "Name": "GH_RG_D_Exotics",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.D.Exotics"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.D.Exotics )"
+            }
+        },
+        {
+            "Name": "GH_RG_D_Exotics_Delivery",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.D.Delivery"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.D.Delivery )"
+            }
+        },
+        {
+            "Name": "GH_RG_D_Travel",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.D.Travel"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.D.Travel )"
+            }
+        },
+        {
+            "Name": "GH_RG_Den",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.Den"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.Den )"
+            }
+        },
+        {
+            "Name": "GH_Ape_A",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.A.Base"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.A.Base )"
+            }
+        },
+        {
+            "Name": "GH_Ape_A_Scientist",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.A.Scientist"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.A.Scientist )"
+            }
+        },
+        {
+            "Name": "GH_Ape_BTrailMid",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.BTrailMid"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.BTrailMid )"
+            }
+        },
+        {
+            "Name": "GH_Ape_BTrailEnd",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.BTrailEnd"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.BTrailEnd )"
+            }
+        },
+        {
+            "Name": "GH_Ape_C",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.C.Base"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.C.Base )"
+            }
+        },
+        {
+            "Name": "GH_Ape_C_Lab",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.C.Lab"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.C.Lab )"
+            }
+        },
+        {
+            "Name": "GH_Ape_C_LairA",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.C.LairA"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.C.LairA )"
+            }
+        },
+        {
+            "Name": "GH_Ape_C_LairB",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.C.LairB"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.C.LairB )"
+            }
+        },
+        {
+            "Name": "GH_Ape_C_LairC",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.C.LairC"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.C.LairC )"
+            }
+        },
+        {
+            "Name": "GH_Ape_D",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.D.Base"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.D.Base )"
+            }
+        },
+        {
+            "Name": "GH_Ape_D_Lair1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.D.Lair1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.D.Lair1 )"
+            }
+        },
+        {
+            "Name": "GH_Ape_D_Lair2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.D.Lair2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.D.Lair2 )"
+            }
+        },
+        {
+            "Name": "GH_Ape_D_Lair3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.D.Lair3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.D.Lair3 )"
+            }
+        },
+        {
+            "Name": "GH_Ape_D_SA",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.D.SA"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.D.SA )"
+            }
+        },
+        {
+            "Name": "GH_Ape_DArea",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.DArea"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.DArea )"
+            }
+        },
+        {
+            "Name": "GH_Ape_E_Desert",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.E.Desert"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.E.Desert )"
+            }
+        },
+        {
+            "Name": "GH_Ape_E_Forest",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.E.Forest"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.E.Forest )"
+            }
+        },
+        {
+            "Name": "GH_Ape_E_Arctic",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.E.Arctic"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.E.Arctic )"
+            }
+        },
+        {
+            "Name": "GH_Ape_F_JnrLair",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.F.JnrLair"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.F.JnrLair )"
+            }
+        },
+        {
+            "Name": "GH_Ape_NearBoss",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.NearBoss"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.NearBoss )"
+            }
+        },
+        {
+            "Name": "GH_Ape_O1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.O1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.O1 )"
+            }
+        },
+        {
+            "Name": "GH_Ape_O1_A",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.O1.A"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.O1.A )"
+            }
+        },
+        {
+            "Name": "GH_Ape_O1_B",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.O1.B"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.O1.B )"
+            }
+        },
+        {
+            "Name": "GH_Ape_O1_C",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.O1.C"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.O1.C )"
+            }
+        },
+        {
+            "Name": "GH_Ape_O1_Morris",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.O1.Morris"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.O1.Morris )"
+            }
+        },
+        {
+            "Name": "GH_Ape_O2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.O2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.O2 )"
+            }
+        },
+        {
+            "Name": "GH_Ape_Final",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.Final"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.Final )"
+            }
+        },
+        {
+            "Name": "GH_IM_A",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.A.Base"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.A.Base )"
+            }
+        },
+        {
+            "Name": "GH_IM_A_Viscid",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.A.Viscid"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.A.Viscid )"
+            }
+        },
+        {
+            "Name": "GH_IM_A_SearchArea",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.A.Search"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.A.Search )"
+            }
+        },
+        {
+            "Name": "GH_IM_B_Hint",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.B.Hint"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.B.Hint )"
+            }
+        },
+        {
+            "Name": "GH_IM_B_BigSearch",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.B.BigSearch"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.B.BigSearch )"
+            }
+        },
+        {
+            "Name": "GH_IM_B_AreaA",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.B.AreaA"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.B.AreaA )"
+            }
+        },
+        {
+            "Name": "GH_IM_B_AreaB",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.B.AreaB"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.B.AreaB )"
+            }
+        },
+        {
+            "Name": "GH_IM_B_AreaC",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.B.AreaC"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.B.AreaC )"
+            }
+        },
+        {
+            "Name": "GH_IM_B_TargetA",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.B.TargetA"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.B.TargetA )"
+            }
+        },
+        {
+            "Name": "GH_IM_B_TargetB",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.B.TargetB"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.B.TargetB )"
+            }
+        },
+        {
+            "Name": "GH_IM_B_TargetC",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.B.TargetC"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.B.TargetC )"
+            }
+        },
+        {
+            "Name": "GH_IM_Final",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.Final"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.Final )"
+            }
+        },
+        {
+            "Name": "GH_IM_O1_A",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O1.A"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.O1.A )"
+            }
+        },
+        {
+            "Name": "GH_IM_O1_B",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O1.B"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.O1.B )"
+            }
+        },
+        {
+            "Name": "GH_IM_O1_C",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O1.C"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.IceMammoth.O1.C )"
+            }
+        },
+        {
+            "Name": "GH_IM_O1_D",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O1.D"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.IceMammoth.O1.D )"
+            }
+        },
+        {
+            "Name": "GH_IM_O1_Evac",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O1.Evac"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.O1.Evac )"
+            }
+        },
+        {
+            "Name": "GH_Ape_A_Experiment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.A.Experiment"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.A.Experiment )"
+            }
+        },
+        {
+            "Name": "GH_IM_D_Base",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.D.Base"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.D.Base )"
+            }
+        },
+        {
+            "Name": "GH_IM_D_Search",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.D.Search"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.D.Search )"
+            }
+        },
+        {
+            "Name": "GH_IM_D_Experiment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.D.Exp"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.D.Exp )"
+            }
+        },
+        {
+            "Name": "GH_RG_E_Retrieval",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.Retrieval"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.RockGolem.Retrieval )"
+            }
+        },
+        {
+            "Name": "STYX_AlpineValley_WestEntranceTrees",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Styx.AlpineValley.WestEntranceTrees"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Styx.AlpineValley.WestEntranceTrees )"
+            }
+        },
+        {
+            "Name": "GH_IM_C3_Mammoth",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.C3.Mammoth"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.IceMammoth.C3.Mammoth )"
+            }
+        },
+        {
+            "Name": "GH_Ape_D2_Ape",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.D2.Ape"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.D2.Ape )"
+            }
+        },
+        {
+            "Name": "GH_Ape_D2_Camp",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.D2.Commune"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.D2.Commune )"
+            }
+        },
+        {
+            "Name": "GH_Ape_D2_Evac",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.D2.Evac"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.D2.Evac )"
+            }
+        },
+        {
+            "Name": "GH_Ape_D2_L1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.D2.Lair1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.D2.Lair1 )"
+            }
+        },
+        {
+            "Name": "GH_Ape_D2_L2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.D2.Lair2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.D2.Lair2 )"
+            }
+        },
+        {
+            "Name": "GH_Ape_D2_L3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.D2.Lair3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.D2.Lair3 )"
+            }
+        },
+        {
+            "Name": "GH_Ape_G",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.G.Quest"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.G.Quest )"
+            }
+        },
+        {
+            "Name": "GH_Ape_G_Cage",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.G.Cage"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.G.Cage )"
+            }
+        },
+        {
+            "Name": "GH_Ape_G_CageClose",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.G.CageClose"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.G.CageClose )"
+            }
+        },
+        {
+            "Name": "GH_Ape_G_Lair1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.G.Lair1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.G.Lair1 )"
+            }
+        },
+        {
+            "Name": "GH_Ape_G_Lair2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.G.Lair2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.G.Lair2 )"
+            }
+        },
+        {
+            "Name": "GH_IM_A2_Wolf",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.A2.Wolf"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.A2.Wolf )"
+            }
+        },
+        {
+            "Name": "GH_IM_A2_Viscid",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.A2.Viscid"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.A2.Viscid )"
+            }
+        },
+        {
+            "Name": "GH_IM_A2_PolarBear",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.A2.PolarBear"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.A2.PolarBear )"
+            }
+        },
+        {
+            "Name": "GH_IM_A2_MachineA",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.A2.MachineA"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.A2.MachineA )"
+            }
+        },
+        {
+            "Name": "GH_IM_A2_MachineB",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.A2.MachineB"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.A2.MachineB )"
+            }
+        },
+        {
+            "Name": "GH_IM_A2_SearchArea",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.A2.Search"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.A2.Search )"
+            }
+        },
+        {
+            "Name": "GH_IM_D3_Spawn",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.D3.Spawner"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.D3.Spawner )"
+            }
+        },
+        {
+            "Name": "GH_IM_D3_Bat1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.D3.Bat.1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.D3.Bat.1 )"
+            }
+        },
+        {
+            "Name": "GH_IM_D3_Bat2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.D3.Bat.2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.D3.Bat.2 )"
+            }
+        },
+        {
+            "Name": "GH_IM_D3_Bat3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.D3.Bat.3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.D3.Bat.3 )"
+            }
+        },
+        {
+            "Name": "GH_IM_D3_Bat4",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.D3.Bat.4"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.D3.Bat.4 )"
+            }
+        },
+        {
+            "Name": "GH_IM_D_Cage",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.D.Cage"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.D.Cage )"
+            }
+        },
+        {
+            "Name": "GH_IM_O3_A",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O3.A"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.O3.A )"
+            }
+        },
+        {
+            "Name": "GH_IM_O3_B",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O3.B"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.O3.B )"
+            }
+        },
+        {
+            "Name": "GH_IM_O2_Nest",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O2.Nest"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.IceMammoth.O2.Nest )"
+            }
+        },
+        {
+            "Name": "GH_IM_O2_Vesper",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O2.Vesper"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.IceMammoth.O2.Vesper )"
+            }
+        },
+        {
+            "Name": "GH_IM_O2_Cave",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O2.Vesper"
+                    },
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O2.Cave"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( GreatHunts.IceMammoth.O2.Vesper, GreatHunts.IceMammoth.O2.Cave )"
+            }
+        },
+        {
+            "Name": "GH_IM_O2_Entrance",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O2.Entrance"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.IceMammoth.O2.Entrance )"
+            }
+        },
+        {
+            "Name": "GH_Ape_F_JnrLairA",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.F.JnrLairA"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.F.JnrLairA )"
+            }
+        },
+        {
+            "Name": "GH_Ape_F_JnrLairB",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.F.JnrLairB"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.F.JnrLairB )"
+            }
+        },
+        {
+            "Name": "GH_Ape_F_JnrLairC",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.F.JnrLairC"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.F.JnrLairC )"
+            }
+        },
+        {
+            "Name": "GH_Ape_C2_Spawner",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.C2.Spawner"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.C2.Spawner )"
+            }
+        },
+        {
+            "Name": "GH_Ape_C2_Main",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.C2.Main"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.C2.Main )"
+            }
+        },
+        {
+            "Name": "GH_IM_A2_BatNest",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.A2.BatNest"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.A2.BatNest )"
+            }
+        },
+        {
+            "Name": "GH_APE_B_Refuge",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.B.Refuge"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.Ape.B.Refuge )"
+            }
+        },
+        {
+            "Name": "GH_APE_B_Scientist",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.B.Scientist"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.Ape.B.Scientist )"
+            }
+        },
+        {
+            "Name": "GH_APE_B_Spawner1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.B.Spawner1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.Ape.B.Spawner1 )"
+            }
+        },
+        {
+            "Name": "GH_APE_B_Spawner2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.B.Spawner2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.Ape.B.Spawner2 )"
+            }
+        },
+        {
+            "Name": "GH_APE_B_Spawner3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.B.Spawner3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.Ape.B.Spawner3 )"
+            }
+        },
+        {
+            "Name": "GH_APE_B_Boss",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.B.Boss"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.Ape.B.Boss )"
+            }
+        },
+        {
+            "Name": "GH_APE_B_Exp",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.B.Exp"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.Ape.B.Exp )"
+            }
+        },
+        {
+            "Name": "GH_APE_E2_Camp",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.E2.Camp"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.Ape.E2.Camp )"
+            }
+        },
+        {
+            "Name": "GH_APE_E2_Build",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.E2.Build"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.Ape.E2.Build )"
+            }
+        },
+        {
+            "Name": "GH_APE_E2_Lair1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.E2.Lair1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.Ape.E2.Lair1 )"
+            }
+        },
+        {
+            "Name": "GH_APE_E2_Lair2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.E2.Lair2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.Ape.E2.Lair2 )"
+            }
+        },
+        {
+            "Name": "GH_APE_E2_Lair3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.E2.Lair3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.Ape.E2.Lair3 )"
+            }
+        },
+        {
+            "Name": "GH_APE_E2_Lair4",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.E2.Lair4"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.Ape.E2.Lair4 )"
+            }
+        },
+        {
+            "Name": "GH_APE_E2_Scorpion",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.E2.ScorpionPack"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.Ape.E2.ScorpionPack )"
+            }
+        },
+        {
+            "Name": "GH_APE_E2_Jaguar",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.E2.Jaguars"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.Ape.E2.Jaguars )"
+            }
+        },
+        {
+            "Name": "GH_IM_D3_Researcher",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.D3.Researcher"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.D3.Researcher )"
+            }
+        },
+        {
+            "Name": "GH_IM_C_Lair1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.C.Lair1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.IceMammoth.C.Lair1 )"
+            }
+        },
+        {
+            "Name": "GH_IM_C_Lair2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.C.Lair2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.IceMammoth.C.Lair2 )"
+            }
+        },
+        {
+            "Name": "GH_IM_D_Drone",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.D.Drone1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.IceMammoth.D.Drone1 )"
+            }
+        },
+        {
+            "Name": "GH_Ape_C_Storage",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.C.Storage"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.C.Storage )"
+            }
+        },
+        {
+            "Name": "GH_RG_E_Ship",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.E.Ship"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.E.Ship )"
+            }
+        },
+        {
+            "Name": "GH_RG_E_Cave1_Boss",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.E.Cave1.Boss"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.E.Cave1.Boss )"
+            }
+        },
+        {
+            "Name": "GH_RG_E_Cave1_Burrow1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.E.Cave1.Burrow1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.E.Cave1.Burrow1 )"
+            }
+        },
+        {
+            "Name": "GH_RG_E_Cave1_Burrow2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.E.Cave1.Burrow2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.E.Cave1.Burrow2 )"
+            }
+        },
+        {
+            "Name": "GH_RG_E_Cave2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.E.Cave2.Landshark"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.E.Cave2.Landshark )"
+            }
+        },
+        {
+            "Name": "GH_RG_E_Cave1_NPC1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.E.Cave2.NPC1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.E.Cave2.NPC1 )"
+            }
+        },
+        {
+            "Name": "GH_RG_E_Cave1_NPC2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.E.Cave2.NPC2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.E.Cave2.NPC2 )"
+            }
+        },
+        {
+            "Name": "GH_RG_F_Area",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.F.Area"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.RockGolem.F.Area )"
+            }
+        },
+        {
+            "Name": "GH_RG_F_Burrow1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.F.Burrow1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.RockGolem.F.Burrow1 )"
+            }
+        },
+        {
+            "Name": "GH_RG_F_Burrow2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.F.Burrow2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.RockGolem.F.Burrow2 )"
+            }
+        },
+        {
+            "Name": "GH_RG_F_Burrow3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.F.Burrow3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.RockGolem.F.Burrow3 )"
+            }
+        },
+        {
+            "Name": "GH_RG_F_Cave1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.F.Cave1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.RockGolem.F.Cave1 )"
+            }
+        },
+        {
+            "Name": "GH_RG_F_Cave2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.F.Cave2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.RockGolem.F.Cave2 )"
+            }
+        },
+        {
+            "Name": "GH_RG_F_Cave3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.F.Cave3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.RockGolem.F.Cave3 )"
+            }
+        },
+        {
+            "Name": "GH_RG_F_End",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.F.End"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.RockGolem.F.End )"
+            }
+        },
+        {
+            "Name": "GH_RG_C_Spawner1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.C.Spawner1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.C.Spawner1 )"
+            }
+        },
+        {
+            "Name": "GH_RG_C_Spawner2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.C.Spawner2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.C.Spawner2 )"
+            }
+        },
+        {
+            "Name": "GH_RG_C_Spawner3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.C.Spawner3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.C.Spawner3 )"
+            }
+        },
+        {
+            "Name": "GH_RG_C_NPC3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.C.NPC3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.C.NPC3 )"
+            }
+        },
+        {
+            "Name": "GH_RG_C_NPC4",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.C.NPC4"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.C.NPC4 )"
+            }
+        },
+        {
+            "Name": "GH_RG_O1_Burrow1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.O1.Burrow1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.O1.Burrow1 )"
+            }
+        },
+        {
+            "Name": "GH_RG_O1_Burrow2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.O1.Burrow2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.O1.Burrow2 )"
+            }
+        },
+        {
+            "Name": "GH_RG_O2_Burrow1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.O2.Burrow1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.O2.Burrow1 )"
+            }
+        },
+        {
+            "Name": "GH_RG_O2_Burrow2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RockGolem.O2.Burrow2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RockGolem.O2.Burrow2 )"
+            }
         }
     ]
 }

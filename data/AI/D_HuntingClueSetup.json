@@ -29,25 +29,11 @@
             "HuntingWidget": "/Game/UI/Projection/Hunting/W_ProjectionPopup_Roat.W_ProjectionPopup_Roat_C"
         },
         {
-            "Name": "WulvFootprints",
-            "MaxClueDistance": 30000,
-            "MaxDistanceBetweenClues": 8000,
-            "HuntingClue": "/Game/BP/Hunting/BP_HuntingFootprints_Wulv.BP_HuntingFootprints_Wulv_C",
-            "HuntingWidget": "/Game/UI/Projection/Hunting/W_ProjectionPopup_Wulv.W_ProjectionPopup_Wulv_C"
-        },
-        {
             "Name": "BounderFootprints",
             "MaxClueDistance": 40000,
             "MaxDistanceBetweenClues": 10000,
             "HuntingClue": "/Game/BP/Hunting/BP_HuntingFootprints_Deer.BP_HuntingFootprints_Deer_C",
             "HuntingWidget": "/Game/UI/Projection/Hunting/W_ProjectionPopup_Deer.W_ProjectionPopup_Deer_C"
-        },
-        {
-            "Name": "RedGoatFootprints",
-            "MaxClueDistance": 40000,
-            "MaxDistanceBetweenClues": 10000,
-            "HuntingClue": "/Game/BP/Hunting/BP_HuntingFootprints_RedGoat.BP_HuntingFootprints_RedGoat_C",
-            "HuntingWidget": "/Game/UI/Projection/Hunting/W_ProjectionPopup_RedGoat.W_ProjectionPopup_RedGoat_C"
         },
         {
             "Name": "DeerBlood",

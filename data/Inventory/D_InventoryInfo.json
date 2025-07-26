@@ -68,7 +68,7 @@
             "SlotTemplate": {
                 "RowName": "General_Inventory_Slot"
             },
-            "StartingSlots": 9,
+            "StartingSlots": 10,
             "SlotOverrides": [
                 {
                     "Query": {
@@ -132,6 +132,13 @@
                         "DataTableName": "D_TagQueries"
                     },
                     "Location": 8
+                },
+                {
+                    "Query": {
+                        "RowName": "Any_FocusableArmour",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 9
                 }
             ]
         },
@@ -140,17 +147,28 @@
             "InventoryID": {
                 "Value": "Processor"
             },
-            "StartingSlots": 60
+            "StartingSlots": 30
+        },
+        {
+            "Name": "Processor_T3",
+            "InventoryID": {
+                "Value": "Processor"
+            },
+            "StartingSlots": 36
+        },
+        {
+            "Name": "Processor_T4",
+            "InventoryID": {
+                "Value": "Processor"
+            },
+            "StartingSlots": 42
         },
         {
             "Name": "Container",
             "InventoryID": {
                 "Value": "General"
             },
-            "SlotTemplate": {
-                "RowName": "General_Inventory_Slot"
-            },
-            "StartingSlots": 30
+            "StartingSlots": 10
         },
         {
             "Name": "Fuel_Any",
@@ -174,10 +192,7 @@
             "InventoryID": {
                 "Value": "Loadout"
             },
-            "SlotTemplate": {
-                "RowName": "No_Envirosuits"
-            },
-            "StartingSlots": 40
+            "StartingSlots": 15
         },
         {
             "Name": "Space_Equipment",
@@ -233,9 +248,6 @@
             "InventoryID": {
                 "Value": "Processor"
             },
-            "SlotTemplate": {
-                "RowName": "General_Inventory_Slot"
-            },
             "StartingSlots": 6
         },
         {
@@ -253,7 +265,7 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 500,
+            "StartingSlots": 150,
             "RemoveOnly": true
         },
         {
@@ -294,7 +306,7 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 500
+            "StartingSlots": 70
         },
         {
             "Name": "DropShip_Equipment",
@@ -304,7 +316,7 @@
             "SlotTemplate": {
                 "RowName": "No_Exotics"
             },
-            "StartingSlots": 60
+            "StartingSlots": 15
         },
         {
             "Name": "DropShip_Meta",
@@ -314,7 +326,7 @@
             "SlotTemplate": {
                 "RowName": "Any_Meta"
             },
-            "StartingSlots": 60
+            "StartingSlots": 5
         },
         {
             "Name": "UpgradeSlots",
@@ -341,9 +353,9 @@
                 "Value": "General"
             },
             "SlotTemplate": {
-                "RowName": "Any_Food_Or_Ice"
+                "RowName": "Spoilable_ColdSlowsSpoilRate"
             },
-            "StartingSlots": 30
+            "StartingSlots": 24
         },
         {
             "Name": "Animal_Corpse",
@@ -358,18 +370,12 @@
             "InventoryID": {
                 "Value": "Processor"
             },
-            "SlotTemplate": {
-                "RowName": "General_Inventory_Slot"
-            },
-            "StartingSlots": 18
+            "StartingSlots": 16
         },
         {
             "Name": "Cleaner_T3",
             "InventoryID": {
                 "Value": "Processor"
-            },
-            "SlotTemplate": {
-                "RowName": "General_Inventory_Slot"
             },
             "StartingSlots": 18
         },
@@ -378,42 +384,42 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 12
+            "StartingSlots": 10
         },
         {
             "Name": "Storage_Wood_Crate_Medium",
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 24
+            "StartingSlots": 20
         },
         {
             "Name": "Storage_Metal_Crate_Small",
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 18
+            "StartingSlots": 15
         },
         {
             "Name": "Storage_Metal_Crate_Medium",
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 24
+            "StartingSlots": 25
         },
         {
             "Name": "Storage_Wood_Cupboard",
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 42
+            "StartingSlots": 40
         },
         {
             "Name": "Storage_Metal_Cupboard",
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 90
+            "StartingSlots": 50
         },
         {
             "Name": "Faction_Corpse",
@@ -448,7 +454,7 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 24
+            "StartingSlots": 5
         },
         {
             "Name": "IceBox",
@@ -456,7 +462,7 @@
                 "Value": "General"
             },
             "SlotTemplate": {
-                "RowName": "Icebox_Contents"
+                "RowName": "Spoilable_ColdSlowsSpoilRate"
             },
             "StartingSlots": 12
         },
@@ -464,9 +470,6 @@
             "Name": "Firepit",
             "InventoryID": {
                 "Value": "Processor"
-            },
-            "SlotTemplate": {
-                "RowName": "General_Inventory_Slot"
             },
             "StartingSlots": 18
         },
@@ -485,18 +488,12 @@
             "InventoryID": {
                 "Value": "Processor"
             },
-            "SlotTemplate": {
-                "RowName": "General_Inventory_Slot"
-            },
             "StartingSlots": 2
         },
         {
             "Name": "Processor_Slot_6",
             "InventoryID": {
                 "Value": "Processor"
-            },
-            "SlotTemplate": {
-                "RowName": "General_Inventory_Slot"
             },
             "StartingSlots": 6
         },
@@ -505,9 +502,6 @@
             "InventoryID": {
                 "Value": "Processor"
             },
-            "SlotTemplate": {
-                "RowName": "General_Inventory_Slot"
-            },
             "StartingSlots": 12
         },
         {
@@ -515,17 +509,14 @@
             "InventoryID": {
                 "Value": "Processor"
             },
-            "SlotTemplate": {
-                "RowName": "General_Inventory_Slot"
-            },
-            "StartingSlots": 90
+            "StartingSlots": 24
         },
         {
             "Name": "Storage_Kitchen_Block",
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 90
+            "StartingSlots": 40
         },
         {
             "Name": "Faction_Satellite_Defend",
@@ -611,7 +602,7 @@
             "SlotTemplate": {
                 "RowName": "General_Inventory_Slot"
             },
-            "StartingSlots": 4,
+            "StartingSlots": 2,
             "RemoveOnly": true
         },
         {
@@ -714,7 +705,7 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 50
+            "StartingSlots": 25
         },
         {
             "Name": "Weapon_AmmoSlot",
@@ -747,9 +738,6 @@
             "Name": "Drying_Rack",
             "InventoryID": {
                 "Value": "Processor"
-            },
-            "SlotTemplate": {
-                "RowName": "General_Inventory_Slot"
             },
             "StartingSlots": 12
         },
@@ -805,7 +793,7 @@
             "SlotTemplate": {
                 "RowName": "General_Inventory_Slot"
             },
-            "StartingSlots": 20
+            "StartingSlots": 5
         },
         {
             "Name": "Dropship_RemoveOnly",
@@ -1200,7 +1188,7 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 30,
+            "StartingSlots": 12,
             "RemoveOnly": true
         },
         {
@@ -1266,9 +1254,9 @@
                 "Value": "General"
             },
             "SlotTemplate": {
-                "RowName": "Any_Food_Or_Ice"
+                "RowName": "Spoilable_ColdSlowsSpoilRate"
             },
-            "StartingSlots": 60
+            "StartingSlots": 24
         },
         {
             "Name": "Fishing_Trap",
@@ -1452,9 +1440,6 @@
             "InventoryID": {
                 "Value": "On_Prospect_Loadout"
             },
-            "SlotTemplate": {
-                "RowName": "No_Envirosuits"
-            },
             "StartingSlots": 15,
             "bIsClientSideOnly": true
         },
@@ -1473,7 +1458,7 @@
             "InventoryID": {
                 "Value": "Device_Upgrade"
             },
-            "StartingSlots": 2,
+            "StartingSlots": 3,
             "SlotOverrides": [
                 {
                     "Query": {
@@ -1488,6 +1473,13 @@
                         "DataTableName": "D_TagQueries"
                     },
                     "Location": 1
+                },
+                {
+                    "Query": {
+                        "RowName": "Mission_Norex_Device",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 2
                 }
             ]
         },
@@ -1499,7 +1491,7 @@
             "SlotTemplate": {
                 "RowName": "Any_Seed"
             },
-            "StartingSlots": 6
+            "StartingSlots": 12
         },
         {
             "Name": "Water_Purifier",
@@ -1737,6 +1729,300 @@
                 "RowName": "Any_Battery_Powered_Object"
             },
             "StartingSlots": 1
+        },
+        {
+            "Name": "Kiwi_Nest",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 2
+        },
+        {
+            "Name": "Wild_Kiwi_Nest",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 5
+        },
+        {
+            "Name": "General4",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 4
+        },
+        {
+            "Name": "MonitoringPylon",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Mission_MonitoringPylon"
+            },
+            "StartingSlots": 4
+        },
+        {
+            "Name": "Seed_Pouch_T2",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Seed_Or_Fertalizer"
+            },
+            "StartingSlots": 24
+        },
+        {
+            "Name": "Processor_T5",
+            "InventoryID": {
+                "Value": "Processor"
+            },
+            "StartingSlots": 48
+        },
+        {
+            "Name": "Fuel_Hydrazine",
+            "InventoryID": {
+                "Value": "Fuel"
+            },
+            "SlotTemplate": {
+                "RowName": "Fuel_Hydrazine"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "Mission_NPC",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 5
+        },
+        {
+            "Name": "Plough_Attachment",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Plough"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "ArmourStand",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "General_Inventory_Slot"
+            },
+            "StartingSlots": 10,
+            "SlotOverrides": [
+                {
+                    "Query": {
+                        "RowName": "Helmet",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 0
+                },
+                {
+                    "Query": {
+                        "RowName": "Chest",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 1
+                },
+                {
+                    "Query": {
+                        "RowName": "Gloves",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 2
+                },
+                {
+                    "Query": {
+                        "RowName": "Pants",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 3
+                },
+                {
+                    "Query": {
+                        "RowName": "Boots",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 4
+                },
+                {
+                    "Query": {
+                        "RowName": "Envirosuit",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 5
+                },
+                {
+                    "Query": {
+                        "RowName": "Skin_Head",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 6
+                },
+                {
+                    "Query": {
+                        "RowName": "Skin_Head_HairStyle",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 7
+                },
+                {
+                    "Query": {
+                        "RowName": "Any_Backpack",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 8
+                },
+                {
+                    "Query": {
+                        "RowName": "Any_FocusableArmour",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 9
+                }
+            ]
+        },
+        {
+            "Name": "Bunker_ExtinguisherWallMount",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "Food_Silo",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Food_Or_Plant"
+            },
+            "StartingSlots": 48
+        },
+        {
+            "Name": "Mission_Analyzer",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "Sandworm_Crossbow",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Throwing_Spear"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "Inventory_Condensed_Enzymes",
+            "InventoryID": {
+                "Value": "Fuel"
+            },
+            "SlotTemplate": {
+                "RowName": "Is_Condensed_Enzyme"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "RockGun_Ammo_Attachment",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Shotgun_Attachment"
+            },
+            "StartingSlots": 2,
+            "SlotOverrides": [
+                {
+                    "Query": {
+                        "RowName": "Resource_Stone",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 0
+                }
+            ]
+        },
+        {
+            "Name": "Weapon_Rack",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Weapon_Or_Tool"
+            },
+            "StartingSlots": 2
+        },
+        {
+            "Name": "Harvester_Attachment",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Harvester_Attachment"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "Storage_Plastic_Crate",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 12
+        },
+        {
+            "Name": "Storage_Burlap_Sack",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 6
+        },
+        {
+            "Name": "Storage_Saddle_Bag",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 3
+        },
+        {
+            "Name": "Pouch_Generic",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "General_Inventory_Slot_NoBag"
+            },
+            "StartingSlots": 6
+        },
+        {
+            "Name": "Crude_Oil_Refiner",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Oil_Barrel"
+            },
+            "StartingSlots": 5
+        },
+        {
+            "Name": "Fuel_Organic_Extractor",
+            "InventoryID": {
+                "Value": "Fuel"
+            },
+            "StartingSlots": 10
+        },
+        {
+            "Name": "Inventory_Organic_Extractor",
+            "InventoryID": {
+                "Value": "General"
+            }
         }
     ]
 }

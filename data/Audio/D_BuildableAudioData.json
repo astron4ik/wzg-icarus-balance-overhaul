@@ -145,6 +145,19 @@
             "BuildingWeatherUnzippingSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_UNZIP_BASE.SFX_BLD_UNZIP_BASE",
             "BuildingRepairedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_DIRT_REPAIR.SFX_BLD_DIRT_REPAIR",
             "BuildingOcclusionValue": 1
+        },
+        {
+            "Name": "WoodSandworm",
+            "BuildingPlacedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD_SANDWORM.SFX_BLD_WOOD_SANDWORM",
+            "BuildingStressDamageSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_DST_WOD_STRESS.SFX_BLD_DST_WOD_STRESS",
+            "BuildingDestroyedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_DST_WOD.SFX_BLD_DST_WOD",
+            "BuildingDamagedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD_CRE_DAMAGE.SFX_BLD_WOOD_CRE_DAMAGE",
+            "BuildingDestructibleDamagedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD_TICK_DAMAGE.SFX_BLD_WOOD_TICK_DAMAGE",
+            "BuildingWeatherDamageSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD_LOOP_DAMAGE.SFX_BLD_WOOD_LOOP_DAMAGE",
+            "BuildingWeatherDamageStrippedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD_FINAL_DAMAGE.SFX_BLD_WOOD_FINAL_DAMAGE",
+            "BuildingWeatherUnzippingSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_UNZIP_BASE.SFX_BLD_UNZIP_BASE",
+            "BuildingRepairedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD_REPAIR.SFX_BLD_WOOD_REPAIR",
+            "BuildingOcclusionValue": 0.5
         }
     ]
 }

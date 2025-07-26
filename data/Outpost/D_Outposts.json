@@ -67,6 +67,13 @@
             "ProspectListRowHandle": {
                 "RowName": "Outpost006_Olympus"
             }
+        },
+        {
+            "Name": "Outpost_009_IceVolcano",
+            "Icon": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Storm01_Small.T_Prospect_Arctic_Storm01_Small",
+            "ProspectListRowHandle": {
+                "RowName": "Outpost009_IceVolcano"
+            }
         }
     ]
 }

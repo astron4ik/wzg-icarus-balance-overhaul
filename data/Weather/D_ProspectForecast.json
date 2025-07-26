@@ -552,6 +552,18 @@
                     "DurationMinutes": 40
                 }
             ]
+        },
+        {
+            "Name": "Arena_IceMammoth_Blizzard",
+            "WeatherPool": {
+                "RowName": "Ice_Arena_Blizzard"
+            },
+            "Pattern": [
+                {
+                    "Tier": 4,
+                    "DurationMinutes": 167
+                }
+            ]
         }
     ]
 }

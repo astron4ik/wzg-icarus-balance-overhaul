@@ -17,7 +17,9 @@
         },
         "LookupStat": {
             "Value": "None"
-        }
+        },
+        "bApplyToAttacker": false,
+        "bRequiresDamage": true
     },
     "Rows": [
         {
@@ -293,7 +295,8 @@
             },
             "LookupStat": {
                 "Value": "BaseAttacksCauseMarkedTarget_%"
-            }
+            },
+            "bRequiresDamage": false
         },
         {
             "Name": "Highlighted_Target",
@@ -306,7 +309,8 @@
             },
             "LookupStat": {
                 "Value": "BaseAttacksCauseHighlightedTarget_%"
-            }
+            },
+            "bRequiresDamage": false
         },
         {
             "Name": "ExoticDebuff",
@@ -333,6 +337,140 @@
             "LookupStat": {
                 "Value": "BaseAttacksCauseRedExoticDebuff_%"
             }
+        },
+        {
+            "Name": "Sprain",
+            "AfflictionStat": {
+                "Value": "AttacksCauseSprain_%"
+            },
+            "ResistanceStat": {
+                "Value": "ChanceToResistSprain_%"
+            },
+            "DurationInSeconds": 10,
+            "Modifier": {
+                "RowName": "Damage_Sprained_Ankle"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseSprain_%"
+            }
+        },
+        {
+            "Name": "Rage",
+            "AfflictionStat": {
+                "Value": "RageChance_%"
+            },
+            "DurationInSeconds": 10,
+            "Modifier": {
+                "RowName": "Rage"
+            },
+            "LookupStat": {
+                "Value": "BaseRageChance_%"
+            },
+            "bApplyToAttacker": true
+        },
+        {
+            "Name": "Adrenaline",
+            "AfflictionStat": {
+                "Value": "AdrenalineChance_%"
+            },
+            "DurationInSeconds": 10,
+            "Modifier": {
+                "RowName": "Adrenaline"
+            },
+            "LookupStat": {
+                "Value": "BaseAdrenalineChance_%"
+            },
+            "bApplyToAttacker": true
+        },
+        {
+            "Name": "Wolf",
+            "AfflictionStat": {
+                "Value": "AttacksSummonWolf_%"
+            },
+            "DurationInSeconds": 10,
+            "Modifier": {
+                "RowName": "Summon_Wolf"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksSummonWolf_%"
+            }
+        },
+        {
+            "Name": "Vulnerable",
+            "AfflictionStat": {
+                "Value": "AttacksCauseVulnerable_%"
+            },
+            "DurationInSeconds": 5,
+            "Modifier": {
+                "RowName": "Vulnerable"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseVulnerable_%"
+            }
+        },
+        {
+            "Name": "Pyrophobia",
+            "AfflictionStat": {
+                "Value": "AttacksCausePyrophobia_+%"
+            },
+            "DurationInSeconds": 5,
+            "Modifier": {
+                "RowName": "Pyrophobia"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCausePyrophobia_%"
+            }
+        },
+        {
+            "Name": "EnzymeGrowth",
+            "AfflictionStat": {
+                "Value": "AttacksCauseGrowthEnzyme_+%"
+            },
+            "DurationInSeconds": 60,
+            "Modifier": {
+                "RowName": "Growth_Enzyme"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseGrowthEnzyme_+%"
+            },
+            "bRequiresDamage": false
+        },
+        {
+            "Name": "IceSpire",
+            "AfflictionStat": {
+                "Value": "AttacksCauseIceSpire_+%"
+            },
+            "DurationInSeconds": 1,
+            "Modifier": {
+                "RowName": "IceSpire"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseIceSpire_+%"
+            }
+        },
+        {
+            "Name": "Poison_SandwormCrossbow_Gas",
+            "DurationInSeconds": 5,
+            "Modifier": {
+                "RowName": "Poison_SandwormCrossbow_Gas"
+            },
+            "LookupStat": {
+                "Value": "BaseChanceSandwormCrossbowSpawnsToxicGas_%"
+            }
+        },
+        {
+            "Name": "Endurance",
+            "AfflictionStat": {
+                "Value": "EnduranceChance_%"
+            },
+            "DurationInSeconds": 5,
+            "Modifier": {
+                "RowName": "Endurance"
+            },
+            "LookupStat": {
+                "Value": "BaseEnduranceChance_%"
+            },
+            "bApplyToAttacker": true
         }
     ]
 }

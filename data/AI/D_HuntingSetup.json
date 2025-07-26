@@ -27,28 +27,10 @@
             ]
         },
         {
-            "Name": "Wulv",
-            "HuntingClues": [
-                {
-                    "RowName": "WulvFootprints",
-                    "DataTableName": "D_HuntingClueSetup"
-                }
-            ]
-        },
-        {
             "Name": "Bounder",
             "HuntingClues": [
                 {
                     "RowName": "BounderFootprints",
-                    "DataTableName": "D_HuntingClueSetup"
-                }
-            ]
-        },
-        {
-            "Name": "RedGoat",
-            "HuntingClues": [
-                {
-                    "RowName": "RedGoatFootprints",
                     "DataTableName": "D_HuntingClueSetup"
                 }
             ]
