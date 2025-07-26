@@ -94,15 +94,15 @@
             "Resource": {
                 "Value": "Energy"
             },
-            "GenerationRate": 5000
+            "GenerationRate": 20000
         },
         {
             "Name": "Kit_Generator_Energy_Generator",
             "Resource": {
                 "Value": "Energy"
             },
-            "GenerationRate": 5000,
-            "GenerationRatio": 7500,
+            "GenerationRate": 20000,
+            "GenerationRatio": 30000,
             "TransmutableResources": [
                 {
                     "Value": "Biofuel"
@@ -330,14 +330,14 @@
             "Resource": {
                 "Value": "Energy"
             },
-            "GenerationRate": 5000
+            "GenerationRate": 7500
         },
         {
             "Name": "WaterWheel_Generator",
             "Resource": {
                 "Value": "Energy"
             },
-            "GenerationRate": 2000
+            "GenerationRate": 5000
         },
         {
             "Name": "Fabricator_Generator",
@@ -426,7 +426,7 @@
             "Resource": {
                 "Value": "Energy"
             },
-            "GenerationRate": 3500
+            "GenerationRate": 5000
         },
         {
             "Name": "SpawnBlocker_T2",
@@ -616,7 +616,7 @@
                 "Value": "Energy"
             },
             "GenerationRate": 8000,
-            "GenerationRatio": 53.29999923706055,
+            "GenerationRatio": 7500,
             "TransmutableResources": [
                 {
                     "Value": "Crude_Oil"

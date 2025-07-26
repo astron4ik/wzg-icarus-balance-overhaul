@@ -36,7 +36,7 @@
         {
             "Name": "Generator",
             "FlowType": "Produce",
-            "ResourceFlowRate": 5000
+            "ResourceFlowRate": 20000
         },
         {
             "Name": "Battery",
@@ -115,7 +115,7 @@
             "Name": "SolarPanel",
             "FlowType": "Produce",
             "AutoActivate": true,
-            "ResourceFlowRate": 6000
+            "ResourceFlowRate": 7500
         },
         {
             "Name": "Heater_Large_Receiver",
@@ -142,7 +142,7 @@
             "FlowType": "Produce",
             "AlwaysActive": true,
             "AutoActivate": true,
-            "ResourceFlowRate": 2000
+            "ResourceFlowRate": 5000
         },
         {
             "Name": "Worklamp",
@@ -268,7 +268,7 @@
         {
             "Name": "WindTurbine",
             "FlowType": "Produce",
-            "ResourceFlowRate": 1750
+            "ResourceFlowRate": 5000
         },
         {
             "Name": "T4Communicator",

@@ -3672,6 +3672,10 @@
                 {
                     "PropertyType": "Fillable_Type",
                     "Value": 2
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 6500
                 }
             ]
         },
@@ -3685,7 +3689,17 @@
             "Name": "Meta_Oxygen_Tank_Shengong",
             "ItemStaticData": {
                 "RowName": "Meta_Oxygen_Tank_Shengong"
-            }
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 4
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 6500
+                }
+            ]
         },
         {
             "Name": "Meta_Axe_Printed",
@@ -5175,7 +5189,7 @@
                 },
                 {
                     "PropertyType": "Fillable_StoredUnits",
-                    "Value": 10000
+                    "Value": 100000
                 }
             ]
         },
@@ -19161,6 +19175,526 @@
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
                 }
+            }
+        },
+        {
+            "Name": "Wood_Frame",
+            "ItemStaticData": {
+                "RowName": "Wood_Frame"
+            }
+        },
+        {
+            "Name": "Dev_Thor_Hammer",
+            "ItemStaticData": {
+                "RowName": "Dev_Thor_Hammer"
+            }
+        },
+        {
+            "Name": "Kit_Water_Barrel",
+            "ItemStaticData": {
+                "RowName": "Kit_Water_Barrel"
+            }
+        },
+        {
+            "Name": "Wood_Frame_Refined",
+            "ItemStaticData": {
+                "RowName": "Wood_Frame_Refined"
+            }
+        },
+        {
+            "Name": "Module_Compass",
+            "ItemStaticData": {
+                "RowName": "Module_Compass"
+            }
+        },
+        {
+            "Name": "Module_Player_Status",
+            "ItemStaticData": {
+                "RowName": "Module_Player_Status"
+            }
+        },
+        {
+            "Name": "Canteen_Lightweight",
+            "ItemStaticData": {
+                "RowName": "Canteen_Lightweight"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 2
+                }
+            ]
+        },
+        {
+            "Name": "Module_Waypoint",
+            "ItemStaticData": {
+                "RowName": "Module_Waypoint"
+            }
+        },
+        {
+            "Name": "Module_Creature_Tracker",
+            "ItemStaticData": {
+                "RowName": "Module_Creature_Tracker"
+            }
+        },
+        {
+            "Name": "WoodBarrel",
+            "ItemStaticData": {
+                "RowName": "WoodBarrel"
+            }
+        },
+        {
+            "Name": "PRV_Head",
+            "ItemStaticData": {
+                "RowName": "PRV_Head"
+            }
+        },
+        {
+            "Name": "PRV_Chest",
+            "ItemStaticData": {
+                "RowName": "PRV_Chest"
+            }
+        },
+        {
+            "Name": "PRV_Feet",
+            "ItemStaticData": {
+                "RowName": "PRV_Feet"
+            }
+        },
+        {
+            "Name": "PRV_Legs",
+            "ItemStaticData": {
+                "RowName": "PRV_Legs"
+            }
+        },
+        {
+            "Name": "PRV_Arms",
+            "ItemStaticData": {
+                "RowName": "PRV_Arms"
+            }
+        },
+        {
+            "Name": "Thatch_Frame",
+            "ItemStaticData": {
+                "RowName": "Thatch_Frame"
+            }
+        },
+        {
+            "Name": "AnimalTrap_Small",
+            "ItemStaticData": {
+                "RowName": "AnimalTrap_Small"
+            }
+        },
+        {
+            "Name": "Raw_Prime_Meat",
+            "ItemStaticData": {
+                "RowName": "Raw_Prime_Meat"
+            }
+        },
+        {
+            "Name": "Wood_Build_HalfPitch",
+            "ItemStaticData": {
+                "RowName": "Wood_Build_HalfPitch"
+            }
+        },
+        {
+            "Name": "Electric_Heater"
+        },
+        {
+            "Name": "Air_Conditioner"
+        },
+        {
+            "Name": "Interior_Wood_Cupboard_Small",
+            "ItemStaticData": {
+                "RowName": "Interior_Wood_Cupboard_Small"
+            }
+        },
+        {
+            "Name": "Metal_Cupboard_Small",
+            "ItemStaticData": {
+                "RowName": "Metal_Cupboard_Small"
+            }
+        },
+        {
+            "Name": "Meta_Canteen_Larkwell",
+            "ItemStaticData": {
+                "RowName": "Meta_Canteen_Larkwell"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 2
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 12000
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Frag_Larkwell",
+            "ItemStaticData": {
+                "RowName": "Meta_Frag_Larkwell"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Larkwell_Bait",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Larkwell_Bait"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Larkwell_Whistling",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Larkwell_Whistling"
+            }
+        },
+        {
+            "Name": "Meta_Bolt_Larkwell_Whistling",
+            "ItemStaticData": {
+                "RowName": "Meta_Bolt_Larkwell_Whistling"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Set_Larkwell_Bait",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Set_Larkwell_Bait"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Set_Larkwell_Whistling",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Set_Larkwell_Whistling"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Larkwell_Bait_x25",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Larkwell_Bait"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 25
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Arrow_Larkwell_Whistling_x25",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Larkwell_Whistling"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 25
+                }
+            ]
+        },
+        {
+            "Name": "Axe_Attachment_Felling_Yield_1",
+            "ItemStaticData": {
+                "RowName": "Axe_Attachment_Felling_Yield_1"
+            }
+        },
+        {
+            "Name": "Axe_Attachment_Felling_Yield_2",
+            "ItemStaticData": {
+                "RowName": "Axe_Attachment_Felling_Yield_2"
+            }
+        },
+        {
+            "Name": "Tranquilizer_Bolt",
+            "ItemStaticData": {
+                "RowName": "Tranquilizer_Bolt"
+            }
+        },
+        {
+            "Name": "Spotlight_Tripod",
+            "ItemStaticData": {
+                "RowName": "Spotlight_Tripod"
+            }
+        },
+        {
+            "Name": "CollectionShipBeacon",
+            "ItemStaticData": {
+                "RowName": "CollectionShipBeacon"
+            }
+        },
+        {
+            "Name": "Fish_15_Var2",
+            "ItemStaticData": {
+                "RowName": "Fish_15_Var2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_15_Var3",
+            "ItemStaticData": {
+                "RowName": "Fish_15_Var3"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_15_Var4",
+            "ItemStaticData": {
+                "RowName": "Fish_15_Var4"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_16_Var2",
+            "ItemStaticData": {
+                "RowName": "Fish_16_Var2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_16_Var3",
+            "ItemStaticData": {
+                "RowName": "Fish_16_Var3"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_16_Var4",
+            "ItemStaticData": {
+                "RowName": "Fish_16_Var4"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Feather_Lure",
+            "ItemStaticData": {
+                "RowName": "Feather_Lure"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Clay_Vase_A",
+            "ItemStaticData": {
+                "RowName": "Clay_Vase_A"
+            }
+        },
+        {
+            "Name": "Clay_Vase_B",
+            "ItemStaticData": {
+                "RowName": "Clay_Vase_B"
+            }
+        },
+        {
+            "Name": "Clay_Vase_C",
+            "ItemStaticData": {
+                "RowName": "Clay_Vase_C"
+            }
+        },
+        {
+            "Name": "Clay_Vase_D",
+            "ItemStaticData": {
+                "RowName": "Clay_Vase_D"
+            }
+        },
+        {
+            "Name": "Clay_Vase_E",
+            "ItemStaticData": {
+                "RowName": "Clay_Vase_E"
+            }
+        },
+        {
+            "Name": "Clay_Vase_F",
+            "ItemStaticData": {
+                "RowName": "Clay_Vase_F"
+            }
+        },
+        {
+            "Name": "Clay_Vase_G",
+            "ItemStaticData": {
+                "RowName": "Clay_Vase_G"
+            }
+        },
+        {
+            "Name": "Clay_Vase_H",
+            "ItemStaticData": {
+                "RowName": "Clay_Vase_H"
+            }
+        },
+        {
+            "Name": "Clay_Vase_I",
+            "ItemStaticData": {
+                "RowName": "Clay_Vase_I"
+            }
+        },
+        {
+            "Name": "AI_Target_Dummy",
+            "ItemStaticData": {
+                "RowName": "AI_Target_Dummy"
+            }
+        },
+        {
+            "Name": "Farmers_Backpack",
+            "ItemStaticData": {
+                "RowName": "Farmers_Backpack"
+            }
+        },
+        {
+            "Name": "Explorers_Backpack",
+            "ItemStaticData": {
+                "RowName": "Explorers_Backpack"
+            }
+        },
+        {
+            "Name": "Meta_Canteen_Inaris",
+            "ItemStaticData": {
+                "RowName": "Meta_Canteen_Inaris"
+            }
+        },
+        {
+            "Name": "Basic_Ceiling_Light_Shroud",
+            "ItemStaticData": {
+                "RowName": "Basic_Ceiling_Light_Shroud"
+            }
+        },
+        {
+            "Name": "Basic_Wall_Light_Shroud",
+            "ItemStaticData": {
+                "RowName": "Basic_Wall_Light_Shroud"
+            }
+        },
+        {
+            "Name": "Basic_Ceiling_Light_Spotlight",
+            "ItemStaticData": {
+                "RowName": "Basic_Ceiling_Spotlight"
+            }
+        },
+        {
+            "Name": "Reaver_Head",
+            "ItemStaticData": {
+                "RowName": "Reaver_Head"
+            }
+        },
+        {
+            "Name": "Larkwell_Armor_White_Head",
+            "ItemStaticData": {
+                "RowName": "Larkwell_Armor_White_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Larkwell_Armor_White_Chest",
+            "ItemStaticData": {
+                "RowName": "Larkwell_Armor_White_Chest"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Larkwell_Armor_White_Arms",
+            "ItemStaticData": {
+                "RowName": "Larkwell_Armor_White_Arms"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Larkwell_Armor_White_Legs",
+            "ItemStaticData": {
+                "RowName": "Larkwell_Armor_White_Legs"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Larkwell_Armor_White_Feet",
+            "ItemStaticData": {
+                "RowName": "Larkwell_Armor_White_Feet"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Smoker_T4",
+            "ItemStaticData": {
+                "RowName": "Smoker_T4"
+            }
+        },
+        {
+            "Name": "Meta_Sickle_Inaris_01",
+            "ItemStaticData": {
+                "RowName": "Meta_Sickle_Inaris_01"
+            }
+        },
+        {
+            "Name": "Meta_Sickle_Inaris_02",
+            "ItemStaticData": {
+                "RowName": "Meta_Sickle_Inaris_02"
+            }
+        },
+        {
+            "Name": "Meta_Sickle_Inaris_03",
+            "ItemStaticData": {
+                "RowName": "Meta_Sickle_Inaris_03"
+            }
+        },
+        {
+            "Name": "Meta_Shield_9Diamonds",
+            "ItemStaticData": {
+                "RowName": "Meta_Shield_9Diamonds"
+            }
+        },
+        {
+            "Name": "Battery_T3",
+            "ItemStaticData": {
+                "RowName": "Battery_T3"
+            }
+        },
+        {
+            "Name": "Battery_T4",
+            "ItemStaticData": {
+                "RowName": "Battery_T4"
             }
         }
     ]

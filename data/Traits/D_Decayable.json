@@ -42,7 +42,7 @@
         {
             "Name": "Decay_CookedMeat_Generic",
             "DecayTime": 300,
-            "SpoilTime": 1600,
+            "SpoilTime": 1800,
             "SpoiledItem": {
                 "RowName": "Spoiled_Meat"
             }
@@ -50,7 +50,7 @@
         {
             "Name": "Decay_Food_Generic",
             "DecayTime": 300,
-            "SpoilTime": 800
+            "SpoilTime": 1800
         },
         {
             "Name": "Decay_Food_OneDay",
@@ -69,7 +69,7 @@
         },
         {
             "Name": "Decay_Arrow",
-            "DecayTime": 60
+            "DecayTime": 900
         },
         {
             "Name": "Decay_Coconut_Young",
@@ -195,6 +195,25 @@
         {
             "Name": "Decay_QuestItem",
             "DecayTime": 1800
+        },
+        {
+            "Name": "Decay_Food_Generic_1200",
+            "DecayTime": 300,
+            "SpoilTime": 2400
+        },
+        {
+            "Name": "Decay_Food_Generic_1800",
+            "DecayTime": 300,
+            "SpoilTime": 3600
+        },
+        {
+            "Name": "Decay_Bread_Generic",
+            "DecayTime": 300,
+            "SpoilTime": 3600
+        },
+        {
+            "Name": "Decay_Pack_Wolf_Carcass",
+            "DecayTime": 180
         }
     ]
 }

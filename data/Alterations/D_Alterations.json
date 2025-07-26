@@ -15,8 +15,8 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_Reinforced.Icon_Alteration_Reinforced",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseWindDamageResistance_%\")": 50,
-                "(Value=\"BaseMaximumHealth_+%\")": 400,
+                "(Value=\"BaseWindDamageResistance_%\")": 100,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
                 "(Value=\"BaseReinforcedBuilding_+\")": 3
             }
         },
@@ -26,7 +26,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_durable.Icon_Alteration_durable",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseMaximumHealth_+%\")": 10
+                "(Value=\"BaseMaximumHealth_+%\")": 100
             }
         },
         {
@@ -35,7 +35,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_durable.Icon_Alteration_durable",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BaseMaximumHealth_+%\")": 15
+                "(Value=\"BaseMaximumHealth_+%\")": 150
             }
         },
         {
@@ -44,7 +44,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_durable.Icon_Alteration_durable",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_3.Icon_Alteration_3",
             "Stats": {
-                "(Value=\"BaseMaximumHealth_+%\")": 20
+                "(Value=\"BaseMaximumHealth_+%\")": 200
             }
         },
         {
@@ -53,7 +53,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_durable.Icon_Alteration_durable",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_4.Icon_Alteration_4",
             "Stats": {
-                "(Value=\"BaseMaximumHealth_+%\")": 25
+                "(Value=\"BaseMaximumHealth_+%\")": 250
             }
         },
         {
@@ -62,7 +62,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_durable.Icon_Alteration_durable",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_5.Icon_Alteration_5",
             "Stats": {
-                "(Value=\"BaseMaximumHealth_+%\")": 50
+                "(Value=\"BaseMaximumHealth_+%\")": 500
             }
         },
         {
@@ -71,7 +71,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_durable.Icon_Alteration_durable",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_6.Icon_Alteration_6",
             "Stats": {
-                "(Value=\"BaseMaximumHealth_+%\")": 100
+                "(Value=\"BaseMaximumHealth_+%\")": 1000
             }
         },
         {
@@ -80,7 +80,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_durable.Icon_Alteration_durable",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_7.Icon_Alteration_7",
             "Stats": {
-                "(Value=\"BaseMaximumHealth_+%\")": 300
+                "(Value=\"BaseMaximumHealth_+%\")": 3000
             }
         },
         {
@@ -89,7 +89,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_durable.Icon_Alteration_durable",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_8.Icon_Alteration_8",
             "Stats": {
-                "(Value=\"BaseMaximumHealth_+%\")": 500
+                "(Value=\"BaseMaximumHealth_+%\")": 5000
             }
         },
         {
@@ -134,7 +134,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_extended.Icon_Alteration_extended",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseGenericSlots_+\")": 3
+                "(Value=\"BaseGenericSlots_+\")": 6
             }
         },
         {
@@ -143,7 +143,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_extended.Icon_Alteration_extended",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BaseGenericSlots_+\")": 5
+                "(Value=\"BaseGenericSlots_+\")": 12
             }
         },
         {
@@ -152,7 +152,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_extended.Icon_Alteration_extended",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_3.Icon_Alteration_3",
             "Stats": {
-                "(Value=\"BaseGenericSlots_+\")": 8
+                "(Value=\"BaseGenericSlots_+\")": 24
             }
         },
         {
@@ -161,7 +161,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_extended.Icon_Alteration_extended",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_4.Icon_Alteration_4",
             "Stats": {
-                "(Value=\"BaseGenericSlots_+\")": 10
+                "(Value=\"BaseGenericSlots_+\")": 36
             }
         },
         {
@@ -170,7 +170,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_inflammable.Icon_Alteration_inflammable",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseBurnChance_%\")": -25
+                "(Value=\"BaseBurnChance_%\")": -100
             }
         },
         {
@@ -179,7 +179,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_sturdy.Icon_Alteration_sturdy",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseWindDamageResistance_%\")": 25
+                "(Value=\"BaseWindDamageResistance_%\")": 100
             }
         },
         {
@@ -188,7 +188,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_Spikey.Icon_Alteration_Spikey",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseHedgehogDamage_+%\")": 25
+                "(Value=\"BaseHedgehogDamage_+%\")": 75
             }
         },
         {
@@ -197,7 +197,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_Effective.Icon_Alteration_Effective",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseCraftingSpeed_+%\")": 10
+                "(Value=\"BaseCraftingSpeed_+%\")": 100
             }
         },
         {
@@ -206,7 +206,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_Effective.Icon_Alteration_Effective",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BaseCraftingSpeed_+%\")": 15
+                "(Value=\"BaseCraftingSpeed_+%\")": 200
             }
         },
         {
@@ -215,7 +215,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_peircing.Icon_Alteration_peircing",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseProjectileDamage_+%\")": 2
+                "(Value=\"BaseProjectileDamage_+%\")": 25
             }
         },
         {
@@ -224,7 +224,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_peircing.Icon_Alteration_peircing",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BaseProjectileDamage_+%\")": 5
+                "(Value=\"BaseProjectileDamage_+%\")": 50
             }
         },
         {
@@ -233,7 +233,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_peircing.Icon_Alteration_peircing",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_3.Icon_Alteration_3",
             "Stats": {
-                "(Value=\"BaseProjectileDamage_+%\")": 10
+                "(Value=\"BaseProjectileDamage_+%\")": 100
             }
         },
         {
@@ -242,7 +242,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_well-stocked.Icon_Alteration_well-stocked",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseSmeltingSpeed_+%\")": 10
+                "(Value=\"BaseSmeltingSpeed_+%\")": 100
             }
         },
         {
@@ -251,7 +251,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_well-stocked.Icon_Alteration_well-stocked",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BaseSmeltingSpeed_+%\")": 15
+                "(Value=\"BaseSmeltingSpeed_+%\")": 200
             }
         },
         {
@@ -260,7 +260,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Alteration_Melee_Damage.Alteration_Melee_Damage",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseMeleeDamage_+%\")": 10
+                "(Value=\"BaseMeleeDamage_+%\")": 50
             }
         },
         {
@@ -269,7 +269,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Alteration_Melee_Damage.Alteration_Melee_Damage",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BaseMeleeDamage_+%\")": 20
+                "(Value=\"BaseMeleeDamage_+%\")": 100
             }
         },
         {
@@ -278,7 +278,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Alteration_Melee_Speed.Alteration_Melee_Speed",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseAttackSpeed_+%\")": 10
+                "(Value=\"BaseAttackSpeed_+%\")": 20
             }
         },
         {
@@ -287,7 +287,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Alteration_Melee_Speed.Alteration_Melee_Speed",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BaseAttackSpeed_+%\")": 20
+                "(Value=\"BaseAttackSpeed_+%\")": 40
             }
         },
         {
@@ -296,8 +296,8 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Alteration_Prime_Meat.Alteration_Prime_Meat",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 20,
-                "(Value=\"BasePrimeMeatDropChance_%\")": 5
+                "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 25,
+                "(Value=\"BasePrimeMeatDropChance_%\")": 25
             }
         },
         {
@@ -306,8 +306,8 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Alteration_Prime_Meat.Alteration_Prime_Meat",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 30,
-                "(Value=\"BasePrimeMeatDropChance_%\")": 15
+                "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 50,
+                "(Value=\"BasePrimeMeatDropChance_%\")": 50
             }
         },
         {
@@ -336,7 +336,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Alteration_Leather.Alteration_Leather",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseLeatherHarvestedFromAnimals_+%\")": 20
+                "(Value=\"BaseLeatherHarvestedFromAnimals_+%\")": 25
             }
         },
         {
@@ -345,7 +345,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Alteration_Leather.Alteration_Leather",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BaseLeatherHarvestedFromAnimals_+%\")": 40
+                "(Value=\"BaseLeatherHarvestedFromAnimals_+%\")": 50
             }
         },
         {
@@ -408,7 +408,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Alteration_Sickle.Alteration_Sickle",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseReapingRewards_%\")": 25
+                "(Value=\"BaseReapingRewards_%\")": 50
             }
         },
         {
@@ -417,8 +417,8 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Alteration_Sickle.Alteration_Sickle",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BaseReapingRewards_%\")": 50,
-                "(Value=\"BaseAttacksCauseHemorrhage_%\")": 25
+                "(Value=\"BaseReapingRewards_%\")": 75,
+                "(Value=\"BaseAttacksCauseHemorrhage_%\")": 100
             }
         },
         {
@@ -427,8 +427,8 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Alteration_Repair.Alteration_Repair",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseActionHoldTime_+%\")": -6,
-                "(Value=\"BaseStaminaActionCost_+%\")": -10
+                "(Value=\"BaseActionHoldTime_+%\")": -25,
+                "(Value=\"BaseStaminaActionCost_+%\")": -30
             }
         },
         {
@@ -437,8 +437,8 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Alteration_Repair.Alteration_Repair",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BaseActionHoldTime_+%\")": -12,
-                "(Value=\"BaseStaminaActionCost_+%\")": -20
+                "(Value=\"BaseActionHoldTime_+%\")": -50,
+                "(Value=\"BaseStaminaActionCost_+%\")": -50
             }
         },
         {
@@ -492,8 +492,8 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/Icon_CaveHealthRegen_Pneumonia_Chance.Icon_CaveHealthRegen_Pneumonia_Chance",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseCaveHealthRegen_+%\")": 30,
-                "(Value=\"BasePneumoniaResistance_%\")": 25
+                "(Value=\"BaseCaveHealthRegen_+%\")": 50,
+                "(Value=\"BasePneumoniaResistance_%\")": 50
             }
         },
         {
@@ -502,8 +502,8 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/Icon_CaveHealthRegen_Pneumonia_Chance.Icon_CaveHealthRegen_Pneumonia_Chance",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BaseCaveHealthRegen_+%\")": 60,
-                "(Value=\"BasePneumoniaResistance_%\")": 50
+                "(Value=\"BaseCaveHealthRegen_+%\")": 100,
+                "(Value=\"BasePneumoniaResistance_%\")": 95
             }
         },
         {
@@ -512,8 +512,8 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/Icon_StormStaminaRegen_Exposure_Res.Icon_StormStaminaRegen_Exposure_Res",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseStormStaminaRegen_+%\")": 20,
-                "(Value=\"BaseExposureResistance_+%\")": 5
+                "(Value=\"BaseStormStaminaRegen_+%\")": 50,
+                "(Value=\"BaseExposureResistance_+%\")": 15
             }
         },
         {
@@ -522,8 +522,8 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/Icon_StormStaminaRegen_Exposure_Res.Icon_StormStaminaRegen_Exposure_Res",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BaseStormStaminaRegen_+%\")": 40,
-                "(Value=\"BaseExposureResistance_+%\")": 10
+                "(Value=\"BaseStormStaminaRegen_+%\")": 100,
+                "(Value=\"BaseExposureResistance_+%\")": 30
             }
         },
         {
@@ -532,7 +532,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/Icon_PoisonResist.Icon_PoisonResist",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BasePoisonResistance_%\")": 30,
+                "(Value=\"BasePoisonResistance_%\")": 50,
                 "(Value=\"BaseWaterConsumption_+%\")": -10
             }
         },
@@ -542,7 +542,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/Icon_PoisonResist.Icon_PoisonResist",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BasePoisonResistance_%\")": 60,
+                "(Value=\"BasePoisonResistance_%\")": 75,
                 "(Value=\"BaseWaterConsumption_+%\")": -20
             }
         },
@@ -553,7 +553,7 @@
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
                 "(Value=\"BaseToolStaminaActionCost_+%\")": -15,
-                "(Value=\"BaseItemWear_+%\")": -10
+                "(Value=\"BaseItemWear_+%\")": -25
             }
         },
         {
@@ -563,7 +563,7 @@
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
                 "(Value=\"BaseToolStaminaActionCost_+%\")": -30,
-                "(Value=\"BaseItemWear_+%\")": -20
+                "(Value=\"BaseItemWear_+%\")": -50
             }
         },
         {
@@ -573,6 +573,7 @@
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
                 "(Value=\"BaseClimbingSpeed_+%\")": 15,
+                "(Value=\"BaseMovementSpeed_+%\")": 25,
                 "(Value=\"BaseJumpingStaminaActionCost_+%\")": -15,
                 "(Value=\"BaseSwimSpeed_+%\")": 15
             }
@@ -584,6 +585,7 @@
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
                 "(Value=\"BaseClimbingSpeed_+%\")": 30,
+                "(Value=\"BaseMovementSpeed_+%\")": 50,
                 "(Value=\"BaseJumpingStaminaActionCost_+%\")": -30,
                 "(Value=\"BaseSwimSpeed_+%\")": 30
             }
@@ -614,8 +616,9 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/Icon_ThreatWhileStealth.Icon_ThreatWhileStealth",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseStealthThreatModifier_+%\")": -10,
-                "(Value=\"BaseCrouchSpeed_+%\")": 10
+                "(Value=\"BaseStealthThreatModifier_+%\")": -15,
+                "(Value=\"BaseMovementSpeed_+%\")": 15,
+                "(Value=\"BaseCrouchSpeed_+%\")": 25
             }
         },
         {
@@ -624,8 +627,9 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/Icon_ThreatWhileStealth.Icon_ThreatWhileStealth",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BaseStealthThreatModifier_+%\")": -20,
-                "(Value=\"BaseCrouchSpeed_+%\")": 20
+                "(Value=\"BaseStealthThreatModifier_+%\")": -30,
+                "(Value=\"BaseMovementSpeed_+%\")": 30,
+                "(Value=\"BaseCrouchSpeed_+%\")": 50
             }
         },
         {
@@ -634,8 +638,8 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/Icon_WeightCapacity.Icon_WeightCapacity",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseWeightCapacity_+\")": 5,
-                "(Value=\"BaseBackpackSlots_+\")": 2
+                "(Value=\"BaseWeightCapacity_+\")": 20,
+                "(Value=\"BaseBackpackSlots_+\")": 12
             }
         },
         {
@@ -644,8 +648,8 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/Icon_WeightCapacity.Icon_WeightCapacity",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BaseWeightCapacity_+\")": 10,
-                "(Value=\"BaseBackpackSlots_+\")": 4
+                "(Value=\"BaseWeightCapacity_+\")": 40,
+                "(Value=\"BaseBackpackSlots_+\")": 24
             }
         },
         {
@@ -654,8 +658,8 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/Icon_HealthRegenandPhysRes.Icon_HealthRegenandPhysRes",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseHealthRegen_+%\")": 20,
-                "(Value=\"BasePhysicalDamageResistance_+%\")": 5
+                "(Value=\"BaseHealthRegen_+%\")": 50,
+                "(Value=\"BasePhysicalDamageResistance_+%\")": 10
             }
         },
         {
@@ -664,8 +668,8 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/Icon_HealthRegenandPhysRes.Icon_HealthRegenandPhysRes",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BaseHealthRegen_+%\")": 40,
-                "(Value=\"BasePhysicalDamageResistance_+%\")": 10
+                "(Value=\"BaseHealthRegen_+%\")": 100,
+                "(Value=\"BasePhysicalDamageResistance_+%\")": 15
             }
         },
         {
@@ -675,7 +679,7 @@
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
                 "(Value=\"MapCanSeeWorldBosses_?\")": 1,
-                "(Value=\"BaseCriticalDamage_+%\")": 15
+                "(Value=\"BaseCriticalDamage_+%\")": 25
             }
         },
         {
@@ -685,7 +689,7 @@
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
                 "(Value=\"BaseMaximumStomachFullness_+\")": 1,
-                "(Value=\"BaseFoodModifierDuration_+%\")": 10
+                "(Value=\"BaseFoodModifierDuration_+%\")": 30
             }
         },
         {
@@ -694,10 +698,10 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/Icon_FasterAfflictionHeal.Icon_FasterAfflictionHeal",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseBacterialModifierDuration_+%\")": -20,
-                "(Value=\"BaseParasiticModifierDuration_+%\")": -20,
-                "(Value=\"BasePhysicalTraumaModifierDuration_+%\")": -20,
-                "(Value=\"BasePoisonModifierDuration_+%\")": -20
+                "(Value=\"BaseBacterialModifierDuration_+%\")": -75,
+                "(Value=\"BaseParasiticModifierDuration_+%\")": -75,
+                "(Value=\"BasePhysicalTraumaModifierDuration_+%\")": -75,
+                "(Value=\"BasePoisonModifierDuration_+%\")": -75
             }
         },
         {
@@ -841,10 +845,9 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/WeaponAttachments/Icon_HandCannon.Icon_HandCannon",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseProjectileDamage_+%\")": 20,
+                "(Value=\"BaseProjectileDamage_+%\")": 40,
                 "(Value=\"BaseCriticalDamage_+%\")": 25,
-                "(Value=\"BaseHardenedPointPenetration_%\")": 35,
-                "(Value=\"BaseRateOfFirePerMinute_+%\")": -8
+                "(Value=\"BaseHardenedPointPenetration_%\")": 35
             }
         },
         {
@@ -853,10 +856,9 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/WeaponAttachments/Icon_HandCannon.Icon_HandCannon",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BaseProjectileDamage_+%\")": 40,
+                "(Value=\"BaseProjectileDamage_+%\")": 80,
                 "(Value=\"BaseCriticalDamage_+%\")": 40,
-                "(Value=\"BaseHardenedPointPenetration_%\")": 60,
-                "(Value=\"BaseRateOfFirePerMinute_+%\")": -15
+                "(Value=\"BaseHardenedPointPenetration_%\")": 60
             }
         },
         {
@@ -3570,6 +3572,38 @@
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
                 }
+            }
+        },
+        {
+            "Name": "Meat_Yeild_1",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Meat_Yeild_1-DisplayName\", \"Carnivore 1\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
+            "Stats": {
+                "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 20
+            }
+        },
+        {
+            "Name": "Meat_Yeild_2",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Meat_Yeild_2-DisplayName\", \"Carnivore 2\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
+            "Stats": {
+                "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 40
+            }
+        },
+        {
+            "Name": "Meat_Yeild_1",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Meat_Yeild_1-DisplayName\", \"Carnivore 1\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
+            "Stats": {
+                "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 25
+            }
+        },
+        {
+            "Name": "Meat_Yeild_2",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Meat_Yeild_2-DisplayName\", \"Carnivore 2\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
+            "Stats": {
+                "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 50
             }
         }
     ]
