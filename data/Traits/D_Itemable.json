@@ -23043,7 +23043,7 @@
             "Name": "Item_Glass_Diagonal_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Diagonal_Set-DisplayName\", \"Glass Diagonal Buildings\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
-            ""Weight": 500,
+            "Weight": 500,
             "MaxStack": 50
         },
         {
