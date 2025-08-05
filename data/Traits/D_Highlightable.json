@@ -1206,6 +1206,46 @@
             "Name": "IceSlug_Den",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"IceSlug_Den-DisplayName\", \"Glaci Spawning Ground\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"IceSlug_Den-Description\", \"A collection of bones, slime and other materials used in the reproduction of Glaci. Damage with a Pickaxe to prevent further Glaci forming.\")"
+        },
+        {
+            "Name": "Onion",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Onion-DisplayName\", \"Onion\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Onion-Description\", \"Responsible for many tears throughout the ages.\")"
+        },
+        {
+            "Name": "Agave",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Agave-DisplayName\", \"Agave\")",
+            "Description": "INVTEXT(\"[DNT] None\")"
+        },
+        {
+            "Name": "PricklyPear",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"PricklyPear-DisplayName\", \"Prickly Pear\")",
+            "Description": "INVTEXT(\"[DNT] None\")"
+        },
+        {
+            "Name": "Garlic",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Garlic-DisplayName\", \"Garlic\")",
+            "Description": "INVTEXT(\"[DNT] None\")"
+        },
+        {
+            "Name": "Truffle",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Truffle-DisplayName\", \"Truffle\")",
+            "Description": "INVTEXT(\"[DNT] None\")"
+        },
+        {
+            "Name": "Deep_Mining_Ore_Deposit_Lithium",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Deep_Mining_Ore_Deposit_Lithium-DisplayName\", \"Deep Mining Ore Deposit: Lithium\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Deep_Mining_Ore_Deposit_Lithium-Description\", \"An ore deposit that can be drilled with deep mining equipment.\")"
+        },
+        {
+            "Name": "Deep_Mining_Ore_Deposit_Ruby",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Deep_Mining_Ore_Deposit_Ruby-DisplayName\", \"Deep Mining Ore Deposit: Ruby\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Deep_Mining_Ore_Deposit_Ruby-Description\", \"An ore deposit that can be drilled with deep mining equipment.\")"
+        },
+        {
+            "Name": "Deep_Mining_Ore_Deposit_Cobalt",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Deep_Mining_Ore_Deposit_Cobalt-DisplayName\", \"Deep Mining Ore Deposit: Cobalt\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Deep_Mining_Ore_Deposit_Cobalt-Description\", \"An ore deposit that can be drilled with deep mining equipment.\")"
         }
     ]
 }

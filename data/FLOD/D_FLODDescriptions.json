@@ -9914,6 +9914,156 @@
             "Flammable": {
                 "RowName": "Flammable_Sapling"
             }
+        },
+        {
+            "Name": "FT_Onion_Var1",
+            "FoliageType": "/Game/ASS/ENV/HRB/FT/FT_Onion_Var1.FT_Onion_Var1",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.LowHeight"
+                    },
+                    {
+                        "TagName": "Foliage"
+                    },
+                    {
+                        "TagName": "ViewTrace.PassThrough"
+                    },
+                    {
+                        "TagName": "Audio.Foliage.Bush"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_HRB_Onion_Var1.BP_HRB_Onion_Var1_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Bush"
+            }
+        },
+        {
+            "Name": "FT_Onion_Var2",
+            "FoliageType": "/Game/ASS/ENV/HRB/FT/FT_Onion_Var2.FT_Onion_Var2",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.LowHeight"
+                    },
+                    {
+                        "TagName": "Foliage"
+                    },
+                    {
+                        "TagName": "ViewTrace.PassThrough"
+                    },
+                    {
+                        "TagName": "Audio.Foliage.Bush"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_HRB_Onion_Var2.BP_HRB_Onion_Var2_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Bush"
+            }
+        },
+        {
+            "Name": "FT_Onion_Var3",
+            "FoliageType": "/Game/ASS/ENV/HRB/FT/FT_Onion_Var3.FT_Onion_Var3",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.LowHeight"
+                    },
+                    {
+                        "TagName": "Foliage"
+                    },
+                    {
+                        "TagName": "ViewTrace.PassThrough"
+                    },
+                    {
+                        "TagName": "Audio.Foliage.Bush"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_HRB_Onion_Var3.BP_HRB_Onion_Var3_C",
+            "bViewTraceClientPredictive": true,
+            "bIsFlammable": true,
+            "Flammable": {
+                "RowName": "Flammable_Bush"
+            }
+        },
+        {
+            "Name": "FT_Truffle_Var1",
+            "FoliageType": "/Game/ASS/ENV/FOL/FT/FT_DC_TrufflePlant_Var1_Temp.FT_DC_TrufflePlant_Var1_Temp",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.LowHeight"
+                    },
+                    {
+                        "TagName": "Foliage"
+                    },
+                    {
+                        "TagName": "ViewTrace.PassThrough"
+                    },
+                    {
+                        "TagName": "Audio.Foliage.Bush"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_HRB_Truffle_Var1.BP_HRB_Truffle_Var1_C",
+            "bViewTraceClientPredictive": true
+        },
+        {
+            "Name": "FT_Truffle_Var2",
+            "FoliageType": "/Game/ASS/ENV/FOL/FT/FT_DC_TrufflePlant_Var2_Temp.FT_DC_TrufflePlant_Var2_Temp",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.LowHeight"
+                    },
+                    {
+                        "TagName": "Foliage"
+                    },
+                    {
+                        "TagName": "ViewTrace.PassThrough"
+                    },
+                    {
+                        "TagName": "Audio.Foliage.Bush"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_HRB_Truffle_Var2.BP_HRB_Truffle_Var2_C",
+            "bViewTraceClientPredictive": true
+        },
+        {
+            "Name": "FT_Truffle_Var3",
+            "FoliageType": "/Game/ASS/ENV/FOL/FT/FT_DC_TrufflePlant_Var3_Temp.FT_DC_TrufflePlant_Var3_Temp",
+            "FoliageTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.LowHeight"
+                    },
+                    {
+                        "TagName": "Foliage"
+                    },
+                    {
+                        "TagName": "ViewTrace.PassThrough"
+                    },
+                    {
+                        "TagName": "Audio.Foliage.Bush"
+                    }
+                ]
+            },
+            "bUseViewTraceInfluence": true,
+            "ViewTraceActor": "/Game/BP/Objects/World/Resources/Nodes/BP_HRB_Truffle_Var3.BP_HRB_Truffle_Var3_C",
+            "bViewTraceClientPredictive": true
         }
     ]
 }

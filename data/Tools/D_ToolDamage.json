@@ -50,10 +50,10 @@
         },
         {
             "Name": "Meta_Axe_Inaris",
-            "Melee_Damage": 55,
+            "Melee_Damage": 45,
             "DamageVariationPercentage": 5,
-            "Felling_Damage": 80,
-            "Felling_Efficiency": 1.5
+            "Felling_Damage": 50,
+            "Felling_Efficiency": 1.2999999523162842
         },
         {
             "Name": "Meta_Axe",
@@ -85,10 +85,10 @@
         },
         {
             "Name": "Meta_Axe_Larkwell",
-            "Melee_Damage": 70,
+            "Melee_Damage": 50,
             "DamageVariationPercentage": 5,
-            "Felling_Damage": 95,
-            "Felling_Efficiency": 2.65
+            "Felling_Damage": 60,
+            "Felling_Efficiency": 1.2999999523162842
         },
         {
             "Name": "Meta_Axe_Shengong_Echo",
@@ -101,8 +101,8 @@
             "Name": "Titanium_Axe",
             "Melee_Damage": 55,
             "DamageVariationPercentage": 10,
-            "Felling_Damage": 90,
-            "Felling_Efficiency": 2.5
+            "Felling_Damage": 80,
+            "Felling_Efficiency": 1.399999976158142
         },
         {
             "Name": "Iron_Wood_Axe",
@@ -148,10 +148,10 @@
         },
         {
             "Name": "Meta_Pickaxe_Inaris",
-            "Melee_Damage": 60,
+            "Melee_Damage": 45,
             "DamageVariationPercentage": 5,
-            "Mining_Radius": 75,
-            "Mining_Efficiency": 1.5
+            "Mining_Radius": 60,
+            "Mining_Efficiency": 1.3300000429153442
         },
         {
             "Name": "Steel_Pickaxe",
@@ -176,10 +176,10 @@
         },
         {
             "Name": "Meta_Pickaxe_Larkwell",
-            "Melee_Damage": 70,
+            "Melee_Damage": 50,
             "DamageVariationPercentage": 5,
-            "Mining_Radius": 90,
-            "Mining_Efficiency": 2.65
+            "Mining_Radius": 70,
+            "Mining_Efficiency": 1.3300000429153442
         },
         {
             "Name": "Meta_Pickaxe_Shengong_Echo",
@@ -192,8 +192,8 @@
             "Name": "Titanium_Pickaxe",
             "Melee_Damage": 55,
             "DamageVariationPercentage": 10,
-            "Mining_Radius": 90,
-            "Mining_Efficiency": 2.5
+            "Mining_Radius": 75,
+            "Mining_Efficiency": 1.399999976158142
         },
         {
             "Name": "Iron_Wood_Pickaxe",
@@ -259,9 +259,9 @@
         },
         {
             "Name": "Meta_Knife_Inaris",
-            "Melee_Damage": 75,
+            "Melee_Damage": 65,
             "DamageVariationPercentage": 5,
-            "Skinning_Efficiency": 2.5
+            "Skinning_Efficiency": 2.25
         },
         {
             "Name": "Steel_Knife",
@@ -284,9 +284,9 @@
         },
         {
             "Name": "Meta_Knife_Larkwell",
-            "Melee_Damage": 95,
+            "Melee_Damage": 70,
             "DamageVariationPercentage": 5,
-            "Skinning_Efficiency": 2.65
+            "Skinning_Efficiency": 1.5
         },
         {
             "Name": "Meta_Knife_Shengong_Echo",
@@ -308,9 +308,9 @@
         },
         {
             "Name": "Titanium_Knife",
-            "Melee_Damage": 100,
+            "Melee_Damage": 75,
             "DamageVariationPercentage": 5,
-            "Skinning_Efficiency": 2.5
+            "Skinning_Efficiency": 2.25
         },
         {
             "Name": "Iron_Wood_Knife",
@@ -326,28 +326,28 @@
         },
         {
             "Name": "Wood_Spear",
-            "Melee_Damage": 120,
-            "DamageVariationPercentage": 50
+            "Melee_Damage": 50,
+            "DamageVariationPercentage": 10
         },
         {
             "Name": "Bone_Spear",
-            "Melee_Damage": 155,
-            "DamageVariationPercentage": 50
+            "Melee_Damage": 55,
+            "DamageVariationPercentage": 10
         },
         {
             "Name": "Caveworm_Spear",
-            "Melee_Damage": 155,
-            "DamageVariationPercentage": 50
+            "Melee_Damage": 60,
+            "DamageVariationPercentage": 10
         },
         {
             "Name": "Meta_Spear_Printed",
-            "Melee_Damage": 155,
-            "DamageVariationPercentage": 50
+            "Melee_Damage": 55,
+            "DamageVariationPercentage": 5
         },
         {
             "Name": "Metal_Spear",
-            "Melee_Damage": 175,
-            "DamageVariationPercentage": 50
+            "Melee_Damage": 60,
+            "DamageVariationPercentage": 10
         },
         {
             "Name": "Obsidian_Spear",
@@ -356,28 +356,28 @@
         },
         {
             "Name": "Sandworm_Spear",
-            "Melee_Damage": 190,
-            "DamageVariationPercentage": 50
+            "Melee_Damage": 75,
+            "DamageVariationPercentage": 10
         },
         {
             "Name": "Meta_Spear_Shengong",
-            "Melee_Damage": 260,
-            "DamageVariationPercentage": 50
+            "Melee_Damage": 60,
+            "DamageVariationPercentage": 5
         },
         {
             "Name": "Meta_Spear_Inaris",
-            "Melee_Damage": 275,
-            "DamageVariationPercentage": 50
+            "Melee_Damage": 65,
+            "DamageVariationPercentage": 5
         },
         {
             "Name": "Steel_Spear",
-            "Melee_Damage": 265,
-            "DamageVariationPercentage": 50
+            "Melee_Damage": 65,
+            "DamageVariationPercentage": 10
         },
         {
             "Name": "Platinum_Spear",
-            "Melee_Damage": 290,
-            "DamageVariationPercentage": 50
+            "Melee_Damage": 70,
+            "DamageVariationPercentage": 5
         },
         {
             "Name": "IceMammoth_Spear",
@@ -391,8 +391,8 @@
         },
         {
             "Name": "Titanium_Spear",
-            "Melee_Damage": 375,
-            "DamageVariationPercentage": 50
+            "Melee_Damage": 75,
+            "DamageVariationPercentage": 5
         },
         {
             "Name": "Iron_Wood_Spear",
@@ -401,18 +401,18 @@
         },
         {
             "Name": "Carbon_Spear",
-            "Melee_Damage": 475,
-            "DamageVariationPercentage": 50
+            "Melee_Damage": 75,
+            "DamageVariationPercentage": 10
         },
         {
             "Name": "Composite_Spear",
-            "Melee_Damage": 550,
-            "DamageVariationPercentage": 50
+            "Melee_Damage": 80,
+            "DamageVariationPercentage": 10
         },
         {
             "Name": "Meta_Spear_Larkwell",
-            "Melee_Damage": 675,
-            "DamageVariationPercentage": 50
+            "Melee_Damage": 85,
+            "DamageVariationPercentage": 5
         },
         {
             "Name": "Meta_Spear_Shengong_Echo",
@@ -434,13 +434,13 @@
             "Name": "Meta_Sickle_Printed",
             "Melee_Damage": 40,
             "DamageVariationPercentage": 10,
-            "Reaping_Efficiency": 1.5
+            "Reaping_Efficiency": 1.25
         },
         {
             "Name": "Meta_Sickle_Larkwell",
-            "Melee_Damage": 75,
+            "Melee_Damage": 45,
             "DamageVariationPercentage": 5,
-            "Reaping_Efficiency": 2.5
+            "Reaping_Efficiency": 1.75
         },
         {
             "Name": "Metal_Sickle",
@@ -468,9 +468,9 @@
         },
         {
             "Name": "Titanium_Sickle",
-            "Melee_Damage": 95,
+            "Melee_Damage": 65,
             "DamageVariationPercentage": 10,
-            "Reaping_Efficiency": 2.5
+            "Reaping_Efficiency": 1.850000023841858
         },
         {
             "Name": "Iron_Wood_Sickle",
@@ -483,28 +483,28 @@
             "Melee_Damage": 65,
             "DamageVariationPercentage": 25,
             "Shattering_Damage": 50,
-            "Shattering_Efficiency": 2
+            "Shattering_Efficiency": 1
         },
         {
             "Name": "Obsidian_Sledgehammer",
             "Melee_Damage": 32,
             "DamageVariationPercentage": 25,
             "Shattering_Damage": 50,
-            "Shattering_Efficiency": 3
+            "Shattering_Efficiency": 1
         },
         {
             "Name": "Cold_Steel_Sledgehammer",
-            "Melee_Damage": 40,
-            "DamageVariationPercentage": 25,
+            "Melee_Damage": 85,
+            "DamageVariationPercentage": 10,
             "Shattering_Damage": 50,
-            "Shattering_Efficiency": 4
+            "Shattering_Efficiency": 1
         },
         {
             "Name": "Iron_Wood_Sledgehammer",
             "Melee_Damage": 80,
             "DamageVariationPercentage": 25,
             "Shattering_Damage": 50,
-            "Shattering_Efficiency": 5
+            "Shattering_Efficiency": 1
         },
         {
             "Name": "Meta_Sickle_Inaris_Skinning",
@@ -597,6 +597,65 @@
             "Melee_Damage": 70,
             "DamageVariationPercentage": 10,
             "Skinning_Efficiency": 2.25
+        },
+        {
+            "Name": "Lithium_Axe",
+            "Melee_Damage": 30,
+            "DamageVariationPercentage": 10,
+            "Felling_Damage": 80,
+            "Felling_Efficiency": 1.399999976158142
+        },
+        {
+            "Name": "Lithium_Pickaxe",
+            "Melee_Damage": 30,
+            "DamageVariationPercentage": 10,
+            "Mining_Radius": 75,
+            "Mining_Efficiency": 1.399999976158142
+        },
+        {
+            "Name": "Lithium_Knife",
+            "Melee_Damage": 40,
+            "DamageVariationPercentage": 5,
+            "Skinning_Efficiency": 2.25
+        },
+        {
+            "Name": "Lithium_Spear",
+            "Melee_Damage": 40,
+            "DamageVariationPercentage": 5
+        },
+        {
+            "Name": "Lithium_Sickle",
+            "Melee_Damage": 40,
+            "DamageVariationPercentage": 10,
+            "Reaping_Efficiency": 1.850000023841858
+        },
+        {
+            "Name": "Lithium_Sledgehammer",
+            "Melee_Damage": 100,
+            "DamageVariationPercentage": 25,
+            "Shattering_Damage": 50,
+            "Shattering_Efficiency": 1
+        },
+        {
+            "Name": "Jackhammer",
+            "Melee_Damage": 40,
+            "DamageVariationPercentage": 5,
+            "Mining_Radius": 60,
+            "Mining_Efficiency": 2
+        },
+        {
+            "Name": "Chainsaw",
+            "Melee_Damage": 40,
+            "DamageVariationPercentage": 5,
+            "Felling_Damage": 50,
+            "Felling_Efficiency": 1.25
+        },
+        {
+            "Name": "Mining_Laser",
+            "Melee_Damage": 22,
+            "DamageVariationPercentage": 10,
+            "Mining_Radius": 60,
+            "Mining_Efficiency": 1.2999999523162842
         }
     ]
 }

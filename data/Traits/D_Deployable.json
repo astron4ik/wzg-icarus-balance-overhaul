@@ -285,36 +285,6 @@
             ]
         },
         {
-            "Name": "Farming_CropPlot_T2",
-            "Variants": [
-                {
-                    "RowName": "Farming_CropPlot_T2",
-                    "DataTableName": "D_DeployableSetup"
-                }
-            ],
-            "EffectedByWeather": false
-        },
-        {
-            "Name": "Farming_CropPlot_T3",
-            "Variants": [
-                {
-                    "RowName": "Farming_CropPlot_T3",
-                    "DataTableName": "D_DeployableSetup"
-                }
-            ],
-            "EffectedByWeather": false
-        },
-        {
-            "Name": "Farming_CropPlot_T4",
-            "Variants": [
-                {
-                    "RowName": "Farming_CropPlot_T4",
-                    "DataTableName": "D_DeployableSetup"
-                }
-            ],
-            "EffectedByWeather": false
-        },
-        {
             "Name": "Farming_CropPlot_Mound_Seed",
             "Variants": [
                 {
@@ -3892,6 +3862,56 @@
             "Variants": [
                 {
                     "RowName": "Farming_Mound_Potato",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Farming_Mound_Onion",
+            "Variants": [
+                {
+                    "RowName": "Farming_Mound_Onion",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Farming_Mound_Agave",
+            "Variants": [
+                {
+                    "RowName": "Farming_Mound_Agave",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Farming_Mound_PricklyPear",
+            "Variants": [
+                {
+                    "RowName": "Farming_Mound_PricklyPear",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Farming_Mound_Garlic",
+            "Variants": [
+                {
+                    "RowName": "Farming_Mound_Garlic",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Farming_Mound_Truffle",
+            "Variants": [
+                {
+                    "RowName": "Farming_Mound_Truffle",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],
@@ -9510,6 +9530,118 @@
                     "DataTableName": "D_DeployableSetup"
                 }
             ]
+        },
+        {
+            "Name": "Uranium_Generator",
+            "Variants": [
+                {
+                    "RowName": "Uranium_Generator",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "StoneBrick_Fireplace",
+            "Variants": [
+                {
+                    "RowName": "StoneBrick_Fireplace",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "StoneBrick_Fireplace_Ext",
+            "Variants": [
+                {
+                    "RowName": "StoneBrick_Fireplace_Ext",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "StoneBrick_Fireplace_Cap",
+            "Variants": [
+                {
+                    "RowName": "StoneBrick_Fireplace_Cap",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "StoneBrick_Fireplace_Cap_Half",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "ClayBrick_Fireplace",
+            "Variants": [
+                {
+                    "RowName": "ClayBrick_Fireplace",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "ClayBrick_Fireplace_Ext",
+            "Variants": [
+                {
+                    "RowName": "ClayBrick_Fireplace_Ext",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "ClayBrick_Fireplace_Cap",
+            "Variants": [
+                {
+                    "RowName": "ClayBrick_Fireplace_Cap",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "ClayBrick_Fireplace_Cap_Half",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Fireplace",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Fireplace",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Fireplace_Ext",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Fireplace_Ext",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Fireplace_Cap",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Fireplace_Cap",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Fireplace_Cap_Half",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
         }
     ]
 }

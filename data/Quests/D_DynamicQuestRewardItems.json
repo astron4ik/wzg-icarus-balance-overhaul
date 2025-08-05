@@ -3422,7 +3422,7 @@
             "Rewards": [
                 {
                     "Item": {
-                        "RowName": "Farming_CropPlot",
+                        "RowName": "Farming_CropPlot_T2_v2",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "MinimumStack": 1,
@@ -3431,7 +3431,7 @@
                 },
                 {
                     "Item": {
-                        "RowName": "Farming_CropPlot_T3",
+                        "RowName": "Farming_CropPlot_T3_v2",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "MinimumStack": 1,

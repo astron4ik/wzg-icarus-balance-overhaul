@@ -717,19 +717,19 @@
             "Name": "Mesh_Farming_CropPlot_T2",
             "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
-            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Farming/BP_Farming_Plot_T2.BP_Farming_Plot_T2_C"
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Farming/BP_Crop_Plot_T2_v2.BP_Crop_Plot_T2_v2_C"
         },
         {
             "Name": "Mesh_Farming_CropPlot_T3",
             "ItemMesh": "/Game/ASS/KIT/SM_KIT_Machining.SM_KIT_Machining",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
-            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Farming/BP_Farming_Plot_T3.BP_Farming_Plot_T3_C"
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Farming/BP_Crop_Plot_T3_v2.BP_Crop_Plot_T3_v2_C"
         },
         {
             "Name": "Mesh_Farming_CropPlot_T4",
             "ItemMesh": "/Game/ASS/KIT/SM_KIT_Fabricator.SM_KIT_Fabricator",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
-            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Farming/BP_Farming_Plot_T4.BP_Farming_Plot_T4_C"
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Farming/BP_Crop_Plot_T4_v2.BP_Crop_Plot_T4_v2_C"
         },
         {
             "Name": "Mesh_Farming_CropPlot_Workshop",
@@ -7371,7 +7371,7 @@
         {
             "Name": "Mesh_LegendaryWeapon_LavaHunter_Flamethrower",
             "ItemMesh": "/Game/ASS/ITM/WeaponCrate_Norex/SM_ITM_WeaponCrate_Norex.SM_ITM_WeaponCrate_Norex",
-            "EquipHandMesh": "/Game/ASS/WEP/GUN_Flamethrower_LavaHunter/SK_WEP_GUN_FlameThrower_LavaHunter_Core.SK_WEP_GUN_FlameThrower_LavaHunter_Core",
+            "EquipHandMesh": "/Game/ASS/WEP/Gun_FlameThrower_LavaHunter/SK_WEP_GUN_FlameThrower_LavaHunter_Core.SK_WEP_GUN_FlameThrower_LavaHunter_Core",
             "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_FlameThrower_LavaHunter.BP_SkeletalItem_FlameThrower_LavaHunter_C",
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -7514,12 +7514,14 @@
         {
             "Name": "Mesh_Jackhammer",
             "ItemMesh": "/Game/ASS/ITM/SM_ITM_JackHammer.SM_ITM_JackHammer",
-            "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_JackHammer.SK_ITM_JackHammer"
+            "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_JackHammer.SK_ITM_JackHammer",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Jackhammer.BP_SkeletalItem_Jackhammer_C"
         },
         {
             "Name": "Mesh_Chainsaw",
             "ItemMesh": "/Game/ASS/ITM/SM_ITM_Chainsaw.SM_ITM_Chainsaw",
-            "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_Chainsaw.SK_ITM_Chainsaw"
+            "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_Chainsaw.SK_ITM_Chainsaw",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Chainsaw.BP_SkeletalItem_Chainsaw_C"
         },
         {
             "Name": "Mesh_PlanterBox_SML",
@@ -7711,7 +7713,8 @@
         },
         {
             "Name": "Mesh_Uranium_Raw",
-            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Exotic_Red_Raw.SM_ITM_Exotic_Red_Raw"
+            "ItemMesh": "/Game/ASS/ITM/Ore/SM_Rock_Ore_Copper.SM_Rock_Ore_Copper",
+            "ItemActor": "/Game/BP/Objects/World/Items/Resources/BP_StaticItem_RawUranium.BP_StaticItem_RawUranium_C"
         },
         {
             "Name": "Mesh_Carcass_SwampBird_Mount",
@@ -7722,6 +7725,94 @@
             "Name": "Mesh_CarcassWoolyZebra_Mount",
             "ItemMesh": "/Game/ASS/CRE/Wooly_Zebra/SK_CRE_Wooly_Zebra.SK_CRE_Wooly_Zebra",
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Wooly_Zebra_Mount_Corpse.BP_Wooly_Zebra_Mount_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Lithium_Ore",
+            "ItemMesh": "/Game/ASS/ITM/Ore/SM_Rock_Ore_Platinum.SM_Rock_Ore_Platinum"
+        },
+        {
+            "Name": "Mesh_Ruby_Ore",
+            "ItemMesh": "/Game/ASS/ITM/Ore/SM_Rock_Ore_Platinum.SM_Rock_Ore_Platinum"
+        },
+        {
+            "Name": "Mesh_Cobalt_Ore",
+            "ItemMesh": "/Game/ASS/ITM/Ore/SM_Rock_Ore_Platinum.SM_Rock_Ore_Platinum"
+        },
+        {
+            "Name": "Mesh_Lithium_Axe",
+            "ItemMesh": "/Game/ASS/WEP/Axes/SK_AXE_Obsidian.SK_AXE_Obsidian",
+            "EquipHandMesh": "/Game/ASS/WEP/Axes/SK_AXE_Obsidian.SK_AXE_Obsidian"
+        },
+        {
+            "Name": "Mesh_Lithium_Pickaxe",
+            "ItemMesh": "/Game/ASS/WEP/SK_PIC_Obsidian.SK_PIC_Obsidian",
+            "EquipHandMesh": "/Game/ASS/WEP/SK_PIC_Obsidian.SK_PIC_Obsidian"
+        },
+        {
+            "Name": "Mesh_Lithium_Knife",
+            "ItemMesh": "/Game/ASS/WEP/SK_KNI_Obsidian.SK_KNI_Obsidian",
+            "EquipHandMesh": "/Game/ASS/WEP/SK_KNI_Obsidian.SK_KNI_Obsidian"
+        },
+        {
+            "Name": "Mesh_Lithium_Spear",
+            "ItemMesh": "/Game/ASS/WEP/SK_SPR_Obsidian.SK_SPR_Obsidian",
+            "EquipHandMesh": "/Game/ASS/WEP/SK_SPR_Obsidian.SK_SPR_Obsidian"
+        },
+        {
+            "Name": "Mesh_Lithium_Sledgehammer",
+            "ItemMesh": "/Game/ASS/ITM/SK_ITM_Sledgehammer_Obsidian.SK_ITM_Sledgehammer_Obsidian",
+            "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_Sledgehammer_Obsidian.SK_ITM_Sledgehammer_Obsidian"
+        },
+        {
+            "Name": "Mesh_Lithium_Sickle",
+            "ItemMesh": "/Game/ASS/ITM/SK_ITM_Sickle_Obsidian.SK_ITM_Sickle_Obsidian",
+            "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_Sickle_Obsidian.SK_ITM_Sickle_Obsidian"
+        },
+        {
+            "Name": "Mesh_Cobalt_Ingot",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Platinum.SM_ITM_Platinum"
+        },
+        {
+            "Name": "Mesh_Mining_Laser",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Fabricator.SM_KIT_Fabricator",
+            "EquipHandMesh": "/Game/ASS/WEP/SK_PIC_Obsidian.SK_PIC_Obsidian",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_MiningLaser.BP_SkeletalItem_MiningLaser_C"
+        },
+        {
+            "Name": "Mesh_Radiation_Tracker",
+            "ItemMesh": "/Game/ASS/ITM/Scan_Handheld_ECHO/SK_ITM_Scan_Handheld_ECHO.SK_ITM_Scan_Handheld_ECHO",
+            "EquipHandMesh": "/Game/ASS/ITM/Scan_Handheld_ECHO/SK_ITM_Scan_Handheld_ECHO.SK_ITM_Scan_Handheld_ECHO",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Radiation_Tracker.BP_SkeletalItem_Radiation_Tracker_C"
+        },
+        {
+            "Name": "Mesh_Lithium_Bow",
+            "ItemMesh": "/Game/ASS/WEP/SK_BOW_Compound/SM_BOW_Compound.SM_BOW_Compound",
+            "EquipHandMesh": "/Game/ASS/WEP/SK_BOW_Compound/SK_BOW_Compound_Rig.SK_BOW_Compound_Rig",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Lithium_Bow.BP_SkeletalItem_Lithium_Bow_C"
+        },
+        {
+            "Name": "Mesh_Lithium_Shield",
+            "ItemMesh": "/Game/ASS/ITM/SK_ITM_Shield_CarbonFiber.SK_ITM_Shield_CarbonFiber",
+            "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_Shield_CarbonFiber.SK_ITM_Shield_CarbonFiber",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Shields/BP_SkeletalItem_Shield.BP_SkeletalItem_Shield_C",
+            "EquipBackMesh": "/Game/ASS/ITM/SK_ITM_Shield_CarbonFiber.SK_ITM_Shield_CarbonFiber",
+            "EquipBackActor": "/Game/BP/Objects/World/Items/Shields/BP_SkeletalItem_Shield_Back.BP_SkeletalItem_Shield_Back_C"
+        },
+        {
+            "Name": "Mesh_Lithium_Crossbow",
+            "ItemMesh": "/Game/ASS/WEP/SK_BOW_Crossbow_T4_Titanium/SK_BOW_Crossbow_Titanium.SK_BOW_Crossbow_Titanium",
+            "EquipHandMesh": "/Game/ASS/WEP/SK_BOW_Crossbow_T4_Titanium/SK_BOW_Crossbow_Titanium.SK_BOW_Crossbow_Titanium",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Crossbow_Lithium.BP_SkeletalItem_Crossbow_Lithium_C"
+        },
+        {
+            "Name": "Mesh_Hazmat_Armor_Pack",
+            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_ScorpionPack.SM_CHA_ARM_ScorpionPack",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
+        },
+        {
+            "Name": "Mesh_Radiation_Protection_Armor_Pack",
+            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_ScorpionPack.SM_CHA_ARM_ScorpionPack",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         }
     ]
 }

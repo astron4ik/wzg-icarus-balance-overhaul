@@ -646,6 +646,25 @@
             "DisasterFlags": 1
         },
         {
+            "Name": "DH_Idle_Tundra_2",
+            "Event": "/Game/FMOD/Events/Music/Icarus_DH_M2.Icarus_DH_M2",
+            "FadeInCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeIn.MusicCurve_DefaultFadeIn'",
+            "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut.MusicCurve_DefaultFadeOut'",
+            "bTrackCanBePaused": true,
+            "PlayerStateFlags": 1,
+            "Locations": [
+                {
+                    "RowName": "DHTundra",
+                    "DataTableName": "D_MusicLocationConditions"
+                }
+            ],
+            "CombatFlags": 1,
+            "TimeOfDayFlags": 7,
+            "WeatherFlags": 1,
+            "DropStateFlags": 2,
+            "DisasterFlags": 1
+        },
+        {
             "Name": "DH_Idle_Geothermal",
             "Event": "/Game/FMOD/Events/Music/Icarus_DH_GEO_1.Icarus_DH_GEO_1",
             "FadeInCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeIn.MusicCurve_DefaultFadeIn'",
@@ -654,7 +673,7 @@
             "PlayerStateFlags": 1,
             "Locations": [
                 {
-                    "RowName": "DHTundra",
+                    "RowName": "DHGeothermal",
                     "DataTableName": "D_MusicLocationConditions"
                 }
             ],

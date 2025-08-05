@@ -1522,6 +1522,19 @@
                     "DataTableName": "D_InventoryInfo"
                 }
             ]
+        },
+        {
+            "Name": "Uranium_Generator",
+            "Inventories": [
+                {
+                    "RowName": "Fuel_Uranium_Rod",
+                    "DataTableName": "D_InventoryInfo"
+                },
+                {
+                    "RowName": "Generator_Storage",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
         }
     ]
 }

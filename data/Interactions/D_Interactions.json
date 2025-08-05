@@ -143,21 +143,6 @@
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Pickup_Corpse-InteractionText\", \"Carry\")"
         },
         {
-            "Name": "Empty_CropPlot",
-            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Empty_CropPlot.BP_Interactable_Empty_CropPlot_C",
-            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Empty_CropPlot-InteractionText\", \"Empty Crop Plot\")"
-        },
-        {
-            "Name": "Pickup_CropPlot",
-            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Pickup_CropPlot.BP_Interactable_Pickup_CropPlot_C",
-            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Pickup_CropPlot-InteractionText\", \"Pickup Crop Plot\")"
-        },
-        {
-            "Name": "Harvest_CropPlot",
-            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Harvest_CropPlot.BP_Interactable_Harvest_CropPlot_C",
-            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Harvest_CropPlot-InteractionText\", \"Harvest Crop Plot\")"
-        },
-        {
             "Name": "OpenClose_Window",
             "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_OpenClose_Window.BP_Interactable_OpenClose_Window_C",
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"OpenClose_Window-InteractionText\", \"Open/Close\")"

@@ -382,7 +382,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19100,
+                "X": 19450,
                 "Y": 300
             },
             "Size": {
@@ -1087,7 +1087,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16050,
+                "X": 16500,
                 "Y": 450
             },
             "Size": {
@@ -1529,7 +1529,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17850,
+                "X": 18200,
                 "Y": 100
             },
             "Size": {
@@ -1601,7 +1601,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 4600,
+                "X": 4550,
                 "Y": 1200
             },
             "Size": {
@@ -1721,7 +1721,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16450,
+                "X": 16900,
                 "Y": 450
             },
             "Size": {
@@ -1789,7 +1789,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17250,
+                "X": 17600,
                 "Y": 100
             },
             "Size": {
@@ -2166,7 +2166,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 9900,
+                "X": 11800,
                 "Y": 850
             },
             "Size": {
@@ -2192,7 +2192,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18150,
+                "X": 18500,
                 "Y": 100
             },
             "Size": {
@@ -2393,7 +2393,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16700,
+                "X": 17150,
                 "Y": 450
             },
             "Size": {
@@ -2610,7 +2610,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16250,
+                "X": 16700,
                 "Y": 300
             },
             "Size": {
@@ -2715,7 +2715,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19100,
+                "X": 19450,
                 "Y": 1050
             },
             "Size": {
@@ -3295,7 +3295,7 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseChanceToDoubleArrowsWhenCrafting_%\")": 25
+                        "(Value=\"BaseChanceToDoubleArrowsWhenCrafting_%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -4892,19 +4892,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseSkinningSpeed_+%\")": 15
+                        "(Value=\"BaseSkinningSpeed_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseSkinningSpeed_+%\")": 25
+                        "(Value=\"BaseSkinningSpeed_+%\")": 10
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseSkinningSpeed_+%\")": 50
+                        "(Value=\"BaseSkinningSpeed_+%\")": 20
                     },
                     "GrantedFlags": []
                 }
@@ -5967,7 +5967,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18150,
+                "X": 18500,
                 "Y": 450
             },
             "Size": {
@@ -5991,7 +5991,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17850,
+                "X": 18200,
                 "Y": 450
             },
             "Size": {
@@ -6015,7 +6015,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17550,
+                "X": 17900,
                 "Y": 450
             },
             "Size": {
@@ -7242,19 +7242,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
+                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
                         "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -25
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -40
+                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -20
                     },
                     "GrantedFlags": []
                 }
@@ -8149,19 +8149,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFellingRewards_+%\")": 15
+                        "(Value=\"BaseFellingRewards_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFellingRewards_+%\")": 25
+                        "(Value=\"BaseFellingRewards_+%\")": 10
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFellingRewards_+%\")": 50
+                        "(Value=\"BaseFellingRewards_+%\")": 20
                     },
                     "GrantedFlags": []
                 }
@@ -8746,25 +8746,25 @@
             "Rewards": [
                 {
                     "GrantedStats": {
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
                         "(Value=\"BaseForagingHarvestingRewards_+%\")": 15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 25
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 50
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 75
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 20
                     },
                     "GrantedFlags": []
                 }
@@ -8799,19 +8799,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
+                        "(Value=\"BaseMiningOxiteRewards_+%\")": 10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
                         "(Value=\"BaseMiningOxiteRewards_+%\")": 15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseMiningOxiteRewards_+%\")": 25
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseMiningOxiteRewards_+%\")": 50
+                        "(Value=\"BaseMiningOxiteRewards_+%\")": 20
                     },
                     "GrantedFlags": []
                 }
@@ -9005,19 +9005,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
+                        "(Value=\"BaseMiningMetalRewards_+%\")": 10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
                         "(Value=\"BaseMiningMetalRewards_+%\")": 15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseMiningMetalRewards_+%\")": 25
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseMiningMetalRewards_+%\")": 50
+                        "(Value=\"BaseMiningMetalRewards_+%\")": 20
                     },
                     "GrantedFlags": []
                 }
@@ -11026,9 +11026,9 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFellingRewards_+%\")": 50,
-                        "(Value=\"BaseMiningStoneRewards_+%\")": 50,
-                        "(Value=\"BaseHarvestingRewards_+%\")": 50
+                        "(Value=\"BaseFellingRewards_+%\")": 15,
+                        "(Value=\"BaseMiningStoneRewards_+%\")": 15,
+                        "(Value=\"BaseHarvestingRewards_+%\")": 15
                     },
                     "GrantedFlags": []
                 }
@@ -11898,7 +11898,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15100,
+                "X": 17900,
                 "Y": 100
             },
             "Size": {
@@ -12373,7 +12373,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 13850,
+                "X": 13550,
                 "Y": 1200
             },
             "Size": {
@@ -12998,7 +12998,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16450,
+                "X": 16900,
                 "Y": 100
             },
             "Size": {
@@ -13123,7 +13123,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16050,
+                "X": 16500,
                 "Y": 100
             },
             "Size": {
@@ -14260,7 +14260,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 3400,
+                "X": 3300,
                 "Y": 100
             },
             "Size": {
@@ -14285,7 +14285,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 3100,
+                "X": 3000,
                 "Y": 100
             },
             "Size": {
@@ -14310,7 +14310,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 2800,
+                "X": 2700,
                 "Y": 100
             },
             "Size": {
@@ -14335,7 +14335,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 2950,
+                "X": 2850,
                 "Y": 700
             },
             "Size": {
@@ -14751,7 +14751,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 14350,
+                "X": 14450,
                 "Y": 850
             },
             "Size": {
@@ -15494,19 +15494,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
+                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
                         "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -25
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -40
+                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -20
                     },
                     "GrantedFlags": []
                 }
@@ -17028,7 +17028,7 @@
             },
             "Position": {
                 "X": 6200,
-                "Y": 450
+                "Y": 300
             },
             "Size": {
                 "X": 0,
@@ -18346,13 +18346,13 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseDriedMeatModifierEffectiveness_+%\")": 25
+                        "(Value=\"BaseDriedMeatModifierEffectiveness_+%\")": 15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseDriedMeatModifierEffectiveness_+%\")": 50
+                        "(Value=\"BaseDriedMeatModifierEffectiveness_+%\")": 30
                     },
                     "GrantedFlags": []
                 }
@@ -18390,13 +18390,13 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 25
+                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 50
+                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 30
                     },
                     "GrantedFlags": []
                 }
@@ -18534,19 +18534,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 15
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 2
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 25
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 50
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -18667,13 +18667,13 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 25
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 50
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -18708,13 +18708,13 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFellingRewards_+%\")": 25
+                        "(Value=\"BaseFellingRewards_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFellingRewards_+%\")": 50
+                        "(Value=\"BaseFellingRewards_+%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -18749,13 +18749,13 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseMiningRewards_+%\")": 25
+                        "(Value=\"BaseMiningRewards_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseMiningRewards_+%\")": 50
+                        "(Value=\"BaseMiningRewards_+%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -21533,7 +21533,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 2250,
+                "X": 2150,
                 "Y": 1200
             },
             "Size": {
@@ -21982,7 +21982,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 14050,
+                "X": 14100,
                 "Y": 850
             },
             "Size": {
@@ -22008,7 +22008,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 13700,
+                "X": 13750,
                 "Y": 850
             },
             "Size": {
@@ -22585,7 +22585,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14150,
+                "X": 14550,
                 "Y": 450
             },
             "Size": {
@@ -22609,7 +22609,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15150,
+                "X": 15550,
                 "Y": 100
             },
             "Size": {
@@ -22633,7 +22633,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13700,
+                "X": 13800,
                 "Y": 100
             },
             "Size": {
@@ -22657,7 +22657,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15150,
+                "X": 15550,
                 "Y": 450
             },
             "Size": {
@@ -22706,7 +22706,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14300,
+                "X": 14700,
                 "Y": 100
             },
             "Size": {
@@ -23049,15 +23049,15 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseTameMinimumDesiredTemperature_+\")": -5,
-                        "(Value=\"BaseTameMaximumDesiredTemperature_+\")": 5
+                        "(Value=\"BaseTameMinimumDesiredTemperature_+\")": -200,
+                        "(Value=\"BaseTameMaximumDesiredTemperature_+\")": 200
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseTameMinimumDesiredTemperature_+\")": -10,
-                        "(Value=\"BaseTameMaximumDesiredTemperature_+\")": 10
+                        "(Value=\"BaseTameMinimumDesiredTemperature_+\")": -400,
+                        "(Value=\"BaseTameMaximumDesiredTemperature_+\")": 400
                     },
                     "GrantedFlags": []
                 }
@@ -23431,19 +23431,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 15
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 2
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 25
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 50
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -23779,7 +23779,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 1750,
+                "X": 1650,
                 "Y": 1200
             },
             "Size": {
@@ -23808,7 +23808,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13400,
+                "X": 13500,
                 "Y": 100
             },
             "Size": {
@@ -24068,7 +24068,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18450,
+                "X": 18800,
                 "Y": 450
             },
             "Size": {
@@ -24371,7 +24371,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17850,
+                "X": 18200,
                 "Y": 850
             },
             "Size": {
@@ -24393,7 +24393,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17250,
+                "X": 17600,
                 "Y": 450
             },
             "Size": {
@@ -24418,7 +24418,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17550,
+                "X": 17900,
                 "Y": 1200
             },
             "Size": {
@@ -24880,7 +24880,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 2500,
+                "X": 2400,
                 "Y": 100
             },
             "Size": {
@@ -25884,7 +25884,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18750,
+                "X": 19100,
                 "Y": 450
             },
             "Size": {
@@ -27026,7 +27026,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 2950,
+                "X": 2850,
                 "Y": 950
             },
             "Size": {
@@ -27144,7 +27144,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 2000,
+                "X": 1900,
                 "Y": 850
             },
             "Size": {
@@ -27245,7 +27245,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 2950,
+                "X": 2850,
                 "Y": 450
             },
             "Size": {
@@ -29398,7 +29398,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19700,
+                "X": 20050,
                 "Y": 450
             },
             "Size": {
@@ -29423,7 +29423,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20000,
+                "X": 20350,
                 "Y": 450
             },
             "Size": {
@@ -29448,7 +29448,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19400,
+                "X": 19750,
                 "Y": 450
             },
             "Size": {
@@ -29473,7 +29473,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19700,
+                "X": 20050,
                 "Y": 850
             },
             "Size": {
@@ -29498,7 +29498,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20000,
+                "X": 20350,
                 "Y": 850
             },
             "Size": {
@@ -29523,7 +29523,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19400,
+                "X": 19750,
                 "Y": 100
             },
             "Size": {
@@ -29549,7 +29549,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19700,
+                "X": 20050,
                 "Y": 1200
             },
             "Size": {
@@ -29579,7 +29579,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20000,
+                "X": 20350,
                 "Y": 1200
             },
             "Size": {
@@ -30058,7 +30058,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19700,
+                "X": 20050,
                 "Y": 300
             },
             "Size": {
@@ -30486,7 +30486,7 @@
                 "RowName": "Workshop_Backpacks"
             },
             "Position": {
-                "X": 3900,
+                "X": 3000,
                 "Y": 450
             },
             "Size": {
@@ -31764,7 +31764,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 2700,
+                "X": 2600,
                 "Y": 950
             },
             "Size": {
@@ -31788,7 +31788,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 2700,
+                "X": 2600,
                 "Y": 1200
             },
             "Size": {
@@ -32286,7 +32286,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19700,
+                "X": 20050,
                 "Y": 100
             },
             "Size": {
@@ -32313,7 +32313,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20000,
+                "X": 20350,
                 "Y": 100
             },
             "Size": {
@@ -32370,7 +32370,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12950,
+                "X": 13350,
                 "Y": 450
             },
             "Size": {
@@ -39501,7 +39501,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15450,
+                "X": 15850,
                 "Y": 450
             },
             "Size": {
@@ -39531,7 +39531,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15450,
+                "X": 15850,
                 "Y": 100
             },
             "Size": {
@@ -39561,7 +39561,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15750,
+                "X": 16150,
                 "Y": 450
             },
             "Size": {
@@ -39591,7 +39591,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15750,
+                "X": 16150,
                 "Y": 100
             },
             "Size": {
@@ -39681,7 +39681,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 3200,
+                "X": 3100,
                 "Y": 950
             },
             "Size": {
@@ -39859,7 +39859,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13250,
+                "X": 13650,
                 "Y": 450
             },
             "Size": {
@@ -41412,7 +41412,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14850,
+                "X": 15250,
                 "Y": 300
             },
             "Size": {
@@ -41441,7 +41441,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13550,
+                "X": 13950,
                 "Y": 450
             },
             "Size": {
@@ -41468,7 +41468,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13850,
+                "X": 14250,
                 "Y": 450
             },
             "Size": {
@@ -48424,7 +48424,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14550,
+                "X": 14950,
                 "Y": 300
             },
             "Size": {
@@ -48477,7 +48477,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13100,
+                "X": 13200,
                 "Y": 100
             },
             "Size": {
@@ -48510,7 +48510,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14450,
+                "X": 14850,
                 "Y": 450
             },
             "Size": {
@@ -50444,7 +50444,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 3200,
+                "X": 3100,
                 "Y": 1200
             },
             "Size": {
@@ -50469,7 +50469,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 3700,
+                "X": 3550,
                 "Y": 1050
             },
             "Size": {
@@ -50979,7 +50979,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18400,
+                "X": 18750,
                 "Y": 1200
             },
             "Size": {
@@ -51362,7 +51362,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 14550,
+                "X": 14250,
                 "Y": 1200
             },
             "Size": {
@@ -51570,7 +51570,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 4750,
+                "X": 4450,
                 "Y": 850
             },
             "Size": {
@@ -52125,8 +52125,8 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 14700,
-                "Y": 850
+                "X": 14600,
+                "Y": 1200
             },
             "Size": {
                 "X": 184,
@@ -53073,7 +53073,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 4000,
+                "X": 3950,
                 "Y": 1200
             },
             "Size": {
@@ -53088,31 +53088,6 @@
             ]
         },
         {
-            "Name": "Oil_Epoxy",
-            "ExtraData": {
-                "RowName": "Item_Epoxy",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T5"
-            },
-            "Position": {
-                "X": 2200,
-                "Y": 450
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Polymerizer",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "ShortestDistance"
-        },
-        {
             "Name": "Portable_Biofuel_Generator",
             "ExtraData": {
                 "RowName": "Item_Portable_Generator",
@@ -53122,7 +53097,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 3400,
+                "X": 3300,
                 "Y": 450
             },
             "Size": {
@@ -53147,7 +53122,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 4300,
+                "X": 4250,
                 "Y": 1200
             },
             "Size": {
@@ -53261,7 +53236,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 4150,
+                "X": 3850,
                 "Y": 850
             },
             "Size": {
@@ -53285,7 +53260,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 4450,
+                "X": 4150,
                 "Y": 850
             },
             "Size": {
@@ -53683,7 +53658,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14600,
+                "X": 15000,
                 "Y": 100
             },
             "Size": {
@@ -53707,7 +53682,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14000,
+                "X": 14400,
                 "Y": 100
             },
             "Size": {
@@ -53733,7 +53708,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12800,
+                "X": 12900,
                 "Y": 100
             },
             "Size": {
@@ -55335,8 +55310,8 @@
                 "RowName": "Prospect_Styx"
             },
             "Position": {
-                "X": 2300,
-                "Y": 1100
+                "X": 2250,
+                "Y": 2650
             },
             "Size": {
                 "X": 0,
@@ -56648,7 +56623,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 14200,
+                "X": 13900,
                 "Y": 1200
             },
             "Size": {
@@ -57114,7 +57089,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17250,
+                "X": 17600,
                 "Y": 1200
             },
             "Size": {
@@ -57291,7 +57266,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18750,
+                "X": 19100,
                 "Y": 100
             },
             "Size": {
@@ -57329,6 +57304,30 @@
                 }
             ],
             "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Electric_Fireplace",
+            "ExtraData": {
+                "RowName": "Item_Electric_Fireplace",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T4_Fabricator"
+            },
+            "Position": {
+                "X": 3900,
+                "Y": 100
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Wire_Tool",
+                    "DataTableName": "D_Talents"
+                }
+            ]
         },
         {
             "Name": "Workshop_Seed_Banana",
@@ -57513,7 +57512,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17550,
+                "X": 17900,
                 "Y": 850
             },
             "Size": {
@@ -57687,7 +57686,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18700,
+                "X": 19050,
                 "Y": 1200
             },
             "Size": {
@@ -57831,7 +57830,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18450,
+                "X": 18800,
                 "Y": 100
             },
             "Size": {
@@ -57953,8 +57952,8 @@
                 "RowName": "Blueprint_T5_Manufacturer"
             },
             "Position": {
-                "X": 1950,
-                "Y": 1100
+                "X": 1800,
+                "Y": 300
             },
             "Size": {
                 "X": 0,
@@ -57980,7 +57979,7 @@
                 "RowName": "Workshop_Firearms"
             },
             "Position": {
-                "X": 1500,
+                "X": 1000,
                 "Y": 1200
             },
             "Size": {
@@ -57994,534 +57993,14 @@
             }
         },
         {
-            "Name": "Cloth_Head_Armor",
-            "ExtraData": {
-                "RowName": "Item_Cloth_Head",
-                "DataTableName": "D_Itemable"
-            },
+            "Name": "Industrial_Reroute",
+            "TalentType": "Reroute",
             "TalentTree": {
-                "RowName": "Blueprint_T1_Player"
+                "RowName": "Blueprint_T5_Manufacturer"
             },
             "Position": {
-                "X": 5100,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Armor_Cloth",
-                    "DataTableName": "D_Talents"
-                }
-            ]
-        },
-        {
-            "Name": "Cloth_Arms_Armor",
-            "ExtraData": {
-                "RowName": "Item_Cloth_Arms",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T1_Player"
-            },
-            "Position": {
-                "X": 5400,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Armor_Cloth",
-                    "DataTableName": "D_Talents"
-                }
-            ]
-        },
-        {
-            "Name": "Cloth_Legs_Armor",
-            "ExtraData": {
-                "RowName": "Item_Cloth_Legs",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T1_Player"
-            },
-            "Position": {
-                "X": 5550,
-                "Y": 850
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Armor_Cloth",
-                    "DataTableName": "D_Talents"
-                }
-            ]
-        },
-        {
-            "Name": "Cloth_Feet_Armor",
-            "ExtraData": {
-                "RowName": "Item_Cloth_Feet",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T1_Player"
-            },
-            "Position": {
-                "X": 5700,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Armor_Cloth",
-                    "DataTableName": "D_Talents"
-                }
-            ]
-        },
-        {
-            "Name": "Leather_Head_Armor",
-            "ExtraData": {
-                "RowName": "Item_Leather_Head",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 10500,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Armor_Leather",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 15
-        },
-        {
-            "Name": "Leather_Arms_Armor",
-            "ExtraData": {
-                "RowName": "Item_Leather_Arms",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 10800,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Armor_Leather",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 15
-        },
-        {
-            "Name": "Leather_Legs_Armor",
-            "ExtraData": {
-                "RowName": "Item_Leather_Legs",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 11550,
-                "Y": 850
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Armor_Leather",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 15
-        },
-        {
-            "Name": "Leather_Feet_Armor",
-            "ExtraData": {
-                "RowName": "Item_Leather_Feet",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 11100,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Armor_Leather",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 15
-        },
-        {
-            "Name": "Fur_Head_Armor",
-            "ExtraData": {
-                "RowName": "Item_Fur_Head",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 11550,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Armor_Fur",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 20
-        },
-        {
-            "Name": "Fur_Arms_Armor",
-            "ExtraData": {
-                "RowName": "Item_Fur_Arms",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 11850,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Armor_Fur",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 20
-        },
-        {
-            "Name": "Fur_Legs_Armor",
-            "ExtraData": {
-                "RowName": "Item_Fur_Legs",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 12000,
-                "Y": 850
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Armor_Fur",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 20
-        },
-        {
-            "Name": "Fur_Feet_Armor",
-            "ExtraData": {
-                "RowName": "Item_Fur_Feet",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 12150,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Armor_Fur",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 20
-        },
-        {
-            "Name": "Composite_Head",
-            "ExtraData": {
-                "RowName": "Item_Composite_Head",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T4_Fabricator"
-            },
-            "Position": {
-                "X": 8750,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Composite",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 35
-        },
-        {
-            "Name": "Composite_Arms",
-            "ExtraData": {
-                "RowName": "Item_Composite_Arms",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T4_Fabricator"
-            },
-            "Position": {
-                "X": 9050,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Composite",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 35
-        },
-        {
-            "Name": "Composite_Legs",
-            "ExtraData": {
-                "RowName": "Item_Composite_Legs",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T4_Fabricator"
-            },
-            "Position": {
-                "X": 11800,
-                "Y": 850
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Composite",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 35
-        },
-        {
-            "Name": "Composite_Feet",
-            "ExtraData": {
-                "RowName": "Item_Composite_Feet",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T4_Fabricator"
-            },
-            "Position": {
-                "X": 9350,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Composite",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 35
-        },
-        {
-            "Name": "Ghillie_Head",
-            "ExtraData": {
-                "RowName": "Item_Ghillie_Head",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 12600,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Ghillie",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredFlags": [
-                {
-                    "DataTableName": "D_CharacterFlags",
-                    "RowName": "Talent_Ghillie_Armor"
-                }
-            ],
-            "RequiredLevel": 20
-        },
-        {
-            "Name": "Ghillie_Arms",
-            "ExtraData": {
-                "RowName": "Item_Ghillie_Arms",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 12900,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Ghillie",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredFlags": [
-                {
-                    "DataTableName": "D_CharacterFlags",
-                    "RowName": "Talent_Ghillie_Armor"
-                }
-            ],
-            "RequiredLevel": 20
-        },
-        {
-            "Name": "Ghillie_Legs",
-            "ExtraData": {
-                "RowName": "Item_Ghillie_Legs",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 13050,
-                "Y": 850
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_Ghillie",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredFlags": [
-                {
-                    "DataTableName": "D_CharacterFlags",
-                    "RowName": "Talent_Ghillie_Armor"
-                }
-            ],
-            "RequiredLevel": 20
-        },
-        {
-            "Name": "Ghillie_Feet",
-            "ExtraData": {
-                "RowName": "Item_Ghillie_Feet",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 11700,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Armor_Bench",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredFlags": [
-                {
-                    "DataTableName": "D_CharacterFlags",
-                    "RowName": "Talent_Ghillie_Armor"
-                }
-            ],
-            "RequiredLevel": 20
-        },
-        {
-            "Name": "Re_route_Ghillie",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 12900,
-                "Y": 1050
+                "X": 3950,
+                "Y": 800
             },
             "Size": {
                 "X": 0,
@@ -58530,30 +58009,7 @@
             "Rewards": [],
             "RequiredTalents": [
                 {
-                    "RowName": "Armor_Bench",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
-        },
-        {
-            "Name": "Reroute_Hunter",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 13450,
-                "Y": 1050
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Advanced_Armor_Bench",
+                    "RowName": "Polymerizer",
                     "DataTableName": "D_Talents"
                 }
             ],
@@ -58561,13 +58017,13 @@
             "DrawMethodOverride": "XThenY"
         },
         {
-            "Name": "Re_route_Composite",
-            "bIsReroute": true,
+            "Name": "T5_Armor_Reroute",
+            "TalentType": "Reroute",
             "TalentTree": {
-                "RowName": "Blueprint_T4_Fabricator"
+                "RowName": "Blueprint_T5_Manufacturer"
             },
             "Position": {
-                "X": 9050,
+                "X": 4950,
                 "Y": 1050
             },
             "Size": {
@@ -58577,1450 +58033,12 @@
             "Rewards": [],
             "RequiredTalents": [
                 {
-                    "RowName": "Electric_Armour_Bench",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
-        },
-        {
-            "Name": "Re_route_Armor_Cloth",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Blueprint_T1_Player"
-            },
-            "Position": {
-                "X": 5400,
-                "Y": 1050
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Player_Crafting",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
-        },
-        {
-            "Name": "Re_route_Armor_Leather",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 10800,
-                "Y": 1050
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Armor_Bench",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
-        },
-        {
-            "Name": "Re_route_Armor_Fur",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 11850,
-                "Y": 1050
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Armor_Bench",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
-        },
-        {
-            "Name": "Stalking_Storm_Stealth",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Stalking_Storm_Stealth-DisplayName\", \"Storm Stalker\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Stalking_Storm_Stealth-Description\", \"Increased stealth in storms\")",
-            "Icon": "/Game/Assets/2DArt/UI/Talents/Hunting/Talent_Hunting_StormStalker.Talent_Hunting_StormStalker",
-            "TalentTree": {
-                "RowName": "Survival_Hunting"
-            },
-            "Position": {
-                "X": 650,
-                "Y": 650
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Stalking_Detection_Range",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "YThenX"
-        },
-        {
-            "Name": "Leather_Curtain_Door",
-            "ExtraData": {
-                "RowName": "Item_Leather_Curtain_Door",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 12850,
-                "Y": 100
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Leather_Curtain_Window",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "ShortestDistance"
-        },
-        {
-            "Name": "Polarbear_Head",
-            "ExtraData": {
-                "RowName": "Item_Polarbear_Head_Armor",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 14150,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Polarbear_Route",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredFlags": [
-                {
-                    "DataTableName": "D_CharacterFlags",
-                    "RowName": "Talent_Polarbear_Armor"
-                }
-            ],
-            "RequiredLevel": 25,
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Polarbear_Legs",
-            "ExtraData": {
-                "RowName": "Item_Polarbear_Legs",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 14600,
-                "Y": 850
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Polarbear_Route",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredFlags": [
-                {
-                    "DataTableName": "D_CharacterFlags",
-                    "RowName": "Talent_Polarbear_Armor"
-                }
-            ],
-            "RequiredLevel": 25,
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Polarbear_Arms",
-            "ExtraData": {
-                "RowName": "Item_Polarbear_Arms",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 14450,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Polarbear_Route",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredFlags": [
-                {
-                    "DataTableName": "D_CharacterFlags",
-                    "RowName": "Talent_Polarbear_Armor"
-                }
-            ],
-            "RequiredLevel": 25,
-            "DrawMethodOverride": "ShortestDistance"
-        },
-        {
-            "Name": "Polarbear_Feet",
-            "ExtraData": {
-                "RowName": "Item_Polarbear_Feet",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 14750,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Polarbear_Route",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredFlags": [
-                {
-                    "DataTableName": "D_CharacterFlags",
-                    "RowName": "Talent_Polarbear_Armor"
-                }
-            ],
-            "RequiredLevel": 25,
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Polarbear_Route",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 14450,
-                "Y": 1050
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Advanced_Armor_Bench",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredFlags": [
-                {
-                    "DataTableName": "D_CharacterFlags",
-                    "RowName": "Talent_Polarbear_Armor"
-                }
-            ],
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Hunter_Head",
-            "ExtraData": {
-                "RowName": "Item_Hunter_Head",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 13150,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Reroute_Hunter",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 25,
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Hunter_Legs",
-            "ExtraData": {
-                "RowName": "Item_Hunter_Legs",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 13600,
-                "Y": 850
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Reroute_Hunter",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 25,
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Hunter_Arms",
-            "ExtraData": {
-                "RowName": "Item_Hunter_Arms",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 13450,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Reroute_Hunter",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 25,
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Hunter_Feet",
-            "ExtraData": {
-                "RowName": "Item_Hunter_Feet",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 13750,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Reroute_Hunter",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 25,
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "ProspectReroute",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Prospect_Olympus"
-            },
-            "Position": {
-                "X": 1800,
-                "Y": 1950
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Prospect_OLY_Forest_Exploration",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
-        },
-        {
-            "Name": "ProspectReroute_1",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Prospect_Olympus"
-            },
-            "Position": {
-                "X": 1800,
-                "Y": 2700
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Prospect_OLY_Forest_Exploration",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
-        },
-        {
-            "Name": "Prospect_Reroute_4",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Prospect_Olympus"
-            },
-            "Position": {
-                "X": 7250,
-                "Y": 2800
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Prospect_OLY_Glacier_Exploration",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
-        },
-        {
-            "Name": "Prospect_Reroute_7",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Prospect_Olympus"
-            },
-            "Position": {
-                "X": 7250,
-                "Y": 1600
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Prospect_Canyon_Exploration",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
-        },
-        {
-            "Name": "Prospect_Reroute_9",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Prospect_Olympus"
-            },
-            "Position": {
-                "X": 12050,
-                "Y": 2250
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Prospect_OLY_Riverlands_Exploration",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
-        },
-        {
-            "Name": "Prospect_Reroute_11",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Prospect_Olympus"
-            },
-            "Position": {
-                "X": 12350,
-                "Y": 2950
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Prospect_OLY_Riverlands_Exploration",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
-        },
-        {
-            "Name": "Prospect_Reroute_15",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Prospect_Olympus"
-            },
-            "Position": {
-                "X": 16450,
-                "Y": 2850
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Prospect_OLY_Desert_Exploration",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
-        },
-        {
-            "Name": "Workshop_Module_PlayerTracker",
-            "ExtraData": {
-                "RowName": "Meta_Module_Tracker",
-                "DataTableName": "D_WorkshopItems"
-            },
-            "TalentTree": {
-                "RowName": "Workshop_Modules"
-            },
-            "Position": {
-                "X": 3400,
-                "Y": 1100
-            },
-            "Size": {
-                "X": 250,
-                "Y": 250
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Workshop_Module_New_2",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Prospect_Reroute_18",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Prospect_Olympus"
-            },
-            "Position": {
-                "X": 12350,
-                "Y": 1600
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Prospect_OLY_Riverlands_Exploration",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
-        },
-        {
-            "Name": "Prospect_Reroute_21",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Prospect_Olympus"
-            },
-            "Position": {
-                "X": 15750,
-                "Y": 3950
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Prospect_OLY_Desert_Exploration",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
-        },
-        {
-            "Name": "ProspectReroute_8",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Prospect_Olympus"
-            },
-            "Position": {
-                "X": 2250,
-                "Y": 2850
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Prospect_OLY_Forest_Exploration",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
-        },
-        {
-            "Name": "Advanced_Leather_Legs",
-            "ExtraData": {
-                "RowName": "Item_Hard_Leather_Legs",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 12600,
-                "Y": 850
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Advanced_Cloth_Reroute_0",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Advanced_Leather_Arms",
-            "ExtraData": {
-                "RowName": "Item_Hard_Leather_Arms",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 12450,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Advanced_Cloth_Reroute_0",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Advanced_Leather_Feet",
-            "ExtraData": {
-                "RowName": "Item_Hard_Leather_Feet",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 12750,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Advanced_Cloth_Reroute_0",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Advanced_Leather_Head",
-            "ExtraData": {
-                "RowName": "Item_Hard_Leather_Head",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 12150,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Advanced_Cloth_Reroute_0",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Advanced_Cloth_Feet",
-            "ExtraData": {
-                "RowName": "Item_Advanced_Cloth_Feet",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 11750,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Advanced_Cloth_Reroute",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Advanced_Cloth_Arms",
-            "ExtraData": {
-                "RowName": "Item_Advanced_Cloth_Arms",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 11450,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Advanced_Cloth_Reroute",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Advanced_Cloth_Legs",
-            "ExtraData": {
-                "RowName": "Item_Advanced_Cloth_Legs",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 11600,
-                "Y": 850
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Advanced_Cloth_Reroute",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Advanced_Cloth_Head",
-            "ExtraData": {
-                "RowName": "Item_Advanced_Cloth_Head",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 11150,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Advanced_Cloth_Reroute",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Advanced_Cloth_Reroute",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 11450,
-                "Y": 1050
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Advanced_Armor_Bench",
+                    "RowName": "Polymerizer",
                     "DataTableName": "D_Talents"
                 }
             ],
             "bDefaultUnlocked": true,
             "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Advanced_Cloth_Reroute_0",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 12450,
-                "Y": 1050
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Advanced_Armor_Bench",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true,
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Prospect_Styx_A_Reroute_0",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Prospect_Styx"
-            },
-            "Position": {
-                "X": 2700,
-                "Y": 1100
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Prospect_Styx_A_Reroute",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
-        },
-        {
-            "Name": "Bone_Leg_Armor",
-            "ExtraData": {
-                "RowName": "Item_Bone_Legs",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T1_Player"
-            },
-            "Position": {
-                "X": 5600,
-                "Y": 850
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Bone_Armor_Reroute",
-                    "DataTableName": "D_Talents"
-                }
-            ]
-        },
-        {
-            "Name": "Bone_Feet_Armor",
-            "ExtraData": {
-                "RowName": "Item_Bone_Feet",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T1_Player"
-            },
-            "Position": {
-                "X": 6600,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Bone_Armor_Reroute",
-                    "DataTableName": "D_Talents"
-                }
-            ]
-        },
-        {
-            "Name": "Bone_Head_Armor",
-            "ExtraData": {
-                "RowName": "Item_Bone_Head",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T1_Player"
-            },
-            "Position": {
-                "X": 6000,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Bone_Armor_Reroute",
-                    "DataTableName": "D_Talents"
-                }
-            ]
-        },
-        {
-            "Name": "Bone_Arm_Armor",
-            "ExtraData": {
-                "RowName": "Item_Bone_Arms",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T1_Player"
-            },
-            "Position": {
-                "X": 6300,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Bone_Armor_Reroute",
-                    "DataTableName": "D_Talents"
-                }
-            ]
-        },
-        {
-            "Name": "Bone_Armor_Reroute",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Blueprint_T1_Player"
-            },
-            "Position": {
-                "X": 6300,
-                "Y": 1050
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Player_Crafting",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
-        },
-        {
-            "Name": "Heavy_Obsidian_Head",
-            "ExtraData": {
-                "RowName": "Item_Heavy_Obsidian_Head",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 13650,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Heavy_Obsidian_Reroute",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 25,
-            "DrawMethodOverride": "XThenY",
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "NewFrontiers"
-                }
-            }
-        },
-        {
-            "Name": "Heavy_Obsidian_Legs",
-            "ExtraData": {
-                "RowName": "Item_Heavy_Obsidian_Legs",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 14100,
-                "Y": 850
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Heavy_Obsidian_Reroute",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 25,
-            "DrawMethodOverride": "XThenY",
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "NewFrontiers"
-                }
-            }
-        },
-        {
-            "Name": "Heavy_Obsidian_Arms",
-            "ExtraData": {
-                "RowName": "Item_Heavy_Obsidian_Arms",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 13950,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Heavy_Obsidian_Reroute",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 25,
-            "DrawMethodOverride": "ShortestDistance",
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "NewFrontiers"
-                }
-            }
-        },
-        {
-            "Name": "Heavy_Obsidian_Feet",
-            "ExtraData": {
-                "RowName": "Item_Heavy_Obsidian_Feet",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 14250,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Heavy_Obsidian_Reroute",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 25,
-            "DrawMethodOverride": "XThenY",
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "NewFrontiers"
-                }
-            }
-        },
-        {
-            "Name": "Heavy_Obsidian_Reroute",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 13950,
-                "Y": 1050
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Armor_Bench",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 25,
-            "bDefaultUnlocked": true,
-            "DrawMethodOverride": "ShortestDistance"
-        },
-        {
-            "Name": "Obsidian_Head",
-            "ExtraData": {
-                "RowName": "Item_Obsidian_Head",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T4_Fabricator"
-            },
-            "Position": {
-                "X": 9750,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Obsidian_Armor_Reroute",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 35,
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "NewFrontiers"
-                }
-            }
-        },
-        {
-            "Name": "Obsidian_Arms",
-            "ExtraData": {
-                "RowName": "Item_Obsidian_Arms",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T4_Fabricator"
-            },
-            "Position": {
-                "X": 10050,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Obsidian_Armor_Reroute",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 35,
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "NewFrontiers"
-                }
-            }
-        },
-        {
-            "Name": "Obsidian_Legs",
-            "ExtraData": {
-                "RowName": "Item_Obsidian_Legs",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T4_Fabricator"
-            },
-            "Position": {
-                "X": 10200,
-                "Y": 850
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Obsidian_Armor_Reroute",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 35,
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "NewFrontiers"
-                }
-            }
-        },
-        {
-            "Name": "Obsidian_Feet",
-            "ExtraData": {
-                "RowName": "Item_Obsidian_Feet",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T4_Fabricator"
-            },
-            "Position": {
-                "X": 10350,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Obsidian_Armor_Reroute",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 35,
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "NewFrontiers"
-                }
-            }
-        },
-        {
-            "Name": "Obsidian_Armor_Reroute",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Blueprint_T4_Fabricator"
-            },
-            "Position": {
-                "X": 10050,
-                "Y": 1050
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Electric_Armour_Bench",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
-        },
-        {
-            "Name": "Brownbear_Leg_Armor",
-            "ExtraData": {
-                "RowName": "Item_Brownbear_Legs",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 15150,
-                "Y": 850
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Bone_Armor_Reroute_0",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 20
-        },
-        {
-            "Name": "Brownbear_Feet_Armor",
-            "ExtraData": {
-                "RowName": "Item_Brownbear_Feet",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 15300,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Bone_Armor_Reroute_0",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 20
-        },
-        {
-            "Name": "BrownBear_Head_Armor",
-            "ExtraData": {
-                "RowName": "Item_Brownbear_Head_Armor",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 14700,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Bone_Armor_Reroute_0",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 20
-        },
-        {
-            "Name": "Brownbear_Arm_Armor",
-            "ExtraData": {
-                "RowName": "Item_Brownbear_Arms",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 15000,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Bone_Armor_Reroute_0",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredLevel": 20
-        },
-        {
-            "Name": "Bone_Armor_Reroute_0",
-            "bIsReroute": true,
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 15000,
-                "Y": 1050
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Armor_Bench",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true
         }
     ]
 }

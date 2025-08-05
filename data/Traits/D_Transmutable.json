@@ -118,6 +118,10 @@
         {
             "Name": "Synthetic_Enzymes",
             "UnitsProvided": 4000
+        },
+        {
+            "Name": "Uranium_Rod",
+            "UnitsProvided": 108000
         }
     ]
 }

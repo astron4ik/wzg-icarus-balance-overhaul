@@ -419,41 +419,6 @@
             ]
         },
         {
-            "Name": "Interactable_CropPlot",
-            "WorldPressInteracts": [
-                {
-                    "InteractionRow": {
-                        "RowName": "Interact_Deployable",
-                        "DataTableName": "D_Interactions"
-                    },
-                    "Tag": ""
-                },
-                {
-                    "InteractionRow": {
-                        "RowName": "Pickup_Item",
-                        "DataTableName": "D_Interactions"
-                    },
-                    "Tag": ""
-                }
-            ],
-            "WorldAltHoldInteracts": [
-                {
-                    "InteractionRow": {
-                        "RowName": "Empty_CropPlot",
-                        "DataTableName": "D_Interactions"
-                    },
-                    "Tag": ""
-                },
-                {
-                    "InteractionRow": {
-                        "RowName": "Pickup_CropPlot",
-                        "DataTableName": "D_Interactions"
-                    },
-                    "Tag": ""
-                }
-            ]
-        },
-        {
             "Name": "Interactable_CropMound",
             "WorldPressInteracts": [
                 {

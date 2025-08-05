@@ -11712,7 +11712,7 @@
                 "NSLOCTEXT(\"D_Dialogue\", \"IceSheetLog-Text-0\", \"I keep telling them [Unintelligible muttering]\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"IceSheetLog-Text-1\", \"I see... I see... amazing things\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"IceSheetLog-Text-2\", \"[Unintelligible muttering]\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"IceSheetLog-Text-3\", \"They dont feel the same but they , they don\\'t see\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"IceSheetLog-Text-3\", \"They don\\'t feel the same but they , they don\\'t see\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"IceSheetLog-Text-4\", \"They want to leave how could we leave?\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"IceSheetLog-Text-5\", \"No, we have to stay... we have to-\")"
             ]
@@ -18302,7 +18302,7 @@
             },
             "Text": [
                 "NSLOCTEXT(\"D_Dialogue\", \"GH_RCKGLM_C2_FRAGMENTS-Text-0\", \"You cavemen like to bang things together! \")",
-                "NSLOCTEXT(\"D_Dialogue\", \"GH_RCKGLM_C2_FRAGMENTS-Text-1\", \"Why dont you try make something useful out of those fragments\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_RCKGLM_C2_FRAGMENTS-Text-1\", \"Why don\\'t you try make something useful out of those fragments?\")"
             ]
         }
     ]

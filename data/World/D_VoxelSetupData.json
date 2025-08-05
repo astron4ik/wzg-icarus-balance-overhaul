@@ -589,6 +589,12 @@
             }
         },
         {
+            "Name": "Frozen_Ore",
+            "ResourceType": {
+                "RowName": "Frozen_Ore"
+            }
+        },
+        {
             "Name": "Limestone_Normal",
             "ResourceCategory": "Limestone",
             "ResourceType": {
@@ -636,9 +642,85 @@
             }
         },
         {
-            "Name": "Frozen_Ore",
+            "Name": "Lithium_Ore_Normal",
+            "ResourceCategory": "Lithium",
             "ResourceType": {
-                "RowName": "Frozen_Ore"
+                "RowName": "Lithium_Ore"
+            },
+            "SecondaryResourceType": {
+                "RowName": "Stone"
+            },
+            "PyriticCrustResourceType": {
+                "RowName": "Pyritic_Crust_Lithium"
+            },
+            "FullyMinedSound": "/Game/FMOD/Events/SFX/D_Surfaces/SFX_VOXEL_FINAL_HIT.SFX_VOXEL_FINAL_HIT",
+            "ExperienceForMining": {
+                "RowName": "Mine_Lithium"
+            },
+            "VoxelTag": {
+                "TagName": "Harvest.Pickaxe.T2"
+            }
+        },
+        {
+            "Name": "Lithium_Ore_Dense",
+            "ResourceCategory": "Lithium",
+            "ResourceType": {
+                "RowName": "Lithium_Ore"
+            },
+            "SecondaryResourceType": {
+                "RowName": "Stone"
+            },
+            "PyriticCrustResourceType": {
+                "RowName": "Pyritic_Crust_Lithium"
+            },
+            "DensityMultiplier": 2,
+            "FullyMinedSound": "/Game/FMOD/Events/SFX/D_Surfaces/SFX_VOXEL_FINAL_HIT.SFX_VOXEL_FINAL_HIT",
+            "ExperienceForMining": {
+                "RowName": "Mine_Lithium"
+            },
+            "VoxelTag": {
+                "TagName": "Harvest.Pickaxe.T2"
+            }
+        },
+        {
+            "Name": "Ruby_Ore_Normal",
+            "ResourceCategory": "Ruby",
+            "ResourceType": {
+                "RowName": "Ruby_Ore"
+            },
+            "SecondaryResourceType": {
+                "RowName": "Stone"
+            },
+            "PyriticCrustResourceType": {
+                "RowName": "Pyritic_Crust_Ruby"
+            },
+            "FullyMinedSound": "/Game/FMOD/Events/SFX/D_Surfaces/SFX_VOXEL_FINAL_HIT.SFX_VOXEL_FINAL_HIT",
+            "ExperienceForMining": {
+                "RowName": "Mine_Ruby"
+            },
+            "VoxelTag": {
+                "TagName": "Harvest.Pickaxe.T2"
+            }
+        },
+        {
+            "Name": "Ruby_Ore_Dense",
+            "ResourceCategory": "Ruby",
+            "ResourceType": {
+                "RowName": "Ruby_Ore"
+            },
+            "SecondaryResourceType": {
+                "RowName": "Stone"
+            },
+            "PyriticCrustResourceType": {
+                "RowName": "Pyritic_Crust_Ruby"
+            },
+            "DensityMultiplier": 2,
+            "FullyMinedSound": "/Game/FMOD/Events/SFX/D_Surfaces/SFX_VOXEL_FINAL_HIT.SFX_VOXEL_FINAL_HIT",
+            "ExperienceForMining": {
+                "RowName": "Mine_Ruby"
+            },
+            "VoxelTag": {
+                "TagName": "Harvest.Pickaxe.T2"
             }
         }
     ]

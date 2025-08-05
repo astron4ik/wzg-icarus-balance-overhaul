@@ -284,6 +284,26 @@
                 }
             ],
             "FMODParam": "Scale"
+        },
+        {
+            "Name": "Hazmat",
+            "SetBonus": [
+                {
+                    "RowName": "Hazmat",
+                    "DataTableName": "D_ArmourSetBonus"
+                }
+            ],
+            "FMODParam": "Leather"
+        },
+        {
+            "Name": "Radiation_Protection_Armor",
+            "SetBonus": [
+                {
+                    "RowName": "Radiation_Protection_Armor",
+                    "DataTableName": "D_ArmourSetBonus"
+                }
+            ],
+            "FMODParam": "Composite"
         }
     ]
 }

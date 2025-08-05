@@ -3815,7 +3815,7 @@
         {
             "Name": "OLY_Omni_Research_2_Formation_Melt_Deploy",
             "Class": "/Game/BP/Quests/Olympus/Omni/Research2/BPQ_OLY_Omni_Research_2_Formation_Melt_Deploy.BPQ_OLY_Omni_Research_2_Formation_Melt_Deploy_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Omni_Research_2_Formation_Melt_Deploy-Description\", \"<Number>{0}%</> Melting Efficency\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Omni_Research_2_Formation_Melt_Deploy-Description\", \"<Number>{0}%</> Melting Efficiency\")"
         },
         {
             "Name": "OLY_Omni_Research_2_Formation_Melt_Progress",
@@ -9800,7 +9800,7 @@
             "Name": "GH_RG_B_Prepare_Craft",
             "Class": "/Game/BP/Quests/GreatHunts/Rock_Golem/GH_RG_B/BPQ_GH_RG_B_Prepare_Craft.BPQ_GH_RG_B_Prepare_Craft_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"GH_RG_B_Prepare_Craft-Description\", \"Unlock, Craft and pick up a Cave Scanner\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"GH_RG_B_Prepare_Craft-InfoText\", \"Caves Scanners Can be Unlocked and Crafted on the Tier 3 Tech tree\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"GH_RG_B_Prepare_Craft-InfoText\", \"Cave Scanners Can be Unlocked and Crafted at the Machining Bench on the Tier 3 Tech tree\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -10757,7 +10757,7 @@
         {
             "Name": "GH_RG_D_Choice_Deliver",
             "Class": "/Game/BP/Quests/GreatHunts/Rock_Golem/GH_RG_D/BPQ_GH_RG_D_Choice_Deliver.BPQ_GH_RG_D_Choice_Deliver_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"GH_RG_D_Choice_Deliver-Description\", \"Deliver to Norex and their Sinotai Retrieval Pod ([Map])\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"GH_RG_D_Choice_Deliver-Description\", \"Deliver to Norex and their Retrieval Pod ([Map])\")",
             "LocationQuery": {
                 "RowName": "GH_RG_D_Exotics_Delivery"
             },
@@ -11253,7 +11253,7 @@
         {
             "Name": "GH_RG_F_Prepare_Collect",
             "Class": "/Game/BP/Quests/GreatHunts/Rock_Golem/GH_RG_F/BPQ_GH_RG_F_Prepare_Collect.BPQ_GH_RG_F_Prepare_Collect_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"GH_RG_F_Prepare_Collect-Description\", \"Collect Norex Supplies from the Sinotai Supply Pod [Map]\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"GH_RG_F_Prepare_Collect-Description\", \"Collect Norex Supplies from the Supply Pod ([Map])\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -12907,7 +12907,7 @@
         {
             "Name": "GH_Ape_C_Stage_Experiment_Vestige",
             "Class": "/Game/BP/Quests/GreatHunts/Ape/C/BPQ_GH_Ape_C_Stage_Experiment_Vestiage.BPQ_GH_Ape_C_Stage_Experiment_Vestiage_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"GH_Ape_C_Stage_Experiment_Vestige-Description\", \"Place The Ape Vestiage on the Examination Bench\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"GH_Ape_C_Stage_Experiment_Vestige-Description\", \"Place The Ape Vestige on the Examination Bench\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -15409,7 +15409,7 @@
         {
             "Name": "GH_IM_C_Scan_Collect",
             "Class": "/Game/BP/Quests/GreatHunts/Ice_Mammoth/GH_IM_C/BPQ_GH_IM_C_Scan_Collect.BPQ_GH_IM_C_Scan_Collect_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"GH_IM_C_Scan_Collect-Description\", \"Collect Supplies from the Sinotai Supply Pod [Map]\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"GH_IM_C_Scan_Collect-Description\", \"Collect Supplies from the Supply Pod ([Map])\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"

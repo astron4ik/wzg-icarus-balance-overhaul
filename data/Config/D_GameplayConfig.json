@@ -56,6 +56,10 @@
         {
             "Name": "ScopeOverlaysEnabled",
             "FloatValue": 1
+        },
+        {
+            "Name": "RadiationFalloff",
+            "FloatValue": 2000
         }
     ]
 }

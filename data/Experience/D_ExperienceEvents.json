@@ -1293,6 +1293,41 @@
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Mine_Scoria-EventDescription\", \"Mine Scoria\")",
             "SharedExperience": true,
             "ExperienceGranted": 75
+        },
+        {
+            "Name": "Kill_Slinker",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Slinker-EventDescription\", \"Killed Slinker\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 1750
+        },
+        {
+            "Name": "Skin_Slinker",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Slinker-EventDescription\", \"Skinned Slinker\")",
+            "ExperienceGranted": 870
+        },
+        {
+            "Name": "Mine_Lithium",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Mine_Lithium-EventDescription\", \"Mine Lithium\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 70
+        },
+        {
+            "Name": "Mine_Ruby",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Mine_Ruby-EventDescription\", \"Mine Ruby\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 70
+        },
+        {
+            "Name": "Mine_Cobalt",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Mine_Cobalt-EventDescription\", \"Mine Cobalt\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 90
+        },
+        {
+            "Name": "Mine_Permafrost",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Mine_Permafrost-EventDescription\", \"Mine Permafrost\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 90
         }
     ]
 }

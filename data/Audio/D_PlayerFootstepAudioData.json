@@ -8,7 +8,7 @@
     "Rows": [
         {
             "Name": "Default",
-            "FootstepSound": "/Game/FMOD/Events/SFX/Character/Footsteps/SFX_FOOTSTEP_DIRT.SFX_FOOTSTEP_DIRT",
+            "FootstepSound": "/Game/FMOD/Events/SFX/Character/Footsteps/SFX_FOOTSTEP_GENERIC.SFX_FOOTSTEP_GENERIC",
             "JumpUpSound": "/Game/FMOD/Events/SFX/Character/Footsteps/SFX_FOOTSTEP_DRT_JUMP.SFX_FOOTSTEP_DRT_JUMP",
             "JumpLandSound": "/Game/FMOD/Events/SFX/Character/Footsteps/SFX_FOOTSTEP_DRT_LAND.SFX_FOOTSTEP_DRT_LAND"
         },

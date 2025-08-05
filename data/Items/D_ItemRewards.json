@@ -166,8 +166,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 30,
-                    "MaxRandomStackCount": 40,
+                    "MinRandomStackCount": 5,
+                    "MaxRandomStackCount": 12,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -1164,8 +1164,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 20,
-                    "MaxRandomStackCount": 25,
+                    "MinRandomStackCount": 3,
+                    "MaxRandomStackCount": 5,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -1335,8 +1335,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 20,
-                    "MaxRandomStackCount": 25,
+                    "MinRandomStackCount": 2,
+                    "MaxRandomStackCount": 4,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -1506,8 +1506,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 100,
-                    "MaxRandomStackCount": 200,
+                    "MinRandomStackCount": 8,
+                    "MaxRandomStackCount": 20,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -1677,8 +1677,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 15,
-                    "MaxRandomStackCount": 25,
+                    "MinRandomStackCount": 4,
+                    "MaxRandomStackCount": 6,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -1751,7 +1751,7 @@
                         "RowName": "Yeast_Seed",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 75,
+                    "DropChance": 100,
                     "DropChanceAdditiveStat": {
                         "RowName": "None",
                         "DataTableName": "D_Stats"
@@ -1874,8 +1874,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 15,
-                    "MaxRandomStackCount": 25,
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 1,
                     "bRewardsScale": false,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -2243,7 +2243,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "MinRandomStackCount": 2,
-                    "MaxRandomStackCount": 4,
+                    "MaxRandomStackCount": 3,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -3956,7 +3956,7 @@
                         "RowName": "Gamey_Meat",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 30,
+                    "DropChance": 10,
                     "DropChanceAdditiveStat": {
                         "RowName": "PrimeMeatDropChance_%",
                         "DataTableName": "D_Stats"
@@ -5054,8 +5054,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 20,
-                    "MaxRandomStackCount": 30,
+                    "MinRandomStackCount": 3,
+                    "MaxRandomStackCount": 7,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -5111,8 +5111,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 10,
-                    "MaxRandomStackCount": 20,
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -5325,7 +5325,7 @@
                         "RowName": "Soft_Meat",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 30,
+                    "DropChance": 10,
                     "DropChanceAdditiveStat": {
                         "RowName": "PrimeMeatDropChance_%",
                         "DataTableName": "D_Stats"
@@ -5460,7 +5460,7 @@
                         "RowName": "Soft_Meat",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 30,
+                    "DropChance": 10,
                     "DropChanceAdditiveStat": {
                         "RowName": "PrimeMeatDropChance_%",
                         "DataTableName": "D_Stats"
@@ -5761,7 +5761,7 @@
                         "RowName": "White_Meat",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 30,
+                    "DropChance": 10,
                     "DropChanceAdditiveStat": {
                         "RowName": "PrimeMeatDropChance_%",
                         "DataTableName": "D_Stats"
@@ -5896,7 +5896,7 @@
                         "RowName": "Gamey_Meat",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 30,
+                    "DropChance": 10,
                     "DropChanceAdditiveStat": {
                         "RowName": "PrimeMeatDropChance_%",
                         "DataTableName": "D_Stats"
@@ -5993,8 +5993,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 10,
-                    "MaxRandomStackCount": 15,
+                    "MinRandomStackCount": 4,
+                    "MaxRandomStackCount": 6,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6164,8 +6164,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 30,
-                    "MaxRandomStackCount": 40,
+                    "MinRandomStackCount": 4,
+                    "MaxRandomStackCount": 8,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6278,8 +6278,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 15,
-                    "MaxRandomStackCount": 20,
+                    "MinRandomStackCount": 4,
+                    "MaxRandomStackCount": 7,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6335,8 +6335,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 2,
-                    "MaxRandomStackCount": 3,
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6392,8 +6392,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 5,
-                    "MaxRandomStackCount": 10,
+                    "MinRandomStackCount": 3,
+                    "MaxRandomStackCount": 5,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6563,8 +6563,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 30,
-                    "MaxRandomStackCount": 40,
+                    "MinRandomStackCount": 4,
+                    "MaxRandomStackCount": 8,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6734,8 +6734,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 30,
-                    "MaxRandomStackCount": 40,
+                    "MinRandomStackCount": 4,
+                    "MaxRandomStackCount": 8,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6905,8 +6905,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 30,
-                    "MaxRandomStackCount": 40,
+                    "MinRandomStackCount": 4,
+                    "MaxRandomStackCount": 8,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -7076,8 +7076,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 30,
-                    "MaxRandomStackCount": 40,
+                    "MinRandomStackCount": 4,
+                    "MaxRandomStackCount": 8,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -7190,8 +7190,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 20,
-                    "MaxRandomStackCount": 30,
+                    "MinRandomStackCount": 2,
+                    "MaxRandomStackCount": 4,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -7247,8 +7247,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 10,
-                    "MaxRandomStackCount": 20,
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -7304,8 +7304,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 20,
-                    "MaxRandomStackCount": 25,
+                    "MinRandomStackCount": 3,
+                    "MaxRandomStackCount": 6,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -7575,7 +7575,7 @@
                         "RowName": "White_Meat",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 30,
+                    "DropChance": 10,
                     "DropChanceAdditiveStat": {
                         "RowName": "KeaWhiteMeatDropChance_%",
                         "DataTableName": "D_Stats"
@@ -7803,7 +7803,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "MinRandomStackCount": 2,
-                    "MaxRandomStackCount": 10,
+                    "MaxRandomStackCount": 5,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -14339,7 +14339,7 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 3,
+                    "MinRandomStackCount": 2,
                     "MaxRandomStackCount": 4,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
@@ -14552,7 +14552,7 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 3,
+                    "MinRandomStackCount": 2,
                     "MaxRandomStackCount": 4,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
@@ -15409,8 +15409,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 2,
-                    "MaxRandomStackCount": 4,
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 3,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -15470,136 +15470,6 @@
                     },
                     "StackMultiplicativeStat": {
                         "RowName": "MeatHarvestedFromAnimals_+%",
-                        "DataTableName": "D_Stats"
-                    }
-                },
-                {
-                    "Item": {
-                        "RowName": "Fatty_TBone",
-                        "DataTableName": "D_ItemTemplate"
-                    },
-                    "DropChance": 25,
-                    "DropChanceAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "RequiredStatToDrop": {
-                        "RowName": "WolvesDropExtraMeat_?",
-                        "DataTableName": "D_Stats"
-                    },
-                    "MinRandomStackCount": 1,
-                    "MaxRandomStackCount": 2,
-                    "bRewardsScale": true,
-                    "StackAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "StackMultiplicativeStat": {
-                        "RowName": "MeatHarvestedFromAnimals_+%",
-                        "DataTableName": "D_Stats"
-                    }
-                },
-                {
-                    "Item": {
-                        "RowName": "Giant_Steak",
-                        "DataTableName": "D_ItemTemplate"
-                    },
-                    "DropChance": 25,
-                    "DropChanceAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "RequiredStatToDrop": {
-                        "RowName": "WolvesDropExtraMeat_?",
-                        "DataTableName": "D_Stats"
-                    },
-                    "MinRandomStackCount": 1,
-                    "MaxRandomStackCount": 2,
-                    "bRewardsScale": true,
-                    "StackAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "StackMultiplicativeStat": {
-                        "RowName": "MeatHarvestedFromAnimals_+%",
-                        "DataTableName": "D_Stats"
-                    }
-                },
-                {
-                    "Item": {
-                        "RowName": "Soft_Meat",
-                        "DataTableName": "D_ItemTemplate"
-                    },
-                    "DropChance": 25,
-                    "DropChanceAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "RequiredStatToDrop": {
-                        "RowName": "WolvesDropExtraMeat_?",
-                        "DataTableName": "D_Stats"
-                    },
-                    "MinRandomStackCount": 1,
-                    "MaxRandomStackCount": 2,
-                    "bRewardsScale": true,
-                    "StackAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "StackMultiplicativeStat": {
-                        "RowName": "MeatHarvestedFromAnimals_+%",
-                        "DataTableName": "D_Stats"
-                    }
-                },
-                {
-                    "Item": {
-                        "RowName": "White_Meat",
-                        "DataTableName": "D_ItemTemplate"
-                    },
-                    "DropChance": 25,
-                    "DropChanceAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "RequiredStatToDrop": {
-                        "RowName": "WolvesDropExtraMeat_?",
-                        "DataTableName": "D_Stats"
-                    },
-                    "MinRandomStackCount": 1,
-                    "MaxRandomStackCount": 2,
-                    "bRewardsScale": true,
-                    "StackAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "StackMultiplicativeStat": {
-                        "RowName": "MeatHarvestedFromAnimals_+%",
-                        "DataTableName": "D_Stats"
-                    }
-                },
-                {
-                    "Item": {
-                        "RowName": "Raw_Bacon",
-                        "DataTableName": "D_ItemTemplate"
-                    },
-                    "DropChance": 25,
-                    "DropChanceAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "RequiredStatToDrop": {
-                        "RowName": "WolvesDropExtraMeat_?",
-                        "DataTableName": "D_Stats"
-                    },
-                    "MinRandomStackCount": 1,
-                    "MaxRandomStackCount": 2,
-                    "bRewardsScale": true,
-                    "StackAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "StackMultiplicativeStat": {
-                        "RowName": "BaconHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -19033,7 +18903,7 @@
                         "RowName": "Bramble_Seed",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 75,
+                    "DropChance": 100,
                     "DropChanceAdditiveStat": {
                         "RowName": "None",
                         "DataTableName": "D_Stats"
@@ -19285,8 +19155,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 2,
-                    "MaxRandomStackCount": 4,
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -27030,11 +26900,11 @@
             ]
         },
         {
-            "Name": "Cat_Carcass_Loot",
+            "Name": "Onion_Wild",
             "Rewards": [
                 {
                     "Item": {
-                        "RowName": "Bone",
+                        "RowName": "Onion",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "DropChance": 100,
@@ -27046,8 +26916,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 1,
-                    "MaxRandomStackCount": 2,
+                    "MinRandomStackCount": 3,
+                    "MaxRandomStackCount": 4,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -27060,7 +26930,7 @@
                 },
                 {
                     "Item": {
-                        "RowName": "Raw_Meat",
+                        "RowName": "Onion_Seed",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "DropChance": 100,
@@ -27069,33 +26939,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "RequiredStatToDrop": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "MinRandomStackCount": 1,
-                    "MaxRandomStackCount": 2,
-                    "bRewardsScale": true,
-                    "StackAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "StackMultiplicativeStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    }
-                },
-                {
-                    "Item": {
-                        "RowName": "Cat_Head",
-                        "DataTableName": "D_ItemTemplate"
-                    },
-                    "DropChance": 100,
-                    "DropChanceAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "RequiredStatToDrop": {
-                        "RowName": "None",
+                        "RowName": "CanHarvestSeeds_?",
                         "DataTableName": "D_Stats"
                     },
                     "MinRandomStackCount": 1,
@@ -27106,13 +26950,18 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "LeatherHarvestedFromAnimals_+%",
+                        "RowName": "None",
                         "DataTableName": "D_Stats"
                     }
-                },
+                }
+            ]
+        },
+        {
+            "Name": "Onion_Crops",
+            "Rewards": [
                 {
                     "Item": {
-                        "RowName": "Bone",
+                        "RowName": "Onion",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "DropChance": 100,
@@ -27124,21 +26973,52 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 2,
-                    "MaxRandomStackCount": 8,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 9,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "BoneHarvestedFromAnimals_+%",
+                        "RowName": "None",
                         "DataTableName": "D_Stats"
                     }
                 },
                 {
                     "Item": {
-                        "RowName": "Raw_Meat",
+                        "RowName": "Onion_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Onion_Sickle",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Onion",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "DropChance": 100,
@@ -27151,129 +27031,51 @@
                         "DataTableName": "D_Stats"
                     },
                     "MinRandomStackCount": 5,
-                    "MaxRandomStackCount": 8,
+                    "MaxRandomStackCount": 7,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "MeatHarvestedFromAnimals_+%",
+                        "RowName": "None",
                         "DataTableName": "D_Stats"
                     }
                 },
                 {
                     "Item": {
-                        "RowName": "Gamey_Meat",
+                        "RowName": "Onion_Seed",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 30,
+                    "DropChance": 100,
                     "DropChanceAdditiveStat": {
-                        "RowName": "PrimeMeatDropChance_%",
-                        "DataTableName": "D_Stats"
-                    },
-                    "RequiredStatToDrop": {
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 3,
-                    "MaxRandomStackCount": 5,
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "MeatHarvestedFromAnimals_+%",
+                        "RowName": "None",
                         "DataTableName": "D_Stats"
                     }
                 }
             ]
         },
         {
-            "Name": "RedGoat_Carcass_Loot",
+            "Name": "Spoiled_Crops_Onion",
             "Rewards": [
                 {
                     "Item": {
-                        "RowName": "Leather",
-                        "DataTableName": "D_ItemTemplate"
-                    },
-                    "DropChance": 100,
-                    "DropChanceAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "RequiredStatToDrop": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "MinRandomStackCount": 10,
-                    "MaxRandomStackCount": 16,
-                    "bRewardsScale": true,
-                    "StackAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "StackMultiplicativeStat": {
-                        "RowName": "LeatherHarvestedFromAnimals_+%",
-                        "DataTableName": "D_Stats"
-                    }
-                },
-                {
-                    "Item": {
-                        "RowName": "Fur",
-                        "DataTableName": "D_ItemTemplate"
-                    },
-                    "DropChance": 100,
-                    "DropChanceAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "RequiredStatToDrop": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "MinRandomStackCount": 4,
-                    "MaxRandomStackCount": 6,
-                    "bRewardsScale": true,
-                    "StackAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "StackMultiplicativeStat": {
-                        "RowName": "FurHarvestedFromAnimals_+%",
-                        "DataTableName": "D_Stats"
-                    }
-                },
-                {
-                    "Item": {
-                        "RowName": "Bone",
-                        "DataTableName": "D_ItemTemplate"
-                    },
-                    "DropChance": 100,
-                    "DropChanceAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "RequiredStatToDrop": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "MinRandomStackCount": 2,
-                    "MaxRandomStackCount": 4,
-                    "bRewardsScale": true,
-                    "StackAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "StackMultiplicativeStat": {
-                        "RowName": "BoneHarvestedFromAnimals_+%",
-                        "DataTableName": "D_Stats"
-                    }
-                },
-                {
-                    "Item": {
-                        "RowName": "Raw_Meat",
+                        "RowName": "Spoiled_Plants",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "DropChance": 100,
@@ -27286,25 +27088,56 @@
                         "DataTableName": "D_Stats"
                     },
                     "MinRandomStackCount": 1,
-                    "MaxRandomStackCount": 2,
+                    "MaxRandomStackCount": 3,
+                    "bRewardsScale": false,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Onion_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 1,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "MeatHarvestedFromAnimals_+%",
+                        "RowName": "None",
                         "DataTableName": "D_Stats"
                     }
-                },
+                }
+            ]
+        },
+        {
+            "Name": "Agave_Wild",
+            "Rewards": [
                 {
                     "Item": {
-                        "RowName": "Stringy_Meat",
+                        "RowName": "Agave",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 30,
+                    "DropChance": 100,
                     "DropChanceAdditiveStat": {
-                        "RowName": "PrimeMeatDropChance_%",
+                        "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
                     "RequiredStatToDrop": {
@@ -27312,14 +27145,1009 @@
                         "DataTableName": "D_Stats"
                     },
                     "MinRandomStackCount": 3,
-                    "MaxRandomStackCount": 5,
+                    "MaxRandomStackCount": 4,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "MeatHarvestedFromAnimals_+%",
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Agave_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 1,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Agave_Crops",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Agave",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 9,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Agave_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Agave_Sickle",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Agave",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 5,
+                    "MaxRandomStackCount": 7,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Agave_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Spoiled_Crops_Agave",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Spoiled_Plants",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 3,
+                    "bRewardsScale": false,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Agave_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 1,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "PricklyPear_Wild",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "PricklyPear",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 3,
+                    "MaxRandomStackCount": 4,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "PricklyPear_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 1,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "PricklyPear_Crops",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "PricklyPear",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 9,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "PricklyPear_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "PricklyPear_Sickle",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "PricklyPear",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 5,
+                    "MaxRandomStackCount": 7,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "PricklyPear_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Spoiled_Crops_PricklyPear",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Spoiled_Plants",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 3,
+                    "bRewardsScale": false,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "PricklyPear_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 1,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Garlic_Wild",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Garlic",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 3,
+                    "MaxRandomStackCount": 4,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Garlic_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 1,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Garlic_Crops",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Garlic",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 9,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Garlic_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Garlic_Sickle",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Garlic",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 5,
+                    "MaxRandomStackCount": 7,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Garlic_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Spoiled_Crops_Garlic",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Spoiled_Plants",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 3,
+                    "bRewardsScale": false,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Garlic_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 1,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Spoiled_Crops_Truffle",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Spoiled_Plants",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 3,
+                    "bRewardsScale": false,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Truffle_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 1,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Cobalt",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Cobalt_Ore",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 5,
+                    "MaxRandomStackCount": 10,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Permafrost",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Super_Cooled_Ice",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 5,
+                    "MaxRandomStackCount": 10,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Stone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 50,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 10,
+                    "MaxRandomStackCount": 15,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Ice",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 50,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 10,
+                    "MaxRandomStackCount": 20,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Truffle_Wild",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Truffle",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 3,
+                    "MaxRandomStackCount": 4,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Truffle_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 1,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Truffle_Crops",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Truffle",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 9,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Truffle_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Truffle_Sickle",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Truffle",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 5,
+                    "MaxRandomStackCount": 7,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Truffle_Seed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "CanHarvestSeeds_?",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
                         "DataTableName": "D_Stats"
                     }
                 }

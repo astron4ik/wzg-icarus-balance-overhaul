@@ -698,6 +698,10 @@
             "FuelFlow": {
                 "RowName": "Natural_Oil_Refiner"
             }
+        },
+        {
+            "Name": "Uranium_Generator",
+            "bHasEnergyConnection": true
         }
     ]
 }

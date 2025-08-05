@@ -976,36 +976,6 @@
             "StageMesh": "/Game/ASS/ENV/HRB/Crop_Kiwifruit/SM_HRB_KiwiFruit_Dead.SM_HRB_KiwiFruit_Dead"
         },
         {
-            "Name": "Prickly_Pear_Growth_01",
-            "TimeToNextState": 250,
-            "StageMesh": "/Game/ASS/ENV/HRB/PricklyPear/PricklyPear_Crop/SM_HRB_Crop_PricklyPear_Stage1.SM_HRB_Crop_PricklyPear_Stage1"
-        },
-        {
-            "Name": "Prickly_Pear_Growth_02",
-            "TimeToNextState": 250,
-            "StageMesh": "/Game/ASS/ENV/HRB/PricklyPear/PricklyPear_Crop/SM_HRB_Crop_PricklyPear_Stage2.SM_HRB_Crop_PricklyPear_Stage2"
-        },
-        {
-            "Name": "Prickly_Pear_Growth_03",
-            "TimeToNextState": 250,
-            "StageMesh": "/Game/ASS/ENV/HRB/PricklyPear/PricklyPear_Crop/SM_HRB_Crop_PricklyPear_Stage3.SM_HRB_Crop_PricklyPear_Stage3"
-        },
-        {
-            "Name": "Prickly_Pear_Growth_04",
-            "TimeToNextState": 250,
-            "StageMesh": "/Game/ASS/ENV/HRB/PricklyPear/PricklyPear_Crop/SM_HRB_Crop_PricklyPear_Stage4.SM_HRB_Crop_PricklyPear_Stage4"
-        },
-        {
-            "Name": "Prickly_Pear_Growth_05",
-            "TimeToNextState": 250,
-            "StageMesh": "/Game/ASS/ENV/HRB/PricklyPear/PricklyPear_Crop/SM_HRB_Crop_PricklyPear_Stage5.SM_HRB_Crop_PricklyPear_Stage5"
-        },
-        {
-            "Name": "Prickly_Pear_Growth_Dead",
-            "TimeToNextState": 250,
-            "StageMesh": "/Game/ASS/ENV/HRB/PricklyPear/PricklyPear_Crop/SM_HRB_Crop_PricklyPear_Dead.SM_HRB_Crop_PricklyPear_Dead"
-        },
-        {
             "Name": "Banana_Growth_01",
             "TimeToNextState": 250,
             "StageMesh": "/Game/ASS/ENV/HRB/Banana/SM_HRB_Banana_Tree_Stage1_Var1.SM_HRB_Banana_Tree_Stage1_Var1"

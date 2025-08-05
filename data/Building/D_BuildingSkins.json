@@ -2584,6 +2584,754 @@
                 "0": "/Game/ASS/BLD/Wood/Stairs_Half_Wood/M_BLD_Stairs_Half_Wood_Beeswax_A.M_BLD_Stairs_Half_Wood_Beeswax_A",
                 "1": "/Game/ASS/BLD/Wood/Stairs_Half_Wood/M_BLD_Stairs_Half_Wood_Beeswax_B.M_BLD_Stairs_Half_Wood_Beeswax_B"
             }
+        },
+        {
+            "Name": "TemperedGlass_Roof_CurvedAngle_Up_L",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_L/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_B.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_L/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_A.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_A"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Roof_CurvedAngle_Down_L",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_L/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_B.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_L/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_A.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_A"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Roof_CurvedAngle_Up_L_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_L_Inverted/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_Inverted_B.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_Inverted_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_L_Inverted/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_Inverted_A.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_Inverted_A"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Roof_CurvedAngle_Down_L_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_L_Inverted/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_Inverted_B.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_Inverted_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_L_Inverted/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_Inverted_A.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_Inverted_A"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Roof_CurvedAngle_Up_R",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_R/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_B.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_R/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_A.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_A"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Roof_CurvedAngle_Down_R",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_R/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_B.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_R/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_A.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_A"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Roof_CurvedAngle_Up_R_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_R_Inverted/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_Inverted_B.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_Inverted_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_R_Inverted/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_Inverted_A.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_Inverted_A"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Roof_CurvedAngle_Down_R_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_R_Inverted/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_Inverted_B.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_Inverted_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_R_Inverted/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_Inverted_A.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_Inverted_A"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Wall_Solid",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Diagonal_Solid_Glass/M_BLD_Wall_Diagonal_Solid_Tempered_Glass_A.M_BLD_Wall_Diagonal_Solid_Tempered_Glass_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Diagonal_Solid_Glass/M_BLD_Wall_Diagonal_Solid_Tempered_Glass_B.M_BLD_Wall_Diagonal_Solid_Tempered_Glass_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Wall_Angle_Left",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_L/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_A.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_L/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_B.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Wall_Angle_Left_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_L_Inverted/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_Inverted_A.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_L_Inverted/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_Inverted_B.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_Inverted_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Wall_Angle_Right",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_R/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_A.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_R/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_B.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Wall_Angle_Right_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_R_Inverted/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_Inverted_A.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_R_Inverted/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_Inverted_B.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_Inverted_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Floor",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Floor_Diagonal_Glass/M_BLD_Floor_Diagonal_Glass_Tempered_A.M_BLD_Floor_Diagonal_Glass_Tempered_A",
+                "0": "/Game/ASS/BLD/Glass/Floor_Diagonal_Glass/M_BLD_Floor_Diagonal_Glass_Tempered_B.M_BLD_Floor_Diagonal_Glass_Tempered_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Ramp_Roof",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Ramp_Diagonal_Glass/M_BLD_Ramp_Diagonal_Glass_Tempered_A.M_BLD_Ramp_Diagonal_Glass_Tempered_A",
+                "1": "/Game/ASS/BLD/Glass/Ramp_Diagonal_Glass/M_BLD_Ramp_Diagonal_Glass_Tempered_B.M_BLD_Ramp_Diagonal_Glass_Tempered_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Ramp_Roof_Inverted",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Ramp_Diagonal_Glass_Inverted/M_BLD_Ramp_Diagonal_Glass_Tempered_Inverted_A.M_BLD_Ramp_Diagonal_Glass_Tempered_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Ramp_Diagonal_Glass_Inverted/M_BLD_Ramp_Diagonal_Glass_Tempered_Inverted_B.M_BLD_Ramp_Diagonal_Glass_Tempered_Inverted_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Beam_Horizontal",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Beam_Curved_Angle_Glass/M_BLD_BeamDiagonal_Glass_Tempered_A.M_BLD_BeamDiagonal_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Beam_Diagonal",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Beam_Curved_Angle_Glass/M_BLD_BeamDiagonal_Glass_Tempered_A.M_BLD_BeamDiagonal_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Curved_Floor",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Floor_Curved_Glass/M_BLD_Floor_Curved_Glass_Tempered_A.M_BLD_Floor_Curved_Glass_Tempered_A",
+                "1": "/Game/ASS/BLD/Glass/Floor_Curved_Glass/M_BLD_Floor_Curved_Glass_Tempered_B.M_BLD_Floor_Curved_Glass_Tempered_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Curved_Ramp_Roof",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_Glass/M_BLD_Roof_Curved_Glass_Tempered_B.M_BLD_Roof_Curved_Glass_Tempered_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_Glass/M_BLD_Roof_Curved_Glass_Tempered_A.M_BLD_Roof_Curved_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Beam_Curved_Horizontal",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Beam_Curved_Angle_Glass/M_BLD_BeamDiagonal_Glass_Tempered_A.M_BLD_BeamDiagonal_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Beam_Curved_Diagonal",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Beam_Curved_Angle_Glass/M_BLD_BeamDiagonal_Glass_Tempered_A.M_BLD_BeamDiagonal_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Wall_Curved_Solid",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_Glass/M_BLD_Wall_Curved_Glass_Tempered_A.M_BLD_Wall_Curved_Glass_Tempered_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_Glass/M_BLD_Wall_Curved_Glass_Tempered_B.M_BLD_Wall_Curved_Glass_Tempered_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Wall_Curved_Angle_Up_L",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_L_Inverted/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_A.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_L_Inverted/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_B.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Wall_Curved_Angle_Down_L",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_L/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_A.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_L/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_B.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Wall_Curved_Angle_Up_L_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_L_Inverted/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_A.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_L_Inverted/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_B.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Wall_Curved_Angle_Down_L_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_L_Inverted/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_Inverted_A.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_L_Inverted/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_Inverted_B.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_Inverted_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Wall_Curved_Angle_Up_R",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_R_Inverted/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_Inverted_A.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_R_Inverted/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_Inverted_B.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_Inverted_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Wall_Curved_Angle_Down_R",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_R/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_A.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_R/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_B.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Wall_Curved_Angle_Up_R_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_R/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_A.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_R/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_B.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Diagonal_Wall_Curved_Angle_Down_R_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_R_Inverted/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_Inverted_A.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_R_Inverted/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_Inverted_B.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_Inverted_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Ramp_Curved",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_Glass/M_BLD_Roof_Curved_Glass_Tempered_B.M_BLD_Roof_Curved_Glass_Tempered_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_Glass/M_BLD_Roof_Curved_Glass_Tempered_A.M_BLD_Roof_Curved_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Wall_Curved_Angle_L",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_L/M_BLD_Wall_Angle_Curved_Glass_Tempered_L_A.M_BLD_Wall_Angle_Curved_Glass_Tempered_L_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_L/M_BLD_Wall_Angle_Curved_Glass_Tempered_L_B.M_BLD_Wall_Angle_Curved_Glass_Tempered_L_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Wall_Curved_Angle_L_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_L_Inverted/M_BLD_Wall_Angle_Curved_Glass_Tempered_L_Inverted_A.M_BLD_Wall_Angle_Curved_Glass_Tempered_L_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_L_Inverted/M_BLD_Wall_Angle_Curved_Glass_Tempered_L_Inverted_B.M_BLD_Wall_Angle_Curved_Glass_Tempered_L_Inverted_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Wall_Curved_Angle_R",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_R/M_BLD_Wall_Angle_Curved_Glass_Tempered_R_A.M_BLD_Wall_Angle_Curved_Glass_Tempered_R_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_R/M_BLD_Wall_Angle_Curved_Glass_Tempered_R_B.M_BLD_Wall_Angle_Curved_Glass_Tempered_R_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Wall_Curved_Angle_R_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_R_Inverted/M_BLD_Wall_Angle_Curved_Glass_Tempered_R_Inverted_A.M_BLD_Wall_Angle_Curved_Glass_Tempered_R_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_R_Inverted/M_BLD_Wall_Angle_Curved_Glass_Tempered_R_Inverted_B.M_BLD_Wall_Angle_Curved_Glass_Tempered_R_Inverted_B"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Beam_Curved_Diagonal",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Beam_Curved_Angle_Glass/M_BLD_BeamDiagonal_Glass_Tempered_A.M_BLD_BeamDiagonal_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "StoneBrick_Roof_CurvedAngle_Up_L",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_L/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_B.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_L/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_A.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_A"
+            }
+        },
+        {
+            "Name": "StoneBrick_Roof_CurvedAngle_Down_L",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_L/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_B.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_L/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_A.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_A"
+            }
+        },
+        {
+            "Name": "StoneBrick_Roof_CurvedAngle_Up_L_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_L_Inverted/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_Inverted_B.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_Inverted_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_L_Inverted/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_Inverted_A.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_Inverted_A"
+            }
+        },
+        {
+            "Name": "StoneBrick_Roof_CurvedAngle_Down_L_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_L_Inverted/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_Inverted_B.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_Inverted_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_L_Inverted/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_Inverted_A.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_Inverted_A"
+            }
+        },
+        {
+            "Name": "StoneBrick_Roof_CurvedAngle_Up_R",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_R/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_B.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_R/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_A.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_A"
+            }
+        },
+        {
+            "Name": "StoneBrick_Roof_CurvedAngle_Down_R",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_R/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_B.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_R/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_A.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_A"
+            }
+        },
+        {
+            "Name": "StoneBrick_Roof_CurvedAngle_Up_R_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_R_Inverted/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_Inverted_B.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_Inverted_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_R_Inverted/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_Inverted_A.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_Inverted_A"
+            }
+        },
+        {
+            "Name": "StoneBrick_Roof_CurvedAngle_Down_R_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_R_Inverted/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_Inverted_B.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_Inverted_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_R_Inverted/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_Inverted_A.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_Inverted_A"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Wall_Solid",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Diagonal_Solid_Glass/M_BLD_Wall_Diagonal_Solid_Tempered_Glass_A.M_BLD_Wall_Diagonal_Solid_Tempered_Glass_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Diagonal_Solid_Glass/M_BLD_Wall_Diagonal_Solid_Tempered_Glass_B.M_BLD_Wall_Diagonal_Solid_Tempered_Glass_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Wall_Angle_Left",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_L/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_A.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_L/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_B.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Wall_Angle_Left_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_L_Inverted/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_Inverted_A.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_L_Inverted/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_Inverted_B.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_Inverted_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Wall_Angle_Right",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_R/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_A.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_R/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_B.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Wall_Angle_Right_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_R_Inverted/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_Inverted_A.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_R_Inverted/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_Inverted_B.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_Inverted_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Floor",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Floor_Diagonal_Glass/M_BLD_Floor_Diagonal_Glass_Tempered_A.M_BLD_Floor_Diagonal_Glass_Tempered_A",
+                "1": "/Game/ASS/BLD/Glass/Floor_Diagonal_Glass/M_BLD_Floor_Diagonal_Glass_Tempered_B.M_BLD_Floor_Diagonal_Glass_Tempered_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Ramp_Roof",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Ramp_Diagonal_Glass/M_BLD_Ramp_Diagonal_Glass_Tempered_A.M_BLD_Ramp_Diagonal_Glass_Tempered_A",
+                "1": "/Game/ASS/BLD/Glass/Ramp_Diagonal_Glass/M_BLD_Ramp_Diagonal_Glass_Tempered_B.M_BLD_Ramp_Diagonal_Glass_Tempered_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Beam_Horizontal",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Beam_Curved_Angle_Glass/M_BLD_BeamDiagonal_Glass_Tempered_A.M_BLD_BeamDiagonal_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Beam_Diagonal",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Beam_Curved_Angle_Glass/M_BLD_BeamDiagonal_Glass_Tempered_A.M_BLD_BeamDiagonal_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Curved_Floor",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Floor_Curved_Glass/M_BLD_Floor_Curved_Glass_Tempered_A.M_BLD_Floor_Curved_Glass_Tempered_A",
+                "1": "/Game/ASS/BLD/Glass/Floor_Curved_Glass/M_BLD_Floor_Curved_Glass_Tempered_B.M_BLD_Floor_Curved_Glass_Tempered_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Curved_Ramp_Roof",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_Glass/M_BLD_Roof_Curved_Glass_Tempered_B.M_BLD_Roof_Curved_Glass_Tempered_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_Glass/M_BLD_Roof_Curved_Glass_Tempered_A.M_BLD_Roof_Curved_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Beam_Curved_Horizontal",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Beam_Curved_Angle_Glass/M_BLD_BeamDiagonal_Glass_Tempered_A.M_BLD_BeamDiagonal_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Beam_Curved_Diagonal",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Beam_Curved_Angle_Glass/M_BLD_BeamDiagonal_Glass_Tempered_A.M_BLD_BeamDiagonal_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Wall_Curved_Solid",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_Glass/M_BLD_Wall_Curved_Glass_Tempered_A.M_BLD_Wall_Curved_Glass_Tempered_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_Glass/M_BLD_Wall_Curved_Glass_Tempered_B.M_BLD_Wall_Curved_Glass_Tempered_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Wall_Curved_Angle_Up_L",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_L_Inverted/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_A.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_L_Inverted/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_B.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Wall_Curved_Angle_Down_L",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_L/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_A.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_L/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_B.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Wall_Curved_Angle_Up_L_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_L_Inverted/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_A.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_L_Inverted/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_B.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Wall_Curved_Angle_Down_L_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_L_Inverted/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_Inverted_A.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_L_Inverted/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_Inverted_B.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_Inverted_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Wall_Curved_Angle_Up_R",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_R_Inverted/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_Inverted_A.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_R_Inverted/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_Inverted_B.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_Inverted_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Wall_Curved_Angle_Down_R",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_R/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_A.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_R/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_B.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Wall_Curved_Angle_Up_R_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_R/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_A.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_R/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_B.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Wall_Curved_Angle_Down_R_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_R_Inverted/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_Inverted_A.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_R_Inverted/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_Inverted_B.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_Inverted_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Ramp_Curved",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_Glass/M_BLD_Roof_Curved_Glass_Tempered_B.M_BLD_Roof_Curved_Glass_Tempered_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_Glass/M_BLD_Roof_Curved_Glass_Tempered_A.M_BLD_Roof_Curved_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "StoneBrick_Wall_Curved_Angle_L",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_L/M_BLD_Wall_Angle_Curved_Glass_Tempered_L_A.M_BLD_Wall_Angle_Curved_Glass_Tempered_L_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_L/M_BLD_Wall_Angle_Curved_Glass_Tempered_L_B.M_BLD_Wall_Angle_Curved_Glass_Tempered_L_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Wall_Curved_Angle_L_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_L_Inverted/M_BLD_Wall_Angle_Curved_Glass_Tempered_L_Inverted_A.M_BLD_Wall_Angle_Curved_Glass_Tempered_L_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_L_Inverted/M_BLD_Wall_Angle_Curved_Glass_Tempered_L_Inverted_B.M_BLD_Wall_Angle_Curved_Glass_Tempered_L_Inverted_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Wall_Curved_Angle_R",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_R/M_BLD_Wall_Angle_Curved_Glass_Tempered_R_A.M_BLD_Wall_Angle_Curved_Glass_Tempered_R_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_R/M_BLD_Wall_Angle_Curved_Glass_Tempered_R_B.M_BLD_Wall_Angle_Curved_Glass_Tempered_R_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Wall_Curved_Angle_R_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_R_Inverted/M_BLD_Wall_Angle_Curved_Glass_Tempered_R_Inverted_A.M_BLD_Wall_Angle_Curved_Glass_Tempered_R_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_R_Inverted/M_BLD_Wall_Angle_Curved_Glass_Tempered_R_Inverted_B.M_BLD_Wall_Angle_Curved_Glass_Tempered_R_Inverted_B"
+            }
+        },
+        {
+            "Name": "StoneBrick_Beam_Curved_Diagonal",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Beam_Curved_Angle_Glass/M_BLD_BeamDiagonal_Glass_Tempered_A.M_BLD_BeamDiagonal_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Roof_CurvedAngle_Up_L",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_L/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_B.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_L/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_A.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_A"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Roof_CurvedAngle_Down_L",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_L/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_B.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_L/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_A.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_A"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Roof_CurvedAngle_Up_L_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_L_Inverted/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_Inverted_B.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_Inverted_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_L_Inverted/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_Inverted_A.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_L_Inverted_A"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Roof_CurvedAngle_Down_L_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_L_Inverted/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_Inverted_B.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_Inverted_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_L_Inverted/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_Inverted_A.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_L_Inverted_A"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Roof_CurvedAngle_Up_R",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_R/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_B.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_R/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_A.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_A"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Roof_CurvedAngle_Down_R",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_R/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_B.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_R/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_A.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_A"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Roof_CurvedAngle_Up_R_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_R_Inverted/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_Inverted_B.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_Inverted_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleUp_Glass_R_Inverted/M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_Inverted_A.M_BLD_Roof_Curved_AngleUp_Glass_Tempered_R_Inverted_A"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Roof_CurvedAngle_Down_R_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_R_Inverted/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_Inverted_B.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_Inverted_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_AngleDown_Glass_R_Inverted/M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_Inverted_A.M_BLD_Roof_Curved_AngleDown_Glass_Tempered_R_Inverted_A"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Wall_Solid",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Diagonal_Solid_Glass/M_BLD_Wall_Diagonal_Solid_Tempered_Glass_A.M_BLD_Wall_Diagonal_Solid_Tempered_Glass_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Diagonal_Solid_Glass/M_BLD_Wall_Diagonal_Solid_Tempered_Glass_B.M_BLD_Wall_Diagonal_Solid_Tempered_Glass_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Wall_Angle_Left",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_L/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_A.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_L/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_B.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Wall_Angle_Left_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_L_Inverted/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_Inverted_A.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_L_Inverted/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_Inverted_B.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_L_Inverted_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Wall_Angle_Right",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_R/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_A.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_R/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_B.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Wall_Angle_Right_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_R_Inverted/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_Inverted_A.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Diagonal_Angle_Glass_R_Inverted/M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_Inverted_B.M_BLD_Wall_Diagonal_Angle_Tempered_Glass_R_Inverted_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Floor",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Floor_Diagonal_Glass/M_BLD_Floor_Diagonal_Glass_Tempered_A.M_BLD_Floor_Diagonal_Glass_Tempered_A",
+                "1": "/Game/ASS/BLD/Glass/Floor_Diagonal_Glass/M_BLD_Floor_Diagonal_Glass_Tempered_B.M_BLD_Floor_Diagonal_Glass_Tempered_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Ramp_Roof",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Ramp_Diagonal_Glass/M_BLD_Ramp_Diagonal_Glass_Tempered_A.M_BLD_Ramp_Diagonal_Glass_Tempered_A",
+                "1": "/Game/ASS/BLD/Glass/Ramp_Diagonal_Glass/M_BLD_Ramp_Diagonal_Glass_Tempered_B.M_BLD_Ramp_Diagonal_Glass_Tempered_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Beam_Horizontal",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Beam_Curved_Angle_Glass/M_BLD_BeamDiagonal_Glass_Tempered_A.M_BLD_BeamDiagonal_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Beam_Diagonal",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Beam_Curved_Angle_Glass/M_BLD_BeamDiagonal_Glass_Tempered_A.M_BLD_BeamDiagonal_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Curved_Floor",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Floor_Curved_Glass/M_BLD_Floor_Curved_Glass_Tempered_A.M_BLD_Floor_Curved_Glass_Tempered_A",
+                "1": "/Game/ASS/BLD/Glass/Floor_Curved_Glass/M_BLD_Floor_Curved_Glass_Tempered_B.M_BLD_Floor_Curved_Glass_Tempered_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Curved_Ramp_Roof",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_Glass/M_BLD_Roof_Curved_Glass_Tempered_B.M_BLD_Roof_Curved_Glass_Tempered_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_Glass/M_BLD_Roof_Curved_Glass_Tempered_A.M_BLD_Roof_Curved_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Beam_Curved_Horizontal",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Beam_Curved_Angle_Glass/M_BLD_BeamDiagonal_Glass_Tempered_A.M_BLD_BeamDiagonal_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Beam_Curved_Diagonal",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Beam_Curved_Angle_Glass/M_BLD_BeamDiagonal_Glass_Tempered_A.M_BLD_BeamDiagonal_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Wall_Curved_Solid",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_Glass/M_BLD_Wall_Curved_Glass_Tempered_A.M_BLD_Wall_Curved_Glass_Tempered_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_Glass/M_BLD_Wall_Curved_Glass_Tempered_B.M_BLD_Wall_Curved_Glass_Tempered_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Up_L",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_L_Inverted/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_A.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_L_Inverted/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_B.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Down_L",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_L/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_A.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_L/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_B.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Up_L_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_L_Inverted/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_A.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_L_Inverted/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_B.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_L_Inverted_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Down_L_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_L_Inverted/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_Inverted_A.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_L_Inverted/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_Inverted_B.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_L_Inverted_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Up_R",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_R_Inverted/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_Inverted_A.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_R_Inverted/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_Inverted_B.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_Inverted_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Down_R",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_R/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_A.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_R/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_B.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Up_R_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_R/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_A.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleUp_Glass_R/M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_B.M_BLD_Wall_Curved_AngleUp_Glass_Tempered_R_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Down_R_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_R_Inverted/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_Inverted_A.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Curved_AngleDown_Glass_R_Inverted/M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_Inverted_B.M_BLD_Wall_Curved_AngleDown_Glass_Tempered_R_Inverted_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Ramp_Curved",
+            "BaseMeshMaterialSlotOverrides": {
+                "1": "/Game/ASS/BLD/Glass/Roof_Curved_Glass/M_BLD_Roof_Curved_Glass_Tempered_B.M_BLD_Roof_Curved_Glass_Tempered_B",
+                "0": "/Game/ASS/BLD/Glass/Roof_Curved_Glass/M_BLD_Roof_Curved_Glass_Tempered_A.M_BLD_Roof_Curved_Glass_Tempered_A"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Wall_Curved_Angle_L",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_L/M_BLD_Wall_Angle_Curved_Glass_Tempered_L_A.M_BLD_Wall_Angle_Curved_Glass_Tempered_L_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_L/M_BLD_Wall_Angle_Curved_Glass_Tempered_L_B.M_BLD_Wall_Angle_Curved_Glass_Tempered_L_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Wall_Curved_Angle_L_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_L_Inverted/M_BLD_Wall_Angle_Curved_Glass_Tempered_L_Inverted_A.M_BLD_Wall_Angle_Curved_Glass_Tempered_L_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_L_Inverted/M_BLD_Wall_Angle_Curved_Glass_Tempered_L_Inverted_B.M_BLD_Wall_Angle_Curved_Glass_Tempered_L_Inverted_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Wall_Curved_Angle_R",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_R/M_BLD_Wall_Angle_Curved_Glass_Tempered_R_A.M_BLD_Wall_Angle_Curved_Glass_Tempered_R_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_R/M_BLD_Wall_Angle_Curved_Glass_Tempered_R_B.M_BLD_Wall_Angle_Curved_Glass_Tempered_R_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Wall_Curved_Angle_R_Invert",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_R_Inverted/M_BLD_Wall_Angle_Curved_Glass_Tempered_R_Inverted_A.M_BLD_Wall_Angle_Curved_Glass_Tempered_R_Inverted_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Angle_Curved_Glass_R_Inverted/M_BLD_Wall_Angle_Curved_Glass_Tempered_R_Inverted_B.M_BLD_Wall_Angle_Curved_Glass_Tempered_R_Inverted_B"
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Beam_Curved_Diagonal",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Beam_Curved_Angle_Glass/M_BLD_BeamDiagonal_Glass_Tempered_A.M_BLD_BeamDiagonal_Glass_Tempered_A"
+            }
         }
     ]
 }

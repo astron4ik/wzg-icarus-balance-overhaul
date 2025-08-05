@@ -4543,7 +4543,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseAttacksCauseSlow_%\")": 25,
-                "(Value=\"BaseHardenedPointDamage_+%\")": 50
+                "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -11266,7 +11266,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseSleepQuality_%\")": 100,
-                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 1200,
+                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 600,
                 "(Value=\"BaseComfortLevel_+\")": 4
             },
             "Manual_Tags": {
@@ -11352,7 +11352,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseSleepQuality_%\")": 110,
-                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 750,
+                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 650,
                 "(Value=\"BaseComfortLevel_+\")": 10
             },
             "Manual_Tags": {
@@ -11447,7 +11447,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseSleepQuality_%\")": 110,
-                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 2400,
+                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 650,
                 "(Value=\"BaseComfortLevel_+\")": 14
             },
             "Manual_Tags": {
@@ -11876,306 +11876,6 @@
                     },
                     {
                         "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Farming_CropPlot",
-            "Meshable": {
-                "RowName": "Mesh_Farming_CropPlot_T2"
-            },
-            "Itemable": {
-                "RowName": "Item_Farming_CropPlot_T2"
-            },
-            "Interactable": {
-                "RowName": "Interactable_CropPlot"
-            },
-            "Hitable": {
-                "RowName": "CropPlot"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Deployable"
-            },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Deployable": {
-                "RowName": "Farming_CropPlot_T2"
-            },
-            "Durable": {
-                "RowName": "Deployable_750"
-            },
-            "Inventory": {
-                "RowName": "Inventory_Farming_CropPlot_Small"
-            },
-            "Decayable": {
-                "RowName": "Decay_10_Minutes"
-            },
-            "Farmable": {
-                "RowName": "Small_Planter"
-            },
-            "Audio": {
-                "RowName": "GenericDeployable"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Plot"
-                    },
-                    {
-                        "TagName": "Audio.Shelter.Check"
-                    },
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Plot"
-                    },
-                    {
-                        "TagName": "Audio.Shelter.Check"
-                    },
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Hitable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Deployable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    },
-                    {
-                        "TagName": "Traits.Inventory"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Farming_CropPlot_T3",
-            "Meshable": {
-                "RowName": "Mesh_Farming_CropPlot_T3"
-            },
-            "Itemable": {
-                "RowName": "Item_Farming_CropPlot_T3"
-            },
-            "Interactable": {
-                "RowName": "Interactable_CropPlot"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Deployable"
-            },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Deployable": {
-                "RowName": "Farming_CropPlot_T3"
-            },
-            "Durable": {
-                "RowName": "Deployable_1000"
-            },
-            "Inventory": {
-                "RowName": "Inventory_Farming_CropPlot_Small"
-            },
-            "Decayable": {
-                "RowName": "Decay_10_Minutes"
-            },
-            "Farmable": {
-                "RowName": "Small_Planter"
-            },
-            "Resource": {
-                "RowName": "Crop_Plot"
-            },
-            "Audio": {
-                "RowName": "GenericDeployable"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Plot"
-                    },
-                    {
-                        "TagName": "Audio.Shelter.Check"
-                    },
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Plot"
-                    },
-                    {
-                        "TagName": "Audio.Shelter.Check"
-                    },
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Deployable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    },
-                    {
-                        "TagName": "Traits.Inventory"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Farming_CropPlot_T4",
-            "Meshable": {
-                "RowName": "Mesh_Farming_CropPlot_T4"
-            },
-            "Itemable": {
-                "RowName": "Item_Farming_CropPlot_T4"
-            },
-            "Interactable": {
-                "RowName": "Interactable_CropPlot"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Deployable"
-            },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Deployable": {
-                "RowName": "Farming_CropPlot_T4"
-            },
-            "Durable": {
-                "RowName": "Deployable_1500"
-            },
-            "Inventory": {
-                "RowName": "Inventory_Farming_CropPlot_Small"
-            },
-            "Decayable": {
-                "RowName": "Decay_10_Minutes"
-            },
-            "Farmable": {
-                "RowName": "Small_Planter"
-            },
-            "Resource": {
-                "RowName": "Crop_Plot_Powered"
-            },
-            "Audio": {
-                "RowName": "GenericDeployable"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Plot"
-                    },
-                    {
-                        "TagName": "Audio.Shelter.Check"
-                    },
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Plot"
-                    },
-                    {
-                        "TagName": "Audio.Shelter.Check"
-                    },
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Deployable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    },
-                    {
-                        "TagName": "Traits.Inventory"
                     }
                 ],
                 "ParentTags": []
@@ -13054,9 +12754,9 @@
                 "RowName": "Shovel"
             },
             "AdditionalStats": {
-                "(Value=\"BaseToolStaminaActionCost_+%\")": -10,
-                "(Value=\"BaseCreatesCropPlotTier_+\")": 4,
-                "(Value=\"BaseDiggingRewards_+%\")": 50
+                "(Value=\"BaseToolStaminaActionCost_+%\")": -25,
+                "(Value=\"BaseCreatesCropPlotTier_+\")": 2,
+                "(Value=\"BaseDiggingRewards_+%\")": 25
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -36228,6 +35928,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Armor.Helmet"
+                    },
+                    {
+                        "TagName": "Item.Armor.Set.Arctic"
                     }
                 ]
             },
@@ -36235,6 +35938,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Armor.Helmet"
+                    },
+                    {
+                        "TagName": "Item.Armor.Set.Arctic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -36297,6 +36003,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Armor.Chest"
+                    },
+                    {
+                        "TagName": "Item.Armor.Set.Arctic"
                     }
                 ]
             },
@@ -36304,6 +36013,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Armor.Chest"
+                    },
+                    {
+                        "TagName": "Item.Armor.Set.Arctic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -36366,6 +36078,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Armor.Boots"
+                    },
+                    {
+                        "TagName": "Item.Armor.Set.Arctic"
                     }
                 ]
             },
@@ -36373,6 +36088,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Armor.Boots"
+                    },
+                    {
+                        "TagName": "Item.Armor.Set.Arctic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -36435,6 +36153,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Armor.Gloves"
+                    },
+                    {
+                        "TagName": "Item.Armor.Set.Arctic"
                     }
                 ]
             },
@@ -36442,6 +36163,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Armor.Gloves"
+                    },
+                    {
+                        "TagName": "Item.Armor.Set.Arctic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -36504,6 +36228,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Armor.Pants"
+                    },
+                    {
+                        "TagName": "Item.Armor.Set.Arctic"
                     }
                 ]
             },
@@ -36511,6 +36238,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Armor.Pants"
+                    },
+                    {
+                        "TagName": "Item.Armor.Set.Arctic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -43458,8 +43188,6 @@
                 "RowName": "Meta_Axe"
             },
             "AdditionalStats": {
-                "(Value=\"BaseFellingDamage_+%\")": 35,
-                "(Value=\"BaseAttackSpeed_+%\")": 10,
                 "(Value=\"BaseElectricDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseElectroshock_%\")": 15
             },
@@ -44408,9 +44136,6 @@
                 "RowName": "Metal_Knife"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMeleeDamage_+%\")": 10,
-                "(Value=\"BaseSkinningRewards_+%\")": 15,
-                "(Value=\"BaseSkinningSpeed_+%\")": 10,
                 "(Value=\"BaseElectricDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseElectroshock_%\")": 15
             },
@@ -47245,8 +46970,6 @@
                 "RowName": "Metal_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMovementSpeed_+%\")": 10,
-                "(Value=\"BaseSprintingStaminaActionCost_+%\")": -10,
                 "(Value=\"BaseElectricDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseElectroshock_%\")": 15,
                 "(Value=\"BaseSpearCriticalDamage_+%\")": 25
@@ -47339,7 +47062,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseActionHoldTime_+%\")": -22,
-                "(Value=\"BaseMovementSpeed_+%\")": 15
+                "(Value=\"BaseMovementSpeed_+%\")": 10
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -47429,7 +47152,7 @@
                 "RowName": "RepairToolMetal"
             },
             "AdditionalStats": {
-                "(Value=\"BaseActionHoldTime_+%\")": -30,
+                "(Value=\"BaseActionHoldTime_+%\")": -22,
                 "(Value=\"BaseExposureResistance_+%\")": 25
             },
             "Manual_Tags": {
@@ -47526,9 +47249,8 @@
                 "RowName": "Meta_Bow_Shengong"
             },
             "AdditionalStats": {
-                "(Value=\"BaseArrowProjectileSpeed_+%\")": 50,
-                "(Value=\"BaseBowCriticalDamage_+%\")": 25,
-                "(Value=\"HighlightShotProjectile_?\")": 1
+                "(Value=\"BaseArrowProjectileSpeed_+%\")": 15,
+                "(Value=\"BaseBowCriticalDamage_+%\")": -5
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -47618,9 +47340,8 @@
                 "RowName": "Meta_Bow_Shengong"
             },
             "AdditionalStats": {
-                "(Value=\"BaseBowChargeSpeed_+%\")": 15,
-                "(Value=\"BaseMovementSpeed_+%\")": 15,
-                "(Value=\"HighlightShotProjectile_?\")": 1
+                "(Value=\"BaseBowChargeSpeed_+%\")": -15,
+                "(Value=\"BaseMovementSpeed_+%\")": -15
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -47710,10 +47431,9 @@
                 "RowName": "Meta_Bow_Shengong"
             },
             "AdditionalStats": {
-                "(Value=\"BaseBowChargeSpeed_+%\")": 15,
-                "(Value=\"BaseArrowProjectileSpeed_+%\")": 25,
-                "(Value=\"BaseBowProjectileDamage_+%\")": 30,
-                "(Value=\"HighlightShotProjectile_?\")": 1
+                "(Value=\"BaseBowChargeSpeed_+%\")": -15,
+                "(Value=\"BaseArrowProjectileSpeed_+%\")": 15,
+                "(Value=\"BaseBowProjectileDamage_+%\")": 10
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -47851,11 +47571,6 @@
                 "RequiredFeatureLevel": {
                     "RowName": "NewFrontiers"
                 }
-            },
-            "AdditionalStats": {
-                "(Value=\"BaseBowChargeSpeed_+%\")": -15,
-                "(Value=\"BaseArrowProjectileSpeed_+%\")": 15,
-                "(Value=\"BaseBowProjectileDamage_+%\")": 10
             }
         },
         {
@@ -52918,8 +52633,8 @@
                 "RowName": "RepairToolMetal"
             },
             "AdditionalStats": {
-                "(Value=\"BaseActionHoldTime_+%\")": -22,
-                "(Value=\"BaseMovementSpeed_+%\")": 10
+                "(Value=\"BaseActionHoldTime_+%\")": -16,
+                "(Value=\"BaseMovementSpeed_+%\")": -5
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -54777,7 +54492,7 @@
                 "RowName": "Arrow"
             },
             "AdditionalStats": {
-                "(Value=\"BasePoisonDamage_+\")": 100,
+                "(Value=\"BasePoisonDamage_+\")": 40,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15
             },
             "CraftingExperience": 20,
@@ -54941,7 +54656,7 @@
                 "RowName": "Arrow"
             },
             "AdditionalStats": {
-                "(Value=\"BaseFrostDamage_+\")": 100,
+                "(Value=\"BaseFrostDamage_+\")": 40,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15
             },
             "CraftingExperience": 20,
@@ -55204,9 +54919,6 @@
                 "RowName": "Meta_Axe"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMovementSpeed_+%\")": 5,
-                "(Value=\"BaseMeleeDamage_+%\")": 10,
-                "(Value=\"BaseFellingDamage_+%\")": 30,
                 "(Value=\"BasePoisonDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15,
                 "(Value=\"BaseFellingRewards_%\")": -50,
@@ -55302,9 +55014,6 @@
                 "RowName": "Meta_Axe"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMovementSpeed_+%\")": 5,
-                "(Value=\"BaseMeleeDamage_+%\")": 10,
-                "(Value=\"BaseFellingDamage_+%\")": 30,
                 "(Value=\"BaseFrostDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
                 "(Value=\"BaseFrostedFellChance_%\")": 30
@@ -55399,9 +55108,6 @@
                 "RowName": "Meta_Axe"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMovementSpeed_+%\")": 5,
-                "(Value=\"BaseMeleeDamage_+%\")": 10,
-                "(Value=\"BaseFellingDamage_+%\")": 30,
                 "(Value=\"BaseFireDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15,
                 "(Value=\"BaseFellingScorchChance_%\")": 30,
@@ -55497,8 +55203,7 @@
                 "RowName": "Metal_Knife"
             },
             "AdditionalStats": {
-                "(Value=\"BaseWoundResistance_%\")": 100,
-                "(Value=\"BasePrimeMeatDropChance_%\")": 400
+                "(Value=\"BaseWoundResistance_%\")": 100
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -55692,9 +55397,6 @@
                 "RowName": "Metal_Knife"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSkinningRewards_+%\")": 15,
-                "(Value=\"BaseSkinningSpeed_+%\")": 15,
-                "(Value=\"BaseToolStaminaActionCost_+%\")": -10,
                 "(Value=\"BaseFireDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15,
                 "(Value=\"BaseSkinningCookChance_%\")": 10
@@ -55795,9 +55497,6 @@
                 "RowName": "Metal_Knife"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSkinningRewards_+%\")": 15,
-                "(Value=\"BaseSkinningSpeed_+%\")": 15,
-                "(Value=\"BaseToolStaminaActionCost_+%\")": -10,
                 "(Value=\"BaseFrostDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
                 "(Value=\"BaseChilledAlterationChance_%\")": 30
@@ -55899,7 +55598,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseOverencumberedPenalty_+%\")": -50,
-                "(Value=\"BaseMiningRewards_%\")": 30,
+                "(Value=\"BaseMiningRewards_%\")": 15,
                 "(Value=\"BaseArmorDamageModifier_+%\")": 500
             },
             "Manual_Tags": {
@@ -55993,7 +55692,6 @@
                 "RowName": "Meta_Pickaxe"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMiningRewards_+%\")": 50,
                 "(Value=\"BasePoisonDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15,
                 "(Value=\"BaseMiningRewards_+%\")": -50,
@@ -56096,7 +55794,6 @@
                 "RowName": "Meta_Pickaxe"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMiningRewards_+%\")": 50,
                 "(Value=\"BaseFrostDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
                 "(Value=\"BaseFrozenOrePerMinedResource_%\")": 20,
@@ -56198,7 +55895,6 @@
                 "RowName": "Meta_Pickaxe"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMiningRewards_+%\")": 50,
                 "(Value=\"BaseFireDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15,
                 "(Value=\"BaseMiningSmeltChance_%\")": 30,
@@ -56388,8 +56084,6 @@
                 "RowName": "Metal_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMovementSpeed_+%\")": 10,
-                "(Value=\"BaseMeleeDamageResistance_+%\")": -5,
                 "(Value=\"BasePoisonDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15,
                 "(Value=\"BaseSpearCriticalDamage_+%\")": 25
@@ -56578,8 +56272,6 @@
                 "RowName": "Metal_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMovementSpeed_+%\")": 10,
-                "(Value=\"BaseMeleeDamageResistance_+%\")": -5,
                 "(Value=\"BaseFireDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15,
                 "(Value=\"BaseSpearCriticalDamage_+%\")": 25
@@ -56689,7 +56381,6 @@
                 "RowName": "MetalDeployable"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSmeltingSpeed_+%\")": 300,
                 "(Value=\"BaseEnergyTransmutationResourceCost_+%\")": -25
             },
             "Manual_Tags": {
@@ -58697,7 +58388,7 @@
                 "RowName": "Default"
             },
             "AdditionalStats": {
-                "(Value=\"BasePlantedCropYield_+%\")": -5,
+                "(Value=\"BasePlantedCropYield_+%\")": -25,
                 "(Value=\"BasePlantedCropGrowthSpeed_+%\")": 50
             },
             "Manual_Tags": {
@@ -61597,7 +61288,7 @@
                 "RowName": "RepairToolMetal"
             },
             "AdditionalStats": {
-                "(Value=\"BaseActionHoldTime_+%\")": -75,
+                "(Value=\"BaseActionHoldTime_+%\")": -30,
                 "(Value=\"BaseExposureResistance_+%\")": 10
             },
             "Manual_Tags": {
@@ -61780,8 +61471,7 @@
                 "RowName": "Metal_Knife"
             },
             "AdditionalStats": {
-                "(Value=\"BasePrimeMeatDropChance_%\")": 400,
-                "(Value=\"BaseAttackSpeed_+%\")": 15
+                "(Value=\"BaseAttackSpeed_+%\")": 10
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -62595,14 +62285,6 @@
                     }
                 ],
                 "ParentTags": []
-            },
-            "AdditionalStats": {
-                "(Value=\"BaseBowProjectileDamage_+%\")": 100,
-                "(Value=\"BaseBowChargeSpeed_+%\")": 25,
-                "(Value=\"BaseArrowProjectileSpeed_+%\")": 50,
-                "(Value=\"BaseBowAimDownSightsSpeed_+%\")": 25,
-                "(Value=\"BaseBowReloadSpeed_+%\")": 25,
-                "(Value=\"HighlightShotProjectile_?\")": 1
             }
         },
         {
@@ -66130,7 +65812,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseSleepQuality_%\")": 110,
-                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 750,
+                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 650,
                 "(Value=\"BaseComfortLevel_+\")": 14
             },
             "Manual_Tags": {
@@ -66954,7 +66636,7 @@
                 "RowName": "MetalDeployable"
             },
             "AdditionalStats": {
-                "(Value=\"BaseExtractorDrillSpeed_+%\")": 150
+                "(Value=\"BaseExtractorDrillSpeed_+%\")": 33
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -67068,7 +66750,7 @@
                 "RowName": "MetalDeployable"
             },
             "AdditionalStats": {
-                "(Value=\"BaseExtractorDrillSpeed_+%\")": 330
+                "(Value=\"BaseExtractorDrillSpeed_+%\")": 33
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -72056,9 +71738,8 @@
                 "RowName": "Meta_Crossbow_Inaris_A"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttacksCauseSlow_%\")": 50,
-                "(Value=\"BaseHardenedPointDamage_+%\")": 75,
-                "(Value=\"HighlightShotProjectile_?\")": 1
+                "(Value=\"BaseAttacksCauseSlow_%\")": 20,
+                "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -72154,11 +71835,10 @@
                 "RowName": "Meta_Crossbow_Inaris_B"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttacksCauseSlow_%\")": 75,
-                "(Value=\"BaseHardenedPointDamage_+%\")": 100,
-                "(Value=\"BaseBowCriticalDamage_+%\")": 100,
-                "(Value=\"BaseBowProjectileDamage_+%\")": 150,
-                "(Value=\"HighlightShotProjectile_?\")": 1
+                "(Value=\"BaseAttacksCauseSlow_%\")": 35,
+                "(Value=\"BaseHardenedPointPenetration_%\")": 100,
+                "(Value=\"BaseBowCriticalDamage_+%\")": 10,
+                "(Value=\"BaseBowProjectileDamage_+%\")": 15
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -72254,11 +71934,8 @@
                 "RowName": "Meta_Crossbow_Inaris_C"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttacksCauseSlow_%\")": 75,
-                "(Value=\"BaseHardenedPointDamage_+%\")": 100,
-                "(Value=\"BaseBowCriticalDamage_+%\")": 100,
-                "(Value=\"BaseBowProjectileDamage_+%\")": 150,
-                "(Value=\"HighlightShotProjectile_?\")": 1
+                "(Value=\"BaseAttacksCauseSlow_%\")": 25,
+                "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -72359,11 +72036,7 @@
                 "RowName": "Meta_Crossbow_Inaris_D"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttacksCauseSlow_%\")": 75,
-                "(Value=\"BaseHardenedPointDamage_+%\")": 100,
-                "(Value=\"BaseBowCriticalDamage_+%\")": 100,
-                "(Value=\"BaseBowProjectileDamage_+%\")": 150,
-                "(Value=\"HighlightShotProjectile_?\")": 1,
+                "(Value=\"BaseAttacksCauseSlow_%\")": 25,
                 "(Value=\"BaseHardenedPointPenetration_%\")": 100,
                 "(Value=\"BaseFireDamage_+%\")": 35,
                 "(Value=\"BaseFrostDamage_+%\")": 35,
@@ -79194,7 +78867,6 @@
                 "RowName": "MetalSledgehammer"
             },
             "AdditionalStats": {
-                "(Value=\"BaseShatteringRewards_%\")": 50,
                 "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
             "Manual_Tags": {
@@ -81858,7 +81530,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 10,
                 "(Value=\"BaseCriticalDamage_+%\")": 10
             },
             "Manual_Tags": {
@@ -81934,7 +81605,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 10,
                 "(Value=\"BaseCriticalDamage_+%\")": 10
             },
             "Manual_Tags": {
@@ -82010,7 +81680,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 20,
                 "(Value=\"BaseCriticalDamage_+%\")": 20
             },
             "Manual_Tags": {
@@ -82086,7 +81755,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -82162,7 +81830,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -82238,7 +81905,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -82314,7 +81980,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -82390,7 +82055,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -82466,7 +82130,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 10,
                 "(Value=\"BaseCriticalDamage_+%\")": 25,
                 "(Value=\"BaseAttacksCauseWound_%\")": 100,
                 "(Value=\"IsSandwormItem_?\")": 1
@@ -82544,7 +82207,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 10,
                 "(Value=\"BaseCriticalDamage_+%\")": 15,
                 "(Value=\"BaseAttacksCausePoison_%\")": 100
             },
@@ -82782,9 +82444,8 @@
                 "RowName": "Platinum_Crossbow"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttacksCauseSlow_%\")": 15,
-                "(Value=\"BaseHardenedPointPenetration_%\")": 100,
-                "(Value=\"BaseHardenedPointDamage_+%\")": 25
+                "(Value=\"BaseAttacksCauseSlow_%\")": 25,
+                "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -82874,8 +82535,8 @@
                 "RowName": "Titanium_Crossbow"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttacksCauseSlow_%\")": 15,
-                "(Value=\"BaseHardenedPointDamage_+%\")": 40
+                "(Value=\"BaseAttacksCauseSlow_%\")": 25,
+                "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -85761,7 +85422,6 @@
                 "RowName": "Default"
             },
             "AdditionalStats": {
-                "(Value=\"BasePureDamage_+\")": 500,
                 "(Value=\"BaseExplosiveDamage_+\")": 500,
                 "(Value=\"BaseAttacksCauseSlow_%\")": 100
             },
@@ -104342,7 +104002,6 @@
                 "(Value=\"BaseFireDamage_+\")": 33,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15,
                 "(Value=\"BaseShatterSmeltChance_%\")": 30,
-                "(Value=\"BaseShatteringRewards_%\")": 75,
                 "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
             "Manual_Tags": {
@@ -104495,7 +104154,7 @@
                 "RowName": "Default"
             },
             "AdditionalStats": {
-                "(Value=\"BaseFireDamage_+\")": 50,
+                "(Value=\"BaseFireDamage_+\")": 100,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15
             },
             "Manual_Tags": {
@@ -104801,7 +104460,6 @@
             "AdditionalStats": {
                 "(Value=\"BaseFireDamage_+\")": 170,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15,
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 20,
                 "(Value=\"BaseCriticalDamage_+%\")": 20
             },
             "Manual_Tags": {
@@ -105390,7 +105048,6 @@
             "AdditionalStats": {
                 "(Value=\"BaseFrostDamage_+\")": 200,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -105568,8 +105225,7 @@
                 "(Value=\"BaseFrostDamage_+\")": 40,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
                 "(Value=\"BaseHardenedPointPenetration_%\")": 100,
-                "(Value=\"BaseFrozenOrePerMinedResource_%\")": 90,
-                "(Value=\"BaseShatteringRewards_%\")": 90
+                "(Value=\"BaseFrozenOrePerMinedResource_%\")": 20
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -105790,7 +105446,7 @@
                 "RowName": "Default"
             },
             "AdditionalStats": {
-                "(Value=\"BaseFrostDamage_+\")": 50,
+                "(Value=\"BaseFrostDamage_+\")": 100,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15
             },
             "Manual_Tags": {
@@ -106515,7 +106171,6 @@
             "AdditionalStats": {
                 "(Value=\"BasePoisonDamage_+\")": 250,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15,
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -106693,7 +106348,7 @@
             "AdditionalStats": {
                 "(Value=\"BasePoisonDamage_+\")": 80,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15,
-                "(Value=\"BaseShatteringRewards_%\")": 50,
+                "(Value=\"BaseShatteringRewards_%\")": -50,
                 "(Value=\"BasePyriticCrustPerMinedResource_%\")": 100,
                 "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
@@ -106986,7 +106641,7 @@
                 "RowName": "Default"
             },
             "AdditionalStats": {
-                "(Value=\"BasePoisonDamage_+\")": 50,
+                "(Value=\"BasePoisonDamage_+\")": 100,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15
             },
             "Manual_Tags": {
@@ -123289,6 +122944,9 @@
                     },
                     {
                         "TagName": "Item.Meta.Resource"
+                    },
+                    {
+                        "TagName": "Item.Meta.Biomass"
                     }
                 ]
             },
@@ -123299,6 +122957,9 @@
                     },
                     {
                         "TagName": "Item.Meta.Resource"
+                    },
+                    {
+                        "TagName": "Item.Meta.Biomass"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -167469,7 +167130,7 @@
                 "RowName": "Rock_Golem_Grenade"
             },
             "Decayable": {
-                "RowName": "Decay_General"
+                "RowName": "Decay_02_Minutes"
             },
             "Audio": {
                 "RowName": "Grenade"
@@ -173307,20 +172968,11 @@
             "Interactable": {
                 "RowName": "Item"
             },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "DEV_Fireball"
-            },
             "Ballistic": {
                 "RowName": "Flamethrower_Fireball"
             },
             "Decayable": {
-                "RowName": "Decay_General"
+                "RowName": "Decay_02_Minutes"
             },
             "Audio": {
                 "RowName": "Default"
@@ -173345,12 +172997,6 @@
                     },
                     {
                         "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
                     },
                     {
                         "TagName": "Traits.Ballistic"
@@ -178453,6 +178099,282 @@
             },
             "Deployable": {
                 "RowName": "Gas_Fireplace_Cap"
+            },
+            "Durable": {
+                "RowName": "Deployable_2000"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "GenericDeployable"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseComfortLevel_+\")": 4
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Electric_Fireplace",
+            "Meshable": {
+                "RowName": "Mesh_Generic_Fabricator"
+            },
+            "Itemable": {
+                "RowName": "Item_Electric_Fireplace"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Electric_Fireplace"
+            },
+            "Durable": {
+                "RowName": "Deployable_2000"
+            },
+            "Inventory": {
+                "RowName": "Processor_NoFuel_T4"
+            },
+            "Processing": {
+                "RowName": "Fireplace_Electric"
+            },
+            "Thermal": {
+                "RowName": "Fireplace"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "HeavyDeployable"
+            },
+            "Resource": {
+                "RowName": "Electric_Heater"
+            },
+            "Audio": {
+                "RowName": "StoneDeployable"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseComfortLevel_+\")": 16
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Bench"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Bench"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
+                    },
+                    {
+                        "TagName": "Traits.Processing"
+                    },
+                    {
+                        "TagName": "Traits.Thermal"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Electric_Fireplace_Ext",
+            "Meshable": {
+                "RowName": "Mesh_Generic_Fabricator"
+            },
+            "Itemable": {
+                "RowName": "Item_Electric_Fireplace_Ext"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Electric_Fireplace_Ext"
+            },
+            "Durable": {
+                "RowName": "Deployable_2000"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "GenericDeployable"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseComfortLevel_+\")": 2
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Electric_Fireplace_Cap",
+            "Meshable": {
+                "RowName": "Mesh_Generic_Fabricator"
+            },
+            "Itemable": {
+                "RowName": "Item_Electric_Fireplace_Cap"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Electric_Fireplace_Cap"
             },
             "Durable": {
                 "RowName": "Deployable_2000"
@@ -188974,2206 +188896,6 @@
                     },
                     {
                         "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "DEV_Thor_Hammer",
-            "Meshable": {
-                "RowName": "Mesh_Stone_Hammer"
-            },
-            "Itemable": {
-                "RowName": "DEV_Thor_Hammer"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "DEV_FlyingHammer"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Audio": {
-                "RowName": "Default"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Kit_Extractor",
-            "Meshable": {
-                "RowName": "Mesh_Kit_Extractor"
-            },
-            "Itemable": {
-                "RowName": "Item_Kit_Extractor"
-            },
-            "Interactable": {
-                "RowName": "Deployable"
-            },
-            "Focusable": {
-                "RowName": "Focusable_Backpack"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Deployable"
-            },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Deployable": {
-                "RowName": "Extractor"
-            },
-            "Durable": {
-                "RowName": "Deployable_2000"
-            },
-            "Inventory": {
-                "RowName": "Biofuel_Drill"
-            },
-            "Decayable": {
-                "RowName": "Decay_10_Minutes"
-            },
-            "Generator": {
-                "RowName": "Extractor_Biofuel_Generator"
-            },
-            "Audio": {
-                "RowName": "MetalDeployable"
-            },
-            "AdditionalStats": {
-                "(Value=\"BaseExtractorDrillSpeed_+%\")": 150
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter.Check"
-                    },
-                    {
-                        "TagName": "Item.Extractor"
-                    },
-                    {
-                        "TagName": "Item.Machine"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter.Check"
-                    },
-                    {
-                        "TagName": "Item.Extractor"
-                    },
-                    {
-                        "TagName": "Item.Machine"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Deployable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    },
-                    {
-                        "TagName": "Traits.Inventory"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "AnimalCarcass_Wulv",
-            "Meshable": {
-                "RowName": "Mesh_CarcassWulv"
-            },
-            "Itemable": {
-                "RowName": "Item_Carcass_Wulv"
-            },
-            "Interactable": {
-                "RowName": "AnimalCorpse"
-            },
-            "Hitable": {
-                "RowName": "AnimalCarcass"
-            },
-            "Equippable": {
-                "RowName": "Equippable_Carcass_Medium"
-            },
-            "Focusable": {
-                "RowName": "Focusable_Carcass_Shoulders"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Carcass_Drop"
-            },
-            "Durable": {
-                "RowName": "Carcass_Medium"
-            },
-            "Decayable": {
-                "RowName": "Decay_10_Minutes"
-            },
-            "Audio": {
-                "RowName": "Default"
-            },
-            "CraftingExperience": 400,
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Traits.Equippable.FocusLock"
-                    },
-                    {
-                        "TagName": "Item.Slot.SkinningBench"
-                    },
-                    {
-                        "TagName": "Harvest.Knife.T1"
-                    },
-                    {
-                        "TagName": "Item.Utility"
-                    },
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Traits.Equippable.FocusLock"
-                    },
-                    {
-                        "TagName": "Item.Slot.SkinningBench"
-                    },
-                    {
-                        "TagName": "Harvest.Knife.T1"
-                    },
-                    {
-                        "TagName": "Item.Utility"
-                    },
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Hitable"
-                    },
-                    {
-                        "TagName": "Traits.Equippable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "AnimalCarcass_RedGoat",
-            "Meshable": {
-                "RowName": "Mesh_CarcassRedGoat"
-            },
-            "Itemable": {
-                "RowName": "Item_Carcass_RedGoat"
-            },
-            "Interactable": {
-                "RowName": "AnimalCorpse"
-            },
-            "Hitable": {
-                "RowName": "AnimalCarcass"
-            },
-            "Equippable": {
-                "RowName": "Equippable_Carcass_Medium"
-            },
-            "Focusable": {
-                "RowName": "Focusable_Carcass_Shoulders"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Carcass_Drop"
-            },
-            "Durable": {
-                "RowName": "Carcass_Medium"
-            },
-            "Decayable": {
-                "RowName": "Decay_10_Minutes"
-            },
-            "Audio": {
-                "RowName": "Default"
-            },
-            "CraftingExperience": 400,
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Traits.Equippable.FocusLock"
-                    },
-                    {
-                        "TagName": "Item.Slot.SkinningBench"
-                    },
-                    {
-                        "TagName": "Harvest.Knife.T1"
-                    },
-                    {
-                        "TagName": "Item.Utility"
-                    },
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Traits.Equippable.FocusLock"
-                    },
-                    {
-                        "TagName": "Item.Slot.SkinningBench"
-                    },
-                    {
-                        "TagName": "Harvest.Knife.T1"
-                    },
-                    {
-                        "TagName": "Item.Utility"
-                    },
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Hitable"
-                    },
-                    {
-                        "TagName": "Traits.Equippable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Module_Compass",
-            "Meshable": {
-                "RowName": "Mesh_Module_Compass"
-            },
-            "Itemable": {
-                "RowName": "Item_Module_Compass"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Equippable": {
-                "RowName": "Module_Compass"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Audio": {
-                "RowName": "Default"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Upgrade.Passive"
-                    },
-                    {
-                        "TagName": "Item.Meta"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Upgrade.Passive"
-                    },
-                    {
-                        "TagName": "Item.Meta"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Equippable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Module_Waypoint",
-            "Meshable": {
-                "RowName": "Mesh_Module_Waypoint"
-            },
-            "Itemable": {
-                "RowName": "Item_Module_Waypoint"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Equippable": {
-                "RowName": "Module_Waypoint_Marker"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Audio": {
-                "RowName": "Default"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Upgrade.Passive"
-                    },
-                    {
-                        "TagName": "Item.Meta"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Upgrade.Passive"
-                    },
-                    {
-                        "TagName": "Item.Meta"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Equippable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Module_Player_Status",
-            "Meshable": {
-                "RowName": "Mesh_Module_Player_Status"
-            },
-            "Itemable": {
-                "RowName": "Item_Module_Player_Status"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Equippable": {
-                "RowName": "Module_Player_Status"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Audio": {
-                "RowName": "Default"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Upgrade.Passive"
-                    },
-                    {
-                        "TagName": "Item.Meta"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Upgrade.Passive"
-                    },
-                    {
-                        "TagName": "Item.Meta"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Equippable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Canteen_Lightweight",
-            "Meshable": {
-                "RowName": "Mesh_Canteen_Lightweight"
-            },
-            "Itemable": {
-                "RowName": "Item_Canteen_Lightweight"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Generic_WaterSkin"
-            },
-            "Consumable": {
-                "RowName": "Canteen"
-            },
-            "Usable": {
-                "RowName": "Consume_Empty"
-            },
-            "Fillable": {
-                "RowName": "Canteen"
-            },
-            "Floatable": {
-                "RowName": "LightItem"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Audio": {
-                "RowName": "Canteen"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Consumable.Water"
-                    },
-                    {
-                        "TagName": "Item.Fillable.Water"
-                    },
-                    {
-                        "TagName": "Item.Equip.Quickbar"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Consumable.Water"
-                    },
-                    {
-                        "TagName": "Item.Fillable.Water"
-                    },
-                    {
-                        "TagName": "Item.Equip.Quickbar"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Consumable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Fillable"
-                    },
-                    {
-                        "TagName": "Traits.Floatable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Module_Creature_Tracker",
-            "Meshable": {
-                "RowName": "Mesh_Module_Player_Tracker"
-            },
-            "Itemable": {
-                "RowName": "Item_Module_Creature_Tracker"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Equippable": {
-                "RowName": "Module_Creature_Tracker"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Audio": {
-                "RowName": "Default"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Upgrade.Passive"
-                    },
-                    {
-                        "TagName": "Item.Meta"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Upgrade.Passive"
-                    },
-                    {
-                        "TagName": "Item.Meta"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Equippable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Raw_Prime_Meat",
-            "Meshable": {
-                "RowName": "Mesh_Raw_Prime_Meat"
-            },
-            "Itemable": {
-                "RowName": "Item_Raw_Prime_Meat"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Generic_Consumable"
-            },
-            "Consumable": {
-                "RowName": "Raw_Prime_Meat"
-            },
-            "Usable": {
-                "RowName": "Consume_Stack_Food"
-            },
-            "Floatable": {
-                "RowName": "LightItem"
-            },
-            "Decayable": {
-                "RowName": "Decay_Raw_Meat"
-            },
-            "Audio": {
-                "RowName": "Default_Food"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Consumable.Food.Raw.Prime"
-                    },
-                    {
-                        "TagName": "ModifierState.Chance.FoodPoisoning"
-                    },
-                    {
-                        "TagName": "Item.Creature.Loot"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Consumable.Food.Raw.Prime"
-                    },
-                    {
-                        "TagName": "ModifierState.Chance.FoodPoisoning"
-                    },
-                    {
-                        "TagName": "Item.Creature.Loot"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Consumable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Floatable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Axe_Attachment_Felling_Yield_1",
-            "Meshable": {
-                "RowName": "Mesh_Attachment_Generic"
-            },
-            "Itemable": {
-                "RowName": "Item_Axe_Attachment_Felling_Yield_1"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Floatable": {
-                "RowName": "LightItem"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Attachments": {
-                "RowName": "Felling_Yield_1"
-            },
-            "CraftingExperience": 10,
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Attachment.Axe"
-                    },
-                    {
-                        "TagName": "Item.Attachment.Rank.1"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Attachment.Axe"
-                    },
-                    {
-                        "TagName": "Item.Attachment.Rank.1"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Floatable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Axe_Attachment_Felling_Yield_2",
-            "Meshable": {
-                "RowName": "Mesh_Attachment_Generic"
-            },
-            "Itemable": {
-                "RowName": "Item_Axe_Attachment_Felling_Yield_2"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Floatable": {
-                "RowName": "LightItem"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Attachments": {
-                "RowName": "Felling_Yield_2"
-            },
-            "CraftingExperience": 10,
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Attachment.Axe"
-                    },
-                    {
-                        "TagName": "Item.Attachment.Rank.2"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Attachment.Axe"
-                    },
-                    {
-                        "TagName": "Item.Attachment.Rank.2"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Floatable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Battery_T3",
-            "Meshable": {
-                "RowName": "Mesh_Battery_T3"
-            },
-            "Itemable": {
-                "RowName": "Item_Battery_T3"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Fillable": {
-                "RowName": "Battery_T3"
-            },
-            "Durable": {
-                "RowName": "Deployable_250"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "FieldGuide.ResourceNetwork"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "FieldGuide.ResourceNetwork"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Fillable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Battery_T4",
-            "Meshable": {
-                "RowName": "Mesh_Battery_T4"
-            },
-            "Itemable": {
-                "RowName": "Item_Battery_T4"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Fillable": {
-                "RowName": "Battery_T4"
-            },
-            "Durable": {
-                "RowName": "Deployable_500"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "FieldGuide.ResourceNetwork"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "FieldGuide.ResourceNetwork"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Fillable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Interior_Wood_Cupboard_Small",
-            "Meshable": {
-                "RowName": "Mesh_Interior_Wood_Cupboard_Small"
-            },
-            "Itemable": {
-                "RowName": "Item_Interior_Wood_Cupboard_Small"
-            },
-            "Interactable": {
-                "RowName": "Deployable"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Deployable"
-            },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Deployable": {
-                "RowName": "Interior_Wood_Cupboard_Small"
-            },
-            "Durable": {
-                "RowName": "Deployable_250"
-            },
-            "Inventory": {
-                "RowName": "Storage_Wood_Crate_Small"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Flammable": {
-                "RowName": "Flammable_Deployable"
-            },
-            "Weight": {
-                "RowName": "LightDeployable"
-            },
-            "Audio": {
-                "RowName": "SmallWoodDeployable"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter.Check"
-                    },
-                    {
-                        "TagName": "Item.Deployable.Storage"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter.Check"
-                    },
-                    {
-                        "TagName": "Item.Deployable.Storage"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Deployable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    },
-                    {
-                        "TagName": "Traits.Inventory"
-                    },
-                    {
-                        "TagName": "Traits.Flammable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Metal_Cupboard_Small",
-            "Meshable": {
-                "RowName": "Mesh_Metal_Cupboard_Small"
-            },
-            "Itemable": {
-                "RowName": "Item_Metal_Cupboard_Small"
-            },
-            "Interactable": {
-                "RowName": "Deployable"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Deployable"
-            },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Deployable": {
-                "RowName": "Metal_Cupboard_Small"
-            },
-            "Durable": {
-                "RowName": "Deployable_750"
-            },
-            "Inventory": {
-                "RowName": "Storage_Metal_Crate_Small"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Weight": {
-                "RowName": "MediumDeployable"
-            },
-            "Audio": {
-                "RowName": "MetalDeployable"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter.Check"
-                    },
-                    {
-                        "TagName": "Item.Deployable.Storage"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter.Check"
-                    },
-                    {
-                        "TagName": "Item.Deployable.Storage"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Deployable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    },
-                    {
-                        "TagName": "Traits.Inventory"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Meta_Canteen_Larkwell",
-            "Meshable": {
-                "RowName": "Mesh_Meta_Canteen_Larkwell"
-            },
-            "Itemable": {
-                "RowName": "Item_Meta_Canteen_Larkwell"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Generic_WaterSkin"
-            },
-            "Consumable": {
-                "RowName": "Canteen_Shengong"
-            },
-            "Usable": {
-                "RowName": "Consume_Empty"
-            },
-            "Fillable": {
-                "RowName": "Canteen_Shengong"
-            },
-            "Floatable": {
-                "RowName": "Items"
-            },
-            "Decayable": {
-                "RowName": "Decay_MetaItem"
-            },
-            "Audio": {
-                "RowName": "Canteen"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Consumable.Water"
-                    },
-                    {
-                        "TagName": "Item.Fillable.Water"
-                    },
-                    {
-                        "TagName": "Item.Equip.Quickbar"
-                    },
-                    {
-                        "TagName": "Item.Meta"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Consumable.Water"
-                    },
-                    {
-                        "TagName": "Item.Fillable.Water"
-                    },
-                    {
-                        "TagName": "Item.Equip.Quickbar"
-                    },
-                    {
-                        "TagName": "Item.Meta"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Consumable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Fillable"
-                    },
-                    {
-                        "TagName": "Traits.Floatable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Ice_Wall",
-            "Meshable": {
-                "RowName": "Mesh_Ice_Kit"
-            },
-            "Itemable": {
-                "RowName": "Item_Ice_Wall"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Hitable": {
-                "RowName": "Building"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Building"
-            },
-            "Buildable": {
-                "RowName": "Ice_Wall"
-            },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Durable": {
-                "RowName": "Ice_Building"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Audio": {
-                "RowName": "IceBuilding"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter"
-                    },
-                    {
-                        "TagName": "Building.Ice"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter"
-                    },
-                    {
-                        "TagName": "Building.Ice"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Hitable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Buildable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Ice_Floor",
-            "Meshable": {
-                "RowName": "Mesh_Ice_Kit"
-            },
-            "Itemable": {
-                "RowName": "Item_Ice_Floor"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Hitable": {
-                "RowName": "Building"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Building"
-            },
-            "Buildable": {
-                "RowName": "Ice_Floor"
-            },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Durable": {
-                "RowName": "Ice_Building"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Audio": {
-                "RowName": "IceBuilding"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter"
-                    },
-                    {
-                        "TagName": "Building.Ice"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter"
-                    },
-                    {
-                        "TagName": "Building.Ice"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Hitable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Buildable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Ice_Ramp",
-            "Meshable": {
-                "RowName": "Mesh_Ice_Kit"
-            },
-            "Itemable": {
-                "RowName": "Item_Ice_Ramp"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Hitable": {
-                "RowName": "Building"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Building"
-            },
-            "Buildable": {
-                "RowName": "Ice_Ramp"
-            },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Durable": {
-                "RowName": "Ice_Building"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Audio": {
-                "RowName": "IceBuilding"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter"
-                    },
-                    {
-                        "TagName": "Building.Ice"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter"
-                    },
-                    {
-                        "TagName": "Building.Ice"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Hitable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Buildable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Ice_Wall_Angle",
-            "Meshable": {
-                "RowName": "Mesh_Ice_Kit"
-            },
-            "Itemable": {
-                "RowName": "Item_Ice_Wall_Angle"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Hitable": {
-                "RowName": "Building"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Building"
-            },
-            "Buildable": {
-                "RowName": "Ice_Wall_Angle"
-            },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Durable": {
-                "RowName": "Ice_Building"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Audio": {
-                "RowName": "IceBuilding"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter"
-                    },
-                    {
-                        "TagName": "Building.Ice"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter"
-                    },
-                    {
-                        "TagName": "Building.Ice"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Hitable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Buildable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Ice_Beam",
-            "Meshable": {
-                "RowName": "Mesh_Ice_Kit"
-            },
-            "Itemable": {
-                "RowName": "Item_Ice_Beam"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Hitable": {
-                "RowName": "Building"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Building"
-            },
-            "Buildable": {
-                "RowName": "Ice_Beam"
-            },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Durable": {
-                "RowName": "Ice_Building"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Audio": {
-                "RowName": "IceBuilding"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter"
-                    },
-                    {
-                        "TagName": "Building.Ice"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter"
-                    },
-                    {
-                        "TagName": "Building.Ice"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Hitable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Buildable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Ice_Roof_Corner",
-            "Meshable": {
-                "RowName": "Mesh_Ice_Kit"
-            },
-            "Itemable": {
-                "RowName": "Item_Ice_Roof_Corner"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Hitable": {
-                "RowName": "Building"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Building"
-            },
-            "Buildable": {
-                "RowName": "Ice_Roof_Corner"
-            },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Durable": {
-                "RowName": "Ice_Building"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Audio": {
-                "RowName": "IceBuilding"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter"
-                    },
-                    {
-                        "TagName": "Building.Ice"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter"
-                    },
-                    {
-                        "TagName": "Building.Ice"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Hitable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Buildable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Ice_Half_Pitch",
-            "Meshable": {
-                "RowName": "Mesh_Ice_Kit"
-            },
-            "Itemable": {
-                "RowName": "Item_Ice_Roof_Half_Pitch"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Hitable": {
-                "RowName": "Building"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Building"
-            },
-            "Buildable": {
-                "RowName": "Ice_HalfPitch"
-            },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Durable": {
-                "RowName": "Ice_Building"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Audio": {
-                "RowName": "IceBuilding"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter"
-                    },
-                    {
-                        "TagName": "Building.Ice"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter"
-                    },
-                    {
-                        "TagName": "Building.Ice"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Hitable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Buildable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "AnimalCarcass_Mange_Wolf",
-            "Meshable": {
-                "RowName": "Mesh_Carcass_Mange_Wolf"
-            },
-            "Itemable": {
-                "RowName": "Item_Carcass_Mange_Wolf"
-            },
-            "Interactable": {
-                "RowName": "AnimalCorpse"
-            },
-            "Hitable": {
-                "RowName": "AnimalCarcass"
-            },
-            "Equippable": {
-                "RowName": "Equippable_Carcass_Medium"
-            },
-            "Focusable": {
-                "RowName": "Focusable_Carcass_Wolf"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Carcass_Drop"
-            },
-            "Durable": {
-                "RowName": "Carcass_Medium"
-            },
-            "Decayable": {
-                "RowName": "Decay_10_Minutes"
-            },
-            "Audio": {
-                "RowName": "Carcass"
-            },
-            "CraftingExperience": 400,
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Traits.Equippable.FocusLock"
-                    },
-                    {
-                        "TagName": "Item.Slot.SkinningBench"
-                    },
-                    {
-                        "TagName": "Harvest.Knife.T1"
-                    },
-                    {
-                        "TagName": "Item.Utility"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Traits.Equippable.FocusLock"
-                    },
-                    {
-                        "TagName": "Item.Slot.SkinningBench"
-                    },
-                    {
-                        "TagName": "Harvest.Knife.T1"
-                    },
-                    {
-                        "TagName": "Item.Utility"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Hitable"
-                    },
-                    {
-                        "TagName": "Traits.Equippable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "AnimalCarcass_Mange_Wolf_Alpha",
-            "Meshable": {
-                "RowName": "Mesh_Carcass_Mange_Wolf_Alpha"
-            },
-            "Itemable": {
-                "RowName": "Item_Carcass_Mange_Wolf_Alpha"
-            },
-            "Interactable": {
-                "RowName": "AnimalCorpse_NoCarry"
-            },
-            "Hitable": {
-                "RowName": "AnimalCarcass"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Durable": {
-                "RowName": "Carcass_Medium"
-            },
-            "Decayable": {
-                "RowName": "Decay_10_Minutes"
-            },
-            "Audio": {
-                "RowName": "Carcass"
-            },
-            "CraftingExperience": 400,
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Traits.Equippable.FocusLock"
-                    },
-                    {
-                        "TagName": "Item.Slot.SkinningBench"
-                    },
-                    {
-                        "TagName": "Harvest.Knife.T1"
-                    },
-                    {
-                        "TagName": "Item.Utility"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Traits.Equippable.FocusLock"
-                    },
-                    {
-                        "TagName": "Item.Slot.SkinningBench"
-                    },
-                    {
-                        "TagName": "Harvest.Knife.T1"
-                    },
-                    {
-                        "TagName": "Item.Utility"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Hitable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "DEV_ResourceNetworkInspector",
-            "Meshable": {
-                "RowName": "Mesh_0_Placeholder_Invisible"
-            },
-            "Itemable": {
-                "RowName": "Item_Dev_ResourceNetworkInspector"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Dev_ResourceNetworkInspector"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Tool"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Tool"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "AnimalCarcass_Ghost_Crocodile",
-            "Meshable": {
-                "RowName": "Mesh_Carcass_Ghost_Crocodile"
-            },
-            "Itemable": {
-                "RowName": "Item_Carcass_Ghost_Crocodile"
-            },
-            "Interactable": {
-                "RowName": "AnimalCorpse_NoCarry"
-            },
-            "Hitable": {
-                "RowName": "AnimalCarcass"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Durable": {
-                "RowName": "Carcass_Large"
-            },
-            "Decayable": {
-                "RowName": "Decay_10_Minutes"
-            },
-            "Audio": {
-                "RowName": "Carcass"
-            },
-            "CraftingExperience": 600,
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Slot.SkinningBench"
-                    },
-                    {
-                        "TagName": "Harvest.Knife.T1"
-                    },
-                    {
-                        "TagName": "Item.Utility.ShowBackpack"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Slot.SkinningBench"
-                    },
-                    {
-                        "TagName": "Harvest.Knife.T1"
-                    },
-                    {
-                        "TagName": "Item.Utility.ShowBackpack"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Hitable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
                     },
                     {
                         "TagName": "Traits.Durable"

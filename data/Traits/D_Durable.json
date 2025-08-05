@@ -2317,6 +2317,71 @@
                     "Amount": 1
                 }
             ]
+        },
+        {
+            "Name": "Lithium",
+            "Max_Durability": 200000,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Lithium_Refined",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ]
+        },
+        {
+            "Name": "Industrial_Tools",
+            "Max_Durability": 500000,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Titanium_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ]
+        },
+        {
+            "Name": "Mining_Laser",
+            "Max_Durability": 200000,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Ruby_Shaped",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ]
+        },
+        {
+            "Name": "Armor_Hazmat",
+            "Max_Durability": 6000,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Platinum_Weave",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ]
+        },
+        {
+            "Name": "Radiation_Protection_Armor",
+            "Max_Durability": 7500,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Uranium_Inert",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ]
         }
     ]
 }

@@ -7437,6 +7437,42 @@
         },
         {
             "Name": "Inventory_Organic_Extractor"
+        },
+        {
+            "Name": "Any_Uranium_Rod",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Fuel.Rod"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Fuel.Rod )"
+            }
+        },
+        {
+            "Name": "Any_Radioactive_Item",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Radioactive"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Radioactive )"
+            }
         }
     ]
 }
