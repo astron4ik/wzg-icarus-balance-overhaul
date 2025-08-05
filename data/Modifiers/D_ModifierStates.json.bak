@@ -13543,7 +13543,7 @@
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/T_ITEM_Enzyme_Elixir.T_ITEM_Enzyme_Elixir'",
             "Type": "Debuff",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Enzyme_Elixir-ModifierName\", \"Luriform Serum\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Enzyme_Elixir-ModifierDescription\", \"Aggressive Enzyme-Enhanced Creatures are drawn to you.\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Enzyme_Elixir-ModifierDescription\", \"Agressive Enzyme-Enhanced Creatures are drawn to you.\")",
             "GrantedStats": {
                 "(Value=\"BaseFrostDamageResistance_%\")": 25,
                 "(Value=\"BaseHealthRegen_+%\")": 25,
@@ -13780,7 +13780,7 @@
             "Name": "Endurance",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_HealthBuff.Icon_HealthBuff'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Endurance-ModifierName\", \"Endurance\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Endurance-ModifierDescription\", \"Health Regeneration Increase\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Endurance-ModifierDescription\", \"Health Regneration Increase\")",
             "GrantedStats": {
                 "(Value=\"BaseHealthRegen_+%\")": 50,
                 "(Value=\"BaseHealthRegenPerMinute_+\")": 6
@@ -13800,40 +13800,6 @@
                 "(Value=\"BaseMeleeDamage_+%\")": 200
             },
             "ShouldTick": true,
-            "MergeType": "LongestDuration",
-            "bEffectsNPCs": false,
-            "SaveToDatabase": false
-        },
-        {
-            "Name": "GrantedAura_Radioactive",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Radioactive.T_ICON_Radioactive'",
-            "Type": "Aura_Negative",
-            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_Radioactive-ModifierName\", \"Radioactive\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_Radioactive-ModifierDescription\", \"Nearby players will be irradiated.\")",
-            "bAura": true,
-            "AuraRange": 2000,
-            "AuraFlags": {
-                "EffectsNPCs": true
-            },
-            "ModifierGrantedByAura": {
-                "RowName": "AuraEffect_Radioactive"
-            },
-            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Aura_Base.BP_Modifier_Aura_Base_C",
-            "ShouldTick": true,
-            "ModifierTickRate": 0.5,
-            "RemovedOnDeath": false,
-            "MergeType": "Count",
-            "bEffectsObjects": true,
-            "SaveToDatabase": false
-        },
-        {
-            "Name": "AuraEffect_Radioactive",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Radioactive.T_ICON_Radioactive'",
-            "Type": "Debuff",
-            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_Radioactive-ModifierName\", \"Irradiated\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_Radioactive-ModifierDescription\", \"Currently exposed to Radiation\")",
-            "AuraRange": 500,
-            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
             "MergeType": "LongestDuration",
             "bEffectsNPCs": false,
             "SaveToDatabase": false

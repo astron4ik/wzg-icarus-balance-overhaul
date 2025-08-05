@@ -167200,7 +167200,7 @@
                 "RowName": "Rock_Golem_Grenade"
             },
             "Decayable": {
-                "RowName": "Decay_02_Minutes"
+                "RowName": "Decay_General"
             },
             "Audio": {
                 "RowName": "Grenade"
@@ -173038,11 +173038,20 @@
             "Interactable": {
                 "RowName": "Item"
             },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "DEV_Fireball"
+            },
             "Ballistic": {
                 "RowName": "Flamethrower_Fireball"
             },
             "Decayable": {
-                "RowName": "Decay_02_Minutes"
+                "RowName": "Decay_General"
             },
             "Audio": {
                 "RowName": "Default"
@@ -173067,6 +173076,12 @@
                     },
                     {
                         "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
                     },
                     {
                         "TagName": "Traits.Ballistic"
@@ -178169,282 +178184,6 @@
             },
             "Deployable": {
                 "RowName": "Gas_Fireplace_Cap"
-            },
-            "Durable": {
-                "RowName": "Deployable_2000"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Audio": {
-                "RowName": "GenericDeployable"
-            },
-            "AdditionalStats": {
-                "(Value=\"BaseComfortLevel_+\")": 4
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter.Check"
-                    },
-                    {
-                        "TagName": "Item.Decoration"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter.Check"
-                    },
-                    {
-                        "TagName": "Item.Decoration"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Deployable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Electric_Fireplace",
-            "Meshable": {
-                "RowName": "Mesh_Generic_Fabricator"
-            },
-            "Itemable": {
-                "RowName": "Item_Electric_Fireplace"
-            },
-            "Interactable": {
-                "RowName": "Deployable"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Deployable"
-            },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Deployable": {
-                "RowName": "Electric_Fireplace"
-            },
-            "Durable": {
-                "RowName": "Deployable_2000"
-            },
-            "Inventory": {
-                "RowName": "Processor_NoFuel_T4"
-            },
-            "Processing": {
-                "RowName": "Fireplace_Electric"
-            },
-            "Thermal": {
-                "RowName": "Fireplace"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Weight": {
-                "RowName": "HeavyDeployable"
-            },
-            "Resource": {
-                "RowName": "Electric_Heater"
-            },
-            "Audio": {
-                "RowName": "StoneDeployable"
-            },
-            "AdditionalStats": {
-                "(Value=\"BaseComfortLevel_+\")": 16
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter.Check"
-                    },
-                    {
-                        "TagName": "Item.Bench"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter.Check"
-                    },
-                    {
-                        "TagName": "Item.Bench"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Deployable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    },
-                    {
-                        "TagName": "Traits.Inventory"
-                    },
-                    {
-                        "TagName": "Traits.Processing"
-                    },
-                    {
-                        "TagName": "Traits.Thermal"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Electric_Fireplace_Ext",
-            "Meshable": {
-                "RowName": "Mesh_Generic_Fabricator"
-            },
-            "Itemable": {
-                "RowName": "Item_Electric_Fireplace_Ext"
-            },
-            "Interactable": {
-                "RowName": "Deployable_NoInteract"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Deployable"
-            },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Deployable": {
-                "RowName": "Electric_Fireplace_Ext"
-            },
-            "Durable": {
-                "RowName": "Deployable_2000"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "Audio": {
-                "RowName": "GenericDeployable"
-            },
-            "AdditionalStats": {
-                "(Value=\"BaseComfortLevel_+\")": 2
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter.Check"
-                    },
-                    {
-                        "TagName": "Item.Decoration"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Audio.Shelter.Check"
-                    },
-                    {
-                        "TagName": "Item.Decoration"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Deployable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Electric_Fireplace_Cap",
-            "Meshable": {
-                "RowName": "Mesh_Generic_Fabricator"
-            },
-            "Itemable": {
-                "RowName": "Item_Electric_Fireplace_Cap"
-            },
-            "Interactable": {
-                "RowName": "Deployable_NoInteract"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Deployable"
-            },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Deployable": {
-                "RowName": "Electric_Fireplace_Cap"
             },
             "Durable": {
                 "RowName": "Deployable_2000"

@@ -4367,62 +4367,6 @@
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_KNIFE_FLY.SFX_BALLISTIC_KNIFE_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_KNIFE_HIT_GENERIC.SFX_BALLISTIC_KNIFE_HIT_GENERIC"
             }
-        },
-        {
-            "Name": "Knife_Lithium",
-            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 55,
-            "DamageVariationPercentage": 10,
-            "bHomingProjectile": false,
-            "bCanKillCam": true,
-            "Weight": 0.5,
-            "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
-            "BreakChance": 0.20000000298023224,
-            "DurabilityDamage": 10,
-            "PostDeployLifetime": 120,
-            "ProjectileBounceSettings": {
-                "bBounceAngleAffectsFriction": false,
-                "Bounciness": 0.6000000238418579,
-                "Friction": 0.20000000298023224,
-                "BounceVelocityStopSimulatingThreshold": 5,
-                "MinFrictionFraction": 0
-            },
-            "OverridePhysicsAsset": "/Game/ASS/WEP/SK_KNI_Obsidian_BallisticPhysicsAsset.SK_KNI_Obsidian_BallisticPhysicsAsset",
-            "VelocityRotationOffset": {
-                "Pitch": 90
-            },
-            "AudioData": {
-                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_KNIFE_FLY.SFX_BALLISTIC_KNIFE_FLY",
-                "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_KNIFE_HIT_METAL.SFX_BALLISTIC_KNIFE_HIT_METAL"
-            }
-        },
-        {
-            "Name": "Spear_Lithium",
-            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 260,
-            "DamageVariationPercentage": 10,
-            "bHomingProjectile": false,
-            "bCanKillCam": true,
-            "Weight": 0.699999988079071,
-            "TrailParticle": "/Game/Fx/Particles/P_ArrowTrail.P_ArrowTrail",
-            "BreakChance": 0.20000000298023224,
-            "DurabilityDamage": 100,
-            "PostDeployLifetime": 120,
-            "ProjectileBounceSettings": {
-                "bBounceAngleAffectsFriction": false,
-                "Bounciness": 0.6000000238418579,
-                "Friction": 0.20000000298023224,
-                "BounceVelocityStopSimulatingThreshold": 5,
-                "MinFrictionFraction": 0
-            },
-            "OverridePhysicsAsset": "/Game/ASS/WEP/SK_SPR_Obsidian_BallisticPhysicsAsset.SK_SPR_Obsidian_BallisticPhysicsAsset",
-            "VelocityRotationOffset": {
-                "Pitch": 90
-            },
-            "AudioData": {
-                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_SPEAR_FLY_METAL.SFX_BALLISTIC_SPEAR_FLY_METAL",
-                "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_SPEAR_METAL_HIT.SFX_BALLISTIC_SPEAR_METAL_HIT"
-            }
         }
     ]
 }

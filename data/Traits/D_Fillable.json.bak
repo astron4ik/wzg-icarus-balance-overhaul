@@ -465,46 +465,6 @@
                 }
             ],
             "MaximumStoredUnits": 10000
-        },
-        {
-            "Name": "Lithium_Tools",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                {
-                    "Value": "Energy"
-                }
-            ],
-            "MaximumStoredUnits": 10000
-        },
-        {
-            "Name": "Industrial_Tools",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                {
-                    "Value": "Biofuel"
-                }
-            ],
-            "MaximumStoredUnits": 2000
-        },
-        {
-            "Name": "Laser_Tools",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                {
-                    "Value": "Energy"
-                }
-            ],
-            "MaximumStoredUnits": 10000
-        },
-        {
-            "Name": "Radiation_Tracker",
-            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-            "ResourceTypes": [
-                {
-                    "Value": "Energy"
-                }
-            ],
-            "MaximumStoredUnits": 10000
         }
     ]
 }

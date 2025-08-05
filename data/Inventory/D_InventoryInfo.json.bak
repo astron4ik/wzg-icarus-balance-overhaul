@@ -2023,16 +2023,6 @@
             "InventoryID": {
                 "Value": "General"
             }
-        },
-        {
-            "Name": "Fuel_Uranium_Rod",
-            "InventoryID": {
-                "Value": "Fuel"
-            },
-            "SlotTemplate": {
-                "RowName": "Any_Uranium_Rod"
-            },
-            "StartingSlots": 1
         }
     ]
 }

@@ -58064,6 +58064,2035 @@
             ],
             "bDefaultUnlocked": true,
             "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Cloth_Head_Armor",
+            "ExtraData": {
+                "RowName": "Item_Cloth_Head",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T1_Player"
+            },
+            "Position": {
+                "X": 5100,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Armor_Cloth",
+                    "DataTableName": "D_Talents"
+                }
+            ]
+        },
+        {
+            "Name": "Cloth_Arms_Armor",
+            "ExtraData": {
+                "RowName": "Item_Cloth_Arms",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T1_Player"
+            },
+            "Position": {
+                "X": 5400,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Armor_Cloth",
+                    "DataTableName": "D_Talents"
+                }
+            ]
+        },
+        {
+            "Name": "Cloth_Legs_Armor",
+            "ExtraData": {
+                "RowName": "Item_Cloth_Legs",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T1_Player"
+            },
+            "Position": {
+                "X": 5550,
+                "Y": 850
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Armor_Cloth",
+                    "DataTableName": "D_Talents"
+                }
+            ]
+        },
+        {
+            "Name": "Cloth_Feet_Armor",
+            "ExtraData": {
+                "RowName": "Item_Cloth_Feet",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T1_Player"
+            },
+            "Position": {
+                "X": 5700,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Armor_Cloth",
+                    "DataTableName": "D_Talents"
+                }
+            ]
+        },
+        {
+            "Name": "Leather_Head_Armor",
+            "ExtraData": {
+                "RowName": "Item_Leather_Head",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 10500,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Armor_Leather",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 15
+        },
+        {
+            "Name": "Leather_Arms_Armor",
+            "ExtraData": {
+                "RowName": "Item_Leather_Arms",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 10800,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Armor_Leather",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 15
+        },
+        {
+            "Name": "Leather_Legs_Armor",
+            "ExtraData": {
+                "RowName": "Item_Leather_Legs",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 11550,
+                "Y": 850
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Armor_Leather",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 15
+        },
+        {
+            "Name": "Leather_Feet_Armor",
+            "ExtraData": {
+                "RowName": "Item_Leather_Feet",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 11100,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Armor_Leather",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 15
+        },
+        {
+            "Name": "Fur_Head_Armor",
+            "ExtraData": {
+                "RowName": "Item_Fur_Head",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 11550,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Armor_Fur",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 20
+        },
+        {
+            "Name": "Fur_Arms_Armor",
+            "ExtraData": {
+                "RowName": "Item_Fur_Arms",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 11850,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Armor_Fur",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 20
+        },
+        {
+            "Name": "Fur_Legs_Armor",
+            "ExtraData": {
+                "RowName": "Item_Fur_Legs",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 12000,
+                "Y": 850
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Armor_Fur",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 20
+        },
+        {
+            "Name": "Fur_Feet_Armor",
+            "ExtraData": {
+                "RowName": "Item_Fur_Feet",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 12150,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Armor_Fur",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 20
+        },
+        {
+            "Name": "Composite_Head",
+            "ExtraData": {
+                "RowName": "Item_Composite_Head",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T4_Fabricator"
+            },
+            "Position": {
+                "X": 8750,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Composite",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 35
+        },
+        {
+            "Name": "Composite_Arms",
+            "ExtraData": {
+                "RowName": "Item_Composite_Arms",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T4_Fabricator"
+            },
+            "Position": {
+                "X": 9050,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Composite",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 35
+        },
+        {
+            "Name": "Composite_Legs",
+            "ExtraData": {
+                "RowName": "Item_Composite_Legs",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T4_Fabricator"
+            },
+            "Position": {
+                "X": 11800,
+                "Y": 850
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Composite",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 35
+        },
+        {
+            "Name": "Composite_Feet",
+            "ExtraData": {
+                "RowName": "Item_Composite_Feet",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T4_Fabricator"
+            },
+            "Position": {
+                "X": 9350,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Composite",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 35
+        },
+        {
+            "Name": "Ghillie_Head",
+            "ExtraData": {
+                "RowName": "Item_Ghillie_Head",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 12600,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Ghillie",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredFlags": [
+                {
+                    "DataTableName": "D_CharacterFlags",
+                    "RowName": "Talent_Ghillie_Armor"
+                }
+            ],
+            "RequiredLevel": 20
+        },
+        {
+            "Name": "Ghillie_Arms",
+            "ExtraData": {
+                "RowName": "Item_Ghillie_Arms",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 12900,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Ghillie",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredFlags": [
+                {
+                    "DataTableName": "D_CharacterFlags",
+                    "RowName": "Talent_Ghillie_Armor"
+                }
+            ],
+            "RequiredLevel": 20
+        },
+        {
+            "Name": "Ghillie_Legs",
+            "ExtraData": {
+                "RowName": "Item_Ghillie_Legs",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 13050,
+                "Y": 850
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Ghillie",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredFlags": [
+                {
+                    "DataTableName": "D_CharacterFlags",
+                    "RowName": "Talent_Ghillie_Armor"
+                }
+            ],
+            "RequiredLevel": 20
+        },
+        {
+            "Name": "Ghillie_Feet",
+            "ExtraData": {
+                "RowName": "Item_Ghillie_Feet",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 11700,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Armor_Bench",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredFlags": [
+                {
+                    "DataTableName": "D_CharacterFlags",
+                    "RowName": "Talent_Ghillie_Armor"
+                }
+            ],
+            "RequiredLevel": 20
+        },
+        {
+            "Name": "Re_route_Ghillie",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 12900,
+                "Y": 1050
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Armor_Bench",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
+        },
+        {
+            "Name": "Reroute_Hunter",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 13450,
+                "Y": 1050
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Re_route_Composite",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Blueprint_T4_Fabricator"
+            },
+            "Position": {
+                "X": 9050,
+                "Y": 1050
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Electric_Armour_Bench",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
+        },
+        {
+            "Name": "Re_route_Armor_Cloth",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Blueprint_T1_Player"
+            },
+            "Position": {
+                "X": 5400,
+                "Y": 1050
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Player_Crafting",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
+        },
+        {
+            "Name": "Re_route_Armor_Leather",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 10800,
+                "Y": 1050
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Armor_Bench",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
+        },
+        {
+            "Name": "Re_route_Armor_Fur",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 11850,
+                "Y": 1050
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Armor_Bench",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
+        },
+        {
+            "Name": "Stalking_Storm_Stealth",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Stalking_Storm_Stealth-DisplayName\", \"Storm Stalker\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Stalking_Storm_Stealth-Description\", \"Increased stealth in storms\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Hunting/Talent_Hunting_StormStalker.Talent_Hunting_StormStalker",
+            "TalentTree": {
+                "RowName": "Survival_Hunting"
+            },
+            "Position": {
+                "X": 650,
+                "Y": 650
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Stalking_Detection_Range",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "YThenX"
+        },
+        {
+            "Name": "Leather_Curtain_Door",
+            "ExtraData": {
+                "RowName": "Item_Leather_Curtain_Door",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 12850,
+                "Y": 100
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Leather_Curtain_Window",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Polarbear_Head",
+            "ExtraData": {
+                "RowName": "Item_Polarbear_Head_Armor",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 14150,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Polarbear_Route",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredFlags": [
+                {
+                    "DataTableName": "D_CharacterFlags",
+                    "RowName": "Talent_Polarbear_Armor"
+                }
+            ],
+            "RequiredLevel": 25,
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Polarbear_Legs",
+            "ExtraData": {
+                "RowName": "Item_Polarbear_Legs",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 14600,
+                "Y": 850
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Polarbear_Route",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredFlags": [
+                {
+                    "DataTableName": "D_CharacterFlags",
+                    "RowName": "Talent_Polarbear_Armor"
+                }
+            ],
+            "RequiredLevel": 25,
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Polarbear_Arms",
+            "ExtraData": {
+                "RowName": "Item_Polarbear_Arms",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 14450,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Polarbear_Route",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredFlags": [
+                {
+                    "DataTableName": "D_CharacterFlags",
+                    "RowName": "Talent_Polarbear_Armor"
+                }
+            ],
+            "RequiredLevel": 25,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Polarbear_Feet",
+            "ExtraData": {
+                "RowName": "Item_Polarbear_Feet",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 14750,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Polarbear_Route",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredFlags": [
+                {
+                    "DataTableName": "D_CharacterFlags",
+                    "RowName": "Talent_Polarbear_Armor"
+                }
+            ],
+            "RequiredLevel": 25,
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Polarbear_Route",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 14450,
+                "Y": 1050
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredFlags": [
+                {
+                    "DataTableName": "D_CharacterFlags",
+                    "RowName": "Talent_Polarbear_Armor"
+                }
+            ],
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Hunter_Head",
+            "ExtraData": {
+                "RowName": "Item_Hunter_Head",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 13150,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Reroute_Hunter",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 25,
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Hunter_Legs",
+            "ExtraData": {
+                "RowName": "Item_Hunter_Legs",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 13600,
+                "Y": 850
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Reroute_Hunter",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 25,
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Hunter_Arms",
+            "ExtraData": {
+                "RowName": "Item_Hunter_Arms",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 13450,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Reroute_Hunter",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 25,
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Hunter_Feet",
+            "ExtraData": {
+                "RowName": "Item_Hunter_Feet",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 13750,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Reroute_Hunter",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 25,
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "ProspectReroute",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Prospect_Olympus"
+            },
+            "Position": {
+                "X": 1800,
+                "Y": 1950
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Prospect_OLY_Forest_Exploration",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
+        },
+        {
+            "Name": "ProspectReroute_1",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Prospect_Olympus"
+            },
+            "Position": {
+                "X": 1800,
+                "Y": 2700
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Prospect_OLY_Forest_Exploration",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
+        },
+        {
+            "Name": "Prospect_Reroute_4",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Prospect_Olympus"
+            },
+            "Position": {
+                "X": 7250,
+                "Y": 2800
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Prospect_OLY_Glacier_Exploration",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
+        },
+        {
+            "Name": "Prospect_Reroute_7",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Prospect_Olympus"
+            },
+            "Position": {
+                "X": 7250,
+                "Y": 1600
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Prospect_Canyon_Exploration",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
+        },
+        {
+            "Name": "Prospect_Reroute_9",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Prospect_Olympus"
+            },
+            "Position": {
+                "X": 12050,
+                "Y": 2250
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Prospect_OLY_Riverlands_Exploration",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
+        },
+        {
+            "Name": "Prospect_Reroute_11",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Prospect_Olympus"
+            },
+            "Position": {
+                "X": 12350,
+                "Y": 2950
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Prospect_OLY_Riverlands_Exploration",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
+        },
+        {
+            "Name": "Prospect_Reroute_15",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Prospect_Olympus"
+            },
+            "Position": {
+                "X": 16450,
+                "Y": 2850
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Prospect_OLY_Desert_Exploration",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
+        },
+        {
+            "Name": "Workshop_Module_PlayerTracker",
+            "ExtraData": {
+                "RowName": "Meta_Module_Tracker",
+                "DataTableName": "D_WorkshopItems"
+            },
+            "TalentTree": {
+                "RowName": "Workshop_Modules"
+            },
+            "Position": {
+                "X": 3400,
+                "Y": 1100
+            },
+            "Size": {
+                "X": 250,
+                "Y": 250
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Workshop_Module_New_2",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Prospect_Reroute_18",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Prospect_Olympus"
+            },
+            "Position": {
+                "X": 12350,
+                "Y": 1600
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Prospect_OLY_Riverlands_Exploration",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
+        },
+        {
+            "Name": "Prospect_Reroute_21",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Prospect_Olympus"
+            },
+            "Position": {
+                "X": 15750,
+                "Y": 3950
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Prospect_OLY_Desert_Exploration",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
+        },
+        {
+            "Name": "ProspectReroute_8",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Prospect_Olympus"
+            },
+            "Position": {
+                "X": 2250,
+                "Y": 2850
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Prospect_OLY_Forest_Exploration",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
+        },
+        {
+            "Name": "Advanced_Leather_Legs",
+            "ExtraData": {
+                "RowName": "Item_Hard_Leather_Legs",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 12600,
+                "Y": 850
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Advanced_Cloth_Reroute_0",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Advanced_Leather_Arms",
+            "ExtraData": {
+                "RowName": "Item_Hard_Leather_Arms",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 12450,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Advanced_Cloth_Reroute_0",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Advanced_Leather_Feet",
+            "ExtraData": {
+                "RowName": "Item_Hard_Leather_Feet",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 12750,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Advanced_Cloth_Reroute_0",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Advanced_Leather_Head",
+            "ExtraData": {
+                "RowName": "Item_Hard_Leather_Head",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 12150,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Advanced_Cloth_Reroute_0",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Advanced_Cloth_Feet",
+            "ExtraData": {
+                "RowName": "Item_Advanced_Cloth_Feet",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 11750,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Advanced_Cloth_Reroute",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Advanced_Cloth_Arms",
+            "ExtraData": {
+                "RowName": "Item_Advanced_Cloth_Arms",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 11450,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Advanced_Cloth_Reroute",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Advanced_Cloth_Legs",
+            "ExtraData": {
+                "RowName": "Item_Advanced_Cloth_Legs",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 11600,
+                "Y": 850
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Advanced_Cloth_Reroute",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Advanced_Cloth_Head",
+            "ExtraData": {
+                "RowName": "Item_Advanced_Cloth_Head",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 11150,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Advanced_Cloth_Reroute",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Advanced_Cloth_Reroute",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 11450,
+                "Y": 1050
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Advanced_Cloth_Reroute_0",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 12450,
+                "Y": 1050
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Prospect_Styx_A_Reroute_0",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Prospect_Styx"
+            },
+            "Position": {
+                "X": 2700,
+                "Y": 1100
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Prospect_Styx_A_Reroute",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
+        },
+        {
+            "Name": "Bone_Leg_Armor",
+            "ExtraData": {
+                "RowName": "Item_Bone_Legs",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T1_Player"
+            },
+            "Position": {
+                "X": 5600,
+                "Y": 850
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Bone_Armor_Reroute",
+                    "DataTableName": "D_Talents"
+                }
+            ]
+        },
+        {
+            "Name": "Bone_Feet_Armor",
+            "ExtraData": {
+                "RowName": "Item_Bone_Feet",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T1_Player"
+            },
+            "Position": {
+                "X": 6600,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Bone_Armor_Reroute",
+                    "DataTableName": "D_Talents"
+                }
+            ]
+        },
+        {
+            "Name": "Bone_Head_Armor",
+            "ExtraData": {
+                "RowName": "Item_Bone_Head",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T1_Player"
+            },
+            "Position": {
+                "X": 6000,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Bone_Armor_Reroute",
+                    "DataTableName": "D_Talents"
+                }
+            ]
+        },
+        {
+            "Name": "Bone_Arm_Armor",
+            "ExtraData": {
+                "RowName": "Item_Bone_Arms",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T1_Player"
+            },
+            "Position": {
+                "X": 6300,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Bone_Armor_Reroute",
+                    "DataTableName": "D_Talents"
+                }
+            ]
+        },
+        {
+            "Name": "Bone_Armor_Reroute",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Blueprint_T1_Player"
+            },
+            "Position": {
+                "X": 6300,
+                "Y": 1050
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Player_Crafting",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
+        },
+        {
+            "Name": "Heavy_Obsidian_Head",
+            "ExtraData": {
+                "RowName": "Item_Heavy_Obsidian_Head",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 13650,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Heavy_Obsidian_Reroute",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 25,
+            "DrawMethodOverride": "XThenY",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Heavy_Obsidian_Legs",
+            "ExtraData": {
+                "RowName": "Item_Heavy_Obsidian_Legs",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 14100,
+                "Y": 850
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Heavy_Obsidian_Reroute",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 25,
+            "DrawMethodOverride": "XThenY",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Heavy_Obsidian_Arms",
+            "ExtraData": {
+                "RowName": "Item_Heavy_Obsidian_Arms",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 13950,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Heavy_Obsidian_Reroute",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 25,
+            "DrawMethodOverride": "ShortestDistance",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Heavy_Obsidian_Feet",
+            "ExtraData": {
+                "RowName": "Item_Heavy_Obsidian_Feet",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 14250,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Heavy_Obsidian_Reroute",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 25,
+            "DrawMethodOverride": "XThenY",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Heavy_Obsidian_Reroute",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 13950,
+                "Y": 1050
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Armor_Bench",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 25,
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Obsidian_Head",
+            "ExtraData": {
+                "RowName": "Item_Obsidian_Head",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T4_Fabricator"
+            },
+            "Position": {
+                "X": 9750,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Obsidian_Armor_Reroute",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 35,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian_Arms",
+            "ExtraData": {
+                "RowName": "Item_Obsidian_Arms",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T4_Fabricator"
+            },
+            "Position": {
+                "X": 10050,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Obsidian_Armor_Reroute",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 35,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian_Legs",
+            "ExtraData": {
+                "RowName": "Item_Obsidian_Legs",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T4_Fabricator"
+            },
+            "Position": {
+                "X": 10200,
+                "Y": 850
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Obsidian_Armor_Reroute",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 35,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian_Feet",
+            "ExtraData": {
+                "RowName": "Item_Obsidian_Feet",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T4_Fabricator"
+            },
+            "Position": {
+                "X": 10350,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Obsidian_Armor_Reroute",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 35,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian_Armor_Reroute",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Blueprint_T4_Fabricator"
+            },
+            "Position": {
+                "X": 10050,
+                "Y": 1050
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Electric_Armour_Bench",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
+        },
+        {
+            "Name": "Brownbear_Leg_Armor",
+            "ExtraData": {
+                "RowName": "Item_Brownbear_Legs",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 15150,
+                "Y": 850
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Bone_Armor_Reroute_0",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 20
+        },
+        {
+            "Name": "Brownbear_Feet_Armor",
+            "ExtraData": {
+                "RowName": "Item_Brownbear_Feet",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 15300,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Bone_Armor_Reroute_0",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 20
+        },
+        {
+            "Name": "BrownBear_Head_Armor",
+            "ExtraData": {
+                "RowName": "Item_Brownbear_Head_Armor",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 14700,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Bone_Armor_Reroute_0",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 20
+        },
+        {
+            "Name": "Brownbear_Arm_Armor",
+            "ExtraData": {
+                "RowName": "Item_Brownbear_Arms",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 15000,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Bone_Armor_Reroute_0",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 20
+        },
+        {
+            "Name": "Bone_Armor_Reroute_0",
+            "bIsReroute": true,
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 15000,
+                "Y": 1050
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Armor_Bench",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true
         }
     ]
 }

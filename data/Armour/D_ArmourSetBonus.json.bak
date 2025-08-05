@@ -319,7 +319,7 @@
             "StatsGranted": {
                 "(Value=\"BaseExposureResistance_+%\")": 10,
                 "(Value=\"BasePneumoniaResistance_%\")": 50,
-                "(Value=\"BaseMiningRewards_+%\")": 100,
+                "(Value=\"BaseMiningRewards_+%\")": 15,
                 "(Value=\"BasePoisonDamageResistance_%\")": 25
             }
         },
@@ -330,7 +330,7 @@
             "StatsGranted": {
                 "(Value=\"BaseExposureResistance_+%\")": 10,
                 "(Value=\"BasePneumoniaResistance_%\")": 50,
-                "(Value=\"BaseMiningRewards_+%\")": 100,
+                "(Value=\"BaseMiningRewards_+%\")": 15,
                 "(Value=\"BasePoisonDamageResistance_%\")": 25
             }
         },
@@ -341,7 +341,7 @@
             "StatsGranted": {
                 "(Value=\"BaseExposureResistance_+%\")": 10,
                 "(Value=\"BasePneumoniaResistance_%\")": 50,
-                "(Value=\"BaseMiningRewards_+%\")": 100,
+                "(Value=\"BaseMiningRewards_+%\")": 15,
                 "(Value=\"BasePoisonDamageResistance_%\")": 25
             }
         }

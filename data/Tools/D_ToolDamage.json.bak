@@ -597,65 +597,6 @@
             "Melee_Damage": 70,
             "DamageVariationPercentage": 10,
             "Skinning_Efficiency": 2.25
-        },
-        {
-            "Name": "Lithium_Axe",
-            "Melee_Damage": 30,
-            "DamageVariationPercentage": 10,
-            "Felling_Damage": 80,
-            "Felling_Efficiency": 1.399999976158142
-        },
-        {
-            "Name": "Lithium_Pickaxe",
-            "Melee_Damage": 30,
-            "DamageVariationPercentage": 10,
-            "Mining_Radius": 75,
-            "Mining_Efficiency": 1.399999976158142
-        },
-        {
-            "Name": "Lithium_Knife",
-            "Melee_Damage": 40,
-            "DamageVariationPercentage": 5,
-            "Skinning_Efficiency": 2.25
-        },
-        {
-            "Name": "Lithium_Spear",
-            "Melee_Damage": 40,
-            "DamageVariationPercentage": 5
-        },
-        {
-            "Name": "Lithium_Sickle",
-            "Melee_Damage": 40,
-            "DamageVariationPercentage": 10,
-            "Reaping_Efficiency": 1.850000023841858
-        },
-        {
-            "Name": "Lithium_Sledgehammer",
-            "Melee_Damage": 100,
-            "DamageVariationPercentage": 25,
-            "Shattering_Damage": 50,
-            "Shattering_Efficiency": 1
-        },
-        {
-            "Name": "Jackhammer",
-            "Melee_Damage": 40,
-            "DamageVariationPercentage": 5,
-            "Mining_Radius": 60,
-            "Mining_Efficiency": 2
-        },
-        {
-            "Name": "Chainsaw",
-            "Melee_Damage": 40,
-            "DamageVariationPercentage": 5,
-            "Felling_Damage": 50,
-            "Felling_Efficiency": 1.25
-        },
-        {
-            "Name": "Mining_Laser",
-            "Melee_Damage": 22,
-            "DamageVariationPercentage": 10,
-            "Mining_Radius": 60,
-            "Mining_Efficiency": 1.2999999523162842
         }
     ]
 }

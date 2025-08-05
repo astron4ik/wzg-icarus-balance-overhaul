@@ -23001,127 +23001,127 @@
             "Name": "Item_Concrete_Diagonal_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Diagonal_Set-DisplayName\", \"Concrete Diagonal Buildings\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Concrete_Curved_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Curved_Set-DisplayName\", \"Concrete Curved Buildings\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Curved_Set-Description\", \"A set of cross-tile curved pieces.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Concrete_Diagonal_Curved_Wall_Angles",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Diagonal_Curved_Wall_Angles-DisplayName\", \"Concrete Curved Wall Angles\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Diagonal_Curved_Wall_Angles-Description\", \"A set of cross-tile curved walls in various angles.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Concrete_Roof_CurvedAngles",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Roof_CurvedAngles-DisplayName\", \"Concrete Roof Curved Angle\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Concrete_Curved_Wall",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Curved_Wall-DisplayName\", \"Concrete Wall/Roof Curved\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Curved_Wall-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Concrete_Advanced_Beam_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Advanced_Beam_Set-DisplayName\", \"Concrete Advanced Beams\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Advanced_Beam_Set-Description\", \"An advanced set of beams for use with diagonal and curved pieces.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Glass_Diagonal_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Diagonal_Set-DisplayName\", \"Glass Diagonal Buildings\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
-            ""Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Glass_Curved_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Curved_Set-DisplayName\", \"Glass Curved Buildings\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Curved_Set-Description\", \"A set of cross-tile curved pieces.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Glass_Diagonal_Curved_Wall_Angles",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Diagonal_Curved_Wall_Angles-DisplayName\", \"Glass Curved Wall Angles\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Diagonal_Curved_Wall_Angles-Description\", \"A set of cross-tile curved walls in various angles.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Glass_Roof_CurvedAngles",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Roof_CurvedAngles-DisplayName\", \"Glass Roof Curved Angle\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Glass_Curved_Wall",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Curved_Wall-DisplayName\", \"Glass Wall/Roof Curved\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Curved_Wall-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Glass_Advanced_Beam_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Advanced_Beam_Set-DisplayName\", \"Glass Advanced Beams\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Advanced_Beam_Set-Description\", \"An advanced set of beams for use with diagonal and curved pieces.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Glass_Diagonal_Set_Tempered",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Diagonal_Set_Tempered-DisplayName\", \"Reinforced Glass Diagonal Buildings\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Diagonal_Set_Tempered-Description\", \"A set of cross-tile diagonal pieces.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Glass_Curved_Set_Tempered",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Curved_Set_Tempered-DisplayName\", \"Reinforced Glass Curved Buildings\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Curved_Set_Tempered-Description\", \"A set of cross-tile curved pieces.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Glass_Diagonal_Curved_Wall_Angles_Tempered",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Diagonal_Curved_Wall_Angles_Tempered-DisplayName\", \"Reinforced Glass Curved Wall Angles\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Diagonal_Curved_Wall_Angles_Tempered-Description\", \"A set of cross-tile curved walls in various angles.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Glass_Roof_CurvedAngles_Tempered",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Roof_CurvedAngles_Tempered-DisplayName\", \"Reinforced Glass Roof Curved Angle\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Roof_CurvedAngles_Tempered-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Glass_Curved_Wall_Tempered",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Curved_Wall_Tempered-DisplayName\", \"Reinforced Glass Wall/Roof Curved\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Curved_Wall_Tempered-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Glass_Advanced_Beam_Set_Tempered",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Advanced_Beam_Set_Tempered-DisplayName\", \"Reinforced Glass Advanced Beams\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Advanced_Beam_Set_Tempered-Description\", \"An advanced set of beams for use with diagonal and curved pieces.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Lithium_Ore",
@@ -23262,127 +23262,127 @@
             "Name": "Item_Clay_Brick_Diagonal_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Diagonal_Set-DisplayName\", \"Clay Brick Diagonal Buildings\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Clay_Brick_Curved_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Curved_Set-DisplayName\", \"Clay Brick Curved Buildings\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Curved_Set-Description\", \"A set of cross-tile curved pieces.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Clay_Brick_Diagonal_Curved_Wall_Angles",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Diagonal_Curved_Wall_Angles-DisplayName\", \"Clay Brick Curved Wall Angles\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Diagonal_Curved_Wall_Angles-Description\", \"A set of cross-tile curved walls in various angles.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Clay_Brick_Roof_CurvedAngles",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Roof_CurvedAngles-DisplayName\", \"Clay Brick Roof Curved Angle\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Clay_Brick_Curved_Wall",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Curved_Wall-DisplayName\", \"Clay Brick Wall/Roof Curved\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Curved_Wall-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Clay_Brick_Advanced_Beam_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Advanced_Beam_Set-DisplayName\", \"Clay Brick Advanced Beams\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Advanced_Beam_Set-Description\", \"An advanced set of beams for use with diagonal and curved pieces.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Scoria_Brick_Diagonal_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Diagonal_Set-DisplayName\", \"Scoria Brick Diagonal Buildings\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Scoria_Brick_Curved_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Curved_Set-DisplayName\", \"Scoria Brick Curved Buildings\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Curved_Set-Description\", \"A set of cross-tile curved pieces.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Scoria_Brick_Diagonal_Curved_Wall_Angles",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Diagonal_Curved_Wall_Angles-DisplayName\", \"Scoria Brick Curved Wall Angles\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Diagonal_Curved_Wall_Angles-Description\", \"A set of cross-tile curved walls in various angles.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Scoria_Brick_Roof_CurvedAngles",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Roof_CurvedAngles-DisplayName\", \"Scoria Brick Roof Curved Angle\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Scoria_Brick_Curved_Wall",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Curved_Wall-DisplayName\", \"Scoria Brick Wall/Roof Curved\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Curved_Wall-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Scoria_Brick_Advanced_Beam_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Advanced_Beam_Set-DisplayName\", \"Scoria Brick Advanced Beams\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Advanced_Beam_Set-Description\", \"An advanced set of beams for use with diagonal and curved pieces.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Stone_Brick_Diagonal_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Diagonal_Set-DisplayName\", \"Stone Brick Diagonal Buildings\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Stone_Brick_Curved_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Curved_Set-DisplayName\", \"Stone Brick Curved Buildings\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Curved_Set-Description\", \"A set of cross-tile curved pieces.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Stone_Brick_Diagonal_Curved_Wall_Angles",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Diagonal_Curved_Wall_Angles-DisplayName\", \"Stone Brick Curved Wall Angles\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Diagonal_Curved_Wall_Angles-Description\", \"A set of cross-tile curved walls in various angles.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Stone_Brick_Roof_CurvedAngles",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Roof_CurvedAngles-DisplayName\", \"Stone Brick Roof Curved Angle\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Stone_Brick_Curved_Wall",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Curved_Wall-DisplayName\", \"Stone Brick Wall/Roof Curved\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Curved_Wall-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Stone_Brick_Advanced_Beam_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Advanced_Beam_Set-DisplayName\", \"Stone Brick Advanced Beams\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Advanced_Beam_Set-Description\", \"An advanced set of beams for use with diagonal and curved pieces.\")",
-            "Weight": 500,
-            "MaxStack": 50
+            "Weight": 5000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Lithium_Bow",
