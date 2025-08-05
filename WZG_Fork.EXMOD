@@ -2,7 +2,7 @@
         "name": "WZG_Fork",
         "author": "Astron4ik",
         "version": "1.0",
-        "week": "190",
+        "week": "191",
         "description": "",
         "fileName": "WZG_Fork",
         "readmeURL": "",
@@ -601,6 +601,33 @@
                         "(Value=\"BaseCaveBatExtraDamage_+%\")": 20,
                         "(Value=\"BaseRockGolemJuvenileExtraDamage_+%\")": 20,
                         "(Value=\"BaseMiningRewards_+%\")": 100
+                    }
+                },
+                {
+                    "Name": "CavewormScale",
+                    "StatsGranted": {
+                        "(Value=\"BaseExposureResistance_+%\")": 10,
+                        "(Value=\"BasePneumoniaResistance_%\")": 50,
+                        "(Value=\"BaseMiningRewards_+%\")": 100,
+                        "(Value=\"BasePoisonDamageResistance_%\")": 25
+                    }
+                },
+                {
+                    "Name": "Hazmat",
+                    "StatsGranted": {
+                        "(Value=\"BaseExposureResistance_+%\")": 10,
+                        "(Value=\"BasePneumoniaResistance_%\")": 50,
+                        "(Value=\"BaseMiningRewards_+%\")": 100,
+                        "(Value=\"BasePoisonDamageResistance_%\")": 25
+                    }
+                },
+                {
+                    "Name": "Radiation_Protection_Armor",
+                    "StatsGranted": {
+                        "(Value=\"BaseExposureResistance_+%\")": 10,
+                        "(Value=\"BasePneumoniaResistance_%\")": 50,
+                        "(Value=\"BaseMiningRewards_+%\")": 100,
+                        "(Value=\"BasePoisonDamageResistance_%\")": 25
                     }
                 }
             ]
@@ -4324,6 +4351,104 @@
                     ]
                 },
                 {
+                    "Name": "Electric_Fireplace",
+                    "RequiredMillijoules": 5000,
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Aluminium",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 9,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 7,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Mix",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 4,
+                            "DynamicProperties": []
+                        }
+                    ]
+                },
+                {
+                    "Name": "Electric_Fireplace_Ext",
+                    "RequiredMillijoules": 5000,
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Aluminium",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": []
+                        }
+                    ]
+                },
+                {
+                    "Name": "Electric_Fireplace_Cap",
+                    "RequiredMillijoules": 5000,
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Aluminium",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 3,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2,
+                            "DynamicProperties": []
+                        }
+                    ]
+                },
+                {
                     "Name": "Pouch_Generic_Red",
                     "Inputs": [
                         {
@@ -4433,349 +4558,6 @@
                             "DynamicProperties": []
                         }
                     ]
-                },
-                {
-                    "Name": "Carcass_Wulv",
-                    "bForceDisableRecipe": true,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Skinning_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "AnimalCarcass_Wulv",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": []
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Raw_Meat",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 4,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Leather",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 40,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Fur",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 15,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Bone",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 20,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "SkinningBench"
-                    }
-                },
-                {
-                    "Name": "Carcass_RedGoat",
-                    "RecipeSets": [
-                        {
-                            "RowName": "Skinning_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "AnimalCarcass_RedGoat",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": []
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Raw_Meat",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 4,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Leather",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 40,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Fur",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 15,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Bone",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 20,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "SkinningBench"
-                    }
-                },
-                {
-                    "Name": "Ice_Wall",
-                    "Requirement": {
-                        "RowName": "Ice_Basic"
-                    },
-                    "RequiredMillijoules": 10000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Character",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Ice",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 20,
-                            "DynamicProperties": []
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Ice_Wall",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "Default"
-                    }
-                },
-                {
-                    "Name": "Ice_Floor",
-                    "Requirement": {
-                        "RowName": "Ice_Basic"
-                    },
-                    "RequiredMillijoules": 10000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Character",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Ice",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 20,
-                            "DynamicProperties": []
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Ice_Floor",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "Default"
-                    }
-                },
-                {
-                    "Name": "Ice_Ramp",
-                    "Requirement": {
-                        "RowName": "Ice_Basic"
-                    },
-                    "RequiredMillijoules": 10000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Character",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Ice",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 20,
-                            "DynamicProperties": []
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Ice_Ramp",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "Default"
-                    }
-                },
-                {
-                    "Name": "Ice_Wall_Angle",
-                    "Requirement": {
-                        "RowName": "Ice_Basic"
-                    },
-                    "RequiredMillijoules": 10000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Character",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Ice",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 20,
-                            "DynamicProperties": []
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Ice_Wall_Angle",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "Default"
-                    }
-                },
-                {
-                    "Name": "Ice_Beam",
-                    "Requirement": {
-                        "RowName": "Ice_Basic"
-                    },
-                    "RequiredMillijoules": 10000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Character",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Ice",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 14,
-                            "DynamicProperties": []
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Ice_Beam",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "Default"
-                    }
-                },
-                {
-                    "Name": "Ice_Roof_Corner",
-                    "Requirement": {
-                        "RowName": "Ice_Advanced"
-                    },
-                    "RequiredMillijoules": 10000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Character",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Ice",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 20,
-                            "DynamicProperties": []
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Ice_Roof_Corner",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "Default"
-                    }
                 }
             ]
         },
@@ -8428,11 +8210,12 @@
                     }
                 },
                 {
-                    "Name": "Meta_Bow_Shengong_Delta",
+                    "Name": "Meta_Bow_Shengong_Echo",
                     "AdditionalStats": {
-                        "(Value=\"BaseBowChargeSpeed_+%\")": -15,
-                        "(Value=\"BaseArrowProjectileSpeed_+%\")": 15,
-                        "(Value=\"BaseBowProjectileDamage_+%\")": 10
+                        "(Value=\"BaseElectricDamage_+%\")": 50,
+                        "(Value=\"BaseFireDamage_+%\")": 50,
+                        "(Value=\"BasePoisonDamage_+%\")": 50,
+                        "(Value=\"BaseFrostDamage_+%\")": 50
                     }
                 },
                 {
@@ -11068,6 +10851,24 @@
             "CurrentFile": "Items-D_ItemTemplate.json",
             "File_Items": [
                 {
+                    "Name": "Farming_CropPlot",
+                    "ItemStaticData": {
+                        "RowName": "Farming_CropPlot_T2_v2"
+                    }
+                },
+                {
+                    "Name": "Farming_CropPlot_T3",
+                    "ItemStaticData": {
+                        "RowName": "Farming_CropPlot_T3_v2"
+                    }
+                },
+                {
+                    "Name": "Farming_CropPlot_T4",
+                    "ItemStaticData": {
+                        "RowName": "Farming_CropPlot_T4_v2"
+                    }
+                },
+                {
                     "Name": "Meta_Canteen_Shengong",
                     "ItemDynamicData": [
                         {
@@ -11103,6 +10904,19 @@
                         {
                             "PropertyType": "Fillable_StoredUnits",
                             "Value": 100000
+                        }
+                    ]
+                },
+                {
+                    "Name": "Watering_Can_Full",
+                    "ItemDynamicData": [
+                        {
+                            "PropertyType": "Fillable_StoredUnits",
+                            "Value": 5000
+                        },
+                        {
+                            "PropertyType": "Fillable_Type",
+                            "Value": 2
                         }
                     ]
                 },
@@ -13080,76 +12894,6 @@
             "CurrentFile": "Talents-D_Talents.json",
             "File_Items": [
                 {
-                    "Name": "Carpentry_Bench",
-                    "Position": {
-                        "X": 19100,
-                        "Y": 300
-                    }
-                },
-                {
-                    "Name": "Wood_Cupboard",
-                    "Position": {
-                        "X": 16050,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Bed_Wood",
-                    "Position": {
-                        "X": 17850,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "Wall_Torch",
-                    "Position": {
-                        "X": 16450,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Wood_Table",
-                    "Position": {
-                        "X": 17250,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "Obsidian_Chest",
-                    "Position": {
-                        "X": 9900,
-                        "Y": 850
-                    }
-                },
-                {
-                    "Name": "Wood_Sign_Small",
-                    "Position": {
-                        "X": 18150,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "Brazier",
-                    "Position": {
-                        "X": 16700,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Re_route_3",
-                    "Position": {
-                        "X": 16250,
-                        "Y": 300
-                    }
-                },
-                {
-                    "Name": "Masonry_Bench",
-                    "Position": {
-                        "X": 19100,
-                        "Y": 1050
-                    }
-                },
-                {
                     "Name": "Bow_Arrow_Double_Craft",
                     "Rewards": [
                         {
@@ -13182,27 +12926,6 @@
                             "GrantedFlags": []
                         }
                     ]
-                },
-                {
-                    "Name": "Interior_Wood_Crate_Small",
-                    "Position": {
-                        "X": 18150,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Interior_Wood_Crate_Medium",
-                    "Position": {
-                        "X": 17850,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Interior_Wood_Cupboard",
-                    "Position": {
-                        "X": 17550,
-                        "Y": 450
-                    }
                 },
                 {
                     "Name": "Building_Concrete_Weight",
@@ -13339,27 +13062,6 @@
                     ]
                 },
                 {
-                    "Name": "Wood_Chair",
-                    "Position": {
-                        "X": 15100,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "Leather_Curtain_Window",
-                    "Position": {
-                        "X": 16450,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "LightningRod_Basic",
-                    "Position": {
-                        "X": 16050,
-                        "Y": 100
-                    }
-                },
-                {
                     "Name": "Building_Concrete_Weight_0",
                     "Rewards": [
                         {
@@ -13381,13 +13083,6 @@
                             "GrantedFlags": []
                         }
                     ]
-                },
-                {
-                    "Name": "Reroute_T4Devices01",
-                    "Position": {
-                        "X": 6200,
-                        "Y": 450
-                    }
                 },
                 {
                     "Name": "Produce_Dried_Meat_Buff_Food",
@@ -13498,41 +13193,6 @@
                     ]
                 },
                 {
-                    "Name": "Animal_Bed",
-                    "Position": {
-                        "X": 14150,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Water_Trough",
-                    "Position": {
-                        "X": 15150,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "Saddle_Standard_Bag",
-                    "Position": {
-                        "X": 13700,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "Food_Trough",
-                    "Position": {
-                        "X": 15150,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Saddle_Standard",
-                    "Position": {
-                        "X": 14300,
-                        "Y": 100
-                    }
-                },
-                {
                     "Name": "Husbandry_TameTempTolerance",
                     "Rewards": [
                         {
@@ -13575,223 +13235,6 @@
                     ]
                 },
                 {
-                    "Name": "Wood_Cart",
-                    "Position": {
-                        "X": 13400,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "Fish_Wall_Mount",
-                    "Position": {
-                        "X": 18450,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Stone_Statue_Set",
-                    "Position": {
-                        "X": 17850,
-                        "Y": 850
-                    }
-                },
-                {
-                    "Name": "Carved_Wood_Set",
-                    "Position": {
-                        "X": 17250,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Decorations_DLC_1_Geodes",
-                    "Position": {
-                        "X": 17550,
-                        "Y": 1200
-                    }
-                },
-                {
-                    "Name": "Decorations_DLC_1_Paintings",
-                    "Position": {
-                        "X": 18750,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Interior_Wood_Basic",
-                    "Position": {
-                        "X": 19700,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Interior_Wood_Advanced",
-                    "Position": {
-                        "X": 20000,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Interior_Wood_Trim",
-                    "Position": {
-                        "X": 19400,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Stone_Basic",
-                    "Position": {
-                        "X": 19700,
-                        "Y": 850
-                    }
-                },
-                {
-                    "Name": "Stone_Advanced",
-                    "Position": {
-                        "X": 20000,
-                        "Y": 850
-                    }
-                },
-                {
-                    "Name": "Stone_Trim",
-                    "Position": {
-                        "X": 19400,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "Scoria_Basic",
-                    "Position": {
-                        "X": 19700,
-                        "Y": 1200
-                    }
-                },
-                {
-                    "Name": "Scoria_Advanced",
-                    "Position": {
-                        "X": 20000,
-                        "Y": 1200
-                    }
-                },
-                {
-                    "Name": "Carpentry_Building_Reroute",
-                    "Position": {
-                        "X": 19700,
-                        "Y": 300
-                    }
-                },
-                {
-                    "Name": "Workshop_Backpack_Tech",
-                    "Position": {
-                        "X": 3900,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Reinforced_Wood_Basic",
-                    "Position": {
-                        "X": 19700,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "Reinforced_Wood_Advanced",
-                    "Position": {
-                        "X": 20000,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "CreatureComforts",
-                    "Position": {
-                        "X": 12950,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Food_Trough_Large",
-                    "Position": {
-                        "X": 15450,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Water_Trough_Large",
-                    "Position": {
-                        "X": 15450,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "Food_Trough_T4",
-                    "Position": {
-                        "X": 15750,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Water_Trough_T4",
-                    "Position": {
-                        "X": 15750,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "Chicken_Coop",
-                    "Position": {
-                        "X": 13250,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Animal_Bench",
-                    "Position": {
-                        "X": 14850,
-                        "Y": 300
-                    }
-                },
-                {
-                    "Name": "Snare_Trap",
-                    "Position": {
-                        "X": 13550,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Hitching_Post",
-                    "Position": {
-                        "X": 13850,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Re_route_Creature_Comforts",
-                    "Position": {
-                        "X": 14550,
-                        "Y": 300
-                    }
-                },
-                {
-                    "Name": "Farming_Carts",
-                    "Position": {
-                        "X": 13100,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "AnimalFeedPack",
-                    "Position": {
-                        "X": 14450,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Sandworm_Buildings",
-                    "Position": {
-                        "X": 18400,
-                        "Y": 1200
-                    }
-                },
-                {
                     "Name": "Oil_Epoxy",
                     "ExtraData": {
                         "RowName": "Item_Epoxy",
@@ -13815,2098 +13258,6 @@
                         }
                     ],
                     "DrawMethodOverride": "ShortestDistance"
-                },
-                {
-                    "Name": "Saddle_Desert",
-                    "Position": {
-                        "X": 14600,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "Saddle_Arctic",
-                    "Position": {
-                        "X": 14000,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "Farming_Cart_Attachments",
-                    "Position": {
-                        "X": 12800,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "Prospect_Styx_A_Reroute",
-                    "Position": {
-                        "X": 2300,
-                        "Y": 1100
-                    }
-                },
-                {
-                    "Name": "Stone_Sign_Small",
-                    "Position": {
-                        "X": 17250,
-                        "Y": 1200
-                    }
-                },
-                {
-                    "Name": "Armor_Stand",
-                    "Position": {
-                        "X": 18750,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "Alien_Decorations",
-                    "Position": {
-                        "X": 17550,
-                        "Y": 850
-                    }
-                },
-                {
-                    "Name": "Sandworm_Buildings_2",
-                    "Position": {
-                        "X": 18700,
-                        "Y": 1200
-                    }
-                },
-                {
-                    "Name": "Target_Dummy",
-                    "Position": {
-                        "X": 18450,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "Cloth_Head_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Cloth_Head",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T1_Player"
-                    },
-                    "Position": {
-                        "X": 5100,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Armor_Cloth",
-                            "DataTableName": "D_Talents"
-                        }
-                    ]
-                },
-                {
-                    "Name": "Cloth_Arms_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Cloth_Arms",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T1_Player"
-                    },
-                    "Position": {
-                        "X": 5400,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Armor_Cloth",
-                            "DataTableName": "D_Talents"
-                        }
-                    ]
-                },
-                {
-                    "Name": "Cloth_Legs_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Cloth_Legs",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T1_Player"
-                    },
-                    "Position": {
-                        "X": 5550,
-                        "Y": 850
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Armor_Cloth",
-                            "DataTableName": "D_Talents"
-                        }
-                    ]
-                },
-                {
-                    "Name": "Cloth_Feet_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Cloth_Feet",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T1_Player"
-                    },
-                    "Position": {
-                        "X": 5700,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Armor_Cloth",
-                            "DataTableName": "D_Talents"
-                        }
-                    ]
-                },
-                {
-                    "Name": "Leather_Head_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Leather_Head",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 10500,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Armor_Leather",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 15
-                },
-                {
-                    "Name": "Leather_Arms_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Leather_Arms",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 10800,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Armor_Leather",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 15
-                },
-                {
-                    "Name": "Leather_Legs_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Leather_Legs",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 11550,
-                        "Y": 850
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Armor_Leather",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 15
-                },
-                {
-                    "Name": "Leather_Feet_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Leather_Feet",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 11100,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Armor_Leather",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 15
-                },
-                {
-                    "Name": "Fur_Head_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Fur_Head",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 11550,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Armor_Fur",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 20
-                },
-                {
-                    "Name": "Fur_Arms_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Fur_Arms",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 11850,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Armor_Fur",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 20
-                },
-                {
-                    "Name": "Fur_Legs_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Fur_Legs",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 12000,
-                        "Y": 850
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Armor_Fur",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 20
-                },
-                {
-                    "Name": "Fur_Feet_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Fur_Feet",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 12150,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Armor_Fur",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 20
-                },
-                {
-                    "Name": "Composite_Head",
-                    "ExtraData": {
-                        "RowName": "Item_Composite_Head",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T4_Fabricator"
-                    },
-                    "Position": {
-                        "X": 8750,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Composite",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 35
-                },
-                {
-                    "Name": "Composite_Arms",
-                    "ExtraData": {
-                        "RowName": "Item_Composite_Arms",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T4_Fabricator"
-                    },
-                    "Position": {
-                        "X": 9050,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Composite",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 35
-                },
-                {
-                    "Name": "Composite_Legs",
-                    "ExtraData": {
-                        "RowName": "Item_Composite_Legs",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T4_Fabricator"
-                    },
-                    "Position": {
-                        "X": 11800,
-                        "Y": 850
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Composite",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 35
-                },
-                {
-                    "Name": "Composite_Feet",
-                    "ExtraData": {
-                        "RowName": "Item_Composite_Feet",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T4_Fabricator"
-                    },
-                    "Position": {
-                        "X": 9350,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Composite",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 35
-                },
-                {
-                    "Name": "Ghillie_Head",
-                    "ExtraData": {
-                        "RowName": "Item_Ghillie_Head",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 12600,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Ghillie",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredFlags": [
-                        {
-                            "DataTableName": "D_CharacterFlags",
-                            "RowName": "Talent_Ghillie_Armor"
-                        }
-                    ],
-                    "RequiredLevel": 20
-                },
-                {
-                    "Name": "Ghillie_Arms",
-                    "ExtraData": {
-                        "RowName": "Item_Ghillie_Arms",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 12900,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Ghillie",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredFlags": [
-                        {
-                            "DataTableName": "D_CharacterFlags",
-                            "RowName": "Talent_Ghillie_Armor"
-                        }
-                    ],
-                    "RequiredLevel": 20
-                },
-                {
-                    "Name": "Ghillie_Legs",
-                    "ExtraData": {
-                        "RowName": "Item_Ghillie_Legs",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 13050,
-                        "Y": 850
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Re_route_Ghillie",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredFlags": [
-                        {
-                            "DataTableName": "D_CharacterFlags",
-                            "RowName": "Talent_Ghillie_Armor"
-                        }
-                    ],
-                    "RequiredLevel": 20
-                },
-                {
-                    "Name": "Ghillie_Feet",
-                    "ExtraData": {
-                        "RowName": "Item_Ghillie_Feet",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 11700,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Armor_Bench",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredFlags": [
-                        {
-                            "DataTableName": "D_CharacterFlags",
-                            "RowName": "Talent_Ghillie_Armor"
-                        }
-                    ],
-                    "RequiredLevel": 20
-                },
-                {
-                    "Name": "Re_route_Ghillie",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 12900,
-                        "Y": 1050
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Armor_Bench",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
-                },
-                {
-                    "Name": "Reroute_Hunter",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 13450,
-                        "Y": 1050
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Advanced_Armor_Bench",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true,
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Re_route_Composite",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Blueprint_T4_Fabricator"
-                    },
-                    "Position": {
-                        "X": 9050,
-                        "Y": 1050
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Electric_Armour_Bench",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
-                },
-                {
-                    "Name": "Re_route_Armor_Cloth",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Blueprint_T1_Player"
-                    },
-                    "Position": {
-                        "X": 5400,
-                        "Y": 1050
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Player_Crafting",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
-                },
-                {
-                    "Name": "Re_route_Armor_Leather",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 10800,
-                        "Y": 1050
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Armor_Bench",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
-                },
-                {
-                    "Name": "Re_route_Armor_Fur",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 11850,
-                        "Y": 1050
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Armor_Bench",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
-                },
-                {
-                    "Name": "Stalking_Storm_Stealth",
-                    "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Stalking_Storm_Stealth-DisplayName\", \"Storm Stalker\")",
-                    "Description": "NSLOCTEXT(\"D_Talents\", \"Stalking_Storm_Stealth-Description\", \"Increased stealth in storms\")",
-                    "Icon": "/Game/Assets/2DArt/UI/Talents/Hunting/Talent_Hunting_StormStalker.Talent_Hunting_StormStalker",
-                    "TalentTree": {
-                        "RowName": "Survival_Hunting"
-                    },
-                    "Position": {
-                        "X": 650,
-                        "Y": 650
-                    },
-                    "Size": {
-                        "X": 128,
-                        "Y": 128
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Stalking_Detection_Range",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "DrawMethodOverride": "YThenX"
-                },
-                {
-                    "Name": "Leather_Curtain_Door",
-                    "ExtraData": {
-                        "RowName": "Item_Leather_Curtain_Door",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 12850,
-                        "Y": 100
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Leather_Curtain_Window",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "DrawMethodOverride": "ShortestDistance"
-                },
-                {
-                    "Name": "Polarbear_Head",
-                    "ExtraData": {
-                        "RowName": "Item_Polarbear_Head_Armor",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 14150,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Polarbear_Route",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredFlags": [
-                        {
-                            "DataTableName": "D_CharacterFlags",
-                            "RowName": "Talent_Polarbear_Armor"
-                        }
-                    ],
-                    "RequiredLevel": 25,
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Polarbear_Legs",
-                    "ExtraData": {
-                        "RowName": "Item_Polarbear_Legs",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 14600,
-                        "Y": 850
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Polarbear_Route",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredFlags": [
-                        {
-                            "DataTableName": "D_CharacterFlags",
-                            "RowName": "Talent_Polarbear_Armor"
-                        }
-                    ],
-                    "RequiredLevel": 25,
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Polarbear_Arms",
-                    "ExtraData": {
-                        "RowName": "Item_Polarbear_Arms",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 14450,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Polarbear_Route",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredFlags": [
-                        {
-                            "DataTableName": "D_CharacterFlags",
-                            "RowName": "Talent_Polarbear_Armor"
-                        }
-                    ],
-                    "RequiredLevel": 25,
-                    "DrawMethodOverride": "ShortestDistance"
-                },
-                {
-                    "Name": "Polarbear_Feet",
-                    "ExtraData": {
-                        "RowName": "Item_Polarbear_Feet",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 14750,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Polarbear_Route",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredFlags": [
-                        {
-                            "DataTableName": "D_CharacterFlags",
-                            "RowName": "Talent_Polarbear_Armor"
-                        }
-                    ],
-                    "RequiredLevel": 25,
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Polarbear_Route",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 14450,
-                        "Y": 1050
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Advanced_Armor_Bench",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredFlags": [
-                        {
-                            "DataTableName": "D_CharacterFlags",
-                            "RowName": "Talent_Polarbear_Armor"
-                        }
-                    ],
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Hunter_Head",
-                    "ExtraData": {
-                        "RowName": "Item_Hunter_Head",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 13150,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Reroute_Hunter",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 25,
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Hunter_Legs",
-                    "ExtraData": {
-                        "RowName": "Item_Hunter_Legs",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 13600,
-                        "Y": 850
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Reroute_Hunter",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 25,
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Hunter_Arms",
-                    "ExtraData": {
-                        "RowName": "Item_Hunter_Arms",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 13450,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Reroute_Hunter",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 25,
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Hunter_Feet",
-                    "ExtraData": {
-                        "RowName": "Item_Hunter_Feet",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 13750,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Reroute_Hunter",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 25,
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "ProspectReroute",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Prospect_Olympus"
-                    },
-                    "Position": {
-                        "X": 1800,
-                        "Y": 1950
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Prospect_OLY_Forest_Exploration",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
-                },
-                {
-                    "Name": "ProspectReroute_1",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Prospect_Olympus"
-                    },
-                    "Position": {
-                        "X": 1800,
-                        "Y": 2700
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Prospect_OLY_Forest_Exploration",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
-                },
-                {
-                    "Name": "Prospect_Reroute_4",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Prospect_Olympus"
-                    },
-                    "Position": {
-                        "X": 7250,
-                        "Y": 2800
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Prospect_OLY_Glacier_Exploration",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
-                },
-                {
-                    "Name": "Prospect_Reroute_7",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Prospect_Olympus"
-                    },
-                    "Position": {
-                        "X": 7250,
-                        "Y": 1600
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Prospect_Canyon_Exploration",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
-                },
-                {
-                    "Name": "Prospect_Reroute_9",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Prospect_Olympus"
-                    },
-                    "Position": {
-                        "X": 12050,
-                        "Y": 2250
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Prospect_OLY_Riverlands_Exploration",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
-                },
-                {
-                    "Name": "Prospect_Reroute_11",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Prospect_Olympus"
-                    },
-                    "Position": {
-                        "X": 12350,
-                        "Y": 2950
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Prospect_OLY_Riverlands_Exploration",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
-                },
-                {
-                    "Name": "Prospect_Reroute_15",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Prospect_Olympus"
-                    },
-                    "Position": {
-                        "X": 16450,
-                        "Y": 2850
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Prospect_OLY_Desert_Exploration",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
-                },
-                {
-                    "Name": "Workshop_Module_PlayerTracker",
-                    "ExtraData": {
-                        "RowName": "Meta_Module_Tracker",
-                        "DataTableName": "D_WorkshopItems"
-                    },
-                    "TalentTree": {
-                        "RowName": "Workshop_Modules"
-                    },
-                    "Position": {
-                        "X": 3400,
-                        "Y": 1100
-                    },
-                    "Size": {
-                        "X": 250,
-                        "Y": 250
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Workshop_Module_New_2",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Prospect_Reroute_18",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Prospect_Olympus"
-                    },
-                    "Position": {
-                        "X": 12350,
-                        "Y": 1600
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Prospect_OLY_Riverlands_Exploration",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
-                },
-                {
-                    "Name": "Prospect_Reroute_21",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Prospect_Olympus"
-                    },
-                    "Position": {
-                        "X": 15750,
-                        "Y": 3950
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Prospect_OLY_Desert_Exploration",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
-                },
-                {
-                    "Name": "ProspectReroute_8",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Prospect_Olympus"
-                    },
-                    "Position": {
-                        "X": 2250,
-                        "Y": 2850
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Prospect_OLY_Forest_Exploration",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
-                },
-                {
-                    "Name": "Advanced_Leather_Legs",
-                    "ExtraData": {
-                        "RowName": "Item_Hard_Leather_Legs",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 12600,
-                        "Y": 850
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Advanced_Cloth_Reroute_0",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Advanced_Leather_Arms",
-                    "ExtraData": {
-                        "RowName": "Item_Hard_Leather_Arms",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 12450,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Advanced_Cloth_Reroute_0",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Advanced_Leather_Feet",
-                    "ExtraData": {
-                        "RowName": "Item_Hard_Leather_Feet",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 12750,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Advanced_Cloth_Reroute_0",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Advanced_Leather_Head",
-                    "ExtraData": {
-                        "RowName": "Item_Hard_Leather_Head",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 12150,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Advanced_Cloth_Reroute_0",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Advanced_Cloth_Feet",
-                    "ExtraData": {
-                        "RowName": "Item_Advanced_Cloth_Feet",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 11750,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Advanced_Cloth_Reroute",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Advanced_Cloth_Arms",
-                    "ExtraData": {
-                        "RowName": "Item_Advanced_Cloth_Arms",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 11450,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Advanced_Cloth_Reroute",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Advanced_Cloth_Legs",
-                    "ExtraData": {
-                        "RowName": "Item_Advanced_Cloth_Legs",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 11600,
-                        "Y": 850
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Advanced_Cloth_Reroute",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Advanced_Cloth_Head",
-                    "ExtraData": {
-                        "RowName": "Item_Advanced_Cloth_Head",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 11150,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Advanced_Cloth_Reroute",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Advanced_Cloth_Reroute",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 11450,
-                        "Y": 1050
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Advanced_Armor_Bench",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true,
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Advanced_Cloth_Reroute_0",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Blueprint_T3_Machine"
-                    },
-                    "Position": {
-                        "X": 12450,
-                        "Y": 1050
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Advanced_Armor_Bench",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true,
-                    "DrawMethodOverride": "XThenY"
-                },
-                {
-                    "Name": "Prospect_Styx_A_Reroute_0",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Prospect_Styx"
-                    },
-                    "Position": {
-                        "X": 2700,
-                        "Y": 1100
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Prospect_Styx_A_Reroute",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
-                },
-                {
-                    "Name": "Bone_Leg_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Bone_Legs",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T1_Player"
-                    },
-                    "Position": {
-                        "X": 5600,
-                        "Y": 850
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Bone_Armor_Reroute",
-                            "DataTableName": "D_Talents"
-                        }
-                    ]
-                },
-                {
-                    "Name": "Bone_Feet_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Bone_Feet",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T1_Player"
-                    },
-                    "Position": {
-                        "X": 6600,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Bone_Armor_Reroute",
-                            "DataTableName": "D_Talents"
-                        }
-                    ]
-                },
-                {
-                    "Name": "Bone_Head_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Bone_Head",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T1_Player"
-                    },
-                    "Position": {
-                        "X": 6000,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Bone_Armor_Reroute",
-                            "DataTableName": "D_Talents"
-                        }
-                    ]
-                },
-                {
-                    "Name": "Bone_Arm_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Bone_Arms",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T1_Player"
-                    },
-                    "Position": {
-                        "X": 6300,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Bone_Armor_Reroute",
-                            "DataTableName": "D_Talents"
-                        }
-                    ]
-                },
-                {
-                    "Name": "Bone_Armor_Reroute",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Blueprint_T1_Player"
-                    },
-                    "Position": {
-                        "X": 6300,
-                        "Y": 1050
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Player_Crafting",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
-                },
-                {
-                    "Name": "Heavy_Obsidian_Head",
-                    "ExtraData": {
-                        "RowName": "Item_Heavy_Obsidian_Head",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 13650,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Heavy_Obsidian_Reroute",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 25,
-                    "DrawMethodOverride": "XThenY",
-                    "Metadata": {
-                        "RequiredFeatureLevel": {
-                            "RowName": "NewFrontiers"
-                        }
-                    }
-                },
-                {
-                    "Name": "Heavy_Obsidian_Legs",
-                    "ExtraData": {
-                        "RowName": "Item_Heavy_Obsidian_Legs",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 14100,
-                        "Y": 850
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Heavy_Obsidian_Reroute",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 25,
-                    "DrawMethodOverride": "XThenY",
-                    "Metadata": {
-                        "RequiredFeatureLevel": {
-                            "RowName": "NewFrontiers"
-                        }
-                    }
-                },
-                {
-                    "Name": "Heavy_Obsidian_Arms",
-                    "ExtraData": {
-                        "RowName": "Item_Heavy_Obsidian_Arms",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 13950,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Heavy_Obsidian_Reroute",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 25,
-                    "DrawMethodOverride": "ShortestDistance",
-                    "Metadata": {
-                        "RequiredFeatureLevel": {
-                            "RowName": "NewFrontiers"
-                        }
-                    }
-                },
-                {
-                    "Name": "Heavy_Obsidian_Feet",
-                    "ExtraData": {
-                        "RowName": "Item_Heavy_Obsidian_Feet",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 14250,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Heavy_Obsidian_Reroute",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 25,
-                    "DrawMethodOverride": "XThenY",
-                    "Metadata": {
-                        "RequiredFeatureLevel": {
-                            "RowName": "NewFrontiers"
-                        }
-                    }
-                },
-                {
-                    "Name": "Heavy_Obsidian_Reroute",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 13950,
-                        "Y": 1050
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Armor_Bench",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 25,
-                    "bDefaultUnlocked": true,
-                    "DrawMethodOverride": "ShortestDistance"
-                },
-                {
-                    "Name": "Obsidian_Head",
-                    "ExtraData": {
-                        "RowName": "Item_Obsidian_Head",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T4_Fabricator"
-                    },
-                    "Position": {
-                        "X": 9750,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Obsidian_Armor_Reroute",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 35,
-                    "Metadata": {
-                        "RequiredFeatureLevel": {
-                            "RowName": "NewFrontiers"
-                        }
-                    }
-                },
-                {
-                    "Name": "Obsidian_Arms",
-                    "ExtraData": {
-                        "RowName": "Item_Obsidian_Arms",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T4_Fabricator"
-                    },
-                    "Position": {
-                        "X": 10050,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Obsidian_Armor_Reroute",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 35,
-                    "Metadata": {
-                        "RequiredFeatureLevel": {
-                            "RowName": "NewFrontiers"
-                        }
-                    }
-                },
-                {
-                    "Name": "Obsidian_Legs",
-                    "ExtraData": {
-                        "RowName": "Item_Obsidian_Legs",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T4_Fabricator"
-                    },
-                    "Position": {
-                        "X": 10200,
-                        "Y": 850
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Obsidian_Armor_Reroute",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 35,
-                    "Metadata": {
-                        "RequiredFeatureLevel": {
-                            "RowName": "NewFrontiers"
-                        }
-                    }
-                },
-                {
-                    "Name": "Obsidian_Feet",
-                    "ExtraData": {
-                        "RowName": "Item_Obsidian_Feet",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T4_Fabricator"
-                    },
-                    "Position": {
-                        "X": 10350,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Obsidian_Armor_Reroute",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 35,
-                    "Metadata": {
-                        "RequiredFeatureLevel": {
-                            "RowName": "NewFrontiers"
-                        }
-                    }
-                },
-                {
-                    "Name": "Obsidian_Armor_Reroute",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Blueprint_T4_Fabricator"
-                    },
-                    "Position": {
-                        "X": 10050,
-                        "Y": 1050
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Electric_Armour_Bench",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
-                },
-                {
-                    "Name": "Brownbear_Leg_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Brownbear_Legs",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 15150,
-                        "Y": 850
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Bone_Armor_Reroute_0",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 20
-                },
-                {
-                    "Name": "Brownbear_Feet_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Brownbear_Feet",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 15300,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Bone_Armor_Reroute_0",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 20
-                },
-                {
-                    "Name": "BrownBear_Head_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Brownbear_Head_Armor",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 14700,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Bone_Armor_Reroute_0",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 20
-                },
-                {
-                    "Name": "Brownbear_Arm_Armor",
-                    "ExtraData": {
-                        "RowName": "Item_Brownbear_Arms",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 15000,
-                        "Y": 1200
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Bone_Armor_Reroute_0",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "RequiredLevel": 20
-                },
-                {
-                    "Name": "Bone_Armor_Reroute_0",
-                    "bIsReroute": true,
-                    "TalentTree": {
-                        "RowName": "Blueprint_T2_Crafting"
-                    },
-                    "Position": {
-                        "X": 15000,
-                        "Y": 1050
-                    },
-                    "Size": {
-                        "X": 0,
-                        "Y": 0
-                    },
-                    "Rewards": [],
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Armor_Bench",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "bDefaultUnlocked": true
                 }
             ]
         },
@@ -17181,6 +14532,14 @@
                 {
                     "Name": "Crude_Ammo",
                     "Damage": 135
+                },
+                {
+                    "Name": "Knife_Lithium",
+                    "Damage": 55
+                },
+                {
+                    "Name": "Spear_Lithium",
+                    "Damage": 260
                 }
             ]
         },
@@ -18035,230 +15394,6 @@
                 },
                 {
                     "Name": "Oil_Barrel",
-                    "MaximumStoredUnits": 10000
-                },
-                {
-                    "Name": "WaterSkin",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 1000
-                },
-                {
-                    "Name": "Canteen",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 5000
-                },
-                {
-                    "Name": "Canteen_Shengong",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 12000
-                },
-                {
-                    "Name": "Canteen_Inaris",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 12000
-                },
-                {
-                    "Name": "WaterBarrel",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 20000
-                },
-                {
-                    "Name": "Canteen_Larkwell",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 20000
-                },
-                {
-                    "Name": "OxygenBladder",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Oxygen"
-                    ],
-                    "MaximumStoredUnits": 1000
-                },
-                {
-                    "Name": "OxygenTank",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Oxygen"
-                    ],
-                    "MaximumStoredUnits": 5000
-                },
-                {
-                    "Name": "Oxygen_Tank_Shengong",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Oxygen"
-                    ],
-                    "MaximumStoredUnits": 6500
-                },
-                {
-                    "Name": "Oxygen_Tank_Larkwell",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Oxygen"
-                    ],
-                    "MaximumStoredUnits": 12000
-                },
-                {
-                    "Name": "Sponge",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 500
-                },
-                {
-                    "Name": "Beer_Bottle",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 1000
-                },
-                {
-                    "Name": "Wine_Bottle",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 1000
-                },
-                {
-                    "Name": "Thermos",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 5000
-                },
-                {
-                    "Name": "Lantern",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Fuel"
-                    ],
-                    "MaximumStoredUnits": 3000
-                },
-                {
-                    "Name": "Rain_Reservoir",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 100000
-                },
-                {
-                    "Name": "BasicOxiteDissolver",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Oxygen"
-                    ],
-                    "MaximumStoredUnits": 1000
-                },
-                {
-                    "Name": "Composter",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 10000
-                },
-                {
-                    "Name": "Water_Pump",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 10000
-                },
-                {
-                    "Name": "Glass_Jar",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 2500
-                },
-                {
-                    "Name": "Mission_OxiteBomb",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Oxygen"
-                    ],
-                    "MaximumStoredUnits": 2000
-                },
-                {
-                    "Name": "Water_Trough",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 15000
-                },
-                {
-                    "Name": "Water_Trough_T4",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 20000
-                },
-                {
-                    "Name": "Watering_Can",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 5000
-                },
-                {
-                    "Name": "WaterPurifier",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 5000
-                },
-                {
-                    "Name": "Water_Barrel",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 300000
-                },
-                {
-                    "Name": "Rain_Reservoir_T3",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
-                    "MaximumStoredUnits": 150000
-                },
-                {
-                    "Name": "Water_Purifier_T2",
-                    "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
-                    "ResourceTypes": [
-                        "Water"
-                    ],
                     "MaximumStoredUnits": 10000
                 }
             ]
@@ -19830,22 +16965,6 @@
                     "Weight": 5000
                 },
                 {
-                    "Name": "Item_Meta_Biolab_Inhaler_Sandworm",
-                    "MaxStack": 5
-                },
-                {
-                    "Name": "Item_Meta_Biolab_Inhaler_AlphaWolf",
-                    "MaxStack": 5
-                },
-                {
-                    "Name": "Item_Meta_Biolab_Inhaler_Scorpion",
-                    "MaxStack": 5
-                },
-                {
-                    "Name": "Item_Meta_Biolab_Inhaler_IceMammoth",
-                    "MaxStack": 5
-                },
-                {
                     "Name": "Item_Beacon_Tool",
                     "Weight": 375
                 },
@@ -19914,70 +17033,184 @@
                     "Weight": 10
                 },
                 {
-                    "Name": "Item_SplineTool_Refined_Oil",
-                    "DisplayName": "INVTEXT(\"[DNT] Refined Oil Piping Tool\")",
-                    "Weight": 100
+                    "Name": "Item_Concrete_Diagonal_Set",
+                    "Weight": 500,
+                    "MaxStack": 50
                 },
                 {
-                    "Name": "Item_Crude_Oil_Power_Generator",
-                    "DisplayName": "INVTEXT(\"[DNT] Crude Oil Power Generator\")",
-                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Oil_Power_Generator-Description\", \"An advanced machine that generates a lot of power at the cost of pollution.\")",
-                    "Weight": 10000
+                    "Name": "Item_Concrete_Curved_Set",
+                    "Weight": 500,
+                    "MaxStack": 50
                 },
                 {
-                    "Name": "Item_Kit_Water_Barrel",
-                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Water_Barrel-DisplayName\", \"Water Barrel\")",
-                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Kit_Water_Barrel.ITEM_Kit_Water_Barrel",
-                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Water_Barrel-Description\", \"A robust water storage solution.\")",
-                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Water_Barrel-FlavorText\", \"Keep it filled, stay alive.\")",
-                    "Weight": 2000
+                    "Name": "Item_Concrete_Diagonal_Curved_Wall_Angles",
+                    "Weight": 500,
+                    "MaxStack": 50
                 },
                 {
-                    "Name": "Item_Carcass_Wulv",
-                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Wulv-DisplayName\", \"Wulv Carcass\")",
-                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Wulv.ITEM_AnimalCarcass_Wulv",
-                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Wulv-Description\", \"A relative of the wolf, altered by exposure to exotic matter.\")",
-                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Wulv-FlavorText\", \"This relative of the wolf, has been genetically warped by sustained exposure to exotic matter, which is believed to reactivate sections of so-called \\'junk\\' DNA.\")",
-                    "Weight": 10000
+                    "Name": "Item_Concrete_Roof_CurvedAngles",
+                    "Weight": 500,
+                    "MaxStack": 50
                 },
                 {
-                    "Name": "Item_Carcass_RedGoat",
-                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_RedGoat-DisplayName\", \"Red Goat Carcass\")",
-                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_RedGoat.ITEM_AnimalCarcass_RedGoat",
-                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_RedGoat-Description\", \"A natural survivor, thrives in arid climates.\")",
-                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_RedGoat-FlavorText\", \"One of the most successful transplants from Earth, the hardy red goat variant thrives on its adopted home.\")",
-                    "Weight": 10000
+                    "Name": "Item_Concrete_Curved_Wall",
+                    "Weight": 500,
+                    "MaxStack": 50
                 },
                 {
-                    "Name": "Item_WoodBarrel",
-                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_WoodBarrel-DisplayName\", \"Wooden Barrel\")",
-                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_WoodBarrel.ITEM_WoodBarrel",
-                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_WoodBarrel-Description\", \"Stores water.\")",
-                    "Weight": 1750
+                    "Name": "Item_Concrete_Advanced_Beam_Set",
+                    "Weight": 500,
+                    "MaxStack": 50
                 },
                 {
-                    "Name": "Item_Sandworm_Brazier",
-                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Brazier-DisplayName\", \"Sandworm Trophy Brazier\")",
-                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Sandworm_Trophy_3.T_ITEM_Sandworm_Trophy_3",
-                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Brazier-Description\", \"An impressive brazier made from the head of a mighty sandworm.\")",
-                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Brazier-FlavorText\", \"You\\'ll impress all your friends with this one.\")",
-                    "Weight": 5000
+                    "Name": "Item_Glass_Diagonal_Set",
+                    "Weight": 500,
+                    "MaxStack": 50
                 },
                 {
-                    "Name": "Item_Stationeers_Trophy_1",
-                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stationeers_Trophy_1-DisplayName\", \"White Stationeers Trophy\")",
-                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Stationeers_Trophy_1.T_ITEM_Stationeers_Trophy_1",
-                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stationeers_Trophy_1-Description\", \"A cute trophy showing off your love for Stationeers.\")",
-                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Stationeers_Trophy_1-FlavorText\", \"Not sure how you got the UDA to agree to delivering this...\")",
-                    "Weight": 1000
+                    "Name": "Item_Glass_Curved_Set",
+                    "Weight": 500,
+                    "MaxStack": 50
                 },
                 {
-                    "Name": "Item_Stationeers_Trophy_2",
-                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stationeers_Trophy_2-DisplayName\", \"Orange Stationeers Trophy\")",
-                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Stationeers_Trophy_2.T_ITEM_Stationeers_Trophy_2",
-                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stationeers_Trophy_2-Description\", \"A cute trophy showing off your love for Stationeers.\")",
-                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Stationeers_Trophy_2-FlavorText\", \"Not sure how you got the UDA to agree to delivering this...\")",
-                    "Weight": 1000
+                    "Name": "Item_Glass_Diagonal_Curved_Wall_Angles",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Glass_Roof_CurvedAngles",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Glass_Curved_Wall",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Glass_Advanced_Beam_Set",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Glass_Diagonal_Set_Tempered",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Glass_Curved_Set_Tempered",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Glass_Diagonal_Curved_Wall_Angles_Tempered",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Glass_Roof_CurvedAngles_Tempered",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Glass_Curved_Wall_Tempered",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Glass_Advanced_Beam_Set_Tempered",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Clay_Brick_Diagonal_Set",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Clay_Brick_Curved_Set",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Clay_Brick_Diagonal_Curved_Wall_Angles",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Clay_Brick_Roof_CurvedAngles",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Clay_Brick_Curved_Wall",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Clay_Brick_Advanced_Beam_Set",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Scoria_Brick_Diagonal_Set",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Scoria_Brick_Curved_Set",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Scoria_Brick_Diagonal_Curved_Wall_Angles",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Scoria_Brick_Roof_CurvedAngles",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Scoria_Brick_Curved_Wall",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Scoria_Brick_Advanced_Beam_Set",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Stone_Brick_Diagonal_Set",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Stone_Brick_Curved_Set",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Stone_Brick_Diagonal_Curved_Wall_Angles",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Stone_Brick_Roof_CurvedAngles",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Stone_Brick_Curved_Wall",
+                    "Weight": 500,
+                    "MaxStack": 50
+                },
+                {
+                    "Name": "Item_Stone_Brick_Advanced_Beam_Set",
+                    "Weight": 500,
+                    "MaxStack": 50
                 }
             ]
         },
@@ -20107,6 +17340,18 @@
                 {
                     "Name": "Frozen_Wood",
                     "MiningTimeSeconds": 3
+                },
+                {
+                    "Name": "Exotic_Raw_Uranium",
+                    "ResourceType": {
+                        "RowName": "Uranium_Raw"
+                    },
+                    "MiningTimeSeconds": 45,
+                    "Metadata": {
+                        "RequiredFeatureLevel": {
+                            "RowName": "NewFrontiers"
+                        }
+                    }
                 }
             ]
         },
