@@ -24,7 +24,7 @@
                     "Value": "Biofuel"
                 }
             ],
-            "MaximumStoredUnits": 10000
+            "MaximumStoredUnits": 20000
         },
         {
             "Name": "Biofuel_Lamp",
@@ -34,7 +34,7 @@
                     "Value": "Biofuel"
                 }
             ],
-            "MaximumStoredUnits": 2000
+            "MaximumStoredUnits": 6000
         },
         {
             "Name": "Powered_Device",
@@ -64,7 +64,7 @@
                     "Value": "Biofuel"
                 }
             ],
-            "MaximumStoredUnits": 10000
+            "MaximumStoredUnits": 100000
         },
         {
             "Name": "Meta_Power_Source",
@@ -164,7 +164,7 @@
                     "Value": "Refined_Oil"
                 }
             ],
-            "MaximumStoredUnits": 150000
+            "MaximumStoredUnits": 10000
         },
         {
             "Name": "Battery_Lamp",
