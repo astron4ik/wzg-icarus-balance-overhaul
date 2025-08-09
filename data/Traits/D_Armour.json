@@ -1902,9 +1902,13 @@
             "ArmourStats": {
                 "(Value=\"BaseUpgradeSlots_+\")": 8,
                 "(Value=\"BaseBackpackSlots_+\")": 24,
-                "(Value=\"BaseHeatResistance_%\")": 10,
-                "(Value=\"BaseColdResistance_%\")": 10,
-                "(Value=\"BaseExposureResistance_+%\")": 15,
+            	"(Value=\"BaseWaterConsumption_+%\")": -25,
+            	"(Value=\"BaseFoodConsumption_+%\")": -25,
+                "(Value=\"BaseHeatResistance_%\")": 20,
+                "(Value=\"BaseColdResistance_%\")": 20,
+                "(Value=\"BaseExposureResistance_+%\")": 25,
+                "(Value=\"BaseMovementSpeed_+%\")": 20,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25,
                 "(Value=\"BaseFoodSlots_+\")": 1,
                 "(Value=\"BaseWaterSlots_+\")": 1,
                 "(Value=\"BaseOxygenSlots_+\")": 1

@@ -133172,6 +133172,9 @@
             "FirearmData": {
                 "RowName": "Scorpion_Rifle"
             },
+            "AdditionalStats": {
+                "(Value=\"BaseCriticalDamage_+%\")": 45
+            },
             "Manual_Tags": {
                 "GameplayTags": [
                     {
@@ -186252,6 +186255,9 @@
             },
             "FirearmData": {
                 "RowName": "LegendaryWeapon_Sniper"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseCriticalDamage_+%\")": 90
             },
             "Manual_Tags": {
                 "GameplayTags": [

@@ -3352,9 +3352,9 @@
                 "(Value=\"BaseHealthRegen_+%\")": 100,
                 "(Value=\"BaseMaximumHealth_+\")": 100,
                 "(Value=\"BaseMaximumStamina_+\")": 100,
-                "(Value=\"BaseWaterConsumption_+%\")": 100,
-                "(Value=\"BaseFoodConsumption_+%\")": 100,
-                "(Value=\"BaseOxygenConsumption_+%\")": 100
+                "(Value=\"BaseWaterConsumption_+%\")": -100,
+                "(Value=\"BaseFoodConsumption_+%\")": -100,
+                "(Value=\"BaseOxygenConsumption_+%\")": -100
             },
             "ModifierLifetimeAffectors": [
                 {

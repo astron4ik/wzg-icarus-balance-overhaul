@@ -4987,7 +4987,7 @@
             "ItemDynamicData": [
                 {
                     "PropertyType": "ItemableStack",
-                    "Value": 5
+                    "Value": 10
                 }
             ]
         },

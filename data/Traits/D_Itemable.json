@@ -7177,7 +7177,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Biofuel_Can_Meta.ITEM_Biofuel_Can_Meta",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Biofuel_Can_Meta-Description\", \"A makeshift fuel canister, that can hold biofuel, comes prefilled.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Biofuel_Can_Meta-FlavorText\", \"The caps a bit loose, still sealed, but that\\'s fine right?\")",
-            "Weight": 1000
+            "Weight": 500
         },
         {
             "Name": "Item_Radar_Biofuel",
