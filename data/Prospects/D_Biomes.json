@@ -1237,6 +1237,43 @@
             "Audio": {
                 "RowName": "Conifer"
             }
+        },
+        {
+            "Name": "Outpost_012_Interior",
+            "BiomeName": "The Interior",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Outpost_012_Interior-DisplayName\", \"The Interior\")",
+            "Color": {
+                "B": 111,
+                "G": 255,
+                "R": 89,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ConiferTemperatureCurve.ConiferTemperatureCurve'",
+            "WeatherFrequency": 5,
+            "AtmosphereType": {
+                "RowName": "Coastal"
+            },
+            "Audio": {
+                "RowName": "Conifer"
+            }
+        },
+        {
+            "Name": "Outpost_012_Coast",
+            "BiomeName": "The Coast",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Outpost_012_Coast-DisplayName\", \"The Coast\")",
+            "Color": {
+                "B": 244,
+                "G": 218,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ConiferTemperatureCurve.ConiferTemperatureCurve'",
+            "WeatherFrequency": 5,
+            "AtmosphereType": {
+                "RowName": "Coastal"
+            },
+            "Audio": {
+                "RowName": "Beach"
+            }
         }
     ]
 }

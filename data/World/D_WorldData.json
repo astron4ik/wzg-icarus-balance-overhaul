@@ -8879,7 +8879,29 @@
                     ],
                     "DeveloperLevel": "/Game/Maps/Outpost_012/Sublevels/Developer/OP012_Developer_Main.OP012_Developer_Main"
                 }
-            ]
+            ],
+            "MinimapData": {
+                "MapTextures": [
+                    "/Game/PROC/MapTextures/Outpost_012/T_VisualMapTex_Outpost_012Heightmap_x0_y0.T_VisualMapTex_Outpost_012Heightmap_x0_y0",
+                    "/Game/PROC/MapTextures/Outpost_012/T_VisualMapTex_Outpost_012Heightmap_x0_y1.T_VisualMapTex_Outpost_012Heightmap_x0_y1",
+                    "/Game/PROC/MapTextures/Outpost_012/T_VisualMapTex_Outpost_012Heightmap_x1_y0.T_VisualMapTex_Outpost_012Heightmap_x1_y0",
+                    "/Game/PROC/MapTextures/Outpost_012/T_VisualMapTex_Outpost_012Heightmap_x1_y1.T_VisualMapTex_Outpost_012Heightmap_x1_y1"
+                ],
+                "HeightMapTextures": [
+                    "/Game/PROC/MapTextures/Outpost_012/T_HeightMapTex_Outpost_012Heightmap_x0_y0.T_HeightMapTex_Outpost_012Heightmap_x0_y0",
+                    "/Game/PROC/MapTextures/Outpost_012/T_HeightMapTex_Outpost_012Heightmap_x0_y1.T_HeightMapTex_Outpost_012Heightmap_x0_y1",
+                    "/Game/PROC/MapTextures/Outpost_012/T_HeightMapTex_Outpost_012Heightmap_x1_y0.T_HeightMapTex_Outpost_012Heightmap_x1_y0",
+                    "/Game/PROC/MapTextures/Outpost_012/T_HeightMapTex_Outpost_012Heightmap_x1_y1.T_HeightMapTex_Outpost_012Heightmap_x1_y1"
+                ],
+                "WorldBoundaryMin": {
+                    "X": -100800,
+                    "Y": -100800
+                },
+                "WorldBoundaryMax": {
+                    "X": 100800,
+                    "Y": 100800
+                }
+            }
         },
         {
             "Name": "Outpost_DEV",

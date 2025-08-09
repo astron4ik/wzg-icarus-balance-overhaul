@@ -596,7 +596,8 @@
                 "(RowName=\"Coal_Normal\",DataTableName=\"D_VoxelSetupData\")": 1,
                 "(RowName=\"Salt_Normal\",DataTableName=\"D_VoxelSetupData\")": 1,
                 "(RowName=\"Bauxite_Normal\",DataTableName=\"D_VoxelSetupData\")": 1,
-                "(RowName=\"Platinum_Normal\",DataTableName=\"D_VoxelSetupData\")": 1
+                "(RowName=\"Platinum_Normal\",DataTableName=\"D_VoxelSetupData\")": 1,
+                "(RowName=\"Lithium_Ore_Normal\",DataTableName=\"D_VoxelSetupData\")": 1
             },
             "VoxelColor": {
                 "R": 0.953125,
@@ -637,7 +638,7 @@
         {
             "Name": "Elysium_Geothermal_Pools",
             "VoxelDistribution": {
-                "(RowName=\"Oxite_Normal\",DataTableName=\"D_VoxelSetupData\")": 1,
+                "(RowName=\"Lithium_Ore_Normal\",DataTableName=\"D_VoxelSetupData\")": 1,
                 "(RowName=\"Coal_Normal\",DataTableName=\"D_VoxelSetupData\")": 1,
                 "(RowName=\"Salt_Normal\",DataTableName=\"D_VoxelSetupData\")": 1,
                 "(RowName=\"Bauxite_Normal\",DataTableName=\"D_VoxelSetupData\")": 1,

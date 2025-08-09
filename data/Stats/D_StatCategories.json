@@ -215,6 +215,10 @@
         {
             "Name": "Tames",
             "Title": "NSLOCTEXT(\"D_StatCategories\", \"Tames-Title\", \"Tames/Pets\")"
+        },
+        {
+            "Name": "Radiation",
+            "Title": "NSLOCTEXT(\"D_StatCategories\", \"Radiation-Title\", \"Radiation\")"
         }
     ]
 }

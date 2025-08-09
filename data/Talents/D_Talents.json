@@ -3295,7 +3295,7 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseChanceToDoubleArrowsWhenCrafting_%\")": 25
+                        "(Value=\"BaseChanceToDoubleArrowsWhenCrafting_%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -4892,19 +4892,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseSkinningSpeed_+%\")": 15
+                        "(Value=\"BaseSkinningSpeed_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseSkinningSpeed_+%\")": 25
+                        "(Value=\"BaseSkinningSpeed_+%\")": 10
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseSkinningSpeed_+%\")": 50
+                        "(Value=\"BaseSkinningSpeed_+%\")": 20
                     },
                     "GrantedFlags": []
                 }
@@ -7242,19 +7242,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
+                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
                         "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -25
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -40
+                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -20
                     },
                     "GrantedFlags": []
                 }
@@ -8149,19 +8149,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFellingRewards_+%\")": 15
+                        "(Value=\"BaseFellingRewards_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFellingRewards_+%\")": 25
+                        "(Value=\"BaseFellingRewards_+%\")": 10
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFellingRewards_+%\")": 50
+                        "(Value=\"BaseFellingRewards_+%\")": 20
                     },
                     "GrantedFlags": []
                 }
@@ -8746,25 +8746,25 @@
             "Rewards": [
                 {
                     "GrantedStats": {
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
                         "(Value=\"BaseForagingHarvestingRewards_+%\")": 15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 25
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 50
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 75
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 20
                     },
                     "GrantedFlags": []
                 }
@@ -8799,19 +8799,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
+                        "(Value=\"BaseMiningOxiteRewards_+%\")": 10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
                         "(Value=\"BaseMiningOxiteRewards_+%\")": 15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseMiningOxiteRewards_+%\")": 25
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseMiningOxiteRewards_+%\")": 50
+                        "(Value=\"BaseMiningOxiteRewards_+%\")": 20
                     },
                     "GrantedFlags": []
                 }
@@ -9005,19 +9005,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
+                        "(Value=\"BaseMiningMetalRewards_+%\")": 10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
                         "(Value=\"BaseMiningMetalRewards_+%\")": 15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseMiningMetalRewards_+%\")": 25
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseMiningMetalRewards_+%\")": 50
+                        "(Value=\"BaseMiningMetalRewards_+%\")": 20
                     },
                     "GrantedFlags": []
                 }
@@ -11026,9 +11026,9 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFellingRewards_+%\")": 50,
-                        "(Value=\"BaseMiningStoneRewards_+%\")": 50,
-                        "(Value=\"BaseHarvestingRewards_+%\")": 50
+                        "(Value=\"BaseFellingRewards_+%\")": 15,
+                        "(Value=\"BaseMiningStoneRewards_+%\")": 15,
+                        "(Value=\"BaseHarvestingRewards_+%\")": 15
                     },
                     "GrantedFlags": []
                 }
@@ -15494,19 +15494,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
+                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
                         "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -25
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -40
+                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -20
                     },
                     "GrantedFlags": []
                 }
@@ -18346,13 +18346,13 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseDriedMeatModifierEffectiveness_+%\")": 25
+                        "(Value=\"BaseDriedMeatModifierEffectiveness_+%\")": 15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseDriedMeatModifierEffectiveness_+%\")": 50
+                        "(Value=\"BaseDriedMeatModifierEffectiveness_+%\")": 30
                     },
                     "GrantedFlags": []
                 }
@@ -18390,13 +18390,13 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 25
+                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 50
+                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 30
                     },
                     "GrantedFlags": []
                 }
@@ -18534,19 +18534,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 15
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 2
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 25
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 50
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -18667,13 +18667,13 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 25
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 50
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -18708,13 +18708,13 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFellingRewards_+%\")": 25
+                        "(Value=\"BaseFellingRewards_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFellingRewards_+%\")": 50
+                        "(Value=\"BaseFellingRewards_+%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -18749,13 +18749,13 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseMiningRewards_+%\")": 25
+                        "(Value=\"BaseMiningRewards_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseMiningRewards_+%\")": 50
+                        "(Value=\"BaseMiningRewards_+%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -23049,15 +23049,15 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseTameMinimumDesiredTemperature_+\")": -5,
-                        "(Value=\"BaseTameMaximumDesiredTemperature_+\")": 5
+                        "(Value=\"BaseTameMinimumDesiredTemperature_+\")": -200,
+                        "(Value=\"BaseTameMaximumDesiredTemperature_+\")": 200
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseTameMinimumDesiredTemperature_+\")": -10,
-                        "(Value=\"BaseTameMaximumDesiredTemperature_+\")": 10
+                        "(Value=\"BaseTameMinimumDesiredTemperature_+\")": -400,
+                        "(Value=\"BaseTameMaximumDesiredTemperature_+\")": 400
                     },
                     "GrantedFlags": []
                 }
@@ -23431,19 +23431,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 15
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 2
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 25
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 50
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -48929,7 +48929,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 10450,
+                "X": 10500,
                 "Y": 450
             },
             "Size": {
@@ -50341,7 +50341,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 10450,
+                "X": 10500,
                 "Y": 100
             },
             "Size": {
@@ -53086,31 +53086,6 @@
                     "DataTableName": "D_Talents"
                 }
             ]
-        },
-        {
-            "Name": "Oil_Epoxy",
-            "ExtraData": {
-                "RowName": "Item_Epoxy",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T5"
-            },
-            "Position": {
-                "X": 2200,
-                "Y": 450
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Polymerizer",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "ShortestDistance"
         },
         {
             "Name": "Portable_Biofuel_Generator",
@@ -57969,6 +57944,30 @@
                     "RowName": "GreatHunts"
                 }
             }
+        },
+        {
+            "Name": "Saddle_Arctic_Survival",
+            "ExtraData": {
+                "RowName": "Item_Saddle_Advanced_Arctic",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 14100,
+                "Y": 100
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Saddle_Arctic",
+                    "DataTableName": "D_Talents"
+                }
+            ]
         },
         {
             "Name": "Polymerizer_Reroute",

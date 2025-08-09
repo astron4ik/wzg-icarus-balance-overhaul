@@ -18109,6 +18109,72 @@
                 "RowName": "AI"
             },
             "bHideStatInUserInterface": true
+        },
+        {
+            "Name": "RadiationResistance_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"RadiationResistance_%-Title\", \"Radiation Resistance\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_Radiation.Icon_Radiation",
+            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Radiation"
+            }
+        },
+        {
+            "Name": "BaseRadiationResistance_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseRadiationResistance_%-PositiveDescription\", \"+{0} Radiation Resistance\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseRadiationResistance_%-NegativeDescription\", \"-{0} Radiation Resistance\")",
+            "StatCategory": {
+                "RowName": "Radiation"
+            }
+        },
+        {
+            "Name": "MaximumRadiationTolerance_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"MaximumRadiationTolerance_+-Title\", \"Radiation Tolerance\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Radiation"
+            }
+        },
+        {
+            "Name": "BaseMaximumRadiationTolerance_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMaximumRadiationTolerance_+-PositiveDescription\", \"+{0} Maximum Radiation Tolerance\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMaximumRadiationTolerance_+-NegativeDescription\", \"-{0} Maximum Radiation Tolerance\")",
+            "StatCategory": {
+                "RowName": "Radiation"
+            },
+            "bHideStatInUserInterface": true,
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseMaximumRadiationTolerance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMaximumRadiationTolerance_+%-PositiveDescription\", \"+{0}% Maximum Radiation Tolerance\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMaximumRadiationTolerance_+%-NegativeDescription\", \"-{0}% Maximum Radiation Tolerance\")",
+            "StatCategory": {
+                "RowName": "Radiation"
+            }
+        },
+        {
+            "Name": "AttacksCauseRadiationBurn_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"AttacksCauseRadiationBurn_%-Title\", \"Chance Attacks will Cause Radiation Burn\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "BaseAttacksCauseRadiationBurn_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseAttacksCauseRadiationBurn_%-PositiveDescription\", \"+{0}% chance to Inflict Radiation Burn on Hit with Attacks\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseAttacksCauseRadiationBurn_%-NegativeDescription\", \"-{0}%  chance to Inflict Radiation Burn on Hit with Attacks\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
         }
     ]
 }

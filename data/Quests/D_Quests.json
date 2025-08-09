@@ -7698,7 +7698,7 @@
         {
             "Name": "DYN_Tools_Deliver",
             "Class": "/Game/BP/Quests/Dynamic/Tools/BPQ_DYN_Tools_Deliver.BPQ_DYN_Tools_Deliver_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"DYN_Tools_Deliver-Description\", \"Craft and Deliver the listed Tools to the Sinotai Retrieval Pod ([Map])\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"DYN_Tools_Deliver-Description\", \"Craft and Deliver the listed Items to the Sinotai Retrieval Pod ([Map])\")"
         },
         {
             "Name": "DYN_Tools_Deliver_Item",

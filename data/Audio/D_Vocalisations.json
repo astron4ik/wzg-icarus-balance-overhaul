@@ -3262,6 +3262,62 @@
             "Setting": {
                 "RowName": "Default"
             }
+        },
+        {
+            "Name": "RaptorAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Raptor/SFX_CRE_VOCAL_RAPTOR_ATTACK.SFX_CRE_VOCAL_RAPTOR_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "RaptorFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Raptor/SFX_CRE_VOCAL_RAPTOR_FLINCH.SFX_CRE_VOCAL_RAPTOR_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "RaptorDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Raptor/SFX_CRE_VOCAL_RAPTOR_DEATH.SFX_CRE_VOCAL_RAPTOR_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "OrcaIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Orca/SFX_CRE_VOCAL_ORCA_IDLE.SFX_CRE_VOCAL_ORCA_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "OrcaDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Orca/SFX_CRE_VOCAL_ORCA_DEATH.SFX_CRE_VOCAL_ORCA_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "ChewIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Chew/SFX_CRE_VOC_CHEW_IDLE.SFX_CRE_VOC_CHEW_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "RaptorSpot",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Raptor/SFX_CRE_VOCAL_RAPTOR_SPOT.SFX_CRE_VOCAL_RAPTOR_SPOT",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "RaptorIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Raptor/SFX_CRE_VOCAL_RAPTOR_IDLE.SFX_CRE_VOCAL_RAPTOR_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
         }
     ]
 }

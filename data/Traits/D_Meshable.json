@@ -687,7 +687,7 @@
             "Name": "Mesh_Fireplace",
             "ItemMesh": "/Game/ASS/KIT/SM_KIT_Stone.SM_KIT_Stone",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
-            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Fireplace.BP_Fireplace_C"
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Stone_Fireplace.BP_Stone_Fireplace_C"
         },
         {
             "Name": "Mesh_Kit_Skinning_Bench",
@@ -887,19 +887,19 @@
             "Name": "Mesh_Fireplace_Chimney_Ext",
             "ItemMesh": "/Game/ASS/KIT/SM_KIT_Stone.SM_KIT_Stone",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
-            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Fireplace_Chimney_Ext.BP_Fireplace_Chimney_Ext_C"
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Stone_Fireplace_Chimney_Ext.BP_Stone_Fireplace_Chimney_Ext_C"
         },
         {
             "Name": "Mesh_Fireplace_Chimney_Cap",
             "ItemMesh": "/Game/ASS/KIT/SM_KIT_Stone.SM_KIT_Stone",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
-            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Fireplace_Chimney_Cap.BP_Fireplace_Chimney_Cap_C"
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Stone_Fireplace_Chimney_Cap.BP_Stone_Fireplace_Chimney_Cap_C"
         },
         {
             "Name": "Mesh_Fireplace_Chimney_Cap_Half",
             "ItemMesh": "/Game/ASS/KIT/SM_KIT_Stone.SM_KIT_Stone",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
-            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Fireplace_Chimney_Cap_Half.BP_Fireplace_Chimney_Cap_Half_C"
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Stone_Fireplace_Chimney_Cap_Half.BP_Stone_Fireplace_Chimney_Cap_Half_C"
         },
         {
             "Name": "Mesh_Wood_Railing",
@@ -7813,6 +7813,11 @@
             "Name": "Mesh_Radiation_Protection_Armor_Pack",
             "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_ScorpionPack.SM_CHA_ARM_ScorpionPack",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
+        },
+        {
+            "Name": "Mesh_Radioactive_Waste",
+            "ItemMesh": "/Game/ASS/DEP/SM_DEP_Barrel_Wood.SM_DEP_Barrel_Wood",
+            "ItemActor": "/Game/BP/Objects/World/Items/Resources/BP_StaticItem_RawUranium.BP_StaticItem_RawUranium_C"
         }
     ]
 }

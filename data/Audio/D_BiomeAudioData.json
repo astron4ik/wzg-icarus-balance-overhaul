@@ -121,6 +121,15 @@
             },
             "AudioAmbienceBase": "/Game/FMOD/Events/Ambient/Prospect/AMB_TUNDRA_ELY.AMB_TUNDRA_ELY",
             "AudioAmbienceTransitional": "/Game/FMOD/Events/Environment/Caves/ENV_TUNDRA_CAVE_ENTRANCE.ENV_TUNDRA_CAVE_ENTRANCE"
+        },
+        {
+            "Name": "Beach",
+            "BiomeFMODParam": "Grasslands",
+            "MusicLocationCondition": {
+                "RowName": "Conifer"
+            },
+            "AudioAmbienceBase": "/Game/FMOD/Events/Ambient/Prospect/PHNX_AMB_BEACH_BASE.PHNX_AMB_BEACH_BASE",
+            "AudioAmbienceTransitional": "/Game/FMOD/Events/Environment/Caves/ENV_CF_CAVE_ENTRANCE.ENV_CF_CAVE_ENTRANCE"
         }
     ]
 }

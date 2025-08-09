@@ -270,6 +270,42 @@
             "WaterAlteration": {
                 "Value": "Dirty_Water_Lava"
             }
+        },
+        {
+            "Name": "Ocean",
+            "Material": "/Game/ASS/ENV/WAT/MI_WaterRVT_Tessellated_Ocean.MI_WaterRVT_Tessellated_Ocean",
+            "Fish": [
+                {
+                    "RowName": "Fish_01",
+                    "DataTableName": "D_FishSetup"
+                },
+                {
+                    "RowName": "Fish_02",
+                    "DataTableName": "D_FishSetup"
+                },
+                {
+                    "RowName": "Fish_03",
+                    "DataTableName": "D_FishSetup"
+                }
+            ],
+            "Sound": "/Game/FMOD/Events/Environment/Fluids/Lake/ENV_LAKE.ENV_LAKE",
+            "IsDrinkable": false,
+            "WetModifiers": [
+                {
+                    "RowName": "Wet",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "GameplayTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Traits.Water"
+                    }
+                ]
+            },
+            "WaterAlteration": {
+                "Value": "Dirty_Water"
+            }
         }
     ]
 }

@@ -785,7 +785,8 @@
         },
         {
             "Name": "TimeSurvivedInOutpost",
-            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"TimeSurvivedInOutpost-DisplayName\", \"Time Survived in Outposts\")"
+            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"TimeSurvivedInOutpost-DisplayName\", \"Time Survived in Outposts\")",
+            "SteamStatId": "HoursSurvivedInOutpost"
         },
         {
             "Name": "TimeSurvivedInDesert",
@@ -1331,6 +1332,7 @@
         {
             "Name": "TimeSurvivedInNullSec",
             "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"TimeSurvivedInNullSec-DisplayName\", \"Time Survived in Null Sector\")",
+            "SteamStatId": "HoursSurvivedInNullsec",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -1340,6 +1342,7 @@
         {
             "Name": "RedExoticsEarned",
             "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"RedExoticsEarned-DisplayName\", \"Red Exotics Earned\")",
+            "SteamStatId": "ExoticsEarned_RED",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -1352,6 +1355,7 @@
             "TrackerCategory": {
                 "RowName": "Creatures"
             },
+            "SteamStatId": "TamedCreature",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -1361,6 +1365,7 @@
         {
             "Name": "ProStoryMissionCompletionList",
             "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"ProStoryMissionCompletionList-DisplayName\", \"Prometheus Story Missions Completed\")",
+            "SteamStatId": "ProStoryMissionList",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -1370,6 +1375,7 @@
         {
             "Name": "NullsecStoryMissionCompletionList",
             "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"NullsecStoryMissionCompletionList-DisplayName\", \"Null Sector Story Missions Completed\")",
+            "SteamStatId": "NullsecStoryMissionList",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -1382,6 +1388,7 @@
             "TrackerCategory": {
                 "RowName": "MeleeWeapons"
             },
+            "SteamStatId": "BlockedDamage",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -1391,6 +1398,7 @@
         {
             "Name": "OutpostBuildingsPlaced",
             "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"OutpostBuildingsPlaced-DisplayName\", \"Buildings Placed on Outposts\")",
+            "SteamStatId": "OutpostBuildingsPlaced",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -1400,6 +1408,7 @@
         {
             "Name": "OpenWorldsDynamicMissionsComplete",
             "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"OpenWorldsDynamicMissionsComplete-DisplayName\", \"Open World Dynamic Missions Complete\")",
+            "SteamStatId": "Quests_Total",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -1409,6 +1418,7 @@
         {
             "Name": "ResourcePacksRequested",
             "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"ResourcePacksRequested-DisplayName\", \"Resource Packs Requested\")",
+            "SteamStatId": "ResourcePack",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"

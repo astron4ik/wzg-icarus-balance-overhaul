@@ -18,7 +18,7 @@
         {
             "Name": "es-419",
             "bEnabled": true,
-            "Coverage": 92
+            "Coverage": 91
         },
         {
             "Name": "pt-BR",
@@ -33,7 +33,7 @@
         {
             "Name": "ru-RU",
             "bEnabled": true,
-            "Coverage": 93
+            "Coverage": 94
         },
         {
             "Name": "zh-Hans",

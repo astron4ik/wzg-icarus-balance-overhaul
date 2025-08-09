@@ -1328,6 +1328,17 @@
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Mine_Permafrost-EventDescription\", \"Mine Permafrost\")",
             "SharedExperience": true,
             "ExperienceGranted": 90
+        },
+        {
+            "Name": "Kill_Bounder",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Bounder-EventDescription\", \"Killed Bounder\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 520
+        },
+        {
+            "Name": "Skin_Bounder",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Bounder-EventDescription\", \"Skinned Bounder\")",
+            "ExperienceGranted": 260
         }
     ]
 }

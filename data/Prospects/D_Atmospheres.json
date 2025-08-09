@@ -217,6 +217,22 @@
             "OvercastScattering": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/GT/C_GT_Overcast.C_GT_Overcast'",
             "Bloom": "CurveVector'/Game/ASS/ENV/ATM/Biomes/GT/C_GT_BloomSettings.C_GT_BloomSettings'",
             "DistFogScale": 900
+        },
+        {
+            "Name": "Coastal",
+            "AtmosphereName": "NSLOCTEXT(\"D_Atmospheres\", \"Coastal-AtmosphereName\", \"Coastal\")",
+            "Image_Small": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Desert_M.T_Bestiary_Diorama_Desert_M",
+            "Image_Medium": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Desert_XL.T_Bestiary_Diorama_Desert_XL",
+            "Image_Large": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Desert_XXL.T_Bestiary_Diorama_Desert_XXL",
+            "FogColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_FogTint.C_CF_FogTint'",
+            "SunColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_AtmosSun.C_CF_AtmosSun'",
+            "SunIntensity": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_SunIntensity.C_CF_SunIntensity'",
+            "MoonIntensity": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_MoonIntensity.C_CF_MoonIntensity'",
+            "SkyLightIntensity": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_SkyLight.C_CF_SkyLight'",
+            "OvercastScattering": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_Overcast.C_CF_Overcast'",
+            "Bloom": "CurveVector'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_BloomSettings.C_CF_BloomSettings'",
+            "DistFogScale": 900,
+            "Cubemap": "/Game/ASS/VFX/CBE/CBE_CF02.CBE_CF02"
         }
     ]
 }

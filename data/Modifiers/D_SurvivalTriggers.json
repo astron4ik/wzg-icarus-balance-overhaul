@@ -4,6 +4,7 @@
         "Food": [],
         "Water": [],
         "Oxygen": [],
+        "Radiation": [],
         "Cold": {
             "Modifier": {
                 "RowName": "None",
@@ -78,6 +79,29 @@
                         "DataTableName": "D_ModifierStates"
                     },
                     "PercentTrigger": 0
+                }
+            ],
+            "Radiation": [
+                {
+                    "Modifier": {
+                        "RowName": "RadiationPoisoning_3",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "PercentTrigger": 1
+                },
+                {
+                    "Modifier": {
+                        "RowName": "RadiationPoisoning_2",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "PercentTrigger": 0.800000011920929
+                },
+                {
+                    "Modifier": {
+                        "RowName": "RadiationPoisoning_1",
+                        "DataTableName": "D_ModifierStates"
+                    },
+                    "PercentTrigger": 0.4000000059604645
                 }
             ],
             "Cold": {

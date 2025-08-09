@@ -545,6 +545,14 @@
                 {
                     "RowName": "Wood_Throwing_Spear",
                     "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Cold_Steel_Throwing_Spear",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Lithium_Throwing_Spear",
+                    "DataTableName": "D_ItemsStatic"
                 }
             ],
             "Description": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllJavelins-Description\", \"Javelins\")"

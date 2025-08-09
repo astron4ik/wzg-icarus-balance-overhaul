@@ -262,6 +262,10 @@
                 {
                     "RowName": "Fireplace",
                     "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Fireplace_Stone_v2",
+                    "DataTableName": "D_DeployableSetup"
                 }
             ],
             "EffectedByWeather": false
@@ -466,6 +470,10 @@
                 {
                     "RowName": "Fireplace_Chimney_Ext",
                     "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Fireplace_Stone_Chimney_Ext_v2",
+                    "DataTableName": "D_DeployableSetup"
                 }
             ],
             "EffectedByWeather": false
@@ -476,6 +484,10 @@
                 {
                     "RowName": "Fireplace_Chimney_Cap",
                     "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Fireplace_Stone_Chimney_Cap_v2",
+                    "DataTableName": "D_DeployableSetup"
                 }
             ],
             "EffectedByWeather": false
@@ -485,6 +497,10 @@
             "Variants": [
                 {
                     "RowName": "Fireplace_Chimney_Cap_Half",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Fireplace_Stone_Chimney_Cap_Half_v2",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],

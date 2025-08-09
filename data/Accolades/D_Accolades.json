@@ -5860,6 +5860,10 @@
                     "DataTableName": "D_GreatHunts"
                 },
                 {
+                    "RowName": "Ape_E2",
+                    "DataTableName": "D_GreatHunts"
+                },
+                {
                     "RowName": "Ape_F",
                     "DataTableName": "D_GreatHunts"
                 },
@@ -5869,10 +5873,6 @@
                 },
                 {
                     "RowName": "Ape_O1",
-                    "DataTableName": "D_GreatHunts"
-                },
-                {
-                    "RowName": "Ape_O2",
                     "DataTableName": "D_GreatHunts"
                 }
             ],
@@ -5992,7 +5992,7 @@
             "Category": {
                 "Value": "Achievement"
             },
-            "SteamAchievementId": "ACH_NULLSEC_ICESHEET",
+            "SteamAchievementId": "ACH_NULLSEC_ASHLANDS",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -6008,7 +6008,7 @@
             "Category": {
                 "Value": "Achievement"
             },
-            "SteamAchievementId": "ACH_STILLNOTLOST",
+            "SteamAchievementId": "ACH_NULLSEC_ICESHEET",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -6293,6 +6293,7 @@
                     "DataTableName": "D_TalentTrees"
                 }
             ],
+            "GoalCount": 6,
             "SteamAchievementId": "ACH_PROMETHEUS",
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -6430,6 +6431,7 @@
                     "DataTableName": "D_TalentTrees"
                 }
             ],
+            "GoalCount": 3,
             "SteamAchievementId": "ACH_NULLSEC_STORY",
             "Metadata": {
                 "RequiredFeatureLevel": {

@@ -255,7 +255,8 @@
         },
         {
             "Name": "Fireplace",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Fireplace.BP_Fireplace_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Stone_Fireplace.BP_Stone_Fireplace_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Fireplace.ITEM_Fireplace",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Fireplace_Interior.SM_DEP_Fireplace_Interior",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE.SFX_BLD_STONE",
             "SnapToSurfaceNormal": false,
@@ -492,7 +493,8 @@
         },
         {
             "Name": "Fireplace_Chimney_Ext",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Fireplace_Chimney_Ext.BP_Fireplace_Chimney_Ext_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Stone_Fireplace_Chimney_Ext.BP_Stone_Fireplace_Chimney_Ext_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Fireplace_Chimney_Ext.ITEM_Fireplace_Chimney_Ext",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Chimney_Extension.SM_DEP_Chimney_Extension",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_CONC.SFX_BLD_CONC",
             "SnapToSurfaceNormal": false,
@@ -511,7 +513,8 @@
         },
         {
             "Name": "Fireplace_Chimney_Cap",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Fireplace_Chimney_Cap.BP_Fireplace_Chimney_Cap_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Stone_Fireplace_Chimney_Cap.BP_Stone_Fireplace_Chimney_Cap_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Fireplace_Chimney_Cap.ITEM_Fireplace_Chimney_Cap",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Fireplace_Chimney_Cap-DeployableName\", \"Full Height\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Chimney_Extension_Cap.SM_DEP_Chimney_Extension_Cap",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_CONC.SFX_BLD_CONC",
@@ -531,7 +534,8 @@
         },
         {
             "Name": "Fireplace_Chimney_Cap_Half",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Fireplace_Chimney_Cap_Half.BP_Fireplace_Chimney_Cap_Half_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Stone_Fireplace_Chimney_Cap_Half.BP_Stone_Fireplace_Chimney_Cap_Half_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Fireplace_Chimney_Cap_Half.ITEM_Fireplace_Chimney_Cap_Half",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Fireplace_Chimney_Cap_Half-DeployableName\", \"Half Height\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Chimney_Extension_Cap_SML_01.SM_DEP_Chimney_Extension_Cap_SML_01",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_CONC.SFX_BLD_CONC",
