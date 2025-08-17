@@ -12199,11 +12199,6 @@
             }
         },
         {
-            "Name": "ELY_Open_World",
-            "Class": "/Game/BP/Quests/Prometheus/Story/Story0/BPQ_PRO_Story0.BPQ_PRO_Story0_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"ELY_Open_World-Description\", \"Welcome to Elysium\")"
-        },
-        {
             "Name": "GH_Ape_A",
             "Class": "/Game/BP/Quests/GreatHunts/Ape/A/BPQ_GH_Ape_A.BPQ_GH_Ape_A_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"GH_Ape_A-Description\", \"Garganutan Campaign\")",

@@ -9658,6 +9658,60 @@
                 }
             ],
             "EffectedByWeather": false
+        },
+        {
+            "Name": "Tesla_Coil",
+            "Variants": [
+                {
+                    "RowName": "Tesla_Coil",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false,
+            "bMustBeOutside": true
+        },
+        {
+            "Name": "Turret_Flamethrower",
+            "Variants": [
+                {
+                    "RowName": "Turret_Flamethrower",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false,
+            "bMustBeOutside": true
+        },
+        {
+            "Name": "Mission_Makeshift_Beacon",
+            "Variants": [
+                {
+                    "RowName": "Mission_Makeshift_Beacon",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false,
+            "bMustBeOutside": true
+        },
+        {
+            "Name": "Mission_TPS_Communication_Tower",
+            "Variants": [
+                {
+                    "RowName": "Mission_TPS_Communication_Tower",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false,
+            "bMustBeOutside": true
+        },
+        {
+            "Name": "Charging_Device_Wall",
+            "Variants": [
+                {
+                    "RowName": "Charging_Device_Wall",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
         }
     ]
 }

@@ -506,6 +506,11 @@
             "ExperienceGranted": 80
         },
         {
+            "Name": "Skin_SnowPygmyLop",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_SnowPygmyLop-EventDescription\", \"Skinned Snow Pygmy Lop\")",
+            "ExperienceGranted": 80
+        },
+        {
             "Name": "Kill_Pack_Wolf",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Pack_Wolf-EventDescription\", \"Killed Pack Wolf\")",
             "SharedExperience": true,
@@ -1339,6 +1344,39 @@
             "Name": "Skin_Bounder",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Bounder-EventDescription\", \"Skinned Bounder\")",
             "ExperienceGranted": 260
+        },
+        {
+            "Name": "Kill_Chew",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Chew-EventDescription\", \"Killed Chew\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 550
+        },
+        {
+            "Name": "Skin_Chew",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Chew-EventDescription\", \"Skinned Chew\")",
+            "ExperienceGranted": 280
+        },
+        {
+            "Name": "Kill_TundraDeer",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_TundraDeer-EventDescription\", \"Killed Tundra Deer\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 520
+        },
+        {
+            "Name": "Skin_TundraDeer",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_TundraDeer-EventDescription\", \"Skinned Tundra Deer\")",
+            "ExperienceGranted": 260
+        },
+        {
+            "Name": "Kill_BabyRaptor",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_BabyRaptor-EventDescription\", \"Killed Juvenile Raptor\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 260
+        },
+        {
+            "Name": "Skin_BabyRaptor",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_BabyRaptor-EventDescription\", \"Skinned Juvenile Raptor\")",
+            "ExperienceGranted": 130
         }
     ]
 }

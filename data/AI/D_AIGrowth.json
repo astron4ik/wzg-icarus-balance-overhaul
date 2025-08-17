@@ -4449,18 +4449,18 @@
                 "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 4500,
                 "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
                 "(Value=\"BaseAIPerceptionSoundRadius_+\")": 1500,
-                "(Value=\"BaseCharacterMass_+\")": 600,
-                "(Value=\"BaseNPCAttackRadius_+\")": 400,
+                "(Value=\"BaseCharacterMass_+\")": 80,
+                "(Value=\"BaseNPCAttackRadius_+\")": 300,
                 "(Value=\"CanNPCDamageDurableActors_?\")": 1,
                 "(Value=\"CanNPCDamageVoxels_?\")": 1,
                 "(Value=\"BaseMiningRadius_+\")": 100,
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseSlowResistance_%\")": 33,
                 "(Value=\"BaseImmobiliseResistance_%\")": 33,
-                "(Value=\"BaseMovementSpeed_+\")": 20
+                "(Value=\"BaseMovementSpeed_+\")": 30
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_BearHealth.C_BearHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BearMeleeDamage.C_BearMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/C_IrradiatedProspectorHealth.C_IrradiatedProspectorHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_IrradiatedProspectorMeleeDamage.C_IrradiatedProspectorMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
@@ -4549,6 +4549,89 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": -50
             },
             "Health": "CurveFloat'/Game/Data/AI/C_MediumDeerHealth.C_MediumDeerHealth'",
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
+        },
+        {
+            "Name": "Chew",
+            "Base": {
+                "(Value=\"BaseMovementSpeed_+\")": 400,
+                "(Value=\"BaseSwimSpeed_+\")": 300,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 10,
+                "(Value=\"BaseMinimumFallDamage_%\")": 1,
+                "(Value=\"BaseMaximumFallDamage_%\")": 100,
+                "(Value=\"BaseMinimumFallDamageVelocity_+\")": 1250,
+                "(Value=\"BaseMaximumFallDamageVelocity_+\")": 1950,
+                "(Value=\"BaseAIPerceptionMaxAge_+\")": 3,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 5000,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 7500,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
+                "(Value=\"BaseCharacterMass_+\")": 175,
+                "(Value=\"BaseHealthRegenDelay_+\")": 2,
+                "(Value=\"BaseFrostDamageResistance_%\")": -100,
+                "(Value=\"BaseNPCAttackRadius_+\")": 600
+            },
+            "Health": "CurveFloat'/Game/Data/AI/C_MediumDeerHealth.C_MediumDeerHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
+        },
+        {
+            "Name": "Hopping_Creature",
+            "Base": {
+                "(Value=\"BaseSwimSpeed_+\")": 300,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 50,
+                "(Value=\"BaseMinimumFallDamage_%\")": 1,
+                "(Value=\"BaseMaximumFallDamage_%\")": 100,
+                "(Value=\"BaseMinimumFallDamageVelocity_+\")": 1250,
+                "(Value=\"BaseMaximumFallDamageVelocity_+\")": 1950,
+                "(Value=\"BaseAIPerceptionMaxAge_+\")": 3,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 8000,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 15000,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 130,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 3000,
+                "(Value=\"BaseCharacterMass_+\")": 600,
+                "(Value=\"BaseNPCAttackRadius_+\")": 400,
+                "(Value=\"CanNPCDamageDurableActors_?\")": 1,
+                "(Value=\"CanNPCDamageVoxels_?\")": 1,
+                "(Value=\"BaseMiningRadius_+\")": 100,
+                "(Value=\"BaseHealthRegenDelay_+\")": 2,
+                "(Value=\"BaseSlowResistance_%\")": 33,
+                "(Value=\"BaseImmobiliseResistance_%\")": 33,
+                "(Value=\"BaseMovementSpeed_+\")": 70,
+                "(Value=\"BasePoisonDamageResistance_%\")": -100,
+                "(Value=\"BaseFireDamageResistance_%\")": 50,
+                "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 1500,
+                "(Value=\"BaseExplosiveDamageResistance_%\")": -50
+            },
+            "Health": "CurveFloat'/Game/Data/AI/C_JuvenileRockGolemHealth.C_JuvenileRockGolemHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_JuvenileRockGolemMeleeDamage.C_JuvenileRockGolemMeleeDamage'",
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
+        },
+        {
+            "Name": "Juvenile_Raptor",
+            "Base": {
+                "(Value=\"BaseMovementSpeed_+\")": 100,
+                "(Value=\"BaseSwimSpeed_+\")": 125,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 3,
+                "(Value=\"BaseMinimumFallDamage_%\")": 1,
+                "(Value=\"BaseMaximumFallDamage_%\")": 100,
+                "(Value=\"BaseMinimumFallDamageVelocity_+\")": 1250,
+                "(Value=\"BaseMaximumFallDamageVelocity_+\")": 1950,
+                "(Value=\"BaseAIPerceptionMaxAge_+\")": 3,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 5000,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 7500,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
+                "(Value=\"BaseCharacterMass_+\")": 75,
+                "(Value=\"BaseHealthRegenDelay_+\")": 2,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseGOAPActionWanderMinDistance_+\")": 250,
+                "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 850,
+                "(Value=\"BaseMaximumFood_+\")": 100,
+                "(Value=\"BaseMaximumWater_+\")": 100,
+                "(Value=\"BaseFoodConsumptionPerHour_+\")": 1200,
+                "(Value=\"BaseWaterConsumptionPerHour_+\")": 0
+            },
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         }
     ]

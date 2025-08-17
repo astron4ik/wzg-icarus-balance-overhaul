@@ -6,6 +6,7 @@
             "DataTableName": "D_Itemable"
         },
         "Text": "",
+        "Image": "None",
         "Dialogue": {
             "RowName": "None",
             "DataTableName": "D_Dialogue"

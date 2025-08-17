@@ -227,6 +227,17 @@
                 "R": 254,
                 "A": 255
             }
+        },
+        {
+            "Name": "EDEN",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"EDEN-Display\", \"EDEN\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Home.Icon_Map_Home'",
+            "Color": {
+                "B": 255,
+                "G": 165,
+                "R": 66,
+                "A": 255
+            }
         }
     ]
 }

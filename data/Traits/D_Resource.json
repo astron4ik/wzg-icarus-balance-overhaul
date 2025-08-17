@@ -702,6 +702,13 @@
         {
             "Name": "Uranium_Generator",
             "bHasEnergyConnection": true
+        },
+        {
+            "Name": "Tesla_Coil",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Tesla_Coil"
+            }
         }
     ]
 }

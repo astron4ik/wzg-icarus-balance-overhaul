@@ -290,6 +290,9 @@
         },
         {
             "Name": "Mission_MiningCart"
+        },
+        {
+            "Name": "Mission_Makeshift_Beacon"
         }
     ]
 }

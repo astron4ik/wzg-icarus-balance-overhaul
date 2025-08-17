@@ -486,6 +486,30 @@
                 "RowName": "Strength"
             },
             "OverrideIcon": "/Game/Assets/2DArt/UI/Icons/BestiaryTraits/Icon_BestTrait_RetreatHeal.Icon_BestTrait_RetreatHeal"
+        },
+        {
+            "Name": "None_CritSpot",
+            "TraitName": "NSLOCTEXT(\"D_BestiaryTraits\", \"None_CritSpot-TraitName\", \"Critical Area: None\")",
+            "Type": {
+                "RowName": "CritSpot"
+            },
+            "OverrideIcon": "/Game/Assets/2DArt/UI/Icons/BestiaryTraits/Icon_BestTrait_Crits.Icon_BestTrait_Crits"
+        },
+        {
+            "Name": "Mining_Weakness",
+            "TraitName": "NSLOCTEXT(\"D_BestiaryTraits\", \"Mining_Weakness-TraitName\", \"Weak to Mining Damage\")",
+            "Type": {
+                "RowName": "Weakness"
+            },
+            "OverrideIcon": "/Game/Assets/2DArt/UI/Icons/Icon_Combat.Icon_Combat"
+        },
+        {
+            "Name": "Ricochets_Projectiles",
+            "TraitName": "NSLOCTEXT(\"D_BestiaryTraits\", \"Ricochets_Projectiles-TraitName\", \"Bullets Ricochet\")",
+            "Type": {
+                "RowName": "Strength"
+            },
+            "OverrideIcon": "/Game/Assets/2DArt/UI/Icons/T_ICON_ShieldRicochet.T_ICON_ShieldRicochet"
         }
     ]
 }

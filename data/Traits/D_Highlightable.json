@@ -937,8 +937,8 @@
         },
         {
             "Name": "Teleport_Enter",
-            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Teleport_Enter-DisplayName\", \"Enter\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Teleport_Enter-Description\", \"Exit Cave\")"
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Teleport_Enter-DisplayName\", \"Leave\")",
+            "Description": ""
         },
         {
             "Name": "NoTooltip",

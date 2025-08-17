@@ -15056,9 +15056,10 @@
                 "RowName": "Agent"
             },
             "Text": [
-                "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_OPT2_4-Text-0\", \"Annnnd they\\'re all dead. I hope you\\'re happy.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_OPT2_4-Text-1\", \"Mission complete\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_OPT2_4-Text-2\", \"Your next contract can be found on your chosen C0NT4CT Device\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_OPT2_4-Text-0\", \"Well done, you just let loose a creature with an unknown potential mutation into the wild.\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_OPT2_4-Text-1\", \"I\\'m sure that won\\'t turn out to be a problem later.\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_OPT2_4-Text-2\", \"Mission complete\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_OPT2_4-Text-3\", \"Your next contract can be found on your chosen C0NT4CT Device\")"
             ]
         },
         {

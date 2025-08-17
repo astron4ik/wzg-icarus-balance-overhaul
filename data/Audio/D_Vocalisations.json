@@ -3318,6 +3318,48 @@
             "Setting": {
                 "RowName": "Persistent"
             }
+        },
+        {
+            "Name": "RadProspectorIdle",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/Irradiated_Prospectors/VO_CRE_RAD_PROSPECTOR_IDLE.VO_CRE_RAD_PROSPECTOR_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "RadProspectorAttack",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/Irradiated_Prospectors/VO_CRE_RAD_PROSPECTOR_ATTACK_V2.VO_CRE_RAD_PROSPECTOR_ATTACK_V2",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "RadProspectorAggro",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/Irradiated_Prospectors/VO_CRE_RAD_PROSPECTOR_AGGRO.VO_CRE_RAD_PROSPECTOR_AGGRO",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "RadProspectorSpot",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/Irradiated_Prospectors/VO_CRE_RAD_PROSPECTOR_SPOT.VO_CRE_RAD_PROSPECTOR_SPOT",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "RadProspectorDeath",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/Irradiated_Prospectors/VO_CRE_RAD_PROSPECTOR_DEATH.VO_CRE_RAD_PROSPECTOR_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "RadProspectorFlinch",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/Irradiated_Prospectors/VO_CRE_RAD_PROSPECTOR_FLINCH.VO_CRE_RAD_PROSPECTOR_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
         }
     ]
 }

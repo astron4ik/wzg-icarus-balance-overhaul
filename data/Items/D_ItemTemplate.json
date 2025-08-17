@@ -3654,10 +3654,6 @@
                 {
                     "PropertyType": "Fillable_Type",
                     "Value": 2
-                },
-                {
-                    "PropertyType": "Fillable_StoredUnits",
-                    "Value": 6500
                 }
             ]
         },
@@ -3671,17 +3667,7 @@
             "Name": "Meta_Oxygen_Tank_Shengong",
             "ItemStaticData": {
                 "RowName": "Meta_Oxygen_Tank_Shengong"
-            },
-            "ItemDynamicData": [
-                {
-                    "PropertyType": "Fillable_Type",
-                    "Value": 4
-                },
-                {
-                    "PropertyType": "Fillable_StoredUnits",
-                    "Value": 6500
-                }
-            ]
+            }
         },
         {
             "Name": "Meta_Axe_Printed",
@@ -4987,7 +4973,7 @@
             "ItemDynamicData": [
                 {
                     "PropertyType": "ItemableStack",
-                    "Value": 10
+                    "Value": 5
                 }
             ]
         },
@@ -5171,7 +5157,7 @@
                 },
                 {
                     "PropertyType": "Fillable_StoredUnits",
-                    "Value": 100000
+                    "Value": 10000
                 }
             ]
         },
@@ -10720,7 +10706,7 @@
             "ItemDynamicData": [
                 {
                     "PropertyType": "Fillable_StoredUnits",
-                    "Value": 5000
+                    "Value": 10000
                 },
                 {
                     "PropertyType": "Fillable_Type",

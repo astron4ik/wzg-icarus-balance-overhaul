@@ -1153,6 +1153,32 @@
             "AssociatedMovementState": "Walk",
             "ActionBP": "/Game/BP/AI/GOAP/Actions/BP_IcarusGOAPAction_Wander.BP_IcarusGOAPAction_Wander_C",
             "BehaviourTree": "/Game/BP/AI/GOAP/BehaviourTrees/BT_IcarusGOAP_AnchoredWander.BT_IcarusGOAP_AnchoredWander"
+        },
+        {
+            "Name": "Wander_IrradiatedProspectorIdle",
+            "Description": "Wander",
+            "Preconditions": [
+                {
+                    "Property": {
+                        "RowName": "Wander",
+                        "DataTableName": "D_GOAPProperties"
+                    },
+                    "Value": false
+                }
+            ],
+            "Effects": [
+                {
+                    "Property": {
+                        "RowName": "Wander",
+                        "DataTableName": "D_GOAPProperties"
+                    },
+                    "Value": true
+                }
+            ],
+            "TimeOut": 90,
+            "AssociatedMovementState": "Walk",
+            "ActionBP": "/Game/BP/AI/GOAP/Actions/BP_IcarusGOAPAction_Wander.BP_IcarusGOAPAction_Wander_C",
+            "BehaviourTree": "/Game/BP/AI/GOAP/BehaviourTrees/BT_IcarusGOAP_IrradiatedProspectorIdle.BT_IcarusGOAP_IrradiatedProspectorIdle"
         }
     ]
 }

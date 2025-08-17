@@ -2664,6 +2664,13 @@
                         "RowName": "None",
                         "DataTableName": "D_ModifierStates"
                     }
+                },
+                "(RowName=\"Fireball_Ammo\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {},
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
                 }
             }
         },

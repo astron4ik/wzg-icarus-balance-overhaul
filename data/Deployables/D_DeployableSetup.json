@@ -10270,7 +10270,7 @@
         {
             "Name": "Gas_Fireplace_Cap",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Gas_Fireplace_Cap.BP_Gas_Fireplace_Cap_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Gas_Fireplace_Cap.T_ITEM_Gas_Fireplace_Cap",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Gas_Fireplace_Cap_Full.T_ITEM_Gas_Fireplace_Cap_Full",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Gas_Fireplace_Cap-DeployableName\", \"Full Height\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Fireplace_Gas/SM_DEP_Fireplace_Gas_CAP_LRG.SM_DEP_Fireplace_Gas_CAP_LRG",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
@@ -10351,7 +10351,7 @@
         {
             "Name": "Electric_Fireplace_Cap",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Electric_Fireplace_Cap.BP_Electric_Fireplace_Cap_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Electric_Fireplace_Cap.T_ITEM_Electric_Fireplace_Cap",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Electric_Fireplace_Cap_Full.T_ITEM_Electric_Fireplace_Cap_Full",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Electric_Fireplace_Cap-DeployableName\", \"Full Height\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Fireplace_Electric/SM_DEP_Fireplace_Electric_CAP_LRG.SM_DEP_Fireplace_Electric_CAP_LRG",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
@@ -10921,7 +10921,7 @@
         {
             "Name": "StoneBrick_Sign_Small",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_StoneBrick_Sign_Small.BP_StoneBrick_Sign_Small_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_StoneBrick_Sign_Small_01.T_ITEM_StoneBrick_Sign_Small_01",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_StoneBrick_Sign_B.T_ITEM_StoneBrick_Sign_B",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"StoneBrick_Sign_Small-DeployableName\", \"Floor Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_Sign_Brick_B.SM_DCO_Sign_Brick_B",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
@@ -10929,7 +10929,7 @@
         {
             "Name": "StoneBrick_Wall_Sign",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_StoneBrick_Wall_Sign.BP_StoneBrick_Wall_Sign_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_StoneBrick_Sign_Small_02.T_ITEM_StoneBrick_Sign_Small_02",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_StoneBrick_Sign_A.T_ITEM_StoneBrick_Sign_A",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"StoneBrick_Wall_Sign-DeployableName\", \"Wall Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_Sign_Brick_A.SM_DCO_Sign_Brick_A",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
@@ -10941,7 +10941,7 @@
         {
             "Name": "StoneBrick_Sign_Small_Angled",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_StoneBrick_Sign_Angle_Small.BP_StoneBrick_Sign_Angle_Small_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_StoneBrick_Sign_Small_03.T_ITEM_StoneBrick_Sign_Small_03",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_StoneBrick_Sign_C.T_ITEM_StoneBrick_Sign_C",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"StoneBrick_Sign_Small_Angled-DeployableName\", \"Small Angled Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_Sign_Brick_C.SM_DCO_Sign_Brick_C",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
@@ -10949,7 +10949,7 @@
         {
             "Name": "StoneBrick_Sign_Angled",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_StoneBrick_Sign_Angle.BP_StoneBrick_Sign_Angle_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_StoneBrick_Sign_Small_04.T_ITEM_StoneBrick_Sign_Small_04",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_StoneBrick_Sign_D.T_ITEM_StoneBrick_Sign_D",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"StoneBrick_Sign_Angled-DeployableName\", \"Tall Angled Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_Sign_Brick_D.SM_DCO_Sign_Brick_D",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
@@ -10957,6 +10957,7 @@
         {
             "Name": "ScoriaBrick_Sign_Small",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_ScoriaBrick_Sign_Small.BP_ScoriaBrick_Sign_Small_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_ScoriaBrick_Sign_B.T_ITEM_ScoriaBrick_Sign_B",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"ScoriaBrick_Sign_Small-DeployableName\", \"Floor Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_Sign_Brick_B.SM_DCO_Sign_Brick_B",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
@@ -10964,6 +10965,7 @@
         {
             "Name": "ScoriaBrick_Wall_Sign",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_ScoriaBrick_Wall_Sign.BP_ScoriaBrick_Wall_Sign_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_ScoriaBrick_Sign_A.T_ITEM_ScoriaBrick_Sign_A",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"ScoriaBrick_Wall_Sign-DeployableName\", \"Wall Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_Sign_Brick_A.SM_DCO_Sign_Brick_A",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
@@ -10975,6 +10977,7 @@
         {
             "Name": "ScoriaBrick_Sign_Small_Angled",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_ScoriaBrick_Sign_Angle_Small.BP_ScoriaBrick_Sign_Angle_Small_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_ScoriaBrick_C.T_ITEM_ScoriaBrick_C",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"ScoriaBrick_Sign_Small_Angled-DeployableName\", \"Small Angled Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_Sign_Brick_C.SM_DCO_Sign_Brick_C",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
@@ -10982,6 +10985,7 @@
         {
             "Name": "ScoriaBrick_Sign_Angled",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_ScoriaBrick_Sign_Angle.BP_ScoriaBrick_Sign_Angle_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_ScoriaBrick_Sign_D.T_ITEM_ScoriaBrick_Sign_D",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"ScoriaBrick_Sign_Angled-DeployableName\", \"Tall Angled Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_Sign_Brick_D.SM_DCO_Sign_Brick_D",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
@@ -12814,6 +12818,72 @@
             ],
             "IgnoreCollisionWhenSnapped": true,
             "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Tesla_Coil",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Defences/BP_Tesla_Coil.BP_Tesla_Coil_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Tesla_Coil/SM_DEP_Tesla_Coil.SM_DEP_Tesla_Coil",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
+            "NavAreaClass": "Class'/Script/NavigationSystem.NavArea_Obstacle'",
+            "NavigationFallbackExtents": {
+                "X": 1,
+                "Y": 1,
+                "Z": 1
+            }
+        },
+        {
+            "Name": "Turret_Flamethrower",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Defences/BP_Flamethrower_Turret.BP_Flamethrower_Turret_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Turret_T4/SM_DEP_Turret_Pistol_Combined_v2.SM_DEP_Turret_Pistol_Combined_v2",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
+            "NavAreaClass": "Class'/Script/NavigationSystem.NavArea_Obstacle'",
+            "NavigationFallbackExtents": {
+                "X": 1,
+                "Y": 1,
+                "Z": 1
+            }
+        },
+        {
+            "Name": "Mission_Makeshift_Beacon",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Communication/BP_Makeshift_Beacon.BP_Makeshift_Beacon_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_LightningRod.SM_DEP_LightningRod",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "MaxSurfaceSnapAngle": 50,
+            "SupportsCustomRotation": false,
+            "DeployCollisionExtentOffset": {
+                "Z": -10
+            },
+            "DeployCollisionLocationOffset": {
+                "Z": 10
+            }
+        },
+        {
+            "Name": "Mission_TPS_Communication_Tower",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_TPS_Communication_Tower.BP_TPS_Communication_Tower_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/Bunker_Props/SM_Bunker_Antenna.SM_Bunker_Antenna",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "MaxSurfaceSnapAngle": 180,
+            "SupportsCustomRotation": false,
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Charging_Device_Wall",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Charger/BP_Charging_Device_Wall.BP_Charging_Device_Wall_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Powered_Charger_Wall.SM_DEP_Powered_Charger_Wall",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Charger_Wall"
+            ],
+            "SnapSocketsOrTags": [
+                "R",
+                "L"
+            ],
             "MaxRestackingAmount": -1
         }
     ]

@@ -1261,7 +1261,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 5650,
+                "X": 5850,
                 "Y": 850
             },
             "Size": {
@@ -1285,7 +1285,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 5650,
+                "X": 5850,
                 "Y": 1200
             },
             "Size": {
@@ -1601,7 +1601,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 4550,
+                "X": 4750,
                 "Y": 1200
             },
             "Size": {
@@ -1625,7 +1625,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 10550,
+                "X": 10750,
                 "Y": 850
             },
             "Size": {
@@ -1814,7 +1814,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 10250,
+                "X": 10450,
                 "Y": 850
             },
             "Size": {
@@ -2114,7 +2114,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 8050,
+                "X": 8250,
                 "Y": 850
             },
             "Size": {
@@ -2139,7 +2139,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 11500,
+                "X": 11700,
                 "Y": 850
             },
             "Size": {
@@ -2166,7 +2166,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 11800,
+                "X": 12000,
                 "Y": 850
             },
             "Size": {
@@ -3295,7 +3295,7 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseChanceToDoubleArrowsWhenCrafting_%\")": 25
+                        "(Value=\"BaseChanceToDoubleArrowsWhenCrafting_%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -4892,19 +4892,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseSkinningSpeed_+%\")": 15
+                        "(Value=\"BaseSkinningSpeed_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseSkinningSpeed_+%\")": 25
+                        "(Value=\"BaseSkinningSpeed_+%\")": 10
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseSkinningSpeed_+%\")": 50
+                        "(Value=\"BaseSkinningSpeed_+%\")": 20
                     },
                     "GrantedFlags": []
                 }
@@ -7242,19 +7242,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
+                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
                         "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -25
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -40
+                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -20
                     },
                     "GrantedFlags": []
                 }
@@ -8149,19 +8149,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFellingRewards_+%\")": 15
+                        "(Value=\"BaseFellingRewards_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFellingRewards_+%\")": 25
+                        "(Value=\"BaseFellingRewards_+%\")": 10
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFellingRewards_+%\")": 50
+                        "(Value=\"BaseFellingRewards_+%\")": 20
                     },
                     "GrantedFlags": []
                 }
@@ -8746,25 +8746,25 @@
             "Rewards": [
                 {
                     "GrantedStats": {
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
                         "(Value=\"BaseForagingHarvestingRewards_+%\")": 15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 25
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 50
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 75
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 20
                     },
                     "GrantedFlags": []
                 }
@@ -8799,19 +8799,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
+                        "(Value=\"BaseMiningOxiteRewards_+%\")": 10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
                         "(Value=\"BaseMiningOxiteRewards_+%\")": 15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseMiningOxiteRewards_+%\")": 25
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseMiningOxiteRewards_+%\")": 50
+                        "(Value=\"BaseMiningOxiteRewards_+%\")": 20
                     },
                     "GrantedFlags": []
                 }
@@ -9005,19 +9005,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
+                        "(Value=\"BaseMiningMetalRewards_+%\")": 10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
                         "(Value=\"BaseMiningMetalRewards_+%\")": 15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseMiningMetalRewards_+%\")": 25
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseMiningMetalRewards_+%\")": 50
+                        "(Value=\"BaseMiningMetalRewards_+%\")": 20
                     },
                     "GrantedFlags": []
                 }
@@ -11026,9 +11026,9 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFellingRewards_+%\")": 50,
-                        "(Value=\"BaseMiningStoneRewards_+%\")": 50,
-                        "(Value=\"BaseHarvestingRewards_+%\")": 50
+                        "(Value=\"BaseFellingRewards_+%\")": 15,
+                        "(Value=\"BaseMiningStoneRewards_+%\")": 15,
+                        "(Value=\"BaseHarvestingRewards_+%\")": 15
                     },
                     "GrantedFlags": []
                 }
@@ -11260,7 +11260,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 6350,
+                "X": 6550,
                 "Y": 1200
             },
             "Size": {
@@ -11284,7 +11284,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 6500,
+                "X": 6700,
                 "Y": 850
             },
             "Size": {
@@ -11308,7 +11308,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 6200,
+                "X": 6400,
                 "Y": 850
             },
             "Size": {
@@ -11332,7 +11332,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 6050,
+                "X": 6250,
                 "Y": 1200
             },
             "Size": {
@@ -11356,7 +11356,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 10400,
+                "X": 10600,
                 "Y": 1200
             },
             "Size": {
@@ -11380,7 +11380,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 6650,
+                "X": 6850,
                 "Y": 1200
             },
             "Size": {
@@ -12505,7 +12505,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 7350,
+                "X": 7550,
                 "Y": 1200
             },
             "Size": {
@@ -14359,7 +14359,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 13250,
+                "X": 13450,
                 "Y": 1150
             },
             "Size": {
@@ -14409,7 +14409,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 15150,
+                "X": 15350,
                 "Y": 850
             },
             "Size": {
@@ -14433,7 +14433,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 14750,
+                "X": 14950,
                 "Y": 850
             },
             "Size": {
@@ -14506,7 +14506,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 11050,
+                "X": 11250,
                 "Y": 1050
             },
             "Size": {
@@ -15494,19 +15494,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
+                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
                         "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -25
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -40
+                        "(Value=\"BaseConcreteBuildableCarryWeight_+%\")": -20
                     },
                     "GrantedFlags": []
                 }
@@ -17739,7 +17739,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 6800,
+                "X": 7000,
                 "Y": 850
             },
             "Size": {
@@ -17939,7 +17939,7 @@
             },
             "Position": {
                 "X": 850,
-                "Y": 1350
+                "Y": 1250
             },
             "Size": {
                 "X": 250,
@@ -17957,7 +17957,7 @@
             },
             "Position": {
                 "X": 1200,
-                "Y": 600
+                "Y": 650
             },
             "Size": {
                 "X": 250,
@@ -17975,7 +17975,7 @@
             },
             "Position": {
                 "X": 1200,
-                "Y": 250
+                "Y": 350
             },
             "Size": {
                 "X": 250,
@@ -17993,7 +17993,7 @@
             },
             "Position": {
                 "X": 850,
-                "Y": 250
+                "Y": 350
             },
             "Size": {
                 "X": 250,
@@ -18011,7 +18011,7 @@
             },
             "Position": {
                 "X": 1550,
-                "Y": 1000
+                "Y": 950
             },
             "Size": {
                 "X": 250,
@@ -18029,7 +18029,7 @@
             },
             "Position": {
                 "X": 850,
-                "Y": 1000
+                "Y": 950
             },
             "Size": {
                 "X": 250,
@@ -18047,7 +18047,7 @@
             },
             "Position": {
                 "X": 1200,
-                "Y": 1000
+                "Y": 950
             },
             "Size": {
                 "X": 250,
@@ -18065,7 +18065,7 @@
             },
             "Position": {
                 "X": 850,
-                "Y": 600
+                "Y": 650
             },
             "Size": {
                 "X": 250,
@@ -18157,7 +18157,7 @@
             },
             "Position": {
                 "X": 1200,
-                "Y": 1350
+                "Y": 1250
             },
             "Size": {
                 "X": 250,
@@ -18346,13 +18346,13 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseDriedMeatModifierEffectiveness_+%\")": 25
+                        "(Value=\"BaseDriedMeatModifierEffectiveness_+%\")": 15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseDriedMeatModifierEffectiveness_+%\")": 50
+                        "(Value=\"BaseDriedMeatModifierEffectiveness_+%\")": 30
                     },
                     "GrantedFlags": []
                 }
@@ -18390,13 +18390,13 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 25
+                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 15
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 50
+                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 30
                     },
                     "GrantedFlags": []
                 }
@@ -18534,19 +18534,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 15
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 2
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 25
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 50
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -18667,13 +18667,13 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 25
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 50
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -18708,13 +18708,13 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFellingRewards_+%\")": 25
+                        "(Value=\"BaseFellingRewards_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseFellingRewards_+%\")": 50
+                        "(Value=\"BaseFellingRewards_+%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -18749,13 +18749,13 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseMiningRewards_+%\")": 25
+                        "(Value=\"BaseMiningRewards_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseMiningRewards_+%\")": 50
+                        "(Value=\"BaseMiningRewards_+%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -23049,15 +23049,15 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseTameMinimumDesiredTemperature_+\")": -5,
-                        "(Value=\"BaseTameMaximumDesiredTemperature_+\")": 5
+                        "(Value=\"BaseTameMinimumDesiredTemperature_+\")": -200,
+                        "(Value=\"BaseTameMaximumDesiredTemperature_+\")": 200
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseTameMinimumDesiredTemperature_+\")": -10,
-                        "(Value=\"BaseTameMaximumDesiredTemperature_+\")": 10
+                        "(Value=\"BaseTameMinimumDesiredTemperature_+\")": -400,
+                        "(Value=\"BaseTameMaximumDesiredTemperature_+\")": 400
                     },
                     "GrantedFlags": []
                 }
@@ -23431,19 +23431,19 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 15
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 2
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 25
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 5
                     },
                     "GrantedFlags": []
                 },
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 50
+                        "(Value=\"BaseForagingHarvestingRewards_+%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -23486,7 +23486,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 7500,
+                "X": 7700,
                 "Y": 850
             },
             "Size": {
@@ -24098,7 +24098,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 12950,
+                "X": 13150,
                 "Y": 850
             },
             "Size": {
@@ -24453,7 +24453,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 12950,
+                "X": 13150,
                 "Y": 1150
             },
             "Size": {
@@ -24589,7 +24589,7 @@
             },
             "Position": {
                 "X": 1550,
-                "Y": 1350
+                "Y": 1250
             },
             "Size": {
                 "X": 250,
@@ -24607,7 +24607,7 @@
             },
             "Position": {
                 "X": 1550,
-                "Y": 600
+                "Y": 650
             },
             "Size": {
                 "X": 250,
@@ -24625,7 +24625,7 @@
             },
             "Position": {
                 "X": 1550,
-                "Y": 250
+                "Y": 350
             },
             "Size": {
                 "X": 250,
@@ -24643,7 +24643,7 @@
             },
             "Position": {
                 "X": 1900,
-                "Y": 1000
+                "Y": 950
             },
             "Size": {
                 "X": 250,
@@ -24735,7 +24735,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 6950,
+                "X": 7150,
                 "Y": 1200
             },
             "Size": {
@@ -24759,7 +24759,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 8050,
+                "X": 8250,
                 "Y": 1200
             },
             "Size": {
@@ -26769,7 +26769,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 8500,
+                "X": 8700,
                 "Y": 850
             },
             "Size": {
@@ -26795,7 +26795,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 8800,
+                "X": 9000,
                 "Y": 1050
             },
             "Size": {
@@ -26826,7 +26826,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 8800,
+                "X": 9000,
                 "Y": 850
             },
             "Size": {
@@ -26855,7 +26855,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 8650,
+                "X": 8850,
                 "Y": 1200
             },
             "Size": {
@@ -26884,7 +26884,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 8950,
+                "X": 9150,
                 "Y": 1200
             },
             "Size": {
@@ -26913,7 +26913,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 9100,
+                "X": 9300,
                 "Y": 850
             },
             "Size": {
@@ -26942,7 +26942,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 9250,
+                "X": 9450,
                 "Y": 1200
             },
             "Size": {
@@ -26971,7 +26971,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 7650,
+                "X": 7850,
                 "Y": 1200
             },
             "Size": {
@@ -27000,7 +27000,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 10700,
+                "X": 10900,
                 "Y": 1200
             },
             "Size": {
@@ -28877,7 +28877,7 @@
             },
             "Position": {
                 "X": 500,
-                "Y": 600
+                "Y": 650
             },
             "Size": {
                 "X": 250,
@@ -28996,7 +28996,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 5050,
+                "X": 5250,
                 "Y": 1050
             },
             "Size": {
@@ -29022,7 +29022,7 @@
             },
             "Position": {
                 "X": 1900,
-                "Y": 1350
+                "Y": 1250
             },
             "Size": {
                 "X": 250,
@@ -29040,7 +29040,7 @@
             },
             "Position": {
                 "X": 2250,
-                "Y": 250
+                "Y": 350
             },
             "Size": {
                 "X": 250,
@@ -29058,7 +29058,7 @@
             },
             "Position": {
                 "X": 2950,
-                "Y": 1000
+                "Y": 950
             },
             "Size": {
                 "X": 250,
@@ -29081,7 +29081,7 @@
             },
             "Position": {
                 "X": 1900,
-                "Y": 600
+                "Y": 650
             },
             "Size": {
                 "X": 250,
@@ -29099,7 +29099,7 @@
             },
             "Position": {
                 "X": 2950,
-                "Y": 600
+                "Y": 650
             },
             "Size": {
                 "X": 250,
@@ -29122,7 +29122,7 @@
             },
             "Position": {
                 "X": 2250,
-                "Y": 1000
+                "Y": 950
             },
             "Size": {
                 "X": 250,
@@ -29140,7 +29140,7 @@
             },
             "Position": {
                 "X": 2600,
-                "Y": 250
+                "Y": 350
             },
             "Size": {
                 "X": 250,
@@ -29158,7 +29158,7 @@
             },
             "Position": {
                 "X": 2250,
-                "Y": 600
+                "Y": 650
             },
             "Size": {
                 "X": 250,
@@ -29176,7 +29176,7 @@
             },
             "Position": {
                 "X": 1900,
-                "Y": 250
+                "Y": 350
             },
             "Size": {
                 "X": 250,
@@ -29194,7 +29194,7 @@
             },
             "Position": {
                 "X": 2250,
-                "Y": 1350
+                "Y": 1250
             },
             "Size": {
                 "X": 250,
@@ -30926,7 +30926,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 13600,
+                "X": 13800,
                 "Y": 1150
             },
             "Size": {
@@ -32034,7 +32034,7 @@
             },
             "Position": {
                 "X": 2600,
-                "Y": 1000
+                "Y": 950
             },
             "Size": {
                 "X": 250,
@@ -32099,7 +32099,8 @@
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_Talents"
                 }
-            ]
+            ],
+            "RequiredLevel": 15
         },
         {
             "Name": "Beehive_Expansion_1",
@@ -32237,7 +32238,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 15550,
+                "X": 15750,
                 "Y": 850
             },
             "Size": {
@@ -39365,7 +39366,7 @@
             },
             "Position": {
                 "X": 500,
-                "Y": 1000
+                "Y": 950
             },
             "Size": {
                 "X": 250,
@@ -39406,7 +39407,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 5350,
+                "X": 5550,
                 "Y": 850
             },
             "Size": {
@@ -39622,7 +39623,7 @@
             },
             "Position": {
                 "X": 2950,
-                "Y": 250
+                "Y": 350
             },
             "Size": {
                 "X": 250,
@@ -39640,7 +39641,7 @@
             },
             "Position": {
                 "X": 2600,
-                "Y": 600
+                "Y": 650
             },
             "Size": {
                 "X": 250,
@@ -39781,7 +39782,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 13600,
+                "X": 13800,
                 "Y": 850
             },
             "Size": {
@@ -39803,7 +39804,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 13250,
+                "X": 13450,
                 "Y": 850
             },
             "Size": {
@@ -48929,7 +48930,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 10450,
+                "X": 10500,
                 "Y": 450
             },
             "Size": {
@@ -50048,7 +50049,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 14000,
+                "X": 14200,
                 "Y": 850
             },
             "Size": {
@@ -50341,7 +50342,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 10450,
+                "X": 10500,
                 "Y": 100
             },
             "Size": {
@@ -50469,7 +50470,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 3550,
+                "X": 3750,
                 "Y": 1050
             },
             "Size": {
@@ -50637,7 +50638,7 @@
             },
             "Position": {
                 "X": 2600,
-                "Y": 1350
+                "Y": 1250
             },
             "Size": {
                 "X": 250,
@@ -51535,7 +51536,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 9600,
+                "X": 9800,
                 "Y": 850
             },
             "Size": {
@@ -51570,7 +51571,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 4450,
+                "X": 4650,
                 "Y": 850
             },
             "Size": {
@@ -51675,7 +51676,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 9750,
+                "X": 9950,
                 "Y": 1200
             },
             "Size": {
@@ -51949,7 +51950,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 9900,
+                "X": 10100,
                 "Y": 850
             },
             "Size": {
@@ -52337,7 +52338,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 12100,
+                "X": 12300,
                 "Y": 850
             },
             "Size": {
@@ -53073,7 +53074,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 3950,
+                "X": 4150,
                 "Y": 1200
             },
             "Size": {
@@ -53086,31 +53087,6 @@
                     "DataTableName": "D_Talents"
                 }
             ]
-        },
-        {
-            "Name": "Oil_Epoxy",
-            "ExtraData": {
-                "RowName": "Item_Epoxy",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T5"
-            },
-            "Position": {
-                "X": 2200,
-                "Y": 450
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Polymerizer",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "ShortestDistance"
         },
         {
             "Name": "Portable_Biofuel_Generator",
@@ -53147,7 +53123,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 4250,
+                "X": 4450,
                 "Y": 1200
             },
             "Size": {
@@ -53261,7 +53237,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 3850,
+                "X": 4050,
                 "Y": 850
             },
             "Size": {
@@ -53285,7 +53261,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 4150,
+                "X": 4350,
                 "Y": 850
             },
             "Size": {
@@ -56040,7 +56016,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 14350,
+                "X": 14550,
                 "Y": 850
             },
             "Size": {
@@ -57365,7 +57341,7 @@
             },
             "Position": {
                 "X": 2950,
-                "Y": 1350
+                "Y": 1250
             },
             "Size": {
                 "X": 250,
@@ -57747,7 +57723,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 11650,
+                "X": 11850,
                 "Y": 1200
             },
             "Size": {
@@ -57783,7 +57759,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 11950,
+                "X": 12150,
                 "Y": 1200
             },
             "Size": {
@@ -57819,7 +57795,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 11350,
+                "X": 11550,
                 "Y": 1200
             },
             "Size": {

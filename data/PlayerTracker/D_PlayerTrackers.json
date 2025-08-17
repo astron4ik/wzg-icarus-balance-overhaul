@@ -785,8 +785,12 @@
         },
         {
             "Name": "TimeSurvivedInOutpost",
-            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"TimeSurvivedInOutpost-DisplayName\", \"Time Survived in Outposts\")",
-            "SteamStatId": "HoursSurvivedInOutpost"
+            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"TimeSurvivedInOutpost-DisplayName\", \"Time Survived in Outposts\")"
+        },
+        {
+            "Name": "HoursSurvivedInOutpost",
+            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"HoursSurvivedInOutpost-DisplayName\", \"Time Survived in Outposts\")",
+            "SteamStatId": "TimeSurvivedInOutpost"
         },
         {
             "Name": "TimeSurvivedInDesert",
@@ -1332,7 +1336,16 @@
         {
             "Name": "TimeSurvivedInNullSec",
             "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"TimeSurvivedInNullSec-DisplayName\", \"Time Survived in Null Sector\")",
-            "SteamStatId": "HoursSurvivedInNullsec",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "GreatHunts"
+                }
+            }
+        },
+        {
+            "Name": "HoursSurvivedInNullSec",
+            "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"HoursSurvivedInNullSec-DisplayName\", \"Time Survived in Null Sector\")",
+            "SteamStatId": "TimeSurvivedInNullsec",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -1375,7 +1388,6 @@
         {
             "Name": "NullsecStoryMissionCompletionList",
             "DisplayName": "NSLOCTEXT(\"D_PlayerTrackers\", \"NullsecStoryMissionCompletionList-DisplayName\", \"Null Sector Story Missions Completed\")",
-            "SteamStatId": "NullsecStoryMissionList",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"

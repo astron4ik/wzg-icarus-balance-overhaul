@@ -2767,6 +2767,15 @@
                     },
                     "Tag": ""
                 }
+            ],
+            "WorldHoldInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_Teleport_RetrieveLoot",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
             ]
         },
         {
@@ -3470,6 +3479,36 @@
                 {
                     "InteractionRow": {
                         "RowName": "Collect_Object_Fuel",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ],
+            "WorldAltHoldInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Pickup_Deployable",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ]
+        },
+        {
+            "Name": "Deployable_Power_Toggle_Only_NoInspect",
+            "WorldPressInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Pickup_Item",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ],
+            "WorldHoldInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_Toggle_Device_On",
                         "DataTableName": "D_Interactions"
                     },
                     "Tag": ""

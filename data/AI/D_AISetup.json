@@ -21781,8 +21781,14 @@
             },
             "DefaultNavigationFilter": "BlueprintGeneratedClass'/Game/BP/AI/GOAP/Misc/NavFilter_DefaultAI.NavFilter_DefaultAI_C'",
             "Relationships": {
-                "RowName": "EnemyPlayerOnly"
+                "RowName": "DefaultLargeCarnivore"
             },
+            "NotifiedNPCTypes": [
+                {
+                    "RowName": "NPC_Aggressive",
+                    "DataTableName": "D_TagQueries"
+                }
+            ],
             "AIGrowth": {
                 "RowName": "Juvenile_RockGolem"
             },
@@ -21933,8 +21939,14 @@
             },
             "DefaultNavigationFilter": "BlueprintGeneratedClass'/Game/BP/AI/GOAP/Misc/NavFilter_DefaultAI.NavFilter_DefaultAI_C'",
             "Relationships": {
-                "RowName": "EnemyPlayerOnly"
+                "RowName": "DefaultLargeCarnivore"
             },
+            "NotifiedNPCTypes": [
+                {
+                    "RowName": "NPC_Aggressive",
+                    "DataTableName": "D_TagQueries"
+                }
+            ],
             "AIGrowth": {
                 "RowName": "Juvenile_RockGolem_Arctic"
             },

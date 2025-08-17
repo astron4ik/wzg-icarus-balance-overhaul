@@ -10264,6 +10264,114 @@
                 ],
                 "AutoDescription": " ALL( GreatHunts.RockGolem.O2.Burrow2 )"
             }
+        },
+        {
+            "Name": "ELY_STORY_1_TOWER",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story1.Tower"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story1.Tower )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_1_EDEN",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story1.Eden"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story1.Eden )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_1_MO",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story1.Mo"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story1.Mo )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_1_IRIS",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story1.Iris"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story1.Iris )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_1_VICTOR",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story1.Victor"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story1.Victor )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_1_THEO",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story1.Theo"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story1.Theo )"
+            }
         }
     ]
 }

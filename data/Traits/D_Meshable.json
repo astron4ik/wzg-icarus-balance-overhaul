@@ -7818,6 +7818,11 @@
             "Name": "Mesh_Radioactive_Waste",
             "ItemMesh": "/Game/ASS/DEP/SM_DEP_Barrel_Wood.SM_DEP_Barrel_Wood",
             "ItemActor": "/Game/BP/Objects/World/Items/Resources/BP_StaticItem_RawUranium.BP_StaticItem_RawUranium_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Raptor_Juvenile",
+            "ItemMesh": "/Game/ASS/CRE/Raptor/Juvie/SK_CRE_Raptor_Juvie.SK_CRE_Raptor_Juvie",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Raptor_Juvenile_Corpse.BP_Raptor_Juvenile_Corpse_C"
         }
     ]
 }

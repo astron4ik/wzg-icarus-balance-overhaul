@@ -18130,8 +18130,8 @@
             }
         },
         {
-            "Name": "MaximumRadiationTolerance_+",
-            "Title": "NSLOCTEXT(\"D_Stats\", \"MaximumRadiationTolerance_+-Title\", \"Radiation Tolerance\")",
+            "Name": "MaximumRadiation_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"MaximumRadiation_+-Title\", \"Radiation Tolerance\")",
             "PositiveTitleFormat": "INVTEXT(\"{0}\")",
             "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
             "bIsReplicated": true,
@@ -18140,9 +18140,9 @@
             }
         },
         {
-            "Name": "BaseMaximumRadiationTolerance_+",
-            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMaximumRadiationTolerance_+-PositiveDescription\", \"+{0} Maximum Radiation Tolerance\")",
-            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMaximumRadiationTolerance_+-NegativeDescription\", \"-{0} Maximum Radiation Tolerance\")",
+            "Name": "BaseMaximumRadiation_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMaximumRadiation_+-PositiveDescription\", \"+{0} Maximum Radiation Tolerance\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMaximumRadiation_+-NegativeDescription\", \"-{0} Maximum Radiation Tolerance\")",
             "StatCategory": {
                 "RowName": "Radiation"
             },
@@ -18150,9 +18150,9 @@
             "bShowStatOnModifiers": true
         },
         {
-            "Name": "BaseMaximumRadiationTolerance_+%",
-            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMaximumRadiationTolerance_+%-PositiveDescription\", \"+{0}% Maximum Radiation Tolerance\")",
-            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMaximumRadiationTolerance_+%-NegativeDescription\", \"-{0}% Maximum Radiation Tolerance\")",
+            "Name": "BaseMaximumRadiation_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMaximumRadiation_+%-PositiveDescription\", \"+{0}% Maximum Radiation Tolerance\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMaximumRadiation_+%-NegativeDescription\", \"-{0}% Maximum Radiation Tolerance\")",
             "StatCategory": {
                 "RowName": "Radiation"
             }

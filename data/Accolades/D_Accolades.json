@@ -6105,9 +6105,9 @@
                 "Value": "Achievement"
             },
             "Tracker": {
-                "RowName": "TimeSurvivedInNullSec"
+                "RowName": "HoursSurvivedInNullSec"
             },
-            "GoalCount": 18000,
+            "GoalCount": 5,
             "SteamAchievementId": "ACH_NULLSEC_TIME",
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -6418,12 +6418,9 @@
             "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"EndAbyss-DisplayName\", \"Poor Hans\")",
             "Description": "NSLOCTEXT(\"D_Accolades\", \"EndAbyss-Description\", \"Complete the Final Null Sector Story Mission\")",
             "Icon": "/Game/Assets/2DArt/UI/Accolades/Achievements/T_ACH_Poor_Hans_complete.T_ACH_Poor_Hans_complete",
-            "AccoladeImpl": "/Script/Icarus.AllNullsecStoryMissionsInTreeAccolade",
+            "AccoladeImpl": "/Script/Icarus.OneOffAccolade",
             "Category": {
                 "Value": "Achievement"
-            },
-            "Tracker": {
-                "RowName": "NullsecStoryMissionCompletionList"
             },
             "ExtraDatas": [
                 {
@@ -6814,9 +6811,9 @@
                 "Value": "Achievement"
             },
             "Tracker": {
-                "RowName": "TimeSurvivedInOutpost"
+                "RowName": "HoursSurvivedInOutpost"
             },
-            "GoalCount": 36000,
+            "GoalCount": 10,
             "SteamAchievementId": "ACH_OUTPOST_TIME",
             "Metadata": {
                 "RequiredFeatureLevel": {
