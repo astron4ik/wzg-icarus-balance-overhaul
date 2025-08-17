@@ -4,8 +4,8 @@
       "name": "A WZG balance overhaul - Fork version",
       "origin_author": "Waldo",
       "fork_author": "astron4ik",
-      "version": "192.0",
-      "compatibility": "w192",
+      "version": "193.0",
+      "compatibility": "w193",
       "description": "Easy, casual Icarus game mode. Less grind, more fun.",
       "imageURL": "https://raw.githubusercontent.com/astron4ik/wzg-icarus-balance-overhaul/refs/heads/WZG/wzg_mod.png",
       "readmeURL": "https://raw.githubusercontent.com/astron4ik/wzg-icarus-balance-overhaul/refs/heads/WZG/readme.md"
