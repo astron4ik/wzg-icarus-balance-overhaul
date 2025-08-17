@@ -4378,7 +4378,8 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseAttacksCauseSlow_%\")": 25,
-                "(Value=\"BaseHardenedPointPenetration_%\")": 100
+                "(Value=\"BaseHardenedPointPenetration_%\")": 100,
+                "(Value=\"BaseHardenedPointDamage_+%\")": 50
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -11014,7 +11015,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseSleepQuality_%\")": 100,
-                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 600,
+                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 1200,
                 "(Value=\"BaseComfortLevel_+\")": 4
             },
             "Manual_Tags": {
@@ -11100,7 +11101,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseSleepQuality_%\")": 110,
-                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 650,
+                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 750,
                 "(Value=\"BaseComfortLevel_+\")": 10
             },
             "Manual_Tags": {
@@ -11195,7 +11196,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseSleepQuality_%\")": 110,
-                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 650,
+                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 2400,
                 "(Value=\"BaseComfortLevel_+\")": 14
             },
             "Manual_Tags": {
@@ -12478,9 +12479,9 @@
                 "RowName": "Shovel"
             },
             "AdditionalStats": {
-                "(Value=\"BaseToolStaminaActionCost_+%\")": -25,
-                "(Value=\"BaseCreatesCropPlotTier_+\")": 2,
-                "(Value=\"BaseDiggingRewards_+%\")": 25
+                "(Value=\"BaseToolStaminaActionCost_+%\")": -10,
+                "(Value=\"BaseCreatesCropPlotTier_+\")": 4,
+                "(Value=\"BaseDiggingRewards_+%\")": 50
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -43128,6 +43129,9 @@
                 "RowName": "Metal_Knife"
             },
             "AdditionalStats": {
+                "(Value=\"BaseMeleeDamage_+%\")": 10,
+                "(Value=\"BaseSkinningRewards_+%\")": 15,
+                "(Value=\"BaseSkinningSpeed_+%\")": 10,
                 "(Value=\"BaseElectricDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseElectroshock_%\")": 15
             },
@@ -45836,6 +45840,8 @@
                 "RowName": "Metal_Spear"
             },
             "AdditionalStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": 10,
+                "(Value=\"BaseSprintingStaminaActionCost_+%\")": -10,
                 "(Value=\"BaseElectricDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseElectroshock_%\")": 15,
                 "(Value=\"BaseSpearCriticalDamage_+%\")": 25
@@ -45922,7 +45928,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseActionHoldTime_+%\")": -22,
-                "(Value=\"BaseMovementSpeed_+%\")": 10
+                "(Value=\"BaseMovementSpeed_+%\")": 15
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -46006,7 +46012,7 @@
                 "RowName": "RepairToolMetal"
             },
             "AdditionalStats": {
-                "(Value=\"BaseActionHoldTime_+%\")": -22,
+                "(Value=\"BaseActionHoldTime_+%\")": -30,
                 "(Value=\"BaseExposureResistance_+%\")": 25
             },
             "Manual_Tags": {
@@ -46097,8 +46103,9 @@
                 "RowName": "Meta_Bow_Shengong"
             },
             "AdditionalStats": {
-                "(Value=\"BaseArrowProjectileSpeed_+%\")": 15,
-                "(Value=\"BaseBowCriticalDamage_+%\")": -5
+                "(Value=\"BaseArrowProjectileSpeed_+%\")": 50,
+                "(Value=\"BaseBowCriticalDamage_+%\")": 25,
+                "(Value=\"HighlightShotProjectile_?\")": 1
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -46182,8 +46189,9 @@
                 "RowName": "Meta_Bow_Shengong"
             },
             "AdditionalStats": {
-                "(Value=\"BaseBowChargeSpeed_+%\")": -15,
-                "(Value=\"BaseMovementSpeed_+%\")": -15
+                "(Value=\"BaseBowChargeSpeed_+%\")": 15,
+                "(Value=\"BaseMovementSpeed_+%\")": 15,
+                "(Value=\"HighlightShotProjectile_?\")": 1
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -46267,9 +46275,10 @@
                 "RowName": "Meta_Bow_Shengong"
             },
             "AdditionalStats": {
-                "(Value=\"BaseBowChargeSpeed_+%\")": -15,
-                "(Value=\"BaseArrowProjectileSpeed_+%\")": 15,
-                "(Value=\"BaseBowProjectileDamage_+%\")": 10
+                "(Value=\"BaseBowChargeSpeed_+%\")": 15,
+                "(Value=\"BaseArrowProjectileSpeed_+%\")": 25,
+                "(Value=\"BaseBowProjectileDamage_+%\")": 30,
+                "(Value=\"HighlightShotProjectile_?\")": 1
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -46439,10 +46448,10 @@
                 "RowName": "Meta_Bow_Shengong_Echo"
             },
             "AdditionalStats": {
-                "(Value=\"BaseElectricDamage_+%\")": 25,
-                "(Value=\"BaseFireDamage_+%\")": 25,
-                "(Value=\"BasePoisonDamage_+%\")": 25,
-                "(Value=\"BaseFrostDamage_+%\")": 25
+                "(Value=\"BaseElectricDamage_+%\")": 50,
+                "(Value=\"BaseFireDamage_+%\")": 50,
+                "(Value=\"BasePoisonDamage_+%\")": 50,
+                "(Value=\"BaseFrostDamage_+%\")": 50
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -51193,8 +51202,8 @@
                 "RowName": "RepairToolMetal"
             },
             "AdditionalStats": {
-                "(Value=\"BaseActionHoldTime_+%\")": -16,
-                "(Value=\"BaseMovementSpeed_+%\")": -5
+                "(Value=\"BaseActionHoldTime_+%\")": -22,
+                "(Value=\"BaseMovementSpeed_+%\")": 10
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -53028,7 +53037,7 @@
                 "RowName": "Arrow"
             },
             "AdditionalStats": {
-                "(Value=\"BasePoisonDamage_+\")": 40,
+                "(Value=\"BasePoisonDamage_+\")": 100,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15
             },
             "CraftingExperience": 20,
@@ -53180,7 +53189,7 @@
                 "RowName": "Arrow"
             },
             "AdditionalStats": {
-                "(Value=\"BaseFrostDamage_+\")": 40,
+                "(Value=\"BaseFrostDamage_+\")": 100,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15
             },
             "CraftingExperience": 20,
@@ -53425,6 +53434,9 @@
                 "RowName": "Meta_Axe"
             },
             "AdditionalStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": 5,
+                "(Value=\"BaseMeleeDamage_+%\")": 10,
+                "(Value=\"BaseFellingDamage_+%\")": 30,
                 "(Value=\"BasePoisonDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15,
                 "(Value=\"BaseFellingRewards_%\")": -50,
@@ -53514,6 +53526,9 @@
                 "RowName": "Meta_Axe"
             },
             "AdditionalStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": 5,
+                "(Value=\"BaseMeleeDamage_+%\")": 10,
+                "(Value=\"BaseFellingDamage_+%\")": 30,
                 "(Value=\"BaseFrostDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
                 "(Value=\"BaseFrostedFellChance_%\")": 30
@@ -53602,6 +53617,9 @@
                 "RowName": "Meta_Axe"
             },
             "AdditionalStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": 5,
+                "(Value=\"BaseMeleeDamage_+%\")": 10,
+                "(Value=\"BaseFellingDamage_+%\")": 30,
                 "(Value=\"BaseFireDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15,
                 "(Value=\"BaseFellingScorchChance_%\")": 30,
@@ -53691,7 +53709,8 @@
                 "RowName": "Metal_Knife"
             },
             "AdditionalStats": {
-                "(Value=\"BaseWoundResistance_%\")": 100
+                "(Value=\"BaseWoundResistance_%\")": 100,
+                "(Value=\"BasePrimeMeatDropChance_%\")": 400
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -53873,6 +53892,9 @@
                 "RowName": "Metal_Knife"
             },
             "AdditionalStats": {
+                "(Value=\"BaseSkinningRewards_+%\")": 15,
+                "(Value=\"BaseSkinningSpeed_+%\")": 15,
+                "(Value=\"BaseToolStaminaActionCost_+%\")": -10,
                 "(Value=\"BaseFireDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15,
                 "(Value=\"BaseSkinningCookChance_%\")": 10
@@ -53967,6 +53989,9 @@
                 "RowName": "Metal_Knife"
             },
             "AdditionalStats": {
+                "(Value=\"BaseSkinningRewards_+%\")": 15,
+                "(Value=\"BaseSkinningSpeed_+%\")": 15,
+                "(Value=\"BaseToolStaminaActionCost_+%\")": -10,
                 "(Value=\"BaseFrostDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
                 "(Value=\"BaseChilledAlterationChance_%\")": 30
@@ -54062,7 +54087,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseOverencumberedPenalty_+%\")": -50,
-                "(Value=\"BaseMiningRewards_%\")": 15,
+                "(Value=\"BaseMiningRewards_%\")": 30,
                 "(Value=\"BaseArmorDamageModifier_+%\")": 500
             },
             "Manual_Tags": {
@@ -54150,6 +54175,7 @@
                 "RowName": "Meta_Pickaxe"
             },
             "AdditionalStats": {
+                "(Value=\"BaseMiningRewards_+%\")": 50,
                 "(Value=\"BasePoisonDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15,
                 "(Value=\"BaseMiningRewards_+%\")": -50,
@@ -54246,6 +54272,7 @@
                 "RowName": "Meta_Pickaxe"
             },
             "AdditionalStats": {
+                "(Value=\"BaseMiningRewards_+%\")": 50,
                 "(Value=\"BaseFrostDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
                 "(Value=\"BaseFrozenOrePerMinedResource_%\")": 20,
@@ -54341,6 +54368,7 @@
                 "RowName": "Meta_Pickaxe"
             },
             "AdditionalStats": {
+                "(Value=\"BaseMiningRewards_+%\")": 50,
                 "(Value=\"BaseFireDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15,
                 "(Value=\"BaseMiningSmeltChance_%\")": 30,
@@ -54518,6 +54546,8 @@
                 "RowName": "Metal_Spear"
             },
             "AdditionalStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": 10,
+                "(Value=\"BaseMeleeDamageResistance_+%\")": -5,
                 "(Value=\"BasePoisonDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15,
                 "(Value=\"BaseSpearCriticalDamage_+%\")": 25
@@ -54694,6 +54724,8 @@
                 "RowName": "Metal_Spear"
             },
             "AdditionalStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": 10,
+                "(Value=\"BaseMeleeDamageResistance_+%\")": -5,
                 "(Value=\"BaseFireDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15,
                 "(Value=\"BaseSpearCriticalDamage_+%\")": 25
@@ -54800,6 +54832,7 @@
                 "RowName": "MetalDeployable"
             },
             "AdditionalStats": {
+                "(Value=\"BaseSmeltingSpeed_+%\")": 300,
                 "(Value=\"BaseEnergyTransmutationResourceCost_+%\")": -25
             },
             "Manual_Tags": {
@@ -56741,7 +56774,7 @@
                 "RowName": "Default"
             },
             "AdditionalStats": {
-                "(Value=\"BasePlantedCropYield_+%\")": -25,
+                "(Value=\"BasePlantedCropYield_+%\")": -5,
                 "(Value=\"BasePlantedCropGrowthSpeed_+%\")": 50
             },
             "Manual_Tags": {
@@ -59494,7 +59527,7 @@
                 "RowName": "RepairToolMetal"
             },
             "AdditionalStats": {
-                "(Value=\"BaseActionHoldTime_+%\")": -30,
+                "(Value=\"BaseActionHoldTime_+%\")": -75,
                 "(Value=\"BaseExposureResistance_+%\")": 10
             },
             "Manual_Tags": {
@@ -59665,7 +59698,8 @@
                 "RowName": "Metal_Knife"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttackSpeed_+%\")": 10
+                "(Value=\"BasePrimeMeatDropChance_%\")": 400,
+                "(Value=\"BaseAttackSpeed_+%\")": 15
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -60434,6 +60468,14 @@
                     }
                 ],
                 "ParentTags": []
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseBowProjectileDamage_+%\")": 100,
+                "(Value=\"BaseBowChargeSpeed_+%\")": 25,
+                "(Value=\"BaseArrowProjectileSpeed_+%\")": 50,
+                "(Value=\"BaseBowAimDownSightsSpeed_+%\")": 25,
+                "(Value=\"BaseBowReloadSpeed_+%\")": 25,
+                "(Value=\"HighlightShotProjectile_?\")": 1
             }
         },
         {
@@ -63895,7 +63937,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseSleepQuality_%\")": 110,
-                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 650,
+                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 750,
                 "(Value=\"BaseComfortLevel_+\")": 14
             },
             "Manual_Tags": {
@@ -64686,7 +64728,7 @@
                 "RowName": "MetalDeployable"
             },
             "AdditionalStats": {
-                "(Value=\"BaseExtractorDrillSpeed_+%\")": 33
+                "(Value=\"BaseExtractorDrillSpeed_+%\")": 150
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -64794,7 +64836,7 @@
                 "RowName": "MetalDeployable"
             },
             "AdditionalStats": {
-                "(Value=\"BaseExtractorDrillSpeed_+%\")": 33
+                "(Value=\"BaseExtractorDrillSpeed_+%\")": 330
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -69464,8 +69506,9 @@
                 "RowName": "Meta_Crossbow_Inaris_A"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttacksCauseSlow_%\")": 20,
-                "(Value=\"BaseHardenedPointPenetration_%\")": 100
+                "(Value=\"BaseAttacksCauseSlow_%\")": 50,
+                "(Value=\"BaseHardenedPointDamage_+%\")": 75,
+                "(Value=\"HighlightShotProjectile_?\")": 1
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -69555,10 +69598,11 @@
                 "RowName": "Meta_Crossbow_Inaris_B"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttacksCauseSlow_%\")": 35,
-                "(Value=\"BaseHardenedPointPenetration_%\")": 100,
-                "(Value=\"BaseBowCriticalDamage_+%\")": 10,
-                "(Value=\"BaseBowProjectileDamage_+%\")": 15
+                "(Value=\"BaseAttacksCauseSlow_%\")": 75,
+                "(Value=\"BaseHardenedPointDamage_+%\")": 100,
+                "(Value=\"BaseBowCriticalDamage_+%\")": 100,
+                "(Value=\"BaseBowProjectileDamage_+%\")": 150,
+                "(Value=\"HighlightShotProjectile_?\")": 1
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -69648,8 +69692,11 @@
                 "RowName": "Meta_Crossbow_Inaris_C"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttacksCauseSlow_%\")": 25,
-                "(Value=\"BaseHardenedPointPenetration_%\")": 100
+                "(Value=\"BaseAttacksCauseSlow_%\")": 75,
+                "(Value=\"BaseHardenedPointDamage_+%\")": 100,
+                "(Value=\"BaseBowCriticalDamage_+%\")": 100,
+                "(Value=\"BaseBowProjectileDamage_+%\")": 150,
+                "(Value=\"HighlightShotProjectile_?\")": 1
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -69744,7 +69791,11 @@
                 "RowName": "Meta_Crossbow_Inaris_D"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttacksCauseSlow_%\")": 25,
+                "(Value=\"BaseAttacksCauseSlow_%\")": 75,
+                "(Value=\"BaseHardenedPointDamage_+%\")": 100,
+                "(Value=\"BaseBowCriticalDamage_+%\")": 100,
+                "(Value=\"BaseBowProjectileDamage_+%\")": 150,
+                "(Value=\"HighlightShotProjectile_?\")": 1,
                 "(Value=\"BaseHardenedPointPenetration_%\")": 100,
                 "(Value=\"BaseFireDamage_+%\")": 35,
                 "(Value=\"BaseFrostDamage_+%\")": 35,
@@ -76161,6 +76212,7 @@
                 "RowName": "MetalSledgehammer"
             },
             "AdditionalStats": {
+                "(Value=\"BaseShatteringRewards_%\")": 50,
                 "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
             "Manual_Tags": {
@@ -78731,6 +78783,7 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
+                "(Value=\"BaseSpearCriticalDamage_+%\")": 10,
                 "(Value=\"BaseCriticalDamage_+%\")": 10
             },
             "Manual_Tags": {
@@ -78806,6 +78859,7 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
+                "(Value=\"BaseSpearCriticalDamage_+%\")": 10,
                 "(Value=\"BaseCriticalDamage_+%\")": 10
             },
             "Manual_Tags": {
@@ -78881,6 +78935,7 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
+                "(Value=\"BaseSpearCriticalDamage_+%\")": 20,
                 "(Value=\"BaseCriticalDamage_+%\")": 20
             },
             "Manual_Tags": {
@@ -78956,6 +79011,7 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
+                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -79031,6 +79087,7 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
+                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -79106,6 +79163,7 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
+                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -79181,6 +79239,7 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
+                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -79256,6 +79315,7 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
+                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -79331,6 +79391,7 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
+                "(Value=\"BaseSpearCriticalDamage_+%\")": 10,
                 "(Value=\"BaseCriticalDamage_+%\")": 25,
                 "(Value=\"BaseAttacksCauseWound_%\")": 100,
                 "(Value=\"IsSandwormItem_?\")": 1
@@ -79408,6 +79469,7 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
+                "(Value=\"BaseSpearCriticalDamage_+%\")": 10,
                 "(Value=\"BaseCriticalDamage_+%\")": 15,
                 "(Value=\"BaseAttacksCausePoison_%\")": 100
             },
@@ -79612,8 +79674,9 @@
                 "RowName": "Platinum_Crossbow"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttacksCauseSlow_%\")": 25,
-                "(Value=\"BaseHardenedPointPenetration_%\")": 100
+                "(Value=\"BaseAttacksCauseSlow_%\")": 15,
+                "(Value=\"BaseHardenedPointPenetration_%\")": 100,
+                "(Value=\"BaseHardenedPointDamage_+%\")": 25
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -79697,8 +79760,8 @@
                 "RowName": "Titanium_Crossbow"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttacksCauseSlow_%\")": 25,
-                "(Value=\"BaseHardenedPointPenetration_%\")": 100
+                "(Value=\"BaseAttacksCauseSlow_%\")": 15,
+                "(Value=\"BaseHardenedPointDamage_+%\")": 40
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -82395,6 +82458,7 @@
                 "RowName": "Default"
             },
             "AdditionalStats": {
+                "(Value=\"BasePureDamage_+\")": 500,
                 "(Value=\"BaseExplosiveDamage_+\")": 500,
                 "(Value=\"BaseAttacksCauseSlow_%\")": 100
             },
@@ -100000,6 +100064,7 @@
                 "(Value=\"BaseFireDamage_+\")": 33,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15,
                 "(Value=\"BaseShatterSmeltChance_%\")": 30,
+                "(Value=\"BaseShatteringRewards_%\")": 75,
                 "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
             "Manual_Tags": {
@@ -100443,6 +100508,7 @@
             "AdditionalStats": {
                 "(Value=\"BaseFireDamage_+\")": 170,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15,
+                "(Value=\"BaseSpearCriticalDamage_+%\")": 20,
                 "(Value=\"BaseCriticalDamage_+%\")": 20
             },
             "Manual_Tags": {
@@ -101013,6 +101079,7 @@
             "AdditionalStats": {
                 "(Value=\"BaseFrostDamage_+\")": 200,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
+                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -101187,7 +101254,8 @@
                 "(Value=\"BaseFrostDamage_+\")": 40,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
                 "(Value=\"BaseHardenedPointPenetration_%\")": 100,
-                "(Value=\"BaseFrozenOrePerMinedResource_%\")": 20
+                "(Value=\"BaseFrozenOrePerMinedResource_%\")": 90,
+                "(Value=\"BaseShatteringRewards_%\")": 90
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -101399,7 +101467,7 @@
                 "RowName": "Default"
             },
             "AdditionalStats": {
-                "(Value=\"BaseFrostDamage_+\")": 100,
+                "(Value=\"BaseFrostDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15
             },
             "Manual_Tags": {
@@ -102094,6 +102162,7 @@
             "AdditionalStats": {
                 "(Value=\"BasePoisonDamage_+\")": 250,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15,
+                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -102268,7 +102337,7 @@
             "AdditionalStats": {
                 "(Value=\"BasePoisonDamage_+\")": 80,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15,
-                "(Value=\"BaseShatteringRewards_%\")": -50,
+                "(Value=\"BaseShatteringRewards_%\")": 50,
                 "(Value=\"BasePyriticCrustPerMinedResource_%\")": 100,
                 "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
@@ -102546,7 +102615,7 @@
                 "RowName": "Default"
             },
             "AdditionalStats": {
-                "(Value=\"BasePoisonDamage_+\")": 100,
+                "(Value=\"BasePoisonDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15
             },
             "Manual_Tags": {

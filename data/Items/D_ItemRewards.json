@@ -166,8 +166,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 5,
-                    "MaxRandomStackCount": 12,
+                    "MinRandomStackCount": 30,
+                    "MaxRandomStackCount": 40,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -1164,8 +1164,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 3,
-                    "MaxRandomStackCount": 5,
+                    "MinRandomStackCount": 20,
+                    "MaxRandomStackCount": 25,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -1335,8 +1335,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 2,
-                    "MaxRandomStackCount": 4,
+                    "MinRandomStackCount": 20,
+                    "MaxRandomStackCount": 25,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -1506,8 +1506,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 8,
-                    "MaxRandomStackCount": 20,
+                    "MinRandomStackCount": 100,
+                    "MaxRandomStackCount": 200,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -1677,8 +1677,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 4,
-                    "MaxRandomStackCount": 6,
+                    "MinRandomStackCount": 15,
+                    "MaxRandomStackCount": 25,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -1751,7 +1751,7 @@
                         "RowName": "Yeast_Seed",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 100,
+                    "DropChance": 75,
                     "DropChanceAdditiveStat": {
                         "RowName": "None",
                         "DataTableName": "D_Stats"
@@ -1874,8 +1874,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 1,
-                    "MaxRandomStackCount": 1,
+                    "MinRandomStackCount": 15,
+                    "MaxRandomStackCount": 25,
                     "bRewardsScale": false,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -2243,7 +2243,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "MinRandomStackCount": 2,
-                    "MaxRandomStackCount": 3,
+                    "MaxRandomStackCount": 4,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -3956,7 +3956,7 @@
                         "RowName": "Gamey_Meat",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 10,
+                    "DropChance": 30,
                     "DropChanceAdditiveStat": {
                         "RowName": "PrimeMeatDropChance_%",
                         "DataTableName": "D_Stats"
@@ -5054,8 +5054,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 3,
-                    "MaxRandomStackCount": 7,
+                    "MinRandomStackCount": 20,
+                    "MaxRandomStackCount": 30,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -5111,8 +5111,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 1,
-                    "MaxRandomStackCount": 2,
+                    "MinRandomStackCount": 10,
+                    "MaxRandomStackCount": 20,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -5325,7 +5325,7 @@
                         "RowName": "Soft_Meat",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 10,
+                    "DropChance": 30,
                     "DropChanceAdditiveStat": {
                         "RowName": "PrimeMeatDropChance_%",
                         "DataTableName": "D_Stats"
@@ -5460,7 +5460,7 @@
                         "RowName": "Soft_Meat",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 10,
+                    "DropChance": 30,
                     "DropChanceAdditiveStat": {
                         "RowName": "PrimeMeatDropChance_%",
                         "DataTableName": "D_Stats"
@@ -5761,7 +5761,7 @@
                         "RowName": "White_Meat",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 10,
+                    "DropChance": 30,
                     "DropChanceAdditiveStat": {
                         "RowName": "PrimeMeatDropChance_%",
                         "DataTableName": "D_Stats"
@@ -5896,7 +5896,7 @@
                         "RowName": "Gamey_Meat",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 10,
+                    "DropChance": 30,
                     "DropChanceAdditiveStat": {
                         "RowName": "PrimeMeatDropChance_%",
                         "DataTableName": "D_Stats"
@@ -5993,8 +5993,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 4,
-                    "MaxRandomStackCount": 6,
+                    "MinRandomStackCount": 10,
+                    "MaxRandomStackCount": 15,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6164,8 +6164,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 4,
-                    "MaxRandomStackCount": 8,
+                    "MinRandomStackCount": 30,
+                    "MaxRandomStackCount": 40,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6278,8 +6278,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 4,
-                    "MaxRandomStackCount": 7,
+                    "MinRandomStackCount": 15,
+                    "MaxRandomStackCount": 20,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6335,8 +6335,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 1,
-                    "MaxRandomStackCount": 2,
+                    "MinRandomStackCount": 2,
+                    "MaxRandomStackCount": 3,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6392,8 +6392,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 3,
-                    "MaxRandomStackCount": 5,
+                    "MinRandomStackCount": 5,
+                    "MaxRandomStackCount": 10,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6563,8 +6563,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 4,
-                    "MaxRandomStackCount": 8,
+                    "MinRandomStackCount": 30,
+                    "MaxRandomStackCount": 40,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6734,8 +6734,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 4,
-                    "MaxRandomStackCount": 8,
+                    "MinRandomStackCount": 30,
+                    "MaxRandomStackCount": 40,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6905,8 +6905,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 4,
-                    "MaxRandomStackCount": 8,
+                    "MinRandomStackCount": 30,
+                    "MaxRandomStackCount": 40,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -7076,8 +7076,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 4,
-                    "MaxRandomStackCount": 8,
+                    "MinRandomStackCount": 30,
+                    "MaxRandomStackCount": 40,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -7190,8 +7190,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 2,
-                    "MaxRandomStackCount": 4,
+                    "MinRandomStackCount": 20,
+                    "MaxRandomStackCount": 30,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -7247,8 +7247,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 1,
-                    "MaxRandomStackCount": 2,
+                    "MinRandomStackCount": 10,
+                    "MaxRandomStackCount": 20,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -7304,8 +7304,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 3,
-                    "MaxRandomStackCount": 6,
+                    "MinRandomStackCount": 20,
+                    "MaxRandomStackCount": 25,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -7575,7 +7575,7 @@
                         "RowName": "White_Meat",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 10,
+                    "DropChance": 30,
                     "DropChanceAdditiveStat": {
                         "RowName": "KeaWhiteMeatDropChance_%",
                         "DataTableName": "D_Stats"
@@ -7803,7 +7803,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "MinRandomStackCount": 2,
-                    "MaxRandomStackCount": 5,
+                    "MaxRandomStackCount": 10,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -14339,7 +14339,7 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 2,
+                    "MinRandomStackCount": 3,
                     "MaxRandomStackCount": 4,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
@@ -14552,7 +14552,7 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 2,
+                    "MinRandomStackCount": 3,
                     "MaxRandomStackCount": 4,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
@@ -18903,7 +18903,7 @@
                         "RowName": "Bramble_Seed",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 100,
+                    "DropChance": 75,
                     "DropChanceAdditiveStat": {
                         "RowName": "None",
                         "DataTableName": "D_Stats"
@@ -19155,8 +19155,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 1,
-                    "MaxRandomStackCount": 2,
+                    "MinRandomStackCount": 2,
+                    "MaxRandomStackCount": 4,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
