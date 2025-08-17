@@ -2,7 +2,7 @@
         "name": "WZG_Fork",
         "author": "Astron4ik",
         "version": "1.0",
-        "week": "192",
+        "week": "193",
         "description": "",
         "fileName": "WZG_Fork",
         "readmeURL": "",
@@ -3736,6 +3736,92 @@
                     ]
                 },
                 {
+                    "Name": "Bone_Tusks",
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Crushed_Bone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 400,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Crushed_Bone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Crushed_Bone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Crushed_Bone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Crushed_Bone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Crushed_Bone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Crushed_Bone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Crushed_Bone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Crushed_Bone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ]
+                },
+                {
                     "Name": "Titanium_Crossbow",
                     "Inputs": [
                         {
@@ -4317,6 +4403,10 @@
                             "DynamicProperties": []
                         }
                     ]
+                },
+                {
+                    "Name": "Charging_Station",
+                    "RequiredMillijoules": 25000
                 },
                 {
                     "Name": "Electric_Fireplace",
@@ -7342,193 +7432,6 @@
                     ]
                 },
                 {
-                    "Name": "Spider_Carcass_Loot",
-                    "Rewards": [
-                        {
-                            "Item": {
-                                "RowName": "Leather",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "DropChance": 100,
-                            "DropChanceAdditiveStat": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "RequiredStatToDrop": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "MinRandomStackCount": 10,
-                            "MaxRandomStackCount": 16,
-                            "bRewardsScale": true,
-                            "StackAdditiveStat": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "StackMultiplicativeStat": {
-                                "RowName": "LeatherHarvestedFromAnimals_+%",
-                                "DataTableName": "D_Stats"
-                            }
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Fur",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "DropChance": 100,
-                            "DropChanceAdditiveStat": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "RequiredStatToDrop": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "MinRandomStackCount": 6,
-                            "MaxRandomStackCount": 8,
-                            "bRewardsScale": true,
-                            "StackAdditiveStat": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "StackMultiplicativeStat": {
-                                "RowName": "FurHarvestedFromAnimals_+%",
-                                "DataTableName": "D_Stats"
-                            }
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Bone",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "DropChance": 100,
-                            "DropChanceAdditiveStat": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "RequiredStatToDrop": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "MinRandomStackCount": 4,
-                            "MaxRandomStackCount": 6,
-                            "bRewardsScale": true,
-                            "StackAdditiveStat": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "StackMultiplicativeStat": {
-                                "RowName": "BoneHarvestedFromAnimals_+%",
-                                "DataTableName": "D_Stats"
-                            }
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Organic_Resin",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "DropChance": 100,
-                            "DropChanceAdditiveStat": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "RequiredStatToDrop": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "MinRandomStackCount": 4,
-                            "MaxRandomStackCount": 6,
-                            "bRewardsScale": true,
-                            "StackAdditiveStat": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "StackMultiplicativeStat": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            }
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Acidic_Glands",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "DropChance": 20,
-                            "DropChanceAdditiveStat": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "RequiredStatToDrop": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "MinRandomStackCount": 2,
-                            "MaxRandomStackCount": 4,
-                            "bRewardsScale": true,
-                            "StackAdditiveStat": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "StackMultiplicativeStat": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            }
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Raw_Meat",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "DropChance": 100,
-                            "DropChanceAdditiveStat": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "RequiredStatToDrop": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "MinRandomStackCount": 1,
-                            "MaxRandomStackCount": 2,
-                            "bRewardsScale": true,
-                            "StackAdditiveStat": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "StackMultiplicativeStat": {
-                                "RowName": "MeatHarvestedFromAnimals_+%",
-                                "DataTableName": "D_Stats"
-                            }
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Stringy_Meat",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "DropChance": 20,
-                            "DropChanceAdditiveStat": {
-                                "RowName": "PrimeMeatDropChance_%",
-                                "DataTableName": "D_Stats"
-                            },
-                            "RequiredStatToDrop": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "MinRandomStackCount": 3,
-                            "MaxRandomStackCount": 5,
-                            "bRewardsScale": true,
-                            "StackAdditiveStat": {
-                                "RowName": "None",
-                                "DataTableName": "D_Stats"
-                            },
-                            "StackMultiplicativeStat": {
-                                "RowName": "MeatHarvestedFromAnimals_+%",
-                                "DataTableName": "D_Stats"
-                            }
-                        }
-                    ]
-                },
-                {
                     "Name": "Bramble_Crops",
                     "Rewards": [
                         {
@@ -7677,6 +7580,7 @@
                     "Name": "Crossbow",
                     "AdditionalStats": {
                         "(Value=\"BaseAttacksCauseSlow_%\")": 25,
+                        "(Value=\"BaseHardenedPointPenetration_%\")": 100,
                         "(Value=\"BaseHardenedPointDamage_+%\")": 50
                     }
                 },
@@ -7710,15 +7614,6 @@
                         "(Value=\"BaseToolStaminaActionCost_+%\")": -10,
                         "(Value=\"BaseCreatesCropPlotTier_+\")": 4,
                         "(Value=\"BaseDiggingRewards_+%\")": 50
-                    }
-                },
-                {
-                    "Name": "Meta_Axe_Shengong_Echo",
-                    "AdditionalStats": {
-                        "(Value=\"BaseFellingDamage_+%\")": 35,
-                        "(Value=\"BaseAttackSpeed_+%\")": 10,
-                        "(Value=\"BaseElectricDamage_+\")": 50,
-                        "(Value=\"BaseAttacksCauseElectroshock_%\")": 15
                     }
                 },
                 {
@@ -8149,13 +8044,6 @@
                     }
                 },
                 {
-                    "Name": "Ammo_Pistol_Round_Obsidian",
-                    "AdditionalStats": {
-                        "(Value=\"BaseFireDamage_+\")": 50,
-                        "(Value=\"BaseAttacksCauseBurn_%\")": 15
-                    }
-                },
-                {
                     "Name": "Obsidian_Throwing_Spear",
                     "AdditionalStats": {
                         "(Value=\"BaseFireDamage_+\")": 170,
@@ -8215,50 +8103,12 @@
                         "(Value=\"BasePoisonDamage_+\")": 50,
                         "(Value=\"BaseAttacksCauseMiasma_%\")": 15
                     }
-                },
-                {
-                    "Name": "LegendaryWeapon_Scorpion_Rifle",
-                    "AdditionalStats": {
-                        "(Value=\"BaseCriticalDamage_+%\")": 45
-                    }
-                },
-                {
-                    "Name": "LegendaryWeapon_Sniper",
-                    "AdditionalStats": {
-                        "(Value=\"BaseCriticalDamage_+%\")": 90
-                    }
                 }
             ]
         },
         {
             "CurrentFile": "Items-D_ItemTemplate.json",
             "File_Items": [
-                {
-                    "Name": "Meta_Canteen_Shengong",
-                    "ItemDynamicData": [
-                        {
-                            "PropertyType": "Fillable_Type",
-                            "Value": 2
-                        },
-                        {
-                            "PropertyType": "Fillable_StoredUnits",
-                            "Value": 6500
-                        }
-                    ]
-                },
-                {
-                    "Name": "Meta_Oxygen_Tank_Shengong",
-                    "ItemDynamicData": [
-                        {
-                            "PropertyType": "Fillable_Type",
-                            "Value": 4
-                        },
-                        {
-                            "PropertyType": "Fillable_StoredUnits",
-                            "Value": 6500
-                        }
-                    ]
-                },
                 {
                     "Name": "Meta_Repair_Item_x5",
                     "ItemDynamicData": [
@@ -10014,45 +9864,6 @@
                             "GrantedFlags": []
                         }
                     ]
-                },
-                {
-                    "Name": "Health_Elixir",
-                    "Position": {
-                        "X": 10450,
-                        "Y": 450
-                    }
-                },
-                {
-                    "Name": "Dressing_Kit",
-                    "Position": {
-                        "X": 10450,
-                        "Y": 100
-                    }
-                },
-                {
-                    "Name": "Oil_Epoxy",
-                    "ExtraData": {
-                        "RowName": "Item_Epoxy",
-                        "DataTableName": "D_Itemable"
-                    },
-                    "TalentTree": {
-                        "RowName": "Blueprint_T5"
-                    },
-                    "Position": {
-                        "X": 2200,
-                        "Y": 450
-                    },
-                    "Size": {
-                        "X": 184,
-                        "Y": 184
-                    },
-                    "RequiredTalents": [
-                        {
-                            "RowName": "Polymerizer",
-                            "DataTableName": "D_Talents"
-                        }
-                    ],
-                    "DrawMethodOverride": "ShortestDistance"
                 }
             ]
         },
@@ -11401,22 +11212,7 @@
                 },
                 {
                     "Name": "Frag_Grenade",
-                    "Weight": 1,
-                    "ProjectileBounceSettings": {
-                        "bBounceAngleAffectsFriction": false,
-                        "Bounciness": 0.20000000298023224,
-                        "Friction": 0.20000000298023224,
-                        "BounceVelocityStopSimulatingThreshold": 20,
-                        "MinTimeBetweenBounces": 0.30000001192092896
-                    }
-                },
-                {
-                    "Name": "Smoke_Grenade",
-                    "ProjectileBounceSettings": {
-                        "Bounciness": 0.20000000298023224,
-                        "BounceVelocityStopSimulatingThreshold": 10,
-                        "MinTimeBetweenBounces": 0.30000001192092896
-                    }
+                    "Weight": 1
                 },
                 {
                     "Name": "Sandworm_Arrow",
@@ -11463,6 +11259,24 @@
             "CurrentFile": "Traits-D_Consumable.json",
             "File_Items": [
                 {
+                    "Name": "Food_Berry",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Berry"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Cooked_Fish",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "CookedFish"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
                     "Name": "Thermos_IceWater",
                     "Stats": {
                         "(Value=\"BaseWaterRecovery_+\")": 300
@@ -11499,12 +11313,81 @@
                     }
                 },
                 {
+                    "Name": "Food_Coconut",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Coconut"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Food_Coconut_Mid",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Coconut_Mid"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Food_Coconut_Mature",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Coconut_Mature"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Antiseptic",
+                    "Modifier": {
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
                     "Name": "Splint_Workshop",
                     "Modifier": {
                         "Modifier": {
                             "RowName": "Splint_Worksop"
                         },
                         "ModifierLifetime": 1800
+                    }
+                },
+                {
+                    "Name": "Antibiotic_Pill",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Antibiotic_Pill"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Antiparasitic_Pill",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Antiparasitic_Pill"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Antipoison_Pill",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Antipoison_Pill"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Blood_Thinning_Pill",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Blood_Thinning_Pill"
+                        },
+                        "ModifierLifetime": 1200
                     }
                 },
                 {
@@ -11541,6 +11424,60 @@
                             "RowName": "Raw_Food"
                         },
                         "ModifierLifetime": 300
+                    }
+                },
+                {
+                    "Name": "Watermelon",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Watermelon"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Cooked_Corn",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Cooked_Corn"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Cooked_Pumpkin",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Cooked_Pumpkin"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Cooked_Squash",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Cooked_Squash"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Cooked_Carrot",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Cooked_Carrot"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Cooked_Mushroom",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Cooked_Mushroom"
+                        },
+                        "ModifierLifetime": 1200
                     }
                 },
                 {
@@ -11762,6 +11699,33 @@
                     ]
                 },
                 {
+                    "Name": "Cooked_Potato",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Cooked_Potato"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Cooked_Tomato",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Cooked_Tomato"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Cooked_Soy_Bean",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Cooked_Soy_Bean"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
                     "Name": "Tomato_Soup",
                     "Stats": {
                         "(Value=\"BaseFoodRecovery_+\")": 200,
@@ -11783,7 +11747,25 @@
                         "Modifier": {
                             "RowName": "Health_Enhancement_Tonic"
                         },
-                        "ModifierLifetime": 600
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Cooked_Rhubarb",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Cooked_Rhubarb"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Cooked_Kumara",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Cooked_Kumara"
+                        },
+                        "ModifierLifetime": 1200
                     }
                 },
                 {
@@ -11794,10 +11776,46 @@
                     }
                 },
                 {
+                    "Name": "Fried_Fish_Chunks",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Fried_Fish_Chunks"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
                     "Name": "Fish_Chunk_Stew",
                     "Stats": {
                         "(Value=\"BaseFoodRecovery_+\")": 200,
                         "(Value=\"BaseWaterRecovery_+\")": 100
+                    }
+                },
+                {
+                    "Name": "Grilled_Freshwater_Fillet",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Grilled_Freshwater_Fillet"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Grilled_Saltwater_Fillet",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Grilled_Saltwater_Fillet"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Food_Berry_Bar",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Berry_Bar"
+                        },
+                        "ModifierLifetime": 1200
                     }
                 },
                 {
@@ -11806,7 +11824,7 @@
                         "Modifier": {
                             "RowName": "Meta_Biolab_Inhaler_Sandworm"
                         },
-                        "ModifierLifetime": 600
+                        "ModifierLifetime": 1200
                     }
                 },
                 {
@@ -11815,7 +11833,7 @@
                         "Modifier": {
                             "RowName": "Meta_Biolab_Inhaler_AlphaWolf"
                         },
-                        "ModifierLifetime": 600
+                        "ModifierLifetime": 1200
                     }
                 },
                 {
@@ -11824,7 +11842,7 @@
                         "Modifier": {
                             "RowName": "Meta_Biolab_Inhaler_Scorpion"
                         },
-                        "ModifierLifetime": 600
+                        "ModifierLifetime": 1200
                     }
                 },
                 {
@@ -11833,7 +11851,25 @@
                         "Modifier": {
                             "RowName": "Meta_Biolab_Inhaler_IceMammoth"
                         },
-                        "ModifierLifetime": 600
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Food_Honey_Bar",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Honey_Bar"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Cooked_Eggs",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Cooked_Eggs"
+                        },
+                        "ModifierLifetime": 1200
                     }
                 },
                 {
@@ -11982,6 +12018,105 @@
                     "Modifier": {
                         "Modifier": {
                             "RowName": "AntiRadiation_Transfusion"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Cooked_Onion",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Cooked_Onion"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Onion_Rings",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Onion_Rings"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Cooked_Agave",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Cooked_Agave"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Agave_Syrup",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Agave_Syrup"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Glazed_Carrots",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Glazed_Carrots"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Cooked_PricklyPear",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Cooked_PricklyPear"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "PricklyPear_Jelly",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "PricklyPear_Jelly"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Cooked_Garlic",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Cooked_Garlic"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Smoked_Garlic",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Smoked_Garlic"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Cooked_Truffle",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Cooked_Truffle"
+                        },
+                        "ModifierLifetime": 1200
+                    }
+                },
+                {
+                    "Name": "Truffle_Fries",
+                    "Modifier": {
+                        "Modifier": {
+                            "RowName": "Truffle_Fries"
                         },
                         "ModifierLifetime": 1200
                     }
@@ -13099,6 +13234,10 @@
                     "MaxStack": 50
                 },
                 {
+                    "Name": "Item_Carcass_DeerLarge",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_DeerLarge-DisplayName\", \"Deer Carcass\")"
+                },
+                {
                     "Name": "Item_Glass_Beam",
                     "MaxStack": 50
                 },
@@ -13953,10 +14092,6 @@
                     "Weight": 10
                 },
                 {
-                    "Name": "Item_Thumper_Mini",
-                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Thumper_Mini-FlavorText\", \"Designed for finding unground caves, turns out it annoys everything living in them.\")"
-                },
-                {
                     "Name": "Item_Concrete_Diagonal_Set",
                     "Weight": 500,
                     "MaxStack": 50
@@ -14204,10 +14339,6 @@
                 {
                     "Name": "Item_Radioactive_Waste",
                     "Weight": 50
-                },
-                {
-                    "Name": "Item_Carcass_Tundra_Deer",
-                    "Weight": 1000
                 }
             ]
         },
