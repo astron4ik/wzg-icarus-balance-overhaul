@@ -147,7 +147,7 @@
             "InventoryID": {
                 "Value": "Processor"
             },
-            "StartingSlots": 60
+            "StartingSlots": 30
         },
         {
             "Name": "Processor_T3",
@@ -168,7 +168,7 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 30
+            "StartingSlots": 10
         },
         {
             "Name": "Fuel_Any",
@@ -192,7 +192,7 @@
             "InventoryID": {
                 "Value": "Loadout"
             },
-            "StartingSlots": 40
+            "StartingSlots": 15
         },
         {
             "Name": "Space_Equipment",
@@ -265,7 +265,7 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 500,
+            "StartingSlots": 150,
             "RemoveOnly": true
         },
         {
@@ -306,7 +306,7 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 500
+            "StartingSlots": 70
         },
         {
             "Name": "DropShip_Equipment",
@@ -316,7 +316,7 @@
             "SlotTemplate": {
                 "RowName": "No_Exotics"
             },
-            "StartingSlots": 60
+            "StartingSlots": 15
         },
         {
             "Name": "DropShip_Meta",
@@ -326,7 +326,7 @@
             "SlotTemplate": {
                 "RowName": "Any_Meta"
             },
-            "StartingSlots": 60
+            "StartingSlots": 5
         },
         {
             "Name": "UpgradeSlots",
@@ -355,7 +355,7 @@
             "SlotTemplate": {
                 "RowName": "Spoilable_ColdSlowsSpoilRate"
             },
-            "StartingSlots": 30
+            "StartingSlots": 24
         },
         {
             "Name": "Animal_Corpse",
@@ -419,7 +419,7 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 90
+            "StartingSlots": 50
         },
         {
             "Name": "Faction_Corpse",
@@ -454,7 +454,7 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 24
+            "StartingSlots": 5
         },
         {
             "Name": "IceBox",
@@ -509,14 +509,14 @@
             "InventoryID": {
                 "Value": "Processor"
             },
-            "StartingSlots": 90
+            "StartingSlots": 24
         },
         {
             "Name": "Storage_Kitchen_Block",
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 90
+            "StartingSlots": 40
         },
         {
             "Name": "Faction_Satellite_Defend",
@@ -602,7 +602,7 @@
             "SlotTemplate": {
                 "RowName": "General_Inventory_Slot"
             },
-            "StartingSlots": 4,
+            "StartingSlots": 2,
             "RemoveOnly": true
         },
         {
@@ -705,7 +705,7 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 50
+            "StartingSlots": 25
         },
         {
             "Name": "Weapon_AmmoSlot",
@@ -793,7 +793,7 @@
             "SlotTemplate": {
                 "RowName": "General_Inventory_Slot"
             },
-            "StartingSlots": 20
+            "StartingSlots": 5
         },
         {
             "Name": "Dropship_RemoveOnly",
@@ -1188,7 +1188,7 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 30,
+            "StartingSlots": 12,
             "RemoveOnly": true
         },
         {
@@ -1256,7 +1256,7 @@
             "SlotTemplate": {
                 "RowName": "Spoilable_ColdSlowsSpoilRate"
             },
-            "StartingSlots": 60
+            "StartingSlots": 24
         },
         {
             "Name": "Fishing_Trap",
@@ -1678,7 +1678,7 @@
             "SlotTemplate": {
                 "RowName": "Any_Food"
             },
-            "StartingSlots": 12
+            "StartingSlots": 5
         },
         {
             "Name": "Food_Trough_T4_Storage",
@@ -2033,6 +2033,25 @@
                 "RowName": "Any_Uranium_Rod"
             },
             "StartingSlots": 1
+        },
+        {
+            "Name": "Nailgun_Ammo_Attachment",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Hammer_Attachment"
+            },
+            "StartingSlots": 2,
+            "SlotOverrides": [
+                {
+                    "Query": {
+                        "RowName": "Any_Nail",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 0
+                }
+            ]
         }
     ]
 }

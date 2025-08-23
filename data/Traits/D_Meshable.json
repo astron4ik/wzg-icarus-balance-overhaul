@@ -6032,8 +6032,7 @@
         {
             "Name": "Mesh_Generic_Trophy",
             "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
-            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
-            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Fishing/BP_Ape_Fishing_Trap.BP_Ape_Fishing_Trap_C"
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {
             "Name": "Mesh_Smoker_T3",
@@ -7256,6 +7255,12 @@
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Bull_Corpse.BP_Bull_Corpse_C"
         },
         {
+            "Name": "Mesh_Bull_Trophy",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Bull.BP_Trophy_Bull_C"
+        },
+        {
             "Name": "Mesh_AnimalCage_Lrg",
             "ItemMesh": "/Game/ASS/DEP/DEP_AnimalCrate_Cryo/SK_DEP_AnimalCrate_Cryo_LRG.SK_DEP_AnimalCrate_Cryo_LRG",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
@@ -7823,6 +7828,12 @@
             "Name": "Mesh_Carcass_Raptor_Juvenile",
             "ItemMesh": "/Game/ASS/CRE/Raptor/Juvie/SK_CRE_Raptor_Juvie.SK_CRE_Raptor_Juvie",
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Raptor_Juvenile_Corpse.BP_Raptor_Juvenile_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Nailgun",
+            "ItemMesh": "/Game/ASS/WEP/SK_GUN_Sub_Machine/SK_GUN_Sub_Machine.SK_GUN_Sub_Machine",
+            "EquipHandMesh": "/Game/ASS/WEP/SK_GUN_Sub_Machine/SK_GUN_Sub_Machine.SK_GUN_Sub_Machine",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Nailgun.BP_SkeletalItem_Nailgun_C"
         }
     ]
 }

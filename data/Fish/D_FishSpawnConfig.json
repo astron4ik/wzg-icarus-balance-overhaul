@@ -650,6 +650,30 @@
                         "RowName": "PRO_GlacialCascade_Pool",
                         "DataTableName": "D_FishSpawnZones"
                     }
+                },
+                {
+                    "Color": {
+                        "B": 169,
+                        "G": 0,
+                        "R": 135,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "PRO_Ashlands_Main",
+                        "DataTableName": "D_FishSpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 255,
+                        "G": 0,
+                        "R": 24,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "PRO_IceSheet_Main",
+                        "DataTableName": "D_FishSpawnZones"
+                    }
                 }
             ]
         },

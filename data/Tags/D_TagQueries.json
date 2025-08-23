@@ -7473,6 +7473,28 @@
                 ],
                 "AutoDescription": " ALL( Item.Radioactive )"
             }
+        },
+        {
+            "Name": "Any_Nail",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Item.Nail"
+                    },
+                    {
+                        "TagName": "Item.Resource.Nail"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( FactionMission.Item.Nail, Item.Resource.Nail )"
+            }
         }
     ]
 }

@@ -389,6 +389,36 @@
             "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut.MusicCurve_DefaultFadeOut'",
             "PrevTrackOverrideFadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_QuickFadeOut.MusicCurve_QuickFadeOut'",
             "PlayerStateFlags": 5,
+            "Locations": [
+                {
+                    "RowName": "Arctic",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Cave",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Desert",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Grasslands",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Lava",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Wetlands",
+                    "DataTableName": "D_MusicLocationConditions"
+                }
+            ],
             "CombatFlags": 2,
             "DropStateFlags": 2
         },
@@ -399,6 +429,36 @@
             "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut.MusicCurve_DefaultFadeOut'",
             "PrevTrackOverrideFadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_QuickFadeOut.MusicCurve_QuickFadeOut'",
             "PlayerStateFlags": 5,
+            "Locations": [
+                {
+                    "RowName": "Arctic",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Cave",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Desert",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Grasslands",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Lava",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Wetlands",
+                    "DataTableName": "D_MusicLocationConditions"
+                }
+            ],
             "CombatFlags": 2,
             "DropStateFlags": 2
         },
@@ -409,6 +469,36 @@
             "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut.MusicCurve_DefaultFadeOut'",
             "PrevTrackOverrideFadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_QuickFadeOut.MusicCurve_QuickFadeOut'",
             "PlayerStateFlags": 5,
+            "Locations": [
+                {
+                    "RowName": "Arctic",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Cave",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Desert",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Grasslands",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Lava",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Wetlands",
+                    "DataTableName": "D_MusicLocationConditions"
+                }
+            ],
             "CombatFlags": 2,
             "DropStateFlags": 2
         },
@@ -629,7 +719,7 @@
         {
             "Name": "DH_Idle_Tundra",
             "Event": "/Game/FMOD/Events/Music/Icarus_DH_M1.Icarus_DH_M1",
-            "FadeInCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeIn.MusicCurve_DefaultFadeIn'",
+            "FadeInCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeIn_DH.MusicCurve_DefaultFadeIn_DH'",
             "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut.MusicCurve_DefaultFadeOut'",
             "bTrackCanBePaused": true,
             "PlayerStateFlags": 1,
@@ -648,7 +738,7 @@
         {
             "Name": "DH_Idle_Tundra_2",
             "Event": "/Game/FMOD/Events/Music/Icarus_DH_M2.Icarus_DH_M2",
-            "FadeInCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeIn.MusicCurve_DefaultFadeIn'",
+            "FadeInCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeIn_DH.MusicCurve_DefaultFadeIn_DH'",
             "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut.MusicCurve_DefaultFadeOut'",
             "bTrackCanBePaused": true,
             "PlayerStateFlags": 1,
@@ -667,7 +757,7 @@
         {
             "Name": "DH_Idle_Geothermal",
             "Event": "/Game/FMOD/Events/Music/Icarus_DH_GEO_1.Icarus_DH_GEO_1",
-            "FadeInCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeIn.MusicCurve_DefaultFadeIn'",
+            "FadeInCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeIn_DH.MusicCurve_DefaultFadeIn_DH'",
             "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut.MusicCurve_DefaultFadeOut'",
             "bTrackCanBePaused": true,
             "PlayerStateFlags": 1,
@@ -686,7 +776,7 @@
         {
             "Name": "DH_Idle_Geothermal_2",
             "Event": "/Game/FMOD/Events/Music/Icarus_DH_GEO_2.Icarus_DH_GEO_2",
-            "FadeInCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeIn.MusicCurve_DefaultFadeIn'",
+            "FadeInCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeIn_DH.MusicCurve_DefaultFadeIn_DH'",
             "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut.MusicCurve_DefaultFadeOut'",
             "bTrackCanBePaused": true,
             "PlayerStateFlags": 1,
@@ -706,7 +796,7 @@
             "Name": "Combat_Ely",
             "Event": "/Game/FMOD/Events/Music/Ic_GH_NPC_MUSIC_1.Ic_GH_NPC_MUSIC_1",
             "FadeInCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_VeryFastFadeIn.MusicCurve_VeryFastFadeIn'",
-            "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut.MusicCurve_DefaultFadeOut'",
+            "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut_DH.MusicCurve_DefaultFadeOut_DH'",
             "PrevTrackOverrideFadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_QuickFadeOut.MusicCurve_QuickFadeOut'",
             "PlayerStateFlags": 5,
             "Locations": [

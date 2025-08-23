@@ -74,7 +74,7 @@
         },
         {
             "Name": "Rifle_Round",
-            "ProjectileDamage": 600,
+            "ProjectileDamage": 300,
             "ProjectileAccuracy": {
                 "X": 0.20000000298023224,
                 "Y": 0.20000000298023224
@@ -464,6 +464,17 @@
             },
             "Stats": {
                 "(Value=\"BaseProjectileSpeed_+%\")": -90
+            }
+        },
+        {
+            "Name": "Ammo_Nail",
+            "ProjectileDamage": 0,
+            "ProjectileAccuracy": {
+                "X": 1,
+                "Y": 1
+            },
+            "Stats": {
+                "(Value=\"BaseChanceProjectilesBreak_%\")": 100
             }
         }
     ]

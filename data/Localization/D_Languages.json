@@ -13,12 +13,12 @@
         {
             "Name": "fr-FR",
             "bEnabled": true,
-            "Coverage": 92
+            "Coverage": 91
         },
         {
             "Name": "es-419",
             "bEnabled": true,
-            "Coverage": 91
+            "Coverage": 90
         },
         {
             "Name": "pt-BR",
@@ -33,27 +33,27 @@
         {
             "Name": "ru-RU",
             "bEnabled": true,
-            "Coverage": 95
+            "Coverage": 94
         },
         {
             "Name": "zh-Hans",
             "bEnabled": true,
-            "Coverage": 78
+            "Coverage": 77
         },
         {
             "Name": "zh-Hant",
             "bEnabled": true,
-            "Coverage": 78
+            "Coverage": 77
         },
         {
             "Name": "ja-JP",
             "bEnabled": true,
-            "Coverage": 78
+            "Coverage": 77
         },
         {
             "Name": "ko-KR",
             "bEnabled": true,
-            "Coverage": 78
+            "Coverage": 77
         }
     ]
 }

@@ -19,6 +19,10 @@
                 {
                     "RowName": "Cave",
                     "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Pro_Null_Arctic_Cave",
+                    "DataTableName": "D_Biomes"
                 }
             ]
         },
@@ -153,6 +157,10 @@
                 {
                     "RowName": "Pro_GlacialCascade",
                     "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Outpost_009_Arctic",
+                    "DataTableName": "D_Biomes"
                 }
             ]
         },
@@ -165,6 +173,10 @@
                 },
                 {
                     "RowName": "Pro_Tundra",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Outpost_009_Tundra",
                     "DataTableName": "D_Biomes"
                 }
             ]
@@ -186,6 +198,10 @@
                 },
                 {
                     "RowName": "Pro_LavaPool",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Outpost_009_Lava",
                     "DataTableName": "D_Biomes"
                 }
             ]
@@ -228,6 +244,10 @@
                 },
                 {
                     "RowName": "Pro_ConiferSmallB",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Outpost_012_Interior",
                     "DataTableName": "D_Biomes"
                 }
             ]
@@ -272,6 +292,139 @@
             "AvaliableBiomes": [
                 {
                     "RowName": "Arena_IceMammoth",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Arena_NoWeather",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Arena_Ape",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Arena_Cat",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Arena_Hornet",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Arena_Plant",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Arena_RockGolem",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Arena_Scyther",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Outpost_NoWeather",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Outpost_012_Coast",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Ely_Arctic",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Ely_Arctic_NE",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Ely_Arctic_W",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Ely_Tundra",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Ely_Tundra",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Ely_Desert",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Ely_Desert_E",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Ely_Desert_W",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Ely_Desert_EDEN",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Ely_Swamp",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Ely_ColdSwamp",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Ely_Swamp",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Ely_Geothermal",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Ely_Geothermal",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Ely_Volcanic",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Ely_Volcanic_NW",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Ely_Volcanic_SE",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Ely_Conifer",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Ely_Cold_Swamp_Transition",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Ely_Desert_Swamp_Transition",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Ely_Tundra_Desert_Transition",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Ely_Tundra_Swamp_Transition",
                     "DataTableName": "D_Biomes"
                 }
             ]

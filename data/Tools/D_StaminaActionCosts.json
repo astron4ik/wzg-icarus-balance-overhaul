@@ -219,6 +219,10 @@
             "EffectingStat": {
                 "Value": "ToolStaminaActionCost_+%"
             }
+        },
+        {
+            "Name": "Chainsaw",
+            "PerSecondCost": 5
         }
     ]
 }

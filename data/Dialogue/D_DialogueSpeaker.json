@@ -67,6 +67,18 @@
         {
             "Name": "APE_Researcher_1",
             "Speaker": "NSLOCTEXT(\"D_DialogueSpeaker\", \"APE_Researcher_1-Speaker\", \"Morris\")"
+        },
+        {
+            "Name": "Iris",
+            "Speaker": "NSLOCTEXT(\"D_DialogueSpeaker\", \"Iris-Speaker\", \"Iris\")"
+        },
+        {
+            "Name": "Victor",
+            "Speaker": "NSLOCTEXT(\"D_DialogueSpeaker\", \"Victor-Speaker\", \"Victor\")"
+        },
+        {
+            "Name": "Theo",
+            "Speaker": "NSLOCTEXT(\"D_DialogueSpeaker\", \"Theo-Speaker\", \"Theo\")"
         }
     ]
 }

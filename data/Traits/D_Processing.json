@@ -23,7 +23,7 @@
                 "RowName": "Character"
             },
             "RequiresEnergy": false,
-            "QueueSize": 10,
+            "QueueSize": 4,
             "EffectedByPlayerStats": true,
             "SendOutputDirectlyToPlayer": true,
             "AutoTurnOffDeviceWhileNotProcessing": false
@@ -574,22 +574,12 @@
             "AutoTurnOffDeviceWhileNotProcessing": false
         },
         {
-            "Name": "Manufacturer",
-            "DefaultRecipeSet": {
-                "RowName": "Manufacturer"
-            },
-            "RequiresEnergy": false,
-            "bRequiresShelter": true,
-            "QueueSize": 10,
-            "MaxMilliwattage": 2500
-        },
-        {
             "Name": "Polymerizer",
             "DefaultRecipeSet": {
                 "RowName": "Polymerizer"
             },
             "bRequiresShelter": true,
-            "QueueSize": 10,
+            "QueueSize": 5,
             "MaxMilliwattage": 2500,
             "AutoTurnOffDeviceWhileNotProcessing": false
         },

@@ -1925,6 +1925,12 @@
                     ]
                 }
             }
+        },
+        {
+            "Name": "Uranium",
+            "PickUpSound": "/Game/FMOD/Events/SFX/D_Items/SFX_URANIUM_PICKUP.SFX_URANIUM_PICKUP",
+            "DropSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM",
+            "DestroyedSound": "/Game/FMOD/Events/SFX/D_Items/SFX_ITEM_DESTROY.SFX_ITEM_DESTROY"
         }
     ]
 }

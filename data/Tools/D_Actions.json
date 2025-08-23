@@ -1459,6 +1459,29 @@
         {
             "Name": "Weapon_Semi_Auto_Revolver",
             "Behaviour": "BlueprintGeneratedClass'/Game/BP/Behaviours/Actionable/Firearm/BP_ActionableBehaviour_FireArm_FireController_SemiAuto_Revolver.BP_ActionableBehaviour_FireArm_FireController_SemiAuto_Revolver_C'"
+        },
+        {
+            "Name": "Weapon_Semi_Auto_Nailgun",
+            "Behaviour": "BlueprintGeneratedClass'/Game/BP/Behaviours/Actionable/Firearm/BP_ActionableBehaviour_FireArm_FireController_SemiAuto_Nailgun.BP_ActionableBehaviour_FireArm_FireController_SemiAuto_Nailgun_C'"
+        },
+        {
+            "Name": "Chainsaw",
+            "Behaviour": "BlueprintGeneratedClass'/Game/BP/Behaviours/Actionable/BP_ActionableBehaviour_Chainsaw.BP_ActionableBehaviour_Chainsaw_C'",
+            "TP_ActionMontage": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_Chainsaw_Attack_Montage.3RD_CHA_Chainsaw_Attack_Montage",
+            "FP_ActionMontage": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Chainsaw_Attack_Montage.1ST_CHA_Chainsaw_Attack_Montage",
+            "FP_SuccessAnimations": [
+                {
+                    "SuccessType": {
+                        "RowName": "HitSuccess_Tool",
+                        "DataTableName": "D_ValidHitTypes"
+                    },
+                    "SuccessMontageVariations": [
+                        "Default"
+                    ]
+                }
+            ],
+            "BeginStaminaActionNotify": "DoHit",
+            "ActionCooldown": 0.10000000149011612
         }
     ]
 }

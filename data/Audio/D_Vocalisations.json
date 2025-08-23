@@ -3360,6 +3360,62 @@
             "Setting": {
                 "RowName": "Default"
             }
+        },
+        {
+            "Name": "SlinkerAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Slinker/SFX_CRE_VOCAL_SLINKER_ATTACK.SFX_CRE_VOCAL_SLINKER_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "SlinkerAggro",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Slinker/SFX_CRE_VOCAL_SLINKER_AGGRO.SFX_CRE_VOCAL_SLINKER_AGGRO",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "SlinkerSpot",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Slinker/SFX_CRE_VOCAL_SLINKER_SPOT.SFX_CRE_VOCAL_SLINKER_SPOT",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "SlinkerFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Slinker/SFX_CRE_VOCAL_SLINKER_FLINCH.SFX_CRE_VOCAL_SLINKER_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "SlinkerDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Slinker/SFX_CRE_VOCAL_SLINKER_DEATH.SFX_CRE_VOCAL_SLINKER_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "SlinkerIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Slinker/SFX_CRE_VOCAL_SLINKER_IDLE.SFX_CRE_VOCAL_SLINKER_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "TundraDeerIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/TundraDeer/SFX_CRE_VOCAL_TUNDRADEER_IDLE.SFX_CRE_VOCAL_TUNDRADEER_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "TundraDeerFlee",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/TundraDeer/SFX_CRE_VOCAL_TUNDRADEER_FLEE.SFX_CRE_VOCAL_TUNDRADEER_FLEE",
+            "Setting": {
+                "RowName": "Default"
+            }
         }
     ]
 }

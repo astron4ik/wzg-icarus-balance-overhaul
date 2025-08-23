@@ -3102,6 +3102,66 @@
                 }
             },
             "bUseClientPrediction": true
+        },
+        {
+            "Name": "Nailgun",
+            "ActionMapping": {
+                "(RowName=\"Weapon_Semi_Auto_Nailgun\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Primary": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                },
+                "(RowName=\"Weapon_Generic_Aim\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Secondary": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                },
+                "(RowName=\"Weapon_Magazine\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Reload": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                }
+            },
+            "bUseClientPrediction": true
+        },
+        {
+            "Name": "Chainsaw",
+            "ActionMapping": {
+                "(RowName=\"Chainsaw\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Primary": {
+                            "RowName": "Chainsaw",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                }
+            },
+            "bUseClientPrediction": true
         }
     ]
 }

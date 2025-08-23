@@ -5420,7 +5420,7 @@
                         "DataTableName": "D_Vocalisations"
                     },
                     "StatePersistentVocalisation": {
-                        "RowName": "RockdogIdle",
+                        "RowName": "OrcaIdle",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {
@@ -5850,6 +5850,126 @@
             "ThreatConfig": {
                 "RowName": "Default"
             }
+        },
+        {
+            "Name": "Slinker",
+            "FootstepSound": "/Game/FMOD/Events/SFX/Creatures/Footsteps/Wolf/SFX_CRE_MANGE_ALPHA_WOLF_FOOTSTEPS.SFX_CRE_MANGE_ALPHA_WOLF_FOOTSTEPS",
+            "FrontFootSocket": "RigLFLeg1",
+            "RearFootSocket": "RigLBLeg1",
+            "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_FOLIAGE_MEDIUM.SFX_CRE_FOLIAGE_MEDIUM",
+            "DeathCollisionSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_BODY_FALL_MEDIUM.SFX_CRE_BODY_FALL_MEDIUM",
+            "DeathCollisionSocket": "RigChest",
+            "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_SMALL.SFX_CRE_DEATHFALL_WATER_SMALL",
+            "VocalisationSocket": "RigJaw",
+            "AttackVocalisation": {
+                "RowName": "SlinkerAttack"
+            },
+            "FlinchVocalisation": {
+                "RowName": "SlinkerFlinch"
+            },
+            "DeathVocalisation": {
+                "RowName": "SlinkerDeath"
+            },
+            "StateVocalisations": {
+                "Idle": {
+                    "StateEnteredVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StatePersistentVocalisation": {
+                        "RowName": "SlinkerIdle",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StateExitedVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    }
+                },
+                "Attacking": {
+                    "StateEnteredVocalisation": {
+                        "RowName": "SlinkerSpot",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StatePersistentVocalisation": {
+                        "RowName": "SlinkerAggro",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StateExitedVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    }
+                },
+                "Relaxing": {
+                    "StateEnteredVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StatePersistentVocalisation": {
+                        "RowName": "AlphaWolfIdle",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StateExitedVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    }
+                }
+            },
+            "ThreatComponentClass": "/Script/Icarus.CreatureAudioThreatGOAPComponent",
+            "ThreatLevel": 100,
+            "ThreatConfig": {
+                "RowName": "Boss"
+            },
+            "MusicConditionOverrideMinThreatLevel": 20,
+            "FoliageCheckMaxDistance": 6000
+        },
+        {
+            "Name": "TundraDeer",
+            "FootstepSound": "/Game/FMOD/Events/SFX/Creatures/Footsteps/Deer/SFX_FOOTSTEP_DEER_VARIANT.SFX_FOOTSTEP_DEER_VARIANT",
+            "FrontFootSocket": "RigNeck2",
+            "RearFootSocket": "RigTail1",
+            "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_FOLIAGE_LARGE.SFX_CRE_FOLIAGE_LARGE",
+            "DeathCollisionSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_BODY_FALL_LARGE.SFX_CRE_BODY_FALL_LARGE",
+            "DeathCollisionSocket": "RigChest",
+            "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_MED.SFX_CRE_DEATHFALL_WATER_MED",
+            "VocalisationSocket": "RigJaw1",
+            "FlinchVocalisation": {
+                "RowName": "DeerVariantFlinch"
+            },
+            "DeathVocalisation": {
+                "RowName": "DeerVariantDeath"
+            },
+            "StateVocalisations": {
+                "Idle": {
+                    "StateEnteredVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StatePersistentVocalisation": {
+                        "RowName": "TundraDeerIdle",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StateExitedVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    }
+                },
+                "Fleeing": {
+                    "StateEnteredVocalisation": {
+                        "RowName": "TundraDeerFlee",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StatePersistentVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StateExitedVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    }
+                }
+            },
+            "FootstepMaxDistance": 6000,
+            "FoliageCheckMaxDistance": 6000
         }
     ]
 }

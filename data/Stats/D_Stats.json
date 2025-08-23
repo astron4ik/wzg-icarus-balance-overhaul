@@ -1912,9 +1912,6 @@
             "bIsReplicated": true,
             "StatCategory": {
                 "RowName": "Envirosuit"
-            },
-            "Metadata": {
-                "bIsDeprecated": true
             }
         },
         {
@@ -1936,6 +1933,9 @@
             "bIsReplicated": true,
             "StatCategory": {
                 "RowName": "Item"
+            },
+            "Metadata": {
+                "bIsDeprecated": true
             }
         },
         {
@@ -7678,9 +7678,6 @@
             "bIsReplicated": true,
             "StatCategory": {
                 "RowName": "Farming"
-            },
-            "Metadata": {
-                "bIsDeprecated": true
             }
         },
         {
@@ -7708,6 +7705,9 @@
             "bIsReplicated": true,
             "StatCategory": {
                 "RowName": "Crafting"
+            },
+            "Metadata": {
+                "bIsDeprecated": true
             }
         },
         {
@@ -7791,9 +7791,6 @@
             "bIsReplicated": true,
             "StatCategory": {
                 "RowName": "Farming"
-            },
-            "Metadata": {
-                "bIsDeprecated": true
             }
         },
         {
@@ -7802,6 +7799,9 @@
             "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BasePlantedCropNightGrowthSpeed_+%-NegativeDescription\", \"-{0}% Growth Rate of Crops at Night\")",
             "StatCategory": {
                 "RowName": "Farming"
+            },
+            "Metadata": {
+                "bIsDeprecated": true
             }
         },
         {
@@ -7814,9 +7814,6 @@
             "bIsReplicated": true,
             "StatCategory": {
                 "RowName": "Farming"
-            },
-            "Metadata": {
-                "bIsDeprecated": true
             }
         },
         {
@@ -7857,6 +7854,9 @@
             "bIsReplicated": true,
             "StatCategory": {
                 "RowName": "Farming"
+            },
+            "Metadata": {
+                "bIsDeprecated": true
             }
         },
         {
@@ -18174,6 +18174,545 @@
             "bIsReplicated": true,
             "StatCategory": {
                 "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "BaseSlinkerSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "SlinkerSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "SlinkerExtraDamage_+%",
+            "Title": "INVTEXT(\"[DNT] Damage vs Slinkers\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseSlinkerExtraDamage_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Damage vs Slinkers\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Damage vs Slinkers\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "SlinkerExtraDamageResistance_+%",
+            "Title": "INVTEXT(\"[DNT] Resistance vs Slinker\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseSlinkerExtraDamageResistance_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Resistance vs Slinkers\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Resistance vs Slinkers\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BounderExtraDamage_+%",
+            "Title": "INVTEXT(\"[DNT] Damage vs Bounder\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseBounderExtraDamage_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Damage vs Bounders\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Damage vs Bounder\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BounderExtraDamageResistance_+%",
+            "Title": "INVTEXT(\"[DNT] Resistance vs Bounders\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseBounderExtraDamageResistance_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Resistance vs Stryders\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Resistance vs Stryders\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseTundraDeerSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "TundraDeerSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "TundraDeerExtraDamage_+%",
+            "Title": "INVTEXT(\"[DNT] Damage vs Tundra Deer\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseTundraDeerExtraDamage_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Damage vs Tundra Deer\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Damage vs Tundra Deer\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "TundraDeerExtraDamageResistance_+%",
+            "Title": "INVTEXT(\"[DNT] Resistance vs Tundra Deer\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseTundraDeerExtraDamageResistance_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Resistance vs Tundra Deer\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Resistance vs Tundra Deer\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseChewSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "ChewSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "ChewExtraDamage_+%",
+            "Title": "INVTEXT(\"[DNT] Damage vs Chew\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseChewExtraDamage_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Damage vs Chew\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Damage vs Chew\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "ChewExtraDamageResistance_+%",
+            "Title": "INVTEXT(\"[DNT] Resistance vs Chew\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseChewExtraDamageResistance_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Resistance vs Chew\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Resistance vs Chew\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "HoppingCreatureExtraDamage_+%",
+            "Title": "INVTEXT(\"[DNT] Damage vs Hopping Creature\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseHoppingCreatureExtraDamage_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Damage vs Hopping Creature\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Damage vs Hopping Creature\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "HoppingCreatureExtraDamageResistance_+%",
+            "Title": "INVTEXT(\"[DNT] Resistance vs Hopping Creature\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseHoppingCreatureExtraDamageResistance_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Resistance vs Hopping Creature\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Resistance vs Hopping Creature\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseHoppingCreatureSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "HoppingCreatureSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseReaverSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "ReaverSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "ReaverExtraDamage_+%",
+            "Title": "INVTEXT(\"[DNT] Damage vs Reaver\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseReaverExtraDamage_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Damage vs Reaver\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Damage vs Reaver\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "ReaverExtraDamageResistance_+%",
+            "Title": "INVTEXT(\"[DNT] Resistance vs Reaver\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseReaverExtraDamageResistance_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Resistance vs Reaver\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Resistance vs Reaver\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "SulfurWormExtraDamage_+%",
+            "Title": "INVTEXT(\"[DNT] Damage vs Sulfur Worm\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseSulfurWormExtraDamage_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Damage vs Sulfur Worm\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Damage vs Sulfur Worm\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "SulfurWormExtraDamageResistance_+%",
+            "Title": "INVTEXT(\"[DNT] Resistance vs Sulfur Worm\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseSulfurWormExtraDamageResistance_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Resistance vs Sulfur Worm\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Resistance vs Sulfur Worm\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseRaptorSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "RaptorSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "RaptorExtraDamage_+%",
+            "Title": "INVTEXT(\"[DNT] Damage vs Raptor\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseRaptorExtraDamage_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Damage vs Raptor\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Damage vs Raptor\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "RaptorExtraDamageResistance_+%",
+            "Title": "INVTEXT(\"[DNT] Resistance vs Raptor\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseRaptorExtraDamageResistance_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Resistance vs Raptor\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Resistance vs Raptor\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseOrkaSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "OrkaSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "OrkaExtraDamage_+%",
+            "Title": "INVTEXT(\"[DNT] Damage vs Orka\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseOrkaExtraDamage_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Damage vs Orka\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Damage vs Orka\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "OrkaExtraDamageResistance_+%",
+            "Title": "INVTEXT(\"[DNT] Resistance vs Orka\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseOrkaExtraDamageResistance_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Resistance vs Orka\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Resistance vs Orka\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseIrradiatedProspectorSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "IrradiatedProspectorSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "IrradiatedProspectorExtraDamage_+%",
+            "Title": "INVTEXT(\"[DNT] Damage vs Irradiated Prospector\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseIrradiatedProspectorExtraDamage_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Damage vs Irradiated Prospector\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Damage vs Irradiated Prospector\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "IrradiatedProspectorExtraDamageResistance_+%",
+            "Title": "INVTEXT(\"[DNT] Resistance vs Irradiated Prospector\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseIrradiatedProspectorExtraDamageResistance_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Resistance vs Irradiated Prospector\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Resistance vs Irradiated Prospector\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseFlamethrowerFlameDamageRadius_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFlamethrowerFlameDamageRadius_+%-PositiveDescription\", \"+{0}% Flame Damage Radius\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFlamethrowerFlameDamageRadius_+%-NegativeDescription\", \"-{0}% Flame Damage Radius\")",
+            "StatCategory": {
+                "RowName": "Ranged_Weapon"
+            }
+        },
+        {
+            "Name": "BaseFlamethrowerFlameDamageRadius_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFlamethrowerFlameDamageRadius_+-PositiveDescription\", \"{0} Flame Damage Radius\")",
+            "StatCategory": {
+                "RowName": "Ranged_Weapon"
+            }
+        },
+        {
+            "Name": "FlamethrowerFlameDamageRadius_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"FlamethrowerFlameDamageRadius_+-Title\", \"Flame Damage Radius\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Ranged_Weapon"
+            }
+        },
+        {
+            "Name": "BaseChainsawAttackSpeedPerMinute_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChainsawAttackSpeedPerMinute_+-PositiveDescription\", \"+{0} Chainsaw Attacks per Minute\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChainsawAttackSpeedPerMinute_+-NegativeDescription\", \"-{0} Chainsaw Attacks per Minute\")",
+            "StatCategory": {
+                "RowName": "Melee_Weapon"
+            }
+        },
+        {
+            "Name": "ChainsawAttackSpeedPerMinute_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"ChainsawAttackSpeedPerMinute_+-Title\", \"Chainsaw Attack Speed\")",
+            "PositiveTitleFormat": "NSLOCTEXT(\"D_Stats\", \"ChainsawAttackSpeedPerMinute_+-PositiveTitleFormat\", \"{0} per minute\")",
+            "NegativeTitleFormat": "NSLOCTEXT(\"D_Stats\", \"ChainsawAttackSpeedPerMinute_+-NegativeTitleFormat\", \"-{0} per minute\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Melee_Weapon"
+            }
+        },
+        {
+            "Name": "BaseChainsawFuelUse_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChainsawFuelUse_+-PositiveDescription\", \"+{0} Biofuel consumed per second\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChainsawFuelUse_+-NegativeDescription\", \"-{0} Biofuel consumed per second\")",
+            "DisplayOperations": [
+                {
+                    "Operation": "Multiply",
+                    "Value": 10
+                }
+            ],
+            "StatCategory": {
+                "RowName": "Melee_Weapon"
+            }
+        },
+        {
+            "Name": "BaseChainsawFuelUse_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChainsawFuelUse_+%-PositiveDescription\", \"+{0}% Chainsaw biofuel consumption\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChainsawFuelUse_+%-NegativeDescription\", \"-{0}% Chainsaw biofuel consumption\")",
+            "StatCategory": {
+                "RowName": "Melee_Weapon"
+            }
+        },
+        {
+            "Name": "ChainsawFuelUse_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"ChainsawFuelUse_+-Title\", \"Chainsaw Fuel Usage\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Melee_Weapon"
             }
         }
     ]

@@ -614,6 +614,28 @@
                 "(Value=\"Fish_13_Var3\")": 25
             },
             "ZoneFishQuality": 0.30000001192092896
+        },
+        {
+            "Name": "PRO_IceSheet_Main",
+            "SpawnList": {
+                "(Value=\"Fish_19_Var3\")": 100,
+                "(Value=\"Fish_02_Var2\")": 100,
+                "(Value=\"Fish_09_Var4\")": 50,
+                "(Value=\"Fish_07_Var2\")": 50,
+                "(Value=\"Fish_14_Var3\")": 25
+            },
+            "ZoneFishQuality": 0.30000001192092896
+        },
+        {
+            "Name": "PRO_Ashlands_Main",
+            "SpawnList": {
+                "(Value=\"Fish_03_Var2\")": 100,
+                "(Value=\"Fish_04_Var2\")": 100,
+                "(Value=\"Fish_06_Var4\")": 50,
+                "(Value=\"Fish_05_Var4\")": 50,
+                "(Value=\"Fish_13_Var4\")": 25
+            },
+            "ZoneFishQuality": 0.30000001192092896
         }
     ]
 }

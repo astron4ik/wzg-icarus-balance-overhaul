@@ -9035,7 +9035,7 @@
                 "RowName": "Glass"
             },
             "Skin": {
-                "RowName": "TemperedGlass_Wall_Triangle_R"
+                "RowName": "TemperedGlass_Wall_Triangle_Inverted_R"
             }
         },
         {
@@ -9063,7 +9063,7 @@
                 "RowName": "Glass"
             },
             "Skin": {
-                "RowName": "TemperedGlass_Wall_Triangle_L"
+                "RowName": "TemperedGlass_Wall_Triangle_Inverted_L"
             }
         },
         {

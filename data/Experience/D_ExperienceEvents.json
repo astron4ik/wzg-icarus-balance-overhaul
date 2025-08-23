@@ -1248,13 +1248,13 @@
         },
         {
             "Name": "Kill_Orka",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Orka-EventDescription\", \"Killed Orka\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Orka\")",
             "SharedExperience": true,
             "ExperienceGranted": 2000
         },
         {
             "Name": "Skin_Orka",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Orka-EventDescription\", \"Skinned Orka\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Orka\")",
             "ExperienceGranted": 1000
         },
         {
@@ -1301,13 +1301,13 @@
         },
         {
             "Name": "Kill_Slinker",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Slinker-EventDescription\", \"Killed Slinker\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Slinker\")",
             "SharedExperience": true,
             "ExperienceGranted": 1750
         },
         {
             "Name": "Skin_Slinker",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Slinker-EventDescription\", \"Skinned Slinker\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Slinker\")",
             "ExperienceGranted": 870
         },
         {
@@ -1336,46 +1336,62 @@
         },
         {
             "Name": "Kill_Bounder",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Bounder-EventDescription\", \"Killed Bounder\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Bounder\")",
             "SharedExperience": true,
             "ExperienceGranted": 520
         },
         {
             "Name": "Skin_Bounder",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Bounder-EventDescription\", \"Skinned Bounder\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Bounder\")",
             "ExperienceGranted": 260
         },
         {
             "Name": "Kill_Chew",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Chew-EventDescription\", \"Killed Chew\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Chew\")",
             "SharedExperience": true,
             "ExperienceGranted": 550
         },
         {
             "Name": "Skin_Chew",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Chew-EventDescription\", \"Skinned Chew\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Chew\")",
             "ExperienceGranted": 280
         },
         {
             "Name": "Kill_TundraDeer",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_TundraDeer-EventDescription\", \"Killed Tundra Deer\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Tundra Deer\")",
             "SharedExperience": true,
             "ExperienceGranted": 520
         },
         {
             "Name": "Skin_TundraDeer",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_TundraDeer-EventDescription\", \"Skinned Tundra Deer\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Tundra Deer\")",
             "ExperienceGranted": 260
         },
         {
             "Name": "Kill_BabyRaptor",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_BabyRaptor-EventDescription\", \"Killed Juvenile Raptor\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Juvenile Raptor\")",
             "SharedExperience": true,
             "ExperienceGranted": 260
         },
         {
             "Name": "Skin_BabyRaptor",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_BabyRaptor-EventDescription\", \"Skinned Juvenile Raptor\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Juvenile Raptor\")",
+            "ExperienceGranted": 130
+        },
+        {
+            "Name": "Skin_Reaver",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Reaver\")",
+            "ExperienceGranted": 870
+        },
+        {
+            "Name": "Kill_Raptor",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Raptor\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 260
+        },
+        {
+            "Name": "Skin_Raptor",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Raptor\")",
             "ExperienceGranted": 130
         }
     ]

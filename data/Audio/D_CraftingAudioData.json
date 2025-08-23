@@ -132,6 +132,10 @@
         {
             "Name": "SeedExtractor",
             "RecipeCraftedSound": "/Game/FMOD/Events/UI/Crafting/UI_CRAFT_RECIPE_SEED_EXTRACTOR.UI_CRAFT_RECIPE_SEED_EXTRACTOR"
+        },
+        {
+            "Name": "T5ManufacturingUnit",
+            "RecipeCraftedSound": "/Game/FMOD/Events/UI/Crafting/UI_CRAFT_RECIPE_T5__MANUFACTORING.UI_CRAFT_RECIPE_T5__MANUFACTORING"
         }
     ]
 }

@@ -60,6 +60,12 @@
         {
             "Name": "RadiationFalloff",
             "FloatValue": 2000
+        },
+        {
+            "Name": "RecommendedPipes"
+        },
+        {
+            "Name": "RecommendedWires"
         }
     ]
 }

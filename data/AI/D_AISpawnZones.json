@@ -11354,6 +11354,621 @@
             },
             "MedianLevel": 15,
             "MaxLevel": 30
+        },
+        {
+            "Name": "ELY_Arctic_1",
+            "Creatures": {
+                "AISpawnList": [
+                    {
+                        "AISetup": {
+                            "Value": "Wooly_Zebra"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "BlueBack"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Orka_Arctic"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Snow_Striker"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Mammoth_Arctic"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                ],
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Arctic_Bat",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
+                ]
+            },
+            "MinLevel": 50,
+            "MedianLevel": 55,
+            "MaxLevel": 70
+        },
+        {
+            "Name": "ELY_Arctic_2",
+            "Creatures": {
+                "AISpawnList": [
+                    {
+                        "AISetup": {
+                            "Value": "Wooly_Zebra"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "BlueBack"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Snow_Wolf"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "SnowLeopard"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Polar_Bear"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                ],
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Arctic_Bat",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
+                ]
+            },
+            "MinLevel": 50,
+            "MedianLevel": 55,
+            "MaxLevel": 70
+        },
+        {
+            "Name": "ELY_Tundra",
+            "Creatures": {
+                "AISpawnList": [
+                    {
+                        "AISetup": {
+                            "Value": "Rabbit_Variant_Snow"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Tundra_Deer"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Orka_Arctic"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Slinker"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Tusker"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                ],
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Arctic_Bat",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
+                ]
+            },
+            "MinLevel": 10,
+            "MedianLevel": 15,
+            "MaxLevel": 30
+        },
+        {
+            "Name": "ELY_Volcanic_1",
+            "Creatures": {
+                "AISpawnList": [
+                    {
+                        "AISetup": {
+                            "Value": "Roat_Lava"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "BlueBack_Lava"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "LavaBroodlingWorldSpawn"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Rock_Dog"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Desert_Striker"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                ],
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Gas_Flyer",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "LavaFlyers",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
+                ]
+            },
+            "MinLevel": 50,
+            "MedianLevel": 55,
+            "MaxLevel": 70
+        },
+        {
+            "Name": "ELY_Volcanic_2",
+            "Creatures": {
+                "AISpawnList": [
+                    {
+                        "AISetup": {
+                            "Value": "Roat_Lava"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "BlueBack_Lava"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "LavaBroodlingWorldSpawn"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Lava_Komodo"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Lava_Slug"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                ],
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Gas_Flyer",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "LavaFlyers",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
+                ]
+            },
+            "MinLevel": 50,
+            "MedianLevel": 55,
+            "MaxLevel": 70
+        },
+        {
+            "Name": "ELY_Geothermal",
+            "Creatures": {
+                "AISpawnList": [
+                    {
+                        "AISetup": {
+                            "Value": "Hopping_Creature"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Raptor"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                ],
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Gas_Flyer",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
+                ]
+            },
+            "MinLevel": 20,
+            "MedianLevel": 30,
+            "MaxLevel": 40
+        },
+        {
+            "Name": "ELY_Desert_Small",
+            "Creatures": {
+                "AISpawnList": [
+                    {
+                        "AISetup": {
+                            "Value": "Bounder_Desert"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Zebra"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Scorpion"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Ghost_Crocodile"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Desert_Wolf"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Moa"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Mini_Hippo"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                ]
+            },
+            "MinLevel": 30,
+            "MedianLevel": 30,
+            "MaxLevel": 50
+        },
+        {
+            "Name": "ELY_Desert_Large",
+            "Creatures": {
+                "AISpawnList": [
+                    {
+                        "AISetup": {
+                            "Value": "Ghost_Crocodile"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Chew"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Raptor"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Elephant"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                ]
+            },
+            "MinLevel": 40,
+            "MedianLevel": 50,
+            "MaxLevel": 70
+        },
+        {
+            "Name": "ELY_Swamp_1",
+            "Creatures": {
+                "AISpawnList": [
+                    {
+                        "AISetup": {
+                            "Value": "Roat_Swamp"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Swamp_Quadruped"
+                        },
+                        "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Hopping_Creature"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Reaver"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Komodo"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Mammoth_Desert"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                ],
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Gas_Flyer_Swamp",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
+                ]
+            },
+            "MinLevel": 30,
+            "MedianLevel": 60,
+            "MaxLevel": 40
+        },
+        {
+            "Name": "ELY_Swamp_2",
+            "Creatures": {
+                "AISpawnList": [
+                    {
+                        "AISetup": {
+                            "Value": "Roat_Swamp"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Swamp_Quadruped"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Needler"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Crocodile"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Komodo"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Swamp_Bird"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Mammoth_Desert"
+                        },
+                        "SpawnWeight": 0,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                ],
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "Gas_Flyer_Swamp",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
+                ]
+            },
+            "MinLevel": 30,
+            "MedianLevel": 60,
+            "MaxLevel": 40
         }
     ]
 }

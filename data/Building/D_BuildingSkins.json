@@ -2277,10 +2277,24 @@
             }
         },
         {
+            "Name": "TemperedGlass_Wall_Triangle_Inverted_L",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Angle_Glass_Inverted_R/M_BLD_Wall_Angle_Glass_Inverted_Tempered_R_A.M_BLD_Wall_Angle_Glass_Inverted_Tempered_R_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Angle_Glass_Inverted_R/M_BLD_Wall_Angle_Glass_Inverted_Tempered_R_B.M_BLD_Wall_Angle_Glass_Inverted_Tempered_R_B"
+            }
+        },
+        {
             "Name": "TemperedGlass_Wall_Triangle_R",
             "BaseMeshMaterialSlotOverrides": {
                 "0": "/Game/ASS/BLD/Glass/Wall_Angle_Glass_R/M_BLD_Wall_Angle_Glass_Tempered_R_B.M_BLD_Wall_Angle_Glass_Tempered_R_B",
                 "1": "/Game/ASS/BLD/Glass/Wall_Angle_Glass_R/M_BLD_Wall_Angle_Glass_Tempered_R_A.M_BLD_Wall_Angle_Glass_Tempered_R_A"
+            }
+        },
+        {
+            "Name": "TemperedGlass_Wall_Triangle_Inverted_R",
+            "BaseMeshMaterialSlotOverrides": {
+                "0": "/Game/ASS/BLD/Glass/Wall_Angle_Glass_Inverted_L/M_BLD_Wall_Angle_Glass_Inverted_Tempered_L_A.M_BLD_Wall_Angle_Glass_Inverted_Tempered_L_A",
+                "1": "/Game/ASS/BLD/Glass/Wall_Angle_Glass_Inverted_L/M_BLD_Wall_Angle_Glass_Inverted_Tempered_L_B.M_BLD_Wall_Angle_Glass_Inverted_Tempered_L_B"
             }
         },
         {

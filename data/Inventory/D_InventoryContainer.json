@@ -215,6 +215,13 @@
                 "RowName": "Pouch_Generic"
             },
             "bCanInventoryTick": true
+        },
+        {
+            "Name": "Nailgun_Ammo_Attachment",
+            "InventoryInfo": {
+                "RowName": "Nailgun_Ammo_Attachment"
+            },
+            "AttachmentSlot": 1
         }
     ]
 }

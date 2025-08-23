@@ -8114,7 +8114,7 @@
         {
             "Name": "Manufacturer",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_Manufacturer.BP_Manufacturer_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Bench_Fabricator.SM_DEP_Bench_Fabricator",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Bench_GreatHunt_Crafting/SM_DEP_Manufacturing_Unit_T5_Bench.SM_DEP_Manufacturing_Unit_T5_Bench",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
             "SnapToSurfaceNormal": false
         },
@@ -12781,7 +12781,7 @@
         {
             "Name": "Homestead_Fireplace_Cap",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Homestead_Fireplace_Cap.BP_Homestead_Fireplace_Cap_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Fireplace_Chimney_Cap1.T_ITEM_Fireplace_Chimney_Cap1",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Fireplace_Cap_0.T_ITEM_Homestead_Fireplace_Cap_0",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Homestead_Fireplace_Cap-DeployableName\", \"Full Height\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Fireplace_Brick/SM_DEP_Fireplace_Brick_Cap.SM_DEP_Fireplace_Brick_Cap",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_CONC.SFX_BLD_CONC",
@@ -12802,7 +12802,7 @@
         {
             "Name": "Homestead_Fireplace_Cap_Half",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Homestead_Fireplace_Cap_Half.BP_Homestead_Fireplace_Cap_Half_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Fireplace_Chimney_Cap2.T_ITEM_Fireplace_Chimney_Cap2",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Fireplace_Cap_1.T_ITEM_Homestead_Fireplace_Cap_1",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Homestead_Fireplace_Cap_Half-DeployableName\", \"Half Height\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Fireplace_Brick/SM_DEP_Fireplace_Brick_Cap_SML.SM_DEP_Fireplace_Brick_Cap_SML",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_CONC.SFX_BLD_CONC",

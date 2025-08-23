@@ -83,8 +83,9 @@
             "DisplayName": "NSLOCTEXT(\"D_IcarusResources\", \"Hydrazine-DisplayName\", \"Hydrazine\")",
             "Units": "NSLOCTEXT(\"D_IcarusResources\", \"Hydrazine-Units\", \"L\")",
             "Color": {
-                "B": 243,
-                "R": 255,
+                "B": 230,
+                "G": 57,
+                "R": 102,
                 "A": 255
             },
             "Resource_Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Resource_Hydrazine.T_ICON_Resource_Hydrazine",
@@ -96,13 +97,13 @@
             "DisplayName": "NSLOCTEXT(\"D_IcarusResources\", \"Crude_Oil-DisplayName\", \"Crude Oil\")",
             "Units": "NSLOCTEXT(\"D_IcarusResources\", \"Crude_Oil-Units\", \"L\")",
             "Color": {
-                "B": 38,
-                "G": 68,
-                "R": 98,
+                "B": 49,
+                "G": 49,
+                "R": 254,
                 "A": 255
             },
-            "Resource_Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Resource_Oil.T_ICON_Resource_Oil",
-            "Recipe_Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Recipe_CrudeOil2.T_ICON_Recipe_CrudeOil2",
+            "Resource_Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Resource_CrudeOil.T_ICON_Resource_CrudeOil",
+            "Recipe_Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Recipe_CrudeOil.T_ICON_Recipe_CrudeOil",
             "Container_Icon": "/Game/Assets/2DArt/UI/Materials/M_FuelType_CrudeOil.M_FuelType_CrudeOil"
         },
         {
@@ -124,10 +125,13 @@
             "DisplayName": "NSLOCTEXT(\"D_IcarusResources\", \"Refined_Oil-DisplayName\", \"Refined Oil\")",
             "Units": "NSLOCTEXT(\"D_IcarusResources\", \"Refined_Oil-Units\", \"L\")",
             "Color": {
+                "B": 236,
+                "G": 95,
+                "R": 255,
                 "A": 255
             },
-            "Resource_Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Resource_Oil.T_ICON_Resource_Oil",
-            "Recipe_Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Recipe_Refined_Oil.T_ICON_Recipe_Refined_Oil",
+            "Resource_Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Resource_RefinedOil.T_ICON_Resource_RefinedOil",
+            "Recipe_Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Recipe_RefinedOil.T_ICON_Recipe_RefinedOil",
             "Container_Icon": "/Game/Assets/2DArt/UI/Materials/M_FuelType_RefinedOil.M_FuelType_RefinedOil"
         }
     ]

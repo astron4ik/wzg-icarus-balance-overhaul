@@ -132,6 +132,26 @@
             "ValidAmmoTypes": {
                 "RowName": "AllPistolAndCrude"
             }
+        },
+        {
+            "Name": "FlameThrower_Turret",
+            "MuzzlePitchExtents": {
+                "X": -50,
+                "Y": 50
+            },
+            "MuzzleYawExtents": 120,
+            "PermitBeginFireAngle": 10,
+            "MaxRange": 600,
+            "BurstFireRate": 0.10000000149011612,
+            "BurstFireShots": 30,
+            "LaunchForce": 0,
+            "CheckTargetPeriod": 1.5,
+            "CoolDownPeriod": 2,
+            "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
+            "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_GENERIC.SFX_TURRET_FIRE_GENERIC",
+            "ValidAmmoTypes": {
+                "RowName": "AllPistolAndCrude"
+            }
         }
     ]
 }

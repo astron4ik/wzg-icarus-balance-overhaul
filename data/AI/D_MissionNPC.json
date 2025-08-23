@@ -1,0 +1,124 @@
+{
+    "RowStruct": "/Script/Icarus.MissionNPCData",
+    "Defaults": {
+        "Highlightable": {
+            "RowName": "None",
+            "DataTableName": "D_Highlightable"
+        },
+        "Speaker": {
+            "RowName": "None",
+            "DataTableName": "D_DialogueSpeaker"
+        },
+        "Dialogue": []
+    },
+    "Rows": [
+        {
+            "Name": "Church",
+            "Highlightable": {
+                "RowName": "NPC_1"
+            },
+            "Speaker": {
+                "RowName": "Church"
+            }
+        },
+        {
+            "Name": "Tucker",
+            "Highlightable": {
+                "RowName": "NPC_2"
+            },
+            "Speaker": {
+                "RowName": "Tucker"
+            }
+        },
+        {
+            "Name": "Griff",
+            "Highlightable": {
+                "RowName": "NPC_3"
+            },
+            "Speaker": {
+                "RowName": "Griff"
+            }
+        },
+        {
+            "Name": "Simmons",
+            "Highlightable": {
+                "RowName": "NPC_4"
+            },
+            "Speaker": {
+                "RowName": "Simmons"
+            }
+        },
+        {
+            "Name": "Washington",
+            "Highlightable": {
+                "RowName": "NPC_5"
+            },
+            "Speaker": {
+                "RowName": "Washington"
+            }
+        },
+        {
+            "Name": "Infant_Ape",
+            "Highlightable": {
+                "RowName": "Ape_Infant"
+            }
+        },
+        {
+            "Name": "Morris",
+            "Highlightable": {
+                "RowName": "APE_Researcher_1"
+            },
+            "Speaker": {
+                "RowName": "APE_Researcher_1"
+            }
+        },
+        {
+            "Name": "Avery",
+            "Highlightable": {
+                "RowName": "IM_Researcher_A"
+            },
+            "Speaker": {
+                "RowName": "IM_Researcher_1"
+            }
+        },
+        {
+            "Name": "Felix",
+            "Highlightable": {
+                "RowName": "IM_Researcher_B"
+            },
+            "Speaker": {
+                "RowName": "IM_Researcher_2"
+            }
+        },
+        {
+            "Name": "Wounded_Vesper",
+            "Highlightable": {
+                "RowName": "IM_ArcticVesper"
+            }
+        },
+        {
+            "Name": "Voss",
+            "Highlightable": {
+                "RowName": "RG_Miner_1"
+            }
+        },
+        {
+            "Name": "Harken",
+            "Highlightable": {
+                "RowName": "RG_Miner_2"
+            }
+        },
+        {
+            "Name": "Biggs",
+            "Highlightable": {
+                "RowName": "RG_Miner_3"
+            }
+        },
+        {
+            "Name": "Wedge",
+            "Highlightable": {
+                "RowName": "RG_Miner_4"
+            }
+        }
+    ]
+}

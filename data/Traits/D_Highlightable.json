@@ -1246,6 +1246,26 @@
             "Name": "Deep_Mining_Ore_Deposit_Cobalt",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Deep_Mining_Ore_Deposit_Cobalt-DisplayName\", \"Deep Mining Ore Deposit: Cobalt\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"Deep_Mining_Ore_Deposit_Cobalt-Description\", \"An ore deposit that can be drilled with deep mining equipment.\")"
+        },
+        {
+            "Name": "Mo",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Mo-DisplayName\", \"Mo\")",
+            "Description": "INVTEXT(\"[DNT] The Famous Mo from all the documentarys that went rogue after learning what the terrafroming process had done to Icarus. In the Flesh.\")"
+        },
+        {
+            "Name": "Iris",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Iris-DisplayName\", \"Iris\")",
+            "Description": "INVTEXT(\"[DNT] NPC\")"
+        },
+        {
+            "Name": "Victor",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Victor-DisplayName\", \"Victor\")",
+            "Description": "INVTEXT(\"[DNT] NPC\")"
+        },
+        {
+            "Name": "Theo",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Theo-DisplayName\", \"Theo\")",
+            "Description": "INVTEXT(\"[DNT] NPC\")"
         }
     ]
 }
