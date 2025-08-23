@@ -23,7 +23,7 @@
                 "RowName": "Character"
             },
             "RequiresEnergy": false,
-            "QueueSize": 4,
+            "QueueSize": 10,
             "EffectedByPlayerStats": true,
             "SendOutputDirectlyToPlayer": true,
             "AutoTurnOffDeviceWhileNotProcessing": false
@@ -579,7 +579,7 @@
                 "RowName": "Polymerizer"
             },
             "bRequiresShelter": true,
-            "QueueSize": 5,
+            "QueueSize": 10,
             "MaxMilliwattage": 2500,
             "AutoTurnOffDeviceWhileNotProcessing": false
         },

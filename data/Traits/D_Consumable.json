@@ -102,7 +102,7 @@
                 "Modifier": {
                     "RowName": "Berry"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
@@ -168,7 +168,7 @@
                 "Modifier": {
                     "RowName": "CookedFish"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
@@ -258,13 +258,13 @@
         {
             "Name": "Thermos_IceWater",
             "Stats": {
-                "(Value=\"BaseWaterRecovery_+\")": 100
+                "(Value=\"BaseWaterRecovery_+\")": 300
             },
             "Modifier": {
                 "Modifier": {
                     "RowName": "Thermos_IceWater"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1800
             },
             "DescriptionText": "Can be placed in a Suit Water Slot to Auto Consume.",
             "Byproducts": [
@@ -400,13 +400,25 @@
         {
             "Name": "Meta_Oxygen_Gel",
             "Stats": {
-                "(Value=\"BaseOxygenRecovery_+\")": 150
+                "(Value=\"BaseOxygenRecovery_+\")": 500
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Meta_Oxygen_Gel"
+                },
+                "ModifierLifetime": 3600
             }
         },
         {
             "Name": "Meta_Stamina_Gel",
             "Stats": {
-                "(Value=\"BaseStaminaRecovery_+\")": 50
+                "(Value=\"BaseStaminaRecovery_+\")": 500
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Meta_Stamina_Gel"
+                },
+                "ModifierLifetime": 3600
             }
         },
         {
@@ -466,7 +478,7 @@
                 "Modifier": {
                     "RowName": "Coconut"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
@@ -480,7 +492,7 @@
                 "Modifier": {
                     "RowName": "Coconut_Mid"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
@@ -494,7 +506,7 @@
                 "Modifier": {
                     "RowName": "Coconut_Mature"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
@@ -531,7 +543,7 @@
         {
             "Name": "Antiseptic",
             "Modifier": {
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -573,7 +585,7 @@
                 "Modifier": {
                     "RowName": "Splint_Worksop"
                 },
-                "ModifierLifetime": 300
+                "ModifierLifetime": 1800
             }
         },
         {
@@ -654,7 +666,7 @@
                 "Modifier": {
                     "RowName": "Antibiotic_Pill"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -663,7 +675,7 @@
                 "Modifier": {
                     "RowName": "Antiparasitic_Pill"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -672,7 +684,7 @@
                 "Modifier": {
                     "RowName": "Antipoison_Pill"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -681,7 +693,7 @@
                 "Modifier": {
                     "RowName": "Blood_Thinning_Pill"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -699,7 +711,7 @@
                 "Modifier": {
                     "RowName": "Meta_Ration"
                 },
-                "ModifierLifetime": 1200
+                "ModifierLifetime": 3600
             }
         },
         {
@@ -711,7 +723,7 @@
                 "Modifier": {
                     "RowName": "Meta_Soda"
                 },
-                "ModifierLifetime": 1200
+                "ModifierLifetime": 3600
             }
         },
         {
@@ -723,7 +735,7 @@
                 "Modifier": {
                     "RowName": "Meta_Ration"
                 },
-                "ModifierLifetime": 3600
+                "ModifierLifetime": 10800
             }
         },
         {
@@ -748,7 +760,7 @@
                 "Modifier": {
                     "RowName": "Raw_Food"
                 },
-                "ModifierLifetime": 60
+                "ModifierLifetime": 300
             }
         },
         {
@@ -761,7 +773,7 @@
                 "Modifier": {
                     "RowName": "Watermelon"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -773,7 +785,7 @@
                 "Modifier": {
                     "RowName": "Cooked_Corn"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -785,7 +797,7 @@
                 "Modifier": {
                     "RowName": "Cooked_Pumpkin"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -797,7 +809,7 @@
                 "Modifier": {
                     "RowName": "Cooked_Squash"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -809,7 +821,7 @@
                 "Modifier": {
                     "RowName": "Cooked_Carrot"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -821,14 +833,14 @@
                 "Modifier": {
                     "RowName": "Cooked_Mushroom"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
             "Name": "Corn_Soup",
             "Stats": {
-                "(Value=\"BaseFoodRecovery_+\")": 100,
-                "(Value=\"BaseWaterRecovery_+\")": 25
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseWaterRecovery_+\")": 100
             },
             "Modifier": {
                 "Modifier": {
@@ -840,8 +852,8 @@
         {
             "Name": "Mushroom_Soup",
             "Stats": {
-                "(Value=\"BaseFoodRecovery_+\")": 100,
-                "(Value=\"BaseWaterRecovery_+\")": 25
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseWaterRecovery_+\")": 100
             },
             "Modifier": {
                 "Modifier": {
@@ -877,8 +889,8 @@
         {
             "Name": "Meat_Stew",
             "Stats": {
-                "(Value=\"BaseFoodRecovery_+\")": 100,
-                "(Value=\"BaseWaterRecovery_+\")": 25
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseWaterRecovery_+\")": 100
             },
             "Modifier": {
                 "Modifier": {
@@ -1019,7 +1031,7 @@
                 "Modifier": {
                     "RowName": "Antibiotic_Vaccine"
                 },
-                "ModifierLifetime": 1800
+                "ModifierLifetime": 3600
             }
         },
         {
@@ -1028,7 +1040,7 @@
                 "Modifier": {
                     "RowName": "Antibiotic_Vaccine"
                 },
-                "ModifierLifetime": 7200
+                "ModifierLifetime": 10800
             }
         },
         {
@@ -1046,7 +1058,7 @@
                 "Modifier": {
                     "RowName": "Antipoison_Vaccine"
                 },
-                "ModifierLifetime": 1800
+                "ModifierLifetime": 3600
             }
         },
         {
@@ -1055,7 +1067,7 @@
                 "Modifier": {
                     "RowName": "Antipoison_Vaccine"
                 },
-                "ModifierLifetime": 7200
+                "ModifierLifetime": 10800
             }
         },
         {
@@ -1073,7 +1085,7 @@
                 "Modifier": {
                     "RowName": "Antiparasitic_Vaccine"
                 },
-                "ModifierLifetime": 1800
+                "ModifierLifetime": 3600
             }
         },
         {
@@ -1082,7 +1094,7 @@
                 "Modifier": {
                     "RowName": "Antiparasitic_Vaccine"
                 },
-                "ModifierLifetime": 7200
+                "ModifierLifetime": 10800
             }
         },
         {
@@ -1100,7 +1112,7 @@
                 "Modifier": {
                     "RowName": "Blood_Thinning_Vaccine"
                 },
-                "ModifierLifetime": 1800
+                "ModifierLifetime": 3600
             }
         },
         {
@@ -1109,7 +1121,7 @@
                 "Modifier": {
                     "RowName": "Blood_Thinning_Vaccine"
                 },
-                "ModifierLifetime": 7200
+                "ModifierLifetime": 10800
             }
         },
         {
@@ -1190,7 +1202,7 @@
                 "Modifier": {
                     "RowName": "Thermos_GreenTea_Modifier"
                 },
-                "ModifierLifetime": 900
+                "ModifierLifetime": 1800
             },
             "Byproducts": [
                 {
@@ -1208,7 +1220,7 @@
                 "Modifier": {
                     "RowName": "Thermos_WildTea_Modifier"
                 },
-                "ModifierLifetime": 900
+                "ModifierLifetime": 1800
             },
             "Byproducts": [
                 {
@@ -1226,7 +1238,7 @@
                 "Modifier": {
                     "RowName": "Thermos_Cocoa_Modifier"
                 },
-                "ModifierLifetime": 900
+                "ModifierLifetime": 1800
             },
             "Byproducts": [
                 {
@@ -1244,7 +1256,7 @@
                 "Modifier": {
                     "RowName": "Thermos_Coffee_Modifier"
                 },
-                "ModifierLifetime": 900
+                "ModifierLifetime": 1800
             },
             "Byproducts": [
                 {
@@ -1501,7 +1513,87 @@
             },
             "Byproducts": [
                 {
+                    "RowName": "Solar_Panel",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Thermos_Coffee",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Thermos_IceWater",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Stamina_Gel",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Super_Ration",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Soda",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Bandage_Shengong",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Lantern",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "SplineTool_Electricity",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "SplineTool_Water",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Kit_Water_Pump",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Kit_Generator",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Composter_Electric",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Masonry_Bench_T4",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Material_Processor",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Electric_Furnace",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Carpentry_Bench_T4",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
                     "RowName": "Meta_Repair_Item_x5",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Arrow_Larkwell_Standard_x25",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Arrow_Larkwell_Tazer_x25",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Bolt_Larkwell_Standard_x25",
                     "DataTableName": "D_ItemTemplate"
                 }
             ]
@@ -1635,7 +1727,7 @@
                 "Modifier": {
                     "RowName": "Cooked_Potato"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -1647,7 +1739,7 @@
                 "Modifier": {
                     "RowName": "Cooked_Tomato"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -1659,14 +1751,14 @@
                 "Modifier": {
                     "RowName": "Cooked_Soy_Bean"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
             "Name": "Tomato_Soup",
             "Stats": {
-                "(Value=\"BaseFoodRecovery_+\")": 100,
-                "(Value=\"BaseWaterRecovery_+\")": 25
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseWaterRecovery_+\")": 100
             },
             "Modifier": {
                 "Modifier": {
@@ -1771,10 +1863,10 @@
         {
             "Name": "Health_Enhancement_Tonic",
             "Stats": {
-                "(Value=\"BaseHealthRecovery_+\")": 250
+                "(Value=\"BaseHealthRecovery_+\")": 300
             },
             "Modifier": {
-                "ModifierLifetime": 120
+                "ModifierLifetime": 300
             }
         },
         {
@@ -1783,7 +1875,10 @@
                 "(Value=\"BaseHealthRecovery_+\")": 500
             },
             "Modifier": {
-                "ModifierLifetime": 120
+                "Modifier": {
+                    "RowName": "Health_Enhancement_Tonic"
+                },
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -1873,7 +1968,7 @@
                 "Modifier": {
                     "RowName": "Cooked_Rhubarb"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
@@ -1886,7 +1981,7 @@
                 "Modifier": {
                     "RowName": "Cooked_Kumara"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
@@ -1919,8 +2014,8 @@
         {
             "Name": "Rhubarb_Stew",
             "Stats": {
-                "(Value=\"BaseFoodRecovery_+\")": 100,
-                "(Value=\"BaseWaterRecovery_+\")": 25
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseWaterRecovery_+\")": 100
             },
             "Modifier": {
                 "Modifier": {
@@ -2024,15 +2119,15 @@
                 "Modifier": {
                     "RowName": "Fried_Fish_Chunks"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
         {
             "Name": "Fish_Chunk_Stew",
             "Stats": {
-                "(Value=\"BaseFoodRecovery_+\")": 100,
-                "(Value=\"BaseWaterRecovery_+\")": 25
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseWaterRecovery_+\")": 100
             },
             "Modifier": {
                 "Modifier": {
@@ -2198,7 +2293,7 @@
                 "Modifier": {
                     "RowName": "Grilled_Freshwater_Fillet"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
@@ -2212,7 +2307,7 @@
                 "Modifier": {
                     "RowName": "Grilled_Saltwater_Fillet"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
@@ -2323,7 +2418,7 @@
                 "Modifier": {
                     "RowName": "Berry_Bar"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
@@ -2607,7 +2702,7 @@
                 "Modifier": {
                     "RowName": "Meta_Biolab_Inhaler_Sandworm"
                 },
-                "ModifierLifetime": 1800
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -2616,7 +2711,7 @@
                 "Modifier": {
                     "RowName": "Meta_Biolab_Inhaler_AlphaWolf"
                 },
-                "ModifierLifetime": 1800
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -2625,7 +2720,7 @@
                 "Modifier": {
                     "RowName": "Meta_Biolab_Inhaler_Scorpion"
                 },
-                "ModifierLifetime": 1800
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -2634,7 +2729,7 @@
                 "Modifier": {
                     "RowName": "Meta_Biolab_Inhaler_IceMammoth"
                 },
-                "ModifierLifetime": 1800
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -2896,7 +2991,7 @@
                 "Modifier": {
                     "RowName": "Honey_Bar"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
@@ -2963,7 +3058,7 @@
                 "Modifier": {
                     "RowName": "Cooked_Eggs"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
@@ -3082,13 +3177,13 @@
         {
             "Name": "Grilled_Chicken",
             "Stats": {
-                "(Value=\"BaseFoodRecovery_+\")": 50
+                "(Value=\"BaseFoodRecovery_+\")": 100
             },
             "Modifier": {
                 "Modifier": {
                     "RowName": "Grilled_Chicken"
                 },
-                "ModifierLifetime": 900
+                "ModifierLifetime": 1800
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
@@ -3191,7 +3286,7 @@
                 "Modifier": {
                     "RowName": "Dressing_Kit"
                 },
-                "ModifierLifetime": 1
+                "ModifierLifetime": 5
             }
         },
         {
@@ -3200,13 +3295,13 @@
                 "Modifier": {
                     "RowName": "Workshop_Dressing_Kit"
                 },
-                "ModifierLifetime": 1
+                "ModifierLifetime": 5
             }
         },
         {
             "Name": "Workshop_Dressing_Bundle",
             "Modifier": {
-                "ModifierLifetime": 1
+                "ModifierLifetime": 5
             },
             "Byproducts": [
                 {
@@ -3218,7 +3313,7 @@
         {
             "Name": "Workshop_Pistol_Ammo_Bundle",
             "Modifier": {
-                "ModifierLifetime": 1
+                "ModifierLifetime": 5
             },
             "Byproducts": [
                 {
@@ -3237,7 +3332,7 @@
                 "Modifier": {
                     "RowName": "Kiwi_Fruit"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
@@ -3275,7 +3370,7 @@
                 "Modifier": {
                     "RowName": "Kiwifruit_Jam"
                 },
-                "ModifierLifetime": 900
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume.",
             "Byproducts": [
@@ -3309,7 +3404,7 @@
                 "Modifier": {
                     "RowName": "Fruit_Snack_Pack"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
@@ -3319,7 +3414,7 @@
                 "Modifier": {
                     "RowName": "Fruit_Smoothie"
                 },
-                "ModifierLifetime": 900
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -3332,7 +3427,7 @@
                 "Modifier": {
                     "RowName": "Ape_Tonic"
                 },
-                "ModifierLifetime": 120
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -3370,7 +3465,7 @@
                 "Modifier": {
                     "RowName": "Strawberry_Candy"
                 },
-                "ModifierLifetime": 120
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
@@ -3383,7 +3478,7 @@
                 "Modifier": {
                     "RowName": "Watermelon_Lollypop"
                 },
-                "ModifierLifetime": 300
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
@@ -3600,7 +3695,7 @@
                 "Modifier": {
                     "RowName": "Milk"
                 },
-                "ModifierLifetime": 300
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -3648,7 +3743,7 @@
                 "Modifier": {
                     "RowName": "Strawberries_And_Cream"
                 },
-                "ModifierLifetime": 900
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -3684,7 +3779,7 @@
                 "Modifier": {
                     "RowName": "Enzyme_Elixir"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -3696,7 +3791,7 @@
                 "Modifier": {
                     "RowName": "Banana"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         },
@@ -3814,7 +3909,7 @@
                 "Modifier": {
                     "RowName": "AntiRadiation_Transfusion"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -3835,7 +3930,7 @@
                 "Modifier": {
                     "RowName": "Cooked_Onion"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -3872,7 +3967,7 @@
                 "Modifier": {
                     "RowName": "Onion_Rings"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -3896,7 +3991,7 @@
                 "Modifier": {
                     "RowName": "Cooked_Agave"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -3909,7 +4004,7 @@
                 "Modifier": {
                     "RowName": "Agave_Syrup"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -3939,7 +4034,7 @@
                 "Modifier": {
                     "RowName": "Glazed_Carrots"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -3963,7 +4058,7 @@
                 "Modifier": {
                     "RowName": "Cooked_PricklyPear"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -3993,7 +4088,7 @@
                 "Modifier": {
                     "RowName": "PricklyPear_Jelly"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             },
             "Byproducts": [
                 {
@@ -4023,7 +4118,7 @@
                 "Modifier": {
                     "RowName": "Cooked_Garlic"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -4071,7 +4166,7 @@
                 "Modifier": {
                     "RowName": "Smoked_Garlic"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -4083,7 +4178,7 @@
                 "Modifier": {
                     "RowName": "Cooked_Truffle"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
@@ -4155,7 +4250,7 @@
                 "Modifier": {
                     "RowName": "Truffle_Fries"
                 },
-                "ModifierLifetime": 600
+                "ModifierLifetime": 1200
             }
         },
         {
