@@ -1,8 +1,8 @@
 {
         "name": "WZG_Fork",
         "author": "Astron4ik",
-        "version": "193.0",
-        "week": "193",
+        "version": "194.0",
+        "week": "194",
         "description": "",
         "fileName": "WZG_Fork",
         "readmeURL": "",
@@ -384,6 +384,26 @@
                         "(Value=\"BaseProjectileDamage_+%\")": 80,
                         "(Value=\"BaseCriticalDamage_+%\")": 40,
                         "(Value=\"BaseHardenedPointPenetration_%\")": 60
+                    }
+                },
+                {
+                    "Name": "LavaHunterFlamethrower_Injector_A",
+                    "Stats": {
+                        "(Value=\"CanUseAlternateFireFlamethrowerFireball_?\")": 1,
+                        "(Value=\"BaseAlternateFlameThrowerFuelUse_+\")": 100
+                    }
+                },
+                {
+                    "Name": "LavaHunterFlamethrower_Injector_C",
+                    "Stats": {
+                        "(Value=\"CanUseAlternateFireFlamethrowerBurst_?\")": 1,
+                        "(Value=\"BaseAlternateFlameThrowerFuelUse_+\")": 100
+                    }
+                },
+                {
+                    "Name": "LavaHunterFlamethrower_Nozzle_B",
+                    "Stats": {
+                        "(Value=\"FlamethrowerHasSplitter_?\")": 1
                     }
                 }
             ]
@@ -8103,6 +8123,20 @@
                         "(Value=\"BasePoisonDamage_+\")": 50,
                         "(Value=\"BaseAttacksCauseMiasma_%\")": 15
                     }
+                },
+                {
+                    "Name": "Flame_Thrower",
+                    "AdditionalStats": {
+                        "(Value=\"BaseFireDamage_+\")": 15,
+                        "(Value=\"BaseFlamethrowerFuelUse_+\")": 10
+                    }
+                },
+                {
+                    "Name": "LegendaryWeapon_LavaHunter_FlameThrower",
+                    "AdditionalStats": {
+                        "(Value=\"BaseFireDamage_+\")": 25,
+                        "(Value=\"BaseFlamethrowerFuelUse_+\")": 10
+                    }
                 }
             ]
         },
@@ -10046,6 +10080,10 @@
                 {
                     "Name": "Iron_Wood_Sledgehammer",
                     "Shattering_Efficiency": 5
+                },
+                {
+                    "Name": "Chainsaw",
+                    "Melee_Damage": 40
                 }
             ]
         },
@@ -10981,6 +11019,10 @@
                     }
                 },
                 {
+                    "Name": "ArcticArmor_Head",
+                    "ArmourType": "Head"
+                },
+                {
                     "Name": "Hazmat_Head",
                     "ArmourStats": {
                         "(Value=\"BasePhysicalDamageResistance_%\")": 2,
@@ -10988,16 +11030,6 @@
                         "(Value=\"BaseExposureResistance_+%\")": 5,
                         "(Value=\"BaseColdResistance_%\")": 6,
                         "(Value=\"BasePoisonDamageResistance_%\")": 8
-                    }
-                },
-                {
-                    "Name": "Hazmat_Chest",
-                    "ArmourStats": {
-                        "(Value=\"BasePhysicalDamageResistance_%\")": 8,
-                        "(Value=\"BaseHeatResistance_%\")": 8,
-                        "(Value=\"BaseExposureResistance_+%\")": 6,
-                        "(Value=\"BaseColdResistance_%\")": 14,
-                        "(Value=\"BasePoisonDamageResistance_%\")": 14
                     }
                 },
                 {
@@ -14339,6 +14371,14 @@
                 {
                     "Name": "Item_Radioactive_Waste",
                     "Weight": 50
+                },
+                {
+                    "Name": "Item_Carcass_Tundra_Deer",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Telsa_Coil",
+                    "Weight": 2000
                 }
             ]
         },
