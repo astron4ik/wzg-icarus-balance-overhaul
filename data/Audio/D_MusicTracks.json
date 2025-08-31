@@ -797,7 +797,27 @@
             "Event": "/Game/FMOD/Events/Music/Ic_GH_NPC_MUSIC_1.Ic_GH_NPC_MUSIC_1",
             "FadeInCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_VeryFastFadeIn.MusicCurve_VeryFastFadeIn'",
             "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut_DH.MusicCurve_DefaultFadeOut_DH'",
-            "PrevTrackOverrideFadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_QuickFadeOut.MusicCurve_QuickFadeOut'",
+            "PrevTrackOverrideFadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_QuickFadeOut_DH.MusicCurve_QuickFadeOut_DH'",
+            "PlayerStateFlags": 5,
+            "Locations": [
+                {
+                    "RowName": "DHTundra",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "DHGeothermal",
+                    "DataTableName": "D_MusicLocationConditions"
+                }
+            ],
+            "CombatFlags": 2,
+            "DropStateFlags": 2
+        },
+        {
+            "Name": "Combat_Ely_1.2",
+            "Event": "/Game/FMOD/Events/Music/Ic_GH_NPC_MUSIC_1_2.Ic_GH_NPC_MUSIC_1_2",
+            "FadeInCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_VeryFastFadeIn.MusicCurve_VeryFastFadeIn'",
+            "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut_DH.MusicCurve_DefaultFadeOut_DH'",
+            "PrevTrackOverrideFadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_QuickFadeOut_DH.MusicCurve_QuickFadeOut_DH'",
             "PlayerStateFlags": 5,
             "Locations": [
                 {

@@ -132,6 +132,10 @@
         {
             "Name": "ExoticPlant",
             "HarvestSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_EXOTIC_PLANT_HARVEST.SFX_EXOTIC_PLANT_HARVEST"
+        },
+        {
+            "Name": "Truffle",
+            "HarvestSound": "/Game/FMOD/Events/SFX/D_Resource_Nodes/SFX_TRUFFEL_HARVEST.SFX_TRUFFEL_HARVEST"
         }
     ]
 }

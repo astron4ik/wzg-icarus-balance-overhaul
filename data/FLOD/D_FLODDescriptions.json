@@ -497,6 +497,9 @@
             "bIsFlammable": true,
             "Flammable": {
                 "RowName": "Flammable_Tree"
+            },
+            "BurntFLODEntry": {
+                "RowName": "FT_CF_Pine_02_Burnt"
             }
         },
         {
@@ -523,6 +526,9 @@
             "bIsFlammable": true,
             "Flammable": {
                 "RowName": "Flammable_Tree"
+            },
+            "BurntFLODEntry": {
+                "RowName": "FT_CF_Fir_02_Burnt"
             }
         },
         {
@@ -2186,6 +2192,9 @@
             "bIsFlammable": true,
             "Flammable": {
                 "RowName": "Flammable_Tree"
+            },
+            "BurntFLODEntry": {
+                "RowName": "FT_DC_CocoPalmDead_01_Burnt"
             }
         },
         {
@@ -2212,6 +2221,9 @@
             "bIsFlammable": true,
             "Flammable": {
                 "RowName": "Flammable_Tree"
+            },
+            "BurntFLODEntry": {
+                "RowName": "FT_DC_CocoPalmDead_02_Burnt"
             }
         },
         {
@@ -2238,6 +2250,9 @@
             "bIsFlammable": true,
             "Flammable": {
                 "RowName": "Flammable_Tree"
+            },
+            "BurntFLODEntry": {
+                "RowName": "FT_DC_CocoPalmDead_03_Burnt"
             }
         },
         {
@@ -2264,6 +2279,9 @@
             "bIsFlammable": true,
             "Flammable": {
                 "RowName": "Flammable_Tree"
+            },
+            "BurntFLODEntry": {
+                "RowName": "FT_PalmDead_01_Burnt"
             }
         },
         {
@@ -2290,6 +2308,9 @@
             "bIsFlammable": true,
             "Flammable": {
                 "RowName": "Flammable_Tree"
+            },
+            "BurntFLODEntry": {
+                "RowName": "FT_PalmDead_02_Burnt"
             }
         },
         {

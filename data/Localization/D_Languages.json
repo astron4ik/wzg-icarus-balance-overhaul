@@ -13,7 +13,7 @@
         {
             "Name": "fr-FR",
             "bEnabled": true,
-            "Coverage": 91
+            "Coverage": 90
         },
         {
             "Name": "es-419",
@@ -53,7 +53,7 @@
         {
             "Name": "ko-KR",
             "bEnabled": true,
-            "Coverage": 77
+            "Coverage": 76
         }
     ]
 }

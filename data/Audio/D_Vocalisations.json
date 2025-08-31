@@ -3416,6 +3416,34 @@
             "Setting": {
                 "RowName": "Default"
             }
+        },
+        {
+            "Name": "HopperAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Hopper/SFX_CRE_VOCAL_HOPPER_ATTACK.SFX_CRE_VOCAL_HOPPER_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "HopperFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Hopper/SFX_CRE_VOCAL_HOPPER_FLINCH.SFX_CRE_VOCAL_HOPPER_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "HopperDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Hopper/SFX_CRE_VOCAL_HOPPER_DEATH.SFX_CRE_VOCAL_HOPPER_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "HopperAggro",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Hopper/SFX_CRE_VOCAL_HOPPER_AGGRO.SFX_CRE_VOCAL_HOPPER_AGGRO",
+            "Setting": {
+                "RowName": "Persistent"
+            }
         }
     ]
 }

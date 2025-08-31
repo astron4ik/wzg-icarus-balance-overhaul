@@ -1518,6 +1518,114 @@
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_Moa_Skeleton_AnimBlueprint.SK_ITM_Saddle_Moa_Skeleton_AnimBlueprint_C",
             "AttachSocket": "RigRoot",
             "FurCullMask": "/Game/ASS/CRE/Moa/T_CRE_PAS_moa_Arctic_Saddle_Fur.T_CRE_PAS_moa_Arctic_Saddle_Fur"
+        },
+        {
+            "Name": "Saddle_Chew_Standard",
+            "SaddleTag": {
+                "TagName": "Item.Mount.Saddle.Standard"
+            },
+            "SupportedMount": {
+                "RowName": "Chew"
+            },
+            "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie.SK_ITM_Saddle_NormieHorsie",
+            "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
+            "AttachSocket": "ChewSaddle"
+        },
+        {
+            "Name": "Saddle_Chew_Bearhide",
+            "SaddleTag": {
+                "TagName": "Item.Mount.Saddle.Bearhide"
+            },
+            "SupportedMount": {
+                "RowName": "Chew"
+            },
+            "SkeletalMesh": "/Game/ASS/ITM/Saddle_BearHide/SK_ITM_Saddle_BearHide_Terrenus.SK_ITM_Saddle_BearHide_Terrenus",
+            "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
+            "AttachSocket": "ChewSaddle"
+        },
+        {
+            "Name": "Saddle_Chew_DeluxeLeather",
+            "SaddleTag": {
+                "TagName": "Item.Mount.Saddle.DeluxeLeather"
+            },
+            "SupportedMount": {
+                "RowName": "Chew"
+            },
+            "SkeletalMesh": "/Game/ASS/ITM/Saddle_DeluxLeather/SK_ITM_Saddle_DeluxLeather_Horse.SK_ITM_Saddle_DeluxLeather_Horse",
+            "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
+            "AttachSocket": "ChewSaddle"
+        },
+        {
+            "Name": "Saddle_Chew_CrocSkin",
+            "SaddleTag": {
+                "TagName": "Item.Mount.Saddle.CrocSkin"
+            },
+            "SupportedMount": {
+                "RowName": "Chew"
+            },
+            "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_Croc_Skin_Horse.SK_ITM_Saddle_Croc_Skin_Horse",
+            "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
+            "AttachSocket": "ChewSaddle"
+        },
+        {
+            "Name": "Saddle_Chew_Sandworm",
+            "SaddleTag": {
+                "TagName": "Item.Mount.Saddle.Sandworm"
+            },
+            "SupportedMount": {
+                "RowName": "Chew"
+            },
+            "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_Sandworm_Horse.SK_ITM_Saddle_Sandworm_Horse",
+            "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
+            "AttachSocket": "ChewSaddle"
+        },
+        {
+            "Name": "Saddle_Chew_Desert",
+            "SaddleTag": {
+                "TagName": "Item.Mount.Saddle.Desert"
+            },
+            "SupportedMount": {
+                "RowName": "Chew"
+            },
+            "SkeletalMesh": "/Game/ASS/ITM/Saddle_DesertTracker/SK_ITM_Saddle_DesertTracker_Horse.SK_ITM_Saddle_DesertTracker_Horse",
+            "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
+            "AttachSocket": "ChewSaddle"
+        },
+        {
+            "Name": "Saddle_Chew_Armored",
+            "SaddleTag": {
+                "TagName": "Item.Mount.Saddle.Armored"
+            },
+            "SupportedMount": {
+                "RowName": "Chew"
+            },
+            "SkeletalMesh": "/Game/ASS/ITM/Saddle_Armored/SK_ITM_Saddle_Armored_Horse.SK_ITM_Saddle_Armored_Horse",
+            "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
+            "AttachSocket": "ChewSaddle"
+        },
+        {
+            "Name": "Saddle_Chew_Explorer",
+            "SaddleTag": {
+                "TagName": "Item.Mount.Saddle.Explorer"
+            },
+            "SupportedMount": {
+                "RowName": "Chew"
+            },
+            "SkeletalMesh": "/Game/ASS/ITM/Saddle_ArcticExplorer/SK_ITM_Saddle_ArcticExplorer_Horse.SK_ITM_Saddle_ArcticExplorer_Horse",
+            "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
+            "AttachSocket": "ChewSaddle"
+        },
+        {
+            "Name": "Saddle_Chew_Racing",
+            "SaddleTag": {
+                "TagName": "Item.Mount.Saddle.Racing"
+            },
+            "SupportedMount": {
+                "RowName": "Chew"
+            },
+            "SkeletalMesh": "/Game/ASS/ITM/Saddle_Racing/SK_ITM_Saddle_Racing_Horse.SK_ITM_Saddle_Racing_Horse",
+            "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
+            "AttachSocket": "ChewSaddle"
         }
     ]
 }

@@ -18714,6 +18714,225 @@
             "StatCategory": {
                 "RowName": "Melee_Weapon"
             }
+        },
+        {
+            "Name": "SwampHoppingCreatureSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseSwampHoppingCreatureSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseSwampHoppingCreatureExtraDamageResistance_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Resistance vs Hopping Creature\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Resistance vs Hopping Creature\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "SwampHoppingCreatureExtraDamageResistance_+%",
+            "Title": "INVTEXT(\"[DNT] Resistance vs Hopping Creature\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseSwampHoppingCreatureExtraDamage_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Damage vs Hopping Creature\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Damage vs Hopping Creature\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "SwampHoppingCreatureExtraDamage_+%",
+            "Title": "INVTEXT(\"[DNT] Damage vs Hopping Creature\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "ChewJuvenileExtraDamage_+%",
+            "Title": "INVTEXT(\"[DNT] Damage vs Juvenile Chew\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseChewJuvenileExtraDamage_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Damage vs Juvenile Chew\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Damage vs Juvenile Chew\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "ChewJuvenileExtraDamageResistance_+%",
+            "Title": "INVTEXT(\"[DNT] Resistance vs Juvenile Chew\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseChewJuvenileExtraDamageResistance_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Resistance vs Juvenile Chew\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Resistance vs Juvenile Chew\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseRaptorJuvenileExtraDamageResistance_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Resistance vs Juvenile Raptor\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Resistance vs Juvenile Raptor\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "RaptorJuvenileExtraDamageResistance_+%",
+            "Title": "INVTEXT(\"[DNT] Resistance vs Juvenile Raptor\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseRaptorJuvenileExtraDamage_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Damage vs Juvenile Raptor\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Damage vs Juvenile Raptor\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "RaptorJuvenileExtraDamage_+%",
+            "Title": "INVTEXT(\"[DNT] Damage vs Juvenile Raptor\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseRaptorDesertSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "RaptorDesertSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "RaptorDesertExtraDamage_+%",
+            "Title": "INVTEXT(\"[DNT] Damage vs Desert Raptor\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseRaptorDesertExtraDamage_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Damage vs Desert Raptor\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Damage vs Desert Raptor\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "RaptorDesertExtraDamageResistance_+%",
+            "Title": "INVTEXT(\"[DNT] Resistance vs Desert Raptor\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseRaptorDesertExtraDamageResistance_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Resistance vs Desert Raptor\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Resistance vs Desert Raptor\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "StomperSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseStomperSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "StomperExtraDamage_+%",
+            "Title": "INVTEXT(\"[DNT] Damage vs Stomper\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseStomperExtraDamage_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Damage vs Stomper\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Damage vs Stomper\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "StomperExtraDamageResistance_+%",
+            "Title": "INVTEXT(\"[DNT] Resistance vs Stomper\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseStomperExtraDamageResistance_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Resistance vs Stomper\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Resistance vs Stomper\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
         }
     ]
 }

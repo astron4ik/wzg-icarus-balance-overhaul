@@ -1321,64 +1321,6 @@
             ]
         },
         {
-            "Name": "Chew",
-            "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"Chew-CreatureName\", \"Chew\")",
-            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Desert/Bestiary_Zebra.Bestiary_Zebra",
-            "PopupImageScale": 1.5,
-            "PopupImageOffset": {
-                "Y": -10
-            },
-            "CreatureSound": "/Game/FMOD/Events/UI/Bestiary/CREATURES/UI_BESTIARY_CRE_ZEBRA.UI_BESTIARY_CRE_ZEBRA",
-            "Biomes": [
-                {
-                    "RowName": "Desert",
-                    "DataTableName": "D_Atmospheres"
-                }
-            ],
-            "Maps": [
-                {
-                    "RowName": "Terrain_016",
-                    "DataTableName": "D_Terrains"
-                },
-                {
-                    "RowName": "Terrain_017",
-                    "DataTableName": "D_Terrains"
-                }
-            ],
-            "TotalPointsRequired": 1500,
-            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Chew-Lore1\", \"Zebras are social animals that live in herds. They are herbivores and use their stripes as a form of camouflage to confuse predators.\")",
-            "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"Chew-Lore2\", \"This particular breed of Zebra are the direct result of the UDA engineering labs. Sample tissue has shown evidence of significant genetic divergence. It\\'s theorized that continued exposure to exotic matter and/or terraforming enzymes may result in severe mutation.\")",
-            "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"Chew-Lore3\", \"\\\"The real question is: are they white with black stripes? Or are they black with white stripes? Steve bet against me and he still owes me from last time...\\\"\")",
-            "Traits": [
-                {
-                    "RowName": "Head_CritSpot",
-                    "DataTableName": "D_BestiaryTraits"
-                },
-                {
-                    "RowName": "Passive_Behavior",
-                    "DataTableName": "D_BestiaryTraits"
-                },
-                {
-                    "RowName": "Frost_Weakness",
-                    "DataTableName": "D_BestiaryTraits"
-                }
-            ],
-            "StatsUnlock1": {
-                "(Value=\"BaseSkinningRewards_%\")": 5
-            },
-            "StatsUnlock2": {
-                "(Value=\"BaseDesertExposureResistance_+%\")": 5
-            },
-            "ProgressiveStat": [
-                {
-                    "Value": "BaseZebraExtraDamage_+%"
-                },
-                {
-                    "Value": "BaseZebraExtraDamageResistance_+%"
-                }
-            ]
-        },
-        {
             "Name": "Kea",
             "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"Kea-CreatureName\", \"Kea\")",
             "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Conifer/Bestiary_Kea.Bestiary_Kea",

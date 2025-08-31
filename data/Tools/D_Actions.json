@@ -412,22 +412,22 @@
         {
             "Name": "RoadPlace",
             "Behaviour": "BlueprintGeneratedClass'/Game/BP/Behaviours/Actionable/BP_ActionableBehaviour_CurvedSplinePlace.BP_ActionableBehaviour_CurvedSplinePlace_C'",
-            "ActionCooldown": 0.5
+            "ActionCooldown": 0.10000000149011612
         },
         {
             "Name": "PowerPlace",
             "Behaviour": "BlueprintGeneratedClass'/Game/BP/Behaviours/Actionable/BP_ActionableBehaviour_CurvedSplinePlace_Power.BP_ActionableBehaviour_CurvedSplinePlace_Power_C'",
-            "ActionCooldown": 0.5
+            "ActionCooldown": 0.10000000149011612
         },
         {
             "Name": "WaterPlace",
             "Behaviour": "BlueprintGeneratedClass'/Game/BP/Behaviours/Actionable/BP_ActionableBehaviour_CurvedSplinePlace_Water.BP_ActionableBehaviour_CurvedSplinePlace_Water_C'",
-            "ActionCooldown": 0.5
+            "ActionCooldown": 0.10000000149011612
         },
         {
             "Name": "FuelPlace",
             "Behaviour": "BlueprintGeneratedClass'/Game/BP/Behaviours/Actionable/BP_ActionableBehaviour_CurvedSplinePlace_Fuel.BP_ActionableBehaviour_CurvedSplinePlace_Fuel_C'",
-            "ActionCooldown": 0.5
+            "ActionCooldown": 0.10000000149011612
         },
         {
             "Name": "Binoculars",

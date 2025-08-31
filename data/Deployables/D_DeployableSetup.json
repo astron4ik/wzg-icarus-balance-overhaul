@@ -12825,6 +12825,7 @@
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Defences/BP_Tesla_Coil.BP_Tesla_Coil_C",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Tesla_Coil/SM_DEP_Tesla_Coil.SM_DEP_Tesla_Coil",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
+            "SupportsCustomRotation": false,
             "NavAreaClass": "Class'/Script/NavigationSystem.NavArea_Obstacle'",
             "NavigationFallbackExtents": {
                 "X": 1,
@@ -12885,6 +12886,34 @@
                 "L"
             ],
             "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Hay_Bale_A",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Hay_Bale_A.BP_Hay_Bale_A_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Hay_Bale_A.T_ITEM_Hay_Bale_A",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Hay_Bale_A-DeployableName\", \"Small Hay Bale\")",
+            "PreviewStaticMesh": "/Game/ASS/ITM/SM_ITM_Hay_Bale.SM_ITM_Hay_Bale",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "MaxRestackingAmount": 10,
+            "DeployCollisionExtentOffset": {
+                "X": -5,
+                "Y": -5,
+                "Z": -10
+            }
+        },
+        {
+            "Name": "Hay_Bale_B",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Hay_Bale_B.BP_Hay_Bale_B_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Hay_Bale_B.T_ITEM_Hay_Bale_B",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Hay_Bale_B-DeployableName\", \"Large Hay Bale\")",
+            "PreviewStaticMesh": "/Game/ASS/ITM/SM_ITM_Hay_Bale_Large.SM_ITM_Hay_Bale_Large",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "MaxRestackingAmount": 10,
+            "DeployCollisionExtentOffset": {
+                "X": -10,
+                "Y": -10,
+                "Z": -20
+            }
         }
     ]
 }

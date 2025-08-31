@@ -335,14 +335,35 @@
             ]
         },
         {
-            "Name": "Ely_Arctic",
+            "Name": "Ely_Northern_Arctic",
             "AvaliableBiomes": [
                 {
-                    "RowName": "Ely_Arctic_NE",
+                    "RowName": "Ely_North_Arctic_Central",
                     "DataTableName": "D_Biomes"
                 },
                 {
-                    "RowName": "Ely_Arctic_W",
+                    "RowName": "Ely_North_Arctic_Lower",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Ely_North_Arctic_Upper",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Ely_Southern_Arctic",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Ely_South_Arctic_Central",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Ely_South_Arctic_Lower",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Ely_South_Arctic_Upper",
                     "DataTableName": "D_Biomes"
                 }
             ]
@@ -353,6 +374,18 @@
                 {
                     "RowName": "Ely_Tundra",
                     "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Ely_Tundra_Crash",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Ely_Tundra_Quarry",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Ely_Tundra_Gorge",
+                    "DataTableName": "D_Biomes"
                 }
             ]
         },
@@ -360,15 +393,19 @@
             "Name": "Ely_Desert",
             "AvaliableBiomes": [
                 {
-                    "RowName": "Ely_Desert_E",
+                    "RowName": "Ely_Central_Desert",
                     "DataTableName": "D_Biomes"
                 },
                 {
-                    "RowName": "Ely_Desert_W",
+                    "RowName": "Ely_Desert_Spring",
                     "DataTableName": "D_Biomes"
                 },
                 {
-                    "RowName": "Ely_Desert_EDEN",
+                    "RowName": "Ely_East_Desert",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Ely_West_Desert",
                     "DataTableName": "D_Biomes"
                 }
             ]
@@ -377,11 +414,19 @@
             "Name": "Ely_Swamp",
             "AvaliableBiomes": [
                 {
-                    "RowName": "Ely_ColdSwamp",
+                    "RowName": "Ely_Central_Swamp",
                     "DataTableName": "D_Biomes"
                 },
                 {
-                    "RowName": "Ely_Swamp",
+                    "RowName": "Ely_East_Swamp",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Ely_West_Swamp",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Ely_Swamp_Passage",
                     "DataTableName": "D_Biomes"
                 }
             ]
@@ -390,41 +435,50 @@
             "Name": "Ely_Geothermal",
             "AvaliableBiomes": [
                 {
-                    "RowName": "Ely_Geothermal",
+                    "RowName": "Ely_Geothermal_Lower",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Ely_Geothermal_Upper",
                     "DataTableName": "D_Biomes"
                 }
             ]
         },
         {
-            "Name": "Ely_Volcanic",
+            "Name": "Ely_Northern_Volcanic",
             "AvaliableBiomes": [
                 {
-                    "RowName": "Ely_Volcanic_NW",
+                    "RowName": "Ely_North_Volcanic_Central",
                     "DataTableName": "D_Biomes"
                 },
                 {
-                    "RowName": "Ely_Volcanic_SE",
+                    "RowName": "Ely_North_Volcanic_Lower",
                     "DataTableName": "D_Biomes"
                 }
             ]
         },
         {
-            "Name": "Ely_Conifer",
+            "Name": "Ely_Southern_Volcanic",
             "AvaliableBiomes": [
                 {
-                    "RowName": "Ely_Cold_Swamp_Transition",
+                    "RowName": "Ely_South_Volcanic_Central",
                     "DataTableName": "D_Biomes"
                 },
                 {
-                    "RowName": "Ely_Desert_Swamp_Transition",
+                    "RowName": "Ely_South_Volcanic_Lower",
                     "DataTableName": "D_Biomes"
                 },
                 {
-                    "RowName": "Ely_Tundra_Desert_Transition",
+                    "RowName": "Ely_South_Volcanic_Upper",
                     "DataTableName": "D_Biomes"
-                },
+                }
+            ]
+        },
+        {
+            "Name": "Ely_EDEN",
+            "AvaliableBiomes": [
                 {
-                    "RowName": "Ely_Tundra_Swamp_Transition",
+                    "RowName": "Ely_Desert_EDEN",
                     "DataTableName": "D_Biomes"
                 }
             ]

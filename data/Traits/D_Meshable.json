@@ -7825,15 +7825,16 @@
             "ItemActor": "/Game/BP/Objects/World/Items/Resources/BP_StaticItem_RawUranium.BP_StaticItem_RawUranium_C"
         },
         {
-            "Name": "Mesh_Carcass_Raptor_Juvenile",
-            "ItemMesh": "/Game/ASS/CRE/Raptor/Juvie/SK_CRE_Raptor_Juvie.SK_CRE_Raptor_Juvie",
-            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Raptor_Juvenile_Corpse.BP_Raptor_Juvenile_Corpse_C"
-        },
-        {
             "Name": "Mesh_Nailgun",
             "ItemMesh": "/Game/ASS/WEP/SK_GUN_Sub_Machine/SK_GUN_Sub_Machine.SK_GUN_Sub_Machine",
             "EquipHandMesh": "/Game/ASS/WEP/SK_GUN_Sub_Machine/SK_GUN_Sub_Machine.SK_GUN_Sub_Machine",
             "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Nailgun.BP_SkeletalItem_Nailgun_C"
+        },
+        {
+            "Name": "Mesh_Hay_Bale",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Hay_Bale_A.BP_Hay_Bale_A_C"
         }
     ]
 }

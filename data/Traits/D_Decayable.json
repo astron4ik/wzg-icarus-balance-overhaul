@@ -42,7 +42,7 @@
         {
             "Name": "Decay_CookedMeat_Generic",
             "DecayTime": 300,
-            "SpoilTime": 1800,
+            "SpoilTime": 1600,
             "SpoiledItem": {
                 "RowName": "Spoiled_Meat"
             }
@@ -50,7 +50,7 @@
         {
             "Name": "Decay_Food_Generic",
             "DecayTime": 300,
-            "SpoilTime": 1800
+            "SpoilTime": 800
         },
         {
             "Name": "Decay_Food_OneDay",
@@ -69,7 +69,7 @@
         },
         {
             "Name": "Decay_Arrow",
-            "DecayTime": 900
+            "DecayTime": 60
         },
         {
             "Name": "Decay_Coconut_Young",

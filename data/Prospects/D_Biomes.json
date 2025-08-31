@@ -971,9 +971,28 @@
             }
         },
         {
-            "Name": "Ely_Geothermal",
-            "BiomeName": "Geothermal",
-            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Geothermal-DisplayName\", \"Geothermal\")",
+            "Name": "Ely_Geothermal_Lower",
+            "BiomeName": "Sulfur Gulch",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Geothermal_Lower-DisplayName\", \"Sulfur Gulch\")",
+            "Color": {
+                "B": 18,
+                "G": 235,
+                "R": 227,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/DesertTemperatureCurve.DesertTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "AtmosphereType": {
+                "RowName": "Geothermal"
+            },
+            "Audio": {
+                "RowName": "Geothermal"
+            }
+        },
+        {
+            "Name": "Ely_Geothermal_Upper",
+            "BiomeName": "Refuge Rise",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Geothermal_Upper-DisplayName\", \"Rufuge Rise\")",
             "Color": {
                 "B": 188,
                 "G": 196,
@@ -991,8 +1010,8 @@
         },
         {
             "Name": "Ely_Tundra",
-            "BiomeName": "Ely Tundra",
-            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Tundra-DisplayName\", \"Ely Tundra\")",
+            "BiomeName": "Frostplain",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Tundra-DisplayName\", \"Frostplain\")",
             "Color": {
                 "G": 179,
                 "R": 179,
@@ -1005,24 +1024,104 @@
             }
         },
         {
-            "Name": "Ely_Arctic_W",
-            "BiomeName": "Ely West Arctic",
-            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Arctic_W-DisplayName\", \"Ely West Arctic\")",
+            "Name": "Ely_Tundra_Gorge",
+            "BiomeName": "Chillwind Gorge",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Tundra_Gorge-DisplayName\", \"Chillwind Gorge\")",
+            "Color": {
+                "B": 4,
+                "G": 70,
+                "R": 135,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/TundraTemperatureCurve.TundraTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "Audio": {
+                "RowName": "ElyTundra"
+            }
+        },
+        {
+            "Name": "Ely_Tundra_Quarry",
+            "BiomeName": "Miners Folly",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Tundra_Quarry-DisplayName\", \"Miners Folly\")",
+            "Color": {
+                "B": 67,
+                "G": 228,
+                "R": 239,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/TundraTemperatureCurve.TundraTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "Audio": {
+                "RowName": "ElyTundra"
+            }
+        },
+        {
+            "Name": "Ely_Tundra_Crash",
+            "BiomeName": "Crashsite",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Tundra_Crash-DisplayName\", \"Crashsite\")",
+            "Color": {
+                "B": 12,
+                "G": 12,
+                "R": 101,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/TundraTemperatureCurve.TundraTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "Audio": {
+                "RowName": "ElyTundra"
+            }
+        },
+        {
+            "Name": "Ely_South_Arctic_Upper",
+            "BiomeName": "Fractured Glacier",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_South_Arctic_Upper-DisplayName\", \"Fractured Glacier\")",
+            "Color": {
+                "B": 175,
+                "G": 86,
+                "R": 93,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ArcticTemperatureCurve.ArcticTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "Audio": {
+                "RowName": "ElyTundra"
+            }
+        },
+        {
+            "Name": "Ely_South_Arctic_Lower",
+            "BiomeName": "Hailcrest Pass",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_South_Arctic_Lower-DisplayName\", \"Hailcrest Pass\")",
+            "Color": {
+                "B": 172,
+                "G": 13,
+                "R": 27,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ArcticTemperatureCurve.ArcticTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "Audio": {
+                "RowName": "ElyTundra"
+            }
+        },
+        {
+            "Name": "Ely_South_Arctic_Central",
+            "BiomeName": "Snowslide Ravine",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_South_Arctic_Central-DisplayName\", \"Snowslide Ravine\")",
             "Color": {
                 "B": 255,
                 "G": 236,
                 "A": 255
             },
             "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ArcticTemperatureCurve.ArcticTemperatureCurve'",
-            "WeatherFrequency": 5,
+            "WeatherFrequency": 2,
             "Audio": {
-                "RowName": "Arctic"
+                "RowName": "ElyTundra"
             }
         },
         {
-            "Name": "Ely_Arctic_NE",
-            "BiomeName": "Ely NE Arctic",
-            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Arctic_NE-DisplayName\", \"Ely NE Arctic\")",
+            "Name": "Ely_North_Arctic_Upper",
+            "BiomeName": "The Granite Front",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_North_Arctic_Upper-DisplayName\", \"The Granite Front\")",
             "Color": {
                 "B": 255,
                 "G": 232,
@@ -1035,9 +1134,41 @@
             }
         },
         {
-            "Name": "Ely_Volcanic_NW",
-            "BiomeName": "Ely NW Volcanic",
-            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Volcanic_NW-DisplayName\", \"Ely NW Volcanic\")",
+            "Name": "Ely_North_Arctic_Central",
+            "BiomeName": "Frozen Wastes",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_North_Arctic_Central-DisplayName\", \"Frozen Wastes\")",
+            "Color": {
+                "B": 148,
+                "G": 174,
+                "R": 17,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ArcticTemperatureCurve.ArcticTemperatureCurve'",
+            "WeatherFrequency": 5,
+            "Audio": {
+                "RowName": "Arctic"
+            }
+        },
+        {
+            "Name": "Ely_North_Arctic_Lower",
+            "BiomeName": "Sorrow's Pass",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_North_Arctic_Lower-DisplayName\", \"Sorrow\\'s Pass\")",
+            "Color": {
+                "B": 79,
+                "G": 92,
+                "R": 18,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ArcticTemperatureCurve.ArcticTemperatureCurve'",
+            "WeatherFrequency": 5,
+            "Audio": {
+                "RowName": "Arctic"
+            }
+        },
+        {
+            "Name": "Ely_North_Volcanic_Central",
+            "BiomeName": "Ashen Wastes",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_North_Volcanic_Central-DisplayName\", \"Ashen Wastes\")",
             "Color": {
                 "B": 69,
                 "G": 65,
@@ -1054,9 +1185,28 @@
             }
         },
         {
-            "Name": "Ely_Volcanic_SE",
-            "BiomeName": "Ely SE Volcanic",
-            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Volcanic_SE-DisplayName\", \"Ely SE Volcanic\")",
+            "Name": "Ely_North_Volcanic_Lower",
+            "BiomeName": "Shattered Barrens",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_North_Volcanic_Lower-DisplayName\", \"Shattered Barrens\")",
+            "Color": {
+                "B": 96,
+                "G": 36,
+                "R": 143,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/VolcanicTemperatureCurve.VolcanicTemperatureCurve'",
+            "WeatherFrequency": 3,
+            "AtmosphereType": {
+                "RowName": "Volcanic"
+            },
+            "Audio": {
+                "RowName": "Lava"
+            }
+        },
+        {
+            "Name": "Ely_South_Volcanic_Central",
+            "BiomeName": "Ember Basin",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_South_Volcanic_Central-DisplayName\", \"Ember Basin\")",
             "Color": {
                 "B": 90,
                 "G": 88,
@@ -1073,9 +1223,46 @@
             }
         },
         {
-            "Name": "Ely_Desert_W",
-            "BiomeName": "Ely W Desert",
-            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Desert_W-DisplayName\", \"Sand Dunes\")",
+            "Name": "Ely_South_Volcanic_Upper",
+            "BiomeName": "Molten Rift",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_South_Volcanic_Upper-DisplayName\", \"Molten Rift\")",
+            "Color": {
+                "B": 131,
+                "R": 59,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/VolcanicTemperatureCurve.VolcanicTemperatureCurve'",
+            "WeatherFrequency": 3,
+            "AtmosphereType": {
+                "RowName": "Volcanic"
+            },
+            "Audio": {
+                "RowName": "Lava"
+            }
+        },
+        {
+            "Name": "Ely_South_Volcanic_Lower",
+            "BiomeName": "Viper's Run",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_South_Volcanic_Lower-DisplayName\", \"Viper\\'s Run\")",
+            "Color": {
+                "B": 221,
+                "G": 62,
+                "R": 155,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/VolcanicTemperatureCurve.VolcanicTemperatureCurve'",
+            "WeatherFrequency": 3,
+            "AtmosphereType": {
+                "RowName": "Volcanic"
+            },
+            "Audio": {
+                "RowName": "Lava"
+            }
+        },
+        {
+            "Name": "Ely_West_Desert",
+            "BiomeName": "The Dunes",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_West_Desert-DisplayName\", \"The Dunes\")",
             "Color": {
                 "B": 170,
                 "G": 248,
@@ -1092,13 +1279,51 @@
             }
         },
         {
-            "Name": "Ely_Desert_E",
-            "BiomeName": "Ely E Desert",
-            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Desert_E-DisplayName\", \"The Potted Scar\")",
+            "Name": "Ely_Central_Desert",
+            "BiomeName": "Potted Scar",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Central_Desert-DisplayName\", \"Potted Scar\")",
             "Color": {
-                "B": 208,
-                "G": 251,
-                "R": 255,
+                "B": 15,
+                "G": 138,
+                "R": 204,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/DesertTemperatureCurve.DesertTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "AtmosphereType": {
+                "RowName": "Desert"
+            },
+            "Audio": {
+                "RowName": "Desert"
+            }
+        },
+        {
+            "Name": "Ely_East_Desert",
+            "BiomeName": "Drybrush Step",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_East_Desert-DisplayName\", \"Drybrush Step\")",
+            "Color": {
+                "B": 15,
+                "G": 57,
+                "R": 105,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/DesertTemperatureCurve.DesertTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "AtmosphereType": {
+                "RowName": "Desert"
+            },
+            "Audio": {
+                "RowName": "Desert"
+            }
+        },
+        {
+            "Name": "Ely_Desert_Spring",
+            "BiomeName": "Rockspring",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Desert_Spring-DisplayName\", \"Rockspring\")",
+            "Color": {
+                "B": 13,
+                "G": 40,
+                "R": 150,
                 "A": 255
             },
             "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/DesertTemperatureCurve.DesertTemperatureCurve'",
@@ -1121,7 +1346,6 @@
                 "A": 255
             },
             "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/DesertTemperatureCurve.DesertTemperatureCurve'",
-            "WeatherFrequency": 2,
             "AtmosphereType": {
                 "RowName": "Desert"
             },
@@ -1130,25 +1354,9 @@
             }
         },
         {
-            "Name": "Ely_ColdSwamp",
-            "BiomeName": "Ely Cold Swamp",
-            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_ColdSwamp-DisplayName\", \"Ely Cold Swamp\")",
-            "Color": {
-                "B": 255,
-                "G": 255,
-                "R": 188,
-                "A": 255
-            },
-            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ArcticTemperatureCurve.ArcticTemperatureCurve'",
-            "WeatherFrequency": 5,
-            "Audio": {
-                "RowName": "Arctic"
-            }
-        },
-        {
-            "Name": "Ely_Swamp",
-            "BiomeName": "Ely Swamp",
-            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Swamp-DisplayName\", \"Ely Swamp\")",
+            "Name": "Ely_Central_Swamp",
+            "BiomeName": "Mosswood",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Central_Swamp-DisplayName\", \"Mosswood\")",
             "Color": {
                 "B": 124,
                 "G": 255,
@@ -1165,77 +1373,59 @@
             }
         },
         {
-            "Name": "Ely_Tundra_Desert_Transition",
-            "BiomeName": "Ely Tundra Desert Transition",
-            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Tundra_Desert_Transition-DisplayName\", \"Ely Tundra Desert Transition\")",
+            "Name": "Ely_East_Swamp",
+            "BiomeName": "Silt River",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_East_Swamp-DisplayName\", \"Silt River\")",
             "Color": {
-                "G": 218,
-                "R": 68,
+                "B": 23,
+                "G": 49,
+                "R": 4,
                 "A": 255
             },
-            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ConiferTemperatureCurve.ConiferTemperatureCurve'",
-            "WeatherFrequency": 5,
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/SwampTemperatureCurve.SwampTemperatureCurve'",
+            "WeatherFrequency": 4,
             "AtmosphereType": {
-                "RowName": "Conifer"
+                "RowName": "Swamp"
             },
             "Audio": {
-                "RowName": "Conifer"
+                "RowName": "Wetlands"
             }
         },
         {
-            "Name": "Ely_Tundra_Swamp_Transition",
-            "BiomeName": "Ely Tundra Swamp Transition",
-            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Tundra_Swamp_Transition-DisplayName\", \"Ely Tundra Swamp Transition\")",
+            "Name": "Ely_West_Swamp",
+            "BiomeName": "Drowned Brine",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_West_Swamp-DisplayName\", \"Drowned Brine\")",
             "Color": {
-                "B": 96,
-                "G": 218,
+                "B": 255,
+                "G": 255,
+                "R": 188,
                 "A": 255
             },
-            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ConiferTemperatureCurve.ConiferTemperatureCurve'",
-            "WeatherFrequency": 5,
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/SwampTemperatureCurve.SwampTemperatureCurve'",
+            "WeatherFrequency": 4,
             "AtmosphereType": {
-                "RowName": "Conifer"
+                "RowName": "Swamp"
             },
             "Audio": {
-                "RowName": "Conifer"
+                "RowName": "Wetlands"
             }
         },
         {
-            "Name": "Ely_Cold_Swamp_Transition",
-            "BiomeName": "Ely Cold Swamp Transition",
-            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Cold_Swamp_Transition-DisplayName\", \"Ely Cold Swamp Transition\")",
+            "Name": "Ely_Swamp_Passage",
+            "BiomeName": "Mudflat Passage",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Swamp_Passage-DisplayName\", \"Mudflat Passage\")",
             "Color": {
-                "B": 161,
-                "G": 238,
-                "R": 138,
+                "B": 83,
+                "G": 131,
                 "A": 255
             },
-            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ConiferTemperatureCurve.ConiferTemperatureCurve'",
-            "WeatherFrequency": 5,
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/SwampTemperatureCurve.SwampTemperatureCurve'",
+            "WeatherFrequency": 4,
             "AtmosphereType": {
-                "RowName": "Conifer"
+                "RowName": "Swamp"
             },
             "Audio": {
-                "RowName": "Conifer"
-            }
-        },
-        {
-            "Name": "Ely_Desert_Swamp_Transition",
-            "BiomeName": "Ely Desert Swamp Transition",
-            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Desert_Swamp_Transition-DisplayName\", \"Ely Desert Swamp Transition\")",
-            "Color": {
-                "B": 124,
-                "G": 232,
-                "R": 124,
-                "A": 255
-            },
-            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ConiferTemperatureCurve.ConiferTemperatureCurve'",
-            "WeatherFrequency": 5,
-            "AtmosphereType": {
-                "RowName": "Conifer"
-            },
-            "Audio": {
-                "RowName": "Conifer"
+                "RowName": "Wetlands"
             }
         },
         {

@@ -1552,8 +1552,7 @@
             "AudioData": {
                 "RowName": "ScorpionRifle"
             },
-            "WeaponLoudness": 4,
-            "DamageMultiplier": 1.75
+            "WeaponLoudness": 4
         },
         {
             "Name": "Black_Wolf_Revolver",
@@ -1609,7 +1608,7 @@
             },
             "AmmoCapacity": 6,
             "RoundsPerMinute": 80,
-            "ReloadTime": 2.75,
+            "ReloadTime": 3.75,
             "AudioData": {
                 "RowName": "Revolver"
             },
@@ -2554,8 +2553,7 @@
             "WeaponLoudness": 5,
             "ScopeRow": {
                 "RowName": "Scope_06"
-            },
-            "DamageMultiplier": 2
+            }
         },
         {
             "Name": "Lithium_Bow",

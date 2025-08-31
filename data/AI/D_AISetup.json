@@ -80,7 +80,7 @@
             "ControllerClass": "/Script/Icarus.IcarusNPCGOAPController",
             "MovementMapping": {
                 "Stationary": {
-                    "MaxWalkSpeed": 2,
+                    "MaxWalkSpeed": 0,
                     "GroundFriction": 8,
                     "BrakingFriction": 2,
                     "MaxAcceleration": 300,
@@ -89,7 +89,7 @@
                     "MaxSwimSpeed": 1
                 },
                 "Sneak": {
-                    "MaxWalkSpeed": 2,
+                    "MaxWalkSpeed": 0.5,
                     "GroundFriction": 8,
                     "BrakingFriction": 2,
                     "MaxAcceleration": 300,
@@ -98,7 +98,7 @@
                     "MaxSwimSpeed": 1
                 },
                 "Walk": {
-                    "MaxWalkSpeed": 2,
+                    "MaxWalkSpeed": 1,
                     "GroundFriction": 8,
                     "BrakingFriction": 2,
                     "MaxAcceleration": 300,
@@ -107,7 +107,7 @@
                     "MaxSwimSpeed": 1
                 },
                 "Jog": {
-                    "MaxWalkSpeed": 2,
+                    "MaxWalkSpeed": 3.3299999237060547,
                     "GroundFriction": 8,
                     "BrakingFriction": 2,
                     "MaxAcceleration": 300,
@@ -116,7 +116,7 @@
                     "MaxSwimSpeed": 1
                 },
                 "Run": {
-                    "MaxWalkSpeed": 2,
+                    "MaxWalkSpeed": 3.3299999237060547,
                     "GroundFriction": 8,
                     "BrakingFriction": 2,
                     "MaxAcceleration": 300,
@@ -125,20 +125,20 @@
                     "MaxSwimSpeed": 1
                 },
                 "Sprint": {
-                    "MaxWalkSpeed": 2,
+                    "MaxWalkSpeed": 3.3299999237060547,
                     "GroundFriction": 8,
                     "BrakingFriction": 2,
-                    "MaxAcceleration": 300,
+                    "MaxAcceleration": 1000,
                     "BrakingDeceleration": 250,
                     "RotationRate": 100,
                     "MaxSwimSpeed": 1
                 },
                 "Attacking": {
-                    "MaxWalkSpeed": 2,
+                    "MaxWalkSpeed": 3.3299999237060547,
                     "GroundFriction": 8,
                     "BrakingFriction": 2,
-                    "MaxAcceleration": 300,
-                    "BrakingDeceleration": 250,
+                    "MaxAcceleration": 800,
+                    "BrakingDeceleration": 50000,
                     "RotationRate": 100,
                     "MaxSwimSpeed": 1
                 },

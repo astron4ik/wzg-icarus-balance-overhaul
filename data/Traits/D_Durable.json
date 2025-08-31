@@ -1153,12 +1153,25 @@
             ]
         },
         {
-            "Name": "Armor_Scale",
+            "Name": "Armor_SandwormScale",
             "Max_Durability": 6000,
             "ItemsForRepair": [
                 {
                     "Item": {
                         "RowName": "Sandworm_Scale",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ]
+        },
+        {
+            "Name": "Armor_CavewormScale",
+            "Max_Durability": 6000,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Caveworm_Scale",
                         "DataTableName": "D_ItemsStatic"
                     },
                     "Amount": 1

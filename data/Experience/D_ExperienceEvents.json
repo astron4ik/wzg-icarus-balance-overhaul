@@ -1393,6 +1393,49 @@
             "Name": "Skin_Raptor",
             "EventDescription": "INVTEXT(\"[DNT] Skinned Raptor\")",
             "ExperienceGranted": 130
+        },
+        {
+            "Name": "Skin_JuvenileChew",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Juvenile Chew\")",
+            "ExperienceGranted": 130
+        },
+        {
+            "Name": "Kill_HoppingCreature",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Hopping Creature\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 260
+        },
+        {
+            "Name": "Skin_HoppingCreature",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Hopping Creature\")",
+            "ExperienceGranted": 130
+        },
+        {
+            "Name": "Kill_HoppingCreature_Swamp",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Hopping Creature\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 260
+        },
+        {
+            "Name": "Skin_HoppingCreature_Swamp",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Hopping Creature\")",
+            "ExperienceGranted": 130
+        },
+        {
+            "Name": "Kill_Raptor_Desert",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Desert Raptor\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 260
+        },
+        {
+            "Name": "Skin_Raptor_Desert",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Desert Raptor\")",
+            "ExperienceGranted": 130
+        },
+        {
+            "Name": "Skin_Stomper",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Moa\")",
+            "ExperienceGranted": 260
         }
     ]
 }

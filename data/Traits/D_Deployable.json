@@ -9712,6 +9712,19 @@
                 }
             ],
             "EffectedByWeather": false
+        },
+        {
+            "Name": "Hay_Bale",
+            "Variants": [
+                {
+                    "RowName": "Hay_Bale_A",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Hay_Bale_B",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ]
         }
     ]
 }
