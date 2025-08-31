@@ -1,8 +1,8 @@
 {
         "name": "WZG_Fork",
         "author": "Astron4ik",
-        "version": "194.0",
-        "week": "194",
+        "version": "195.0",
+        "week": "195",
         "description": "",
         "fileName": "WZG_Fork",
         "readmeURL": "",
@@ -9907,6 +9907,47 @@
                 {
                     "Name": "Rifle_Round",
                     "ProjectileDamage": 600
+                },
+                {
+                    "Name": "Rifle_Round_Workshop",
+                    "ProjectileDamage": 600
+                },
+                {
+                    "Name": "Rifle_Round_Obsidian",
+                    "ProjectileDamage": 750
+                },
+                {
+                    "Name": "Rifle_Round_Cold_Steel",
+                    "ProjectileDamage": 750
+                },
+                {
+                    "Name": "AssaultRifle_Round",
+                    "ProjectileDamage": 600
+                },
+                {
+                    "Name": "AssaultRifle_Round_Workshop",
+                    "ProjectileDamage": 600
+                },
+                {
+                    "Name": "AssaultRifle_Round_Obsidian",
+                    "ProjectileDamage": 750
+                },
+                {
+                    "Name": "AssaultRifle_Round_Cold_Steel",
+                    "ProjectileDamage": 750
+                },
+                {
+                    "Name": "Sniper_Round",
+                    "ProjectileDamage": 1200
+                },
+                {
+                    "Name": "Sniper_Round_Explosive",
+                    "ProjectileDamage": 600,
+                    "Stats": {
+                        "(Value=\"BaseChanceProjectilesBreak_%\")": 100,
+                        "(Value=\"BaseExplosiveDamage_+\")": 600,
+                        "(Value=\"BaseExplosiveDamageRadius_+\")": 1300
+                    }
                 }
             ]
         },
