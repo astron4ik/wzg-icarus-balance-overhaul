@@ -74,7 +74,7 @@
         },
         {
             "Name": "Rifle_Round",
-            "ProjectileDamage": 300,
+            "ProjectileDamage": 600,
             "ProjectileAccuracy": {
                 "X": 0.20000000298023224,
                 "Y": 0.20000000298023224
@@ -85,7 +85,7 @@
         },
         {
             "Name": "Rifle_Round_Workshop",
-            "ProjectileDamage": 350,
+            "ProjectileDamage": 600,
             "ProjectileAccuracy": {
                 "X": 0.20000000298023224,
                 "Y": 0.20000000298023224
@@ -132,7 +132,7 @@
         },
         {
             "Name": "Rifle_Round_Obsidian",
-            "ProjectileDamage": 125,
+            "ProjectileDamage": 750,
             "ProjectileAccuracy": {
                 "X": 0.20000000298023224,
                 "Y": 0.20000000298023224
@@ -143,7 +143,7 @@
         },
         {
             "Name": "Rifle_Round_Cold_Steel",
-            "ProjectileDamage": 125,
+            "ProjectileDamage": 750,
             "ProjectileAccuracy": {
                 "X": 0.20000000298023224,
                 "Y": 0.20000000298023224
@@ -331,7 +331,7 @@
         },
         {
             "Name": "AssaultRifle_Round",
-            "ProjectileDamage": 200,
+            "ProjectileDamage": 600,
             "ProjectileAccuracy": {
                 "X": 0.20000000298023224,
                 "Y": 0.20000000298023224
@@ -342,7 +342,7 @@
         },
         {
             "Name": "AssaultRifle_Round_Workshop",
-            "ProjectileDamage": 250,
+            "ProjectileDamage": 600,
             "ProjectileAccuracy": {
                 "X": 0.20000000298023224,
                 "Y": 0.20000000298023224
@@ -389,7 +389,7 @@
         },
         {
             "Name": "AssaultRifle_Round_Obsidian",
-            "ProjectileDamage": 75,
+            "ProjectileDamage": 750,
             "ProjectileAccuracy": {
                 "X": 0.20000000298023224,
                 "Y": 0.20000000298023224
@@ -400,7 +400,7 @@
         },
         {
             "Name": "AssaultRifle_Round_Cold_Steel",
-            "ProjectileDamage": 75,
+            "ProjectileDamage": 750,
             "ProjectileAccuracy": {
                 "X": 0.20000000298023224,
                 "Y": 0.20000000298023224
@@ -422,7 +422,7 @@
         },
         {
             "Name": "Sniper_Round",
-            "ProjectileDamage": 600,
+            "ProjectileDamage": 1200,
             "ProjectileAccuracy": {
                 "X": 0.05000000074505806,
                 "Y": 0.05000000074505806
@@ -433,15 +433,15 @@
         },
         {
             "Name": "Sniper_Round_Explosive",
-            "ProjectileDamage": 500,
+            "ProjectileDamage": 600,
             "ProjectileAccuracy": {
                 "X": 0.05000000074505806,
                 "Y": 0.05000000074505806
             },
             "Stats": {
                 "(Value=\"BaseChanceProjectilesBreak_%\")": 100,
-                "(Value=\"BaseExplosiveDamage_+\")": 400,
-                "(Value=\"BaseExplosiveDamageRadius_+\")": 650
+                "(Value=\"BaseExplosiveDamage_+\")": 600,
+                "(Value=\"BaseExplosiveDamageRadius_+\")": 1300
             }
         },
         {
