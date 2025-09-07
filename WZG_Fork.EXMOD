@@ -1,8 +1,8 @@
 {
         "name": "WZG_Fork",
         "author": "Astron4ik",
-        "version": "195.0",
-        "week": "195",
+        "version": "196.0",
+        "week": "196",
         "description": "",
         "fileName": "WZG_Fork",
         "readmeURL": "",
@@ -631,24 +631,21 @@
                                 "RowName": "Stick",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Leather",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Bone",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -660,111 +657,21 @@
                                 "RowName": "Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 40,
-                            "DynamicProperties": []
+                            "Count": 40
                         },
                         {
                             "Element": {
                                 "RowName": "Stick",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Sulfur",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
-                        }
-                    ]
-                },
-                {
-                    "Name": "Canteen",
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Advanced_Leather",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Steel_Ingot",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2,
-                            "DynamicProperties": []
-                        }
-                    ]
-                },
-                {
-                    "Name": "Floor_Torch",
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Fiber",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 20,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Stick",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 8,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Sulfur",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2,
-                            "DynamicProperties": []
-                        }
-                    ]
-                },
-                {
-                    "Name": "Wall_Torch",
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Wood",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 4,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Leather",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 8,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Sulfur",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Refined_Metal",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 2
                         }
                     ]
                 },
@@ -783,27 +690,6 @@
                     ]
                 },
                 {
-                    "Name": "Epoxy",
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Sulfur",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Tree_Sap",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2,
-                            "DynamicProperties": []
-                        }
-                    ]
-                },
-                {
                     "Name": "Gunpowder",
                     "RequiredMillijoules": 200
                 },
@@ -815,32 +701,28 @@
                                 "RowName": "Silica",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Aluminium",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Organic_Resin",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         }
                     ]
                 },
@@ -852,32 +734,28 @@
                                 "RowName": "Gold_Wire",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Copper_Wire",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Organic_Resin",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -889,16 +767,14 @@
                                 "RowName": "Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         }
                     ]
                 },
@@ -910,106 +786,35 @@
                                 "RowName": "Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 30,
-                            "DynamicProperties": []
+                            "Count": 30
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Concrete_Mix",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 80,
-                            "DynamicProperties": []
+                            "Count": 80
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
-                        }
-                    ]
-                },
-                {
-                    "Name": "Binoculars",
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Rope",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 4,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Glass",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 6,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Aluminium",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 4,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Epoxy",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2,
-                            "DynamicProperties": []
-                        }
-                    ]
-                },
-                {
-                    "Name": "Titanium_Spear",
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Wood_Refined",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Advanced_Leather",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Titanium_Ingot",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 8
                         }
                     ]
                 },
@@ -1035,24 +840,21 @@
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         }
                     ]
                 },
@@ -1064,40 +866,35 @@
                                 "RowName": "Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Rope",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Aluminium",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         }
                     ]
                 },
@@ -1109,24 +906,21 @@
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Rope",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 12,
-                            "DynamicProperties": []
+                            "Count": 12
                         }
                     ]
                 },
@@ -1138,24 +932,21 @@
                                 "RowName": "Tree_Sap",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Stone",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Silica",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ],
                     "Outputs": [
@@ -1190,32 +981,28 @@
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Aluminium",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -1241,40 +1028,35 @@
                                 "RowName": "Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 12,
-                            "DynamicProperties": []
+                            "Count": 12
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         },
                         {
                             "Element": {
                                 "RowName": "Composites",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 12,
-                            "DynamicProperties": []
+                            "Count": 12
                         }
                     ]
                 },
@@ -1286,40 +1068,35 @@
                                 "RowName": "Aluminium",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 12,
-                            "DynamicProperties": []
+                            "Count": 12
                         },
                         {
                             "Element": {
                                 "RowName": "Titanium_Plate",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 3,
-                            "DynamicProperties": []
+                            "Count": 3
                         },
                         {
                             "Element": {
                                 "RowName": "Carbon_Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         }
                     ]
                 },
@@ -1331,8 +1108,7 @@
                                 "RowName": "Wood",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         }
                     ],
                     "Outputs": [
@@ -1355,16 +1131,14 @@
                                 "RowName": "Wood",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Rope",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         }
                     ]
                 },
@@ -1376,16 +1150,14 @@
                                 "RowName": "Ammo_Shell_Buckshot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Volatile_Substance",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -1397,32 +1169,28 @@
                                 "RowName": "Aluminium",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Carbon_Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Composites",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         }
                     ]
                 },
@@ -1434,40 +1202,35 @@
                                 "RowName": "Wood_Refined",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 12,
-                            "DynamicProperties": []
+                            "Count": 12
                         },
                         {
                             "Element": {
                                 "RowName": "Advanced_Leather",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Titanium_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 16,
-                            "DynamicProperties": []
+                            "Count": 16
                         }
                     ]
                 },
@@ -1505,40 +1268,35 @@
                                 "RowName": "Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Refined_Copper",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Sulfur",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Oxite",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         }
                     ]
                 },
@@ -1564,8 +1322,7 @@
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -1577,24 +1334,21 @@
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         }
                     ]
                 },
@@ -1606,8 +1360,7 @@
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         }
                     ]
                 },
@@ -1619,32 +1372,28 @@
                                 "RowName": "Rope",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 12,
-                            "DynamicProperties": []
+                            "Count": 12
                         },
                         {
                             "Element": {
                                 "RowName": "Aluminium",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         }
                     ]
                 },
@@ -1656,16 +1405,14 @@
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Refined_Copper",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -1677,24 +1424,21 @@
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Refined_Copper",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         }
                     ]
                 },
@@ -1706,40 +1450,35 @@
                                 "RowName": "Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 15,
-                            "DynamicProperties": []
+                            "Count": 15
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Copper_Wire",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         }
                     ]
                 },
@@ -1751,8 +1490,7 @@
                                 "RowName": "Titanium_Ore",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         }
                     ]
                 },
@@ -1764,8 +1502,7 @@
                                 "RowName": "Platinum_Ore",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         }
                     ]
                 },
@@ -1791,32 +1528,28 @@
                                 "RowName": "Carbon_Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Titanium_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 6,
-                            "DynamicProperties": []
+                            "Count": 6
                         }
                     ]
                 },
@@ -1828,32 +1561,28 @@
                                 "RowName": "Carbon_Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Titanium_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 6,
-                            "DynamicProperties": []
+                            "Count": 6
                         }
                     ]
                 },
@@ -1865,61 +1594,28 @@
                                 "RowName": "Aluminium",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Carbon_Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 12,
-                            "DynamicProperties": []
-                        }
-                    ]
-                },
-                {
-                    "Name": "Glass_Wall",
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Refined_Metal",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Glass",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 20,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Epoxy",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 12
                         }
                     ]
                 },
@@ -1931,24 +1627,21 @@
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         }
                     ]
                 },
@@ -1960,24 +1653,21 @@
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         }
                     ]
                 },
@@ -1989,24 +1679,21 @@
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         }
                     ]
                 },
@@ -2018,24 +1705,21 @@
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         }
                     ]
                 },
@@ -2047,24 +1731,21 @@
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -2076,16 +1757,14 @@
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         }
                     ]
                 },
@@ -2097,24 +1776,21 @@
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         }
                     ]
                 },
@@ -2126,24 +1802,21 @@
                                 "RowName": "Wood",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -2155,32 +1828,28 @@
                                 "RowName": "Carbon_Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Titanium_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         }
                     ]
                 },
@@ -2206,32 +1875,28 @@
                                 "RowName": "Carbon_Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Titanium_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         }
                     ]
                 },
@@ -2243,16 +1908,14 @@
                                 "RowName": "Stone_Arrow",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Poison_Paste",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -2268,16 +1931,14 @@
                                 "RowName": "Metal_Ore",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 3,
-                            "DynamicProperties": []
+                            "Count": 3
                         },
                         {
                             "Element": {
                                 "RowName": "Coal_Ore",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -2289,16 +1950,14 @@
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Coal_Ore",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -2310,40 +1969,35 @@
                                 "RowName": "Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 15,
-                            "DynamicProperties": []
+                            "Count": 15
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Copper_Wire",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         }
                     ]
                 },
@@ -2355,40 +2009,35 @@
                                 "RowName": "Gold_Wire",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 3,
-                            "DynamicProperties": []
+                            "Count": 3
                         },
                         {
                             "Element": {
                                 "RowName": "Copper_Wire",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Platinum_Shealth",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -2400,8 +2049,7 @@
                                 "RowName": "Crushed_Bone",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         }
                     ]
                 },
@@ -2413,32 +2061,28 @@
                                 "RowName": "Advanced_Leather",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 3,
-                            "DynamicProperties": []
+                            "Count": 3
                         },
                         {
                             "Element": {
                                 "RowName": "Fur",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Rope",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "PolarBear_Head",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -2450,32 +2094,28 @@
                                 "RowName": "Advanced_Leather",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Polarbear_Pelt",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         },
                         {
                             "Element": {
                                 "RowName": "Fur",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Rope",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 6,
-                            "DynamicProperties": []
+                            "Count": 6
                         }
                     ]
                 },
@@ -2487,32 +2127,28 @@
                                 "RowName": "Advanced_Leather",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 3,
-                            "DynamicProperties": []
+                            "Count": 3
                         },
                         {
                             "Element": {
                                 "RowName": "Polarbear_Pelt",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Fur",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Rope",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         }
                     ]
                 },
@@ -2524,32 +2160,28 @@
                                 "RowName": "Advanced_Leather",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Polarbear_Pelt",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Fur",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 16,
-                            "DynamicProperties": []
+                            "Count": 16
                         },
                         {
                             "Element": {
                                 "RowName": "Rope",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 6,
-                            "DynamicProperties": []
+                            "Count": 6
                         }
                     ]
                 },
@@ -2561,32 +2193,28 @@
                                 "RowName": "Advanced_Leather",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 3,
-                            "DynamicProperties": []
+                            "Count": 3
                         },
                         {
                             "Element": {
                                 "RowName": "Polarbear_Pelt",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Fur",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Rope",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         }
                     ]
                 },
@@ -2612,16 +2240,14 @@
                                 "RowName": "Ammo_Rifle_Round",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Volatile_Substance",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ],
                     "Outputs": [
@@ -2644,8 +2270,7 @@
                                 "RowName": "Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         }
                     ],
                     "Outputs": [
@@ -2668,8 +2293,7 @@
                                 "RowName": "Leather",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -2681,16 +2305,14 @@
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Platinum_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -2716,61 +2338,28 @@
                                 "RowName": "Carbon_Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Titanium_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
-                        }
-                    ]
-                },
-                {
-                    "Name": "Leather_Curtain_Window",
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Fiber",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 15,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Wood",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 5,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Leather",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 15,
-                            "DynamicProperties": []
+                            "Count": 4
                         }
                     ]
                 },
@@ -2782,40 +2371,35 @@
                                 "RowName": "Wood_Refined",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 6,
-                            "DynamicProperties": []
+                            "Count": 6
                         },
                         {
                             "Element": {
                                 "RowName": "Leather",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Tree_Sap",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Copper_Nail",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         }
                     ]
                 },
@@ -2827,16 +2411,14 @@
                                 "RowName": "Ammo_Pistol_Round",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Volatile_Substance",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ],
                     "Outputs": [
@@ -2859,8 +2441,7 @@
                                 "RowName": "Corn",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -2872,8 +2453,7 @@
                                 "RowName": "Mushroom",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -2885,40 +2465,35 @@
                                 "RowName": "Aluminium",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 12,
-                            "DynamicProperties": []
+                            "Count": 12
                         },
                         {
                             "Element": {
                                 "RowName": "Composites",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         }
                     ]
                 },
@@ -2930,32 +2505,28 @@
                                 "RowName": "Aluminium",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Composites",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 3,
-                            "DynamicProperties": []
+                            "Count": 3
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -2967,32 +2538,28 @@
                                 "RowName": "Aluminium",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 6,
-                            "DynamicProperties": []
+                            "Count": 6
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Composites",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -3004,32 +2571,28 @@
                                 "RowName": "Aluminium",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 50
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Carbon_Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         }
                     ]
                 },
@@ -3041,32 +2604,28 @@
                                 "RowName": "Aluminium",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Carbon_Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         }
                     ]
                 },
@@ -3082,24 +2641,21 @@
                                 "RowName": "Copper_Wire",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Gold_Wire",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Carbon_Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         }
                     ]
                 },
@@ -3111,24 +2667,21 @@
                                 "RowName": "Copper_Wire",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Gold_Wire",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Platinum_Shealth",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         }
                     ]
                 },
@@ -3140,40 +2693,35 @@
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Composites",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Carbon_Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         }
                     ]
                 },
@@ -3185,40 +2733,35 @@
                                 "RowName": "Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Wood_Refined",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 30,
-                            "DynamicProperties": []
+                            "Count": 30
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Composites",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         }
                     ]
                 },
@@ -3230,40 +2773,35 @@
                                 "RowName": "Composites",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Concrete_Mix",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         }
                     ]
                 },
@@ -3275,40 +2813,35 @@
                                 "RowName": "Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Composites",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Concrete_Mix",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         }
                     ]
                 },
@@ -3320,40 +2853,35 @@
                                 "RowName": "Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Composites",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         }
                     ]
                 },
@@ -3365,24 +2893,21 @@
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Glass",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Copper_Wire",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 5
                         }
                     ]
                 },
@@ -3394,40 +2919,35 @@
                                 "RowName": "Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Refined_Copper",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Copper_Wire",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         }
                     ]
                 },
@@ -3439,40 +2959,35 @@
                                 "RowName": "Aluminium",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 15,
-                            "DynamicProperties": []
+                            "Count": 15
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 12,
-                            "DynamicProperties": []
+                            "Count": 12
                         },
                         {
                             "Element": {
                                 "RowName": "Titanium_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         },
                         {
                             "Element": {
                                 "RowName": "Carbon_Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         }
                     ]
                 },
@@ -3498,40 +3013,35 @@
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Copper_Wire",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Sulfur",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Dirt",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         }
                     ]
                 },
@@ -3543,48 +3053,42 @@
                                 "RowName": "Composites",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 6,
-                            "DynamicProperties": []
+                            "Count": 6
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Copper_Wire",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Dirt",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         }
                     ]
                 },
@@ -3596,32 +3100,28 @@
                                 "RowName": "Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         },
                         {
                             "Element": {
                                 "RowName": "Concrete_Mix",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         }
                     ]
                 },
@@ -3633,16 +3133,14 @@
                                 "RowName": "Mission_Empty_Enzyme_Container",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Digested_Enzymes",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         }
                     ]
                 },
@@ -3655,16 +3153,14 @@
                                 "RowName": "Leather",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Tree_Sap",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -3677,16 +3173,14 @@
                                 "RowName": "Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Platinum_Shealth",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         }
                     ],
                     "Outputs": [
@@ -3713,16 +3207,14 @@
                                 "RowName": "Clay_Brick",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Tree_Sap",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 2,
-                            "DynamicProperties": []
+                            "Count": 2
                         }
                     ]
                 },
@@ -3734,24 +3226,21 @@
                                 "RowName": "Wood",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Rope",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         }
                     ]
                 },
@@ -3842,80 +3331,6 @@
                     ]
                 },
                 {
-                    "Name": "Titanium_Crossbow",
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Wood_Refined",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 24,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Advanced_Leather",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 8,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Titanium_Ingot",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 10,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Epoxy",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 12,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Steel_Screw",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 16,
-                            "DynamicProperties": []
-                        }
-                    ]
-                },
-                {
-                    "Name": "Fortification_Wood_Wall",
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Wood",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 20,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Iron_Nail",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 6,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Rope",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 4,
-                            "DynamicProperties": []
-                        }
-                    ]
-                },
-                {
                     "Name": "Fortification_Wood_Spikes",
                     "Inputs": [
                         {
@@ -3923,16 +3338,14 @@
                                 "RowName": "Wood",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Rope",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         }
                     ]
                 },
@@ -3944,24 +3357,21 @@
                                 "RowName": "Wood",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 40,
-                            "DynamicProperties": []
+                            "Count": 40
                         },
                         {
                             "Element": {
                                 "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Rope",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         }
                     ]
                 },
@@ -3973,16 +3383,14 @@
                                 "RowName": "Wood",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Iron_Nail",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         }
                     ]
                 },
@@ -3994,8 +3402,7 @@
                                 "RowName": "Tomato",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -4007,48 +3414,42 @@
                                 "RowName": "Organic_Resin",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 25,
-                            "DynamicProperties": []
+                            "Count": 25
                         },
                         {
                             "Element": {
                                 "RowName": "Stone",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 50,
-                            "DynamicProperties": []
+                            "Count": 50
                         },
                         {
                             "Element": {
                                 "RowName": "Wood",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 50,
-                            "DynamicProperties": []
+                            "Count": 50
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Copper_Nail",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 50,
-                            "DynamicProperties": []
+                            "Count": 50
                         }
                     ]
                 },
@@ -4060,40 +3461,35 @@
                                 "RowName": "Aluminium",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Carbon_Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 15,
-                            "DynamicProperties": []
+                            "Count": 15
                         },
                         {
                             "Element": {
                                 "RowName": "Platinum_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         }
                     ]
                 },
@@ -4105,16 +3501,14 @@
                                 "RowName": "Glass_Jar",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         },
                         {
                             "Element": {
                                 "RowName": "Strawberry",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ]
                 },
@@ -4126,32 +3520,28 @@
                                 "RowName": "Platinum_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Advanced_Leather",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 3,
-                            "DynamicProperties": []
+                            "Count": 3
                         },
                         {
                             "Element": {
                                 "RowName": "Epoxy",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         }
                     ]
                 },
@@ -4163,48 +3553,42 @@
                                 "RowName": "Electronics",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Aluminium",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Copper_Wire",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 15,
-                            "DynamicProperties": []
+                            "Count": 15
                         },
                         {
                             "Element": {
                                 "RowName": "Gold_Wire",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 15,
-                            "DynamicProperties": []
+                            "Count": 15
                         },
                         {
                             "Element": {
                                 "RowName": "Carbon_Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         }
                     ]
                 },
@@ -4220,8 +3604,7 @@
                                 "RowName": "Titanium_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 1,
-                            "DynamicProperties": []
+                            "Count": 1
                         }
                     ],
                     "Outputs": [
@@ -4244,32 +3627,28 @@
                                 "RowName": "Shaped_Obsidian",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Wood_Refined",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Iron_Nail",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Leather",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         }
                     ]
                 },
@@ -4281,32 +3660,28 @@
                                 "RowName": "Cold_Steel_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         },
                         {
                             "Element": {
                                 "RowName": "Wood_Refined",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Fur",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 5,
-                            "DynamicProperties": []
+                            "Count": 5
                         }
                     ]
                 },
@@ -4318,40 +3693,35 @@
                                 "RowName": "Titanium_Ingot",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 4,
-                            "DynamicProperties": []
+                            "Count": 4
                         },
                         {
                             "Element": {
                                 "RowName": "Carbon_Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 6,
-                            "DynamicProperties": []
+                            "Count": 6
                         },
                         {
                             "Element": {
                                 "RowName": "Steel_Screw",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 10,
-                            "DynamicProperties": []
+                            "Count": 10
                         },
                         {
                             "Element": {
                                 "RowName": "Refined_Iron_Wood",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 8,
-                            "DynamicProperties": []
+                            "Count": 8
                         },
                         {
                             "Element": {
                                 "RowName": "Wood_Refined",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 20,
-                            "DynamicProperties": []
+                            "Count": 20
                         }
                     ]
                 },
@@ -4367,304 +3737,12 @@
                     ]
                 },
                 {
-                    "Name": "Fur_Curtain_Door",
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Fur",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 15,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Wood",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 5,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Fiber",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 5,
-                            "DynamicProperties": []
-                        }
-                    ]
-                },
-                {
-                    "Name": "Basic_Ceiling_Light",
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Refined_Metal",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 5,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Glass",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 5,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Copper_Wire",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": []
-                        }
-                    ]
-                },
-                {
                     "Name": "Charging_Station",
                     "RequiredMillijoules": 25000
                 },
                 {
-                    "Name": "Electric_Fireplace",
-                    "RequiredMillijoules": 5000,
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Aluminium",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 9,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Epoxy",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 7,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Concrete_Mix",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Titanium_Ingot",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 4,
-                            "DynamicProperties": []
-                        }
-                    ]
-                },
-                {
-                    "Name": "Electric_Fireplace_Ext",
-                    "RequiredMillijoules": 5000,
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Aluminium",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Epoxy",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Titanium_Ingot",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": []
-                        }
-                    ]
-                },
-                {
                     "Name": "Electric_Fireplace_Cap",
-                    "RequiredMillijoules": 5000,
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Aluminium",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 3,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Epoxy",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Titanium_Ingot",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2,
-                            "DynamicProperties": []
-                        }
-                    ]
-                },
-                {
-                    "Name": "Pouch_Generic_Red",
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Rope",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Leather",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 10,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Iron_Nail",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 5,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Paints",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 5,
-                            "DynamicProperties": []
-                        }
-                    ]
-                },
-                {
-                    "Name": "Pouch_Generic_Green",
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Rope",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Leather",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 20,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Iron_Nail",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 5,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Paints",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 5,
-                            "DynamicProperties": []
-                        }
-                    ]
-                },
-                {
-                    "Name": "Pouch_Generic_Blue",
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Rope",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Leather",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 20,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Iron_Nail",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 5,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Paints",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 5,
-                            "DynamicProperties": []
-                        }
-                    ]
-                },
-                {
-                    "Name": "Saddle_Arctic_Survival",
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Platinum_Weave",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 10,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Wool",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 15,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Rope",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 5,
-                            "DynamicProperties": []
-                        }
-                    ]
+                    "RequiredMillijoules": 5000
                 }
             ]
         },
@@ -8137,6 +7215,15 @@
                         "(Value=\"BaseFireDamage_+\")": 25,
                         "(Value=\"BaseFlamethrowerFuelUse_+\")": 10
                     }
+                },
+                {
+                    "Name": "Drill_Arrow",
+                    "AdditionalStats": {
+                        "(Value=\"CanMineVoxels_?\")": 1,
+                        "(Value=\"BaseMiningRadius_+\")": 100,
+                        "(Value=\"BaseArmorDamageModifier_+%\")": 200,
+                        "(Value=\"IgnoresRicochet_?\")": 1
+                    }
                 }
             ]
         },
@@ -9616,6 +8703,29 @@
                     ]
                 },
                 {
+                    "Name": "Exploration_Base_Health",
+                    "Rewards": [
+                        {
+                            "GrantedStats": {
+                                "(Value=\"BaseMaximumHealth_+\")": 10
+                            },
+                            "GrantedFlags": []
+                        },
+                        {
+                            "GrantedStats": {
+                                "(Value=\"BaseMaximumHealth_+\")": 25
+                            },
+                            "GrantedFlags": []
+                        },
+                        {
+                            "GrantedStats": {
+                                "(Value=\"BaseMaximumHealth_+\")": 50
+                            },
+                            "GrantedFlags": []
+                        }
+                    ]
+                },
+                {
                     "Name": "Resources_Increased_Wood",
                     "Rewards": [
                         {
@@ -9708,6 +8818,23 @@
                         {
                             "GrantedStats": {
                                 "(Value=\"BaseMiningMetalRewards_+%\")": 50
+                            },
+                            "GrantedFlags": []
+                        }
+                    ]
+                },
+                {
+                    "Name": "Solo_Health",
+                    "Rewards": [
+                        {
+                            "GrantedStats": {
+                                "(Value=\"BaseMaximumHealth_+\")": 50
+                            },
+                            "GrantedFlags": []
+                        },
+                        {
+                            "GrantedStats": {
+                                "(Value=\"BaseMaximumHealth_+\")": 100
                             },
                             "GrantedFlags": []
                         }
@@ -10125,6 +9252,10 @@
                 {
                     "Name": "Chainsaw",
                     "Melee_Damage": 40
+                },
+                {
+                    "Name": "Mining_Laser",
+                    "Mining_Radius": 60
                 }
             ]
         },
@@ -11386,6 +10517,12 @@
                     }
                 },
                 {
+                    "Name": "Raw_Prime_Meat",
+                    "Stats": {
+                        "(Value=\"BaseFoodRecovery_+\")": 40
+                    }
+                },
+                {
                     "Name": "Food_Coconut",
                     "Modifier": {
                         "Modifier": {
@@ -12337,6 +11474,12 @@
                         "(Value=\"BaseBowEquipSpeed_+%\")": 50,
                         "(Value=\"BaseBowAimDownSightsSpeed_+%\")": 30,
                         "(Value=\"BaseBackpackSlots_+\")": 24
+                    }
+                },
+                {
+                    "Name": "Equippable_StasisBag",
+                    "GrantedStats": {
+                        "(Value=\"BaseAnimalCarryingMovementSpeed_+%\")": 30
                     }
                 },
                 {
@@ -13307,10 +12450,6 @@
                     "MaxStack": 50
                 },
                 {
-                    "Name": "Item_Carcass_DeerLarge",
-                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_DeerLarge-DisplayName\", \"Deer Carcass\")"
-                },
-                {
                     "Name": "Item_Glass_Beam",
                     "MaxStack": 50
                 },
@@ -13345,14 +12484,6 @@
                 {
                     "Name": "Item_Titanium_Arrow",
                     "MaxStack": 200
-                },
-                {
-                    "Name": "Item_Raw_Prime_Meat",
-                    "MaxStack": 50
-                },
-                {
-                    "Name": "Item_Cooked_Prime_Meat",
-                    "MaxStack": 50
                 },
                 {
                     "Name": "Item_WaterBomb",
@@ -14345,6 +13476,38 @@
                     "MaxStack": 50
                 },
                 {
+                    "Name": "Item_Lithium_Bow",
+                    "Weight": 250
+                },
+                {
+                    "Name": "Item_Lithium_Shield",
+                    "Weight": 200
+                },
+                {
+                    "Name": "Item_Lithium_Crossbow",
+                    "Weight": 250
+                },
+                {
+                    "Name": "Item_Hazmat_Head",
+                    "Weight": 75
+                },
+                {
+                    "Name": "Item_Hazmat_Chest",
+                    "Weight": 75
+                },
+                {
+                    "Name": "Item_Hazmat_Arms",
+                    "Weight": 75
+                },
+                {
+                    "Name": "Item_Hazmat_Legs",
+                    "Weight": 75
+                },
+                {
+                    "Name": "Item_Hazmat_Feet",
+                    "Weight": 75
+                },
+                {
                     "Name": "Item_Radiation_Protection_Armor_Head",
                     "Weight": 200
                 },
@@ -14366,7 +13529,7 @@
                 },
                 {
                     "Name": "Item_ClayBrick_Fireplace",
-                    "Weight": 500
+                    "Weight": 2500
                 },
                 {
                     "Name": "Item_ClayBrick_Fireplace_Ext",
@@ -14378,7 +13541,7 @@
                 },
                 {
                     "Name": "Item_StoneBrick_Fireplace",
-                    "Weight": 500
+                    "Weight": 2500
                 },
                 {
                     "Name": "Item_StoneBrick_Fireplace_Ext",
@@ -14406,8 +13569,11 @@
                 },
                 {
                     "Name": "Item_AntiRadiation_Transfusion",
-                    "Weight": 25,
-                    "MaxStack": 100
+                    "Weight": 25
+                },
+                {
+                    "Name": "Item_AntiRadiation_Injection",
+                    "Weight": 25
                 },
                 {
                     "Name": "Item_Radioactive_Waste",
@@ -14420,6 +13586,46 @@
                 {
                     "Name": "Item_Telsa_Coil",
                     "Weight": 2000
+                },
+                {
+                    "Name": "Item_Turret_Flamethrower",
+                    "Weight": 2000
+                },
+                {
+                    "Name": "Item_Mission_Makeshift_Beacon",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Carcass_Chew",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Mission_TPS_Communication_Tower",
+                    "Weight": 200
+                },
+                {
+                    "Name": "Item_Mission_ELY1_Towers_Map",
+                    "Weight": 50
+                },
+                {
+                    "Name": "Item_Mission_ELY2_Swamp_Map",
+                    "Weight": 50
+                },
+                {
+                    "Name": "Item_Carcass_Hopping_Creature",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Charging_Device_Wall",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Carcass_Rabbit_Variant_Snow",
+                    "Weight": 100
+                },
+                {
+                    "Name": "Item_Nailgun",
+                    "Weight": 200
                 }
             ]
         },
