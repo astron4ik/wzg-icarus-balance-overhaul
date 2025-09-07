@@ -1482,6 +1482,34 @@
             ],
             "BeginStaminaActionNotify": "DoHit",
             "ActionCooldown": 0.10000000149011612
+        },
+        {
+            "Name": "Mining_Laser",
+            "Behaviour": "BlueprintGeneratedClass'/Game/BP/Behaviours/Actionable/BP_Actionable_MiningLaser.BP_Actionable_MiningLaser_C'",
+            "TP_ActionMontage": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_FireExtinguisherUse_Montage.3RD_CHA_MAL_FireExtinguisherUse_Montage",
+            "TP_SuccessAnimations": [
+                {
+                    "SuccessType": {
+                        "RowName": "None",
+                        "DataTableName": "D_ValidHitTypes"
+                    },
+                    "SuccessMontageVariations": [
+                        "Default"
+                    ]
+                }
+            ],
+            "FP_ActionMontage": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_FireExtinguisherUse_Montage.1ST_CHA_FireExtinguisherUse_Montage",
+            "FP_SuccessAnimations": [
+                {
+                    "SuccessType": {
+                        "RowName": "None",
+                        "DataTableName": "D_ValidHitTypes"
+                    },
+                    "SuccessMontageVariations": [
+                        "Default"
+                    ]
+                }
+            ]
         }
     ]
 }

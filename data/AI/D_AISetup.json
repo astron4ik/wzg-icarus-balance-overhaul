@@ -19569,7 +19569,7 @@
                 "RowName": "Dog_Carcass_Loot_C1"
             },
             "Hitable": {
-                "RowName": "AnimalBones_Medium"
+                "RowName": "AnimalBones_Small"
             },
             "bUseSurvivalCharacterState": true,
             "bStartWithSurvivalTickDisabled": false,
@@ -20130,7 +20130,7 @@
                 "RowName": "Dog_Carcass_Loot_D1"
             },
             "Hitable": {
-                "RowName": "AnimalBones_Medium"
+                "RowName": "AnimalBones_Small"
             },
             "bUseSurvivalCharacterState": true,
             "bStartWithSurvivalTickDisabled": false,
@@ -20273,7 +20273,7 @@
                 "RowName": "Dog_Carcass_Loot_D1"
             },
             "Hitable": {
-                "RowName": "AnimalBones_Medium"
+                "RowName": "AnimalBones_Small"
             },
             "bUseSurvivalCharacterState": true,
             "bStartWithSurvivalTickDisabled": false,

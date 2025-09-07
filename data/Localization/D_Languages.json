@@ -18,7 +18,7 @@
         {
             "Name": "es-419",
             "bEnabled": true,
-            "Coverage": 90
+            "Coverage": 89
         },
         {
             "Name": "pt-BR",
@@ -33,22 +33,22 @@
         {
             "Name": "ru-RU",
             "bEnabled": true,
-            "Coverage": 94
+            "Coverage": 93
         },
         {
             "Name": "zh-Hans",
             "bEnabled": true,
-            "Coverage": 77
+            "Coverage": 76
         },
         {
             "Name": "zh-Hant",
             "bEnabled": true,
-            "Coverage": 77
+            "Coverage": 76
         },
         {
             "Name": "ja-JP",
             "bEnabled": true,
-            "Coverage": 77
+            "Coverage": 76
         },
         {
             "Name": "ko-KR",

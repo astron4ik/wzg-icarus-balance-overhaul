@@ -2710,62 +2710,43 @@
                             "Value": "Bear_Population"
                         }
                     ]
-                },
-                "(Value=\"Polar_Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "PolarBear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Arctic\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothArctic_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Desert\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothDesert_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Scorpion_Arctic\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "ScorpionArctic_Population"
-                        }
-                    ]
                 }
             },
-            "SpawnMap": "/Game/Heatmaps/Outpost_012/GT_Outpost012_Biome.GT_Outpost012_Biome",
+            "SpawnMap": "/Game/Heatmaps/Outpost_012/GT_Outpost012_AISpawnMap.GT_Outpost012_AISpawnMap",
             "SpawnZones": [
                 {
                     "Color": {
                         "B": 111,
                         "G": 255,
-                        "R": 89,
+                        "R": 0,
                         "A": 255
                     },
                     "SpawnZone": {
-                        "RowName": "Outpost_Forest_Full",
+                        "RowName": "Outpost_Forest_Outer",
                         "DataTableName": "D_AISpawnZones"
                     }
                 },
                 {
                     "Color": {
-                        "B": 244,
-                        "G": 218,
-                        "R": 0,
+                        "B": 0,
+                        "G": 255,
+                        "R": 225,
                         "A": 255
                     },
                     "SpawnZone": {
                         "RowName": "Outpost_Beach",
+                        "DataTableName": "D_AISpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 255,
+                        "G": 0,
+                        "R": 96,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "Outpost_Forest_Full",
                         "DataTableName": "D_AISpawnZones"
                     }
                 }

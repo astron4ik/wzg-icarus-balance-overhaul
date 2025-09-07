@@ -8894,12 +8894,14 @@
                     "/Game/PROC/MapTextures/Outpost_012/T_HeightMapTex_Outpost_012Heightmap_x1_y1.T_HeightMapTex_Outpost_012Heightmap_x1_y1"
                 ],
                 "WorldBoundaryMin": {
-                    "X": -100800,
-                    "Y": -100800
+                    "X": -151200,
+                    "Y": -151200,
+                    "Z": -53430
                 },
                 "WorldBoundaryMax": {
-                    "X": 100800,
-                    "Y": 100800
+                    "X": 151200,
+                    "Y": 151200,
+                    "Z": 53430
                 }
             }
         },
@@ -9077,7 +9079,19 @@
                     ],
                     "DeveloperLevel": "/Game/Maps/Outpost_013/Sublevels/Developer/OP013_Developer_Main.OP013_Developer_Main"
                 }
-            ]
+            ],
+            "MinimapData": {
+                "WorldBoundaryMin": {
+                    "X": -151200,
+                    "Y": -151200,
+                    "Z": -53429.765625
+                },
+                "WorldBoundaryMax": {
+                    "X": 151200,
+                    "Y": 151200,
+                    "Z": 53429.765625
+                }
+            }
         }
     ]
 }

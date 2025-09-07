@@ -276,6 +276,9 @@
                     },
                     {
                         "TagName": "FieldGuide.Recipe.Stove.Hide"
+                    },
+                    {
+                        "TagName": "Item.query.stone"
                     }
                 ]
             },
@@ -289,6 +292,9 @@
                     },
                     {
                         "TagName": "FieldGuide.Recipe.Stove.Hide"
+                    },
+                    {
+                        "TagName": "Item.query.stone"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -2577,6 +2583,9 @@
                     },
                     {
                         "TagName": "Item.Creature.Loot"
+                    },
+                    {
+                        "TagName": "Item.query.raw_meat"
                     }
                 ]
             },
@@ -2590,6 +2599,9 @@
                     },
                     {
                         "TagName": "Item.Creature.Loot"
+                    },
+                    {
+                        "TagName": "Item.query.raw_meat"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -4378,8 +4390,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseAttacksCauseSlow_%\")": 25,
-                "(Value=\"BaseHardenedPointPenetration_%\")": 100,
-                "(Value=\"BaseHardenedPointDamage_+%\")": 50
+                "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -11015,7 +11026,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseSleepQuality_%\")": 100,
-                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 1200,
+                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 600,
                 "(Value=\"BaseComfortLevel_+\")": 4
             },
             "Manual_Tags": {
@@ -11101,7 +11112,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseSleepQuality_%\")": 110,
-                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 750,
+                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 650,
                 "(Value=\"BaseComfortLevel_+\")": 10
             },
             "Manual_Tags": {
@@ -11196,7 +11207,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseSleepQuality_%\")": 110,
-                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 2400,
+                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 650,
                 "(Value=\"BaseComfortLevel_+\")": 14
             },
             "Manual_Tags": {
@@ -11485,7 +11496,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Small"
@@ -11494,7 +11505,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -12479,9 +12490,9 @@
                 "RowName": "Shovel"
             },
             "AdditionalStats": {
-                "(Value=\"BaseToolStaminaActionCost_+%\")": -10,
-                "(Value=\"BaseCreatesCropPlotTier_+\")": 4,
-                "(Value=\"BaseDiggingRewards_+%\")": 50
+                "(Value=\"BaseToolStaminaActionCost_+%\")": -25,
+                "(Value=\"BaseCreatesCropPlotTier_+\")": 2,
+                "(Value=\"BaseDiggingRewards_+%\")": 25
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -13091,7 +13102,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -13347,7 +13358,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -13408,7 +13419,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Small"
@@ -13417,7 +13428,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -13815,7 +13826,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -14701,7 +14712,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -15967,7 +15978,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -16424,7 +16435,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Small"
@@ -20652,7 +20663,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -22524,6 +22535,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Resource.Ingot"
+                    },
+                    {
+                        "TagName": "Item.query.t3_metal"
                     }
                 ]
             },
@@ -22531,6 +22545,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Resource.Ingot"
+                    },
+                    {
+                        "TagName": "Item.query.t3_metal"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -23060,6 +23077,9 @@
             },
             "Decayable": {
                 "RowName": "Decay_10_Minutes"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
             },
             "Resource": {
                 "RowName": "Solar_Panel"
@@ -24865,7 +24885,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -29222,7 +29242,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -29377,7 +29397,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -29471,7 +29491,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -30216,7 +30236,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -30677,75 +30697,6 @@
                     },
                     {
                         "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Cooked_Prime_Meat",
-            "Meshable": {
-                "RowName": "Mesh_Cooked_Prime_Meat"
-            },
-            "Itemable": {
-                "RowName": "Item_Cooked_Prime_Meat"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Generic_Consumable"
-            },
-            "Consumable": {
-                "RowName": "Cooked_Prime_Meat"
-            },
-            "Usable": {
-                "RowName": "Consume_Stack_Food"
-            },
-            "Decayable": {
-                "RowName": "Decay_CookedMeat_Generic"
-            },
-            "Audio": {
-                "RowName": "Default_Food"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Consumable.Food.Cooked.Meat"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Consumable.Food.Cooked.Meat"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Consumable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
                     }
                 ],
                 "ParentTags": []
@@ -32516,7 +32467,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -33717,7 +33668,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -33885,7 +33836,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -34722,7 +34673,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -35956,7 +35907,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Small"
@@ -36044,7 +35995,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Small"
@@ -38811,7 +38762,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -39381,13 +39332,13 @@
                 "RowName": "Equippable_Carcass_Medium"
             },
             "Focusable": {
-                "RowName": "Focusable_Carcass_WildBoar"
+                "RowName": "Focusable_Carcass_Wolf"
             },
             "Highlightable": {
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "UtilitySlot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -39481,7 +39432,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -43159,9 +43110,6 @@
                 "RowName": "Metal_Knife"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMeleeDamage_+%\")": 10,
-                "(Value=\"BaseSkinningRewards_+%\")": 15,
-                "(Value=\"BaseSkinningSpeed_+%\")": 10,
                 "(Value=\"BaseElectricDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseElectroshock_%\")": 15
             },
@@ -45250,7 +45198,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -45870,8 +45818,6 @@
                 "RowName": "Metal_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMovementSpeed_+%\")": 10,
-                "(Value=\"BaseSprintingStaminaActionCost_+%\")": -10,
                 "(Value=\"BaseElectricDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseElectroshock_%\")": 15,
                 "(Value=\"BaseSpearCriticalDamage_+%\")": 25
@@ -45958,7 +45904,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseActionHoldTime_+%\")": -22,
-                "(Value=\"BaseMovementSpeed_+%\")": 15
+                "(Value=\"BaseMovementSpeed_+%\")": 10
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -46042,7 +45988,7 @@
                 "RowName": "RepairToolMetal"
             },
             "AdditionalStats": {
-                "(Value=\"BaseActionHoldTime_+%\")": -30,
+                "(Value=\"BaseActionHoldTime_+%\")": -22,
                 "(Value=\"BaseExposureResistance_+%\")": 25
             },
             "Manual_Tags": {
@@ -46133,9 +46079,8 @@
                 "RowName": "Meta_Bow_Shengong"
             },
             "AdditionalStats": {
-                "(Value=\"BaseArrowProjectileSpeed_+%\")": 50,
-                "(Value=\"BaseBowCriticalDamage_+%\")": 25,
-                "(Value=\"HighlightShotProjectile_?\")": 1
+                "(Value=\"BaseArrowProjectileSpeed_+%\")": 15,
+                "(Value=\"BaseBowCriticalDamage_+%\")": -5
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -46219,9 +46164,8 @@
                 "RowName": "Meta_Bow_Shengong"
             },
             "AdditionalStats": {
-                "(Value=\"BaseBowChargeSpeed_+%\")": 15,
-                "(Value=\"BaseMovementSpeed_+%\")": 15,
-                "(Value=\"HighlightShotProjectile_?\")": 1
+                "(Value=\"BaseBowChargeSpeed_+%\")": -15,
+                "(Value=\"BaseMovementSpeed_+%\")": -15
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -46305,10 +46249,9 @@
                 "RowName": "Meta_Bow_Shengong"
             },
             "AdditionalStats": {
-                "(Value=\"BaseBowChargeSpeed_+%\")": 15,
-                "(Value=\"BaseArrowProjectileSpeed_+%\")": 25,
-                "(Value=\"BaseBowProjectileDamage_+%\")": 30,
-                "(Value=\"HighlightShotProjectile_?\")": 1
+                "(Value=\"BaseBowChargeSpeed_+%\")": -15,
+                "(Value=\"BaseArrowProjectileSpeed_+%\")": 15,
+                "(Value=\"BaseBowProjectileDamage_+%\")": 10
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -46478,10 +46421,10 @@
                 "RowName": "Meta_Bow_Shengong_Echo"
             },
             "AdditionalStats": {
-                "(Value=\"BaseElectricDamage_+%\")": 50,
-                "(Value=\"BaseFireDamage_+%\")": 50,
-                "(Value=\"BasePoisonDamage_+%\")": 50,
-                "(Value=\"BaseFrostDamage_+%\")": 50
+                "(Value=\"BaseElectricDamage_+%\")": 25,
+                "(Value=\"BaseFireDamage_+%\")": 25,
+                "(Value=\"BasePoisonDamage_+%\")": 25,
+                "(Value=\"BaseFrostDamage_+%\")": 25
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -51232,8 +51175,8 @@
                 "RowName": "RepairToolMetal"
             },
             "AdditionalStats": {
-                "(Value=\"BaseActionHoldTime_+%\")": -22,
-                "(Value=\"BaseMovementSpeed_+%\")": 10
+                "(Value=\"BaseActionHoldTime_+%\")": -16,
+                "(Value=\"BaseMovementSpeed_+%\")": -5
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -53067,7 +53010,7 @@
                 "RowName": "Arrow"
             },
             "AdditionalStats": {
-                "(Value=\"BasePoisonDamage_+\")": 100,
+                "(Value=\"BasePoisonDamage_+\")": 40,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15
             },
             "CraftingExperience": 20,
@@ -53219,7 +53162,7 @@
                 "RowName": "Arrow"
             },
             "AdditionalStats": {
-                "(Value=\"BaseFrostDamage_+\")": 100,
+                "(Value=\"BaseFrostDamage_+\")": 40,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15
             },
             "CraftingExperience": 20,
@@ -53464,9 +53407,6 @@
                 "RowName": "Meta_Axe"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMovementSpeed_+%\")": 5,
-                "(Value=\"BaseMeleeDamage_+%\")": 10,
-                "(Value=\"BaseFellingDamage_+%\")": 30,
                 "(Value=\"BasePoisonDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15,
                 "(Value=\"BaseFellingRewards_%\")": -50,
@@ -53556,9 +53496,6 @@
                 "RowName": "Meta_Axe"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMovementSpeed_+%\")": 5,
-                "(Value=\"BaseMeleeDamage_+%\")": 10,
-                "(Value=\"BaseFellingDamage_+%\")": 30,
                 "(Value=\"BaseFrostDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
                 "(Value=\"BaseFrostedFellChance_%\")": 30
@@ -53647,9 +53584,6 @@
                 "RowName": "Meta_Axe"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMovementSpeed_+%\")": 5,
-                "(Value=\"BaseMeleeDamage_+%\")": 10,
-                "(Value=\"BaseFellingDamage_+%\")": 30,
                 "(Value=\"BaseFireDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15,
                 "(Value=\"BaseFellingScorchChance_%\")": 30,
@@ -53739,8 +53673,7 @@
                 "RowName": "Metal_Knife"
             },
             "AdditionalStats": {
-                "(Value=\"BaseWoundResistance_%\")": 100,
-                "(Value=\"BasePrimeMeatDropChance_%\")": 400
+                "(Value=\"BaseWoundResistance_%\")": 100
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -53922,9 +53855,6 @@
                 "RowName": "Metal_Knife"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSkinningRewards_+%\")": 15,
-                "(Value=\"BaseSkinningSpeed_+%\")": 15,
-                "(Value=\"BaseToolStaminaActionCost_+%\")": -10,
                 "(Value=\"BaseFireDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15,
                 "(Value=\"BaseSkinningCookChance_%\")": 10
@@ -54019,9 +53949,6 @@
                 "RowName": "Metal_Knife"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSkinningRewards_+%\")": 15,
-                "(Value=\"BaseSkinningSpeed_+%\")": 15,
-                "(Value=\"BaseToolStaminaActionCost_+%\")": -10,
                 "(Value=\"BaseFrostDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
                 "(Value=\"BaseChilledAlterationChance_%\")": 30
@@ -54117,7 +54044,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseOverencumberedPenalty_+%\")": -50,
-                "(Value=\"BaseMiningRewards_%\")": 30,
+                "(Value=\"BaseMiningRewards_%\")": 15,
                 "(Value=\"BaseArmorDamageModifier_+%\")": 500
             },
             "Manual_Tags": {
@@ -54205,7 +54132,6 @@
                 "RowName": "Meta_Pickaxe"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMiningRewards_+%\")": 50,
                 "(Value=\"BasePoisonDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15,
                 "(Value=\"BaseMiningRewards_+%\")": -50,
@@ -54302,7 +54228,6 @@
                 "RowName": "Meta_Pickaxe"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMiningRewards_+%\")": 50,
                 "(Value=\"BaseFrostDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
                 "(Value=\"BaseFrozenOrePerMinedResource_%\")": 20,
@@ -54398,7 +54323,6 @@
                 "RowName": "Meta_Pickaxe"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMiningRewards_+%\")": 50,
                 "(Value=\"BaseFireDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15,
                 "(Value=\"BaseMiningSmeltChance_%\")": 30,
@@ -54576,8 +54500,6 @@
                 "RowName": "Metal_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMovementSpeed_+%\")": 10,
-                "(Value=\"BaseMeleeDamageResistance_+%\")": -5,
                 "(Value=\"BasePoisonDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15,
                 "(Value=\"BaseSpearCriticalDamage_+%\")": 25
@@ -54754,8 +54676,6 @@
                 "RowName": "Metal_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseMovementSpeed_+%\")": 10,
-                "(Value=\"BaseMeleeDamageResistance_+%\")": -5,
                 "(Value=\"BaseFireDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15,
                 "(Value=\"BaseSpearCriticalDamage_+%\")": 25
@@ -54862,7 +54782,6 @@
                 "RowName": "MetalDeployable"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSmeltingSpeed_+%\")": 300,
                 "(Value=\"BaseEnergyTransmutationResourceCost_+%\")": -25
             },
             "Manual_Tags": {
@@ -56804,7 +56723,7 @@
                 "RowName": "Default"
             },
             "AdditionalStats": {
-                "(Value=\"BasePlantedCropYield_+%\")": -5,
+                "(Value=\"BasePlantedCropYield_+%\")": -25,
                 "(Value=\"BasePlantedCropGrowthSpeed_+%\")": 50
             },
             "Manual_Tags": {
@@ -57060,7 +56979,7 @@
         {
             "Name": "Giant_Steak",
             "Meshable": {
-                "RowName": "Mesh_Raw_Prime_Meat"
+                "RowName": "Mesh_Giant_Steak"
             },
             "Itemable": {
                 "RowName": "Item_Giant_Steak"
@@ -57099,6 +57018,9 @@
                     },
                     {
                         "TagName": "Item.Creature.Loot"
+                    },
+                    {
+                        "TagName": "Item.query.raw_meat"
                     }
                 ]
             },
@@ -57112,6 +57034,9 @@
                     },
                     {
                         "TagName": "Item.Creature.Loot"
+                    },
+                    {
+                        "TagName": "Item.query.raw_meat"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -57210,7 +57135,7 @@
         {
             "Name": "Giant_Steak_Cooked",
             "Meshable": {
-                "RowName": "Mesh_Cooked_Prime_Meat"
+                "RowName": "Mesh_Giant_Steak_Cooked"
             },
             "Itemable": {
                 "RowName": "Item_Giant_Steak_Cooked"
@@ -57318,6 +57243,9 @@
                     },
                     {
                         "TagName": "Item.Creature.Loot"
+                    },
+                    {
+                        "TagName": "Item.query.raw_meat"
                     }
                 ]
             },
@@ -57331,6 +57259,9 @@
                     },
                     {
                         "TagName": "Item.Creature.Loot"
+                    },
+                    {
+                        "TagName": "Item.query.raw_meat"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -57537,6 +57468,9 @@
                     },
                     {
                         "TagName": "Item.Creature.Loot"
+                    },
+                    {
+                        "TagName": "Item.query.raw_meat"
                     }
                 ]
             },
@@ -57550,6 +57484,9 @@
                     },
                     {
                         "TagName": "Item.Creature.Loot"
+                    },
+                    {
+                        "TagName": "Item.query.raw_meat"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -57756,6 +57693,9 @@
                     },
                     {
                         "TagName": "Item.Creature.Loot"
+                    },
+                    {
+                        "TagName": "Item.query.raw_meat"
                     }
                 ]
             },
@@ -57769,6 +57709,9 @@
                     },
                     {
                         "TagName": "Item.Creature.Loot"
+                    },
+                    {
+                        "TagName": "Item.query.raw_meat"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -57975,6 +57918,9 @@
                     },
                     {
                         "TagName": "Item.Creature.Loot"
+                    },
+                    {
+                        "TagName": "Item.query.raw_meat"
                     }
                 ]
             },
@@ -57988,6 +57934,9 @@
                     },
                     {
                         "TagName": "Item.Creature.Loot"
+                    },
+                    {
+                        "TagName": "Item.query.raw_meat"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -58194,6 +58143,9 @@
                     },
                     {
                         "TagName": "Item.Creature.Loot"
+                    },
+                    {
+                        "TagName": "Item.query.raw_meat"
                     }
                 ]
             },
@@ -58207,6 +58159,9 @@
                     },
                     {
                         "TagName": "Item.Creature.Loot"
+                    },
+                    {
+                        "TagName": "Item.query.raw_meat"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -59120,7 +59075,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Small"
@@ -59208,7 +59163,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -59557,7 +59512,7 @@
                 "RowName": "RepairToolMetal"
             },
             "AdditionalStats": {
-                "(Value=\"BaseActionHoldTime_+%\")": -75,
+                "(Value=\"BaseActionHoldTime_+%\")": -30,
                 "(Value=\"BaseExposureResistance_+%\")": 10
             },
             "Manual_Tags": {
@@ -59728,8 +59683,7 @@
                 "RowName": "Metal_Knife"
             },
             "AdditionalStats": {
-                "(Value=\"BasePrimeMeatDropChance_%\")": 400,
-                "(Value=\"BaseAttackSpeed_+%\")": 15
+                "(Value=\"BaseAttackSpeed_+%\")": 10
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -60498,14 +60452,6 @@
                     }
                 ],
                 "ParentTags": []
-            },
-            "AdditionalStats": {
-                "(Value=\"BaseBowProjectileDamage_+%\")": 100,
-                "(Value=\"BaseBowChargeSpeed_+%\")": 25,
-                "(Value=\"BaseArrowProjectileSpeed_+%\")": 50,
-                "(Value=\"BaseBowAimDownSightsSpeed_+%\")": 25,
-                "(Value=\"BaseBowReloadSpeed_+%\")": 25,
-                "(Value=\"HighlightShotProjectile_?\")": 1
             }
         },
         {
@@ -63967,7 +63913,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseSleepQuality_%\")": 110,
-                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 750,
+                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 650,
                 "(Value=\"BaseComfortLevel_+\")": 14
             },
             "Manual_Tags": {
@@ -64758,7 +64704,7 @@
                 "RowName": "MetalDeployable"
             },
             "AdditionalStats": {
-                "(Value=\"BaseExtractorDrillSpeed_+%\")": 150
+                "(Value=\"BaseExtractorDrillSpeed_+%\")": 33
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -64866,7 +64812,7 @@
                 "RowName": "MetalDeployable"
             },
             "AdditionalStats": {
-                "(Value=\"BaseExtractorDrillSpeed_+%\")": 330
+                "(Value=\"BaseExtractorDrillSpeed_+%\")": 33
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -69536,9 +69482,8 @@
                 "RowName": "Meta_Crossbow_Inaris_A"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttacksCauseSlow_%\")": 50,
-                "(Value=\"BaseHardenedPointDamage_+%\")": 75,
-                "(Value=\"HighlightShotProjectile_?\")": 1
+                "(Value=\"BaseAttacksCauseSlow_%\")": 20,
+                "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -69628,11 +69573,10 @@
                 "RowName": "Meta_Crossbow_Inaris_B"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttacksCauseSlow_%\")": 75,
-                "(Value=\"BaseHardenedPointDamage_+%\")": 100,
-                "(Value=\"BaseBowCriticalDamage_+%\")": 100,
-                "(Value=\"BaseBowProjectileDamage_+%\")": 150,
-                "(Value=\"HighlightShotProjectile_?\")": 1
+                "(Value=\"BaseAttacksCauseSlow_%\")": 35,
+                "(Value=\"BaseHardenedPointPenetration_%\")": 100,
+                "(Value=\"BaseBowCriticalDamage_+%\")": 10,
+                "(Value=\"BaseBowProjectileDamage_+%\")": 15
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -69722,11 +69666,8 @@
                 "RowName": "Meta_Crossbow_Inaris_C"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttacksCauseSlow_%\")": 75,
-                "(Value=\"BaseHardenedPointDamage_+%\")": 100,
-                "(Value=\"BaseBowCriticalDamage_+%\")": 100,
-                "(Value=\"BaseBowProjectileDamage_+%\")": 150,
-                "(Value=\"HighlightShotProjectile_?\")": 1
+                "(Value=\"BaseAttacksCauseSlow_%\")": 25,
+                "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -69821,11 +69762,7 @@
                 "RowName": "Meta_Crossbow_Inaris_D"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttacksCauseSlow_%\")": 75,
-                "(Value=\"BaseHardenedPointDamage_+%\")": 100,
-                "(Value=\"BaseBowCriticalDamage_+%\")": 100,
-                "(Value=\"BaseBowProjectileDamage_+%\")": 150,
-                "(Value=\"HighlightShotProjectile_?\")": 1,
+                "(Value=\"BaseAttacksCauseSlow_%\")": 25,
                 "(Value=\"BaseHardenedPointPenetration_%\")": 100,
                 "(Value=\"BaseFireDamage_+%\")": 35,
                 "(Value=\"BaseFrostDamage_+%\")": 35,
@@ -70553,7 +70490,7 @@
             }
         },
         {
-            "Name": "Helment_Attachment_Cave_Resistance_1",
+            "Name": "Helmet_Attachment_Cave_Resistance_1",
             "Meshable": {
                 "RowName": "Mesh_Attachment_Armor"
             },
@@ -70608,7 +70545,7 @@
             }
         },
         {
-            "Name": "Helment_Attachment_Cave_Resistance_2",
+            "Name": "Helmet_Attachment_Cave_Resistance_2",
             "Meshable": {
                 "RowName": "Mesh_Attachment_Armor"
             },
@@ -70663,7 +70600,7 @@
             }
         },
         {
-            "Name": "Helment_Attachment_Storm_Resistance_1",
+            "Name": "Helmet_Attachment_Storm_Resistance_1",
             "Meshable": {
                 "RowName": "Mesh_Attachment_Armor"
             },
@@ -70718,7 +70655,7 @@
             }
         },
         {
-            "Name": "Helment_Attachment_Storm_Resistance_2",
+            "Name": "Helmet_Attachment_Storm_Resistance_2",
             "Meshable": {
                 "RowName": "Mesh_Attachment_Armor"
             },
@@ -70773,7 +70710,7 @@
             }
         },
         {
-            "Name": "Helment_Attachment_Poison_Water_1",
+            "Name": "Helmet_Attachment_Poison_Water_1",
             "Meshable": {
                 "RowName": "Mesh_Attachment_Armor"
             },
@@ -70828,12 +70765,12 @@
             }
         },
         {
-            "Name": "Helment_Attachment_Poison_Water_2",
+            "Name": "Helmet_Attachment_Poison_Water_2",
             "Meshable": {
                 "RowName": "Mesh_Attachment_Armor"
             },
             "Itemable": {
-                "RowName": "Item_Attachment_Poison_Water_1"
+                "RowName": "Item_Attachment_Poison_Water_2"
             },
             "Interactable": {
                 "RowName": "Item"
@@ -76242,7 +76179,6 @@
                 "RowName": "MetalSledgehammer"
             },
             "AdditionalStats": {
-                "(Value=\"BaseShatteringRewards_%\")": 50,
                 "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
             "Manual_Tags": {
@@ -77164,7 +77100,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -77618,7 +77554,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -77741,13 +77677,13 @@
                 "RowName": "Equippable_Carcass_Medium"
             },
             "Focusable": {
-                "RowName": "Focusable_Carcass_BatDog"
+                "RowName": "Focusable_Carcass_Wolf"
             },
             "Highlightable": {
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -78051,7 +77987,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -78813,7 +78749,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 10,
                 "(Value=\"BaseCriticalDamage_+%\")": 10
             },
             "Manual_Tags": {
@@ -78889,7 +78824,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 10,
                 "(Value=\"BaseCriticalDamage_+%\")": 10
             },
             "Manual_Tags": {
@@ -78965,7 +78899,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 20,
                 "(Value=\"BaseCriticalDamage_+%\")": 20
             },
             "Manual_Tags": {
@@ -79041,7 +78974,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -79117,7 +79049,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -79193,7 +79124,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -79269,7 +79199,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -79345,7 +79274,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -79421,7 +79349,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 10,
                 "(Value=\"BaseCriticalDamage_+%\")": 25,
                 "(Value=\"BaseAttacksCauseWound_%\")": 100,
                 "(Value=\"IsSandwormItem_?\")": 1
@@ -79499,7 +79426,6 @@
                 "RowName": "Throwing_Spear"
             },
             "AdditionalStats": {
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 10,
                 "(Value=\"BaseCriticalDamage_+%\")": 15,
                 "(Value=\"BaseAttacksCausePoison_%\")": 100
             },
@@ -79704,9 +79630,8 @@
                 "RowName": "Platinum_Crossbow"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttacksCauseSlow_%\")": 15,
-                "(Value=\"BaseHardenedPointPenetration_%\")": 100,
-                "(Value=\"BaseHardenedPointDamage_+%\")": 25
+                "(Value=\"BaseAttacksCauseSlow_%\")": 25,
+                "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -79790,8 +79715,8 @@
                 "RowName": "Titanium_Crossbow"
             },
             "AdditionalStats": {
-                "(Value=\"BaseAttacksCauseSlow_%\")": 15,
-                "(Value=\"BaseHardenedPointDamage_+%\")": 40
+                "(Value=\"BaseAttacksCauseSlow_%\")": 25,
+                "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -79860,7 +79785,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -79954,7 +79879,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -80149,7 +80074,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Small"
@@ -80237,7 +80162,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -80414,7 +80339,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Small"
@@ -82488,7 +82413,6 @@
                 "RowName": "Default"
             },
             "AdditionalStats": {
-                "(Value=\"BasePureDamage_+\")": 500,
                 "(Value=\"BaseExplosiveDamage_+\")": 500,
                 "(Value=\"BaseAttacksCauseSlow_%\")": 100
             },
@@ -82562,7 +82486,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Buildable": {
                 "DataTableName": "D_Actionable"
@@ -82659,7 +82583,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Buildable": {
                 "DataTableName": "D_Actionable"
@@ -100094,7 +100018,6 @@
                 "(Value=\"BaseFireDamage_+\")": 33,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15,
                 "(Value=\"BaseShatterSmeltChance_%\")": 30,
-                "(Value=\"BaseShatteringRewards_%\")": 75,
                 "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
             "Manual_Tags": {
@@ -100538,7 +100461,6 @@
             "AdditionalStats": {
                 "(Value=\"BaseFireDamage_+\")": 170,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 15,
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 20,
                 "(Value=\"BaseCriticalDamage_+%\")": 20
             },
             "Manual_Tags": {
@@ -101109,7 +101031,6 @@
             "AdditionalStats": {
                 "(Value=\"BaseFrostDamage_+\")": 200,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -101284,8 +101205,7 @@
                 "(Value=\"BaseFrostDamage_+\")": 40,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
                 "(Value=\"BaseHardenedPointPenetration_%\")": 100,
-                "(Value=\"BaseFrozenOrePerMinedResource_%\")": 90,
-                "(Value=\"BaseShatteringRewards_%\")": 90
+                "(Value=\"BaseFrozenOrePerMinedResource_%\")": 20
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -101497,7 +101417,7 @@
                 "RowName": "Default"
             },
             "AdditionalStats": {
-                "(Value=\"BaseFrostDamage_+\")": 50,
+                "(Value=\"BaseFrostDamage_+\")": 100,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 15
             },
             "Manual_Tags": {
@@ -102192,7 +102112,6 @@
             "AdditionalStats": {
                 "(Value=\"BasePoisonDamage_+\")": 250,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15,
-                "(Value=\"BaseSpearCriticalDamage_+%\")": 25,
                 "(Value=\"BaseCriticalDamage_+%\")": 25
             },
             "Manual_Tags": {
@@ -102367,7 +102286,7 @@
             "AdditionalStats": {
                 "(Value=\"BasePoisonDamage_+\")": 80,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15,
-                "(Value=\"BaseShatteringRewards_%\")": 50,
+                "(Value=\"BaseShatteringRewards_%\")": -50,
                 "(Value=\"BasePyriticCrustPerMinedResource_%\")": 100,
                 "(Value=\"BaseHardenedPointPenetration_%\")": 100
             },
@@ -102645,7 +102564,7 @@
                 "RowName": "Default"
             },
             "AdditionalStats": {
-                "(Value=\"BasePoisonDamage_+\")": 50,
+                "(Value=\"BasePoisonDamage_+\")": 100,
                 "(Value=\"BaseAttacksCauseMiasma_%\")": 15
             },
             "Manual_Tags": {
@@ -103764,7 +103683,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -107964,7 +107883,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Small"
@@ -108057,7 +107976,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -108118,7 +108037,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -120501,7 +120420,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -130745,7 +130664,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -130844,7 +130763,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Small"
@@ -132188,7 +132107,7 @@
                 "RowName": "Mesh_Carcass_Hammerhead_Slug"
             },
             "Itemable": {
-                "RowName": "Item_Carcass_Swamp_Slug"
+                "RowName": "Item_Carcass_Hammerhead_Slug"
             },
             "Interactable": {
                 "RowName": "AnimalCorpse_NoCarry"
@@ -132856,7 +132775,8 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseFireDamage_+\")": 15,
-                "(Value=\"BaseFlamethrowerFuelUse_+\")": 10
+                "(Value=\"BaseFlamethrowerFuelUse_+\")": 10,
+                "(Value=\"BaseFlamethrowerFlameDamageRadius_+\")": 44
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -132980,67 +132900,6 @@
                     },
                     {
                         "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "AnimalCarcass_BlueBack_Juvenile",
-            "Meshable": {
-                "RowName": "Mesh_Carcass_BlueBack"
-            },
-            "Itemable": {
-                "RowName": "Item_Carcass_BlueBack"
-            },
-            "Interactable": {
-                "RowName": "AnimalCorpse_NoCarry"
-            },
-            "Hitable": {
-                "RowName": "AnimalCarcass"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Durable": {
-                "RowName": "Carcass_Medium"
-            },
-            "Decayable": {
-                "RowName": "Decay_10_Minutes"
-            },
-            "Audio": {
-                "RowName": "Default"
-            },
-            "CraftingExperience": 400,
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Harvest.Knife.T2"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Harvest.Knife.T2"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Hitable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
                     },
                     {
                         "TagName": "Traits.Durable"
@@ -135274,7 +135133,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -135317,7 +135176,7 @@
                 "RowName": "Mesh_Carcass_IceMammoth"
             },
             "Itemable": {
-                "RowName": "Item_Carcass_Mammoth"
+                "RowName": "Item_Carcass_Mammoth_Icy"
             },
             "Interactable": {
                 "RowName": "AnimalCorpse_NoCarry"
@@ -135335,7 +135194,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -136419,6 +136278,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Harvest.Knife.T1"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
@@ -136426,6 +136288,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Harvest.Knife.T1"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -137191,14 +137056,17 @@
             "Hitable": {
                 "RowName": "AnimalCarcass"
             },
+            "Equippable": {
+                "RowName": "Equippable_Carcass_Medium"
+            },
+            "Focusable": {
+                "RowName": "Focusable_Carcass_Wolf"
+            },
             "Highlightable": {
                 "RowName": "Generic"
             },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Deployable": {
-                "RowName": "Animal_Carcass"
+            "Actionable": {
+                "RowName": "UtilitySlot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -137223,6 +137091,9 @@
                     },
                     {
                         "TagName": "FieldGuide.BlackList"
+                    },
+                    {
+                        "TagName": "Traits.Equippable.FocusLock"
                     }
                 ]
             },
@@ -137241,6 +137112,9 @@
                         "TagName": "FieldGuide.BlackList"
                     },
                     {
+                        "TagName": "Traits.Equippable.FocusLock"
+                    },
+                    {
                         "TagName": "Traits.Meshable"
                     },
                     {
@@ -137253,13 +137127,13 @@
                         "TagName": "Traits.Hitable"
                     },
                     {
+                        "TagName": "Traits.Equippable"
+                    },
+                    {
                         "TagName": "Traits.Highlightable"
                     },
                     {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Deployable"
+                        "TagName": "Traits.Actionable"
                     },
                     {
                         "TagName": "Traits.Durable"
@@ -137287,14 +137161,17 @@
             "Hitable": {
                 "RowName": "AnimalCarcass"
             },
+            "Equippable": {
+                "RowName": "Equippable_Carcass_Medium"
+            },
+            "Focusable": {
+                "RowName": "Focusable_Carcass_Wolf"
+            },
             "Highlightable": {
                 "RowName": "Generic"
             },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Deployable": {
-                "RowName": "Animal_Carcass"
+            "Actionable": {
+                "RowName": "UtilitySlot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -137319,6 +137196,9 @@
                     },
                     {
                         "TagName": "FieldGuide.BlackList"
+                    },
+                    {
+                        "TagName": "Traits.Equippable.FocusLock"
                     }
                 ]
             },
@@ -137337,6 +137217,9 @@
                         "TagName": "FieldGuide.BlackList"
                     },
                     {
+                        "TagName": "Traits.Equippable.FocusLock"
+                    },
+                    {
                         "TagName": "Traits.Meshable"
                     },
                     {
@@ -137349,13 +137232,13 @@
                         "TagName": "Traits.Hitable"
                     },
                     {
+                        "TagName": "Traits.Equippable"
+                    },
+                    {
                         "TagName": "Traits.Highlightable"
                     },
                     {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Deployable"
+                        "TagName": "Traits.Actionable"
                     },
                     {
                         "TagName": "Traits.Durable"
@@ -137383,17 +137266,20 @@
             "Hitable": {
                 "RowName": "AnimalCarcass"
             },
+            "Equippable": {
+                "RowName": "Equippable_Carcass_Small"
+            },
+            "Focusable": {
+                "RowName": "Focusable_Carcass_Hip"
+            },
             "Highlightable": {
                 "RowName": "Generic"
             },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Deployable": {
-                "RowName": "Animal_Carcass"
+            "Actionable": {
+                "RowName": "UtilitySlot_Drop"
             },
             "Durable": {
-                "RowName": "Carcass_Medium"
+                "RowName": "Carcass_Small"
             },
             "Decayable": {
                 "RowName": "Decay_10_Minutes"
@@ -137445,13 +137331,13 @@
                         "TagName": "Traits.Hitable"
                     },
                     {
+                        "TagName": "Traits.Equippable"
+                    },
+                    {
                         "TagName": "Traits.Highlightable"
                     },
                     {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Deployable"
+                        "TagName": "Traits.Actionable"
                     },
                     {
                         "TagName": "Traits.Durable"
@@ -137489,7 +137375,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Small"
@@ -145272,17 +145158,20 @@
             "Hitable": {
                 "RowName": "AnimalCarcass"
             },
+            "Equippable": {
+                "RowName": "Equippable_Carcass_Small"
+            },
+            "Focusable": {
+                "RowName": "Focusable_Carcass_Hip"
+            },
             "Highlightable": {
                 "RowName": "Generic"
             },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Deployable": {
-                "RowName": "Animal_Carcass"
+            "Actionable": {
+                "RowName": "UtilitySlot_Drop"
             },
             "Durable": {
-                "RowName": "Carcass_Medium"
+                "RowName": "Carcass_Small"
             },
             "Decayable": {
                 "RowName": "Decay_10_Minutes"
@@ -145334,13 +145223,13 @@
                         "TagName": "Traits.Hitable"
                     },
                     {
+                        "TagName": "Traits.Equippable"
+                    },
+                    {
                         "TagName": "Traits.Highlightable"
                     },
                     {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Deployable"
+                        "TagName": "Traits.Actionable"
                     },
                     {
                         "TagName": "Traits.Durable"
@@ -158947,7 +158836,7 @@
                 "RowName": "Mesh_Carcass_Needler_Fire"
             },
             "Itemable": {
-                "RowName": "Item_Carcass_Needler"
+                "RowName": "Item_Carcass_Needler_Fire"
             },
             "Interactable": {
                 "RowName": "AnimalCorpse_NoCarry"
@@ -159097,7 +158986,7 @@
                 "RowName": "Item"
             },
             "Equippable": {
-                "RowName": "Equippable_Carcass_Large"
+                "RowName": "Equippable_StasisBag"
             },
             "Focusable": {
                 "RowName": "Focusable_StasisBag"
@@ -159106,7 +158995,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Decayable": {
                 "RowName": "Decay_NoDecay"
@@ -159175,7 +159064,7 @@
                 "RowName": "Item"
             },
             "Equippable": {
-                "RowName": "Equippable_Carcass_Large"
+                "RowName": "Equippable_StasisBag"
             },
             "Focusable": {
                 "RowName": "Focusable_StasisBag"
@@ -159184,7 +159073,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Decayable": {
                 "RowName": "Decay_NoDecay"
@@ -160842,7 +160731,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Small"
@@ -161620,20 +161509,20 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "Harvest.Knife.T2"
+                        "TagName": "Harvest.Knife.T1"
                     }
                 ]
             },
             "Generated_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "Harvest.Knife.T2"
+                        "TagName": "Harvest.Knife.T1"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -161681,20 +161570,20 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "Harvest.Knife.T2"
+                        "TagName": "Harvest.Knife.T1"
                     }
                 ]
             },
             "Generated_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "Harvest.Knife.T2"
+                        "TagName": "Harvest.Knife.T1"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -163659,7 +163548,8 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseFireDamage_+\")": 25,
-                "(Value=\"BaseFlamethrowerFuelUse_+\")": 10
+                "(Value=\"BaseFlamethrowerFuelUse_+\")": 10,
+                "(Value=\"BaseFlamethrowerFlameDamageRadius_+\")": 44
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -163861,7 +163751,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -163909,7 +163799,7 @@
                 "RowName": "Mesh_Carcass_RockGolem_Juvie_Arctic"
             },
             "Itemable": {
-                "RowName": "Item_Carcass_RockGolem_Juvie"
+                "RowName": "Item_Carcass_RockGolem_Juvie_Arctic"
             },
             "Interactable": {
                 "RowName": "AnimalCorpse_NoCarry"
@@ -163927,7 +163817,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -164422,7 +164312,9 @@
                 "(Value=\"CanMineVoxels_?\")": 1,
                 "(Value=\"BaseMiningRadius_+\")": 100,
                 "(Value=\"BaseArmorDamageModifier_+%\")": 200,
-                "(Value=\"IgnoresRicochet_?\")": 1
+                "(Value=\"IgnoresRicochet_?\")": 1,
+                "(Value=\"VoxelResourceDropItemRewards_?\")": 1,
+                "(Value=\"BaseMiningRewards_%\")": 100
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -167021,7 +166913,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -168369,7 +168261,7 @@
                 "RowName": "Decay_10_Minutes"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Carcass"
             },
             "CraftingExperience": 400,
             "Manual_Tags": {
@@ -170488,7 +170380,7 @@
                 "RowName": "Item"
             },
             "Equippable": {
-                "RowName": "Equippable_Carcass_Large"
+                "RowName": "Equippable_StasisBag"
             },
             "Focusable": {
                 "RowName": "Focusable_StasisBag"
@@ -170497,7 +170389,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Decayable": {
                 "RowName": "Decay_NoDecay"
@@ -173895,82 +173787,6 @@
             }
         },
         {
-            "Name": "Banana_Bread",
-            "Meshable": {
-                "RowName": "Mesh_Generic_Food"
-            },
-            "Itemable": {
-                "RowName": "Item_Banana_Bread"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Generic_Consumable"
-            },
-            "Consumable": {
-                "RowName": "Food_Banana_Bread"
-            },
-            "Usable": {
-                "RowName": "Consume_Stack_Food"
-            },
-            "Decayable": {
-                "RowName": "Decay_Fruit_Vegetable"
-            },
-            "Audio": {
-                "RowName": "Default_Food"
-            },
-            "CraftingExperience": 10,
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Plant"
-                    },
-                    {
-                        "TagName": "Item.Consumable.Food"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Plant"
-                    },
-                    {
-                        "TagName": "Item.Consumable.Food"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Consumable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
             "Name": "Meta_Banana_Seed",
             "Meshable": {
                 "RowName": "Mesh_Generic_Seed"
@@ -175252,6 +175068,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Harvest.Knife.T1"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
@@ -175259,6 +175078,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Harvest.Knife.T1"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -175566,7 +175388,7 @@
                 "RowName": "Item"
             },
             "Equippable": {
-                "RowName": "Equippable_Carcass_Large"
+                "RowName": "Equippable_StasisBag"
             },
             "Focusable": {
                 "RowName": "Focusable_StasisBag"
@@ -175575,7 +175397,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Decayable": {
                 "RowName": "Decay_NoDecay"
@@ -181197,7 +181019,7 @@
                 "RowName": "Item"
             },
             "Equippable": {
-                "RowName": "Equippable_Carcass_Large"
+                "RowName": "Equippable_StasisBag"
             },
             "Focusable": {
                 "RowName": "Focusable_StasisBag"
@@ -181206,7 +181028,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Decayable": {
                 "RowName": "Decay_NoDecay"
@@ -181280,7 +181102,7 @@
                 "RowName": "Item"
             },
             "Equippable": {
-                "RowName": "Equippable_Carcass_Large"
+                "RowName": "Equippable_StasisBag"
             },
             "Focusable": {
                 "RowName": "Focusable_StasisBag"
@@ -181289,7 +181111,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Decayable": {
                 "RowName": "Decay_NoDecay"
@@ -181363,7 +181185,7 @@
                 "RowName": "Item"
             },
             "Equippable": {
-                "RowName": "Equippable_Carcass_Large"
+                "RowName": "Equippable_StasisBag"
             },
             "Focusable": {
                 "RowName": "Focusable_StasisBag"
@@ -181372,7 +181194,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Decayable": {
                 "RowName": "Decay_NoDecay"
@@ -181446,7 +181268,7 @@
                 "RowName": "Item"
             },
             "Equippable": {
-                "RowName": "Equippable_Carcass_Large"
+                "RowName": "Equippable_StasisBag"
             },
             "Focusable": {
                 "RowName": "Focusable_StasisBag"
@@ -181455,7 +181277,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "Carcass_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Decayable": {
                 "RowName": "Decay_NoDecay"

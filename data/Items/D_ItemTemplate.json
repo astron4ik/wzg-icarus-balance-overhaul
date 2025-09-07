@@ -986,12 +986,6 @@
             }
         },
         {
-            "Name": "Carcass_Deer",
-            "ItemStaticData": {
-                "RowName": "AnimalCarcass_Deer"
-            }
-        },
-        {
             "Name": "Skinning_Bench",
             "ItemStaticData": {
                 "RowName": "Kit_Skinning_Bench"
@@ -1281,30 +1275,6 @@
             "Name": "Reed_Flower",
             "ItemStaticData": {
                 "RowName": "Reed_Flower"
-            }
-        },
-        {
-            "Name": "Carcass_Raccoon",
-            "ItemStaticData": {
-                "RowName": "AnimalCarcass_Raccoon"
-            }
-        },
-        {
-            "Name": "Carcass_Chamois",
-            "ItemStaticData": {
-                "RowName": "AnimalCarcass_Chamois_M"
-            }
-        },
-        {
-            "Name": "Carcass_Pronghorn",
-            "ItemStaticData": {
-                "RowName": "AnimalCarcass_Pronghorn"
-            }
-        },
-        {
-            "Name": "Carcass_Bear",
-            "ItemStaticData": {
-                "RowName": "AnimalCarcass_Bear"
             }
         },
         {
@@ -2479,12 +2449,6 @@
             "Name": "Titanium_Spear",
             "ItemStaticData": {
                 "RowName": "Titanium_Spear"
-            }
-        },
-        {
-            "Name": "Cooked_Prime_Meat",
-            "ItemStaticData": {
-                "RowName": "Cooked_Prime_Meat"
             }
         },
         {
@@ -4973,7 +4937,7 @@
             "ItemDynamicData": [
                 {
                     "PropertyType": "ItemableStack",
-                    "Value": 10
+                    "Value": 5
                 }
             ]
         },
@@ -5157,7 +5121,7 @@
                 },
                 {
                     "PropertyType": "Fillable_StoredUnits",
-                    "Value": 100000
+                    "Value": 10000
                 }
             ]
         },
@@ -5750,37 +5714,37 @@
         {
             "Name": "Helmet_Attachment_Cave_Resistance_1",
             "ItemStaticData": {
-                "RowName": "Helment_Attachment_Cave_Resistance_1"
+                "RowName": "Helmet_Attachment_Cave_Resistance_1"
             }
         },
         {
             "Name": "Helmet_Attachment_Cave_Resistance_2",
             "ItemStaticData": {
-                "RowName": "Helment_Attachment_Cave_Resistance_2"
+                "RowName": "Helmet_Attachment_Cave_Resistance_2"
             }
         },
         {
             "Name": "Helmet_Attachment_Storm_Resistance_1",
             "ItemStaticData": {
-                "RowName": "Helment_Attachment_Storm_Resistance_1"
+                "RowName": "Helmet_Attachment_Storm_Resistance_1"
             }
         },
         {
             "Name": "Helmet_Attachment_Storm_Resistance_2",
             "ItemStaticData": {
-                "RowName": "Helment_Attachment_Storm_Resistance_2"
+                "RowName": "Helmet_Attachment_Storm_Resistance_2"
             }
         },
         {
             "Name": "Helmet_Attachment_Poison_Water_1",
             "ItemStaticData": {
-                "RowName": "Helment_Attachment_Poison_Water_1"
+                "RowName": "Helmet_Attachment_Poison_Water_1"
             }
         },
         {
             "Name": "Helmet_Attachment_Poison_Water_2",
             "ItemStaticData": {
-                "RowName": "Helment_Attachment_Poison_Water_2"
+                "RowName": "Helmet_Attachment_Poison_Water_2"
             }
         },
         {
@@ -6422,12 +6386,6 @@
                 "RequiredFeatureLevel": {
                     "RowName": "NewFrontiers"
                 }
-            }
-        },
-        {
-            "Name": "AnimalCarcass_Moa_Juvenile",
-            "ItemStaticData": {
-                "RowName": "AnimalCarcass_Moa_Juvenile"
             }
         },
         {
@@ -10706,7 +10664,7 @@
             "ItemDynamicData": [
                 {
                     "PropertyType": "Fillable_StoredUnits",
-                    "Value": 5000
+                    "Value": 10000
                 },
                 {
                     "PropertyType": "Fillable_Type",
@@ -19149,12 +19107,6 @@
             "Name": "Saddle_Advanced_Arctic",
             "ItemStaticData": {
                 "RowName": "Saddle_Advanced_Arctic"
-            }
-        },
-        {
-            "Name": "Carcass_Bounder",
-            "ItemStaticData": {
-                "RowName": "AnimalCarcass_Bounder_Desert"
             }
         }
     ]

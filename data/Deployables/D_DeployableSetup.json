@@ -843,6 +843,23 @@
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM"
         },
         {
+            "Name": "Flat_Solar_Panel",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Solar/BP_FlatSolarPanel.BP_FlatSolarPanel_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_GEN_Solar_Flat/SM_DEP_GEN_Solar_Flat.SM_DEP_GEN_Solar_Flat",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "BuildableRamp"
+            ],
+            "SnapSocketsOrTags": [
+                "SolarPanel"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "bCanAffectNavigation": false
+        },
+        {
             "Name": "Wind_Turbine",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Wind/BP_WindTurbine.BP_WindTurbine_C",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_WindTurbine.SM_DEP_WindTurbine",
@@ -8121,8 +8138,8 @@
         {
             "Name": "Pump_Jack",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Pump/BP_Pump_Jack.BP_Pump_Jack_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Ice_Borer2.SM_DEP_Ice_Borer2",
-            "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Geyser_Analyzer/SFX_DEPLOY_GEYSER_ANALYZER.SFX_DEPLOY_GEYSER_ANALYZER",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Pump_Jack_T5/SM_DEP_Pump_Jack_T5_Combined.SM_DEP_Pump_Jack_T5_Combined",
+            "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/T5_Polymerizer/SFX_DEPLOY_POLYMERIZER.SFX_DEPLOY_POLYMERIZER",
             "MaxSurfaceSnapAngle": 360,
             "SupportsCustomRotation": false,
             "SnapBehaviour": "SnapPlacementOnly",
@@ -8138,8 +8155,8 @@
         {
             "Name": "Crude_Oil_Refiner",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Refiner/BP_Crude_Oil_Refiner.BP_Crude_Oil_Refiner_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Furnace_Electric_V5.SM_DEP_Furnace_Electric_V5",
-            "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Geyser_Analyzer/SFX_DEPLOY_GEYSER_ANALYZER.SFX_DEPLOY_GEYSER_ANALYZER",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Crude_Oil_Refiner_T5/SM_DEP_Crude_Oil_Refiner_T5_Combined.SM_DEP_Crude_Oil_Refiner_T5_Combined",
+            "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/T5_Polymerizer/SFX_DEPLOY_POLYMERIZER.SFX_DEPLOY_POLYMERIZER",
             "MaxSurfaceSnapAngle": 360,
             "SupportsCustomRotation": false,
             "IgnoreCollisionWhenSnapped": true,
@@ -8148,7 +8165,7 @@
         {
             "Name": "Natural_Oil_Refiner",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Refiner/BP_Natural_Oil_Refiner.BP_Natural_Oil_Refiner_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Furnace_Electric_V5.SM_DEP_Furnace_Electric_V5",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Natural_Oil_Refiner_T5/SM_DEP_Natural_Oil_Refiner_T5.SM_DEP_Natural_Oil_Refiner_T5",
             "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Geyser_Analyzer/SFX_DEPLOY_GEYSER_ANALYZER.SFX_DEPLOY_GEYSER_ANALYZER",
             "MaxSurfaceSnapAngle": 360,
             "SupportsCustomRotation": false,
@@ -8158,21 +8175,21 @@
         {
             "Name": "Polymerizer",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_Polymerizer.BP_Polymerizer_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Bench_Fabricator.SM_DEP_Bench_Fabricator",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Polymerizer_T5/SM_DEP_Polymerizer_T5.SM_DEP_Polymerizer_T5",
+            "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/T5_Polymerizer/SFX_DEPLOY_POLYMERIZER.SFX_DEPLOY_POLYMERIZER",
             "SnapToSurfaceNormal": false
         },
         {
             "Name": "Organic_Extractor",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_Organic_Extractor.BP_Organic_Extractor_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Bench_Fabricator.SM_DEP_Bench_Fabricator",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Organic_Extractor_T5/SM_DEP_Organic_Extractor_T5.SM_DEP_Organic_Extractor_T5",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
             "SnapToSurfaceNormal": false
         },
         {
             "Name": "Crude_Oil_Power_Generator",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Generators/BP_Crude_Oil_Power_Generator.BP_Crude_Oil_Power_Generator_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_GEN_Fuel.SM_DEP_GEN_Fuel",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Crude_Oil_Generator_T5/SM_DEP_Oil_Powered_Generator_T5_Combined.SM_DEP_Oil_Powered_Generator_T5_Combined",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
         },
         {

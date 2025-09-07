@@ -480,6 +480,20 @@
                 "ReflectionMultiplier": 1
             },
             "AIPerceptionVolumeMultiplier": 2
+        },
+        {
+            "Name": "Voxel_Ruby",
+            "PhysicalMaterial": "/Game/Physical_Materials/PM_Voxel_Ruby.PM_Voxel_Ruby",
+            "SurfaceType": "SurfaceType39",
+            "ParticleSystem": "/Game/TRD/Realistic_Starter_VFX_Pack/Particles/Hit/P_Rock.P_Rock",
+            "NiagaraSystem": "NiagaraSystem'/Game/ASS/VFX/VOX/NS_Voxel_Ruby_Hit.NS_Voxel_Ruby_Hit'",
+            "PlayerFootstepAudioData": {
+                "RowName": "Rock"
+            },
+            "FMODParam": "VoxelRock",
+            "AudioReflectionData": {
+                "ReflectionMultiplier": 0.800000011920929
+            }
         }
     ]
 }

@@ -1436,6 +1436,21 @@
             "Name": "Skin_Stomper",
             "EventDescription": "INVTEXT(\"[DNT] Skinned Moa\")",
             "ExperienceGranted": 260
+        },
+        {
+            "Name": "Skin_SlinkerJuve",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Juvenile Raptor\")",
+            "ExperienceGranted": 130
+        },
+        {
+            "Name": "Skin_Storca",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Storca\")",
+            "ExperienceGranted": 870
+        },
+        {
+            "Name": "Skin_Giant_Roach",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Giant Roach\")",
+            "ExperienceGranted": 870
         }
     ]
 }

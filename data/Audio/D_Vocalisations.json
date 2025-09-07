@@ -3444,6 +3444,41 @@
             "Setting": {
                 "RowName": "Persistent"
             }
+        },
+        {
+            "Name": "StomperIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Stomper/SFX_CRE_VOC_STOMPER_IDLE.SFX_CRE_VOC_STOMPER_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "StomperHowl",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Stomper/SFX_CRE_VOC_STOMPER_HOWL.SFX_CRE_VOC_STOMPER_HOWL",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "StomperAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Stomper/SFX_CRE_VOC_STOMPER_ATTACK.SFX_CRE_VOC_STOMPER_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "StomperFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Stomper/SFX_CRE_VOC_STOMPER_FLINCH.SFX_CRE_VOC_STOMPER_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "StomperDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Stomper/SFX_CRE_VOC_STOMPER_DEATH.SFX_CRE_VOC_STOMPER_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
         }
     ]
 }

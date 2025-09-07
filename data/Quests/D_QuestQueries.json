@@ -10372,6 +10372,60 @@
                 ],
                 "AutoDescription": " ALL( FactionMission.Elysium.Story1.Theo )"
             }
+        },
+        {
+            "Name": "ELY_STORY_2_EPSILON",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story2.Epsilon"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story2.Epsilon )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_2_DELTA",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story2.Delta"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story2.Delta )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_2_LAB",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story2.Lab"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story2.Lab )"
+            }
         }
     ]
 }

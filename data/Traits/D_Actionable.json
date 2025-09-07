@@ -1984,7 +1984,7 @@
             }
         },
         {
-            "Name": "Carcass_Drop",
+            "Name": "UtilitySlot_Drop",
             "ActionMapping": {
                 "(RowName=\"DropGSlot\",DataTableName=\"D_Actions\")": {
                     "InputTypes": {
@@ -3162,6 +3162,23 @@
                 }
             },
             "bUseClientPrediction": true
+        },
+        {
+            "Name": "Mining_Laser",
+            "ActionMapping": {
+                "(RowName=\"Mining_Laser\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Primary": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                }
+            }
         }
     ]
 }

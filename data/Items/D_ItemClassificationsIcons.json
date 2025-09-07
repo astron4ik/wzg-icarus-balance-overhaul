@@ -11,7 +11,7 @@
     "Rows": [
         {
             "Name": "Generic",
-            "Icon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_All.Icon_All'",
+            "Icon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Classification_ALL.T_ICON_Classification_ALL'",
             "Tooltip": "NSLOCTEXT(\"D_ItemClassificationsIcons\", \"Generic-Tooltip\", \"All\")"
         },
         {
@@ -19,7 +19,7 @@
             "TagQuery": {
                 "RowName": "Any_Tool"
             },
-            "Icon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Harvest.Icon_Harvest'",
+            "Icon": "Texture2D'/Game/Assets/2DArt/UI/FieldGuide/CategoryIcons/T_ICON_FieldGuide_ToolsMelee.T_ICON_FieldGuide_ToolsMelee'",
             "Tooltip": "NSLOCTEXT(\"D_ItemClassificationsIcons\", \"Tools-Tooltip\", \"Tools\")"
         },
         {
@@ -27,7 +27,7 @@
             "TagQuery": {
                 "RowName": "Any_Bow"
             },
-            "Icon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_ClassBow.T_ICON_ClassBow'",
+            "Icon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_ClassificationBow.T_ICON_ClassificationBow'",
             "Tooltip": "NSLOCTEXT(\"D_ItemClassificationsIcons\", \"Bows-Tooltip\", \"Bows\")"
         },
         {
@@ -43,7 +43,7 @@
             "TagQuery": {
                 "RowName": "Any_Armor"
             },
-            "Icon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_BodyArmour.Icon_BodyArmour'",
+            "Icon": "Texture2D'/Game/Assets/2DArt/UI/FieldGuide/CategoryIcons/T_ICON_FieldGuide_Armor.T_ICON_FieldGuide_Armor'",
             "Tooltip": "NSLOCTEXT(\"D_ItemClassificationsIcons\", \"Armor-Tooltip\", \"Armor\")"
         },
         {
@@ -51,7 +51,7 @@
             "TagQuery": {
                 "RowName": "Any_Building"
             },
-            "Icon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Structures.Icon_Structures'",
+            "Icon": "Texture2D'/Game/Assets/2DArt/UI/FieldGuide/CategoryIcons/T_ICON_FieldGuide_Buildings.T_ICON_FieldGuide_Buildings'",
             "Tooltip": "NSLOCTEXT(\"D_ItemClassificationsIcons\", \"Structures-Tooltip\", \"Structures\")"
         },
         {
@@ -59,7 +59,7 @@
             "TagQuery": {
                 "RowName": "Any_Deployable"
             },
-            "Icon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Deployables.Icon_Deployables'",
+            "Icon": "Texture2D'/Game/Assets/2DArt/UI/FieldGuide/CategoryIcons/T_ICON_FieldGuide_Deployables.T_ICON_FieldGuide_Deployables'",
             "Tooltip": "NSLOCTEXT(\"D_ItemClassificationsIcons\", \"Deployables-Tooltip\", \"Deployables\")"
         },
         {
@@ -67,7 +67,7 @@
             "TagQuery": {
                 "RowName": "Any_Food"
             },
-            "Icon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Consumables.Icon_Consumables'",
+            "Icon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Classification_Consumable.T_ICON_Classification_Consumable'",
             "Tooltip": "NSLOCTEXT(\"D_ItemClassificationsIcons\", \"Consumables-Tooltip\", \"Consumables\")"
         },
         {
@@ -75,7 +75,7 @@
             "TagQuery": {
                 "RowName": "Any_DeployableStorage"
             },
-            "Icon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Storage.Icon_Storage'",
+            "Icon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Classification_Storage.T_ICON_Classification_Storage'",
             "Tooltip": "NSLOCTEXT(\"D_ItemClassificationsIcons\", \"Storage-Tooltip\", \"Storage\")"
         },
         {
@@ -83,7 +83,7 @@
             "TagQuery": {
                 "RowName": "Any_Resource"
             },
-            "Icon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Resources.Icon_Resources'",
+            "Icon": "Texture2D'/Game/Assets/2DArt/UI/FieldGuide/CategoryIcons/T_ICON_FieldGuide_Resources.T_ICON_FieldGuide_Resources'",
             "Tooltip": "NSLOCTEXT(\"D_ItemClassificationsIcons\", \"Resource-Tooltip\", \"Resource\")"
         },
         {
@@ -91,7 +91,7 @@
             "TagQuery": {
                 "RowName": "Any_Ammo"
             },
-            "Icon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Projectiles.Icon_Projectiles'",
+            "Icon": "Texture2D'/Game/Assets/2DArt/UI/FieldGuide/CategoryIcons/T_ICON_FieldGuide_Ammo.T_ICON_FieldGuide_Ammo'",
             "Tooltip": "NSLOCTEXT(\"D_ItemClassificationsIcons\", \"Projectiles-Tooltip\", \"Projectiles\")"
         },
         {
@@ -283,7 +283,7 @@
             "TagQuery": {
                 "RowName": "Any_Quest_Item"
             },
-            "Icon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Assigned.Icon_Assigned'",
+            "Icon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Classification_QuestItem.T_ICON_Classification_QuestItem'",
             "Tooltip": "NSLOCTEXT(\"D_ItemClassificationsIcons\", \"MissionItems-Tooltip\", \"Mission Items\")"
         }
     ]

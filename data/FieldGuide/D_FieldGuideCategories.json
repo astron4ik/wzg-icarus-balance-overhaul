@@ -135,7 +135,7 @@
         },
         {
             "Name": "Plants",
-            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsFewGrid.UMG_FieldGuideResourceItemsFewGrid_C'",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
             "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemPlantsPage.UMG_FieldGuideItemPlantsPage_C'",
             "DisplayOrder": 10,
             "DisplayName": "NSLOCTEXT(\"D_FieldGuideCategories\", \"Plants-DisplayName\", \"Plants\")",

@@ -992,7 +992,7 @@
         {
             "Name": "Ely_Geothermal_Upper",
             "BiomeName": "Refuge Rise",
-            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Geothermal_Upper-DisplayName\", \"Rufuge Rise\")",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Ely_Geothermal_Upper-DisplayName\", \"Refuge Rise\")",
             "Color": {
                 "B": 188,
                 "G": 196,

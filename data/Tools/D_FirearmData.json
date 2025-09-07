@@ -1543,7 +1543,6 @@
                 "X": 0.5,
                 "Y": 1
             },
-            "DamageMultiplier": 1.75,
             "ValidAmmoTypes": {
                 "RowName": "AllRifle"
             },
@@ -1609,7 +1608,7 @@
             },
             "AmmoCapacity": 6,
             "RoundsPerMinute": 80,
-            "ReloadTime": 2.75,
+            "ReloadTime": 3.75,
             "AudioData": {
                 "RowName": "Revolver"
             },
@@ -2546,7 +2545,6 @@
             "ValidAmmoTypes": {
                 "RowName": "AllSnipers"
             },
-            "DamageMultiplier": 2,
             "RoundsPerMinute": 60,
             "ReloadTime": 5,
             "AudioData": {

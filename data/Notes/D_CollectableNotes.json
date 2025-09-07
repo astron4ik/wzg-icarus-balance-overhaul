@@ -246,6 +246,27 @@
                 "RowName": "Item_GH_APE_C_C"
             },
             "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_Ape_C_Procedure_C-Text\", \"- Always clean up after yourself\\r\\n- Store all equipment in the upper storage area next to the battery\\r\\n- Repair the Turbines on the roof, there is a hammer in the nearby cupboard\\r\\n- Always wash your hands when entering and leaving the lab\\r\\n- Disposed of failed samples, burn them if you need to\\r\\n- Watch out for Group 15 and Norex they will try and impersonate lab members \\r\\n- Have Fun (Safely)\\r\\n\\r\\n(Handwritten) Watch for the Garganutan - they have setup Lairs nearby\")"
+        },
+        {
+            "Name": "Mission_ELY2_Epsilon",
+            "Item": {
+                "RowName": "Item_Mission_ELY2_Delta"
+            },
+            "Text": "INVTEXT(\"[DNT] Encrypted Data Epsilon\")"
+        },
+        {
+            "Name": "Mission_ELY2_Delta",
+            "Item": {
+                "RowName": "Item_Mission_ELY2_Delta"
+            },
+            "Text": "INVTEXT(\"[DNT] Encrypted Data Delta\")"
+        },
+        {
+            "Name": "Mission_ELY2_Laptop",
+            "Item": {
+                "RowName": "Item_Mission_ELY2_Laptop"
+            },
+            "Text": "INVTEXT(\"[DNT] Encrypted Terraforming Data\")"
         }
     ]
 }

@@ -747,6 +747,16 @@
             "EffectedByWeather": false
         },
         {
+            "Name": "Flat_Solar_Panel",
+            "Variants": [
+                {
+                    "RowName": "Flat_Solar_Panel",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
             "Name": "LightningRod_Basic",
             "Variants": [
                 {

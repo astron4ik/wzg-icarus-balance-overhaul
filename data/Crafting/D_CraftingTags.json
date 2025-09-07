@@ -1,0 +1,12 @@
+{
+    "RowStruct": "/Script/Icarus.CraftingTag",
+    "Defaults": {
+        "TagName": "",
+        "TagIcon": "None",
+        "Query": {
+            "RowName": "None",
+            "DataTableName": "D_TagQueries"
+        }
+    },
+    "Rows": []
+}

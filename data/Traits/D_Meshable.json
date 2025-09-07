@@ -1362,6 +1362,12 @@
             "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Solar/BP_SolarPanel.BP_SolarPanel_C"
         },
         {
+            "Name": "Mesh_Flat_Solar_Panel",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Fabricator.SM_KIT_Fabricator",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Solar/BP_FlatSolarPanel.BP_FlatSolarPanel_C"
+        },
+        {
             "Name": "Mesh_LightningRod_Basic",
             "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
@@ -1759,12 +1765,12 @@
             "EquipHandMesh": "/Game/ASS/ITM/Sickles/SK_ITM_Sickle_Titanium.SK_ITM_Sickle_Titanium"
         },
         {
-            "Name": "Mesh_Raw_Prime_Meat",
+            "Name": "Mesh_Raw_Giant_Steak",
             "ItemMesh": "/Game/ASS/ITM/SM_ITM_Meat_Prime_Raw.SM_ITM_Meat_Prime_Raw",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {
-            "Name": "Mesh_Cooked_Prime_Meat",
+            "Name": "Mesh_Cooked_Giant_Steak",
             "ItemMesh": "/Game/ASS/ITM/SM_ITM_Meat_Prime_Cooked.SM_ITM_Meat_Prime_Cooked",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
@@ -3834,7 +3840,6 @@
             "Name": "Mesh_Clay_Brick_Kit",
             "ItemMesh": "/Game/ASS/KIT/SM_KIT_Brick_V2.SM_KIT_Brick_V2",
             "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Brick_V2.SM_KIT_Brick_V2",
-            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Railings/BP_Railing_Clay_Brick_Stairs.BP_Railing_Clay_Brick_Stairs_C",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "NewFrontiers"
@@ -6532,8 +6537,7 @@
             "ItemMesh": "/Game/ASS/CRE/Wooly_Zebra/SK_CRE_Wooly_Zebra_Juvi.SK_CRE_Wooly_Zebra_Juvi",
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Juvenile_Wooly_Zebra_Corpse.BP_Juvenile_Wooly_Zebra_Corpse_C",
             "EquipHandMesh": "/Game/ASS/CRE/Wooly_Zebra/SK_CRE_Wooly_Zebra_Juvi.SK_CRE_Wooly_Zebra_Juvi",
-            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Juvenile_Wooly_Zebra_Corpse.BP_Juvenile_Wooly_Zebra_Corpse_C",
-            "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Juvenile_Wooly_Zebra_Corpse.BP_Juvenile_Wooly_Zebra_Corpse_C"
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Juvenile_Wooly_Zebra_Corpse.BP_Juvenile_Wooly_Zebra_Corpse_C"
         },
         {
             "Name": "Mesh_Flame_Thrower",
@@ -6673,31 +6677,28 @@
             "ItemMesh": "/Game/ASS/CRE/Horse/SK_CRE_Horse.SK_CRE_Horse",
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Mount_Horse_Standard_Corpse.BP_Mount_Horse_Standard_Corpse_C",
             "EquipHandMesh": "/Game/ASS/CRE/Horse/SK_CRE_Horse.SK_CRE_Horse",
-            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Mount_Horse_Standard_Corpse.BP_Mount_Horse_Standard_Corpse_C",
-            "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Mount_Horse_Standard_Corpse.BP_Mount_Horse_Standard_Corpse_C"
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Mount_Horse_Standard_Corpse.BP_Mount_Horse_Standard_Corpse_C"
         },
         {
             "Name": "Mesh_Carcass_Tame_Dog_A",
             "ItemMesh": "/Game/ASS/CRE/Labrador/SK_CRE_Labrador.SK_CRE_Labrador",
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Dog_A_Corpse.BP_Tame_Dog_A_Corpse_C",
             "EquipHandMesh": "/Game/ASS/CRE/Labrador/SK_CRE_Labrador.SK_CRE_Labrador",
-            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Dog_A_Corpse.BP_Tame_Dog_A_Corpse_C",
-            "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Dog_A_Corpse.BP_Tame_Dog_A_Corpse_C"
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Dog_A_Corpse.BP_Tame_Dog_A_Corpse_C"
         },
         {
             "Name": "Mesh_Carcass_Tame_Dog_B",
             "ItemMesh": "/Game/ASS/CRE/GermanShep/SK_CRE_German_Shepard.SK_CRE_German_Shepard",
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Dog_B_Corpse.BP_Tame_Dog_B_Corpse_C",
             "EquipHandMesh": "/Game/ASS/CRE/GermanShep/SK_CRE_German_Shepard.SK_CRE_German_Shepard",
-            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Dog_B_Corpse.BP_Tame_Dog_B_Corpse_C",
-            "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Dog_B_Corpse.BP_Tame_Dog_B_Corpse_C"
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Dog_B_Corpse.BP_Tame_Dog_B_Corpse_C"
         },
         {
             "Name": "Mesh_Carcass_Tame_Dog_C",
             "ItemMesh": "/Game/ASS/CRE/Pug/SK_CRE_Pug.SK_CRE_Pug",
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Dog_C_Corpse.BP_Tame_Dog_C_Corpse_C",
-            "EquipHandMesh": "/Game/ASS/CRE/Pug/SK_CRE_Pug.SK_CRE_Pug",
-            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Dog_C_Corpse.BP_Tame_Dog_C_Corpse_C",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "EquipBackMesh": "/Game/ASS/CRE/Pug/SK_CRE_Pug.SK_CRE_Pug",
             "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Dog_C_Corpse.BP_Tame_Dog_C_Corpse_C"
         },
         {
@@ -6768,8 +6769,8 @@
             "Name": "Mesh_Carcass_Tame_Dog_D",
             "ItemMesh": "/Game/ASS/CRE/Laika/SK_CRE_Dog_Laika.SK_CRE_Dog_Laika",
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Dog_D_Corpse.BP_Tame_Dog_D_Corpse_C",
-            "EquipHandMesh": "/Game/ASS/CRE/Laika/SK_CRE_Dog_Laika.SK_CRE_Dog_Laika",
-            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Dog_D_Corpse.BP_Tame_Dog_D_Corpse_C",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "EquipBackMesh": "/Game/ASS/CRE/Laika/SK_CRE_Dog_Laika.SK_CRE_Dog_Laika",
             "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Dog_D_Corpse.BP_Tame_Dog_D_Corpse_C"
         },
         {
@@ -6998,6 +6999,12 @@
         {
             "Name": "Mesh_Hornet_Wing",
             "ItemMesh": "/Game/ASS/ITM/Hornet_Torn_Wing/SM_ITM_Hornet_Torn_Wing.SM_ITM_Hornet_Torn_Wing"
+        },
+        {
+            "Name": "Mesh_Hornet_Trophy",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Machining.SM_KIT_Machining",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Hornet.BP_Trophy_Hornet_C"
         },
         {
             "Name": "Mesh_Plant_Boss_Bow",
@@ -7779,9 +7786,9 @@
         },
         {
             "Name": "Mesh_Mining_Laser",
-            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Fabricator.SM_KIT_Fabricator",
-            "EquipHandMesh": "/Game/ASS/WEP/SK_PIC_Obsidian.SK_PIC_Obsidian",
-            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_MiningLaser.BP_SkeletalItem_MiningLaser_C"
+            "ItemMesh": "/Game/ASS/WEP/SK_GUN_Flamethrower_SML/SK_GUN_Flamethrower_SML.SK_GUN_Flamethrower_SML",
+            "EquipHandMesh": "/Game/ASS/WEP/SK_GUN_Flamethrower_SML/SK_GUN_Flamethrower_SML.SK_GUN_Flamethrower_SML",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Mining_Laser.BP_SkeletalItem_Mining_Laser_C"
         },
         {
             "Name": "Mesh_Radiation_Tracker",
@@ -7835,6 +7842,18 @@
             "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Hay_Bale_A.BP_Hay_Bale_A_C"
+        },
+        {
+            "Name": "Mesh_ClayBrick_Fireplace",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Brick_V2.SM_KIT_Brick_V2",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_ClayBrick_Fireplace.BP_ClayBrick_Fireplace_C"
+        },
+        {
+            "Name": "Mesh_StoneBrick_Fireplace",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Brick_V2.SM_KIT_Brick_V2",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_StoneBrick_Fireplace.BP_StoneBrick_Fireplace_C"
         }
     ]
 }

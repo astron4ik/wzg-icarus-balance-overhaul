@@ -91,7 +91,7 @@
             "DropName": "NSLOCTEXT(\"D_ProspectList\", \"Outpost002_Forest-DropName\", \"ARCWOOD: Outpost\")",
             "DesignNotes": "Available on Standard Edition Icarus",
             "Description": "NSLOCTEXT(\"D_ProspectList\", \"Outpost002_Forest-Description\", \"UDA DESIGNATED \\'SAFE ZONE\\'\")",
-            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Outpost002_Forest-FlavourText\", \"Open untimed access to a stable forest region.\")",
+            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Outpost002_Forest-FlavourText\", \"Endless green stretches as far as the eye can see, with ancient trees, moss-covered rocks, and hidden streams shaping a living, breathing wilderness. The forest invites explorers to carve out their place among its secrets, offering both shelter and challenge in equal measure.\")",
             "ProspectImage": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_ExpeditionSpear01_Large.T_Prospect_Forest_ExpeditionSpear01_Large'",
             "DifficultySetup": {
                 "Easy": {
@@ -197,7 +197,7 @@
             "DropName": "NSLOCTEXT(\"D_ProspectList\", \"Outpost003_Arctic-DropName\", \"ICEHOLM: Outpost\")",
             "DesignNotes": "Arctic Outpost - Available in DLC",
             "Description": "NSLOCTEXT(\"D_ProspectList\", \"Outpost003_Arctic-Description\", \"UDA DESIGNATED \\'SAFE ZONE\\'\")",
-            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Outpost003_Arctic-FlavourText\", \"Open, untimed access to a stable arctic region.\")",
+            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Outpost003_Arctic-FlavourText\", \"Iceholm is a frozen expanse that stretches to the horizon, with snow-draped plains, jagged ice cliffs, and glimmering frozen lakes. Survival here is a test of skill and courage, but the stark beauty and hidden resources make it a land worth mastering.\")",
             "ProspectImage": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_Pickaxe01_Large.T_Prospect_Arctic_Pickaxe01_Large'",
             "DifficultySetup": {
                 "Easy": {
@@ -309,7 +309,7 @@
             "DropName": "NSLOCTEXT(\"D_ProspectList\", \"Outpost004_Deset-DropName\", \"TECTON: Outpost\")",
             "DesignNotes": "Desert Outpost - Available in DLC",
             "Description": "NSLOCTEXT(\"D_ProspectList\", \"Outpost004_Deset-Description\", \"UDA DESIGNATED \\'SAFE ZONE\\'\")",
-            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Outpost004_Deset-FlavourText\", \"Open, untimed access to a stable desert region.\")",
+            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Outpost004_Deset-FlavourText\", \"Tecton features endless dunes that stretch under the blazing sun, punctuated by rocky outcrops and hidden oases. This harsh landscape challenges explorers at every turn, rewarding those who dare to uncover its secrets with rare resources and breathtaking vistas.\")",
             "ProspectImage": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_Lurker01_Large.T_Prospect_Desert_Lurker01_Large'",
             "DifficultySetup": {
                 "Easy": {
@@ -421,7 +421,7 @@
             "DropName": "NSLOCTEXT(\"D_ProspectList\", \"Outpost005_Forest-DropName\", \"HOLDFAST: Outpost\")",
             "DesignNotes": "Forest Outpost 2 - Available in DLC",
             "Description": "NSLOCTEXT(\"D_ProspectList\", \"Outpost005_Forest-Description\", \"UDA DESIGNATED \\'SAFE ZONE\\'\")",
-            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Outpost005_Forest-FlavourText\", \"Open untimed access to a stable forest region.\")",
+            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Outpost005_Forest-FlavourText\", \"Holdfast is a sprawling expanse of dense forest, where sunlight filters through towering trees and winding paths lead to hidden clearings. Abundant wildlife and natural resources make it a haven for explorers and settlers looking to build, hunt, and thrive in a vibrant, living wilderness.\")",
             "ProspectImage": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Lumberjack01_Large.T_Prospect_Forest_Lumberjack01_Large'",
             "DifficultySetup": {
                 "Easy": {
@@ -533,7 +533,7 @@
             "DropName": "NSLOCTEXT(\"D_ProspectList\", \"Outpost006_Forest-DropName\", \"EVERBARK: Outpost\")",
             "DesignNotes": "Forest Outpost 3 - Available in DLC",
             "Description": "NSLOCTEXT(\"D_ProspectList\", \"Outpost006_Forest-Description\", \"UDA DESIGNATED \\'SAFE ZONE\\'\")",
-            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Outpost006_Forest-FlavourText\", \"Open, untimed access to a stable forest region.\")",
+            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Outpost006_Forest-FlavourText\", \"Everbark is a seemingly endless forest that stretches in every direction, its thick canopy hiding twisting trails, shadowed glades, and secrets waiting to be uncovered. Every step could lead to discovery-or danger-as the wild heart of the forest tests those bold enough to venture within.\")",
             "ProspectImage": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Delivery01_Large.T_Prospect_Forest_Delivery01_Large'",
             "DifficultySetup": {
                 "Easy": {
@@ -645,7 +645,7 @@
             "DropName": "NSLOCTEXT(\"D_ProspectList\", \"Outpost007_Desert-DropName\", \"CACTUS: Outpost\")",
             "DesignNotes": "Desert Outpost 2- Available in DLC",
             "Description": "NSLOCTEXT(\"D_ProspectList\", \"Outpost007_Desert-Description\", \"UDA DESIGNATED \\'SAFE ZONE\\'\")",
-            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Outpost007_Desert-FlavourText\", \"Open, untimed access to a stable desert region.\")",
+            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Outpost007_Desert-FlavourText\", \"Cactus is a scorching desert that spreads as far as the eye can see, with jagged canyons, sunbaked plateaus, and sparse water sources. Survival here demands cunning and resilience, making every discovery a hard-won triumph in the unforgiving heat.\")",
             "ProspectImage": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Desert_ScorpionSummon01_Large.T_Prospect_Desert_ScorpionSummon01_Large'",
             "DifficultySetup": {
                 "Easy": {
@@ -757,7 +757,7 @@
             "DropName": "NSLOCTEXT(\"D_ProspectList\", \"Outpost008_Arctic-DropName\", \"ARCTICUS: Outpost\")",
             "DesignNotes": "Arctic Outpost - Available in DLC",
             "Description": "NSLOCTEXT(\"D_ProspectList\", \"Outpost008_Arctic-Description\", \"UDA DESIGNATED \\'SAFE ZONE\\'\")",
-            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Outpost008_Arctic-FlavourText\", \"Open, untimed access to a stable arctic region.\")",
+            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Outpost008_Arctic-FlavourText\", \"Arcticus is a realm of endless white, where biting winds whip across ice fields and snow-covered peaks hide secrets beneath the frozen surface. Every step is a challenge, and only those prepared for isolation and danger will uncover what lies beneath the frost.\")",
             "ProspectImage": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_HeavyFog01_Large.T_Prospect_Arctic_HeavyFog01_Large'",
             "DifficultySetup": {
                 "Easy": {
@@ -14322,6 +14322,8 @@
             "Name": "Outpost009_IceVolcano",
             "DropName": "NSLOCTEXT(\"D_ProspectList\", \"Outpost009_IceVolcano-DropName\", \"FROSTFALL: Outpost\")",
             "DesignNotes": "Arctic/Volcanic Outpost - Available in DLC",
+            "Description": "NSLOCTEXT(\"D_ProspectList\", \"Outpost009_IceVolcano-Description\", \"UDA DESIGNATED \\'SAFE ZONE\\'\")",
+            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Outpost009_IceVolcano-FlavourText\", \"Frostfall is a dramatic collision of fire and ice, where lava rivers pour into frozen lakes and steam rises against howling blizzards. At its heart looms an active volcano, its vast network of caves alive with danger and rich resources, offering both peril and promise to those bold enough to explore.\")",
             "ProspectImage": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Arctic_HeavyFog01_Large.T_Prospect_Arctic_HeavyFog01_Large'",
             "DifficultySetup": {
                 "Easy": {
