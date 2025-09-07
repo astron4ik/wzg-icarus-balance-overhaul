@@ -4937,7 +4937,7 @@
             "ItemDynamicData": [
                 {
                     "PropertyType": "ItemableStack",
-                    "Value": 5
+                    "Value": 10
                 }
             ]
         },
@@ -5121,7 +5121,7 @@
                 },
                 {
                     "PropertyType": "Fillable_StoredUnits",
-                    "Value": 10000
+                    "Value": 100000
                 }
             ]
         },
@@ -10664,7 +10664,7 @@
             "ItemDynamicData": [
                 {
                     "PropertyType": "Fillable_StoredUnits",
-                    "Value": 10000
+                    "Value": 5000
                 },
                 {
                     "PropertyType": "Fillable_Type",

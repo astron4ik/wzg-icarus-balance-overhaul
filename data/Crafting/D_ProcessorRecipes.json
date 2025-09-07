@@ -534,7 +534,7 @@
                         "RowName": "Bone",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 5
+                    "Count": 1
                 }
             ],
             "Outputs": [
@@ -720,7 +720,7 @@
                         "RowName": "Sulfur",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 8
+                    "Count": 2
                 }
             ],
             "Outputs": [
@@ -6246,7 +6246,7 @@
                         "RowName": "Glass",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 1,
+                    "Count": 10,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -6381,7 +6381,7 @@
             "Requirement": {
                 "RowName": "Gunpowder"
             },
-            "RequiredMillijoules": 2000,
+            "RequiredMillijoules": 200,
             "RecipeSets": [
                 {
                     "RowName": "Mortar_And_Pestle",
@@ -6459,7 +6459,7 @@
                         "RowName": "Organic_Resin",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4
+                    "Count": 2
                 },
                 {
                     "Element": {
@@ -6512,21 +6512,21 @@
                         "RowName": "Copper_Wire",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 15
+                    "Count": 1
                 },
                 {
                     "Element": {
                         "RowName": "Organic_Resin",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 2
+                    "Count": 1
                 },
                 {
                     "Element": {
                         "RowName": "Epoxy",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 2
+                    "Count": 1
                 }
             ],
             "Outputs": [
@@ -6565,7 +6565,7 @@
                         "RowName": "Steel_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 5
                 },
                 {
                     "Element": {
@@ -7046,7 +7046,7 @@
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 60
+                    "Count": 20
                 },
                 {
                     "Element": {
@@ -7596,7 +7596,7 @@
                         "RowName": "Concrete_Halfpiece",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 1,
+                    "Count": 2,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -7858,7 +7858,7 @@
                         "RowName": "Refined_Metal",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6
+                    "Count": 4
                 },
                 {
                     "Element": {
@@ -7872,7 +7872,7 @@
                         "RowName": "Epoxy",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4
+                    "Count": 2
                 }
             ],
             "Outputs": [
@@ -7984,7 +7984,7 @@
                         "RowName": "Aluminium",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 18
+                    "Count": 8
                 },
                 {
                     "Element": {
@@ -8037,7 +8037,7 @@
                         "RowName": "Refined_Metal",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 40
+                    "Count": 20
                 },
                 {
                     "Element": {
@@ -8435,7 +8435,7 @@
                         "RowName": "Silica",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4
+                    "Count": 1
                 }
             ],
             "Outputs": [
@@ -8444,7 +8444,7 @@
                         "RowName": "Concrete_Mix",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 1,
+                    "Count": 10,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -8532,7 +8532,7 @@
         },
         {
             "Name": "Tree_Sap",
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 50,
             "RecipeSets": [
                 {
                     "RowName": "Mortar_And_Pestle",
@@ -8572,7 +8572,7 @@
             "Requirement": {
                 "RowName": "Composite_Paste"
             },
-            "RequiredMillijoules": 5000,
+            "RequiredMillijoules": 2500,
             "RecipeSets": [
                 {
                     "RowName": "Material_Processor",
@@ -8629,7 +8629,7 @@
             "Requirement": {
                 "RowName": "Composite_Paste"
             },
-            "RequiredMillijoules": 5000,
+            "RequiredMillijoules": 2500,
             "RecipeSets": [
                 {
                     "RowName": "Material_Processor",
@@ -8705,7 +8705,7 @@
                         "RowName": "Aluminium",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4
+                    "Count": 2
                 },
                 {
                     "Element": {
@@ -8719,7 +8719,7 @@
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 2
+                    "Count": 1
                 }
             ],
             "Outputs": [
@@ -8776,7 +8776,7 @@
                         "RowName": "Composite_Arrow",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 5,
+                    "Count": 10,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -8851,7 +8851,7 @@
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 10
+                    "Count": 5
                 },
                 {
                     "Element": {
@@ -9163,14 +9163,14 @@
                         "RowName": "Aluminium",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 30
+                    "Count": 20
                 },
                 {
                     "Element": {
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 60
+                    "Count": 20
                 },
                 {
                     "Element": {
@@ -9227,7 +9227,7 @@
                         "RowName": "Wood",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 1
+                    "Count": 5
                 }
             ],
             "Outputs": [
@@ -9236,7 +9236,7 @@
                         "RowName": "Stick",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 10,
+                    "Count": 100,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -10233,7 +10233,7 @@
                         "RowName": "Wood",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 60
+                    "Count": 10
                 },
                 {
                     "Element": {
@@ -10640,7 +10640,7 @@
                         "RowName": "Ammo_Shell_Buckshot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 5
+                    "Count": 1
                 },
                 {
                     "Element": {
@@ -10942,7 +10942,7 @@
                         "RowName": "Aluminium",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 16
+                    "Count": 8
                 },
                 {
                     "Element": {
@@ -10956,7 +10956,7 @@
                         "RowName": "Composites",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 18
+                    "Count": 10
                 },
                 {
                     "Element": {
@@ -11013,7 +11013,7 @@
                         "RowName": "Titanium_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 40
+                    "Count": 10
                 },
                 {
                     "Element": {
@@ -11372,7 +11372,7 @@
             "Requirement": {
                 "RowName": "Flour"
             },
-            "RequiredMillijoules": 1250,
+            "RequiredMillijoules": 500,
             "RecipeSets": [
                 {
                     "RowName": "Mortar_And_Pestle",
@@ -11443,7 +11443,7 @@
                     "Type": {
                         "Value": "Water"
                     },
-                    "RequiredUnits": 100
+                    "RequiredUnits": 10
                 }
             ],
             "Outputs": [
@@ -11494,7 +11494,7 @@
                     "Type": {
                         "Value": "Water"
                     },
-                    "RequiredUnits": 100
+                    "RequiredUnits": 10
                 }
             ],
             "Outputs": [
@@ -11533,14 +11533,14 @@
                         "RowName": "Steel_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 5
                 },
                 {
                     "Element": {
                         "RowName": "Refined_Copper",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4
+                    "Count": 1
                 },
                 {
                     "Element": {
@@ -11608,7 +11608,7 @@
                         "RowName": "Meta_Resource",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 1,
+                    "Count": 10,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -12098,7 +12098,7 @@
                         "RowName": "Glass",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 5
+                    "Count": 1
                 }
             ],
             "Outputs": [
@@ -12221,7 +12221,7 @@
                         "RowName": "Epoxy",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 8
+                    "Count": 2
                 },
                 {
                     "Element": {
@@ -12235,7 +12235,7 @@
                         "RowName": "Steel_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 12
+                    "Count": 2
                 }
             ],
             "Outputs": [
@@ -12274,7 +12274,7 @@
                         "RowName": "Refined_Metal",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 25
+                    "Count": 5
                 }
             ],
             "Outputs": [
@@ -12327,7 +12327,7 @@
                         "RowName": "Aluminium",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 8
+                    "Count": 4
                 },
                 {
                     "Element": {
@@ -12520,14 +12520,14 @@
                         "RowName": "Refined_Metal",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 10
                 },
                 {
                     "Element": {
                         "RowName": "Refined_Copper",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4
+                    "Count": 1
                 }
             ],
             "Outputs": [
@@ -12570,14 +12570,14 @@
                         "RowName": "Refined_Metal",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 40
+                    "Count": 20
                 },
                 {
                     "Element": {
                         "RowName": "Refined_Copper",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6
+                    "Count": 5
                 },
                 {
                     "Element": {
@@ -13016,7 +13016,7 @@
                         "RowName": "Epoxy",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 12
+                    "Count": 4
                 },
                 {
                     "Element": {
@@ -13030,7 +13030,7 @@
                         "RowName": "Copper_Wire",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 50
+                    "Count": 5
                 }
             ],
             "Outputs": [
@@ -13170,7 +13170,7 @@
                         "RowName": "Titanium_Ore",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 5
+                    "Count": 2
                 }
             ],
             "Outputs": [
@@ -13207,7 +13207,7 @@
                         "RowName": "Platinum_Ore",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 5
+                    "Count": 2
                 }
             ],
             "Outputs": [
@@ -13808,7 +13808,7 @@
                         "RowName": "Charcoal",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 1,
+                    "Count": 10,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -13928,7 +13928,7 @@
                         "RowName": "Titanium_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 12
+                    "Count": 6
                 }
             ],
             "Outputs": [
@@ -13989,7 +13989,7 @@
                         "RowName": "Titanium_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 12
+                    "Count": 6
                 }
             ],
             "Outputs": [
@@ -15000,14 +15000,14 @@
                         "RowName": "Aluminium",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 40
+                    "Count": 10
                 },
                 {
                     "Element": {
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 5
                 },
                 {
                     "Element": {
@@ -15270,7 +15270,7 @@
                         "RowName": "Epoxy",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 3
+                    "Count": 2
                 }
             ],
             "Outputs": [
@@ -15324,7 +15324,7 @@
                         "RowName": "Epoxy",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 3
+                    "Count": 2
                 }
             ],
             "Outputs": [
@@ -15371,14 +15371,14 @@
                         "RowName": "Glass",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 10
+                    "Count": 5
                 },
                 {
                     "Element": {
                         "RowName": "Epoxy",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 3
+                    "Count": 2
                 }
             ],
             "Outputs": [
@@ -15425,14 +15425,14 @@
                         "RowName": "Glass",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 10
                 },
                 {
                     "Element": {
                         "RowName": "Epoxy",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6
+                    "Count": 2
                 }
             ],
             "Outputs": [
@@ -15486,7 +15486,7 @@
                         "RowName": "Epoxy",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 3
+                    "Count": 1
                 }
             ],
             "Outputs": [
@@ -15526,14 +15526,14 @@
                         "RowName": "Refined_Metal",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4
+                    "Count": 2
                 },
                 {
                     "Element": {
                         "RowName": "Epoxy",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6
+                    "Count": 2
                 }
             ],
             "Outputs": [
@@ -15582,7 +15582,7 @@
                         "RowName": "Epoxy",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6
+                    "Count": 2
                 }
             ],
             "Outputs": [
@@ -15617,7 +15617,7 @@
                         "RowName": "Wood",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 12
+                    "Count": 2
                 },
                 {
                     "Element": {
@@ -15631,7 +15631,7 @@
                         "RowName": "Epoxy",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4
+                    "Count": 1
                 }
             ],
             "Outputs": [
@@ -15692,7 +15692,7 @@
                         "RowName": "Titanium_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 8
+                    "Count": 4
                 }
             ],
             "Outputs": [
@@ -15756,7 +15756,7 @@
                         "RowName": "Titanium_Arrow",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 5,
+                    "Count": 10,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -15803,7 +15803,7 @@
                         "RowName": "Titanium_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 10
+                    "Count": 4
                 }
             ],
             "Outputs": [
@@ -16224,7 +16224,7 @@
                         "RowName": "Poison_Paste",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 2
+                    "Count": 1
                 }
             ],
             "Outputs": [
@@ -16247,7 +16247,7 @@
             "Requirement": {
                 "RowName": "Poison_Paste"
             },
-            "RequiredMillijoules": 5000,
+            "RequiredMillijoules": 500,
             "RecipeSets": [
                 {
                     "RowName": "Mortar_And_Pestle",
@@ -16310,7 +16310,7 @@
                         "RowName": "Metal_Ore",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6
+                    "Count": 3
                 },
                 {
                     "Element": {
@@ -16356,7 +16356,7 @@
                         "RowName": "Refined_Metal",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 3
+                    "Count": 1
                 },
                 {
                     "Element": {
@@ -17145,7 +17145,7 @@
                         "RowName": "Epoxy",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 12
+                    "Count": 4
                 },
                 {
                     "Element": {
@@ -17159,7 +17159,7 @@
                         "RowName": "Copper_Wire",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 50
+                    "Count": 5
                 }
             ],
             "Outputs": [
@@ -17198,35 +17198,35 @@
                         "RowName": "Gold_Wire",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 30
+                    "Count": 3
                 },
                 {
                     "Element": {
                         "RowName": "Copper_Wire",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 25
+                    "Count": 1
                 },
                 {
                     "Element": {
                         "RowName": "Steel_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 10
+                    "Count": 1
                 },
                 {
                     "Element": {
                         "RowName": "Platinum_Shealth",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 5
                 },
                 {
                     "Element": {
                         "RowName": "Glass",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 10
+                    "Count": 1
                 }
             ],
             "Outputs": [
@@ -17304,7 +17304,7 @@
                         "RowName": "Crushed_Bone",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4
+                    "Count": 2
                 }
             ],
             "Outputs": [
@@ -18085,7 +18085,7 @@
                         "RowName": "Fur",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 10
+                    "Count": 1
                 },
                 {
                     "Element": {
@@ -18145,7 +18145,7 @@
                         "RowName": "Polarbear_Pelt",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 8
+                    "Count": 2
                 },
                 {
                     "Element": {
@@ -18205,7 +18205,7 @@
                         "RowName": "Polarbear_Pelt",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4
+                    "Count": 1
                 },
                 {
                     "Element": {
@@ -18265,7 +18265,7 @@
                         "RowName": "Polarbear_Pelt",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6
+                    "Count": 1
                 },
                 {
                     "Element": {
@@ -18325,7 +18325,7 @@
                         "RowName": "Polarbear_Pelt",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 2
+                    "Count": 1
                 },
                 {
                     "Element": {
@@ -18389,7 +18389,7 @@
                         "RowName": "Rope",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 1,
+                    "Count": 10,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -18714,7 +18714,7 @@
                         "RowName": "Ammo_Rifle_Round",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 5
+                    "Count": 1
                 },
                 {
                     "Element": {
@@ -18730,7 +18730,7 @@
                         "RowName": "Ammo_Rifle_Round_Explosive",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 5,
+                    "Count": 1,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -18757,7 +18757,7 @@
                         "RowName": "Steel_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 1
+                    "Count": 10
                 }
             ],
             "Outputs": [
@@ -18766,7 +18766,7 @@
                         "RowName": "Steel_Rebar",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 10,
+                    "Count": 1000,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -18795,7 +18795,7 @@
                         "RowName": "Leather",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 5
+                    "Count": 1
                 }
             ],
             "Outputs": [
@@ -18836,7 +18836,7 @@
                         "RowName": "Epoxy",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 3
+                    "Count": 1
                 },
                 {
                     "Element": {
@@ -18902,7 +18902,7 @@
                         "RowName": "Titanium_Bolt",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 5,
+                    "Count": 10,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -20021,7 +20021,7 @@
                         "RowName": "Titanium_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 10
+                    "Count": 4
                 }
             ],
             "Outputs": [
@@ -20500,7 +20500,7 @@
                         "RowName": "Leather",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 15
+                    "Count": 1
                 },
                 {
                     "Element": {
@@ -20521,7 +20521,7 @@
                         "RowName": "Copper_Nail",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 10
+                    "Count": 8
                 }
             ],
             "Outputs": [
@@ -20618,7 +20618,7 @@
                         "RowName": "Ammo_Pistol_Round",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 5
+                    "Count": 1
                 },
                 {
                     "Element": {
@@ -20634,7 +20634,7 @@
                         "RowName": "Ammo_Pistol_Round_Explosive",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 5,
+                    "Count": 1,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -21699,7 +21699,7 @@
                         "RowName": "Corn",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 3
+                    "Count": 1
                 }
             ],
             "ResourceInputs": [
@@ -21747,7 +21747,7 @@
                         "RowName": "Mushroom",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 3
+                    "Count": 1
                 }
             ],
             "ResourceInputs": [
@@ -22759,21 +22759,21 @@
                         "RowName": "Aluminium",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 10
                 },
                 {
                     "Element": {
                         "RowName": "Glass",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 15
+                    "Count": 5
                 },
                 {
                     "Element": {
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 35
+                    "Count": 5
                 },
                 {
                     "Element": {
@@ -22787,7 +22787,7 @@
                         "RowName": "Composites",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 5
                 }
             ],
             "Outputs": [
@@ -22822,7 +22822,7 @@
                         "RowName": "Aluminium",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 10
+                    "Count": 4
                 },
                 {
                     "Element": {
@@ -22836,14 +22836,14 @@
                         "RowName": "Composites",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 5
+                    "Count": 3
                 },
                 {
                     "Element": {
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 2
+                    "Count": 1
                 }
             ],
             "Outputs": [
@@ -22878,7 +22878,7 @@
                         "RowName": "Aluminium",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 6
                 },
                 {
                     "Element": {
@@ -22892,14 +22892,14 @@
                         "RowName": "Composites",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 10
+                    "Count": 5
                 },
                 {
                     "Element": {
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 2
+                    "Count": 1
                 }
             ],
             "Outputs": [
@@ -22934,14 +22934,14 @@
                         "RowName": "Aluminium",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 40
+                    "Count": 10
                 },
                 {
                     "Element": {
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 50
                 },
                 {
                     "Element": {
@@ -22990,14 +22990,14 @@
                         "RowName": "Aluminium",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 40
+                    "Count": 10
                 },
                 {
                     "Element": {
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 5
                 },
                 {
                     "Element": {
@@ -23034,7 +23034,7 @@
             "Requirement": {
                 "RowName": "Biofuel_Generator"
             },
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -23110,14 +23110,14 @@
                         "RowName": "Copper_Wire",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 50
+                    "Count": 5
                 },
                 {
                     "Element": {
                         "RowName": "Gold_Wire",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 50
+                    "Count": 5
                 },
                 {
                     "Element": {
@@ -23163,14 +23163,14 @@
                         "RowName": "Copper_Wire",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 50
+                    "Count": 5
                 },
                 {
                     "Element": {
                         "RowName": "Gold_Wire",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 50
+                    "Count": 5
                 },
                 {
                     "Element": {
@@ -23213,7 +23213,7 @@
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 30
+                    "Count": 10
                 },
                 {
                     "Element": {
@@ -23227,21 +23227,21 @@
                         "RowName": "Glass",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 60
+                    "Count": 20
                 },
                 {
                     "Element": {
                         "RowName": "Composites",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 18
+                    "Count": 5
                 },
                 {
                     "Element": {
                         "RowName": "Carbon_Fiber",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 8
+                    "Count": 5
                 }
             ],
             "Outputs": [
@@ -23291,7 +23291,7 @@
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 5
                 },
                 {
                     "Element": {
@@ -23341,21 +23341,21 @@
                         "RowName": "Composites",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 10
                 },
                 {
                     "Element": {
                         "RowName": "Concrete_Mix",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 100
+                    "Count": 10
                 },
                 {
                     "Element": {
                         "RowName": "Steel_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 60
+                    "Count": 20
                 },
                 {
                     "Element": {
@@ -23369,7 +23369,7 @@
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 5
                 }
             ],
             "Outputs": [
@@ -23405,7 +23405,7 @@
                         "RowName": "Steel_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 60
+                    "Count": 20
                 },
                 {
                     "Element": {
@@ -23419,7 +23419,7 @@
                         "RowName": "Concrete_Mix",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 100
+                    "Count": 10
                 },
                 {
                     "Element": {
@@ -23433,7 +23433,7 @@
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 5
                 }
             ],
             "Outputs": [
@@ -23469,7 +23469,7 @@
                         "RowName": "Steel_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 60
+                    "Count": 20
                 },
                 {
                     "Element": {
@@ -23483,7 +23483,7 @@
                         "RowName": "Refined_Metal",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 40
+                    "Count": 20
                 },
                 {
                     "Element": {
@@ -23497,7 +23497,7 @@
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 5
                 }
             ],
             "Outputs": [
@@ -23532,21 +23532,21 @@
                         "RowName": "Refined_Metal",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 15
+                    "Count": 5
                 },
                 {
                     "Element": {
                         "RowName": "Glass",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6
+                    "Count": 5
                 },
                 {
                     "Element": {
                         "RowName": "Copper_Wire",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 40
+                    "Count": 5
                 }
             ],
             "Outputs": [
@@ -24432,21 +24432,21 @@
                         "RowName": "Steel_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 12
+                    "Count": 4
                 },
                 {
                     "Element": {
                         "RowName": "Refined_Copper",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 10
+                    "Count": 8
                 },
                 {
                     "Element": {
                         "RowName": "Epoxy",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 12
+                    "Count": 4
                 },
                 {
                     "Element": {
@@ -24460,7 +24460,7 @@
                         "RowName": "Copper_Wire",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 50
+                    "Count": 5
                 }
             ],
             "Outputs": [
@@ -24495,14 +24495,14 @@
                         "RowName": "Aluminium",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 25
+                    "Count": 15
                 },
                 {
                     "Element": {
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 15
+                    "Count": 5
                 },
                 {
                     "Element": {
@@ -24516,14 +24516,14 @@
                         "RowName": "Titanium_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 8
+                    "Count": 2
                 },
                 {
                     "Element": {
                         "RowName": "Carbon_Fiber",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 8
+                    "Count": 4
                 }
             ],
             "Outputs": [
@@ -24749,7 +24749,7 @@
                         "RowName": "Gunpowder",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 10,
+                    "Count": 50,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -24904,7 +24904,7 @@
                         "RowName": "Refined_Metal",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 10
+                    "Count": 4
                 },
                 {
                     "Element": {
@@ -24918,7 +24918,7 @@
                         "RowName": "Sulfur",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 12
+                    "Count": 2
                 },
                 {
                     "Element": {
@@ -24968,21 +24968,21 @@
                         "RowName": "Composites",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 4
                 },
                 {
                     "Element": {
                         "RowName": "Steel_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 25
+                    "Count": 1
                 },
                 {
                     "Element": {
                         "RowName": "Steel_Screw",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 10
+                    "Count": 6
                 },
                 {
                     "Element": {
@@ -25039,28 +25039,28 @@
                         "RowName": "Steel_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 24
+                    "Count": 4
                 },
                 {
                     "Element": {
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4
+                    "Count": 2
                 },
                 {
                     "Element": {
                         "RowName": "Concrete_Mix",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 10
                 },
                 {
                     "Element": {
                         "RowName": "Steel_Screw",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 16
+                    "Count": 8
                 }
             ],
             "Outputs": [
@@ -28529,7 +28529,7 @@
                         "RowName": "Digested_Enzymes",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 100
+                    "Count": 20
                 }
             ],
             "Outputs": [
@@ -33307,7 +33307,7 @@
         },
         {
             "Name": "Cured_Leather",
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 1000,
             "RecipeSets": [
                 {
                     "RowName": "Drying_Rack",
@@ -33328,14 +33328,14 @@
                         "RowName": "Leather",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6
+                    "Count": 1
                 },
                 {
                     "Element": {
                         "RowName": "Tree_Sap",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 2
+                    "Count": 1
                 }
             ],
             "Outputs": [
@@ -33399,7 +33399,7 @@
         },
         {
             "Name": "Platinum_Wave",
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 1000,
             "RecipeSets": [
                 {
                     "RowName": "Advanced_Armor_Bench",
@@ -33416,7 +33416,7 @@
                         "RowName": "Fiber",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 30
+                    "Count": 10
                 },
                 {
                     "Element": {
@@ -33432,7 +33432,7 @@
                         "RowName": "Platinum_Weave",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 1,
+                    "Count": 10,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -33912,7 +33912,7 @@
         },
         {
             "Name": "Process_Red_Exotic",
-            "RequiredMillijoules": 150000,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Exotic_Processor",
@@ -34240,14 +34240,14 @@
                         "RowName": "Clay_Brick",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 15
+                    "Count": 10
                 },
                 {
                     "Element": {
                         "RowName": "Tree_Sap",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 3
+                    "Count": 2
                 }
             ],
             "Outputs": [
@@ -34727,14 +34727,14 @@
                         "RowName": "Rope",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 8
+                    "Count": 4
                 },
                 {
                     "Element": {
                         "RowName": "Refined_Metal",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 15
+                    "Count": 5
                 }
             ],
             "Outputs": [
@@ -35047,6 +35047,78 @@
                         "DataTableName": "D_ItemTemplate"
                     },
                     "Count": 400,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Crushed_Bone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 50,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Crushed_Bone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 50,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Crushed_Bone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 50,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Crushed_Bone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 50,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Crushed_Bone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 50,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Crushed_Bone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 50,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Crushed_Bone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 50,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Crushed_Bone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 50,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -36549,14 +36621,14 @@
                         "RowName": "Wood",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 80
+                    "Count": 20
                 },
                 {
                     "Element": {
                         "RowName": "Rope",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6
+                    "Count": 4
                 }
             ],
             "Outputs": [
@@ -36606,7 +36678,7 @@
                         "RowName": "Refined_Metal",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6
+                    "Count": 4
                 },
                 {
                     "Element": {
@@ -36656,14 +36728,14 @@
                         "RowName": "Wood",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 10
                 },
                 {
                     "Element": {
                         "RowName": "Iron_Nail",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 18
+                    "Count": 4
                 }
             ],
             "Outputs": [
@@ -36909,7 +36981,7 @@
                         "RowName": "Tomato",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 3
+                    "Count": 1
                 }
             ],
             "ResourceInputs": [
@@ -37733,21 +37805,21 @@
                         "RowName": "Wood",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 100
+                    "Count": 50
                 },
                 {
                     "Element": {
                         "RowName": "Steel_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 10
+                    "Count": 5
                 },
                 {
                     "Element": {
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 10
+                    "Count": 5
                 },
                 {
                     "Element": {
@@ -38886,7 +38958,7 @@
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 15
+                    "Count": 5
                 },
                 {
                     "Element": {
@@ -38907,7 +38979,7 @@
                         "RowName": "Platinum_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 10
                 }
             ],
             "Outputs": [
@@ -40773,7 +40845,7 @@
                         "RowName": "Strawberry",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 5
+                    "Count": 1
                 }
             ],
             "Outputs": [
@@ -44358,7 +44430,7 @@
                         "RowName": "Platinum_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20
+                    "Count": 10
                 },
                 {
                     "Element": {
@@ -44805,7 +44877,7 @@
                         "RowName": "Electronics",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 8
+                    "Count": 5
                 },
                 {
                     "Element": {
@@ -44819,21 +44891,21 @@
                         "RowName": "Aluminium",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 25
+                    "Count": 5
                 },
                 {
                     "Element": {
                         "RowName": "Copper_Wire",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 35
+                    "Count": 15
                 },
                 {
                     "Element": {
                         "RowName": "Gold_Wire",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 25
+                    "Count": 15
                 },
                 {
                     "Element": {
@@ -47943,7 +48015,7 @@
         },
         {
             "Name": "Tree_Sap_Wood",
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 50,
             "RecipeSets": [
                 {
                     "RowName": "Mortar_And_Pestle",
@@ -49017,7 +49089,7 @@
                         "RowName": "Titanium_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 3
+                    "Count": 1
                 }
             ],
             "Outputs": [
@@ -49026,7 +49098,7 @@
                         "RowName": "Titanium_Plate",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 1,
+                    "Count": 4,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -49448,7 +49520,7 @@
                         "RowName": "Shaped_Obsidian",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 15
+                    "Count": 5
                 },
                 {
                     "Element": {
@@ -50385,7 +50457,7 @@
                         "RowName": "Cold_Steel_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 15
+                    "Count": 5
                 },
                 {
                     "Element": {
@@ -51360,7 +51432,7 @@
                         "RowName": "Titanium_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 8
+                    "Count": 4
                 },
                 {
                     "Element": {
@@ -55743,7 +55815,7 @@
                     "Type": {
                         "Value": "Biofuel"
                     },
-                    "RequiredUnits": 300
+                    "RequiredUnits": 250
                 }
             ],
             "Audio": {
@@ -74380,7 +74452,7 @@
             "Requirement": {
                 "RowName": "Charging_Station"
             },
-            "RequiredMillijoules": 100000,
+            "RequiredMillijoules": 25000,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -91193,7 +91265,7 @@
             "Requirement": {
                 "RowName": "Electric_Fireplace"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
