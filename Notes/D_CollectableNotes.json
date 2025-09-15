@@ -1,0 +1,251 @@
+{
+    "RowStruct": "/Script/Icarus.CollectableNote",
+    "Defaults": {
+        "Item": {
+            "RowName": "None",
+            "DataTableName": "D_Itemable"
+        },
+        "Text": "",
+        "Image": "None",
+        "Dialogue": {
+            "RowName": "None",
+            "DataTableName": "D_Dialogue"
+        }
+    },
+    "Rows": [
+        {
+            "Name": "Invalid"
+        },
+        {
+            "Name": "Ashlands_Bunker_Note_1",
+            "Item": {
+                "RowName": "Item_Ashlands_Bunker_Note_1"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"Ashlands_Bunker_Note_1-Text\", \"The comms are shot, nothing in or out. The new guy who arrived yesterday is completely unstable. I caught him draining his canteen outside this morning. He said he doesn\\'t need water out here. He\\'s crazy, I\\'m leaving this note in case something happens to us, I don\\'t trust him.\")"
+        },
+        {
+            "Name": "Ashlands_Bunker_Note_2",
+            "Item": {
+                "RowName": "Item_Ashlands_Bunker_Note_2"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"Ashlands_Bunker_Note_2-Text\", \"Brenda, this may never reach you back home but if it does please know that I love you. I fear for my life in this place. You were right, I never should have left Earth. Give my love to the children. Yours, Gerald.\")"
+        },
+        {
+            "Name": "Ashlands_Bunker_Note_3",
+            "Item": {
+                "RowName": "Item_Ashlands_Bunker_Note_3"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"Ashlands_Bunker_Note_3-Text\", \"Screw the UDA, they don\\'t pay me enough to deal with this crap. Note to self: negotiate higher fees for the next drop.\")"
+        },
+        {
+            "Name": "Icesheet_Outpost_Note_1",
+            "Item": {
+                "RowName": "Item_Icesheet_Outpost_Note_1"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"Icesheet_Outpost_Note_1-Text\", \"I\\'ve never seen anything like it, huge, with big angry horns and hooves the size of a car. Norex\\'ll be all over this later.\")"
+        },
+        {
+            "Name": "Icesheet_Outpost_Note_2",
+            "Item": {
+                "RowName": "Item_Icesheet_Outpost_Note_2"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"Icesheet_Outpost_Note_2-Text\", \"We\\'re down to three of us out here. Mike and Joe turned tail and left us but they won\\'t last five minutes out there by themselves. It\\'s only me and Jason now, I\\'m pretty sure Hans is a lost cause. He has lost his mind, keeps talking about lights. Refuses to eat or drink anything. He\\'s a goner.\")"
+        },
+        {
+            "Name": "Icesheet_Outpost_Note_3",
+            "Item": {
+                "RowName": "Item_Icesheet_Cave_Note_3"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"Icesheet_Outpost_Note_3-Text\", \"I found your nasty note about me, WILLIAM. Let\\'s see how well you survive with a nice big hole in your suit, OR YOUR HEAD.\")"
+        },
+        {
+            "Name": "Icesheet_Cave_Note_1",
+            "Item": {
+                "RowName": "Item_Icesheet_Cave_Note_1"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"Icesheet_Cave_Note_1-Text\", \"Jason D: Preliminary exploration has shown the presence of some sort of crystalline structure towards the rear of the cave. I\\'ve urged the team to keep their distance as it seems to emit some kind of vibration, like a resonating frequency. Note: Hans appears to be deteriorating more each time he enters. Could be prudent to have him exit the sector and catch an evac pod out for evaluation.\")"
+        },
+        {
+            "Name": "Icesheet_Cave_Note_2",
+            "Item": {
+                "RowName": "Item_Icesheet_Cave_Note_2"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"Icesheet_Cave_Note_2-Text\", \"\\\"Hans has completely lost it. He\\'s threatening to cave in the entrance to the tunnels. We\\'ve been told to evac... Until we figure out what to do with him. Unfortunately, we have been using the cave as storage... All our food is there... I\\'m not sure what\\'s worse, being stuck outside to starve or being trapped in there with whatever\\'s taken over his brain. I\\'m scared.\\\"\")"
+        },
+        {
+            "Name": "Icesheet_Cave_Note_3",
+            "Item": {
+                "RowName": "Item_Icesheet_Cave_Note_3"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"Icesheet_Cave_Note_3-Text\", \"Oh god, what have I become? The lights, they turned on me. They aren\\'t beautiful at all, they burn and hurt and bleed. The cave is dark but it\\'s also so BRIGHT. It hurts but I can\\'t help myself, I have to get closer. I need it. The others don\\'t understand, they hate me.\")"
+        },
+        {
+            "Name": "GH_RG_MiningCamp_1",
+            "Item": {
+                "RowName": "Item_GH_RG_MiningCamp_1"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_RG_MiningCamp_1-Text\", \"Buddy got too close to the drill today, we held a little ceremony and built him a little grave. He was the best cryogenically defrosted dog a man could hope for.\")"
+        },
+        {
+            "Name": "GH_RG_MiningCamp_2",
+            "Item": {
+                "RowName": "Item_GH_RG_MiningCamp_2"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_RG_MiningCamp_2-Text\", \"We weren\\'t paid... AGAIN! UDA thinks they can just expect us to keep working just because they have the only way off this rock. I\\'m going to contact Sol, my crew needs to be paid.\")"
+        },
+        {
+            "Name": "GH_RG_MiningCamp_3",
+            "Item": {
+                "RowName": "Item_GH_RG_MiningCamp_3"
+            },
+            "Text": "INVTEXT(\"01010111 01100101 00100000 01101000 01100001 01110110 01100101 00100000 01100100 01100101 01110100 01100101 01100011 01110100 01100101 01100100 00100000 01101101 01101111 01110110 01100101 01101101 01100101 01101110 01110100 01110011 00100000 01100110 01101111 01110010 01101101 00100000 01110101 01101110 01100100 01100101 01110010 01101110 01100101 01100001 01110100 01101000 00100000 01110100 01101000 01100101 00100000 01100100 01100101 01110011 01100101 01110010 01110100 00100000 01100001 01101110 01100100 00100000 01110011 01101111 01101101 01100101 00100000 01101011 01101001 01101110 01100100 00100000 01101111 01100110 00100000 01110100 01110101 01101110 01101110 01100101 01101100 00100000 01101110 01100101 01110100 01110111 01101111 01110010 01101011 00101110 00100000 01010000 01101111 01110011 01110011 01101001 01100010 01101100 01111001 00100000 01100011 01110010 01100101 01100001 01110100 01100101 01100100 00100000 01100010 01111001 00100000 01100001 00100000 01110011 01100001 01101110 01100100 01110111 01101111 01110010 01101101 00101110 00100000 01001110 01101111 01110010 01100101 01111000 00100000 01101000 01100001 01110011 00100000 01110000 01110010 01101111 01110110 01101001 01100100 01100101 01100100 00100000 01110011 01110000 01100101 01100011 01101001 01100001 01101100 00100000 01101111 01110010 01100100 01100101 01110010 01110011 00100000 01110100 01101111 00100000 01100100 01110010 01101001 01101100 01101100 00100000 01101001 01101110 01110100 01101111 00100000 01110100 01101000 01101001 01110011 00100000 01110100 01110101 01101110 01101110 01100101 01101100 00100000 01100001 01101110 01100100 00100000 01100101 01111000 01110000 01101100 01101111 01110010 01100101 00101110 00100000\")"
+        },
+        {
+            "Name": "GH_RG_MiningOutpost_1",
+            "Item": {
+                "RowName": "Item_Note_GH_RG_MiningOutpost_1"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_RG_MiningOutpost_1-Text\", \"Message from Site Alpha - WARNING - The Caveworms seem irritated, like something is occupying their tunnels - Report any strange behaviour to the UDA immediately.\")"
+        },
+        {
+            "Name": "GH_Ape_LaboratoryNote_1",
+            "Item": {
+                "RowName": "Item_GH_Ape_LaboratoryNote_1"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_Ape_LaboratoryNote_1-Text\", \"1.2.5 - Subjects appear to be tolerating the new apparatus, hopeful for expansion to other clinics in the next quarter.\")"
+        },
+        {
+            "Name": "GH_Ape_LaboratoryNote_2",
+            "Item": {
+                "RowName": "Item_GH_Ape_LaboratoryNote_2"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_Ape_LaboratoryNote_2-Text\", \"1.3.4 - Subjects have broken the current apparatus. Requesting reinforced equipment - estimated to arrive in approx 14 days.\")"
+        },
+        {
+            "Name": "GH_Ape_LaboratoryNote_3",
+            "Item": {
+                "RowName": "Item_GH_Ape_LaboratoryNote_3"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_Ape_LaboratoryNote_3-Text\", \"1.5.6 - Subjects have been observed dismantling the equipment for use as tools. Requesting reinforcement to the enclosure - estimated to arrive in approx 21 days.\")"
+        },
+        {
+            "Name": "GH_Ape_LaboratoryNote_4",
+            "Item": {
+                "RowName": "Item_GH_Ape_LaboratoryNote_4"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_Ape_LaboratoryNote_4-Text\", \"1.6.4 - Reinforcement still not delivered. Subjects have created a crack in the main panel. Evacuating junior staff as a precaution.\")"
+        },
+        {
+            "Name": "GH_Ape_LaboratoryNote_5",
+            "Item": {
+                "RowName": "Item_GH_Ape_LaboratoryNote_5"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_Ape_LaboratoryNote_5-Text\", \"1.6.5 - Subject loose in the lab. Many casualties. Requesting personnel reinforcement immediately... It\\'s... It\\'s trying to release the others.\")"
+        },
+        {
+            "Name": "GH_IM_ResearcherNote_1",
+            "Item": {
+                "RowName": "Item_GH_IM_HintNote"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_IM_ResearcherNote_1-Text\", \"Something about the enzymes has been causing the surrounding ice and arctic matter to cling to the creatures.Terry wouldn\\'t tell us where he got the vats from, he\\'s always worked like that.I guess learning from Dr Lee would do that to anyone... He told me I\\'d get fast tracked to IntSec if I joined his team. I should have known better, now I\\'m going to die out here.\")"
+        },
+        {
+            "Name": "GH_IM_O1",
+            "Item": {
+                "RowName": "Item_GH_IM_O1_Note"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_IM_O1-Text\", \"The enzyme-induced mutation weakens the creatures\\' ability to withstand environmental stresses, particularly high heat. Controlled exposure to flame significantly disrupts their biology, suggesting fire as a potential method for neutralization.\")"
+        },
+        {
+            "Name": "GH_RG_MiningCamp_Log",
+            "Item": {
+                "RowName": "Item_GH_RG_MiningCamp_4"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_RG_MiningCamp_Log-Text\", \"<Corrupted Data>\")"
+        },
+        {
+            "Name": "GH_IM_O1_StorageNote",
+            "Item": {
+                "RowName": "Item_GH_IM_O1_StorageNote"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_IM_O1_StorageNote-Text\", \"Research Directive:\\r\\nEnzyme Experimentation & Enhancement\\r\\nStudy the effects of surplus terraforming enzymes on the introduced and evolved species in the Prometheus region. Investigate uses for human enhancement and potential weapon applications for THE COMPANY.\")"
+        },
+        {
+            "Name": "GH_Ape_OutpostNote_1",
+            "Item": {
+                "RowName": "Item_GH_Ape_OutpostNote_1"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_Ape_OutpostNote_1-Text\", \"1.1.24 - Captured subjects transported to new facility. I don\\'t know why anyone would want to work in a desert.\")"
+        },
+        {
+            "Name": "GH_Ape_OutpostNote_2",
+            "Item": {
+                "RowName": "Item_GH_Ape_OutpostNote_2"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_Ape_OutpostNote_2-Text\", \"1.3.8 - Desert facility reported problems with their experiment. Too bad they wouldn\\'t listen to me.\")"
+        },
+        {
+            "Name": "GH_Ape_OutpostNote_3",
+            "Item": {
+                "RowName": "Item_GH_Ape_OutpostNote_3"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_Ape_OutpostNote_3-Text\", \"1.5.12 - Received new enclosure materials today. Glad I can finally continue my research.\")"
+        },
+        {
+            "Name": "GH_Ape_OutpostNote_4",
+            "Item": {
+                "RowName": "Item_GH_Ape_OutpostNote_4"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_Ape_OutpostNote_4-Text\", \"1.5.16 - New test subject responding positively to local food, requires high quantities to satisfy.\")"
+        },
+        {
+            "Name": "GH_Ape_OutpostNote_5",
+            "Item": {
+                "RowName": "Item_GH_Ape_OutpostNote_5"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_Ape_OutpostNote_5-Text\", \"1.6.2 - I\\'ve been ordered to assist the desert facility. I\\'ve fed Fluffy, he\\'ll be okay for a few days. I\\'ll be back soon.\")"
+        },
+        {
+            "Name": "GH_IM_O1_Notice",
+            "Item": {
+                "RowName": "Item_GH_IM_O1_Notice"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_IM_O1_Notice-Text\", \"Attention\\r\\nResearchers of Lab (LAB-12)\\r\\n\\r\\nIf you find yourself in trouble and can\\'t make it back to the LAB-12, head to STR-X34.\\r\\nIt is located in a cave nearby and contains supplies, field equipment and backup data.\\r\\nUse an ECHO Device.\\r\\n\\r\\n- Senior Researcher Avery\")"
+        },
+        {
+            "Name": "GH_IM_B_Note",
+            "Item": {
+                "RowName": "Item_GH_IM_B_Note"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_IM_B_Note-Text\", \"Experimental 1:\\r\\nSplicing Enzymes into Viscids\\r\\n- Raw Aggression\\r\\n- Rapid Deterioration\\r\\n- Not Viable Test Subject\\r\\n\\r\\nExperiment 2: \\r\\nSplicing Enzyme into Columbian Mammoth\\r\\n- Increased Aggression\\r\\n- Slow Deterioration\\r\\n- Enzyme Decreased Core Temperature\\r\\n- Not Viable Test Subject\\r\\n\\r\\n(Scribbled at Bottom)\\r\\nWoolly variety could possibly provide stable environment.\")"
+        },
+        {
+            "Name": "GH_Ape_O1_Note",
+            "Item": {
+                "RowName": "Item_GH_APE_O1"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_Ape_O1_Note-Text\", \"I refuse to leave my research in the hands of NOREX.\\r\\n\\r\\nScrew the company, screw this job and screw the UDA while we\\'re at it.\\r\\n\\r\\nAs soon as I\\'ve demolished this last section of dens, I am OUTTA HERE.\\r\\n\\r\\nMan, I can\\'t wait to eat a real steak again.\")"
+        },
+        {
+            "Name": "GH_Ape_C_Procedure_A",
+            "Item": {
+                "RowName": "Item_GH_APE_C_A"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_Ape_C_Procedure_A-Text\", \"1. Gather A Sample - you need something to extract DNA from\\r\\n2. Homogenize the Sample - this breaks open the cells to release the cell contents. \\r\\n3. Add Tris-EDTA - this helps to protect the DNA\\r\\n4. Stir the Sample - This helps to dissolve the elements for uniform distribution\\r\\n5. Heat the Sample - this helps with dissolution\\r\\n6. Seperate the Solids and Liquids - This is easier for the next steps\\r\\n7. Add Ethanol - this clumps the DNA together\\r\\n8. Seperate the Solid from Liquids - this is so it can be easily examined\\r\\n9. Examine with the Microscope to Confirm\")"
+        },
+        {
+            "Name": "GH_Ape_C_Procedure_B",
+            "Item": {
+                "RowName": "Item_GH_APE_C_B"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_Ape_C_Procedure_B-Text\", \"Scalpels are sharp, and they can be found in the Surgical Equipment. Please be careful the UDA does not cover injuries to self while on planet.\")"
+        },
+        {
+            "Name": "GH_Ape_C_Procedure_C",
+            "Item": {
+                "RowName": "Item_GH_APE_C_C"
+            },
+            "Text": "NSLOCTEXT(\"D_CollectableNotes\", \"GH_Ape_C_Procedure_C-Text\", \"- Always clean up after yourself\\r\\n- Store all equipment in the upper storage area next to the battery\\r\\n- Repair the Turbines on the roof, there is a hammer in the nearby cupboard\\r\\n- Always wash your hands when entering and leaving the lab\\r\\n- Disposed of failed samples, burn them if you need to\\r\\n- Watch out for Group 15 and Norex they will try and impersonate lab members \\r\\n- Have Fun (Safely)\\r\\n\\r\\n(Handwritten) Watch for the Garganutan - they have setup Lairs nearby\")"
+        }
+    ]
+}

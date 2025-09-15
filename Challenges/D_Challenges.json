@@ -1,0 +1,13 @@
+{
+    "RowStruct": "/Script/Icarus.Challenge",
+    "Defaults": {
+        "ChallengeName": "",
+        "ChallengeDescription": "",
+        "Type": "KillCreature",
+        "RequiredCount": 0,
+        "OptionalRequiredTags": {
+            "GameplayTags": []
+        }
+    },
+    "Rows": []
+}

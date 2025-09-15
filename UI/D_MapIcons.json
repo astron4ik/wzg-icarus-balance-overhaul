@@ -1,0 +1,954 @@
+{
+    "RowStruct": "/Script/Icarus.MapIconsData",
+    "Defaults": {
+        "WidgetClass": "None",
+        "MapIcon": "None",
+        "Color": {
+            "B": 0,
+            "G": 0,
+            "R": 0,
+            "A": 0
+        },
+        "RequiredPlayerStatToShow": {
+            "Value": "None"
+        },
+        "RequiredActorStatToShow": {
+            "Value": "None"
+        },
+        "RequireOwnershipToShow": false,
+        "ZOrder": 0,
+        "ScaleFactor": 1,
+        "GetsRotation": false,
+        "BrushSize": {
+            "X": 100,
+            "Y": 100
+        },
+        "UpdateOnTick": true,
+        "bDisplayOnCompass": true,
+        "MaxCompassDisplayDistance": -1,
+        "CompassWidgetClass": "WidgetBlueprintGeneratedClass'/Game/UI/Compass/UMG_IcarusCompassIcon.UMG_IcarusCompassIcon_C'"
+    },
+    "Rows": [
+        {
+            "Name": "Fish",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Player7.Icon_Player7'",
+            "Color": {
+                "B": 255,
+                "G": 255,
+                "R": 255,
+                "A": 255
+            },
+            "RequiredActorStatToShow": {
+                "Value": "MapIsBroadcastingForMap_?"
+            },
+            "ZOrder": -1,
+            "ScaleFactor": 0.30000001192092896,
+            "GetsRotation": true,
+            "bDisplayOnCompass": false
+        },
+        {
+            "Name": "Player",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon_Player.UMG_RadarIcon_Player_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_PlayerP.Icon_PlayerP'",
+            "RequiredPlayerStatToShow": {
+                "Value": "MapCanSeeBroadcastOthers_?"
+            },
+            "RequiredActorStatToShow": {
+                "Value": "MapIsBroadcastingForMap_?"
+            },
+            "ZOrder": 100,
+            "GetsRotation": true,
+            "CompassWidgetClass": "WidgetBlueprintGeneratedClass'/Game/UI/Compass/UMG_IcarusCompassIcon_Player.UMG_IcarusCompassIcon_Player_C'"
+        },
+        {
+            "Name": "Metaresource",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Meta.Icon_Map_Meta'",
+            "RequiredActorStatToShow": {
+                "Value": "MapIsBroadcastingForMap_?"
+            }
+        },
+        {
+            "Name": "Radar",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Radar.Icon_Map_Radar'",
+            "RequiredPlayerStatToShow": {
+                "Value": "MapCanSeeRadars_?"
+            }
+        },
+        {
+            "Name": "Grave",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Revive.Icon_Map_Revive'",
+            "RequiredPlayerStatToShow": {
+                "Value": "MapCanSeeGraves_?"
+            }
+        },
+        {
+            "Name": "Grid",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Home.Icon_Map_Home'",
+            "RequiredPlayerStatToShow": {
+                "Value": "MapCanSeeBuildings_?"
+            }
+        },
+        {
+            "Name": "Waypoint",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Waypoint.Icon_Map_Waypoint'",
+            "RequiredPlayerStatToShow": {
+                "Value": "MapCanSeeWaypoint_?"
+            },
+            "ZOrder": 50,
+            "BrushSize": {
+                "X": 30,
+                "Y": 30
+            },
+            "CompassWidgetClass": "WidgetBlueprintGeneratedClass'/Game/UI/Compass/UMG_IcarusCompassIcon_PlayerWaypoint.UMG_IcarusCompassIcon_PlayerWaypoint_C'"
+        },
+        {
+            "Name": "EquipmentPod",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_CrateEquipment.Icon_Map_CrateEquipment'",
+            "RequiredActorStatToShow": {
+                "Value": "MapIsBroadcastingForMap_?"
+            }
+        },
+        {
+            "Name": "Dropship",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Dropship.Icon_Map_Dropship'",
+            "RequiredPlayerStatToShow": {
+                "Value": "MapCanSeeDropship_?"
+            },
+            "RequireOwnershipToShow": true,
+            "MaxCompassDisplayDistance": 10000
+        },
+        {
+            "Name": "Creature",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Player3.Icon_Player3'",
+            "Color": {
+                "B": 255,
+                "G": 255,
+                "R": 255,
+                "A": 255
+            },
+            "RequiredPlayerStatToShow": {
+                "Value": "MapCanSeeCreatures_?"
+            },
+            "ZOrder": -1,
+            "ScaleFactor": 0.6000000238418579,
+            "GetsRotation": true,
+            "bDisplayOnCompass": false
+        },
+        {
+            "Name": "Portable_Beacon",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon_PortableBeacon.UMG_RadarIcon_PortableBeacon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Waypoint.Icon_Map_Waypoint'",
+            "CompassWidgetClass": "WidgetBlueprintGeneratedClass'/Game/UI/Compass/UMG_IcarusCompassIcon_PortableBeacon.UMG_IcarusCompassIcon_PortableBeacon_C'"
+        },
+        {
+            "Name": "MapProxyMammoth",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Mammoth.T_Icon_Mammoth'"
+        },
+        {
+            "Name": "CrashedSatellite",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Satelite.Icon_Map_Satelite'"
+        },
+        {
+            "Name": "Respawn_Dropped_Loot",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Grave.Icon_Map_Grave'",
+            "RequiredPlayerStatToShow": {
+                "Value": "MapCanSeeGraves_?"
+            },
+            "RequiredActorStatToShow": {
+                "Value": "MapIsBroadcastingForMap_?"
+            }
+        },
+        {
+            "Name": "Scanning_Location",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Radar.Icon_Map_Radar'"
+        },
+        {
+            "Name": "Extermination_BossLocation",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Slaughter.Icon_Map_Slaughter'"
+        },
+        {
+            "Name": "Mission_Crate",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Crate.Icon_Map_Crate'",
+            "RequiredActorStatToShow": {
+                "Value": "MapIsBroadcastingForMap_?"
+            }
+        },
+        {
+            "Name": "Mission_Crate_Proxy",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Crate.Icon_Map_Crate'",
+            "RequiredActorStatToShow": {
+                "Value": "MapIsBroadcastingForMap_?"
+            }
+        },
+        {
+            "Name": "Target_Location",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Location1.Icon_Map_Location1'"
+        },
+        {
+            "Name": "Target_Location_2",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Location2.Icon_Map_Location2'"
+        },
+        {
+            "Name": "Target_Location_3",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Location3.Icon_Map_Location3'"
+        },
+        {
+            "Name": "Target_Location_4",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Location4.Icon_Map_Location4'"
+        },
+        {
+            "Name": "Target_Location_5",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Location1.Icon_Map_Location1'",
+            "Color": {
+                "B": 255,
+                "G": 255,
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Target_Location_5_Purple",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Location1.Icon_Map_Location1'",
+            "Color": {
+                "B": 184,
+                "R": 188,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Flora",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Flora.Icon_Map_Flora'"
+        },
+        {
+            "Name": "Mission_Exotic",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Meta.Icon_Map_Meta'"
+        },
+        {
+            "Name": "WorldBoss_SandWorm",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon_SandWorm.UMG_RadarIcon_SandWorm_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_MAPICON_SANDWORM.T_MAPICON_SANDWORM'",
+            "RequiredPlayerStatToShow": {
+                "Value": "MapCanSeeWorldBosses_?"
+            },
+            "bDisplayOnCompass": false
+        },
+        {
+            "Name": "WorldBoss_Scorpion",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon_Scorpion.UMG_RadarIcon_Scorpion_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_MAPICON_SCORPION.T_MAPICON_SCORPION'",
+            "RequiredPlayerStatToShow": {
+                "Value": "MapCanSeeWorldBosses_?"
+            },
+            "bDisplayOnCompass": false
+        },
+        {
+            "Name": "WorldBoss_AlphaWolf",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon_Scorpion.UMG_RadarIcon_Scorpion_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_MAPICON_BLACKWOLF.T_MAPICON_BLACKWOLF'",
+            "RequiredPlayerStatToShow": {
+                "Value": "MapCanSeeWorldBosses_?"
+            },
+            "bDisplayOnCompass": false
+        },
+        {
+            "Name": "Downed_Sattelite",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Satellite.Icon_Satellite'"
+        },
+        {
+            "Name": "Scorpion",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/BossMonsters/Icon_Scorpion.Icon_Scorpion'",
+            "Color": {
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Worm",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Slaughter.Icon_Map_Slaughter'",
+            "Color": {
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Wolf",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Combat.Icon_Combat'",
+            "Color": {
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Crystal",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Meta.Icon_Map_Meta'",
+            "Color": {
+                "B": 255,
+                "G": 255,
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Mount",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon_Mount.UMG_RadarIcon_Mount_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_PlayerParty.Icon_PlayerParty'",
+            "Color": {
+                "B": 255,
+                "G": 255,
+                "R": 255,
+                "A": 255
+            },
+            "ZOrder": -1,
+            "ScaleFactor": 0.75,
+            "GetsRotation": true,
+            "MaxCompassDisplayDistance": 5000
+        },
+        {
+            "Name": "Poison_Creature",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Slaughter.Icon_Map_Slaughter'",
+            "Color": {
+                "B": 105,
+                "G": 250,
+                "A": 255
+            }
+        },
+        {
+            "Name": "ExoticDeliveryShip",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Map_Icon_DeliverShip.T_Map_Icon_DeliverShip'",
+            "Color": {
+                "B": 224,
+                "R": 245,
+                "A": 255
+            }
+        },
+        {
+            "Name": "RetrievalDeliveryShip",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Map_Icon_DeliverShip.T_Map_Icon_DeliverShip'",
+            "Color": {
+                "B": 166,
+                "G": 153,
+                "R": 44,
+                "A": 255
+            }
+        },
+        {
+            "Name": "SupplyDeliveryShip",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Map_Icon_DeliverShip.T_Map_Icon_DeliverShip'",
+            "Color": {
+                "G": 245,
+                "R": 44,
+                "A": 255
+            }
+        },
+        {
+            "Name": "RewardDeliveryShip",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Map_Icon_DeliverShip.T_Map_Icon_DeliverShip'",
+            "Color": {
+                "G": 121,
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "ResupplyPod",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Map_Icon_DeliverShip.T_Map_Icon_DeliverShip'",
+            "Color": {
+                "A": 255
+            }
+        },
+        {
+            "Name": "BossMapIcon",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Slaughter.Icon_Map_Slaughter'",
+            "Color": {
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "DogTags",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Dogtags.Icon_Dogtags'",
+            "Color": {
+                "B": 91,
+                "G": 87,
+                "R": 87,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Dyanmic_Mission_Beacon",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Waypoint.Icon_Map_Waypoint'",
+            "Color": {
+                "B": 255,
+                "G": 169,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Downed_Drone",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_DownedDrone.Icon_DownedDrone'",
+            "Color": {
+                "G": 205,
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Prebuilt_Structure",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Home.Icon_Map_Home'",
+            "Color": {
+                "B": 255,
+                "R": 146,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Thumper",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Thumper.Icon_Map_Thumper'",
+            "Color": {
+                "B": 138,
+                "G": 251,
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Search_Area",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/HUD/TransparentTexture.TransparentTexture'",
+            "CompassWidgetClass": "WidgetBlueprintGeneratedClass'/Game/UI/Compass/UMG_IcarusCompassIcon_SearchArea.UMG_IcarusCompassIcon_SearchArea_C'"
+        },
+        {
+            "Name": "Trail",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Location1.Icon_Map_Location1'",
+            "Color": {
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "CreatureEscort",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Danger.Icon_Danger'",
+            "Color": {
+                "B": 255,
+                "R": 146,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Cave_Entrance",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Cave.Icon_Map_Cave'",
+            "Color": {
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Fishing_Spot",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/FieldGuide/Icons/Icon_FishHook.Icon_FishHook'",
+            "Color": {
+                "B": 159,
+                "R": 161,
+                "A": 255
+            },
+            "ScaleFactor": 1.25
+        },
+        {
+            "Name": "EnemyCamp",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Home.Icon_Map_Home'",
+            "Color": {
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Crashed_DeliveryShip",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_DeliverShip.Icon_DeliverShip'",
+            "Color": {
+                "G": 245,
+                "R": 44,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Deploy_Beacon",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Beacon.T_Icon_Map_Beacon'",
+            "Color": {
+                "B": 159,
+                "R": 161,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Build_Location",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_UnderConstruction.T_Icon_Map_UnderConstruction'",
+            "Color": {
+                "G": 147,
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Zebra",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Zebra.T_Icon_Zebra'"
+        },
+        {
+            "Name": "Trail_Beacon",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon_TrailBeacon.UMG_RadarIcon_TrailBeacon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Beacon_Location.Icon_Beacon_Location'",
+            "Color": {
+                "B": 255,
+                "G": 255,
+                "R": 255,
+                "A": 255
+            },
+            "ScaleFactor": 0.4000000059604645,
+            "bDisplayOnCompass": false,
+            "MaxCompassDisplayDistance": 9500,
+            "CompassWidgetClass": "WidgetBlueprintGeneratedClass'/Game/UI/Compass/UMG_IcarusCompassIcon_PortableBeacon.UMG_IcarusCompassIcon_PortableBeacon_C'"
+        },
+        {
+            "Name": "Alpha",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Alpha.T_ICON_Map_Alpha'"
+        },
+        {
+            "Name": "Beta",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Beta.T_ICON_Map_Beta'"
+        },
+        {
+            "Name": "Chi",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Chi.T_ICON_Map_Chi'"
+        },
+        {
+            "Name": "Delta",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Delta.T_ICON_Map_Delta'"
+        },
+        {
+            "Name": "Epsilon",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Epsilon.T_ICON_Map_Epsilon'"
+        },
+        {
+            "Name": "Eta",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Eta.T_ICON_Map_Eta'"
+        },
+        {
+            "Name": "Gamma",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Gamma.T_ICON_Map_Gamma'"
+        },
+        {
+            "Name": "Iota",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Iota.T_ICON_Map_Iota'"
+        },
+        {
+            "Name": "Kappa",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Kappa.T_ICON_Map_Kappa'"
+        },
+        {
+            "Name": "Lambda",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Lambda.T_ICON_Map_Lambda'"
+        },
+        {
+            "Name": "Mu",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Mu.T_ICON_Map_Mu'"
+        },
+        {
+            "Name": "Nu",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Nu.T_ICON_Map_Nu'"
+        },
+        {
+            "Name": "Omega",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Omega.T_ICON_Map_Omega'"
+        },
+        {
+            "Name": "Omicron",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Omicron.T_ICON_Map_Omicron'"
+        },
+        {
+            "Name": "Phi",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Phi.T_ICON_Map_Phi'"
+        },
+        {
+            "Name": "Pi",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Pi.T_ICON_Map_Pi'"
+        },
+        {
+            "Name": "Psi",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Psi.T_ICON_Map_Psi'"
+        },
+        {
+            "Name": "Rho",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Rho.T_ICON_Map_Rho'"
+        },
+        {
+            "Name": "Sigma",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Sigma.T_ICON_Map_Sigma'"
+        },
+        {
+            "Name": "Tau",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Tau.T_ICON_Map_Tau'"
+        },
+        {
+            "Name": "Theta",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Theta.T_ICON_Map_Theta'"
+        },
+        {
+            "Name": "Upsilon",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Upsilon.T_ICON_Map_Upsilon'"
+        },
+        {
+            "Name": "Xi",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Xi.T_ICON_Map_Xi'"
+        },
+        {
+            "Name": "Zeta",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Map_Zeta.T_ICON_Map_Zeta'"
+        },
+        {
+            "Name": "Kiwi",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Kiwi.T_ICON_Kiwi'"
+        },
+        {
+            "Name": "WorldBoss_IceBreaker",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Skull.Icon_Skull'",
+            "RequiredPlayerStatToShow": {
+                "Value": "MapCanSeeWorldBosses_?"
+            },
+            "bDisplayOnCompass": false
+        },
+        {
+            "Name": "Spawn_Blocker",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/HUD/TransparentTexture.TransparentTexture'",
+            "bDisplayOnCompass": false,
+            "CompassWidgetClass": "WidgetBlueprintGeneratedClass'/Game/UI/Compass/UMG_IcarusCompassIcon_SearchArea.UMG_IcarusCompassIcon_SearchArea_C'"
+        },
+        {
+            "Name": "Truck",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_MAP_truck.T_ICON_MAP_truck'",
+            "Color": {
+                "G": 255,
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Prospector",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Prospector.T_Icon_Map_Prospector'",
+            "Color": {
+                "G": 255,
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Medevac",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Health.Icon_Health'",
+            "Color": {
+                "B": 102,
+                "G": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "NullSector",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Cave.Icon_Map_Cave'",
+            "Color": {
+                "G": 255,
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Outpost",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Home.Icon_Map_Home'",
+            "Color": {
+                "G": 85,
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Mission_Cave",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Cave.Icon_Map_Cave'",
+            "Color": {
+                "G": 255,
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Combat",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Combat.Icon_Combat'",
+            "Color": {
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "RockGolem_Den",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/BossMonsters/T_ICON_RockGolem.T_ICON_RockGolem'",
+            "Color": {
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "ApeLair_MissionTarget",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Location4.Icon_Map_Location4'",
+            "RequiredPlayerStatToShow": {
+                "Value": "WorldPlayerCanSeeJuvenileApeDenOnMap_?"
+            }
+        },
+        {
+            "Name": "Triangulation",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Radar_Directional.Icon_Map_Radar_Directional'",
+            "GetsRotation": true
+        },
+        {
+            "Name": "WorldBoss_LavaHunter",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon_Scorpion.UMG_RadarIcon_Scorpion_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_MAPICON_LAVAHUNTER.T_MAPICON_LAVAHUNTER'",
+            "RequiredPlayerStatToShow": {
+                "Value": "MapCanSeeWorldBosses_?"
+            },
+            "bDisplayOnCompass": false
+        },
+        {
+            "Name": "WorldBoss_HammerheadSlug",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon_Scorpion.UMG_RadarIcon_Scorpion_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_MAPICON_HAMMERHEADA.T_MAPICON_HAMMERHEADA'",
+            "RequiredPlayerStatToShow": {
+                "Value": "MapCanSeeWorldBosses_?"
+            },
+            "bDisplayOnCompass": false
+        },
+        {
+            "Name": "EnzymeCannon",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Flora.Icon_Map_Flora'",
+            "Color": {
+                "B": 146,
+                "G": 255,
+                "R": 209,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Metaresource_New",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Meta.Icon_Map_Meta'"
+        },
+        {
+            "Name": "Boss_Den_Exit",
+            "WidgetClass": "/Game/BP/Tools/CheatFunctions/CaveTeleport/UMG_TeleportCheatWidget.UMG_TeleportCheatWidget_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Cave.Icon_Map_Cave'",
+            "Color": {
+                "B": 107,
+                "G": 255,
+                "A": 255
+            },
+            "ScaleFactor": 0,
+            "CompassWidgetClass": "WidgetBlueprintGeneratedClass'/Game/UI/Compass/UMG_IcarusCompassIcon_BossDen_Exit.UMG_IcarusCompassIcon_BossDen_Exit_C'"
+        },
+        {
+            "Name": "Prospector_Orange",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Prospector.T_Icon_Map_Prospector'",
+            "Color": {
+                "B": 39,
+                "G": 186,
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Prospector_Blue",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Prospector.T_Icon_Map_Prospector'",
+            "Color": {
+                "B": 255,
+                "G": 165,
+                "R": 66,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Prospector_Green",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Prospector.T_Icon_Map_Prospector'",
+            "Color": {
+                "B": 174,
+                "G": 229,
+                "R": 211,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Beacon_Purple",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_BroadcastForMap.T_ICON_BroadcastForMap'",
+            "Color": {
+                "B": 239,
+                "G": 189,
+                "R": 218,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Rimetusk",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/BossMonsters/T_ICON_IceMammoth.T_ICON_IceMammoth'",
+            "Color": {
+                "B": 52,
+                "G": 77,
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Stasis_Bag",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_BroadcastForMap.T_ICON_BroadcastForMap'",
+            "Color": {
+                "B": 255,
+                "R": 195,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Large_Exotic_Cluster",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Meta.Icon_Map_Meta'",
+            "Color": {
+                "B": 184,
+                "R": 188,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Gold_Burrow",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/ICON_MAPBeacon_Stone.ICON_MAPBeacon_Stone'",
+            "Color": {
+                "G": 250,
+                "R": 244,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Copper_Burrow",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/ICON_MAPBeacon_Stone.ICON_MAPBeacon_Stone'",
+            "Color": {
+                "G": 109,
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Exotic_Burrow",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/ICON_MAPBeacon_Stone.ICON_MAPBeacon_Stone'",
+            "Color": {
+                "B": 184,
+                "R": 188,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Oxite_Burrow",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/ICON_MAPBeacon_Stone.ICON_MAPBeacon_Stone'",
+            "Color": {
+                "B": 188,
+                "G": 161,
+                "A": 255
+            }
+        }
+    ]
+}
